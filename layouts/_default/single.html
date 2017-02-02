@@ -1,0 +1,38 @@
+{{ partial "header.html" . }}
+
+<main class="content" role="main">
+
+  <article class="article">
+    {{ if eq .Section "en" }}
+    <span class="article-duration">{{ .ReadingTime }} min read</span>
+    {{ else if eq .Section "cn" }}
+    <span class="article-duration">{{ .WordCount }} 字</span>
+    {{ end }}
+
+    <h1 class="article-title">{{ .Title }}</h1>
+
+    {{ if in (split "en,cn" ",") .Section }}
+    <div class="article-date">
+      <span>{{ or (or .Params.author (index .Site.Params.author .Section)) "" }} &middot; {{ .Date.Format (default "January 2, 2006" .Site.Params.dateFormat ) }}</span>
+      <span class="article-toolbar">
+        <a href="https://twitter.com/home?{{ (querify "status" (print .Title " " .Site.Params.fullURL .URL " via @" .Site.Params.social.twitter )) | safeURL }}" target="_blank"><i class="fa fa-twitter" aria-hidden="true" title="Share via Twitter"></i></a>
+        <a href="http://service.weibo.com/share/share.php?{{ (querify "content" "utf-8" "url" (print .Site.Params.fullURL .URL) "title" (print .Title " @" .Site.Params.social.weibo)) | safeURL }}" target="_blank"><i class="fa fa-weibo" aria-hidden="true" title="分享到新浪微博"></i></a>
+        <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><i class="fa fa-cc" aria-hidden="true" title="Attribution-NonCommercial-ShareAlike 4.0 International"></i></a>
+        {{ with .Site.Params.githubContentURL }}
+        <a href="{{ . }}{{ $.File.Path }}"><i class="fa fa-pencil-square-o" aria-hidden="true" title="{{default "Suggest an edit of this page" (index $.Site.Params "lang" $.Section "edit") }}"></i></a>
+        {{ end }}
+        </span>
+    </div>
+    {{ end }}
+
+    <div class="article-content">
+      {{ .Content }}
+    </div>
+    {{ partial "prev_next.html" . }}
+  </article>
+
+  {{ partial "disqus.html" .}}
+
+</main>
+
+{{ partial "footer.html" . }}

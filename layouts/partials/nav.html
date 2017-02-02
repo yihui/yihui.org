@@ -1,0 +1,15 @@
+<nav class="nav">
+  <a href="{{ .Site.BaseURL }}" class="nav-logo">
+    <img src="{{ .Site.BaseURL }}images/{{ .Site.Params.logo.url }}"
+         width="{{ .Site.Params.logo.width }}"
+         height="{{ .Site.Params.logo.height }}"
+         alt="{{ .Site.Params.logo.alt }}">
+  </a>
+
+  <ul class="nav-links">
+    {{ $section := replaceRE "^/([^/]+)/.*" "$1" .URL }}
+    {{ range (default .Site.Menus.main (index .Site.Menus $section)) }}
+    <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+    {{ end }}
+  </ul>
+</nav>

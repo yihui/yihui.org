@@ -1,0 +1,42 @@
+@font-face {
+  font-family: 'Alegreya';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Alegreya'), local('Alegreya-Regular'),
+       url('../fonts/alegreya-regular.woff2') format('woff2'),
+       url('../fonts/alegreya-regular.woff') format('woff');
+}
+@font-face {
+  font-family: 'Alegreya';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Alegreya Italic'), local('Alegreya-Italic'),
+       url('../fonts/alegreya-italic.woff2') format('woff2'),
+       url('../fonts/alegreya-italic.woff') format('woff');
+}
+@font-face {
+  font-family: 'PT Mono';
+  font-style: normal;
+  font-weight: 400;
+  src: local('PT Mono'), local('PTMono-Regular'),
+       url('../fonts/pt-mono-regular.woff2') format('woff2'),
+       url('../fonts/pt-mono-regular.woff') format('woff');
+}
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Source Sans Pro'), local('SourceSansPro-Regular'),
+       url('../fonts/source-sans-pro-regular.woff2') format('woff2'),
+       url('../fonts/source-sans-pro-regular.woff') format('woff');
+}
+body {
+  font-family: 'Alegreya', 'Palatino Linotype', 'Book Antiqua', Palatino, 'Songti SC', 'Microsoft YaHei', serif;
+}
+blockquote {
+  font-family: 'Source Sans Pro', Tahoma, Geneva, 'STKaiti', 'Kaiti', sans-serif;
+}
+code {
+  font-family: 'PT Mono', monospace;
+  font-size: 85%;
+}

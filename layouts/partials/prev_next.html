@@ -1,0 +1,33 @@
+{{ if in (split "en,cn" ",") .Section }}
+{{ if or .PrevInSection .NextInSection }}
+<nav id="article-nav">
+    {{ if .PrevInSection }}
+    <a href="{{ .PrevInSection.Permalink }}" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title"><i class="fa fa-arrow-circle-left" aria-hidden="true"></i> {{ .PrevInSection.Title }}</div>
+    </a>
+    {{ end }}
+
+    {{ if .NextInSection }}
+    <a href="{{ .NextInSection.Permalink }}" id="article-nav-newer" class="article-nav-link-wrap">
+      <div class="article-nav-title">{{ .NextInSection.Title }} <i class="fa fa-arrow-circle-right" aria-hidden="true"></i></div>
+    </a>
+    {{ end }}
+</nav>
+<script type="text/javascript">
+document.addEventListener('keyup', function(e) {
+  if (e.target.nodeName.toUpperCase() != 'BODY') return;
+  var url = false;
+  if (e.which == 37) {  // Left arrow
+    {{ if .PrevInSection }}
+    url = '{{ .PrevInSection.Permalink }}';
+    {{ end }}
+  } else if (e.which == 39) {  // Right arrow
+    {{ if .NextInSection }}
+    url = '{{ .NextInSection.Permalink }}';
+    {{ end }}
+  }
+  if (url) window.location = url;
+});
+</script>
+{{ end }}
+{{ end }}

@@ -1,0 +1,43 @@
+a {
+  color: inherit;
+  text-decoration: none;
+}
+.article-content a {
+  border-bottom: 1px solid #CBF8DF;
+  box-shadow: inset 0 -2px 0 #CBF8DF;
+}
+.article-content img, iframe {
+  max-width: 100%;
+}
+#article-nav, .article-date {
+  display: flex;
+  align-items: stretch;
+}
+#article-nav {
+  margin-bottom: 15px;
+}
+#article-nav-older, #article-nav-newer, .article-date span {
+  flex: 1;
+}
+#article-nav-newer, .article-date .article-toolbar {
+  text-align: right;
+}
+.article-nav-link-wrap {
+  display: block;
+  text-decoration: none;
+}
+.article-toolbar a {
+  margin-left: .2em;
+}
+iframe, twitterwidget {
+  display: block;
+  margin: auto;
+}
+@media (min-width: 600px) {
+  .archive-item-link {
+    text-overflow: ellipsis;
+    max-width: calc(100% - 100px);
+    white-space: nowrap;
+    overflow: hidden;
+  }
+}

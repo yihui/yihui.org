@@ -1,0 +1,3 @@
+/slides/*     https://slides.yihui.name/:splat
+/cn/feed/     /cn/index.xml
+/en/feed/     /en/index.xml
