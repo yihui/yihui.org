@@ -1,0 +1,101 @@
+baseurl: "/"
+relativeurls: true
+languageCode: "en-us"
+title: "Yihui Xie | 谢益辉"
+theme: "hugo-lithium-theme"
+googleAnalytics: "UA-1988641-2"
+disqusShortname: "yihui"
+ignoreFiles: ["\\.Rmd$", "_files$", "_cache$"]
+hasCJKLanguage: true
+enableEmoji: true
+footnotereturnlinkcontents: "↩"
+
+permalinks:
+  cn: "/cn/:year/:month/:slug/"
+  en: "/en/:year/:month/:slug/"
+  knitr: "/knitr/:slug/"
+
+menu:
+  main:
+    - name: "About"
+      url: "/en/about/"
+      weight: 0
+    - name: "Blog"
+      url: "/en/"
+      weight: 1
+    - name: "关于"
+      url: "/cn/about/"
+      weight: 2
+    - name: "博客"
+      url: "/cn/"
+      weight: 3
+  en:
+    - name: "Home"
+      url: "/"
+      weight: 0
+    - name: "About"
+      url: "/en/about/"
+      weight: 1
+    - name: "Blog"
+      url: "/en/"
+      weight: 2
+    - name: "Vitae"
+      url: "/en/vitae/"
+      weight: 3
+    - name: "中文"
+      url: "/cn/"
+      weight: 4
+  cn:
+    - name: "首页"
+      url: "/"
+      weight: 0
+    - name: "关于"
+      url: "/cn/about/"
+      weight: 1
+    - name: "博客"
+      url: "/cn/"
+      weight: 2
+    - name: "简历"
+      url: "/cn/vitae/"
+      weight: 3
+    - name: "English"
+      url: "/en/"
+      weight: 4
+
+params:
+  description: "Personal website of Yihui Xie; 谢益辉的个人网站"
+  disqusURL: "http://yihui.name"
+  fullURL: "https://yihui.name"
+  dateFormat: "2006/01/02"
+  customCSS: ["css/custom.css"]
+  githubContentURL: "https://github.com/yihui/yihui.name/edit/master/content/"
+
+  # options for highlight.js (version, additional languages, and theme)
+  highlightjsVersion: "9.9.0"
+  highlightjsLang: ["r", "yaml", "tex"]
+  highlightjsTheme: "github"
+
+  social:
+    twitter: "xieyihui"
+    weibo: "谢益辉"
+    weibo_url: "yihuixie"
+    github: "yihui"
+
+  logo:
+    url: "logo.png"
+    width: 50
+    height: 50
+    alt: "Yihui Xie"
+
+  author:
+    en: "Yihui Xie"
+    cn: "谢益辉"
+
+  lang:
+    en:
+      edit: "Suggest an edit of this page"
+    cn:
+      edit: "编辑本页"
+
+blackfriday:
+    extensionsmask: ["noIntraEmphasis"]
