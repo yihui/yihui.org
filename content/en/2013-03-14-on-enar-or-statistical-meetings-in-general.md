@@ -1,0 +1,42 @@
+---
+title: On ENAR, or Statistical Meetings in General
+date: '2013-03-14'
+slug: on-enar-or-statistical-meetings-in-general
+---
+
+Last year I accepted an invitation from [Ben](http://dbe.med.upenn.edu/biostat-research/bcfrench) to go to [ENAR](http://www.enar.org/meetings.cfm) 2013 -- my first ENAR. I used to go to JSM and useR!, and apparently I enjoy useR! most. The reason is not, or not only, because I'm more of a technical person. It is just hard to concentrate at large statistical conferences. I want to make a few suggestions from the perspective of a student, although it is unlikely that any future conference chairs will come here and listen to me:
+
+1. Go green and get rid of printed programs. A program book is thick and clunky and nobody will take it with them when they leave. The hundreds of pages of paper will only end up in garbage. If you have to print them, print N/5 copies instead (N is the number of participants) and let the participants share with each other.
+1. Improve the websites and add social network features. For example, we can "reserve" the talks which we are interested, so all participants immediately know which are the popular and highly expected talks, and organizers can schedule appropriate rooms. The discussion session by John Chambers, Duncan Temple Lang, Thomas Lumley and Michael Lawrence at the last JSM in San Diego was a failure in the sense that many people were standing outside of the room (presumably fans of John Chambers). By comparison, my session at ENAR was assigned to a room of (more than?) 400 seats but only 20 people showed up.
+1. If we tell the organizers which sessions we plan to go, the program book can be _a lot_ thinner! If there are changes in these sessions, only a small group of people need to be notified. If you notify everybody by inserting a few pieces of announcements, it is a waste of time of most people.
+1. One thing I really wish to have for conferences is I want to know which people in my "circle" are also going there. It is hard to go through 1000 names of participants and spot some familiar names. I met a friend at ENAR who collaborated with me (translating an English R tutorial to Chinese) almost 10 years ago but we have never really met in person so we do not know each other. I did not know he was coming as well. I was just sitting on the sofa in a corner and he randomly saw my badge. We were so excited that we finally met in such an unexpected place.
+1. If participants can make connections with each other beforehand, it is likely to save us money as well -- we can share the costs when we rent cars, take cabs, book hotels and so on.
+1. So please do not charge us upon registration -- give us a deadline and charge us later. Perhaps I will change my mind later if I cannot find enough interesting people to meet, or the popular talks seem irrelevant to me.
+1. I heard from Hadley that some IEEE conferences require the speakers to do a 30-second talk before the conferences, and I think that will be cool and useful for statistical conferences as well. Nowadays I still hear certain speakers read their slides word by word. Some speakers may be shy or are not confident in their oral English, but I do not think the language problem is a really big problem. My suggestion to these speakers is to spend more time preparing jokes instead of the slides: jokes make the audience concentrate and speakers relax. I have told a lot of stupid jokes that I regret afterwards, but I think the net effect is still positive.
+1. If it is not possible to arrange 30-second talks, the conference website should allow speakers upload mini versions of their talks to attract more audience.
+1. Some people go to conferences for both presentations and sightseeing. Personally I do not care about the latter at all, but unfortunately all big conferences take place in famous big cities. This ENAR was held in the largest Marriott in the world. Am I proud of that? No, not at all, because I had to live in a much cheaper hotel three miles away. One evening I tried to walk back and it took me one hour and twenty minutes. What is more, this place is not really walkable -- I had to walk on the grass on the roadside for half an hour because there was no pavement! I do not really mind walking (even for three miles), but it is not a happy memory walking on the grass. The Marriott was such a closed universe that it was hard to walk out, as Karl's picture shows below:
+
+{{< tweet 311534419255107585 >}}
+
+By comparison, useR! conferences often take place in a university campus. Last year it was in Vanderbilt, and they provided dorms to students. I lived happily in the dorm, because all I wanted was a place to sleep (there was free wireless too); nothing luxury. Usually there are also inexpensive restaurants on campus. I met helpful local students/researchers there who gave me free ride to some scenic spots, and I had to fight to pay my tickets by myself (but was still treated). It was just a touching trip and I managed to make acquaintance quite a few interesting people (Frank Harrell, Bill Venables and Kevin Coombes, etc).
+
+ENAR "kindly" included a ticket for the Epcot theme park in the registration fee. What did I do in the theme park? I had a dinner in an expensive restaurant (Karl felt guilty for taking me there and generously treated me), and watched a 10-minute fireworks show. Yes, we were so nerdy that we kept on discussing the role of measure theory and Github in a place where we were supposed to say hello to the Mickey mouse.
+
+{{< tweet 311641759069388803 >}}
+
+So my major suggestion to the big statistical meetings is, create an environment which emphasizes the communication among people and do not include distracting activities in the registration package _by default_. There are a couple of small things you can do, for example:
+
+1. More seats in the open place so we can sit and chat.
+1. Free beer. I'm sure it is more doable than an Epcot ticket.
+1. Always print the participant name on _both_ sides of the badge. You know how stupid it is to show a blank side of your badge to other people (and the badge always flips to the damn wrong side, always, flips!!), especially given that statisticians are socially awkward and feel embarassed to ask other people for names.
+1. Choose a university campus instead of Marriott. If you do not know how to choose one, choose Iowa State University then. I'm sure all participants will be highly concentrated unless they are interested in seeing corns and pigs on the farms.
+
+Okay, rants ended. Positive energy coming.
+
+As I [said](https://twitter.com/xieyihui/status/311514223207387138) on Twitter, I was happy to meet [Karl Broman](http://www.biostat.wisc.edu/~kbroman/) (who introduced [Matthew Stephens](http://stephenslab.uchicago.edu/) to me later, the smartest person in statistics and human genetics according to Karl) and [John Muschelli](http://biostat.jhsph.edu/~jmuschel/) there. I noticed Karl long time ago, mainly due to [Top ten worst graphs](http://www.biostat.wisc.edu/~kbroman/topten_worstgraphs), but have never met him.
+
+I did not know much about the Johns Hopkins biostat department before I [visited them](/en/2012/10/visiting/) last year, and it has become a place that surprises me more and more. It is a weird and crazy department. I like people for bizarre reasons. For instance, I like Jeff Leek because he prefers steak to be well done (me too). Rafa hides jokes under his very serious-looking face. "Behind the Tan Door" is the best video in the history of statistics. Karl has [a series of hilarious stories](http://kbroman.wordpress.com/2013/03/06/the-hopkins-sph-logo-part-3-karls-revenge/) about the JHSPH logo. There are people in the world that you know for sure you will be excited to meet. Currently I have yet another person on my list: Tyler Rinker.
+
+In case you have not seen it, I strongly recommend you read (and apply for) the [postdoctoral fellow position in reproducible research](http://simplystatistics.org/?p=1097) at Hopkins. Note in particular the phrase "serious moxie"!!
+
+So do I regret ENAR? Certainly no. If I can organize my time more efficiently meeting more people like those above, it will be even better. BTW, if you are not the 20 people in my session, feel free to check out [my slides on **knitr**](https://slides.yihui.name/knitr-ENAR-Yihui-Xie-2013.html) (Brian Bot simply called them "animated gifs" instead of "slides").
