@@ -15,6 +15,7 @@
     <div class="article-date">
       <span>{{ or (or .Params.author (index .Site.Params.author .Section)) "" }} &middot; {{ .Date.Format (default "January 2, 2006" .Site.Params.dateFormat ) }}</span>
       <span class="article-toolbar">
+        <a href="/{{ .Section }}/index.xml" type="application/rss+xml" target="_blank"><i class="fa fa-rss" aria-hidden="true" title="RSS feed"></i></a>
         <a href="https://twitter.com/home?{{ (querify "status" (print .Title " " .Site.Params.fullURL .URL " via @" .Site.Params.social.twitter )) | safeURL }}" target="_blank"><i class="fa fa-twitter" aria-hidden="true" title="Share via Twitter"></i></a>
         <a href="http://service.weibo.com/share/share.php?{{ (querify "content" "utf-8" "url" (print .Site.Params.fullURL .URL) "title" (print .Title " @" .Site.Params.social.weibo)) | safeURL }}" target="_blank"><i class="fa fa-weibo" aria-hidden="true" title="分享到新浪微博"></i></a>
         <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><i class="fa fa-cc" aria-hidden="true" title="Attribution-NonCommercial-ShareAlike 4.0 International"></i></a>
