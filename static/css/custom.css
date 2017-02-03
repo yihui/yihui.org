@@ -34,6 +34,19 @@ iframe, twitterwidget {
   display: block;
   margin: auto;
 }
+.article-subtitle {
+  font-size: .8em;
+  display: block;
+  color: #696969;
+}
+#TableOfContents {
+  background-color: #f8f8f8;
+}
+#TableOfContents ul {
+  padding-top: .5em;
+  padding-bottom: .5em;
+}
+
 @media (min-width: 600px) {
   .archive-item-link {
     text-overflow: ellipsis;

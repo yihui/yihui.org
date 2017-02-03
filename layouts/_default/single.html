@@ -26,6 +26,7 @@
     </div>
     {{ end }}
 
+    {{ if .Params.toc }} {{ .TableOfContents }} {{ end }}
     <div class="article-content">
       {{ .Content }}
     </div>
