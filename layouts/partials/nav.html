@@ -7,9 +7,10 @@
   </a>
 
   <ul class="nav-links">
+    {{ $currentPage := . }}
     {{ $section := replaceRE "^/([^/]+)/.*" "$1" .URL }}
     {{ range (default .Site.Menus.main (index .Site.Menus $section)) }}
-    <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+    <li class="{{ if eq .URL $currentPage.URL }}active{{ end }}"><a href="{{ .URL }}">{{ if .Pre }}<i class="fa fa-{{ .Pre }}" aria-hidden="true" title="{{ .Name }}"></i> {{ else }} {{ .Name }} {{ end }}</a></li>
     {{ end }}
   </ul>
 </nav>
