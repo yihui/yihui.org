@@ -3,6 +3,9 @@
 <main class="content" role="main">
 
   {{ if .Content }}
+  {{ if .Params.show_title }}
+  {{ partial "article_meta.html" . }}
+  {{ end }}
   <article class="article">
     <div class="article-content">
       {{ .Content }}
