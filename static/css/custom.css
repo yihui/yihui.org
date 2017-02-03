@@ -12,6 +12,7 @@ a {
 #article-nav, .article-date {
   display: flex;
   align-items: stretch;
+  clear: both;
 }
 #article-nav {
   margin-bottom: 15px;
