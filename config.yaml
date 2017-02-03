@@ -92,10 +92,9 @@ params:
     cn: "谢益辉"
 
   lang:
-    en:
-      edit: "Suggest an edit of this page"
-    cn:
-      edit: "编辑本页"
+    edit:
+      en: "Suggest an edit of this page"
+      cn: "编辑本页"
 
 blackfriday:
     extensionsmask: ["noIntraEmphasis"]
