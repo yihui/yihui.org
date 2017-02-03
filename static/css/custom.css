@@ -36,8 +36,10 @@ iframe, twitterwidget {
 }
 .article-subtitle {
   font-size: .8em;
-  display: block;
   color: #696969;
+}
+h1 .article-subtitle {
+  display: block;
 }
 #TableOfContents {
   background-color: #f8f8f8;
