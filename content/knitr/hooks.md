@@ -4,7 +4,7 @@ subtitle: Customizable functions to run before / after a code chunk, tweak the o
   and manipulate chunk options
 date: '2017-02-03'
 slug: hooks
-toc: true
+show_toc: true
 ---
 
 The object `knit_hooks` in the **knitr** package is used to set hooks; the basic usage is `knit_hooks$set(param = FUN)` (see [objects](../objects) for details) where `param` is the name of a chunk option (can be arbitrary), and `FUN` is a function. There are two types of hooks: chunk hooks and output hooks. Hook functions may have different forms, depending what they are designed to do.

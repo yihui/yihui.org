@@ -10,7 +10,7 @@
     {{ end }}
     {{ partial "article_meta.html" . }}
 
-    {{ if .Params.toc }} {{ .TableOfContents }} {{ end }}
+    {{ if .Params.show_toc }} {{ .TableOfContents }} {{ end }}
     <div class="article-content">
       {{ .Content }}
     </div>

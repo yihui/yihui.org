@@ -3,7 +3,7 @@ title: Options
 subtitle: Chunk options and package options
 date: '2017-02-03'
 slug: options
-toc: true
+show_toc: true
 ---
 
 The **knitr** package shares most options with Sweave, but some were
