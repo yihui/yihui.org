@@ -14,7 +14,7 @@ You can find me on [GitHub](https://github.com/yihui/) or Twitter [@xieyihui](ht
 
 Usually I don't like emails of questions about open-source packages, and it is not practical for me to answer all of them. Don't get me wrong --- I do like questions, but I'll be glad to see questions about open-source packages (like R) posted on StackOverflow, and I watch them closely almost every day. Please feel free to email me the link to your question if nobody has answered you after a few days. Knowledge should be open to the public whenever possible, and I'd like to use emails only for _private_ conversations.
 
-This site is created with [Hugo](https://gohugo.io) and the theme is [based](https://github.com/yihui/hugo-lithium-theme) on Jonathan Rutheiser's [hugo-lithium-theme](https://github.com/jrutheiser/hugo-lithium-theme). You can navigate to the previous post by the left-arrow key (<i class="fa fa-arrow-left" aria-hidden="true"></i>) or next post by right-arrow (<i class="fa fa-arrow-right" aria-hidden="true"></i>).
+This site is created with [Hugo](https://gohugo.io) and the theme is [based](https://github.com/yihui/hugo-lithium-theme) on Jonathan Rutheiser's [hugo-lithium-theme](https://github.com/jrutheiser/hugo-lithium-theme). The Markdown source files are [hosted on Github](https://github.com/yihui/yihui.name). When you read the blog posts, you can navigate to the previous post by the left-arrow key (<i class="fa fa-arrow-left" aria-hidden="true"></i>) or next post by right-arrow (<i class="fa fa-arrow-right" aria-hidden="true"></i>). There is a toolbar under the title of each post, and please hit the Edit button <i class="fa fa-edit" aria-hidden="true"></i> if you find any mistakes on the page to propose a correction through Github.
 
 # Some links
 
@@ -27,3 +27,21 @@ This site is created with [Hugo](https://gohugo.io) and the theme is [based](htt
 ## R Language
 
 - [The R Project](http://www.r-project.org/)
+
+## My projects
+
+Below is an incomplete list of packages and projects I have worked on. For a full list, please see my [vitae](../vitae).
+
+- [animation](/animation): a gallery of animations in statistics and utilities to create animations
+- [blogdown](https://github.com/rstudio/blogdown): create blogs and websites with R Markdown
+- [bookdown](https://bookdown.org): author books and technical documents with R Markdown
+- [DT](https://github.com/rstudio/DT): a wrapper of the JavaScript library DataTables
+- [formatR](/formatR): Format R code automatically
+- [knitr](/knitr): Dynamic report generation with R
+- [printr](/printr): Some printing methods for **knitr**
+- [Rd2roxygen](/Rd2roxygen): Convert Rd to roxygen documentation
+- [rlp](/rlp): Write an R package using literate programming techniques
+- [servr](https://github.com/yihui/servr): a simple HTTP server to serve static files or dynamic documents
+- [testit](https://github.com/yihui/testit): a simple package for testing R packages
+- [tufte](https://github.com/rstudio/tufte): Tufte styles for R Markdown documents
+- [xaringan](https://github.com/yihui/xaringan): presentation ninja
