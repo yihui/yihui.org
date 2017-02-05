@@ -55,6 +55,16 @@ h1 .article-subtitle {
   padding-top: .5em;
   padding-bottom: .5em;
 }
+table {
+  min-width: 50%;
+  max-width: 100%;
+  margin: auto;
+  border-top: 1px solid #e8e8e8;
+  border-bottom: 1px solid #e8e8e8;
+}
+table thead th {
+  border-bottom: 1px solid #e8e8e8;
+}
 
 @media (min-width: 600px) {
   .archive-item-link {
