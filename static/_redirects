@@ -2,4 +2,6 @@
 /cn/feed/     /cn/index.xml
 /en/feed/     /en/index.xml
 /xran/*       https://xran.yihui.name/:splat
+/knitr-jekyll/*              https://jekyll.yihui.name/:splat
+/recharts/*                  https://recharts.yihui.name/:splat
 /media/js/center-images.js   /js/center-img.js
