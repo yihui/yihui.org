@@ -1,0 +1,5 @@
+"input", "output"
+"../printr/vignettes/printr.Rmd", "content/pkg-printr.md"
+"../formatR/vignettes/formatR.Rmd", "content/pkg-formatR.md"
+"../Rd2roxygen/vignettes/Rd2roxygen.Rmd", "content/pkg-Rd2roxygen.md"
+"../rlp/vignettes/LP-demo1.Rmd", "content/pkg-rlp.md"
