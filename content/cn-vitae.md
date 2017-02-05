@@ -283,7 +283,7 @@ Email：xie@yihui.name；主页：<http://yihui.name>；现居住于美国内布
 - [xaringan](https://github.com/yihui/xaringan)：幻灯忍者（基于 R Markdown 和 remark.js 的幻灯片包）
 - [blogdown](https://github.com/rstudio/blogdown)：用 R Markdown 和 Hugo 创建网站
 - [tufte](https://github.com/rstudio/tufte)：R Markdown 的 Tufte 样式
-- [servr](https://github.com/rstudio/servr)：用 R 创建一个本地网站服务器，在浏览器中显示本地文件
+- [servr](https://github.com/yihui/servr)：用 R 创建一个本地网站服务器，在浏览器中显示本地文件
 - [animation](https://github.com/yihui/animation)：用动画展示统计学各学科的模型方法以及数据分析
 - [testit](https://github.com/yihui/testit)：用于 R 包的单元测试
 - [formatR](https://github.com/yihui/formatR)：格式化 R 代码的包，自动添加空格和缩进

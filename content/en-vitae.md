@@ -289,7 +289,7 @@ I'm the creator and main author of:
 - [xaringan](https://github.com/yihui/xaringan): presentation ninja
 - [blogdown](https://github.com/rstudio/blogdown): create blogs and websites with R Markdown
 - [tufte](https://github.com/rstudio/tufte): Tufte styles for R Markdown documents
-- [servr](https://github.com/rstudio/servr): a simple HTTP server to serve static files or dynamic documents
+- [servr](https://github.com/yihui/servr): a simple HTTP server to serve static files or dynamic documents
 - [animation](https://github.com/yihui/animation): a gallery of animations in statistics and utilities to create animations
 - [testit](https://github.com/yihui/testit): a simple package for testing R packages
 - [formatR](https://github.com/yihui/formatR): format R code automatically
