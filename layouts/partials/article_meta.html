@@ -18,7 +18,7 @@
     <a href="http://service.weibo.com/share/share.php?{{ (querify "content" "utf-8" "url" (print .Site.Params.fullURL .URL) "title" (print .Title " @" .Site.Params.social.weibo)) | safeURL }}" target="_blank"><i class="fa fa-weibo" aria-hidden="true" title="分享到新浪微博"></i></a>
     <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><i class="fa fa-cc" aria-hidden="true" title="Attribution-NonCommercial-ShareAlike 4.0 International"></i></a>
     {{ with .Site.Params.githubContentURL }}
-    <a href="{{ . }}{{ $.File.Path }}"><i class="fa fa-pencil-square-o" aria-hidden="true" title="{{ default (index $.Site.Params.lang.edit.en) (index $.Site.Params.lang.edit $.Section) }}"></i></a>
+    <a href="{{ or $.Params.githubEditURL  (print .  $.File.Path) }}"><i class="fa fa-pencil-square-o" aria-hidden="true" title="{{ default (index $.Site.Params.lang.edit.en) (index $.Site.Params.lang.edit $.Section) }}"></i></a>
     {{ end }}
     </span>
 </div>
