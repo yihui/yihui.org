@@ -8,7 +8,10 @@
       if (/^[.]\//.test(val)) el.setAttribute(attr, val.replace(/^[.]/, ''));
     }
   }
-  absURL('link', 'href'); absURL('a', 'href'); absURL('img', 'src');
+  function absURLs(tags, attrs) {
+    for (var i = 0; i < tags.length; i++) absURL(tags[i], attrs[i]);
+  }
+  absURLs(['link', 'a', 'img', 'script'], ['href', 'href', 'src', 'src']);
 })();
 </script>
 {{ end }}
