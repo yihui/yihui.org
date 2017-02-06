@@ -68,6 +68,11 @@ table thead th {
 main {
   display: block;
 }
+pre .nohighlight {
+  border: 1px solid #f3f3f3;
+  display: block;
+  padding: .5em;
+}
 
 @media (min-width: 600px) {
   .archive-item-link {

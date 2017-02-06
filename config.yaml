@@ -90,7 +90,7 @@ params:
   fullURL: "https://yihui.name"
   dateFormat: "2006/01/02"
   customCSS: ["css/custom.css"]
-  customJS: ["/js/center-img.js", "js/right-quote.js"]
+  customJS: ["/js/center-img.js", "js/right-quote.js", "js/no-highlight.js"]
   githubContentURL: "https://github.com/yihui/yihui.name/edit/master/content/"
 
   # options for highlight.js (version, additional languages, and theme)
