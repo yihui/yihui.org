@@ -1,0 +1,14 @@
+{{ if eq .Type "404" }}
+<script>
+(function() {
+  function absURL(tag, attr) {
+    var i, tags = document.getElementsByTagName(tag), el, val;
+    for (i = 0; i < tags.length; i++) {
+      el = tags[i]; val = el.getAttribute(attr);
+      if (/^[.]\//.test(val)) el.setAttribute(attr, val.replace(/^[.]/, ''));
+    }
+  }
+  absURL('link', 'href'); absURL('a', 'href'); absURL('img', 'src');
+})();
+</script>
+{{ end }}
