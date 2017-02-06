@@ -127,9 +127,11 @@ Below is a list of chunk options in **knitr**. Note the options `background` and
 
 There is a hidden option `indent` which stores the possible leading white spaces of the chunk, e.g. for the chunk below, `indent` is a character string of two spaces:
 
-      ```{r}
-      rnorm(10)
-      ```
+````markdown
+  ```{r}
+  rnorm(10)
+  ```
+````
 
 Currently this option is only used to indent markdown output, because
 leading white spaces have special meanings in markdown.
