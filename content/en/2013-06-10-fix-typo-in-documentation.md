@@ -4,7 +4,9 @@ date: '2013-06-10'
 slug: fix-typo-in-documentation
 ---
 
-![help me with Github pull requests](http://i.imgur.com/j9NYXiQ.png)
+> Update (2017/02/06): It is much easier to fix typos on my web pages now. There is a toolbar under the title of each post, and please hit the Edit button <i class="fa fa-edit" aria-hidden="true"></i> if you find any mistakes on the page to propose a correction through Github. You don't need to use any command-line tools. You should not follow the instructions in the post below any more (the **knitr** documentation has been moved to a different repo).
+
+---
 
 So I just got yet yet another
 [comment](/knitr/demo/sweave/#comment-924948061) saying
@@ -15,6 +17,8 @@ requests](https://help.github.com/articles/using-pull-requests), which make
 it possible for you to contribute to open source and fix obvious problems
 _with no questions being asked_ -- just do it yourself, and send the changes
 to the original author(s) through Github.
+
+![help me with Github pull requests](http://i.imgur.com/j9NYXiQ.png)
 
 The official documentation for Github pull requests is a little bit verbose
 for beginners. Basically what you need to do for simple tasks are:
@@ -38,7 +42,9 @@ branches: `master` and `gh-pages`. The R package lives in the `master`
 branch, and the **knitr** website lives in the `gh-pages` branch. If you
 want to fix any problems in the website, just check out the `gh-pages`:
 
-    git checkout gh-pages
+```bash
+git checkout gh-pages
+```
 
 All pages were written in Markdown, so edit them with your favorite text
 editor. For example, as the above comment pointed out, I omitted a right
