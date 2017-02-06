@@ -13,8 +13,9 @@
         </ul>
       </footer>
     </div>
-    <script async src="/js/center-img.js"></script>
-    <script async src="/js/right-quote.js"></script>
+    {{ range .Site.Params.customJS }}
+    <script async src="{{ . | absURL }}"></script>
+    {{ end }}
     {{ partial "footer_highlightjs" . }}
     {{ partial "footer_mathjax" . }}
     {{ template "_internal/google_analytics.html" . }}
