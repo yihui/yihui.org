@@ -65,6 +65,9 @@ table {
 table thead th {
   border-bottom: 1px solid #e8e8e8;
 }
+main {
+  display: block;
+}
 
 @media (min-width: 600px) {
   .archive-item-link {
