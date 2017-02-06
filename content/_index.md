@@ -1,6 +1,8 @@
 ---
 title: Homepage
 date: '2017-01-31'
+disable_mathjax: true
+disable_highlight: true
 ---
 
 I'm a software engineer working at [RStudio, Inc](https://www.rstudio.com).
