@@ -39,10 +39,8 @@ installation instructions and [FAQ's](http://bit.ly/knitr-faq), see
 full documentation of **knitr**, and you can find the [main
 manual]({{% download_url %}}knitr-manual.pdf), the [graphics manual]({{% download_url %}}knitr-graphics.pdf)
 and other [demos](demos) /
-[examples](https://github.com/yihui/knitr-examples) here. For a more
+[examples](https://github.com/yihui/knitr-examples) here. You can also watch a [5-min video introduction](http://www.screenr.com/qcv8). For a more
 organized reference, see the [knitr book](https://github.com/yihui/knitr-book).
-
-<iframe src="//www.screenr.com/embed/qcv8" width="650" height="396" frameborder="0"></iframe>
 
 ## Motivation
 
