@@ -1,7 +1,7 @@
 ---
 title: "Write An R Package Using Literate Programming Techniques"
 author: "Yihui Xie"
-date: "2017-02-05"
+date: 2014-12-29
 slug: rlp
 show_toc: yes
 githubEditURL: https://github.com/yihui/rlp/edit/master/vignettes/LP-demo1.Rmd
