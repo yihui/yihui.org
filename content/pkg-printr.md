@@ -1,7 +1,7 @@
 ---
 title: "An Introduction to the printr Package"
 author: "Yihui Xie"
-date: "2017-02-04"
+date: "2017-02-08"
 slug: printr
 show_toc: yes
 githubEditURL: https://github.com/yihui/printr/edit/master/vignettes/printr.Rmd
@@ -182,7 +182,7 @@ head(iris, 10)
 |          4.9|         3.1|          1.5|         0.1|setosa  |
 
 For contingency tables, 1-d tables are printed as a 1-row matrix, 2-d tables are
-printed an $n \times m$ matrix, and tables of higher dimensions are printed as
+printed an `\(n \times m\)` matrix, and tables of higher dimensions are printed as
 data frames with frequencies.
 
 
@@ -526,8 +526,8 @@ VignetteBuilder:    knitr
 LazyData:           TRUE
 RoxygenNote:        6.0.0
 NeedsCompilation:   no
-Packaged:           2017-02-05 04:17:01 UTC; yihui
-Built:              R 3.3.2; ; 2017-02-05 04:17:01 UTC; unix
+Packaged:           2017-02-07 19:33:43 UTC; yihui
+Built:              R 3.3.2; ; 2017-02-07 19:33:44 UTC; unix
 
 Index:
 
