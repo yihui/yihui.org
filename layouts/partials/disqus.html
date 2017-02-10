@@ -8,6 +8,12 @@
   };
   {{ end }}
   (function() {
+   var inIFrame = function() {
+      var iframe = true;
+      try { iframe = window.self !== window.top; } catch (e) {}
+      return iframe;
+    };
+    if (inIFrame()) return;
     var d = document, s = d.createElement('script');
     s.src = '//{{ .Site.DisqusShortname }}.disqus.com/embed.js'; s.async = true;
     s.setAttribute('data-timestamp', +new Date());
