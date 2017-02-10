@@ -74,6 +74,9 @@ pre .nohighlight {
   padding: .5em;
   overflow-x: auto;
 }
+.footnotes {
+  font-size: .9em;
+}
 
 @media (min-width: 600px) {
   .archive-item-link {
