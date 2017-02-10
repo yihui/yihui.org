@@ -2,6 +2,7 @@
 title: 分段回归的拐点连续性
 date: '2012-04-30'
 slug: break-points-in-regression
+from_Rmd: yes
 ---
 
 我翻了一下，[上一次写](/cn/2010/12/unifying-bayesians-and-frequentists/)跟统计有关的话题已经是2010年的事情了，多数时候，这里写的都是（计算机）技术类与生活类的话题，于是我又想起来很久以前有客官说，你还不如改成“Keep on eating”算了。废话少说，言归正传。

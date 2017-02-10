@@ -17,7 +17,7 @@ local({
   knitr::opts_knit$set(width = 70)
   knitr::knit(a[1], a[2], quiet = TRUE, encoding = 'UTF-8', envir = .GlobalEnv)
   if (file.exists(a[2])) {
-    x = blogdown:::readUTF8(a[2])
+    x = blogdown:::append_yaml(blogdown:::readUTF8(a[2]), list(from_Rmd = TRUE))
     blogdown:::writeUTF8(xaringan:::protect_math(x), a[2])
     Sys.chmod(a[2], '0444')  # read-only (should not edit)
   }
