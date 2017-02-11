@@ -129,7 +129,7 @@ Email：xie@yihui.name；主页：<http://yihui.name>；现居住于美国内布
 - 谢益辉，Karl Broman，Ian Lyttle，2016，_Dynamic Documents with R Markdown_，useR! 2016 会前培训班，斯坦福大学（[幻灯片](http://slides.yihui.name/2016-useR-rmarkdown-Yihui-Xie.html)）
 - 谢益辉，2016，用 R Markdown 愉快地写作是怎样一种体验，第 9 届中国 R 语言会议，北京（[幻灯片](http://slides.yihui.name/2016-China-R-bookdown-Yihui-Xie.html)）
 - 谢益辉，2016，_CosPlay R_，第 9 届中国 R 语言会议，北京
-- [谢益辉](http://i.imgur.com/uw62CkX.jpg)，2016，R Markdown：便利的学术写作和数据分析工具，中国海洋大学，青岛（[幻灯片](http://slides.yihui.name/2016-OUC-Yihui-Xie.html)）
+- [谢益辉](http://i.imgur.com/uw62CkX.jpg)，2016，R Markdown：便利的学术写作和数据分析工具，[中国海洋大学](http://www2.ouc.edu.cn/math/Ch/NewsView.asp?id=1279&SortID=30)，青岛（[幻灯片](http://slides.yihui.name/2016-OUC-Yihui-Xie.html)）
 - 谢益辉，2016，漫谈一些有趣的交互式图形应用，青岛大学经济学院
 - 谢益辉，2016，_Shiny and HTML Widgets in R_，大奥马哈地区 Tableau 用户小组聚会，内布拉斯加大学奥马哈分校（[幻灯片](http://slides.yihui.name/2016-UNO-Shiny-Yihui-Xie.html)）
 - 谢益辉，2016，用 R Markdown 写书，美国统计学会芝加哥分部会议，芝加哥（[幻灯片](http://slides.yihui.name/2016-ASAChicago-bookdown-Yihui-Xie.html)）
