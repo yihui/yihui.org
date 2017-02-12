@@ -120,6 +120,9 @@ Email：xie@yihui.name；主页：<http://yihui.name>；现居住于美国内布
 
 ## 演讲和讲座
 
+- 谢益辉，2017，_Customizing & Extending R Markdown_，rstudio::conf 大会报告，Kissimmee，佛罗里达 （[幻灯片](https://slides.yihui.name/2017-rstudio-conf-ext-rmd-Yihui-Xie.html)）
+- 谢益辉，2017，_Making Websites with R Markdown_，rstudio::conf 大会报告，Kissimmee，佛罗里达 （[幻灯片](https://slides.yihui.name/2017-rstudio-conf-blogdown-Yihui-Xie.html)）
+- 谢益辉，2017，_Advanced R Markdown_，rstudio::conf 大会培训，Kissimmee，佛罗里达 （[幻灯片](https://slides.yihui.name/2017-rstudio-conf-rmarkdown-Yihui-Xie.html)）
 - 谢益辉，2016，_bookdown: Authoring Books with R Markdown_，科罗拉多大学统计系（[幻灯片](http://slides.yihui.name/2016-CSU-bookdown-Yihui-Xie.html)）
 - 谢益辉，2016，漫谈一些我认为有趣和有用的 R 包，科罗拉多大学统计系
 - 谢益辉，2016，_Authoring Books with R Markdown_，RStudio 网络报告（[幻灯片](http://slides.yihui.name/2016-webinar-bookdown-Yihui-Xie.html); [视频](https://www.rstudio.com/resources/webinars/introducing-bookdown/)）

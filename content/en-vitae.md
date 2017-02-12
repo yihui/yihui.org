@@ -164,6 +164,9 @@ Projects participated:
 
 ## Presentations & Tutorials
 
+- Yihui Xie, 2017, _Customizing & Extending R Markdown_, a talk at rstudio::conf, Kissimmee, FL ([slides](https://slides.yihui.name/2017-rstudio-conf-ext-rmd-Yihui-Xie.html))
+- Yihui Xie, 2017, _Making Websites with R Markdown_, a talk at rstudio::conf, Kissimmee, FL ([slides](https://slides.yihui.name/2017-rstudio-conf-blogdown-Yihui-Xie.html))
+- Yihui Xie, 2017, _Advanced R Markdown_, a tutorial at rstudio::conf, Kissimmee, FL ([slides](https://slides.yihui.name/2017-rstudio-conf-rmarkdown-Yihui-Xie.html))
 - Yihui Xie, 2016, _bookdown: Authoring Books with R Markdown_, Department of Statistics, Colorado State University ([slides](http://slides.yihui.name/2016-CSU-bookdown-Yihui-Xie.html))
 - Yihui Xie, 2016, _Sharing the Fun of Using/Developing A Few R Packages_, Department of Statistics, Colorado State University
 - Yihui Xie, 2016, _Authoring Books with R Markdown_, a webinar at RStudio ([slides](http://slides.yihui.name/2016-webinar-bookdown-Yihui-Xie.html); [video](https://www.rstudio.com/resources/webinars/introducing-bookdown/))
