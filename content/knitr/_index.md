@@ -14,7 +14,7 @@ combine features in other add-on packages into one package (**knitr**
 `R2HTML::RweaveHTML` + `highlight::HighlightWeaveLatex` + 0.2 * brew + 0.1 *
 SweaveListingUtils + more).
 
-[<img src="http://i.imgur.com/yYw46aF.jpg" align="right" width=200 />](http://amzn.com/1498716962)
+[<img src="https://i.imgur.com/yYw46aF.jpg" align="right" width=200 />](https://amzn.com/1498716962)
 
 - Transparency means that the user has full access to every piece of the
   input and output, e.g., `1 + 2` produces `[1] 3` in an R terminal, and 
@@ -34,11 +34,11 @@ SweaveListingUtils + more).
   reStructuredText)
 
 This package is developed on  [GitHub](https://github.com/yihui/knitr); for
-installation instructions and [FAQ's](http://bit.ly/knitr-faq), see
+installation instructions and [FAQ's](/knitr/faq), see
 [README](https://github.com/yihui/knitr#readme). This website serves as the
 full documentation of **knitr**, and you can find the [main
-manual]({{% download_url %}}knitr-manual.pdf), the [graphics manual]({{% download_url %}}knitr-graphics.pdf)
-and other [demos](demos) /
+manual](/knitr/demo/manual/), the [graphics manual](/knitr/demo/graphics/)
+and other [demos](/knitr/demos) /
 [examples](https://github.com/yihui/knitr-examples) here. You can also watch a [5-min video introduction](http://www.screenr.com/qcv8). For a more
 organized reference, see the [knitr book](https://github.com/yihui/knitr-book).
 
@@ -71,7 +71,7 @@ re-implemented in a different way (like cache). A selected list of features
 include:
 
 - *faithful* output: using
-  [**evaluate**](http://cran.rstudio.com/package=evaluate) as the backend
+  [**evaluate**](https://cran.rstudio.com/package=evaluate) as the backend
   to evaluate R code, **knitr** writes everything that you see in an R
   terminal into the output by default, including printed results, plots and
   even warnings, messages as well as errors (they should not be ignored in
@@ -85,15 +85,15 @@ include:
   difference is that a cached chunk can still have output (in **cacheSweave**,
   cached chunks no longer have any output, even you explicitly `print()`
   an object; **knitr** actually caches the chunk output as well)
-- formatting R code: the [**formatR**](http://yihui.name/formatR)
+- formatting R code: the [**formatR**](/formatR)
   package is used to reformat R code automatically (wrap long lines, add
   spaces and indent, etc), without sacrificing comments as
   `keep.source=FALSE` does
 - more than 20 graphics devices are directly supported: with `dev='CairoPNG'`
   in the chunk options, you can switch to the `CairoPNG()` device in
-  [**Cairo**](http://cran.rstudio.com/package=Cairo) in a second; with
+  [**Cairo**](https://cran.rstudio.com/package=Cairo) in a second; with
   `dev='tikz'`, the `tikz()` device in
-  [**tikzDevice**](http://cran.rstudio.com/package=tikzDevice) is used;
+  [**tikzDevice**](https://cran.rstudio.com/package=tikzDevice) is used;
   Could anything be easier than that? These built-in devices (strictly speaking,
   wrappers) use inches as units, even for bitmap devices (pixels are
   converted to inches by the option `dpi`, which defaults to 72)
@@ -122,7 +122,7 @@ include:
 Lots of efforts have been made to producing beautiful output and enhancing
 readability by default. For example, code chunks are highlighted and put in
 a shaded environment in LaTeX with a very light gray background (the
-[**framed**](http://www.ctan.org/pkg/framed) package), so they can stand out
+[**framed**](https://www.ctan.org/pkg/framed) package), so they can stand out
 a little bit from other texts. The reading experience is hopefully better
 than the `verbatim` or `Verbatim` environments. The leading characters `>`
 and `+` (called prompts) in the output are *not* added by default (you can
@@ -132,11 +132,11 @@ inconvenient to copy and run the code which is messed up by these characters.
 
 ## Acknowledgements
 
-I thank the authors of Sweave, pgfSweave, cacheSweave, brew, decumar,
-R2HTML, tikzDevice, highlight, digest, evaluate, roxygen2 and of course, R,
+I thank the authors of Sweave, **pgfSweave**, **cacheSweave**, **brew**, **decumar**,
+**R2HTML**, **tikzDevice**, **highlight**, **digest**, **evaluate**, **roxygen2** and of course, R,
 for the many inspiring ideas and tools. I really appreciate the
 [feedback](https://github.com/yihui/knitr/issues) from many early beta
-testers. This package was initiated based on the design of decumar.
+testers. This package was initiated based on the design of **decumar**.
 
 ## FOAS
 
@@ -145,11 +145,3 @@ testers. This package was initiated based on the design of decumar.
 Statistics](http://www.foastat.org/) (FOAS). FOAS is a nonprofit public
 benefit corporation with a worldwide mission to promote free software, open
 access publishing, and reproducible research in statistics.
-
-## Misc
-
-Obviously the package name `knitr` was coined with `weave` in mind, and it
-also aims to be *neater*. I thank [Hadley](http://had.co.nz),
-[Di](http://dicook.public.iastate.edu) and
-[Andrew](http://www.stat.tamu.edu/~aredd/site/) for discussions on this neat
-name.

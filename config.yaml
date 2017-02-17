@@ -70,15 +70,12 @@ menu:
     - name: "Hooks"
       url: "/knitr/hooks/"
       weight: 2
-    - name: "Objects"
-      url: "/knitr/objects/"
-      weight: 3
-    - name: "Patterns"
-      url: "/knitr/patterns/"
-      weight: 4
     - name: "Examples"
       url: "/knitr/demos/"
-      weight: 5
+      weight: 3
+    - name: "FAQ"
+      url: "/knitr/faq/"
+      weight: 4
     - name: "Github repo"
       pre: "github"
       url: "https://github.com/yihui/knitr"
