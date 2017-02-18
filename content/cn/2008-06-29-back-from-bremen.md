@@ -12,45 +12,45 @@ slug: back-from-bremen
 
 有空上两张照片。
 
-![](http://i.imgur.com/vMIpK.jpg)
+![](https://db.yihui.name/imgur/vMIpK.jpg)
 
-![](http://i.imgur.com/RRFyL.jpg)
+![](https://db.yihui.name/imgur/RRFyL.jpg)
 
-![](http://i.imgur.com/ZgjTR.jpg)
+![](https://db.yihui.name/imgur/ZgjTR.jpg)
 
-![](http://i.imgur.com/clqwm.jpg)
+![](https://db.yihui.name/imgur/clqwm.jpg)
 
-![](http://i.imgur.com/R4FaL.jpg)
+![](https://db.yihui.name/imgur/R4FaL.jpg)
 
-![](http://i.imgur.com/8d1AD.jpg)
+![](https://db.yihui.name/imgur/8d1AD.jpg)
 
-![](http://i.imgur.com/NDVcH.jpg)
+![](https://db.yihui.name/imgur/NDVcH.jpg)
 
-![](http://i.imgur.com/F7Rmu.jpg)
+![](https://db.yihui.name/imgur/F7Rmu.jpg)
 
-![](http://i.imgur.com/AYkXe.jpg)
+![](https://db.yihui.name/imgur/AYkXe.jpg)
 
-![](http://i.imgur.com/gYFQy.jpg)
+![](https://db.yihui.name/imgur/gYFQy.jpg)
 
-![](http://i.imgur.com/4hKse.jpg)
+![](https://db.yihui.name/imgur/4hKse.jpg)
 
-![](http://i.imgur.com/T59v8.jpg)
+![](https://db.yihui.name/imgur/T59v8.jpg)
 
-![](http://i.imgur.com/Hnis6.jpg)
+![](https://db.yihui.name/imgur/Hnis6.jpg)
 
-![](http://i.imgur.com/bt9NS.jpg)
+![](https://db.yihui.name/imgur/bt9NS.jpg)
 
-![](http://i.imgur.com/TcaiC.jpg)
+![](https://db.yihui.name/imgur/TcaiC.jpg)
 
-![](http://i.imgur.com/GV974.jpg)
+![](https://db.yihui.name/imgur/GV974.jpg)
 
-![](http://i.imgur.com/GTSAC.jpg)
+![](https://db.yihui.name/imgur/GTSAC.jpg)
 
-![](http://i.imgur.com/pa0Aj.jpg)
+![](https://db.yihui.name/imgur/pa0Aj.jpg)
 
 我自己没怎么照相，只是和参会者照了一些合影，就不放上来了。等会议全体合影寄过来之后再放一张大合影。
 
-![不莱梅归来](http://i.imgur.com/48iA6.jpg)
+![不莱梅归来](https://db.yihui.name/imgur/48iA6.jpg)
 
 ## 流水账游记
 

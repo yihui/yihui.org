@@ -8,7 +8,7 @@ The other day I sent a small assignment to a group of people in order that they 
 
 The question is, how to reveal the particular pattern in this "pile of sand"? Let's look at the original plot:
 
-![The original scatter plot](http://i.imgur.com/TfwQw.png)
+![The original scatter plot](https://db.yihui.name/imgur/TfwQw.png)
 
 What can we observe from this scatter plot? Perhaps nothing but "a pile of sand". However, if we choose alternative ways to create the plot again, things will be completely different. Here are my approaches:
 
@@ -16,25 +16,25 @@ What can we observe from this scatter plot? Perhaps nothing but "a pile of sand"
 
 Actually there are 10000 points lying on the circle, so the critical problem is overlapping. In order to show the degree of overlapping, we can use semi-transparent colors, because the color will be more opaque if there are many points at the same place.
 
-![Transparent Colors](http://i.imgur.com/CwPVN.png)
+![Transparent Colors](https://db.yihui.name/imgur/CwPVN.png)
 
 # 2. Set Axes Limits
 
 If we look closer into the plot, the scene will also be different. For example, we only plot the data in the range `[-1, 1]`.
 
-![Set Axes Limits](http://i.imgur.com/szpEf.png)
+![Set Axes Limits](https://db.yihui.name/imgur/szpEf.png)
 
 # 3. Plot with Smaller Point Symbols
 
 Certainly, small symbols can prevent overlapping effectively in this case.
 
-![Plot with small symbols](http://i.imgur.com/xszYg.png)
+![Plot with small symbols](https://db.yihui.name/imgur/xszYg.png)
 
 # 4. Draw A Subset of the Data
 
 As the problem is that there are too many data points, why not draw a subset and try a scatter plot first? For example, here we have sampled 1000 rows of data and the plot is like this:
 
-![A subset of the original data](http://i.imgur.com/NGl93.png)
+![A subset of the original data](https://db.yihui.name/imgur/NGl93.png)
 
 # 5. Estimate the 2D Density
 

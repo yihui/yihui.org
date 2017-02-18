@@ -18,7 +18,7 @@ packageVersion('knitr') >= 0.5
 
 You need to install the [RStudio preview version](http://www.rstudio.org/download/preview) to use its new features on markdown support. With this version, you will see an interface like this when you create an R markdown file (`File --> New --> R Markdown`):
 
-![R markdown interface in RStudio](http://i.imgur.com/9YlzL.png)
+![R markdown interface in RStudio](https://db.yihui.name/imgur/9YlzL.png)
 
 The button `MD` in the toolbar shows a quick reference of the markdown syntax, which I believe you can learn in 3 minutes. To start with, you can use my example on Github: [knitr-slides.Rmd](https://github.com/yihui/knitr/blob/master/inst/examples/knitr-slides.Rmd), or quickly cook up your own by `Ctrl + Shift + I` to insert code chunks.
 

@@ -8,7 +8,7 @@ slug: animations-in-survey-sampling
 
 This afternoon I went to the Beijing Custom to give a lecture on sampling techniques as well as my R program. Actually I didn't make any preparations until late in this morning. When I finished my lunch, I made some animated pictures to illustrate these four kinds of sampling methods: simple random sampling, stratified sampling, cluster sampling and systematic sampling.
 
-![Sampling Survey](http://i.imgur.com/tiELt.png)
+![Sampling Survey](https://db.yihui.name/imgur/tiELt.png)
 
 After I came back to school, I added these animations to my little project [Animated Statistics Using R](http://animation.yihui.name).
 

@@ -43,7 +43,7 @@ If you take a look at the [StackOverflow question](http://stackoverflow.com/q/55
 
 Karthik Ram [suggested](https://twitter.com/_inundata/status/493481266365607936) this GIF to express "Ah a new _library_, but _require_? [Noooooo](http://nooooooooooooooo.com)":
 
-![](http://i.imgur.com/wygGyI1.gif)
+![](https://db.yihui.name/imgur/wygGyI1.gif)
 
 Since you have read the source code, Luke, you may have found that you can abuse `require()` a bit, for example:
 
@@ -84,4 +84,4 @@ Loading required package: nnet
 
 So when I tell you to load a package, you tell me you are loading a package, as if you had heard me. Oh thank you!
 
-![](http://i.imgur.com/4ojz1sG.gif)
+![](https://db.yihui.name/imgur/4ojz1sG.gif)

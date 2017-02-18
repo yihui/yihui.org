@@ -16,7 +16,7 @@ Marc Schwartz mentioned that [Gorjanc Gregor](http://ggorjan.blogspot.com/) has 
 
 Before introducing how to port the plugin into R, I'd like to introduce an R function `pointLabel()` in **maptools** package and it can partially solve the problem of arranging text labels in a plot (using simulated annealing or genetic algorithm). Here is a simulated example:
 
-![Simulated Tag Cloud with R function pointLabel in maptools](http://i.imgur.com/dnWDx.png)
+![Simulated Tag Cloud with R function pointLabel in maptools](https://db.yihui.name/imgur/dnWDx.png)
 
 ```r 
 library(maptools)

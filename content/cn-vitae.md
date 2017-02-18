@@ -36,7 +36,7 @@ Email：xie@yihui.name；主页：<http://yihui.name>；现居住于美国内布
 
 <!--
 - 2006.06 北京地区高等学校优秀毕业生
-- 2006.04 美国数学建模大赛成功参与奖（[论文](https://github.com/downloads/yihui/yihui.github.com/MCM-2006-paper-Yihui-Xie.pdf)；[证书](http://i.imgur.com/c3soC.jpg)）
+- 2006.04 美国数学建模大赛成功参与奖（[论文](https://github.com/downloads/yihui/yihui.github.com/MCM-2006-paper-Yihui-Xie.pdf)；[证书](https://db.yihui.name/imgur/c3soC.jpg)）
 - 2005.12 中国人民大学2004~2005学年“学习优秀奖学金”
 - 2005.06 中国人民大学2004~2005学年度“院系优秀共青团员”
 - 2003.12 中国人民大学2002~2003学年“校级三好学生”
@@ -132,7 +132,7 @@ Email：xie@yihui.name；主页：<http://yihui.name>；现居住于美国内布
 - 谢益辉，Karl Broman，Ian Lyttle，2016，_Dynamic Documents with R Markdown_，useR! 2016 会前培训班，斯坦福大学（[幻灯片](http://slides.yihui.name/2016-useR-rmarkdown-Yihui-Xie.html)）
 - 谢益辉，2016，用 R Markdown 愉快地写作是怎样一种体验，第 9 届中国 R 语言会议，北京（[幻灯片](http://slides.yihui.name/2016-China-R-bookdown-Yihui-Xie.html)）
 - 谢益辉，2016，_CosPlay R_，第 9 届中国 R 语言会议，北京
-- [谢益辉](http://i.imgur.com/uw62CkX.jpg)，2016，R Markdown：便利的学术写作和数据分析工具，[中国海洋大学](http://www2.ouc.edu.cn/math/Ch/NewsView.asp?id=1279&SortID=30)，青岛（[幻灯片](http://slides.yihui.name/2016-OUC-Yihui-Xie.html)）
+- [谢益辉](https://db.yihui.name/imgur/uw62CkX.jpg)，2016，R Markdown：便利的学术写作和数据分析工具，[中国海洋大学](http://www2.ouc.edu.cn/math/Ch/NewsView.asp?id=1279&SortID=30)，青岛（[幻灯片](http://slides.yihui.name/2016-OUC-Yihui-Xie.html)）
 - 谢益辉，2016，漫谈一些有趣的交互式图形应用，青岛大学经济学院
 - 谢益辉，2016，_Shiny and HTML Widgets in R_，大奥马哈地区 Tableau 用户小组聚会，内布拉斯加大学奥马哈分校（[幻灯片](http://slides.yihui.name/2016-UNO-Shiny-Yihui-Xie.html)）
 - 谢益辉，2016，用 R Markdown 写书，美国统计学会芝加哥分部会议，芝加哥（[幻灯片](http://slides.yihui.name/2016-ASAChicago-bookdown-Yihui-Xie.html)）
@@ -178,12 +178,12 @@ Email：xie@yihui.name；主页：<http://yihui.name>；现居住于美国内布
 - 谢益辉，2012，_I web, therefore I am_，爱荷华州立大学统计计算组（[幻灯片](http://yihui.name/slides/2012-stats-web.html)）
 - 谢益辉，2012，_Dynamic Report Generation and Interactive Graphics on the Web_，AT&T实验室暑期实习报告，Florham Park，新泽西州
 - 谢益辉，2012，_cranvas: A New Package for Interactive Statistical Graphics in R_，Joint Statistical Meetings，圣地亚哥，加州
-- [谢益辉](http://i.imgur.com/6oGl4.jpg)，2012，_cranvas: Interactive statistical graphics in R based on Qt_，[useR! 2012](http://biostat.mc.vanderbilt.edu/wiki/Main/UseR-2012)，纳什维尔，田纳西（[R 代码](http://yihui.name/slides/2012-useR-cranvas-demo.R)）
-- [谢益辉](http://i.imgur.com/cs0lG.jpg)，JJ Allaire，2012，_New Tools for Reproducible Research with R_（[幻灯片](http://yihui.name/slides/2012-knitr-RStudio.html)）
+- [谢益辉](https://db.yihui.name/imgur/6oGl4.jpg)，2012，_cranvas: Interactive statistical graphics in R based on Qt_，[useR! 2012](http://biostat.mc.vanderbilt.edu/wiki/Main/UseR-2012)，纳什维尔，田纳西（[R 代码](http://yihui.name/slides/2012-useR-cranvas-demo.R)）
+- [谢益辉](https://db.yihui.name/imgur/cs0lG.jpg)，JJ Allaire，2012，_New Tools for Reproducible Research with R_（[幻灯片](http://yihui.name/slides/2012-knitr-RStudio.html)）
     - 05/30 爱荷华州立大学
     - 05/30 Minneapolis R 用户组
     - 06/05 纽约 R 用户组
-    - 06/14 useR! 2012 会议[邀请报告](http://i.imgur.com/GPFxG.jpg)
+    - 06/14 useR! 2012 会议[邀请报告](https://db.yihui.name/imgur/GPFxG.jpg)
 - 谢益辉，2012，_Go social coding! Make open source more open!_，useR! 2012 会议 5 分钟演讲（[幻灯片](https://github.com/downloads/yihui/yihui.github.com/social-coding-Yihui-Xie-2012.pdf)）
 - 谢益辉，2012，_cranvas: Building from Plumbing and Painting_，[Interface 2012](http://www.interfacesymposia.org/Interface2012/Interface2012.html)，休斯顿，德州（[幻灯片](https://github.com/downloads/yihui/yihui.github.com/cranvas-Houston-2012.pdf)）
 - 谢益辉，2012，_Generating beautiful statistical reports quickly and faithfully_，爱荷华州立大学图形工作组（[幻灯片](https://github.com/downloads/yihui/yihui.github.com/knitr-ISU-2012-Yihui-Xie.pdf)）
@@ -202,28 +202,28 @@ Email：xie@yihui.name；主页：<http://yihui.name>；现居住于美国内布
 - 谢益辉，2009，_R in Stat500: Demonstration, Computing, and Graphics (with An Introduction to the R Package ISU.Stat500)_，RTG 讲座，爱荷华州立大学 （[幻灯片](https://github.com/downloads/yihui/yihui.github.com/ISU-Stat500-2009-Yihui-Xie.pdf)）
 - 谢益辉，2009，_Turning Statistical Ideas into Animations_，VIGRE统计图形讲座，爱荷华州立大学（[幻灯片](https://github.com/downloads/yihui/yihui.github.com/animation-2009-Yihui-Xie.pdf)；[R 代码](https://github.com/downloads/yihui/yihui.github.com/animation-2009-Yihui-Xie.tar.gz)）
 - 谢益辉，2009，可重复的科学研究与 Sweave 的应用，统计 08 博士班报告（[幻灯片](https://github.com/downloads/yihui/yihui.github.com/Sweave-2008-Yihui-Xie.pdf)）
-- [谢益辉](http://i.imgur.com/SDtSv.jpg)，2008，（1）R 语言的历史背景、发展历程及现状（[幻灯片](https://github.com/downloads/yihui/yihui.github.com/R-History-2008-Yihui-Xie.ppt)）（2）统计动画程序包 animation 介绍及其在教学和数据分析中的应用（[幻灯片](https://github.com/downloads/yihui/yihui.github.com/ChinaR-animations-2008-Yihui-Xie.ppt)）（3）无处不在的数据及 R 的探索方法（[幻灯片](https://github.com/downloads/yihui/yihui.github.com/Irregular-Data-2008-Yihui-Xie.ppt)，[R代码](https://gist.github.com/1756790#file_china_r_conference_intro_2008_yihui_xie.r)），[第 1 届中国R语言会议](http://cos.name/2008/12/1st-chinese-r-conference-summary/)，北京，2008 年 12 月 13 日 ~ 14 日（[会议介绍](https://github.com/downloads/yihui/yihui.github.com/ChinaR-Conference-Intro-2008-Yihui-Xie.pdf)，[R 代码](https://gist.github.com/1756790#file_irregular_data_2008_yihui_xie.r)）
-- [谢益辉](http://i.imgur.com/4PXVg.jpg)，2008，R 语言基础，中国科学院植物研究所和中国科学院生物多样性委员会“生物统计和生物多样性数据分析培训班”系列课程（[幻灯片1](https://github.com/downloads/yihui/yihui.github.com/CAS-R-tutorial1-2008-Yihui-Xie.pdf)；[幻灯片2](https://github.com/downloads/yihui/yihui.github.com/CAS-R-tutorial2-2008-Yihui-Xie.pdf)；[幻灯片3](https://github.com/downloads/yihui/yihui.github.com/CAS-R-tutorial3-2008-Yihui-Xie.pdf)；[幻灯片4](https://github.com/downloads/yihui/yihui.github.com/CAS-R-tutorial4-2008-Yihui-Xie.pdf)）
+- [谢益辉](https://db.yihui.name/imgur/SDtSv.jpg)，2008，（1）R 语言的历史背景、发展历程及现状（[幻灯片](https://github.com/downloads/yihui/yihui.github.com/R-History-2008-Yihui-Xie.ppt)）（2）统计动画程序包 animation 介绍及其在教学和数据分析中的应用（[幻灯片](https://github.com/downloads/yihui/yihui.github.com/ChinaR-animations-2008-Yihui-Xie.ppt)）（3）无处不在的数据及 R 的探索方法（[幻灯片](https://github.com/downloads/yihui/yihui.github.com/Irregular-Data-2008-Yihui-Xie.ppt)，[R代码](https://gist.github.com/1756790#file_china_r_conference_intro_2008_yihui_xie.r)），[第 1 届中国R语言会议](http://cos.name/2008/12/1st-chinese-r-conference-summary/)，北京，2008 年 12 月 13 日 ~ 14 日（[会议介绍](https://github.com/downloads/yihui/yihui.github.com/ChinaR-Conference-Intro-2008-Yihui-Xie.pdf)，[R 代码](https://gist.github.com/1756790#file_irregular_data_2008_yihui_xie.r)）
+- [谢益辉](https://db.yihui.name/imgur/4PXVg.jpg)，2008，R 语言基础，中国科学院植物研究所和中国科学院生物多样性委员会“生物统计和生物多样性数据分析培训班”系列课程（[幻灯片1](https://github.com/downloads/yihui/yihui.github.com/CAS-R-tutorial1-2008-Yihui-Xie.pdf)；[幻灯片2](https://github.com/downloads/yihui/yihui.github.com/CAS-R-tutorial2-2008-Yihui-Xie.pdf)；[幻灯片3](https://github.com/downloads/yihui/yihui.github.com/CAS-R-tutorial3-2008-Yihui-Xie.pdf)；[幻灯片4](https://github.com/downloads/yihui/yihui.github.com/CAS-R-tutorial4-2008-Yihui-Xie.pdf)）
 - 谢益辉，2008，_See? (escaping the math world via animations...)_，中国人民大学统计学院演讲（[幻灯片](https://github.com/downloads/yihui/yihui.github.com/animation-RUC-2008-Yihui-Xie.pps)）
-- [谢益辉](http://i.imgur.com/Kujko.jpg)，2008，_Statistical Animations Using R_，德国多特蒙德大学 [useR! 2008](http://www.statistik.uni-dortmund.de/useR-2008/) 会议（[摘要](http://www.statistik.uni-dortmund.de/useR-2008/abstracts/Xie.pdf)；[PPT](https://github.com/downloads/yihui/yihui.github.com/animation-useR-2008-Yihui-Xie.ppt)；[PDF 幻灯片](http://www.statistik.uni-dortmund.de/useR-2008/slides/Xie.pdf)）
+- [谢益辉](https://db.yihui.name/imgur/Kujko.jpg)，2008，_Statistical Animations Using R_，德国多特蒙德大学 [useR! 2008](http://www.statistik.uni-dortmund.de/useR-2008/) 会议（[摘要](http://www.statistik.uni-dortmund.de/useR-2008/abstracts/Xie.pdf)；[PPT](https://github.com/downloads/yihui/yihui.github.com/animation-useR-2008-Yihui-Xie.ppt)；[PDF 幻灯片](http://www.statistik.uni-dortmund.de/useR-2008/slides/Xie.pdf)）
 - 谢益辉，2008，_Computer Animations for Demonstrating Statistical Procedures: Methods and Implementations_，第六届数据可视化会议（Statistical Graphics: Data and Information Visualization in Today’s Multimedia Society [(Data Viz VI)](http://www.jacobs-university.de/schools/shss/awilhelm/)）邀请演讲，德国不莱梅 Jacobs 大学（[幻灯片](https://github.com/downloads/yihui/yihui.github.com/animation-DataViz-2008-Yihui-Xie.pdf)）
-- [谢益辉](http://i.imgur.com/1Sj0J.jpg)，2008，_The Influence of Population Quality Competitiveness to Regional Innovation: the China Case_，第二届“创新推动经济发展的微观实证”国际学术[研讨会](http://stat.ruc.edu.cn/cn/54222.html)演讲（[幻灯片](https://github.com/downloads/yihui/yihui.github.com/MEIDE-2008-Yihui-Xie.pdf)）
+- [谢益辉](https://db.yihui.name/imgur/1Sj0J.jpg)，2008，_The Influence of Population Quality Competitiveness to Regional Innovation: the China Case_，第二届“创新推动经济发展的微观实证”国际学术[研讨会](http://stat.ruc.edu.cn/cn/54222.html)演讲（[幻灯片](https://github.com/downloads/yihui/yihui.github.com/MEIDE-2008-Yihui-Xie.pdf)）
 - 谢益辉，2008，EViews 软件入门培训及宏观经济统计分析应用示例，国家发改委EViews培训（[幻灯片](https://github.com/downloads/yihui/yihui.github.com/Intro-EViews-2008-Yihui-Xie.pdf)）
-- [谢益辉](http://i.imgur.com/hf7Gl.jpg)，2007，_[Animation](http://cran.r-project.org/package=animation) in Statistics: Dynamic Graphics for Statistical Models and Practical Applications_，第二届“首都高校统计学研究生论坛”报告（[幻灯片](https://github.com/downloads/yihui/yihui.github.com/2nd-Stat-Forum-2007-Yihui-Xie.pdf)）
+- [谢益辉](https://db.yihui.name/imgur/hf7Gl.jpg)，2007，_[Animation](http://cran.r-project.org/package=animation) in Statistics: Dynamic Graphics for Statistical Models and Practical Applications_，第二届“首都高校统计学研究生论坛”报告（[幻灯片](https://github.com/downloads/yihui/yihui.github.com/2nd-Stat-Forum-2007-Yihui-Xie.pdf)）
 - 谢益辉，2007，集成分类树及其在脑梗塞预后分析中的应用，临床医学研究中的统计方法学术[研讨会](http://stat.ruc.edu.cn/cn/notice/52039.html)报告（[幻灯片](https://github.com/downloads/yihui/yihui.github.com/Medicine-2007-Yihui-Xie.pdf)）
-- [谢益辉](http://i.imgur.com/BE3yw.jpg)，2007，_Jokes in Statistics_，首都经贸大学统计学院邀请讲座（[幻灯片](https://github.com/downloads/yihui/yihui.github.com/Jokes-2007-Yihui-Xie.pdf)）
+- [谢益辉](https://db.yihui.name/imgur/BE3yw.jpg)，2007，_Jokes in Statistics_，首都经贸大学统计学院邀请讲座（[幻灯片](https://github.com/downloads/yihui/yihui.github.com/Jokes-2007-Yihui-Xie.pdf)）
 - 谢益辉，2007，略谈统计的工具，首都经贸大学统计学院邀请讲座（[幻灯片](https://github.com/downloads/yihui/yihui.github.com/Stat-tools-2007-Yihui-Xie.pdf)；[R代码](https://gist.github.com/1756901)）
 - 谢益辉，2007，_Bootstrap Methods: A Review_，统计前沿课堂[报告](https://github.com/downloads/yihui/yihui.github.com/Bootstrap-2007-Yihui-Xie.pdf)
 - 谢益辉，2007，_An Introduction to Support Vector Machine and Implementation in R_，数据挖掘与机器学习课堂[报告](https://github.com/downloads/yihui/yihui.github.com/SVM-2007-Yihui-Xie.pdf)
 - 谢益辉，2007，统计编程的框架与 R 语言统计分析基础，“统计之都”北京地区第一次沙龙活动演讲（[幻灯片](https://github.com/downloads/yihui/yihui.github.com/R-Programming-2007-Yihui-Xie.pdf)）
 - 谢益辉，2007，_A Brief Introduction to Java_，统计学院报告（[幻灯片](https://github.com/downloads/yihui/yihui.github.com/Java-2007-Yihui-Xie.pdf)）
 - 谢益辉，2007，Stata 统计分析入门，中国人民银行 Stata 介绍与培训（[幻灯片](https://github.com/downloads/yihui/yihui.github.com/Stata-2007-Yihui-Xie.pdf)）
-- [谢益辉](http://i.imgur.com/lB9hL.jpg)，2007，_Visualization of Data and Statistical Models Using R_，第 3 届“计量模型与中国·澳大利亚自由贸易区发展国际研讨会” （[论文](https://github.com/downloads/yihui/yihui.github.com/R-visualization-paper-2007-Yihui-Xie.pdf)；[幻灯片](https://github.com/downloads/yihui/yihui.github.com/R-visualization-2007-Yihui-Xie.pdf)）
+- [谢益辉](https://db.yihui.name/imgur/lB9hL.jpg)，2007，_Visualization of Data and Statistical Models Using R_，第 3 届“计量模型与中国·澳大利亚自由贸易区发展国际研讨会” （[论文](https://github.com/downloads/yihui/yihui.github.com/R-visualization-paper-2007-Yihui-Xie.pdf)；[幻灯片](https://github.com/downloads/yihui/yihui.github.com/R-visualization-2007-Yihui-Xie.pdf)）
 - 谢益辉，2006，_Thoughts of Statistics_，第一届“首都高校统计学研究生论坛”报告（[幻灯片](https://github.com/downloads/yihui/yihui.github.com/Thoughts-2006-Yihui-Xie.pdf)）
 - 谢益辉，2006，_Typesetting and LATEX_，统计学院讲座系列（[幻灯片](https://github.com/downloads/yihui/yihui.github.com/LaTeX-2006-Yihui-Xie.pdf)）
 - 谢益辉，2006，_Statistical Programming & R Basics_，统计学院讲座系列（[幻灯片](https://github.com/downloads/yihui/yihui.github.com/R-Programming-2006-Yihui-Xie.pdf)）
 - 谢益辉，2006，_An Introduction to Structural Equation Modeling_，结构方程模型小型研讨会（[幻灯片](https://github.com/downloads/yihui/yihui.github.com/SEM-2006-Yihui-Xie.pdf)）
-- 赵彦云，李桂荣，[谢益辉](http://i.imgur.com/0ZURF.jpg)，2006，_The Industrial Structure and Foreign Investment Introduction Policy in Shanghai and Its Adjacency_，第2届“[计量模型与中国·澳大利亚自由贸易区发展国际研讨会](http://stat.ruc.edu.cn/cn/22068.html)”（[幻灯片](https://github.com/downloads/yihui/yihui.github.com/ACFTA-2006-Yihui-Xie.pdf)）
+- 赵彦云，李桂荣，[谢益辉](https://db.yihui.name/imgur/0ZURF.jpg)，2006，_The Industrial Structure and Foreign Investment Introduction Policy in Shanghai and Its Adjacency_，第2届“[计量模型与中国·澳大利亚自由贸易区发展国际研讨会](http://stat.ruc.edu.cn/cn/22068.html)”（[幻灯片](https://github.com/downloads/yihui/yihui.github.com/ACFTA-2006-Yihui-Xie.pdf)）
 
 ## 计算机水平
 

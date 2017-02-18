@@ -6,7 +6,7 @@ slug: fancy-html5-slides-with-knitr-and-pandoc
 
 Karthik Ram gave an [Introduction to R](http://inundata.org/R_talks/meetup/) a couple of weeks ago, and I strongly recommend you to take a look at his cool HTML5 slides. I started [trying HTML5 slides](/slides/2011-r-dev-lessons.html) last year, and now it is difficult for me to go back to beamer, which I have used for a few years for my presenations. It is horrible to see beamer slides everywhere at academic conferences (especially the classic blue themes).
 
-![Traces of all vessels](http://i.imgur.com/CiY3K.png)
+![Traces of all vessels](https://db.yihui.name/imgur/CiY3K.png)
 
 You probably have heard of an interesting blog post by Ben Schmidt about [ocean shipping animations](http://sappingattention.blogspot.co.uk/2012/04/visualizing-ocean-shipping.html) in the 18th and 19th centuries. I also played with the dataset a little bit, and made some slides named [Voyages of Sinbad the Sailor](/slides/stat585x-shipping-yihui-xie.html) (use Left/Right or Up/Down to navigate). The source file was written in markdown, compiled by [**knitr**](/knitr/), then converted to DZSlides by [pandoc](http://johnmacfarlane.net/pandoc/).
 

@@ -8,5 +8,5 @@ As every useR knows, the useR! 2010 conference is being held at NIST in Gaithers
 
 Have fun, even if you are a PhD!
 
-![Lilac Chaser](http://i.imgur.com/eDSiw.gif)
+![Lilac Chaser](https://db.yihui.name/imgur/eDSiw.gif)
 

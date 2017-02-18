@@ -10,5 +10,5 @@ slug: china-map-at-province-level
 
 今天再次找数据的时候，却鬼使神差地发现了国家基础地理信息中心的网站：<http://nfgis.nsdi.gov.cn>，里面可以免费下载GIS数据，我今天一眼就看见了国界与省界数据，各种数据都是一个zip压缩包，里面是`*.dbf`、`*.shp`和`*.shx`文件，这是`shapefile`的通用格式，R里面有**maptools**包可以读取（`read.shape()`函数），事实上作图的时候作出来是925个多边形（polygon），我到现在也没明白为什么会有那么多，不过顺利的是我已经知道哪34个多边形是我想要的了。下面是我的一个示例：
 
-![中国分省市地图（借助R的maptools包实现）](http://i.imgur.com/EJMNL.png)
+![中国分省市地图（借助R的maptools包实现）](https://db.yihui.name/imgur/EJMNL.png)
 

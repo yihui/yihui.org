@@ -6,7 +6,7 @@ slug: markdown-or-latex
 
 > What happens if you ask for too much power from Markdown?
 
-![](http://i.imgur.com/vGwGF7s.gif)
+![](https://db.yihui.name/imgur/vGwGF7s.gif)
 
 R Markdown is one of the document formats that **knitr** supports, and it is
 probably the most popular one. I have been asked many times about the choice

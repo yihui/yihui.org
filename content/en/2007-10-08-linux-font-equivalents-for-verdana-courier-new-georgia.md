@@ -10,16 +10,16 @@ Therefore we should find some font equivalents between Windows and Linux in orde
 
 These are three sample pages under Ubuntu:
 
-![](http://i.imgur.com/R8DZv.png)
+![](https://db.yihui.name/imgur/R8DZv.png)
 
-![](http://i.imgur.com/zDrgl.png)
+![](https://db.yihui.name/imgur/zDrgl.png)
 
-![](http://i.imgur.com/CbWWa.png)
+![](https://db.yihui.name/imgur/CbWWa.png)
 
 And these are under Windows XP:
 
-![](http://i.imgur.com/tsRG7.png)
+![](https://db.yihui.name/imgur/tsRG7.png)
 
-![](http://i.imgur.com/nz5S2.png)
+![](https://db.yihui.name/imgur/nz5S2.png)
 
-![](http://i.imgur.com/JVksf.png)
+![](https://db.yihui.name/imgur/JVksf.png)

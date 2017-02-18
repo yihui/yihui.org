@@ -55,6 +55,6 @@ axis(1, lwd = 0); axis(2, lwd = 0); axis(3, lwd = 0); axis(4, lwd = 0)
 
 效果如下：
 
-![用R画中国地图并标注城市位置](http://i.imgur.com/LE4I8.png)
+![用R画中国地图并标注城市位置](https://db.yihui.name/imgur/LE4I8.png)
 
 写这篇日志的目的是征人同投论文，写一些用R获取生活中的“边角料”数据并利用起来做点事情的例子。点击[这里](http://images.ruc.edu.cn/other/2008-10-07/1223373806156.zip)下载论文。关于R会议，请随时[关注通知](http://cos.name/cn/topic/12064)。有同写意向的请速速联系我。
