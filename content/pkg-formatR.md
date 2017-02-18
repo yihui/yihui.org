@@ -2,7 +2,7 @@
 title: formatR
 subtitle: Format R code automatically
 author: Yihui Xie
-date: "2017-02-04"
+date: "2017-02-18"
 show_toc: true
 slug: formatR
 githubEditURL: https://github.com/yihui/formatR/edit/master/vignettes/formatR.Rmd
@@ -57,7 +57,7 @@ sessionInfo()
 ## 
 ## loaded via a namespace (and not attached):
 ## [1] magrittr_1.5       tools_3.3.2        stringi_1.1.2     
-## [4] knitr_1.15.8       methods_3.3.2      stringr_1.1.0.9000
+## [4] knitr_1.15.9       methods_3.3.2      stringr_1.1.0.9000
 ## [7] evaluate_0.10
 ```
 
@@ -150,11 +150,11 @@ If the **shiny** packages has been installed, the function `tidy_app()` can laun
 formatR::tidy_app()
 ```
 
-[![R source code before tidying](http://i.imgur.com/lUgtEAb.png)](https://yihui.shinyapps.io/formatR/)
+[![R source code before tidying](https://db.yihui.name/imgur/lUgtEAb.png)](https://yihui.shinyapps.io/formatR/)
 
 After hitting the `Tidy` button:
 
-[![R source code after tidying](http://i.imgur.com/TBZm0B8.png)](https://yihui.shinyapps.io/formatR/)
+[![R source code after tidying](https://db.yihui.name/imgur/TBZm0B8.png)](https://yihui.shinyapps.io/formatR/)
 
 # 4. Evaluate the code and mask output in comments
 
@@ -172,12 +172,12 @@ a  # print the value
 ## [1] 2
 
 matrix(rnorm(10), 5)
-##             [,1]       [,2]
-## [1,] -0.56047565  1.7150650
-## [2,] -0.23017749  0.4609162
-## [3,]  1.55870831 -1.2650612
-## [4,]  0.07050839 -0.6868529
-## [5,]  0.12928774 -0.4456620
+##          [,1]    [,2]
+## [1,] -0.56048  1.7151
+## [2,] -0.23018  0.4609
+## [3,]  1.55871 -1.2651
+## [4,]  0.07051 -0.6869
+## [5,]  0.12929 -0.4457
 ```
 
 The default source of the code is from clipboard like `tidy_source()`, so we can copy our code to clipboard, and simply run this in R:
