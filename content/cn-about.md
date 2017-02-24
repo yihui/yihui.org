@@ -86,7 +86,7 @@ slug: "cn/about"
 姓名拼音排序：
 
 - [陈钢](http://www.gossipcoder.com/)：中南大学，useR，生物信息学，译者
-- [陈丽云](http://www.loyhome.cn/)：山东大学，经济学，网站控，useR
+- [陈丽云](http://www.loyhome.com/)：山东大学，经济学，网站控，useR
 - [范建宁](http://blog.cos.name/fan)：川大人大，量化投资，useR，许三多
 - [高涛](http://joegaotao.github.io)：唇红齿白
 - [胡江堂](http://li-and-jiang.com/blog/)：北大软件学院，经济学，SAS程序员，一肚子墨水，一手好字
