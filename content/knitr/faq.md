@@ -28,6 +28,6 @@ This FAQ is compiled from the [issues](https://github.com/yihui/knitr/issues) an
 1. What can I do for you?
     - Many things, e.g., [donate zillions to me](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=ZRJDEBSEJEUJY&lc=US&item_name=Donate%20to%20Yihui%20Xie&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted) (just kidding), buy me a gift from my [Amazon wishlist](http://amzn.com/w/2S7M0GLEC32SB), [tweet](https://twitter.com/xieyihui) funny GIF animations to me, or fork the **knitr** repository on Github and contribute code.
     - Cite the package and the [knitr book](http://amzn.com/1498716962); see `citation('knitr')` in R.
-1. How can I submit a documentation fix or other minor change?
-    - To fix anything in the R package: navigate to the file within the [repository](https://github.com/yihui/knitr); click on the **Edit** button; make the necessary changes; add a descriptive commit summary, click on **Propose file change**, and submit the pull request.
-    - To fix anything on this website, please hit the **Edit** button on the toolbar under the page title, and follow the same steps on Github.
+1. How can I submit a documentation fix or other minor changes?
+    - To fix anything in the R package: navigate to the file within the [repository](https://github.com/yihui/knitr); click on the <i class="fa fa-pencil" aria-hidden="true"></i> (Edit) button; make the necessary changes; add a descriptive commit summary, click on **Propose file change**, and submit the pull request.
+    - To fix anything or propose changes on any page of this website, please click on the <i class="fa fa-pencil-square-o" aria-hidden="true"></i> (Edit) button on the toolbar under the page title of that page, and follow the same steps on Github.
