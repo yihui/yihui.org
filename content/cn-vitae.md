@@ -120,6 +120,7 @@ Email：xie@yihui.name；主页：<http://yihui.name>；现居住于美国内布
 
 ## 演讲和讲座
 
+- 谢益辉，2017，_The R Markdown Ecosystem: Reproducible Reports, Papers, Books, Websites, and Presentations_，堪萨斯州立大学植物病理学系，曼哈顿，堪萨斯（[幻灯片](https://slides.yihui.name/2017-RMD-KSU.html)）
 - 谢益辉，2017，_Customizing & Extending R Markdown_，rstudio::conf 大会报告，Kissimmee，佛罗里达 （[幻灯片](https://slides.yihui.name/2017-rstudio-conf-ext-rmd-Yihui-Xie.html)）
 - 谢益辉，2017，_Making Websites with R Markdown_，rstudio::conf 大会报告，Kissimmee，佛罗里达 （[幻灯片](https://slides.yihui.name/2017-rstudio-conf-blogdown-Yihui-Xie.html)）
 - 谢益辉，2017，_Advanced R Markdown_，rstudio::conf 大会培训，Kissimmee，佛罗里达 （[幻灯片](https://slides.yihui.name/2017-rstudio-conf-rmarkdown-Yihui-Xie.html)）

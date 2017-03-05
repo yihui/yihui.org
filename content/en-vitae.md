@@ -164,6 +164,7 @@ Projects participated:
 
 ## Presentations & Tutorials
 
+- Yihui Xie, 2017, _The R Markdown Ecosystem: Reproducible Reports, Papers, Books, Websites, and Presentations_, a seminar in the Department of Plant Pathology, Kansas State University, Manhattan, KS ([slides](https://slides.yihui.name/2017-RMD-KSU.html))
 - Yihui Xie, 2017, _Customizing & Extending R Markdown_, a talk at rstudio::conf, Kissimmee, FL ([slides](https://slides.yihui.name/2017-rstudio-conf-ext-rmd-Yihui-Xie.html))
 - Yihui Xie, 2017, _Making Websites with R Markdown_, a talk at rstudio::conf, Kissimmee, FL ([slides](https://slides.yihui.name/2017-rstudio-conf-blogdown-Yihui-Xie.html))
 - Yihui Xie, 2017, _Advanced R Markdown_, a tutorial at rstudio::conf, Kissimmee, FL ([slides](https://slides.yihui.name/2017-rstudio-conf-rmarkdown-Yihui-Xie.html))
