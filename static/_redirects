@@ -5,5 +5,5 @@
 /knitr-jekyll/*              https://jekyll.yihui.name/:splat
 /recharts/*                  https://recharts.yihui.name/:splat
 /media/js/center-images.js   /js/center-img.js
-https://yihui.netlify.com/*  https://yihui.name/:splat
-http://yihui.netlify.com/*   https://yihui.name/:splat
+https://yihui.netlify.com/*  https://yihui.name/:splat  301!
+http://yihui.netlify.com/*   https://yihui.name/:splat  301!
