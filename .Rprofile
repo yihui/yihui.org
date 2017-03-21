@@ -1,6 +1,7 @@
 options(
-  blogdown.method = 'custom', digits = 4, servr.daemon = TRUE,
-  formatR.indent = 2, blogdown.publishDir = '../yihui-public'
+  blogdown.method = 'custom', digits = 4, servr.daemon = TRUE, formatR.indent = 2,
+  blogdown.publishDir = '../yihui-public', blogdown.yaml.empty = FALSE,
+  blogdown.subdir = 'cn'
 )
 
 local({
