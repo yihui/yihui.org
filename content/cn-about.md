@@ -33,7 +33,7 @@ slug: "cn/about"
 
 本站目前采用 Hugo 作为后台系统，我希望这是我的最后一站。此前我曾走过很多地方：2004 年我开始在博客中国（后来改名为 bokee）写博客，后来改到 blog.com.cn，再后来到 MSN Space 写英文，再后来自己用 Bo-blog 建站，两年后再次换系统为如今流行的 WordPress，三年后我到了码农的乐土，Jekyll，一个以纯文本文件形式写博客的系统，五年后我越来越不能忍受 Jekyll 之慢（本地预览动不动要花 30 秒），于是投奔了以速度见长的 Hugo。
 
-博客模板是在 Hugo 模板 [hugo-lithium-theme](https://github.com/jrutheiser/hugo-lithium-theme) 的基础上作了[修改](https://github.com/yihui/hugo-lithium-theme)。所有页面都基于 Markdown 创建，源文件可以在 [Github](https://github.com/yihui/yihui.name) 上找到；如果你发现任何页面有任何错误，可以点击每篇文章标题下方工具栏上的编辑按钮 <i class="fa fa-edit" aria-hidden="true"></i> 编辑该文的源文件，并在 Github 上向我提交一个合并请求。对了，本站的日志文章可以用键盘上的左右箭头导航，如果你要从盘古开天辟地看起，就到第一篇文章开始一步步按右箭头吧。因为搬过几次家，所以偶尔可能会遇到格式乱糟糟的文字或图片缺失，若有此类情况，请帮忙给我留言提醒一下。本站在苹果系统下浏览体验最佳（有漂亮的宋体和楷体）；建议不要用 IE 浏览器。
+博客模板是在 Hugo 模板 [hugo-lithium-theme](https://github.com/jrutheiser/hugo-lithium-theme) 的基础上作了[修改](https://github.com/yihui/hugo-lithium-theme)。所有页面都基于 Markdown 创建，源文件可以在 [Github](https://github.com/rbind/yihui.name) 上找到；如果你发现任何页面有任何错误，可以点击每篇文章标题下方工具栏上的编辑按钮 <i class="fa fa-edit" aria-hidden="true"></i> 编辑该文的源文件，并在 Github 上向我提交一个合并请求。对了，本站的日志文章可以用键盘上的左右箭头导航，如果你要从盘古开天辟地看起，就到第一篇文章开始一步步按右箭头吧。因为搬过几次家，所以偶尔可能会遇到格式乱糟糟的文字或图片缺失，若有此类情况，请帮忙给我留言提醒一下。本站在苹果系统下浏览体验最佳（有漂亮的宋体和楷体）；建议不要用 IE 浏览器。
 
 # 常见问题
 
@@ -45,7 +45,7 @@ slug: "cn/about"
     - 抱歉，我不是卖软件的，不提供商业软件，反对盗版统计软件，我本人几乎只用自由的[R语言](https://www.r-project.org)。如果你是统计专业的学生或老师，请阅读我在统计之都网站发表的小文：[统计学专业应该使用什么样的统计软件](http://cos.name/2008/11/which-statistical-software-should-we-use/)（写给在统计学院学习的学弟学妹之四）
 1. 好吧，我有一个关于R语言的问题，……
     - 不好意思，我还是推荐你发到 [COS 论坛](http://cos.name/cn)的 [R 语言版](http://cos.name/cn/forum/15)，不是我不愿意帮你，原因是别人可能有同样的问题，你问了之后就省去别人再重复提问的麻烦了，如果人人都来问我，我可能需要重复回答 100 遍，公共场合的帖子可以被后人搜到，这样既节省别人提问的麻烦，也节省我的时间，希望理解；当然，如果是与我个人有关的 R 问题（比如使用我开发的 R 包时遇到了问题），欢迎在这里提出来，我将很乐意帮忙；或者你要是愿意给[统计之都](http://cos.name/donate/)捐赠，我会视作你为公益事业作贡献而回答你的问题。
-    - 我的自由时间不多，发给我的问题我只能选择性答复（参见[《软件奶妈》](/cn/2015/10/software-nanny/)一文），你可以考虑给我[发红包](https://db.yihui.name/imgur/qHN7X6M.png)或发个高质量的笑话。
+    - 我的自由时间不多，发给我的问题我只能选择性答复（参见[《软件奶妈》](/cn/2015/10/software-nanny/)一文），你可以考虑给我[微信红包](https://db.yihui.name/imgur/qHN7X6M.png)或[Paypal 捐赠](https://paypal.me/YihuiXie)或发个高质量的笑话。
 1. 我想请教一个关于结构方程模型的问题，……
     - 那么请你做好心理准备，我可能会小小发飙的。提问之前请阅读“[不再接受关于结构方程模型的咨询](../2008/05/no-more-consultation-about-structural-equation-models/)”以及相关文章。如果你自认为已经搞清楚理论了，则不在禁止之列。如果你仍然坚持 SEM 是一种神奇的模型，我愿意倾听你的理由，但不要拿“某某教授写了某本书”之类的例子说服我，我想知道的是你自己**亲眼所见**的有效案例。
     - 我对我的邮箱做了设置，如果你的邮件正文包含“结构方程模型”字样，则会收到我的自动回复，然后邮件会被自动归档，我本人看不到，如果希望我能收到结构方程模型的邮件，请以“SEM”或其它字样代替。

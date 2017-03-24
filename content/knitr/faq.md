@@ -26,7 +26,7 @@ This FAQ is compiled from the [issues](https://github.com/yihui/knitr/issues) an
     - You need to destroy the chunk header, e.g., add an empty string before the chunk header like ````` `r ''````{r label, what=ever} ````` ([#443](https://github.com/yihui/knitr/issues/443)), or add a [zero-width space](http://en.wikipedia.org/wiki/Zero-width_space) into the chunk header; see [example 065](https://github.com/yihui/knitr-examples)
     - For inline R code, you may use the function `knitr::inline_expr()` (available in knitr >= v1.8)
 1. What can I do for you?
-    - Many things, e.g., [donate zillions to me](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=ZRJDEBSEJEUJY&lc=US&item_name=Donate%20to%20Yihui%20Xie&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted) (just kidding), buy me a gift from my [Amazon wishlist](http://amzn.com/w/2S7M0GLEC32SB), [tweet](https://twitter.com/xieyihui) funny GIF animations to me, or fork the **knitr** repository on Github and contribute code.
+    - You can donate to me if you want (<https://paypal.me/YihuiXie>), [tweet](https://twitter.com/xieyihui) funny GIF animations to me, or fork the **knitr** repository on Github and contribute code.
     - Cite the package and the [knitr book](http://amzn.com/1498716962); see `citation('knitr')` in R.
 1. How can I submit a documentation fix or other minor changes?
     - To fix anything in the R package: navigate to the file within the [repository](https://github.com/yihui/knitr); click on the <i class="fa fa-pencil" aria-hidden="true"></i> (Edit) button; make the necessary changes; add a descriptive commit summary, click on **Propose file change**, and submit the pull request.
