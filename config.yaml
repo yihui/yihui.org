@@ -18,64 +18,64 @@ menu:
   main:
     - name: "About"
       url: "/en/about/"
-      weight: 0
+      weight: 1
     - name: "Blog"
       url: "/en/"
-      weight: 1
+      weight: 2
     - name: "关于"
       url: "/cn/about/"
-      weight: 2
+      weight: 3
     - name: "博客"
       url: "/cn/"
-      weight: 3
+      weight: 4
   en:
     - name: "Home"
       url: "/"
-      weight: 0
+      weight: 1
     - name: "About"
       url: "/en/about/"
-      weight: 1
+      weight: 2
     - name: "Blog"
       url: "/en/"
-      weight: 2
+      weight: 3
     - name: "Vitae"
       url: "/en/vitae/"
-      weight: 3
+      weight: 4
     - name: "中文"
       url: "/cn/"
-      weight: 4
+      weight: 5
   cn:
     - name: "首页"
       url: "/"
-      weight: 0
+      weight: 1
     - name: "关于"
       url: "/cn/about/"
-      weight: 1
+      weight: 2
     - name: "博客"
       url: "/cn/"
-      weight: 2
+      weight: 3
     - name: "简历"
       url: "/cn/vitae/"
-      weight: 3
+      weight: 4
     - name: "English"
       url: "/en/"
-      weight: 4
+      weight: 5
   knitr:
     - name: "Home"
       url: "/knitr/"
-      weight: 0
+      weight: 1
     - name: "Options"
       url: "/knitr/options/"
-      weight: 1
+      weight: 2
     - name: "Hooks"
       url: "/knitr/hooks/"
-      weight: 2
+      weight: 3
     - name: "Examples"
       url: "/knitr/demos/"
-      weight: 3
+      weight: 4
     - name: "FAQ"
       url: "/knitr/faq/"
-      weight: 4
+      weight: 5
     - name: "Github repo"
       pre: "github"
       url: "https://github.com/yihui/knitr"
