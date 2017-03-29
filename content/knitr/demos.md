@@ -2,7 +2,7 @@
 title: Examples
 subtitle: Source and output of demos
 date: '2017-02-03'
-layout: demo
+layout: example
 list_pages: true
 ---
 
