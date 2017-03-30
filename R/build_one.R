@@ -16,11 +16,16 @@ local({
     cache.path = sprintf('blogdown/cache/%s/', d),
     error = FALSE, fig.width = 6, fig.height = 5, dpi = 96, tidy = TRUE
   )
+  if (grepl('^content/animation/', a[1])) knitr::opts_chunk$set(
+    fig.show = 'animate', ffmpeg.format = 'mp4', dev = 'jpeg',
+    aniopts = 'controls loop autoplay', cache.extra = a[3]
+  )
   knitr::opts_knit$set(
     base.dir = normalizePath('static/', mustWork = TRUE),
     base.url = if (a[3] == 'FALSE') 'https://assets.yihui.name/' else '/',
     width = 60
   )
+  set.seed(20150723)
   knitr::knit(a[1], a[2], quiet = TRUE, encoding = 'UTF-8', envir = .GlobalEnv)
   if (file.exists(a[2])) {
     x = blogdown:::append_yaml(
@@ -28,5 +33,12 @@ local({
     )
     blogdown:::writeUTF8(xaringan:::protect_math(x), a[2])
     Sys.chmod(a[2], '0444')  # read-only (should not edit)
+    # keep the animation, and delete all base plots
+    r = '[.](gif|mp4)$'
+    a = list.files('static/figures/', r, recursive = TRUE, full.names = TRUE)
+    for (f in gsub(r, '', a)) {
+      imgs = list.files(dirname(f), '.jpeg$', full.names = TRUE)
+      unlink(imgs[grep('^[0-9]+[.]jpeg$', gsub(f, '', imgs))])
+    }
   }
 })
