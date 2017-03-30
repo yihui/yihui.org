@@ -1,7 +1,6 @@
 ---
 title: Examples
 subtitle: A gallery of animations for statistics
-author: Yihui Xie & Lijia Yu
 date: 2017-03-29
 layout: example
 show_title: true

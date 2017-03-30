@@ -1,7 +1,6 @@
 ---
 title: animation
 subtitle: A gallery of animations in statistics and utilities to create animations
-author: Yihui Xie & Lijia Yu
 date: 2017-02-04
 show_title: true
 ---
