@@ -10,6 +10,7 @@ To set and restore animation options later, you have to store the current option
 Here is an example of using the PDF device. Remember to set `ani.type` accordingly.
 
 ```r
+library(animation)
 oopt = ani.options(
   ani.dev = 'pdf', ani.type = 'pdf', ani.height = 5, ani.width = 7
 )
