@@ -6,7 +6,9 @@ date: 2017-02-04
 show_title: true
 ---
 
-This is an R package to create and export animations to a variety of formats (HTML/JS, GIF, Video, PDF), and it also serves as a gallery of animations related to statistics and computing.
+This is an R package to create and export animations to a variety of formats (HTML/JS, GIF, Video, PDF), and it also serves as a gallery of animations related to statistics and computing. A detailed introduction can be found in the this paper:^[Please note that it was written in 2011, and some functions may have been renamed or changed. This website contains more up-to-date information.]
+
+- Yihui Xie (2013). _animation: An R Package for Creating Animations and Demonstrating Statistical Methods._ Journal of Statistical Software, 53(**1**), 1-27. URL http://www.jstatsoft.org/v53/i01/.
 
 ![The Gradient Descent Algorithm](https://assets.yihui.name/figures/animation/example/grad-desc/demo-a-.gif)
 
