@@ -80,6 +80,23 @@ menu:
       pre: "github"
       url: "https://github.com/yihui/knitr"
       weight: 6
+  animation:
+    - name: "Home"
+      url: "/animation/"
+      weight: 1
+    - name: "Examples"
+      url: "/animation/examples/"
+      weight: 2
+    - name: "Export"
+      url: "/animation/export/"
+      weight: 3
+    - name: "Resources"
+      url: "/animation/resources/"
+      weight: 4
+    - name: "Github repo"
+      pre: "github"
+      url: "https://github.com/yihui/animation"
+      weight: 5
 
 params:
   description: "Personal website of Yihui Xie; 谢益辉的个人网站"
@@ -110,6 +127,7 @@ params:
   author:
     en: "Yihui Xie"
     cn: "谢益辉"
+    animation: "Yihui Xie"
 
   lang:
     edit:

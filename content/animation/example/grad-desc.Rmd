@@ -1,0 +1,13 @@
+---
+title: grad.desc()
+subtitle: Gradient Descent Algorithm for the 2D case
+date: '2017-03-29'
+slug: grad-desc
+---
+
+```{r demo-a, cache=TRUE, interval=.1, ffmpeg.format='gif', fig.width=5, fig.height=5}
+library(animation)
+ani.options(interval = 0.1)
+par(mar = c(4, 4, 3, .1))
+grad.desc()
+```
