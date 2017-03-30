@@ -12,7 +12,7 @@
   {{ end }}
   {{ if or (not .Content) .Params.list_pages }}
   <div class="archive">
-    {{ range (where .Site.Pages "Type" .Section).ByDate }}
+    {{ range (where .Site.Pages "Type" .Section).ByParam (or .Params.order_by "date" ) }}
     {{ if len (findRE "/(demo|example)/$" .File.Dir) }}
     <article class="archive-item">
       <a href="{{ .Permalink }}" class="archive-item-link">{{ .Title }} {{ with .Params.subtitle }}<span class='article-subtitle'> &middot; {{ . }} </span>{{ end }}</a>
