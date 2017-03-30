@@ -37,7 +37,7 @@ a {
 .article-toolbar a:hover, .article-toolbar a:focus {
   color: #222;
 }
-iframe, twitterwidget {
+iframe, twitterwidget, video {
   display: block;
   margin: auto;
 }
