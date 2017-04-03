@@ -13,7 +13,7 @@ build_one = function(io, external = FALSE)  {
   if (file_test('-nt', io[2], io[1])) {
     # if an Rmd is currently staged, compile it even if .md is newer than .Rmd
     staged = system2('git', 'diff --name-only --cached', stdout = TRUE)
-    if (!io[1] %in% staged) return()
+    if (!any(io %in% staged)) return()
   }
 
   if (local) message('* knitting ', io[1])
