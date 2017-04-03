@@ -14,4 +14,4 @@ par(mar = c(4, 4, 3, 0.1))
 grad.desc()
 ```
 
-![plot of chunk demo-a](https://assets.yihui.name/figures/animation/example/grad-desc/demo-a-.gif)
+![plot of chunk demo-a](https://assets.yihui.name/figures/animation/example/grad-desc/demo-a.gif)

@@ -13,4 +13,4 @@ oopt = ani.options(nmax = 200 + 15 - 2, interval = 0.1)
 quincunx(balls = 200, col.balls = rainbow(200))
 ```
 
-<video controls loop autoplay><source src="https://assets.yihui.name/figures/animation/example/quincunx/demo-a-.mp4" /><p>Quincunx</p></video>
+<video controls loop autoplay><source src="https://assets.yihui.name/figures/animation/example/quincunx/demo-a.mp4" /><p>Quincunx</p></video>
