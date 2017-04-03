@@ -3,6 +3,11 @@
   <div id="disqus_thread"></div>
   <script src="/js/disqusloader.min.js"></script>
   <script>
+  var disqus_config = function () {
+  {{ with .Site.Params.disqusURL }}
+    this.page.url = "{{ . }}" +{{ if eq $.Type "404" }} "/404.html" {{ else }} location.pathname{{ end }};
+  {{ end }}
+  };
   (function() {
     var inIFrame = function() {
       var iframe = true;
@@ -10,14 +15,18 @@
       return iframe;
     };
     if (inIFrame()) return;
-    disqusLoader('#disqus_thread', {
-      scriptUrl: '//{{ .Site.DisqusShortname }}.disqus.com/embed.js', laziness: 0
-      {{ with .Site.Params.disqusURL }},
-      disqusConfig: function () {
-        this.page.url = "{{ . }}" +{{ if eq $.Type "404" }} "/404.html" {{ else }} location.pathname{{ end }};
-      }
-      {{ end }}
-    });
+    var disqus_js = '//{{ .Site.DisqusShortname }}.disqus.com/embed.js';
+    // do not use lazy loading when the hash means to jump to a comment
+    if (location.hash.match(/^#comment/)) {
+      var d = document, s = d.createElement('script');
+      s.src = disqus_js; s.async = true;
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+    } else {
+      disqusLoader('#disqus_thread', {
+        scriptUrl: disqus_js, laziness: 0, disqusConfig: disqus_config
+      });
+    }
   })();
   </script>
   <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
