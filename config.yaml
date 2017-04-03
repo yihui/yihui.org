@@ -1,5 +1,4 @@
 baseurl: "/"
-relativeurls: true
 languageCode: "en-us"
 title: "Yihui Xie | 谢益辉"
 theme: "hugo-lithium-theme"

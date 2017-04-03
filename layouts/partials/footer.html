@@ -16,7 +16,6 @@
     {{ range .Site.Params.customJS }}
     <script async src="{{ . | absURL }}"></script>
     {{ end }}
-    {{ partial "fix_rel_url" . }}
     {{ partial "footer_highlightjs" . }}
     {{ partial "footer_mathjax" . }}
     {{ template "_internal/google_analytics.html" . }}
