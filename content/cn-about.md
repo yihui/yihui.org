@@ -33,7 +33,7 @@ slug: "cn/about"
 
 本站目前采用 Hugo 作为后台系统，我希望这是我的最后一站。此前我曾走过很多地方：2004 年我开始在博客中国（后来改名为 bokee）写博客，后来改到 blog.com.cn，再后来到 MSN Space 写英文，再后来自己用 Bo-blog 建站，两年后再次换系统为如今流行的 WordPress，三年后我到了码农的乐土，Jekyll，一个以纯文本文件形式写博客的系统，五年后我越来越不能忍受 Jekyll 之慢（本地预览动不动要花 30 秒），于是投奔了以速度见长的 Hugo。
 
-博客模板是在 Hugo 模板 [hugo-lithium-theme](https://github.com/jrutheiser/hugo-lithium-theme) 的基础上作了[修改](https://github.com/yihui/hugo-lithium-theme)。所有页面都基于 Markdown 创建，源文件可以在 [Github](https://github.com/rbind/yihui.name) 上找到；如果你发现任何页面有任何错误，可以点击每篇文章标题下方工具栏上的编辑按钮 <i class="fa fa-edit" aria-hidden="true"></i> 编辑该文的源文件，并在 Github 上向我提交一个合并请求。对了，本站的日志文章可以用键盘上的左右箭头导航，如果你要从盘古开天辟地看起，就到第一篇文章开始一步步按右箭头吧。因为搬过几次家，所以偶尔可能会遇到格式乱糟糟的文字或图片缺失，若有此类情况，请帮忙给我留言提醒一下。本站在苹果系统下浏览体验最佳（有漂亮的宋体和楷体）；建议不要用 IE 浏览器。
+博客模板是在 Hugo 模板 [hugo-lithium-theme](https://github.com/jrutheiser/hugo-lithium-theme) 的基础上作了[修改](https://github.com/yihui/hugo-lithium-theme)。所有页面都基于 Markdown 创建，源文件可以在 [Github](https://github.com/rbind/yihui) 上找到；如果你发现任何页面有任何错误，可以点击每篇文章标题下方工具栏上的编辑按钮 <i class="fa fa-edit" aria-hidden="true"></i> 编辑该文的源文件，并在 Github 上向我提交一个合并请求。对了，本站的日志文章可以用键盘上的左右箭头导航，如果你要从盘古开天辟地看起，就到第一篇文章开始一步步按右箭头吧。因为搬过几次家，所以偶尔可能会遇到格式乱糟糟的文字或图片缺失，若有此类情况，请帮忙给我留言提醒一下。本站在苹果系统下浏览体验最佳（有漂亮的宋体和楷体）；建议不要用 IE 浏览器。
 
 # 常见问题
 
