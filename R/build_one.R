@@ -38,7 +38,7 @@ local({
     a = list.files('static/figures/', r, recursive = TRUE, full.names = TRUE)
     for (f in gsub(r, '', a)) {
       imgs = list.files(dirname(f), '.jpeg$', full.names = TRUE)
-      unlink(imgs[grep('^[0-9]+[.]jpeg$', gsub(f, '', imgs))])
+      unlink(imgs[grep('^-[0-9]+[.]jpeg$', gsub(f, '', imgs))])
     }
   }
 })
