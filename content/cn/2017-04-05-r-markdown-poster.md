@@ -14,7 +14,7 @@ slug: r-markdown-poster
 
     1. 源代码看起来丑。
     
-    1. 环境内部不能用 Mardkown。如果要问为什么的话，请看[这里](https://github.com/jgm/pandoc/issues/2453)。不能用 Markdown 语法那还说个毛线，比如敲个列表又要用丑丑的 `\item`。整个人生都失去了意义。
+    1. 环境内部不能用 Markdown。如果要问为什么的话，请看[这里](https://github.com/jgm/pandoc/issues/2453)。不能用 Markdown 语法那还说个毛线，比如敲个列表又要用丑丑的 `\item`。整个人生都失去了意义。
 
     所以呢，黑招藏在 knitr 的 [block2 引擎](https://github.com/yihui/knitr/blob/master/R/engine.R)里。这个引擎是我在开发 bookdown 时想出来的，它没有任何技术文档，只有简略的[表面介绍](https://bookdown.org/yihui/bookdown/custom-blocks.html)，所以读源代码吧少年，源代码很短，套路却相当之深。它的目的是在 bookdown 文档中创建自定义环境，让这些环境能在 LaTeX 和 HTML 输出中通用，而且环境内部还要能支持 Markdown 语法。
 
