@@ -37,15 +37,15 @@ slug: git-submodule
 - 如果已经克隆并初始化子模块，而需要从子模块的源更新这个子模块，则：
 
     ```bash
-    git submodule foreach git pull origin master
+    git submodule update --recursive --remote
     ```
     
-    这里说的不是太严格，因为子模块也不一定是用的 master 分支，看具体情况。更新之后主库的 git 差异中会显示新的 SHA 码，把这个差异选中提交即可。
+    更新之后主库的 git 差异中会显示新的 SHA 码，把这个差异选中提交即可。
 
 - 如果要向一个库中添加一个新的子模块，可以用 `git submodule add`，例如把我的 Github 账户下的一个库添加到 `themes/hugo-lithium-theme` 文件夹中：
 
     ```bash
-    git submodule add https://github.com/yihui/hugo-lithium-theme.git \
+    git submodule add https://github.com/yihui/hugo-lithium-theme.git\
       themes/hugo-lithium-theme
     ```
     
