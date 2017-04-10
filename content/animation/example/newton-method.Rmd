@@ -1,0 +1,59 @@
+---
+title: newton.method()
+subtitle: Demonstration of the Newton-Raphson method for root-finding
+date: '2017-04-04'
+slug: newton-method
+---
+
+This function provides an illustration of the iterations in Newton's method.
+
+Newton's method (also known as the Newton-Raphson method or the
+Newton-Fourier method) is an efficient algorithm for finding approximations
+to the zeros (or roots) of a real-valued function f(x).
+
+The iteration goes on in this way:
+
+$$x_{k + 1} = x_{k} - \frac{FUN(x_{k})}{FUN'(x_{k})}$$
+
+From the starting value $x_0$, vertical lines and points are plotted to
+show the location of the sequence of iteration values $x_1, x_2, \ldots$; 
+tangent lines are drawn to illustrate the
+relationship between successive iterations; the iteration values are in the
+right margin of the plot.
+
+ 
+```{r demo-a, cache=TRUE, interval=1}
+library(animation)
+ani.options(interval = 1, nmax = 50)
+par(pch = 20)
+
+## default example
+xx = newton.method()
+xx$root  # solution
+```
+
+```{r demo-b, cache=TRUE, interval=1}
+## take a long long journey
+newton.method(function(x) 5 * x^3 - 7 * x^2 - 40 * x + 100, 7.15, c(-6.2, 7.1))
+```
+
+```{r demo-c, cache=TRUE, interval=0.5}
+## another function
+ani.options(interval = 0.5)
+xx = newton.method(function(x) exp(-x) * x, rg = c(0, 10), init = 2)
+```
+
+```{r demo-d, cache=TRUE, interval=1}
+## does not converge!
+xx = newton.method(function(x) atan(x), rg = c(-5, 5), init = 1.5)
+xx$root   # Inf
+```
+
+```{r demo-e, cache=TRUE, interval=.1, eval=FALSE}
+## interaction: use your mouse to select the starting point
+if (interactive()) {
+  ani.options(interval = 0.5, nmax = 50)
+  xx = newton.method(function(x) atan(x), rg = c(-2,
+                                                 2), interact = TRUE)
+}
+```

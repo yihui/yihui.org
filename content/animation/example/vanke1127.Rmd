@@ -1,0 +1,19 @@
+---
+title: vanke1127()
+subtitle: Stock price of Vanke
+date: '2017-04-04'
+slug: vanke1127
+---
+ 
+Barplots of the stock prices of Vanke Co. Ltd on 2009/11/27 
+
+```{r demo-a, cache=TRUE, interval=.5}
+library(animation)
+tab.price = table(vanke1127$price)
+plot(as.numeric(names(tab.price)), as.numeric(tab.price), type = 'h',
+     xlab = 'price', ylab = 'frequency')
+
+ani.options(interval = 0.5, loop = FALSE, title = 'Stock price of Vanke')
+
+price.ani(vanke1127$price, vanke1127$time, span = 15 * 60, lwd = 2)
+```

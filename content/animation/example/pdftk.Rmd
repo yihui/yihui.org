@@ -1,0 +1,33 @@
+---
+title: pdftk()
+subtitle: "A wrapper for the PDF toolkit Pdftk"
+date: '2017-04-04'
+slug: pdftk
+---
+
+If the toolkit Pdftk is available in the system, it will be called to
+manipulate the PDF files (especially to compress the PDF files).
+
+This is a wrapper to call `pdftk`. The path of `pdftk` should
+be set via `ani.options(pdftk = 'path/to/pdftk')`.
+
+See the reference for detailed usage of `pdftk`.
+ 
+```{r, cache=TRUE, interval=.1, eval=FALSE}
+library(animation)
+pdf('huge-plot.pdf')
+plot(rnorm(50000))
+dev.off()
+
+## Windows
+ani.options(pdftk = 'D:/Installer/pdftk.exe')
+pdftk('huge-plot.pdf', output = 'huge-plot0.pdf')
+
+## Linux (does not work??)
+ani.options(pdftk = 'pdftk')
+pdftk('huge-plot.pdf', output = 'huge-plot1.pdf')
+
+ani.options(pdftk = NULL)
+
+file.info(c('huge-plot.pdf', 'huge-plot0.pdf', 'huge-plot1.pdf'))['size']
+```

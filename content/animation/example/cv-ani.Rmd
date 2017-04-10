@@ -1,0 +1,34 @@
+---
+title: cv.ani()
+subtitle: Demonstration of the k-fold Cross Validation
+date: '2017-04-04'
+slug: cv-ani
+---
+
+This function uses rectangles to illustrate the $k$ folds and
+mark the test set and the training set with different colors.
+
+Briefly speaking, the process of cross-validation is just to split
+the whole data set into several parts and select one part as the
+test set and the rest parts as the training set.
+
+The computation of sample sizes is base on `kfcv`.
+
+ 
+This is a naive demonstration for the k-fold cross validation. The k rectangles in the plot denote the k folds of data. Each time a fold will be used as the test set and the rest parts as the training set. 
+
+```{r demo-a, cache=TRUE, interval=1}
+library(animation)
+ani.options(interval = 1, nmax = 15)
+cv.ani(main = 'Demonstration of the k-fold Cross Validation', bty = 'l')
+
+```
+
+
+
+```{r demo-b, cache=TRUE, interval=1}
+## leave-one-out CV
+cv.ani(x = runif(15), k = 15)
+```
+
+

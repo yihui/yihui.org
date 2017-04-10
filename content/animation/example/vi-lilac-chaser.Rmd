@@ -1,0 +1,18 @@
+---
+title: vi.lilac.chaser()
+subtitle: "Visual Illusions: Lilac Chaser"
+date: '2017-04-04'
+slug: vi-lilac.chaser
+---
+
+Stare at the center cross for a few (say 30) seconds to experience the
+phenomena of the illusion.
+
+Just try it out.
+ 
+```{r demo-a, cache=TRUE, interval=.05}
+library(animation)
+ani.options(interval = 0.05, nmax = 20)
+par(pty = 's')
+vi.lilac.chaser()
+```

@@ -1,0 +1,16 @@
+---
+title: sample.cluster()
+subtitle: Demonstration of the cluster sampling
+date: '2017-04-04'
+slug: sample-cluster
+---
+Each rectangle stands for a cluster, and the simple random sampling without
+replacement is performed for each cluster. All points in the clusters being
+sampled will be drawn out.
+ 
+```{r demo-a, cache=TRUE, interval=.5}
+library(animation)
+ani.options(nmax = 50)
+par(mar = rep(1, 4))
+sample.cluster(col = c('bisque', 'white'))
+```

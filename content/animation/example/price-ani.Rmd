@@ -1,0 +1,16 @@
+---
+title: price.ani()
+subtitle: Stock prices of Vanke
+date: '2017-04-04'
+slug: price-ani
+---
+Demonstrate stock prices in animations
+
+This function can display the frequencies of stock prices in a certain time
+span with the span changing.
+ 
+```{r demo-a, cache=TRUE, interval=1}
+library(animation)
+## see more examples in ?vanke1127
+price.ani(vanke1127$price, vanke1127$time, lwd = 2)
+```

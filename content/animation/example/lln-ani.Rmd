@@ -1,0 +1,32 @@
+---
+title: lln.ani()
+subtitle: Demonstration of the Law of Large Numbers
+date: '2017-04-04'
+slug: lln-ani
+---
+
+This function plots the sample mean as the sample size grows to check whether
+the sample mean approaches to the population mean.
+
+`np` points are plotted to denote the distribution of the sample mean;
+we will observe that the range of the sample mean just becomes smaller and
+smaller as the sample size increases and ultimately there will be an obvious
+trend that the sample mean converges to the population mean `mu`.
+
+The parameter `nmax` in `ani.options` means the maximum
+sample size.
+
+ 
+```{r demo-a, cache=TRUE, interval=.1}
+library(animation)
+ani.options(interval = 0.01, nmax = 150)
+
+lln.ani(pch = '.')
+```
+
+```{r demo-b, cache=TRUE, interval=.1}
+## chi-square distribution; population mean = df
+lln.ani(FUN = function(n, mu) rchisq(n, df = mu), mu = 5, cex = 0.6)
+```
+
+The sample mean approaches to the population mean as the sample size n grows

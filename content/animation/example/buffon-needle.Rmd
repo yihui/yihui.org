@@ -1,0 +1,36 @@
+---
+title: buffon.needle()
+subtitle: "Simulation of Buffons Needle"
+date: '2017-04-04'
+slug: buffon-needle
+---
+
+This function provides a simulation for the problem of Buffon's Needle, which
+is one of the oldest problems in the field of geometrical probability.
+
+This is quite an old problem in probability. For mathematical background,
+please refer to <http://en.wikipedia.org/wiki/Buffon's_needle> or
+<http://www.mste.uiuc.edu/reese/buffon/buffon.html>.
+
+`Needles' are denoted by segments on the 2D plane, and dropped randomly to
+check whether they cross the parallel lines. Through many times of `dropping'
+needles, the approximate value of $\pi$ can be calculated out.
+
+There are three graphs made in each step: the top-left one is a simulation of
+the scenario, the top-right one is to help us understand the connection
+between dropping needles and the mathematical method to estimate $\pi$,
+and the bottom one is the result for each drop.
+ 
+```{r demo-a, cache=TRUE, interval=.1}
+library(animation)
+## it takes several seconds if 'redraw = TRUE'
+ani.options(nmax = 400, 1)
+par(mar = c(3, 2.5, 0.5, 0.2), pch = 20, mgp = c(1.5, 0.5, 0))
+buffon.needle()
+```
+ 
+```{r demo-b, cache=TRUE, interval=.1}
+## this will be faster
+ani.options(nmax = 400, 1)
+buffon.needle(redraw = FALSE)
+```

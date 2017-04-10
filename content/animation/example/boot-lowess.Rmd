@@ -1,0 +1,24 @@
+---
+title: boot.lowess()
+subtitle: Bootstrapping with LOWESS
+date: '2017-04-04'
+slug: boot-lowess
+---
+
+Sample the original data with replacement and fit LOWESS curves accordingly.
+
+We keep on resampling the data and finally we will see several bootstrapped
+LOWESS curves, which may give us a rough idea about a `confidence interval`
+of the LOWESS fit.
+ 
+```{r demo-a, cache=TRUE, interval=.2}
+library(animation)
+ani.options(nmax =100, interval = .02)
+
+boot.lowess(cars, pch = 20, xlab = 'speed', ylab = 'dist')
+
+```
+
+```{r demo-b, cache=TRUE, interval=.2}
+boot.lowess(cars, f = 1/3, pch = 20)
+```

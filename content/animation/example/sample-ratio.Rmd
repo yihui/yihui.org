@@ -1,0 +1,32 @@
+---
+title: sample.ratio()
+subtitle: Demonstration of the Ratio Estimation in Sampling Survey
+date: '2017-04-04'
+slug: sample-ratio
+---
+
+This function demonstrates the advantage of ratio estimation when further
+information (ratio) about x and y is available.
+
+From this demonstration we can clearly see that the ratio estimation is
+generally better than the simple sample average when the ratio **R**
+really exists, otherwise ratio estimation may not help.
+ 
+```{r demo-a, cache=TRUE, interval=1}
+library(animation)
+ani.options(interval = 1, nmax = 50)
+
+## observe the location of the red line (closer to the population mean)
+res = sample.ratio()
+
+## absolute difference with the true mean
+matplot(abs(cbind(res$ybar.ratio, res$ybar.simple) - res$Ybar), type = 'l')
+legend('topleft', c('Ratio Estimation', 'Sample Average'),
+       lty = 1:2, col = 1:2)
+```
+
+```{r demo-b, cache=TRUE, interval=1}
+## if the ratio does not actually exist:
+sample.ratio(X = rnorm(50), Y = rnorm(50))
+## ratio estimation may not be better than the simple average
+```

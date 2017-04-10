@@ -1,9 +1,10 @@
 ---
-title: quincunx()
-subtitle: Demonstration of the Galton Box, example 1
+title: quincunx2()
+subtitle: Demonstration of the Galton Box, example 2
 date: '2017-04-04'
-slug: quincunx
+slug: quincunx2
 ---
+
 Demonstration of the Quincunx (Bean Machine/Galton Box)
 
 Simulates the quincunx with ``balls'' (beans) falling through several layers
@@ -23,7 +24,9 @@ the bell-shaped distribution.
 library(animation)
 set.seed(123)
 ani.options(nmax = 200 + 15 -2, 2)
-freq = quincunx(balls = 200, col.balls = rainbow(200))
+freq = quincunx2(balls = 200, col.balls = rainbow(200))
+
 ## frequency table
-barplot(freq, space = 0)
+barplot(freq$top, space = 0) # top layers
+barplot(freq$bottom, space = 0) # bottom layers
 ```

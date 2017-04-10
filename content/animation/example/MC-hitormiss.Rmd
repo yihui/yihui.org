@@ -1,0 +1,27 @@
+---
+title: MC.hitormiss()
+subtitle: Hit or Miss Monte Carlo Integration
+date: '2017-04-04'
+slug: MC-hitormiss
+---
+
+Integrate a function using the Hit-or-Miss Monte Carlo algorithm.
+
+We compute the proportion of points hitting the area under the curve, and the
+integral can be estimated by the proportion multiplied by the total area of
+the rectangle (from xmin to xmax, ymin to ymax).
+
+ 
+```{r demo-a, cache=TRUE, interval=.1}
+library(animation)
+ani.options(interval = 0.2, nmax = 100)
+
+## should be close to 1/6
+MC.hitormiss()$est
+```
+
+```{r demo-b, cache=TRUE, interval=.1}
+## should be close to 1/12
+MC.hitormiss(from = 0.5, to = 1)$est
+ 
+```
