@@ -16,8 +16,7 @@ the plots when any changes are made on the current plot. For a graphical
 device to be recordable, you have to call `dev.control('enable')` before
 plotting.
  
-```{r demo-a, cache=TRUE, interval=.1, eval=FALSE}
-library(animation)
+```{r, cache=TRUE, interval=.1, eval=FALSE}
 library(animation)
 
 n = 20

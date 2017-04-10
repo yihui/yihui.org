@@ -56,7 +56,7 @@ xx = grad.desc(f2, c(-2, -2, 2, 2), c(-1, 0.5),
                gamma = 0.1, tol = 1e-04)
 ```
 
-```{r demo-e, cache=TRUE, interval=.1}
+```{r, cache=TRUE, interval=.1, eval=FALSE}
 ## click your mouse to select a start point
 if (interactive()) {
   xx = grad.desc(f2, c(-2, -2, 2, 2), interact = TRUE,

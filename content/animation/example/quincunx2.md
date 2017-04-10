@@ -38,4 +38,4 @@ barplot(freq$top, space = 0)  # top layers
 barplot(freq$bottom, space = 0)  # bottom layers
 ```
 
-<video controls loop autoplay><source src="https://assets.yihui.name/figures/animation/example/quincunx2/demo-a.mp4" /><p>plot of chunk demo-a</p></video>
+<video controls loop autoplay><source src="/figures/animation/example/quincunx2/demo-a.mp4" /><p>plot of chunk demo-a</p></video>

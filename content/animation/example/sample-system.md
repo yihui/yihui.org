@@ -15,7 +15,6 @@ a random starting point. The points being sampled are marked by red circles.
 library(animation)
 ani.options(nmax = 50)
 par(mar = rep(1, 4), lwd = 2)
-
 sample.system()
 ```
 

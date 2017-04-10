@@ -17,16 +17,16 @@ The computation of sample sizes is base on `kfcv`.
  
 This is a naive demonstration for the k-fold cross validation. The k rectangles in the plot denote the k folds of data. Each time a fold will be used as the test set and the rest parts as the training set. 
 
-```{r demo-a, cache=TRUE, interval=.1}
+```{r demo-a, cache=TRUE, interval=1}
 library(animation)
-ani.options(interval = 2, nmax = 15)
+ani.options(interval = 1, nmax = 15)
 cv.ani(main = 'Demonstration of the k-fold Cross Validation', bty = 'l')
 
 ```
 
 
 
-```{r demo-b, cache=TRUE, interval=.1}
+```{r demo-b, cache=TRUE, interval=1}
 ## leave-one-out CV
 cv.ani(x = runif(15), k = 15)
 ```

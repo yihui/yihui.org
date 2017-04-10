@@ -22,7 +22,7 @@ relationship between successive iterations; the iteration values are in the
 right margin of the plot.
 
  
-```{r demo-a, cache=TRUE, interval=.1}
+```{r demo-a, cache=TRUE, interval=1}
 library(animation)
 ani.options(interval = 1, nmax = 50)
 par(pch = 20)
@@ -32,24 +32,24 @@ xx = newton.method()
 xx$root  # solution
 ```
 
-```{r demo-b, cache=TRUE, interval=.1}
+```{r demo-b, cache=TRUE, interval=1}
 ## take a long long journey
 newton.method(function(x) 5 * x^3 - 7 * x^2 - 40 * x + 100, 7.15, c(-6.2, 7.1))
 ```
 
-```{r demo-c, cache=TRUE, interval=.1}
+```{r demo-c, cache=TRUE, interval=0.5}
 ## another function
 ani.options(interval = 0.5)
 xx = newton.method(function(x) exp(-x) * x, rg = c(0, 10), init = 2)
 ```
 
-```{r demo-d, cache=TRUE, interval=.1}
+```{r demo-d, cache=TRUE, interval=1}
 ## does not converge!
 xx = newton.method(function(x) atan(x), rg = c(-5, 5), init = 1.5)
 xx$root   # Inf
 ```
 
-```{r demo-e, cache=TRUE, interval=.1}
+```{r demo-e, cache=TRUE, interval=.1, eval=FALSE}
 ## interaction: use your mouse to select the starting point
 if (interactive()) {
   ani.options(interval = 0.5, nmax = 50)

@@ -24,10 +24,13 @@ and the bottom one is the result for each drop.
 ```{r demo-a, cache=TRUE, interval=.1}
 library(animation)
 ## it takes several seconds if 'redraw = TRUE'
-ani.options(nmax = 500, 2)
+ani.options(nmax = 400, 1)
 par(mar = c(3, 2.5, 0.5, 0.2), pch = 20, mgp = c(1.5, 0.5, 0))
 buffon.needle()
-
+```
+ 
+```{r demo-b, cache=TRUE, interval=.1}
 ## this will be faster
-## buffon.needle(redraw = FALSE)
+ani.options(nmax = 400, 1)
+buffon.needle(redraw = FALSE)
 ```

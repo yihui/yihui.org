@@ -16,7 +16,7 @@ really exists, otherwise ratio estimation may not help.
 
 ```r
 library(animation)
-ani.options(interval = 2, nmax = 50)
+ani.options(interval = 1, nmax = 50)
 
 ## observe the location of the red line (closer to the
 ## population mean)

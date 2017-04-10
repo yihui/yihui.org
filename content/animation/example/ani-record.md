@@ -20,7 +20,6 @@ plotting.
 
 ```r
 library(animation)
-library(animation)
 
 n = 20
 x = sort(rnorm(n))

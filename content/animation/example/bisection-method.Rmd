@@ -22,20 +22,23 @@ denoted in dashed red lines. The root of each iteration is also plotted in
 the right margin of the graph.
 
  
-```{r demo-a, cache=TRUE, interval=.1}
+```{r demo-a, cache=TRUE, interval=.2}
 library(animation)
 ani.options(nmax = 30)
 
 ## default example
 xx = bisection.method()
 xx$root  # solution
-
+```
+ 
+```{r demo-b, cache=TRUE, interval=.2}
 ## a cubic curve
 f = function(x) x^3 - 7 * x - 10
 xx = bisection.method(f, c(-3, 5))
 ```
 
-```{r demo-b, cache=TRUE, interval=.1}
+
+```{r, cache=TRUE, interval=.1, eval=FALSE}
 ## interaction: use your mouse to select the two end-points
 if (interactive())
   bisection.method(f, c(-3, 5), interact = TRUE)

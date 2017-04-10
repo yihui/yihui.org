@@ -29,7 +29,7 @@ of this matrix.
 
 ```r
 library(animation)
-ani.options(interval = 0.1, nmax = 50)
+ani.options(interval = 0.2, nmax = 50)
 
 ## use default arguments (random numbers); you may try to find
 ## the real data

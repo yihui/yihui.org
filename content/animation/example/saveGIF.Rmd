@@ -8,7 +8,7 @@ slug: saveGIF
 This function opens a graphical device (specified in
 `ani.options('ani.dev')`) first to generate a sequence of images based
 on `expr`, then makes use of the command `convert` in
-`ImageMagick' to convert these images to a single animated movie (as a GIF or
+'ImageMagick' to convert these images to a single animated movie (as a GIF or
 MPG file). An alternative software package is GraphicsMagick (use
 `convert = 'gm convert'`), which is smaller than ImageMagick.
 

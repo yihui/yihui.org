@@ -15,7 +15,6 @@ marked out (by red circles by default).
 library(animation)
 ani.options(nmax = 50)
 par(mar = rep(1, 4), lwd = 2)
-
 sample.strat(col = c("bisque", "white"))
 ```
 

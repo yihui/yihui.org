@@ -24,7 +24,7 @@ power (measured by the F-statistic in ANOVA):
 - Determine the optimum number of features with the largest `\(p\)`.
 
 
-Note that `\(g_{max\)`} is set by `ani.options('nmax')` (i.e. the
+Note that `\(g_{max}\)` is set by `ani.options('nmax')` (i.e. the
 maximum number of features we want to choose).
 
  
@@ -42,4 +42,4 @@ cv.nfeaturesLDA(pch = 19)
 
 <video controls loop autoplay><source src="/figures/animation/example/cv-nfeaturesLDA/demo-a.mp4" /><p>plot of chunk demo-a</p></video>
 
-'This animation provides an illustration of the process of finding out the optimum number of variables using k-fold cross-validation in a linear discriminant analysis (LDA).'),
+This animation provides an illustration of the process of finding out the optimum number of variables using k-fold cross-validation in a linear discriminant analysis (LDA).

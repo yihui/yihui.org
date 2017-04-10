@@ -27,7 +27,7 @@ should be `4 * min(nrow(test), ani.options('nmax'))` at last.
 ```r
 library(animation)
 ## a binary classification problem
-ani.options(interval = 2, nmax = 10)
+ani.options(interval = 1, nmax = 10)
 x = matrix(c(rnorm(80, mean = -1), rnorm(80, mean = 1)), ncol = 2, 
   byrow = TRUE)
 y = matrix(rnorm(20, mean = 0, sd = 1.2), ncol = 2)

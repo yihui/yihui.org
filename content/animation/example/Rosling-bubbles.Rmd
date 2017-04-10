@@ -25,9 +25,9 @@ And the length of `x` and `y` should be equal to the number of rows
 of this matrix.
 
  
-```{r demo-a, cache=TRUE, interval=.1}
+```{r demo-a, cache=TRUE, interval=.2}
 library(animation)
-ani.options(interval = 0.1, nmax = 50)
+ani.options(interval = 0.2, nmax = 50)
 
 ## use default arguments (random numbers); you may try to find the real data
 par(mar = c(4, 4, 0.2, 0.2))
@@ -35,7 +35,7 @@ Rosling.bubbles()
 ```
 
  
-```{r demo-b, cache=TRUE, interval=.1}
+```{r demo-b, cache=TRUE, interval=.2}
 ## rectangles
 Rosling.bubbles(type = 'rectangles', data = matrix(abs(rnorm(50 * 10 * 2)), ncol = 2))
 ```

@@ -6,9 +6,9 @@ slug: mwar.ani
 ---
 
 This function just fulfills a very naive idea about moving window regression
-using rectangles to denote the ``windows'' and move them, and the
+using rectangles to denote the `windows` and move them, and the
 corresponding AR(1) coefficients as long as rough confidence intervals are
-computed for data points inside the ``windows'' during the process of moving.
+computed for data points inside the `windows` during the process of moving.
 
 The AR(1) coefficients are computed by `arima`.
  

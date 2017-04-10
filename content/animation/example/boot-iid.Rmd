@@ -19,7 +19,7 @@ The whole process has illustrated the steps of resampling, computing the
 statistic and plotting its distribution based on bootstrapping.
 
  
-```{r demo-a, cache=TRUE, interval=.1}
+```{r demo-a, cache=TRUE, interval=.2}
 library(animation)
 ## bootstrap for 20 random numbers from U(0, 1)
 par(mar = c(1.5, 3, 1, 0.1), cex.lab = 0.8, cex.axis = 0.8,
@@ -29,14 +29,13 @@ ani.options(nmax = 50)
 boot.iid(main = c('', ''))
 ```
 
-```{r demo-b, cache=TRUE, interval=.1}
+```{r demo-b, cache=TRUE, interval=.2}
 ## for the median of 15 points from chi-square(5)
 boot.iid(x = rchisq(15, 5), statistic = median, main = c('', ''))
 ```
 
-```{r demo-c, cache=TRUE, interval=.1}
+```{r demo-c, cache=TRUE, interval=.2}
 ## change the layout; or you may try 'mat = matrix(1:2, 1)'
 par(mar = c(1.5, 3, 2.5, 0.1), cex.main = 1)
 boot.iid(heights = c(1, 2))
-
 ```

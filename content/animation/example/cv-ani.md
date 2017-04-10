@@ -21,7 +21,7 @@ This is a naive demonstration for the k-fold cross validation. The k rectangles 
 
 ```r
 library(animation)
-ani.options(interval = 2, nmax = 15)
+ani.options(interval = 1, nmax = 15)
 cv.ani(main = "Demonstration of the k-fold Cross Validation", 
   bty = "l")
 ```

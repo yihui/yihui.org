@@ -23,7 +23,7 @@ which are nearest to the cluster centre).
 ```r
 library(animation)
 ## set larger 'interval' if the speed is too fast
-ani.options(interval = 2)
+ani.options(interval = 1)
 par(mar = c(3, 3, 1, 1.5), mgp = c(1.5, 0.5, 0))
 kmeans.ani()
 ```

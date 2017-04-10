@@ -12,7 +12,7 @@ With either the intercept or the slope changing, the lines will be moving in
 the graph and corresponding residuals will be plotted. We can finally see the
 best estimate of the intercept and the slope from the residual plot.
  
-```{r demo-a, cache=TRUE, interval=.1}
+```{r demo-a, cache=TRUE, interval=.3}
 library(animation)
 par(mar = c(5, 4, 0.5, 0.1))
 ani.options(interval = 0.3, nmax = 50)
@@ -22,7 +22,7 @@ least.squares()
 
 ```
 
-```{r demo-b, cache=TRUE, interval=.1}
+```{r demo-b, cache=TRUE, interval=.3}
 ## intercept changing
 least.squares(ani.type = 'intercept')
 ```

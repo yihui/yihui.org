@@ -13,7 +13,7 @@ be set via `ani.options(pdftk = 'path/to/pdftk')`.
 
 See the reference for detailed usage of `pdftk`.
  
-```{r, cache=TRUE, interval=.1,eval=FALSE}
+```{r, cache=TRUE, interval=.1, eval=FALSE}
 library(animation)
 pdf('huge-plot.pdf')
 plot(rnorm(50000))
