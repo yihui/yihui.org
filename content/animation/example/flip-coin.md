@@ -2,7 +2,7 @@
 title: flip.coin()
 subtitle: Probability in flipping coins
 date: '2017-04-04'
-slug: flip.coin
+slug: flip-coin
 from_Rmd: yes
 ---
 
@@ -37,13 +37,13 @@ flip.coin(faces = c("Head", "Stand", "Tail"), type = "n", prob = c(0.45,
   0.1, 0.45), col = c(1, 2, 4))
 ```
 
-<video controls loop autoplay><source src="/figures/animation/example/flip-coin/demo-a.mp4" /><p>plot of chunk demo-a</p></video>
+<video controls loop autoplay><source src="https://assets.yihui.name/figures/animation/example/flip-coin/demo-a.mp4" /><p>plot of chunk demo-a</p></video>
 
 
 ```r
 flip.coin(bg = "yellow")
 ```
 
-<video controls loop autoplay><source src="/figures/animation/example/flip-coin/demo-b.mp4" /><p>plot of chunk demo-b</p></video>
+<video controls loop autoplay><source src="https://assets.yihui.name/figures/animation/example/flip-coin/demo-b.mp4" /><p>plot of chunk demo-b</p></video>
 
 

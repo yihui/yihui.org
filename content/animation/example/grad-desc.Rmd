@@ -2,7 +2,7 @@
 title: grad.desc()
 subtitle: Demonstration of the Gradient Descent Algorithm
 date: '2017-04-04'
-slug: grad.desc
+slug: grad-desc
 ---
 
 This function provids a visual illustration for the process of minimizing a

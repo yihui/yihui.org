@@ -2,7 +2,7 @@
 title: sample.simple()
 subtitle: Demonstration of the simple random sampling without replacement
 date: '2017-04-04'
-slug: sample.simple
+slug: sample-simple
 from_Rmd: yes
 ---
 
@@ -19,4 +19,4 @@ par(mar = rep(1, 4))
 sample.simple()
 ```
 
-<video controls loop autoplay><source src="/figures/animation/example/sample-simple/demo-a.mp4" /><p>plot of chunk demo-a</p></video>
+<video controls loop autoplay><source src="https://assets.yihui.name/figures/animation/example/sample-simple/demo-a.mp4" /><p>plot of chunk demo-a</p></video>

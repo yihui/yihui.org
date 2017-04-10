@@ -2,7 +2,7 @@
 title: price.ani()
 subtitle: Stock prices of Vanke
 date: '2017-04-04'
-slug: price.ani
+slug: price-ani
 from_Rmd: yes
 ---
 Demonstrate stock prices in animations
@@ -17,4 +17,4 @@ library(animation)
 price.ani(vanke1127$price, vanke1127$time, lwd = 2)
 ```
 
-<video controls loop autoplay><source src="/figures/animation/example/price-ani/demo-a.mp4" /><p>plot of chunk demo-a</p></video>
+<video controls loop autoplay><source src="https://assets.yihui.name/figures/animation/example/price-ani/demo-a.mp4" /><p>plot of chunk demo-a</p></video>

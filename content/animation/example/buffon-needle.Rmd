@@ -2,7 +2,7 @@
 title: buffon.needle()
 subtitle: "Simulation of Buffons Needle"
 date: '2017-04-04'
-slug: buffon.needle
+slug: buffon-needle
 ---
 
 This function provides a simulation for the problem of Buffon's Needle, which

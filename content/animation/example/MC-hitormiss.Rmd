@@ -2,7 +2,7 @@
 title: MC.hitormiss()
 subtitle: Hit or Miss Monte Carlo Integration
 date: '2017-04-04'
-slug: MC.hitormiss
+slug: MC-hitormiss
 ---
 
 Integrate a function using the Hit-or-Miss Monte Carlo algorithm.

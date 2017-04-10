@@ -2,7 +2,7 @@
 title: sim.qqnorm()
 subtitle: Simulation of QQ plots for the Normal distribution
 date: '2017-04-04'
-slug: sim.qqnorm
+slug: sim-qqnorm
 ---
 
 This demo shows the possible QQ plots created by random numbers generated

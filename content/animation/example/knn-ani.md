@@ -2,7 +2,7 @@
 title: knn.ani()
 subtitle: Demonstration of the k-Nearest Neighbour (kNN) classification
 date: '2017-04-04'
-slug: knn.ani
+slug: knn-ani
 from_Rmd: yes
 ---
 
@@ -35,7 +35,7 @@ knn.ani(train = x, test = y, cl = rep(c("first class", "second class"),
   each = 40), k = 30)
 ```
 
-<video controls loop autoplay><source src="/figures/animation/example/knn-ani/demo-a.mp4" /><p>plot of chunk demo-a</p></video>
+<video controls loop autoplay><source src="https://assets.yihui.name/figures/animation/example/knn-ani/demo-a.mp4" /><p>plot of chunk demo-a</p></video>
  
 
 ```r
@@ -46,7 +46,7 @@ knn.ani(train = x, test = y, cl = rep(c("first", "second", "third"),
   each = 15), k = 25, cl.pch = c(2, 3, 19), dist.lty = 3)
 ```
 
-<video controls loop autoplay><source src="/figures/animation/example/knn-ani/demo-b.mp4" /><p>plot of chunk demo-b</p></video>
+<video controls loop autoplay><source src="https://assets.yihui.name/figures/animation/example/knn-ani/demo-b.mp4" /><p>plot of chunk demo-b</p></video>
 
 
 ```r

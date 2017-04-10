@@ -2,7 +2,7 @@
 title: conf.int()
 subtitle: Demonstration of Confidence Intervals
 date: '2017-04-04'
-slug: conf.int
+slug: conf-int
 ---
 
 This function gives a demonstration of the concept of confidence intervals in

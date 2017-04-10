@@ -2,7 +2,7 @@
 title: cv.ani()
 subtitle: Demonstration of the k-fold Cross Validation
 date: '2017-04-04'
-slug: cv.ani
+slug: cv-ani
 from_Rmd: yes
 ---
 
@@ -26,7 +26,7 @@ cv.ani(main = "Demonstration of the k-fold Cross Validation",
   bty = "l")
 ```
 
-<video controls loop autoplay><source src="/figures/animation/example/cv-ani/demo-a.mp4" /><p>plot of chunk demo-a</p></video>
+<video controls loop autoplay><source src="https://assets.yihui.name/figures/animation/example/cv-ani/demo-a.mp4" /><p>plot of chunk demo-a</p></video>
 
 
 
@@ -36,6 +36,6 @@ cv.ani(main = "Demonstration of the k-fold Cross Validation",
 cv.ani(x = runif(15), k = 15)
 ```
 
-<video controls loop autoplay><source src="/figures/animation/example/cv-ani/demo-b.mp4" /><p>plot of chunk demo-b</p></video>
+<video controls loop autoplay><source src="https://assets.yihui.name/figures/animation/example/cv-ani/demo-b.mp4" /><p>plot of chunk demo-b</p></video>
 
 

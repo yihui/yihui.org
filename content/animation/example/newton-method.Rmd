@@ -2,7 +2,7 @@
 title: newton.method()
 subtitle: Demonstration of the Newton-Raphson method for root-finding
 date: '2017-04-04'
-slug: newton.method
+slug: newton-method
 ---
 
 This function provides an illustration of the iterations in Newton's method.

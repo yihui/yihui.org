@@ -2,7 +2,7 @@
 title: sample.system()
 subtitle: Demonstration of the systematic sampling
 date: '2017-04-04'
-slug: sample.system
+slug: sample-system
 ---
 
 The whole sample frame is denoted by a matrix (`nrow * ncol`) in the

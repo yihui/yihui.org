@@ -2,7 +2,7 @@
 title: Rosling.bubbles()
 subtitle: "The Bubbles Animation in Hans Roslings Talk"
 date: '2017-04-04'
-slug: Rosling.bubbles
+slug: Rosling-bubbles
 from_Rmd: yes
 ---
 
@@ -37,7 +37,7 @@ par(mar = c(4, 4, 0.2, 0.2))
 Rosling.bubbles()
 ```
 
-<video controls loop autoplay><source src="/figures/animation/example/Rosling-bubbles/demo-a.mp4" /><p>plot of chunk demo-a</p></video>
+<video controls loop autoplay><source src="https://assets.yihui.name/figures/animation/example/Rosling-bubbles/demo-a.mp4" /><p>plot of chunk demo-a</p></video>
 
  
 
@@ -47,4 +47,4 @@ Rosling.bubbles(type = "rectangles", data = matrix(abs(rnorm(50 *
   10 * 2)), ncol = 2))
 ```
 
-<video controls loop autoplay><source src="/figures/animation/example/Rosling-bubbles/demo-b.mp4" /><p>plot of chunk demo-b</p></video>
+<video controls loop autoplay><source src="https://assets.yihui.name/figures/animation/example/Rosling-bubbles/demo-b.mp4" /><p>plot of chunk demo-b</p></video>

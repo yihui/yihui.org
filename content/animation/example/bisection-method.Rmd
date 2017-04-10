@@ -2,7 +2,7 @@
 title: bisection.method()
 subtitle: "The Bisection Method for root-finding on an interval"
 date: '2017-04-04'
-slug: bisection.method
+slug: bisection-method
 ---
 
 This is a visual demonstration of finding the root of an equation $f(x) = 0$ on an interval using the Bisection Method.

@@ -2,7 +2,7 @@
 title: least.squares()
 subtitle: Demonstrate the least squares method
 date: '2017-04-04'
-slug: least.squares
+slug: least-squares
 ---
 
 This is a simple demonstration of the meaning of least squares in univariate

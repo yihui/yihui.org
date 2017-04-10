@@ -2,7 +2,7 @@
 title: clt.ani()
 subtitle: Demonstration of the Central Limit Theorem
 date: '2017-04-04'
-slug: clt.ani
+slug: clt-ani
 ---
 
 First of all, a number of `obs` observations are generated from a

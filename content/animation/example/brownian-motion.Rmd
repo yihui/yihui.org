@@ -2,7 +2,7 @@
 title: brownian.motion()
 subtitle: Demonstration of Brownian Motion
 date: '2017-04-04'
-slug: brownian.motion
+slug: brownian-motion
 ---
  
 

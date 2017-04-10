@@ -2,7 +2,7 @@
 title: sample.simple()
 subtitle: Demonstration of the simple random sampling without replacement
 date: '2017-04-04'
-slug: sample.simple
+slug: sample-simple
 ---
 
 The whole sample frame is denoted by a matrix (`nrow * ncol`) in the

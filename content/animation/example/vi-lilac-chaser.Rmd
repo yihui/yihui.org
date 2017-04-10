@@ -2,7 +2,7 @@
 title: vi.lilac.chaser()
 subtitle: "Visual Illusions: Lilac Chaser"
 date: '2017-04-04'
-slug: vi.lilac.chaser
+slug: vi-lilac.chaser
 ---
 
 Stare at the center cross for a few (say 30) seconds to experience the

@@ -2,7 +2,7 @@
 title: least.squares()
 subtitle: Demonstrate the least squares method
 date: '2017-04-04'
-slug: least.squares
+slug: least-squares
 from_Rmd: yes
 ---
 
@@ -23,7 +23,7 @@ ani.options(interval = 0.3, nmax = 50)
 least.squares()
 ```
 
-<video controls loop autoplay><source src="/figures/animation/example/least-squares/demo-a.mp4" /><p>plot of chunk demo-a</p></video>
+<video controls loop autoplay><source src="https://assets.yihui.name/figures/animation/example/least-squares/demo-a.mp4" /><p>plot of chunk demo-a</p></video>
 
 
 ```r
@@ -31,6 +31,6 @@ least.squares()
 least.squares(ani.type = "intercept")
 ```
 
-<video controls loop autoplay><source src="/figures/animation/example/least-squares/demo-b.mp4" /><p>plot of chunk demo-b</p></video>
+<video controls loop autoplay><source src="https://assets.yihui.name/figures/animation/example/least-squares/demo-b.mp4" /><p>plot of chunk demo-b</p></video>
 
 We want to find an estimate for the slope in 50 candidate slopes, so we just compute the RSS one by one. 

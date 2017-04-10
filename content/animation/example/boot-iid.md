@@ -2,7 +2,7 @@
 title: boot.iid()
 subtitle: Bootstrapping the i.i.d data
 date: '2017-04-04'
-slug: boot.iid
+slug: boot-iid
 from_Rmd: yes
 ---
 
@@ -31,7 +31,7 @@ ani.options(nmax = 50)
 boot.iid(main = c("", ""))
 ```
 
-<video controls loop autoplay><source src="/figures/animation/example/boot-iid/demo-a.mp4" /><p>plot of chunk demo-a</p></video>
+<video controls loop autoplay><source src="https://assets.yihui.name/figures/animation/example/boot-iid/demo-a.mp4" /><p>plot of chunk demo-a</p></video>
 
 
 ```r
@@ -40,7 +40,7 @@ boot.iid(x = rchisq(15, 5), statistic = median, main = c("",
   ""))
 ```
 
-<video controls loop autoplay><source src="/figures/animation/example/boot-iid/demo-b.mp4" /><p>plot of chunk demo-b</p></video>
+<video controls loop autoplay><source src="https://assets.yihui.name/figures/animation/example/boot-iid/demo-b.mp4" /><p>plot of chunk demo-b</p></video>
 
 
 ```r
@@ -49,4 +49,4 @@ par(mar = c(1.5, 3, 2.5, 0.1), cex.main = 1)
 boot.iid(heights = c(1, 2))
 ```
 
-<video controls loop autoplay><source src="/figures/animation/example/boot-iid/demo-c.mp4" /><p>plot of chunk demo-c</p></video>
+<video controls loop autoplay><source src="https://assets.yihui.name/figures/animation/example/boot-iid/demo-c.mp4" /><p>plot of chunk demo-c</p></video>

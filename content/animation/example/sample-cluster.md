@@ -2,7 +2,7 @@
 title: sample.cluster()
 subtitle: Demonstration of the cluster sampling
 date: '2017-04-04'
-slug: sample.cluster
+slug: sample-cluster
 from_Rmd: yes
 ---
 Each rectangle stands for a cluster, and the simple random sampling without
@@ -17,4 +17,4 @@ par(mar = rep(1, 4))
 sample.cluster(col = c("bisque", "white"))
 ```
 
-<video controls loop autoplay><source src="/figures/animation/example/sample-cluster/demo-a.mp4" /><p>plot of chunk demo-a</p></video>
+<video controls loop autoplay><source src="https://assets.yihui.name/figures/animation/example/sample-cluster/demo-a.mp4" /><p>plot of chunk demo-a</p></video>

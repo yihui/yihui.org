@@ -2,7 +2,7 @@
 title: cv.ani()
 subtitle: Demonstration of the k-fold Cross Validation
 date: '2017-04-04'
-slug: cv.ani
+slug: cv-ani
 ---
 
 This function uses rectangles to illustrate the $k$ folds and

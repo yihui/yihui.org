@@ -2,7 +2,7 @@
 title: moving.block()
 subtitle: "Cycle through an R object and plot each subset of elements"
 date: '2017-04-04'
-slug: moving.block
+slug: moving-block
 ---
 
 For a long numeric vector or matrix (or data frame), we can plot only a

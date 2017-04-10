@@ -2,7 +2,7 @@
 title: BM.circle()
 subtitle: Brownian Motion in a Circle
 date: '2017-04-04'
-slug: BM.circle
+slug: BM-circle
 from_Rmd: yes
 ---
 
@@ -20,4 +20,4 @@ par(mar = rep(0.5, 4))
 BM.circle(cex = 2, pch = 19)
 ```
 
-<video controls loop autoplay><source src="/figures/animation/example/BM-circle/demo-a.mp4" /><p>plot of chunk demo-a</p></video>
+<video controls loop autoplay><source src="https://assets.yihui.name/figures/animation/example/BM-circle/demo-a.mp4" /><p>plot of chunk demo-a</p></video>

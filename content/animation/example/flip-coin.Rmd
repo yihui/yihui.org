@@ -2,7 +2,7 @@
 title: flip.coin()
 subtitle: Probability in flipping coins
 date: '2017-04-04'
-slug: flip.coin
+slug: flip-coin
 ---
 
 

@@ -2,7 +2,7 @@
 title: brownian.motion()
 subtitle: Demonstration of Brownian Motion
 date: '2017-04-04'
-slug: brownian.motion
+slug: brownian-motion
 from_Rmd: yes
 ---
  
@@ -28,4 +28,4 @@ brownian.motion(pch = 21, cex = 5, col = "red", bg = "yellow",
   main = "Demonstration of Brownian Motion")
 ```
 
-<video controls loop autoplay><source src="/figures/animation/example/brownian-motion/demo-a.mp4" /><p>plot of chunk demo-a</p></video>
+<video controls loop autoplay><source src="https://assets.yihui.name/figures/animation/example/brownian-motion/demo-a.mp4" /><p>plot of chunk demo-a</p></video>

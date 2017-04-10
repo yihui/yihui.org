@@ -2,7 +2,7 @@
 title: knn.ani()
 subtitle: Demonstration of the k-Nearest Neighbour (kNN) classification
 date: '2017-04-04'
-slug: knn.ani
+slug: knn-ani
 ---
 
 Demonstrate the process of k-Nearest Neighbour classification on the 2D

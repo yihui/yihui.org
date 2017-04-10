@@ -2,7 +2,7 @@
 title: buffon.needle()
 subtitle: "Simulation of Buffons Needle"
 date: '2017-04-04'
-slug: buffon.needle
+slug: buffon-needle
 from_Rmd: yes
 ---
 
@@ -31,7 +31,7 @@ par(mar = c(3, 2.5, 0.5, 0.2), pch = 20, mgp = c(1.5, 0.5, 0))
 buffon.needle()
 ```
 
-<video controls loop autoplay><source src="/figures/animation/example/buffon-needle/demo-a.mp4" /><p>plot of chunk demo-a</p></video>
+<video controls loop autoplay><source src="https://assets.yihui.name/figures/animation/example/buffon-needle/demo-a.mp4" /><p>plot of chunk demo-a</p></video>
  
 
 ```r
@@ -40,4 +40,4 @@ ani.options(nmax = 400, 1)
 buffon.needle(redraw = FALSE)
 ```
 
-<video controls loop autoplay><source src="/figures/animation/example/buffon-needle/demo-b.mp4" /><p>plot of chunk demo-b</p></video>
+<video controls loop autoplay><source src="https://assets.yihui.name/figures/animation/example/buffon-needle/demo-b.mp4" /><p>plot of chunk demo-b</p></video>

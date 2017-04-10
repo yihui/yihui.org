@@ -2,7 +2,7 @@
 title: price.ani()
 subtitle: Stock prices of Vanke
 date: '2017-04-04'
-slug: price.ani
+slug: price-ani
 ---
 Demonstrate stock prices in animations
 

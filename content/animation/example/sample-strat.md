@@ -2,7 +2,7 @@
 title: sample.strat()
 subtitle: Demonstration of the stratified sampling
 date: '2017-04-04'
-slug: sample.strat
+slug: sample-strat
 from_Rmd: yes
 ---
 
@@ -18,4 +18,4 @@ par(mar = rep(1, 4), lwd = 2)
 sample.strat(col = c("bisque", "white"))
 ```
 
-<video controls loop autoplay><source src="/figures/animation/example/sample-strat/demo-a.mp4" /><p>plot of chunk demo-a</p></video>
+<video controls loop autoplay><source src="https://assets.yihui.name/figures/animation/example/sample-strat/demo-a.mp4" /><p>plot of chunk demo-a</p></video>

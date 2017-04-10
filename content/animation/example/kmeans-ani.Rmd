@@ -2,7 +2,7 @@
 title: kmeans.ani()
 subtitle: Demonstration of the K-means Cluster Algorithm
 date: '2017-04-04'
-slug: kmeans.ani
+slug: kmeans-ani
 ---
 
 This function provides a demo of the k-Means cluster algorithm for data

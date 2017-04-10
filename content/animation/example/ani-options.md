@@ -2,7 +2,7 @@
 title: ani.options()
 subtitle: Set or query animation options
 date: '2017-04-04'
-slug: ani.options
+slug: ani-options
 from_Rmd: yes
 ---
 

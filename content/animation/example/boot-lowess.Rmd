@@ -2,7 +2,7 @@
 title: boot.lowess()
 subtitle: Bootstrapping with LOWESS
 date: '2017-04-04'
-slug: boot.lowess
+slug: boot-lowess
 ---
 
 Sample the original data with replacement and fit LOWESS curves accordingly.

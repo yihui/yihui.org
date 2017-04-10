@@ -2,7 +2,7 @@
 title: im.convert()
 subtitle: "A wrapper for the convert utility of ImageMagick or GraphicsMagick."
 date: '2017-04-04'
-slug: im.convert
+slug: im-convert
 from_Rmd: yes
 ---
 

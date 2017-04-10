@@ -2,7 +2,7 @@
 title: ani.record()
 subtitle: Record and replay animations
 date: '2017-04-04'
-slug: ani.record
+slug: ani-record
 ---
 
 These two functions use `recordPlot` and `replayPlot`

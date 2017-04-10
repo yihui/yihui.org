@@ -2,7 +2,7 @@
 title: cv.nfeaturesLDA()
 subtitle: Cross-validation to find the optimum number of features (variables)  in LDA
 date: '2017-04-04'
-slug: cv.nfeaturesLDA
+slug: cv-nfeaturesLDA
 ---
 
 This function provids an illustration of the process of finding out the

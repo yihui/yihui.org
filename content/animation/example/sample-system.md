@@ -2,7 +2,7 @@
 title: sample.system()
 subtitle: Demonstration of the systematic sampling
 date: '2017-04-04'
-slug: sample.system
+slug: sample-system
 from_Rmd: yes
 ---
 
@@ -18,4 +18,4 @@ par(mar = rep(1, 4), lwd = 2)
 sample.system()
 ```
 
-<video controls loop autoplay><source src="/figures/animation/example/sample-system/demo-a.mp4" /><p>plot of chunk demo-a</p></video>
+<video controls loop autoplay><source src="https://assets.yihui.name/figures/animation/example/sample-system/demo-a.mp4" /><p>plot of chunk demo-a</p></video>

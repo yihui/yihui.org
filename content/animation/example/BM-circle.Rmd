@@ -2,7 +2,7 @@
 title: BM.circle()
 subtitle: Brownian Motion in a Circle
 date: '2017-04-04'
-slug: BM.circle
+slug: BM-circle
 ---
 
 Several points moving randomly in a circle.

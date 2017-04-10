@@ -2,7 +2,7 @@
 title: boot.iid()
 subtitle: Bootstrapping the i.i.d data
 date: '2017-04-04'
-slug: boot.iid
+slug: boot-iid
 ---
 
 Use a sunflower scatter plot to illustrate the results of resampling, and a

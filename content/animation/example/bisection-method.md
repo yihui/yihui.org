@@ -2,7 +2,7 @@
 title: bisection.method()
 subtitle: "The Bisection Method for root-finding on an interval"
 date: '2017-04-04'
-slug: bisection.method
+slug: bisection-method
 from_Rmd: yes
 ---
 
@@ -32,7 +32,7 @@ ani.options(nmax = 30)
 xx = bisection.method()
 ```
 
-<video controls loop autoplay><source src="/figures/animation/example/bisection-method/demo-a.mp4" /><p>plot of chunk demo-a</p></video>
+<video controls loop autoplay><source src="https://assets.yihui.name/figures/animation/example/bisection-method/demo-a.mp4" /><p>plot of chunk demo-a</p></video>
 
 ```r
 xx$root  # solution
@@ -49,7 +49,7 @@ f = function(x) x^3 - 7 * x - 10
 xx = bisection.method(f, c(-3, 5))
 ```
 
-<video controls loop autoplay><source src="/figures/animation/example/bisection-method/demo-b.mp4" /><p>plot of chunk demo-b</p></video>
+<video controls loop autoplay><source src="https://assets.yihui.name/figures/animation/example/bisection-method/demo-b.mp4" /><p>plot of chunk demo-b</p></video>
 
 
 

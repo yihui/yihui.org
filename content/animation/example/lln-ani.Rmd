@@ -2,7 +2,7 @@
 title: lln.ani()
 subtitle: Demonstration of the Law of Large Numbers
 date: '2017-04-04'
-slug: lln.ani
+slug: lln-ani
 ---
 
 This function plots the sample mean as the sample size grows to check whether

@@ -2,7 +2,7 @@
 title: Rosling.bubbles()
 subtitle: "The Bubbles Animation in Hans Roslings Talk"
 date: '2017-04-04'
-slug: Rosling.bubbles
+slug: Rosling-bubbles
 ---
 
 In Hans Rosling's attractive talk `Debunking third-world myths with the best

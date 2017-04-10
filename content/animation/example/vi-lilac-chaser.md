@@ -2,7 +2,7 @@
 title: vi.lilac.chaser()
 subtitle: "Visual Illusions: Lilac Chaser"
 date: '2017-04-04'
-slug: vi.lilac.chaser
+slug: vi-lilac.chaser
 from_Rmd: yes
 ---
 
@@ -19,4 +19,4 @@ par(pty = "s")
 vi.lilac.chaser()
 ```
 
-<video controls loop autoplay><source src="/figures/animation/example/vi-lilac-chaser/demo-a.mp4" /><p>plot of chunk demo-a</p></video>
+<video controls loop autoplay><source src="https://assets.yihui.name/figures/animation/example/vi-lilac-chaser/demo-a.mp4" /><p>plot of chunk demo-a</p></video>

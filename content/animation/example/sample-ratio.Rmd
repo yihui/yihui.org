@@ -2,7 +2,7 @@
 title: sample.ratio()
 subtitle: Demonstration of the Ratio Estimation in Sampling Survey
 date: '2017-04-04'
-slug: sample.ratio
+slug: sample-ratio
 ---
 
 This function demonstrates the advantage of ratio estimation when further
