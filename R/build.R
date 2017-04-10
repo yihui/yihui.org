@@ -9,8 +9,8 @@ build_one = function(io, external = FALSE)  {
     )
     return()
   }
-  # if output is newer than input, skip the compilation
-  if (file_test('-nt', io[2], io[1])) {
+  # if output is not older than input, skip the compilation
+  if (!blogdown:::require_rebuild(io[2], io[1])) {
     # if an Rmd is currently staged, compile it even if .md is newer than .Rmd
     staged = system2('git', 'diff --name-only --cached', stdout = TRUE)
     if (!any(io %in% staged)) return()
