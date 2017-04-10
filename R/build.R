@@ -10,14 +10,10 @@ build_one = function(io, external = FALSE)  {
     return()
   }
   # if output is not older than input, skip the compilation
-  if (!blogdown:::require_rebuild(io[2], io[1])) {
-    # if an Rmd is currently staged, compile it even if .md is newer than .Rmd
-    staged = system2('git', 'diff --name-only --cached', stdout = TRUE)
-    if (!any(io %in% staged)) return()
-  }
+  if (!blogdown:::require_rebuild(io[2], io[1])) return()
 
   if (local) message('* knitting ', io[1])
-  if (blogdown:::Rscript(shQuote(c('R/build_one.R', io, cargs, external))) != 0) {
+  if (blogdown:::Rscript(shQuote(c('R/build_one.R', io, external))) != 0) {
     unlink(io[2])
     stop('Failed to compile ', io[1], ' to ', io[2])
   }
@@ -34,6 +30,15 @@ if (length(rmds)) {
 
 for (i in seq_len(nrow(files))) {
   build_one(unlist(files[i, 1:2]), files[i, 3])
+}
+
+if (!local && Sys.which('sed') != '') for (i in files[, 2]) {
+  Sys.chmod(i, '644')  # unlock .md
+  # add https://assets.yihui.name to image/video URLs /figures/...
+  system2('sed', paste(
+    "-i '' 's@\\([(\"]\\)\\(/figures/\\)@\\1https://assets.yihui.name\\2@g'", i
+  ))
+  Sys.chmod(i, '444')  # lock .md again
 }
 
 blogdown:::hugo_build(local = local)

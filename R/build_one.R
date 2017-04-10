@@ -9,7 +9,7 @@ local({
   # for external Rmd, '../../foo/bar/hi.Rmd' -> 'hi'; for internal,
   # content/foo/bar/hi.Rmd -> foo/bar/hi
   d = knitr:::sans_ext(
-    if (a[4] == 'TRUE') basename(a[1]) else gsub('^content/', '', a[1])
+    if (a[3] == 'TRUE') basename(a[1]) else gsub('^content/', '', a[1])
   )
   knitr::opts_chunk$set(
     fig.path   = sprintf('figures/%s/', d),
@@ -18,18 +18,17 @@ local({
   )
   if (grepl('^content/animation/', a[1])) knitr::opts_chunk$set(
     fig.show = 'animate', ffmpeg.format = 'mp4', dev = 'jpeg',
-    aniopts = 'controls loop autoplay', cache.extra = a[3]
+    aniopts = 'controls loop autoplay'
   )
   knitr::opts_knit$set(
     base.dir = normalizePath('static/', mustWork = TRUE),
-    base.url = if (a[3] == 'FALSE') 'https://assets.yihui.name/' else '/',
-    width = 60
+    base.url = '/', width = 60
   )
   set.seed(20150723)
   knitr::knit(a[1], a[2], quiet = TRUE, encoding = 'UTF-8', envir = .GlobalEnv)
   if (file.exists(a[2])) {
     x = blogdown:::append_yaml(
-      blogdown:::readUTF8(a[2]), if (a[4] == 'FALSE') list(from_Rmd = TRUE)
+      blogdown:::readUTF8(a[2]), if (a[3] == 'FALSE') list(from_Rmd = TRUE)
     )
     blogdown:::writeUTF8(xaringan:::protect_math(x), a[2])
     Sys.chmod(a[2], '0444')  # read-only (should not edit)
