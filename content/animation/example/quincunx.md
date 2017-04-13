@@ -33,4 +33,4 @@ freq = quincunx(balls = 200, col.balls = rainbow(200))
 barplot(freq, space = 0)
 ```
 
-<video controls loop autoplay><source src="https://assets.yihui.name/figures/animation/example/quincunx/demo-a.mp4" /><p>plot of chunk demo-a</p></video>
+<video controls loop autoplay><source src="https://assets.yihui.name/figures/animation/example/quincunx/demo-a.mp4?dl=1" /><p>plot of chunk demo-a</p></video>

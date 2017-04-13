@@ -40,6 +40,6 @@ cv.nfeaturesLDA(pch = 19)
 ## Loading required namespace: MASS
 ```
 
-<video controls loop autoplay><source src="https://assets.yihui.name/figures/animation/example/cv-nfeaturesLDA/demo-a.mp4" /><p>plot of chunk demo-a</p></video>
+<video controls loop autoplay><source src="https://assets.yihui.name/figures/animation/example/cv-nfeaturesLDA/demo-a.mp4?dl=1" /><p>plot of chunk demo-a</p></video>
 
 This animation provides an illustration of the process of finding out the optimum number of variables using k-fold cross-validation in a linear discriminant analysis (LDA).

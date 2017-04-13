@@ -36,7 +36,7 @@ moving.block(dat = cumsum(rnorm(300)), FUN = function(..., dat = dat,
 }, type = "o", pch = 20)
 ```
 
-<video controls loop autoplay><source src="https://assets.yihui.name/figures/animation/example/moving-block/demo-a.mp4" /><p>plot of chunk demo-a</p></video>
+<video controls loop autoplay><source src="https://assets.yihui.name/figures/animation/example/moving-block/demo-a.mp4?dl=1" /><p>plot of chunk demo-a</p></video>
  
 
 ```r
@@ -51,7 +51,7 @@ moving.block(dat = HuSpeech, FUN = function(..., dat = dat, i = i,
 }, type = "o", pch = 20)
 ```
 
-<video controls loop autoplay><source src="https://assets.yihui.name/figures/animation/example/moving-block/demo-b.mp4" /><p>plot of chunk demo-b</p></video>
+<video controls loop autoplay><source src="https://assets.yihui.name/figures/animation/example/moving-block/demo-b.mp4?dl=1" /><p>plot of chunk demo-b</p></video>
  
 
 ```r
@@ -77,7 +77,7 @@ moving.block(dat = sunspot.month, block = 132, FUN = function(...,
 ## adjust 'block' or ani.options('nmax')
 ```
 
-<video controls loop autoplay><source src="https://assets.yihui.name/figures/animation/example/moving-block/demo-c.mp4" /><p>plot of chunk demo-c</p></video>
+<video controls loop autoplay><source src="https://assets.yihui.name/figures/animation/example/moving-block/demo-c.mp4?dl=1" /><p>plot of chunk demo-c</p></video>
 
  
 
@@ -96,4 +96,4 @@ moving.block(quakes[order(quakes$depth), c("long", "lat")], FUN = function(...,
 }, pch = 20, col = rgb(0, 0, 0, 0.5))
 ```
 
-<video controls loop autoplay><source src="https://assets.yihui.name/figures/animation/example/moving-block/demo-d.mp4" /><p>plot of chunk demo-d</p></video>
+<video controls loop autoplay><source src="https://assets.yihui.name/figures/animation/example/moving-block/demo-d.mp4?dl=1" /><p>plot of chunk demo-d</p></video>

@@ -28,4 +28,4 @@ brownian.motion(pch = 21, cex = 5, col = "red", bg = "yellow",
   main = "Demonstration of Brownian Motion")
 ```
 
-<video controls loop autoplay><source src="https://assets.yihui.name/figures/animation/example/brownian-motion/demo-a.mp4" /><p>plot of chunk demo-a</p></video>
+<video controls loop autoplay><source src="https://assets.yihui.name/figures/animation/example/brownian-motion/demo-a.mp4?dl=1" /><p>plot of chunk demo-a</p></video>

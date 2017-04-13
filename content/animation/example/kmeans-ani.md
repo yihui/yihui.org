@@ -28,7 +28,7 @@ par(mar = c(3, 3, 1, 1.5), mgp = c(1.5, 0.5, 0))
 kmeans.ani()
 ```
 
-<video controls loop autoplay><source src="https://assets.yihui.name/figures/animation/example/kmeans-ani/demo-a.mp4" /><p>plot of chunk demo-a</p></video>
+<video controls loop autoplay><source src="https://assets.yihui.name/figures/animation/example/kmeans-ani/demo-a.mp4?dl=1" /><p>plot of chunk demo-a</p></video>
  
 
 ```r
@@ -39,7 +39,7 @@ colnames(x) = c("x", "y")
 kmeans.ani(x, centers = 2)
 ```
 
-<video controls loop autoplay><source src="https://assets.yihui.name/figures/animation/example/kmeans-ani/demo-b.mp4" /><p>plot of chunk demo-b</p></video>
+<video controls loop autoplay><source src="https://assets.yihui.name/figures/animation/example/kmeans-ani/demo-b.mp4?dl=1" /><p>plot of chunk demo-b</p></video>
  
 
 ```r
@@ -47,4 +47,4 @@ kmeans.ani(x, centers = 2)
 kmeans.ani(x, centers = 3)
 ```
 
-<video controls loop autoplay><source src="https://assets.yihui.name/figures/animation/example/kmeans-ani/demo-c.mp4" /><p>plot of chunk demo-c</p></video>
+<video controls loop autoplay><source src="https://assets.yihui.name/figures/animation/example/kmeans-ani/demo-c.mp4?dl=1" /><p>plot of chunk demo-c</p></video>

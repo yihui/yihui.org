@@ -31,7 +31,7 @@ legend("topleft", c("Ratio Estimation", "Sample Average"), lty = 1:2,
   col = 1:2)
 ```
 
-<video controls loop autoplay><source src="https://assets.yihui.name/figures/animation/example/sample-ratio/demo-a.mp4" /><p>plot of chunk demo-a</p></video>
+<video controls loop autoplay><source src="https://assets.yihui.name/figures/animation/example/sample-ratio/demo-a.mp4?dl=1" /><p>plot of chunk demo-a</p></video>
 
 
 ```r
@@ -39,7 +39,7 @@ legend("topleft", c("Ratio Estimation", "Sample Average"), lty = 1:2,
 sample.ratio(X = rnorm(50), Y = rnorm(50))
 ```
 
-<video controls loop autoplay><source src="https://assets.yihui.name/figures/animation/example/sample-ratio/demo-b.mp4" /><p>plot of chunk demo-b</p></video>
+<video controls loop autoplay><source src="https://assets.yihui.name/figures/animation/example/sample-ratio/demo-b.mp4?dl=1" /><p>plot of chunk demo-b</p></video>
 
 ```r
 ## ratio estimation may not be better than the simple average

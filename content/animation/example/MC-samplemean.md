@@ -31,7 +31,7 @@ par(mar = c(4, 4, 1, 1))
 MC.samplemean(border = NA)$est
 ```
 
-<video controls loop autoplay><source src="https://assets.yihui.name/figures/animation/example/MC-samplemean/demo-a.mp4" /><p>plot of chunk demo-a</p></video>
+<video controls loop autoplay><source src="https://assets.yihui.name/figures/animation/example/MC-samplemean/demo-a.mp4?dl=1" /><p>plot of chunk demo-a</p></video>
 
 ```
 ## [1] 0.1638
@@ -58,7 +58,7 @@ MC.samplemean(adj.x = FALSE, col.rect = c(rgb(0, 0, 0, 0.3),
 MC.samplemean(FUN = function(x) x^3 - 0.5^3, border = NA)$est
 ```
 
-<video controls loop autoplay><source src="https://assets.yihui.name/figures/animation/example/MC-samplemean/demo-b.mp4" /><p>plot of chunk demo-b</p></video>
+<video controls loop autoplay><source src="https://assets.yihui.name/figures/animation/example/MC-samplemean/demo-b.mp4?dl=1" /><p>plot of chunk demo-b</p></video>
 
 ```
 ## [1] 0.09573

@@ -18,4 +18,4 @@ par(mar = rep(1, 4), lwd = 2)
 sample.system()
 ```
 
-<video controls loop autoplay><source src="https://assets.yihui.name/figures/animation/example/sample-system/demo-a.mp4" /><p>plot of chunk demo-a</p></video>
+<video controls loop autoplay><source src="https://assets.yihui.name/figures/animation/example/sample-system/demo-a.mp4?dl=1" /><p>plot of chunk demo-a</p></video>
