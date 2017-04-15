@@ -48,6 +48,14 @@ And I just wanted to collect these unknown "facts" about Jeff A-leek-sa:
 
 - @bcaffo: Jeff Leek can fit a regression line with one point. And get a variance.
 
+- @mjfrigaard0: Jeff Leek once won a Kaggle competition, but was disqualified for using his abacus.
+
+- @mjfrigaard: Git commits to Jeff Leek.
+
+- @mjfrigaard: Jeff Leek can lift the curse of dimensionality by merely glancing at your data.
+
+- @clarkfitzg: All P-values computed by Jeff Leek are significant.
+
 I'm looking forward to yet more facts.
 
 ![More](https://slides.yihui.name/gif/dog-reach.gif)
