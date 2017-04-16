@@ -56,6 +56,18 @@ And I just wanted to collect these unknown "facts" about Jeff A-leek-sa:
 
 - @clarkfitzg: All P-values computed by Jeff Leek are significant.
 
+- @jrnld: Singular matrices are so named because Jeff Leek is the only one who can invert them.
+
+- @rikturr: Jeff Leek's cubic splines are all linear.
+
+- @butterflyology: Jeef Leek supports S3 and S4 classes, at the same time.
+
+- @tpoi: When Jeff Leek uses `<-<-`, it tests for equality
+
+- @Miao\_Cai\_SLU: Jeff build regression models without endogeneity.
+
+- @brandenco: CRAN checks itself before it submits to Jeff Leek.
+
 I'm looking forward to yet more facts.
 
 ![More](https://slides.yihui.name/gif/dog-reach.gif)
