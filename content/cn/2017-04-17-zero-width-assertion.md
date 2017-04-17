@@ -1,0 +1,149 @@
+---
+title: 零宽断言
+date: '2017-04-17'
+slug: zero-width-assertion
+from_Rmd: yes
+---
+
+关于正则表达式中的零宽断言（zero-width assertions），我从来都记不住哪个是向前，哪个是向后，就像寄信永远记不住收信人和寄信人谁的地址写上面谁的写下面一样^[主要原因是中美的信封写法是反的，最怕这种两个相反的选择了。]。遂写两个例子在此，以便将来查阅。
+
+零宽断言在 R 里面是 Perl 正则表达式的一部分，语法是小括号里带问号 `(?啥啥啥)`，它的唯一作用是用来在特定位置找一段字符串，只管找不找得到（断言），在涉及到提取、替换的操作时候它不会被提取或替换掉，就仿佛它是没有宽度的幽灵一样。这个功能非常有用，有时候你想提取（或替换）一个字符串，但同时又想附加一个或两个条件，比如这个字符串的前面或后面必须带有什么特征，但这个特征本身不是你想提取的东西。
+
+想要匹配一个特征的话在问号后面用等号，想要不匹配一个特征用感叹号（通常是逻辑非的操作符），这个好记。我经常忘记的是 `(?=)` 和 `(?<=)`、或者 `(?!)` 和 `(?<!)` 分别是哪个表示向前看，哪个向后看。带小于号的是表示从这个特征开始往后看，看后面有没有接下来的特征，不带小于号的表示从这个特征开始往前面看，看看括号前面那个特征是否匹配。
+
+空谈误国，放码过来。
+
+下面用 `gregexpr()` 函数做例子，因为它可以告诉我们很多匹配的细节。例如我们看看一个字符串中，从大写 E 向前看有没有 bcd：
+
+
+```r
+gregexpr("bcd(?=E)", c("abcdEfg", "abcdefg"), perl = TRUE)
+## [[1]]
+## [1] 2
+## attr(,"match.length")
+## [1] 3
+## attr(,"useBytes")
+## [1] TRUE
+## 
+## [[2]]
+## [1] -1
+## attr(,"match.length")
+## [1] -1
+## attr(,"useBytes")
+## [1] TRUE
+```
+
+这个结果告诉我们的是，abcdEfg 中有我们想要的特征，从第 2 个字符开始，往后数 3 个字符（`match.length`）就是我们要的内容，也就是 bcd，不包含字母 E，E 只是一个地界上的地标而已。上面结果中的 -1 表示没有匹配的内容，显然字符串 abcdefg 中不包含 bcdE 这个特征。然后类似的例子：
+
+
+```r
+# 从大写 A 向后找 bc
+gregexpr("(?<=A)bc", c("Abcdefg", "abcdefg"), perl = TRUE)
+## [[1]]
+## [1] 2
+## attr(,"match.length")
+## [1] 2
+## attr(,"useBytes")
+## [1] TRUE
+## 
+## [[2]]
+## [1] -1
+## attr(,"match.length")
+## [1] -1
+## attr(,"useBytes")
+## [1] TRUE
+
+# 在一个不是大写 D 的字符前面找 bc
+gregexpr("bc(?!D)", c("bcDefg", "bcdefg"), perl = TRUE)
+## [[1]]
+## [1] -1
+## attr(,"match.length")
+## [1] -1
+## attr(,"useBytes")
+## [1] TRUE
+## 
+## [[2]]
+## [1] 1
+## attr(,"match.length")
+## [1] 2
+## attr(,"useBytes")
+## [1] TRUE
+
+# 在不是大写 A 字符后面找 bcd
+gregexpr("(?<!A)bcd", c("Abcdefg", "abcdefg"), perl = TRUE)
+## [[1]]
+## [1] -1
+## attr(,"match.length")
+## [1] -1
+## attr(,"useBytes")
+## [1] TRUE
+## 
+## [[2]]
+## [1] 2
+## attr(,"match.length")
+## [1] 3
+## attr(,"useBytes")
+## [1] TRUE
+```
+
+当然，向前和向后的断言可以一起上，分别搭在一个特征的两边。比如我们匹配一句话“Hi 谁谁 Sir”中的“谁谁”部分。传说正则表达式写着写着就看不出它跟猫走过键盘踩出来的字符串之间的区别了，这话一点不假：
+
+
+```r
+gregexpr("(?<=Hi )([a-zA-Z]+)(?= Sir)", c("Hi Li Sir", "Hi Li Dada"), 
+  perl = TRUE)
+## [[1]]
+## [1] 4
+## attr(,"match.length")
+## [1] 2
+## attr(,"useBytes")
+## [1] TRUE
+## attr(,"capture.start")
+##       
+## [1,] 4
+## attr(,"capture.length")
+##       
+## [1,] 2
+## attr(,"capture.names")
+## [1] ""
+## 
+## [[2]]
+## [1] -1
+## attr(,"match.length")
+## [1] -1
+## attr(,"useBytes")
+## [1] TRUE
+## attr(,"capture.start")
+##        
+## [1,] -1
+## attr(,"capture.length")
+##        
+## [1,] -1
+## attr(,"capture.names")
+## [1] ""
+```
+
+光是匹配通常没用，匹配完了要么提取，要么替换。例如我们把上面找到的字符串换成大写：
+
+
+```r
+r = "(?<=Hi )([a-zA-Z]+)(?= Sir)"
+x = c("Hi Li Sir", "Hi Li Dada")
+i = gregexpr(r, x, perl = TRUE)
+
+regmatches(x, i) = lapply(regmatches(x, i), function(z) {
+  toupper(z)
+})
+x
+## [1] "Hi LI Sir"  "Hi Li Dada"
+```
+
+这个例子其实不太恰当，不过为了简单起见，也就这样了。不恰当的原因是它其实很容易用 `\U` 操作符（表示换大写）和引用符（反斜杠跟数字）完成任务：
+
+
+```r
+gsub(r, "\\U\\1", x, perl = TRUE)
+## [1] "Hi LI Sir"  "Hi Li Dada"
+```
+
+好了，希望我将来能记住，零宽断言中的小于号是一只喇叭，望着后面吹。
