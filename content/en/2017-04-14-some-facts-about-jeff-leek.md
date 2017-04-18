@@ -4,7 +4,7 @@ date: '2017-04-14'
 slug: jeff-leek-facts
 ---
 
-> **Note**: What other facts about Jeff Leek do you "know"? Please feel free to click the edit button <i class="fa fa-edit"></i> above and submit a pull request on Github.
+> **Note**: What other facts about Jeff Leek do you "know"? Please feel free to click the edit button <i class="fa fa-edit"></i> above and submit a pull request on Github, or tweet with the hashtag [#jeffleekfacts](https://twitter.com/hashtag/jeffleekfacts).
 
 I have not written blog posts for quite a while. It is not because I don't have anything to write. On the contrary, I have a huge amount of things that I could have written about, e.g., how I collect and manage GIFs, and some stories behind the publication of the [bookdown book](https://bookdown.org/yihui/bookdown). A lot of things have happened since the last time I wrote a post here. I'll explain them later this year.
 
@@ -73,6 +73,18 @@ And I just wanted to collect these unknown "facts" about Jeff A-leek-sa:
 - @michaelhoffman: Jeff Leek is the Uniformly Most Powerful Jeff.
 
 - @pachamaltese: Jeff Leek always obtains unbiased estimators.
+
+- @rdpeng (a few days later): Ok, who knew that Slack was an acronym?
+
+    - @sherrirose: Jeff Leek knew that Slack was an acronym.
+
+    - @rdpeng: Nice. I deserved that.
+
+- @EamonCaddigan: Jeff Leek can quickly process several yottabytes of data in memory. HIS memory.
+
+- @butterflyology: If you install Jeff Leek, there are no dependencies. Because Jeff Leek depends on nothing.
+
+- @DrJWolfson: Jeff Leek cannot be replicated, but he is fully reproducible.
 
 I'm looking forward to yet more facts.
 
