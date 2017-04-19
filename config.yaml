@@ -8,6 +8,7 @@ ignoreFiles: ["\\.Rmd$", "_files$", "_cache$"]
 hasCJKLanguage: true
 enableEmoji: true
 footnotereturnlinkcontents: "↩"
+rssLimit: 30
 
 permalinks:
   cn: "/cn/:year/:month/:slug/"
