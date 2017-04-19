@@ -19,6 +19,9 @@
       <guid>{{ .Site.Params.fullURL }}{{ .Permalink }}</guid>
       <description>
         {{ (replace .Content "" "") | html }}
+        {{ if eq .Section "en" }}
+        {{ (printf "<script>window.location.href='%s%s';</script>" .Site.Params.fullURL .Permalink) | html }}
+        {{ end }}
       </description>
     </item>
     {{ end }}
