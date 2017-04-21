@@ -31,7 +31,7 @@
        url('../fonts/source-sans-pro-regular.woff') format('woff');
 }
 body {
-  font-family: 'Alegreya', 'Palatino Linotype', 'Book Antiqua', Palatino, 'source-han-serif-sc', 'Songti SC', '仿宋', 'FangSong', 'NSimSun', 'Microsoft YaHei', serif;
+  font-family: 'Alegreya', 'Palatino Linotype', 'Book Antiqua', Palatino, 'source-han-serif-sc', 'Source Han Serif SC', 'Source Han Serif CN', 'Source Han Serif TC', 'Source Han Serif TW', 'Source Han Serif', 'Songti SC', '仿宋', 'FangSong', 'NSimSun', 'Microsoft YaHei', serif;
 }
 blockquote {
   font-family: 'Source Sans Pro', Tahoma, Geneva, 'STKaiti', 'KaiTi', '楷体', 'SimKai', 'DFKai-SB', 'NSimSun', serif;
