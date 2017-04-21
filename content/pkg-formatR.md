@@ -2,7 +2,7 @@
 title: formatR
 subtitle: Format R code automatically
 author: Yihui Xie
-date: "2017-02-26"
+date: "2017-04-21"
 show_toc: true
 slug: formatR
 githubEditURL: https://github.com/yihui/formatR/edit/master/vignettes/formatR.Rmd
@@ -42,9 +42,9 @@ sessionInfo()
 ```
 
 ```
-## R version 3.3.2 (2016-10-31)
+## R version 3.3.3 (2017-03-06)
 ## Platform: x86_64-apple-darwin13.4.0 (64-bit)
-## Running under: macOS Sierra 10.12.3
+## Running under: macOS Sierra 10.12.4
 ## 
 ## locale:
 ## [1] en_US.UTF-8/en_US.UTF-8/en_US.UTF-8/C/en_US.UTF-8/en_US.UTF-8
@@ -56,8 +56,8 @@ sessionInfo()
 ## [1] formatR_1.4.2
 ## 
 ## loaded via a namespace (and not attached):
-## [1] magrittr_1.5  tools_3.3.2   stringi_1.1.2 knitr_1.15.12
-## [5] methods_3.3.2 stringr_1.2.0 evaluate_0.10
+## [1] magrittr_1.5  tools_3.3.3   stringi_1.1.5 knitr_1.15.19
+## [5] methods_3.3.3 stringr_1.2.0 evaluate_0.10
 ```
 
 # 2. Reformat R code
