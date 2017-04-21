@@ -88,6 +88,8 @@ And I just wanted to collect these unknown "facts" about Jeff A-leek-sa:
 
 - @pdalgd: Jeff Leek can make code work just by waiting for it!
 
+- @TrestleJeff: R Core was founded as a Jeff Leek tribute band.
+
 I'm looking forward to yet more facts.
 
 ![More](https://slides.yihui.name/gif/dog-reach.gif)
