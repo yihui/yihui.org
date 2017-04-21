@@ -86,6 +86,8 @@ And I just wanted to collect these unknown "facts" about Jeff A-leek-sa:
 
 - @DrJWolfson: Jeff Leek cannot be replicated, but he is fully reproducible.
 
+- @pdalgd: Jeff Leek can make code work just by waiting for it!
+
 I'm looking forward to yet more facts.
 
 ![More](https://slides.yihui.name/gif/dog-reach.gif)
