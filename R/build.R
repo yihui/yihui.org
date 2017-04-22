@@ -4,9 +4,7 @@ local = cargs[1] == 'TRUE'
 
 build_one = function(io, external = FALSE)  {
   if (!file.exists(io[1])) {
-    (if (Sys.getenv('USER') == 'yihui') stop else warning)(
-      'File ', io[1], ' does not exist'
-    )
+    if (Sys.getenv('USER') == 'yihui') stop('File ', io[1], ' does not exist')
     return()
   }
   # if output is not older than input, skip the compilation
