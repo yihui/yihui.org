@@ -2,7 +2,7 @@
 title: formatR
 subtitle: Format R code automatically
 author: Yihui Xie
-date: "2017-04-23"
+date: "2017-04-25"
 show_toc: true
 slug: formatR
 githubEditURL: https://github.com/yihui/formatR/edit/master/vignettes/formatR.Rmd
@@ -24,13 +24,13 @@ if (location.protocol === 'https:' && location.href.match('yihui.name') === null
 
 # 1. Installation
 
-You can install **formatR** from [CRAN](https://cran.r-project.org/package=formatR), or [XRAN](http://yihui.name/xran) if you want to test the latest development version:
+You can install **formatR** from [CRAN](https://cran.r-project.org/package=formatR), or [XRAN](https://xran.yihui.name) if you want to test the latest development version:
 
 
 ```r
 install.packages("formatR", repos = "http://cran.rstudio.com")
 #' to install the development version, run
-#' install.packages('formatR', repos = 'http://yihui.name/xran')
+#' install.packages('formatR', repos = 'https://xran.yihui.name')
 ```
 
 Or check out the [Github repository](https://github.com/yihui/formatR) and install from source if you know what this means. This page is always based on the development version.
@@ -46,6 +46,10 @@ sessionInfo()
 ## Platform: x86_64-apple-darwin15.6.0 (64-bit)
 ## Running under: macOS Sierra 10.12.4
 ## 
+## Matrix products: default
+## BLAS: /Library/Frameworks/R.framework/Versions/3.4/Resources/lib/libRblas.0.dylib
+## LAPACK: /Library/Frameworks/R.framework/Versions/3.4/Resources/lib/libRlapack.dylib
+## 
 ## locale:
 ## [1] en_US.UTF-8/en_US.UTF-8/en_US.UTF-8/C/en_US.UTF-8/en_US.UTF-8
 ## 
@@ -53,11 +57,11 @@ sessionInfo()
 ## [1] stats     graphics  grDevices utils     datasets  base     
 ## 
 ## other attached packages:
-## [1] formatR_1.4.2
+## [1] formatR_1.5
 ## 
 ## loaded via a namespace (and not attached):
 ## [1] compiler_3.4.0 magrittr_1.5   tools_3.4.0    stringi_1.1.5 
-## [5] knitr_1.15.1   methods_3.4.0  stringr_1.2.0  evaluate_0.10
+## [5] knitr_1.15.20  methods_3.4.0  stringr_1.2.0  evaluate_0.10
 ```
 
 # 2. Reformat R code
@@ -128,11 +132,13 @@ Two applications of `tidy_source()`:
     ```r
     library(formatR)
     usage(glm, width = 40)  # can set arbitrary width here
-    ## glm(formula, family = gaussian, data, weights, 
-    ##     subset, na.action, start = NULL, etastart, 
-    ##     mustart, offset, control = list(...), 
-    ##     model = TRUE, method = "glm.fit", x = FALSE, 
-    ##     y = TRUE, contrasts = NULL, ...)
+    ## glm(formula, family = gaussian, data,
+    ##     weights, subset, na.action,
+    ##     start = NULL, etastart, mustart,
+    ##     offset, control = list(...),
+    ##     model = TRUE, method = "glm.fit",
+    ##     x = FALSE, y = TRUE,
+    ##     contrasts = NULL, ...)
     args(glm)
     ## function (formula, family = gaussian, data, weights, subset, 
     ##     na.action, start = NULL, etastart, mustart, offset, control = list(...), 
