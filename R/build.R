@@ -49,3 +49,13 @@ if (!local) {
     system2('optipng', shQuote(i), stderr = FALSE)
   }
 }
+
+checkJS = function(name) {
+  api = sprintf('https://api.bootcdn.cn/libraries/%s.json', name)
+  jsonlite::fromJSON(api)$version
+}
+
+if (FALSE) {
+  checkJS('highlight.js')
+  checkJS('mathjax')
+}
