@@ -108,7 +108,7 @@ params:
   githubContentURL: "https://github.com/rbind/yihui/edit/master/content/"
 
   # options for highlight.js (version, additional languages, and theme)
-  highlightjsVersion: "9.10.0"
+  highlightjsVersion: "9.11.0"
   highlightjsCDN: "//cdn.bootcss.com"
   highlightjsLang: ["r", "yaml", "tex"]
   highlightjsTheme: "github"
