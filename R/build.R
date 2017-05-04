@@ -50,12 +50,11 @@ if (!local) {
   }
 }
 
-checkJS = function(name) {
-  api = sprintf('https://api.bootcdn.cn/libraries/%s.json', name)
-  jsonlite::fromJSON(api)$version
-}
-
 if (FALSE) {
+  checkJS = function(name) {
+    api = sprintf('https://api.bootcdn.cn/libraries/%s.json', name)
+    jsonlite::fromJSON(api)$version
+  }
   checkJS('highlight.js')
   checkJS('mathjax')
 }
