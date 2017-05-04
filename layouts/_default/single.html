@@ -11,7 +11,7 @@
     {{ partial "article_meta.html" . }}
 
     {{ if .Params.show_toc }} {{ .TableOfContents }} {{ end }}
-    <div class="article-content">
+    <div class="article-content{{ if eq .Section "cn" }} cn{{ end }}">
       {{ .Content }}
     </div>
     {{ partial "prev_next.html" . }}
