@@ -113,6 +113,9 @@ params:
   highlightjsLang: ["r", "yaml", "tex"]
   highlightjsTheme: "github"
 
+  MathJaxVersion: "2.7.1"
+  MathJaxCDN: "//cdn.bootcss.com"
+
   social:
     twitter: "xieyihui"
     weibo: "谢益辉"
