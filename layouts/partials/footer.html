@@ -1,7 +1,7 @@
       <footer class="footer">
         <ul class="footer-links">
           {{ if .RSSLink }}
-          <li><a href="{{ .RSSLink }}" type="application/rss+xml" target="_blank"><i class="fa fa-rss" aria-hidden="true" title="RSS feed"></i><span class="sr-only">RSS feed</span></a></li>
+          <li><a href="{{ .RSSLink | relURL }}" type="application/rss+xml" target="_blank"><i class="fa fa-rss" aria-hidden="true" title="RSS feed"></i><span class="sr-only">RSS feed</span></a></li>
           {{ end }}
           {{ with .Site.Params.social }}
           <li><a href="https://github.com/{{ .github }}"><i class="fa fa-github" aria-hidden="true" title="Github"></i><span class="sr-only">Github</span></a></li>
@@ -14,7 +14,7 @@
       </footer>
     </div>
     {{ range .Site.Params.customJS }}
-    <script async src="{{ . | absURL }}"></script>
+    <script async src="{{ . | relURL }}"></script>
     {{ end }}
     {{ partial "footer_highlightjs" . }}
     {{ partial "footer_mathjax" . }}

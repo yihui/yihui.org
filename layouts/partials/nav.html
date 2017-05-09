@@ -1,6 +1,6 @@
 <nav class="nav">
-  <a href="{{ .Site.BaseURL }}" class="nav-logo">
-    <img src="{{ .Site.BaseURL }}images/{{ .Site.Params.logo.url }}"
+  <a href="{{ "/" | relURL }}" class="nav-logo">
+    <img src="{{ print "images/" .Site.Params.logo.url | relURL }}"
          width="{{ .Site.Params.logo.width }}"
          height="{{ .Site.Params.logo.height }}"
          alt="{{ .Site.Params.logo.alt }}">

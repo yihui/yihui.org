@@ -1,4 +1,4 @@
-baseurl: "/"
+baseurl: "https://yihui.name/"
 languageCode: "en-us"
 title: "Yihui Xie | 谢益辉"
 theme: "hugo-lithium-theme"
@@ -101,7 +101,6 @@ menu:
 params:
   description: "Personal website of Yihui Xie; 谢益辉的个人网站"
   disqusURL: "http://yihui.name"
-  fullURL: "https://yihui.name"
   dateFormat: "2006/01/02"
   customCSS: ["css/custom.css"]
   customJS: ["js/center-img.js", "js/right-quote.js", "js/no-highlight.js", "js/fix-footnote.js"]

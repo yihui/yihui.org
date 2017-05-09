@@ -15,7 +15,7 @@
     {{ range (where .Site.Pages "Type" .Section).ByParam (or .Params.order_by "date" ) }}
     {{ if len (findRE "/(demo|example)/$" .File.Dir) }}
     <article class="archive-item">
-      <a href="{{ .Permalink }}" class="archive-item-link">{{ .Title }} {{ with .Params.subtitle }}<span class='article-subtitle'> &middot; {{ . }} </span>{{ end }}</a>
+      <a href="{{ .RelPermalink }}" class="archive-item-link">{{ .Title }} {{ with .Params.subtitle }}<span class='article-subtitle'> &middot; {{ . }} </span>{{ end }}</a>
       <span class="archive-item-date">
         {{ .Date.Format "2006/01/02" }}
       </span>
