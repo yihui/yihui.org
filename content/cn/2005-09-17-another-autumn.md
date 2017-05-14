@@ -1,0 +1,23 @@
+---
+title: Facing up to another autumn
+date: '2005-09-17'
+slug: another-autumn
+---
+
+It's said that time flies like an arrow, but for me perhaps it's not true...
+
+Long time as it is, there were also many unforgettbale things happened...
+
+Over and over again, in a certain silent night they'd show up in my mind...
+
+Vacant and clear, faraway and near, joyful and sorrowful, lost and found...
+
+Enjoy life! I say to myself, ignoring past the bitterness I've experienced...
+
+Observing the silver lining every time we get lost in the heavy clouds...
+
+.
+
+Sharing, Sacrificing, Screaming, Sealing, Sensing, Singing, in September...
+
+.
