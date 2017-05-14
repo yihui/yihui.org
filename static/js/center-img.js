@@ -5,11 +5,11 @@
       tag = tags[i];
       var parent = tag.parentElement;
       // center an image if it is the only element of its parent
-      if (parent.childElementCount === 1) {
+      if (parent.childNodes.length === 1) {
         // if there is a link on image, check grandparent
         if (parent.nodeName === 'A') {
           parent = parent.parentElement;
-          if (parent.childElementCount > 1) continue;
+          if (parent.childNodes.length != 1) continue;
         }
         if (parent.nodeName === 'P') parent.style.textAlign = 'center';
       }
