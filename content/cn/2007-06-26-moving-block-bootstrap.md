@@ -4,6 +4,8 @@ date: '2007-06-26T23:58:10+08:00'
 slug: moving-block-bootstrap
 ---
 
+![Block Bootstrap](https://db.yihui.name/space/block.gif)
+
 My R code for illustration:
 
 ```r

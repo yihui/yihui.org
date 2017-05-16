@@ -12,7 +12,10 @@ slug: blogchina-stats
 
 在首页的源代码中找到类似这一句（不同的博客有不同的blogid）：
 
-访问统计：`<script language="JavaScript" src=http://counter.blogchina.com/BlogServlet?blogid=1423339 ></script>`
+```html
+访问统计：
+<script language="JavaScript" src=http://counter.blogchina.com/BlogServlet?blogid=1423339 ></script>
+```
 
 把src后面那个地址完整复制出来（就是http那个，不带引号），粘贴到你的浏览器地址栏，回车，你会看到这样一句“`document.write('13679');`”，括号中的数字就是你的博客访问量。每刷新一次这个页面，数字就会增加一位。现在知道了吧？
 

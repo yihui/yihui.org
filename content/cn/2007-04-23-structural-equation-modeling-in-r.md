@@ -8,6 +8,8 @@ I feel unhappy, so I just decide to write something not-so-interesting.
 
 Everybody is using Structural Equation Models (SEM) in China as if it were shameful that you didn't construct SEMs in your paper. Again, few people know SEM theories -- not to say the computation issues. They don't care, because they know this is a so-called advanced tool. This morning I've talked about several ironic things about SEM in my speech. 
 
+![SEM Paths](https://db.yihui.name/space/sem-path.gif)
+
 The theory can be regarded as easy, though in fact it's not. The main idea is to develop a model with a theoretical covariance matrix ($\Sigma$) which is similar to the sample covariance matrix S. Therefore, how to minimize their discrepancy becomes the most critical part in parameter estimation. Common discrepancy functions can be derived through maximum likelihood (ML), unweighted least squares (ULS) and generalized least squares (GLS), etc. Take ML as an example, the discrepancy function is 
 
 $$FML = tr(S\Sigma-1) + \log|\Sigma| - log|S| - (p + q)$$
