@@ -45,7 +45,8 @@ slug: git-submodule
 - 如果要向一个库中添加一个新的子模块，可以用 `git submodule add`，例如把我的 Github 账户下的一个库添加到 `themes/hugo-lithium-theme` 文件夹中：
 
     ```bash
-    git submodule add https://github.com/yihui/hugo-lithium-theme.git\
+    git submodule add \
+      https://github.com/yihui/hugo-lithium-theme.git \
       themes/hugo-lithium-theme
     ```
     
