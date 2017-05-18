@@ -76,6 +76,7 @@ main {
   display: block;
 }
 pre .nohighlight {
+  background-color: transparent;
   border: 1px solid #f3f3f3;
   display: block;
   padding: .5em;
