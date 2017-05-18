@@ -1,7 +1,7 @@
 ---
 title: "An Introduction to the printr Package"
 author: "Yihui Xie"
-date: "2017-02-08"
+date: "2017-05-18"
 slug: printr
 show_toc: yes
 githubEditURL: https://github.com/yihui/printr/edit/master/vignettes/printr.Rmd
@@ -14,11 +14,13 @@ vignette: >
   %\VignetteEngine{knitr::rmarkdown}
 ---
 
+
+
 The **printr** (read "printer" or "print R") package is a companion package to
-[**knitr**](https://yihui.name/knitr). Its main purpose is to extend the S3
+[**knitr**](https://yihui.name/knitr/). Its main purpose is to extend the S3
 generic function `knit_print()` in **knitr**, which is the default value of the
 chunk option `render`, as explained in the vignette
-[knit_print.html](https://cran.rstudio.com/web/packages/knitr/vignettes/knit_print.html).
+[knit_print.html](https://cran.rstudio.org/web/packages/knitr/vignettes/knit_print.html).
 
 # Overview
 
@@ -45,7 +47,7 @@ This package aims to be portable in the sense that it should work in most
 document formats, including `*.Rnw` (R + LaTeX), `*.Rmd` (R Markdown), and
 `*.Rhtml` (R + HTML) files, etc.
 
-You can find the package source on [Github](https://github.com/yihui/printr),
+You can find the package source as well as installation instructions on [Github](https://github.com/yihui/printr),
 and you are welcome to contribute code via pull requests, or file feature
 requests and bug reports via [Github
 issues](https://github.com/yihui/printr/issues).
@@ -316,62 +318,60 @@ require human interaction. Again, we may not desire human interactions in
 ```
 
 ```
-## Extract Model Coefficients
-## 
-## Description:
-## 
-##      'coef' is a generic function which extracts model coefficients
-##      from objects returned by modeling functions.  'coefficients' is an
-##      _alias_ for it.
-## 
-## Usage:
-## 
-##      coef(object, ...)
-##      coefficients(object, ...)
-##      
-## Arguments:
-## 
-##   object: an object for which the extraction of model coefficients is
-##           meaningful.
-## 
-##      ...: other arguments.
-## 
-## Details:
-## 
-##      All object classes which are returned by model fitting functions
-##      should provide a 'coef' method or use the default one.  (Note that
-##      the method is for 'coef' and not 'coefficients'.)
-## 
-##      Class '"aov"' has a 'coef' method that does not report aliased
-##      coefficients (see 'alias').
-## 
-## Value:
-## 
-##      Coefficients extracted from the model object 'object'.
-## 
-##      For standard model fitting classes this will be a named numeric
-##      vector.  For '"maov"' objects (produced by 'aov') it will be a
-##      matrix.
-## 
-## References:
-## 
-##      Chambers, J. M. and Hastie, T. J. (1992) _Statistical Models in
-##      S_.  Wadsworth & Brooks/Cole.
-## 
-## See Also:
-## 
-##      'fitted.values' and 'residuals' for related methods; 'glm', 'lm'
-##      for model fitting.
-## 
-## Examples:
-## 
-##      x <- 1:5; coef(lm(c(1:3, 7, 6) ~ x))
-## 
+Extract Model Coefficients
+
+Description:
+
+     'coef' is a generic function which extracts model coefficients
+     from objects returned by modeling functions.  'coefficients' is an
+     _alias_ for it.
+
+Usage:
+
+     coef(object, ...)
+     coefficients(object, ...)
+     
+Arguments:
+
+  object: an object for which the extraction of model coefficients is
+          meaningful.
+
+     ...: other arguments.
+
+Details:
+
+     All object classes which are returned by model fitting functions
+     should provide a 'coef' method or use the default one.  (Note that
+     the method is for 'coef' and not 'coefficients'.)
+
+     Class '"aov"' has a 'coef' method that does not report aliased
+     coefficients (see 'alias').
+
+Value:
+
+     Coefficients extracted from the model object 'object'.
+
+     For standard model fitting classes this will be a named numeric
+     vector.  For '"maov"' objects (produced by 'aov') it will be a
+     matrix.
+
+References:
+
+     Chambers, J. M. and Hastie, T. J. (1992) _Statistical Models in
+     S_.  Wadsworth & Brooks/Cole.
+
+See Also:
+
+     'fitted.values' and 'residuals' for related methods; 'glm', 'lm'
+     for model fitting.
+
+Examples:
+
+     x <- 1:5; coef(lm(c(1:3, 7, 6) ~ x))
 ```
 
 When help pages are really long, we can use the chunk option
-`render.args$help$sections`^[The `$` notation here means the chunk option should
-be of the form `render.args = list(help = list(sections = VALUES))`.] to select
+`printr.help.sections` to select
 a few sections to display, e.g. we only show the sections `description` and
 `usage` of the `paste()` function:
 
@@ -381,17 +381,16 @@ a few sections to display, e.g. we only show the sections `description` and
 ```
 
 ```
-## Concatenate Strings
-## 
-## Description:
-## 
-##      Concatenate vectors after converting to character.
-## 
-## Usage:
-## 
-##      paste (..., sep = " ", collapse = NULL)
-##      paste0(..., collapse = NULL)
-## 
+Concatenate Strings
+
+Description:
+
+     Concatenate vectors after converting to character.
+
+Usage:
+
+     paste (..., sep = " ", collapse = NULL)
+     paste0(..., collapse = NULL)
 ```
 
 ## Vignette/dataset lists
@@ -437,13 +436,15 @@ data(package = "lattice")
 
 
 
-|Item          |Title                                                 |
-|:-------------|:-----------------------------------------------------|
-|barley        |Yield data from a Minnesota barley trial              |
-|environmental |Atmospheric environmental conditions in New York City |
-|ethanol       |Engine exhaust fumes from burning ethanol             |
-|melanoma      |Melanoma skin cancer incidence                        |
-|singer        |Heights of New York Choral Society singers            |
+|Item                |Title                                                 |
+|:-------------------|:-----------------------------------------------------|
+|USMortality         |Mortality Rates in US by Cause and Gender             |
+|USRegionalMortality |Mortality Rates in US by Cause and Gender             |
+|barley              |Yield data from a Minnesota barley trial              |
+|environmental       |Atmospheric environmental conditions in New York City |
+|ethanol             |Engine exhaust fumes from burning ethanol             |
+|melanoma            |Melanoma skin cancer incidence                        |
+|singer              |Heights of New York Choral Society singers            |
 
 ```r
 data(package = c("rpart", "lattice"))
@@ -451,19 +452,21 @@ data(package = c("rpart", "lattice"))
 
 
 
-|Package |Item           |Title                                                   |
-|:-------|:--------------|:-------------------------------------------------------|
-|rpart   |car.test.frame |Automobile Data from 'Consumer Reports' 1990            |
-|rpart   |car90          |Automobile Data from 'Consumer Reports' 1990            |
-|rpart   |cu.summary     |Automobile Data from 'Consumer Reports' 1990            |
-|rpart   |kyphosis       |Data on Children who have had Corrective Spinal Surgery |
-|rpart   |solder         |Soldering of Components on Printed-Circuit Boards       |
-|rpart   |stagec         |Stage C Prostate Cancer                                 |
-|lattice |barley         |Yield data from a Minnesota barley trial                |
-|lattice |environmental  |Atmospheric environmental conditions in New York City   |
-|lattice |ethanol        |Engine exhaust fumes from burning ethanol               |
-|lattice |melanoma       |Melanoma skin cancer incidence                          |
-|lattice |singer         |Heights of New York Choral Society singers              |
+|Package |Item                |Title                                                   |
+|:-------|:-------------------|:-------------------------------------------------------|
+|rpart   |car.test.frame      |Automobile Data from 'Consumer Reports' 1990            |
+|rpart   |car90               |Automobile Data from 'Consumer Reports' 1990            |
+|rpart   |cu.summary          |Automobile Data from 'Consumer Reports' 1990            |
+|rpart   |kyphosis            |Data on Children who have had Corrective Spinal Surgery |
+|rpart   |solder              |Soldering of Components on Printed-Circuit Boards       |
+|rpart   |stagec              |Stage C Prostate Cancer                                 |
+|lattice |USMortality         |Mortality Rates in US by Cause and Gender               |
+|lattice |USRegionalMortality |Mortality Rates in US by Cause and Gender               |
+|lattice |barley              |Yield data from a Minnesota barley trial                |
+|lattice |environmental       |Atmospheric environmental conditions in New York City   |
+|lattice |ethanol             |Engine exhaust fumes from burning ethanol               |
+|lattice |melanoma            |Melanoma skin cancer incidence                          |
+|lattice |singer              |Heights of New York Choral Society singers              |
 
 ```r
 data(package = "knitr")  # no datasets here
@@ -507,9 +510,10 @@ Description:
 
 Package:            printr
 Type:               Package
-Title:              Automatically Print R Objects According to knitr Output Format
-Version:            0.0.6
-Date:               2014-09-04
+Title:              Automatically Print R Objects to Different Formats According to the
+                    'knitr' Output Format
+Version:            0.1
+Date:               2017-05-19
 Author:             Yihui Xie
 Maintainer:         Yihui Xie <xie@yihui.name>
 Description:        Extends the S3 generic function knit_print() in knitr to
@@ -524,10 +528,10 @@ URL:                http://yihui.name/printr
 BugReports:         https://github.com/yihui/printr/issues
 VignetteBuilder:    knitr
 LazyData:           TRUE
-RoxygenNote:        6.0.0
+RoxygenNote:        6.0.1
 NeedsCompilation:   no
-Packaged:           2017-02-07 19:33:43 UTC; yihui
-Built:              R 3.3.2; ; 2017-02-07 19:33:44 UTC; unix
+Packaged:           2017-05-18 20:44:47 UTC; yihui
+Built:              R 3.4.0; ; 2017-05-18 20:44:47 UTC; unix
 
 Index:
 
