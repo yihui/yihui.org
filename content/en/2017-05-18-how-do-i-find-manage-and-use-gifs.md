@@ -6,7 +6,7 @@ slug: gifs
 
 A few months ago [Jenny](https://twitter.com/JennyBryan) wanted me (and Karthik, if I remember correctly) to share some experience with GIFs. I have been busy with writing the [**blogdown** book](https://bookdown.org/yihui/blogdown/) recently and don't really have much time, so I'm going to write a quick post just to take a short break. I may expand this post in the future.
 
-First thing first. I tend to pronounce "GIF" with the _soft_ G, but I feel there are much more people saying the hard G. Since my native language is not English, I usually try to say the hard G when I speak in English (and hard G in Chinese). I'm fine with either way, and I promise I won't [turn your skull into a toilet](http://theoatmeal.com/comics/gif).
+First thing first. I tend to pronounce "GIF" with the _soft_ G, but I feel there are much more people saying the hard G. Since my native language is not English, I usually try to say the hard G when I speak in English (and soft G in Chinese). I'm fine with either way, and I promise I won't [turn your skull into a toilet](http://theoatmeal.com/comics/gif).
 
 ## Where do I find GIFs?
 
@@ -20,7 +20,7 @@ When I see a funny GIF on Twitter, I copy the URL of the tweet and paste to [ezg
 
 ## How do I manage GIFs?
 
-I don't have a clever method to manage my GIFs. I simply store them in a Dropbox folder. All my slides, which you can find in my [CV](/en/vitae), are hosted in Dropbox via [Updog](https://updog.co)^[Updog used to be cheap. When I became a Pro member, it only cost my $5 in total for a lifetime member. Now it is a little bit expensive. GIFs are static files, so you have many other choices to host them, althouth maybe not as convenient as Updog. Or you can use the free plan of Updog only to serve your GIFs but not HTML slides.] and I have assigned a subdomain slides.yihui.name to serve these (HTML) slides as well as the GIFs. For example, https://slides.yihui.name/gif/goose-smile.gif actually points to a GIF file in my Dropbox folder.
+I don't have a clever method to manage my GIFs. I simply store them in a Dropbox folder. All my slides, which you can find in my [CV](/en/vitae), are hosted in Dropbox via [Updog](https://updog.co)^[Updog used to be cheap. When I became a Pro member, it only cost my $5 in total for lifetime membership. Now it is a little bit expensive. GIFs are static files, so you have many other choices to host them, althouth maybe not as convenient as Updog. Or you can use the free plan of Updog only to serve your GIFs but not HTML slides.] and I have assigned a subdomain slides.yihui.name to serve these (HTML) slides as well as the GIFs. For example, https://slides.yihui.name/gif/goose-smile.gif actually points to a GIF file in my Dropbox folder.
 
 I don't have a huge amount of GIFs in this folder (less than 100), so I don't need a clever method for indexing or searching. I can remember most of them in my mind. The filenames are typically very short, like [happy-elmo.gif](https://slides.yihui.name/gif/happy-elmo.gif) and [mad-panda.gif](https://slides.yihui.name/gif/mad-panda.gif).
 
