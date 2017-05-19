@@ -164,6 +164,7 @@ leading white spaces have special meanings in markdown.
 - `cache.vars`: (`NULL`) a character vector of variable names to be saved in
   the cache database; by default all variables created in the current chunks
   are identified and saved, but we can manually set the variables to be saved
+- `cache.globals`: (`NULL`) a character vector of the names of variables that are not created from the current chunk; this option is mainly for `autodep = TRUE` to work more precisely -- a chunk B depends on chunk A when any of B's global variables are A's local variables; by default, the detection of global variables in a chunk is very conservative -- it detects all possible variables in the chunk, no matter if they are local or global
 - `cache.lazy`: (`TRUE`) whether to `lazyLoad()` or directly `load()` objects;
   for very large objects, lazyloading may not work, so `cache.lazy=FALSE`
   may be desirable (see [#572](https://github.com/yihui/knitr/issues/572))
