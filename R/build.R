@@ -23,7 +23,7 @@ files = cbind(as.matrix(files), external = TRUE)
 # Rmd files under the content directory
 rmds = list.files('content', '[.]Rmd$', recursive = TRUE, full.names = TRUE)
 if (length(rmds)) {
-  files = rbind(files, cbind(rmds, gsub('.Rmd$', '.md', rmds), FALSE))
+  files = rbind(files, cbind(rmds, blogdown:::with_ext(rmds, '.md'), FALSE))
 }
 
 for (i in seq_len(nrow(files))) {
