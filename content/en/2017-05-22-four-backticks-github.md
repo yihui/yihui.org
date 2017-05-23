@@ -52,8 +52,8 @@ So I [revised](https://github.com/yihui/knitr/commit/d7d59633302d35e9d244490112b
 
 The next time when you post a new issue or comment on Github that contains an R Markdown example, please keep this haiku in mind and show other people something that they can copy and run directly:^[Usually there have been enough straws on the camels' back. Your effort will be appreciated if you could even reduce one single straw.]
 
-> To include a pair of three backticks,  
-> 　use a pair of four backticks,  
+> To include three cool backticks,  
+> 　use a cozy pair of four backticks,  
 > 　　or I will kill you.^[Credits to Joe Cheng, who wrote the haiku "Keep your side-effects, out of reactives, or I will kill you". I don't remember the exact words but I guess I hate poorly formatted Github issues as much as he hates side-effects in Shiny reactives.]
 
 `````markdown
