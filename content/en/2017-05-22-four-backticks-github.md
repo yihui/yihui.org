@@ -6,7 +6,7 @@ slug: four-backticks-github
 
 It is always the little things...
 
-Over the years, I have been totally happy with almost everything about Github, but I have also been waiting for one little thing: I wish we could enclose text that contains N backticks with a pair of N + 1 backticks in Github issues/comments, i.e.,
+Over the years, I have been totally happy with almost everything about Github, but I have also been waiting for one little thing:^[Actually I have also been waiting for another feature ([commenting in the source file view](https://github.com/isaacs/github/issues/211)), but it does not bother me as much.] I wish we could enclose text that contains N backticks with a pair of N + 1 backticks in Github issues/comments, i.e.,
 
 `````markdown
 ````
@@ -54,7 +54,7 @@ The next time when you post a new issue or comment on Github that contains an R 
 
 > To include three cool backticks,  
 > 　use a cozy pair of four backticks,  
-> 　　or I will kill you.^[Credits to Joe Cheng, who wrote the haiku "Keep your side-effects, out of reactives, or I will kill you". I don't remember the exact words but I guess I hate poorly formatted Github issues as much as he hates side-effects in Shiny reactives.]
+> 　　or I will kill you.^[Credits to Joe Cheng, who wrote the haiku "Keep your side-effects, out of reactives, or I will kill you". I don't remember the exact words but I guess I hate poorly formatted Github issues as much as he discourages side-effects in Shiny reactives.]
 
 `````markdown
 ````
