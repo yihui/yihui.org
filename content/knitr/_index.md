@@ -14,7 +14,7 @@ combine features in other add-on packages into one package (**knitr**
 `R2HTML::RweaveHTML` + `highlight::HighlightWeaveLatex` + 0.2 * brew + 0.1 *
 SweaveListingUtils + more).
 
-[<img src="https://db.yihui.name/imgur/yYw46aF.jpg" align="right" width=200 />](https://amzn.com/1498716962)
+[<img src="https://db.yihui.name/imgur/yYw46aF.jpg" align="right" width=200 style="margin-left: 1em;" />](https://amzn.com/1498716962)
 
 - Transparency means that the user has full access to every piece of the
   input and output, e.g., `1 + 2` produces `[1] 3` in an R terminal, and 
@@ -140,7 +140,7 @@ testers. This package was initiated based on the design of **decumar**.
 
 ## FOAS
 
-<img src="https://db.yihui.name/imgur/XmT6L3F.png" style="float: right;" width=150 />
+<img src="https://db.yihui.name/imgur/XmT6L3F.png" style="float:right;margin-left:1em" width=150 />
 `knitr` is proudly affiliated with the [Foundation for Open Access
 Statistics](http://www.foastat.org/) (FOAS). FOAS is a nonprofit public
 benefit corporation with a worldwide mission to promote free software, open
