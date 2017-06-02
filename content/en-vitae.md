@@ -164,6 +164,9 @@ Projects participated:
 
 ## Presentations & Tutorials
 
+- Yihui Xie, 2017, _Towards An Open-access, Fast, and Reproducible Journal_, a keynote talk at the WOMBAT MeDaScIn conference, Melbourne, Australia ([slides](https://slides.yihui.name/2017-DSM-Journal-Yihui-Xie.html))
+- Yihui Xie, 2017, _A Tour Through the R Markdown Ecosystem: Creating Documents, Presentations, Papers, Dashboards, Books, and Websites_, a tutorial at the Melbourne Data Science Week, Australia ([slides](https://slides.yihui.name/2017-DSM-rmarkdown-Yihui-Xie.html))
+- Yihui Xie, 2017, _Making Websites with R Markdown and blogdown_, RStudio webinar ([slides](https://slides.yihui.name/2017-rstudio-webinar-blogdown-Yihui-Xie.html))
 - Yihui Xie, 2017, _The R Markdown Ecosystem: Reproducible Reports, Papers, Books, Websites, and Presentations_, a seminar in the Department of Plant Pathology, Kansas State University, Manhattan, KS ([slides](https://slides.yihui.name/2017-RMD-KSU.html))
 - Yihui Xie, 2017, _Customizing & Extending R Markdown_, a talk at rstudio::conf, Kissimmee, FL ([slides](https://slides.yihui.name/2017-rstudio-conf-ext-rmd-Yihui-Xie.html))
 - Yihui Xie, 2017, _Making Websites with R Markdown_, a talk at rstudio::conf, Kissimmee, FL ([slides](https://slides.yihui.name/2017-rstudio-conf-blogdown-Yihui-Xie.html))

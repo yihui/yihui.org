@@ -120,6 +120,9 @@ Email：xie@yihui.name；主页：<http://yihui.name>；现居住于美国内布
 
 ## 演讲和讲座
 
+- 谢益辉，2017，_Towards An Open-access, Fast, and Reproducible Journal_，WOMBAT MeDaScIn 会议特邀报告，墨尔本 （[幻灯片](https://slides.yihui.name/2017-DSM-Journal-Yihui-Xie.html)）
+- 谢益辉，2017，_A Tour Through the R Markdown Ecosystem: Creating Documents, Presentations, Papers, Dashboards, Books, and Websites_，墨尔本数据科学周短期课程，澳大利亚（[幻灯片](https://slides.yihui.name/2017-DSM-rmarkdown-Yihui-Xie.html)）
+- 谢益辉，2017，_Making Websites with R Markdown and blogdown_，RStudio 网络报告（[幻灯片](https://slides.yihui.name/2017-rstudio-webinar-blogdown-Yihui-Xie.html)）
 - 谢益辉，2017，_The R Markdown Ecosystem: Reproducible Reports, Papers, Books, Websites, and Presentations_，堪萨斯州立大学植物病理学系，曼哈顿，堪萨斯（[幻灯片](https://slides.yihui.name/2017-RMD-KSU.html)）
 - 谢益辉，2017，_Customizing & Extending R Markdown_，rstudio::conf 大会报告，Kissimmee，佛罗里达 （[幻灯片](https://slides.yihui.name/2017-rstudio-conf-ext-rmd-Yihui-Xie.html)）
 - 谢益辉，2017，_Making Websites with R Markdown_，rstudio::conf 大会报告，Kissimmee，佛罗里达 （[幻灯片](https://slides.yihui.name/2017-rstudio-conf-blogdown-Yihui-Xie.html)）
