@@ -14,7 +14,7 @@ slug: lightweight-texlive
     
     - 对 macOS 下的 MacTeX，我有这么几点烦心的地方：一是它打包了一些对我来说毫无意义的应用，比如 TeXShop 和 TeXLive Utility，前者对 R Markdown 用户来说没用，后者的核心功能用两个命令行就可以替代，并没有那么恐怖（`tlmgr update --self --all` 和 `tlmgr install`）；二是它默认装在带有版本号的文件夹下，如 `/usr/local/texlive/2016`，这个问题站在软件本身的开发者角度容易理解，因为开发者通常需要测试自己的好几个版本的程序，但站在用户角度几乎毫无意义，谁特么没事安装三个版本的 TeXLive 玩儿？况且每个安装都巨大无比；关于这个版本号问题，我以前向 R 团队[上过奏章](https://stat.ethz.ch/pipermail/r-devel/2011-May/060820.html)请求移除安装路径中默认的版本号，但很快被大家打成了马蜂窝。
     
-    - Linux 下的 TeXLive 是我最早头疼的东西。在早年间我还是 Ubuntu 用户的时候，我整天盼星星盼月亮希望打包的人能把 TeXLive 从五年前的版本升级到现在的版本，但那些 deb 包永远是那么老旧、那么巨大。我等了好几年，实在忍不了了，终于摆脱了 `apt-get install texlive-*` 的束缚，转向自己手动安装 TeXLive，然后发现整个世界顿时清静了。早知道安装这么方便，鬼才愿意仰仗那些 Debian 包的维护者呢。
+    - Linux 下的 TeXLive 是我最早头疼的东西。在早年间我还是 Ubuntu 用户的时候，我整天盼星星盼月亮希望打包的人能把 TeXLive 从五年前的版本升级到现在的版本，但那些 deb 包永远是那么老旧、那么巨大。我等了好几年，实在忍不了了，终于摆脱了 `apt-get install texlive-*` 的束缚，转向自己手动安装 TeXLive，然后发现整个世界顿时清静了。早知道安装这么方便，鬼才愿意仰仗那些 Debian 包的维护者呢。自己从源代码安装 TeXLive 最大的好处是有了命令行工具 `tlmgr`，至少以前这在 Debian 世界是被禁止的（尔等不可轻易用 `tlmgr` 管理尔的包，尔等只能用寡人给你打好的包集合）。
     
     说到底，这些打包的人不懂我的心：我没兴趣了解 LaTeX 如何工作，我也不喜欢一大坨没用的文件装在我的电脑上，我需要有自由决定安装或卸载任何包，别帮我把一大坨包绑在一起扯不开撕不烂。
 
@@ -26,7 +26,7 @@ slug: lightweight-texlive
 
 废话少说，放码过来。
 
-我们还是把系统寄托在 TeXLive 上，放弃那 MikTeX 和 MacTeX。姑且叫这个项目 SmallTeX 吧。我去年曾经在 Linux 上试过，完整的 TeXLive 中如果去掉文档和源代码，最终的压缩文件（tar.gz）大小在 1G 左右。我的安装代码[在此](https://gist.github.com/yihui/7ae1144e45063c4957e5c1f6f67039f4)，核心办法就是用一个 texlive.profile 文件实现自动化安装，这也是唯一的自动化安装 TeXLive 的办法。我把它装在用户根目录下，就是 `$HOME/texlive`。这个脚本是安装所有包，如果只想安装一部分包的话，可以挖我的 [ubuntu-bin](https://github.com/yihui/ubuntu-bin) 库，看看里面我如何安装 TeXLive 以及一部分[额外的包](https://github.com/yihui/ubuntu-bin/blob/master/TeXLive.pkgs)，那些额外的包来自我的血泪积累：我在跑 knitr 包的逆向检查时收集的某些 R 包中用到的一些怪异 LaTeX 依赖。相信有了这么些包之后，多数人应该能顺利编译多数 LaTeX 文档了。另外说一句，目前 Travis CI 上的 R 语言支持中的 LaTeX 安装其实就是基于我这项工作的，主要原因就是我提供了一个超小的安装包，几秒钟就可以下载完，而且覆盖了常见的包。
+我们还是把希望寄托在 TeXLive 上，放弃那 MikTeX 和 MacTeX。姑且叫这个项目 SmallTeX 吧。我去年曾经在 Linux 上试过，完整的 TeXLive 中如果去掉文档和源代码，最终的压缩文件（tar.gz）大小在 1G 左右。我的安装代码[在此](https://gist.github.com/yihui/7ae1144e45063c4957e5c1f6f67039f4)，核心办法就是用一个 texlive.profile 文件实现自动化安装，这也是唯一的自动化安装 TeXLive 的办法。我把它装在用户根目录下，就是 `$HOME/texlive`。这个脚本是安装所有包，如果只想安装一部分包的话，可以挖我的 [ubuntu-bin](https://github.com/yihui/ubuntu-bin) 库，看看里面我如何安装 TeXLive 以及一部分[额外的包](https://github.com/yihui/ubuntu-bin/blob/master/TeXLive.pkgs)，那些额外的包来自我的血泪积累：我在跑 knitr 包的逆向检查时收集的某些 R 包中用到的一些怪异 LaTeX 依赖。相信有了这么些包之后，多数人应该能顺利编译多数 LaTeX 文档了。另外说一句，目前 Travis CI 上的 R 语言支持中的 LaTeX 安装其实就是基于我这项工作的，主要原因就是我提供了一个超小的安装包，几秒钟就可以下载完，而且覆盖了常见的包。
 
 你也可以参考 LaTeX 的官方 Github 库中的 [texlive.sh](https://github.com/latex3/latex3/blob/master/support/texlive.sh) 脚本，它也是类似的办法，有一个 texlive.profile 文件，其中设定了安装最精简的包，然后再装更多的包。
 
