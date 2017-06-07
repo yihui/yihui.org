@@ -8,7 +8,7 @@ I must admit that I have been tired of maintaining my R packages for a long time
 
 People told me all kinds of advantages of Emacs+ESS in the past few years, and I tried it for more than ten times, but often ended up with frustration (so I installed and removed Emacs repeatedly for several times). My last attempt a few months ago succeeded finally, and I realized how easy it was to document R functions in Emacs with `roxygen`. See the 1-minute video below:
 
-<iframe src="http://player.vimeo.com/video/16619180?badge=0" width="600" height="443" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+<iframe src="https://player.vimeo.com/video/16619180?badge=0" width="600" height="443" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 
 In Emacs (with ESS), you just press `C-c C-o` to insert a documentation template as roxygen comments above your function, and the rest of things to do are to fill the `@tags` and update them when necessary. These inline comments will be converted to the real Rd files when we run `R CMD roxygen your.package` or `roxygenize('your.package')`. For details please read the vignette of the [roxygen](http://cran.r-project.org/package=roxygen) package. In all, **roxygen** makes the life of developers much easier. Then a natural problem comes:
 
