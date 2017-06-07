@@ -2,7 +2,7 @@
 title: Rd2roxygen
 subtitle: Convert Rd to roxygen documentation
 author: "Yihui Xie"
-date: '2017-02-04'
+date: '2017-06-07'
 slug: Rd2roxygen
 show_toc: true
 githubEditURL: https://github.com/yihui/Rd2roxygen/edit/master/vignettes/Rd2roxygen.Rmd
@@ -78,25 +78,18 @@ roxygen.
 
 # Convert a whole package
 
-The function `Rd2roxygen()` can take a path of a source package, parse all
+The function `Rd2roxygen::Rd2roxygen()` can take a path of a source package, parse all
 the Rd files under the `man` directory, and write the roxygen comments right
 above the source code of the functions under the `R` directory. See
 `?Rd2roxygen` for an example.
 
 
 ```r
-library(Rd2roxygen)
-formatR::usage(Rd2roxygen)
+Rd2roxygen::Rd2roxygen("path/to/source/pkg")
+## there must be 'man' and 'R' directories under this path
 ```
 
-```
-Rd2roxygen(pkg, nomatch, usage = FALSE)
-```
-
-```r
-## e.g. Rd2roxygen('somewhere/to/source/pkg') there must be
-## 'man' and 'R' directories under this path
-```
+Note the path to the package should not be `.`. You are recommended to call this function in the directory that contains the source package.
 
 # Parse a single Rd file
 
@@ -105,6 +98,7 @@ We can parse a single Rd file and create the roxygen comments as well with
 
 
 ```r
+library(Rd2roxygen)
 ## we can specify the roxygen comments prefix (#' by default)
 options(roxygen.comment = "##' ")
 str(info <- parse_file(rd.file))
@@ -150,9 +144,9 @@ to help us build the package.
 
 ```r
 rab(pkg, build = TRUE, build.opts = "--no-manual", install = FALSE, 
-    install.opts = if (build) "" else "--with-keep.source", check = FALSE, 
-    check.opts = "--as-cran --no-manual", remove.check = TRUE, 
-    reformat = TRUE, before = NULL, ...)
+  install.opts = if (build) "" else "--with-keep.source", check = FALSE, 
+  check.opts = "--as-cran --no-manual", remove.check = TRUE, 
+  reformat = TRUE, before = NULL, ...)
 ```
 
 The main feature of `rab()` is the option to "reformat" the code in the
@@ -169,7 +163,7 @@ check=FALSE,check.opts='',remove.check=TRUE,reformat=TRUE,...){}
 ```r
 ## the reformatted code; note the spaces and indent
 rab = function(pkg, build = TRUE, install = FALSE, check = FALSE, 
-    check.opts = "", remove.check = TRUE, reformat = TRUE, ...) {
+  check.opts = "", remove.check = TRUE, reformat = TRUE, ...) {
 }
 ```
 
