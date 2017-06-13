@@ -13,9 +13,9 @@ Address: 560 S 183rd Ave, Elkhorn, NE 68022
 -->
 Email: xie@yihui.name; Homepage: <http://yihui.name>; Twitter [@xieyihui](https://twitter.com/xieyihui)
 
-## Research Interest
+## Research Interests
 
-Statistical computing, statistical graphics, data visualization, reproducible research
+Reproducible research; statistical computing; statistical graphics; data visualization.
 
 ## Education Background
 
@@ -47,7 +47,7 @@ Books under development:
 Papers:
 
 1. Yanyun Zhao, Nailin Feng, Yuncheng Zhao, Yihui Xie, Ning Xiao, 2008, Research on the National Quality Competitiveness of China, _Statistical Research_, 25(3), 12-19
-1. Yihui Xie, 2008. On the Applications of Statistical Graphics in Data Analysis, _Statistics Review_, Bo Zhang (ed)
+1. Yihui Xie, 2008. On the Applications of Statistical Graphics in Data Analysis, _Statistics Review_, Bo Zhang (ed), China Financial and Economic Publishing House.
 1. Yihui Xie, 2008. Bootstrap Methods: Developments and Frontiers, _Statistics & Information Forum_, 89, 90-96.
 1. Yihui Xie, 2007. The Application of the Classification and Regression Tree Based on the Package **rpart** in R, _Statistics & Information Forum_, 86, 67-70.
 1. Yihui Xie, 2007. Series in International Competitiveness: How Weak is the Financial System of China?, _China Statistics_, 7, 35.
@@ -60,10 +60,11 @@ Besides, I published several articles in the [Capital of Statistics](http://cos.
 
 Books and book chapters:
 
+1. Yihui Xie (2017). [_blogdown: Creating Websites with R Markdown_](https://bookdown.org/yihui/blogdown). Under development.
 1. Yihui Xie (2016). [_bookdown: Authoring Books and Technical Documents with R Markdown_](https://bookdown.org/yihui/bookdown). Chapman and Hall/CRC. ISBN 978-1138700109
 1. Yihui Xie (2015). [_Dynamic Documents with R and knitr_](http://www.crcpress.com/product/isbn/9781498716963). 2nd edition. Chapman and Hall/CRC. ISBN 978-1498716963
+    - Yihui Xie (2013). [_Dynamic Documents with R and knitr_](http://www.crcpress.com/product/isbn/9781482203530). Chapman and Hall/CRC. ISBN 978-1482203530
 1. Yihui Xie (2014). knitr: [_A Comprehensive Tool for Reproducible Research in R_](http://www.crcpress.com/product/isbn/9781466561595). In Victoria Stodden, Friedrich Leisch and Roger D. Peng, editors, Implementing Reproducible Computational Research. Chapman and Hall/CRC. ISBN 978-1466561595
-1. Yihui Xie (2013). [_Dynamic Documents with R and knitr_](http://www.crcpress.com/product/isbn/9781482203530). Chapman and Hall/CRC. ISBN 978-1482203530
 
 Papers:
 
@@ -74,7 +75,15 @@ Papers:
 
 ## Professional Experience
 
-I'm currently a software engineer at RStudio, Inc.
+I joined RStudio as a software engineer in 2013, and have been writing software tools for data visualzation, reproducible research, and automatic report/document generation.
+
+I [worked on](https://github.com/rstudio/shiny/graphs/contributors) Shiny from late 2013 to mid-2015. I added a few new features to Shiny, such as the support for JavaScript libraries [DataTables](https://datatables.net) and [selectize.js](http://selectize.github.io/selectize.js/), and solved the problem with Unicode characters in Shiny apps on Windows.
+
+From late 2014, I started working on the [**DT**](https://github.com/rstudio/DT) package for displaying tables, and **DT** is an interface to the DataTables library in both Shiny apps and R Markdown documents. At about the same time, I worked extensively on the [**leaflet**](https://github.com/rstudio/leaflet) package for interactive maps, to bring it to the HTML widgets framework. My 2015 was primarily spent on these two packages.
+
+In early 2016, I created a new package named [**tufte**](https://github.com/rstudio/tufte), to add the Tufte style to R Markdown documents and support both HTML and PDF output formats. I started the [**bookdown**](https://github.com/rstudio/bookdown) project in late 2015 to make it easier to write books and technical documents with R Markdown, and most of my time in 2016 was spent on this project. I also published a book for the **bookdown** package with Chapman & Hall/CRC.
+
+Since late 2016, I started the [**blogdown**](https://github.com/rstudio/blogdown) project, to create websites based on R Markdown. I'm working on a book for this project at the moment.
 
 ### Internship
 
@@ -94,7 +103,7 @@ I created and maintained web pages for:
 
 I founded and have been maintaining:
 
-- "[Capital of Statistics](http://cos.name)", a popular online community for statistics in China (May 2006 - Present)
+- "[Capital of Statistics](http://cos.name)", a popular online community for statistics in China (May 2006 - present)
 
 I worked in these web studios:
 
@@ -103,8 +112,8 @@ I worked in these web studios:
 
 My personal projects:
 
-- AniWiki: Animations in Statistics (<http://animation.yihui.name/>)
-- knitr: Elegant, flexible and fast dynamic report generation with R (<https://yihui.name/knitr>)
+- **animation**: Animations in Statistics (<https://yihui.name/animation>)
+- **knitr**: Elegant, flexible and fast dynamic report generation with R (<https://yihui.name/knitr>)
 
 ### Conference Organization
 
@@ -139,7 +148,7 @@ I offer statistical consulting by email and I have been answering questions in t
 - simulation
 - teaching
 
-I ignore any questions on Structural Equation Modeling (SEM) or factor analysis, as I do not believe their usefulness at all. I know little about time series and do not like econometrics. I have little interest in _quantitative_ research in social science.
+Typically I ignore any questions on Structural Equation Modeling (SEM) or factor analysis, since I'm not convinced of their usefulness at all. I know little about time series and do not like econometrics. I have little interest in _quantitative_ research in social sciences.
 
 ### Other Work Experience
 
@@ -276,8 +285,8 @@ Projects participated:
 
 I like playing with computer tools for building web pages and statistical computation & graphics. I often try to improve the efficiency of my work by creating software tools (i.e. work hard to be lazy).
 
-- Statistical Packages: [R](http://www.r-project.org) (~~OpenBUGS, S-Plus, SPSS, Eviews, SAS, MatLab, STATA, AMOS and LISREL~~)
-- Languages: R, HTML/CSS, JavaScript, PHP, SQL (~~Visual Basic, VBA, VBScript, ASP, Java, C~~)
+- Statistical Packages: [R](http://www.r-project.org) ~~(OpenBUGS, S-Plus, SPSS, Eviews, SAS, MatLab, STATA, AMOS and LISREL)~~
+- Languages: R, HTML/CSS, JavaScript, PHP, SQL ~~(Visual Basic, VBA, VBScript, ASP, Java, C)~~
 - Applications: LaTeX via [LyX](http://www.lyx.org), Markdown via [Pandoc](http://pandoc.org), databases (e.g. MySQL), ~~SVN and~~ GIT
 - Operating Systems: 95% macOS, 2.5% Ubuntu, and 2.5% Windows (the latter two mostly for purposes of testing software)
 
@@ -322,8 +331,8 @@ I have contributed to:
 
 ### PHP applications:
 
-- Wordpress plugin [UTF-8 DB Converter](http://wordpress.org/extend/plugins/utf-8-db-converter/) (June 2009)
-- Dokuwiki plugin [animation](http://www.dokuwiki.org/plugin:animation) to insert animations into wiki pages; written in PHP and JavaScript (Jun 2008)
+- WordPress plugin [UTF-8 DB Converter](http://wordpress.org/extend/plugins/utf-8-db-converter/) (June 2009)
+- DokuWiki plugin [animation](http://www.dokuwiki.org/plugin:animation) to insert animations into wiki pages; written in PHP and JavaScript (Jun 2008)
 
 ### Misc
 
