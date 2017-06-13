@@ -29,3 +29,8 @@ A few notes from my personal experience just for your reference and also for my 
     - For Windows users, [updating MikTeX](https://github.com/rstudio/bookdown/issues/375#issuecomment-288462901) may require you to update both LaTeX packages and refresh the filename database (whatever it means). Go to the Start menu, find MikTeX, and click any buttons that sound like "update me" (clicking buttons and seeing what happens).
 
 Personally I prefer using the latest versions of software packages, and I upgrade whenever possible (kind of obsessive), because I don't want to run into old bugs that have been fixed. This is not necessarily a good choice or the right thing to do, and I don't have evidence about whether newer or older versions are better or worse in general. Newer versions may have new bugs or changes that you hate. All I want to express in this post is that when you are in trouble, you may try to upgrade first.
+
+P.S. A list of issues solved simply by updating packages:
+
+- [Leaflet tile not showing](https://github.com/rstudio/blogdown/issues/119)
+- [Forbidden control sequence found when knitting the minimal example](https://github.com/rstudio/bookdown/issues/375)
