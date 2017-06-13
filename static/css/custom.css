@@ -96,3 +96,8 @@ pre .nohighlight {
     overflow: hidden;
   }
 }
+@media print {
+  del {
+    display: none;
+  }
+}
