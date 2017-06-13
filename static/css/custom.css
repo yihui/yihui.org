@@ -8,7 +8,9 @@ a {
 }
 .article-content {
   hyphens: auto;
-  text-align: justify;
+}
+.cn {
+ text-align: justify;
 }
 code {
   hyphens: none;
