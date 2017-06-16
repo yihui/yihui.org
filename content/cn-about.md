@@ -106,4 +106,5 @@ slug: "cn/about"
 
 - [R 语言](https://www.r-project.org)：自由的统计计算和图形软件
 - [pandoc](http://pandoc.org)：强大的文档转换工具，极客必备杀器，以防愣头客户索要 Word 版本
-- [LyX](http://www.lyx.org)：让 LaTeX 死忠死忠去吧，反正我讨厌阅读TeX源代码
+- [LyX](http://www.lyx.org)：让 LaTeX 死忠死忠去吧，反正我讨厌阅读 TeX 源代码
+- [Hugo](http://gohugo.io)：静态网站生成器

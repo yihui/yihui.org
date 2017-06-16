@@ -336,4 +336,5 @@ I have contributed to:
 
 ### Misc
 
-- the Sweave and knitr modules in LyX
+- The Sweave and knitr modules in LyX
+- The Hugo theme [XMin](https://xmin.yihui.name)
