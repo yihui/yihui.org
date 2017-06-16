@@ -50,8 +50,7 @@ not want to learn or remember the new vocabulary of **RUnit** or **testthat**.
 There is only one function for the testing purpose in this package: `assert()`.
 
 ```r 
-assert(
-  "1 plus 1 is equal to 2",
+assert("1 plus 1 is equal to 2",
   1 + 1 == 2
 )
 ```
@@ -59,13 +58,23 @@ assert(
 You can write multiple testing conditions, e.g.
 
 ```r 
-assert(
-  "1 plus 1 is equal to 2",
+assert("1 plus 1 is equal to 2",
   1 + 1 == 2,
   identical(1 + 1, 2),
   (1 + 1 >= 2) && (1 + 1 <= 2), # mathematician's proof
   c(is.numeric(1 + 1), is.numeric(2))
 )
+```
+
+Equivalently, you can write the conditions in `{}`, and each condition should be wrapped in `()`:
+
+```r 
+assert("1 plus 1 is equal to 2", {
+  (1 + 1 == 2)
+  (identical(1 + 1, 2))
+  ((1 + 1 >= 2) && (1 + 1 <= 2)) # mathematician's proof
+  c(is.numeric(1 + 1), is.numeric(2))
+})
 ```
 
 There is another function `test_pkg()` to run all tests of a package using an
