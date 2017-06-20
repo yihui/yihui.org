@@ -75,7 +75,7 @@ Papers:
 
 ## Professional Experience
 
-I joined RStudio as a software engineer in 2013, and have been writing software tools for data visualzation, reproducible research, and automatic report/document generation.
+I joined RStudio as a software engineer in 2013, and have been writing software tools for data visualization, reproducible research, and automatic report/document generation.
 
 I [worked on](https://github.com/rstudio/shiny/graphs/contributors) Shiny from late 2013 to mid-2015. I added a few new features to Shiny, such as the support for JavaScript libraries [DataTables](https://datatables.net) and [selectize.js](http://selectize.github.io/selectize.js/), and solved the problem with Unicode characters in Shiny apps on Windows.
 
@@ -198,7 +198,7 @@ Projects participated:
     - 02/17, Department of Statistics, University of Nebraska at Lincoln ([slides](http://slides.yihui.name/2016-UNL-bookdown-Yihui-Xie.html))
 - Yihui Xie, 2016, _Complex Application Layouts with Grid Style Sheets_, Shiny Developer Conference, Stanford University ([slides](http://slides.yihui.name/2016-Shiny-GSS-Yihui-Xie.html))
 - Yihui Xie, 2016, _Interfacing DataTables_, Shiny Developer Conference, Stanford University ([slides](http://slides.yihui.name/2016-Shiny-DT-Yihui-Xie.html))
-- Yihui Xie, 2015, _Reflections on R Package Developemnt a Software Engineer_, the 8th China-R conference, Nanchang, China ([slides in Chinese](http://slides.yihui.name/2015-Nanchang-R-Yihui-Xie.html))
+- Yihui Xie, 2015, _Reflections on R Package Development a Software Engineer_, the 8th China-R conference, Nanchang, China ([slides in Chinese](http://slides.yihui.name/2015-Nanchang-R-Yihui-Xie.html))
 - Yihui Xie, 2015, _Reproducible Reports with Big Data_, Strata, New York City ([slides](http://conferences.oreilly.com/strata/big-data-conference-ny-2015/public/schedule/detail/44154))
 - Yihui Xie, 2015, _A Quick Dream in Ten Years_, Renmin University of China, Beijing ([slides in Chinese](http://slides.yihui.name/2015-RUC-alumni-sympo-Yihui-Xie.html)
 - Yihui Xie, 2015, _Escape the Land of LaTeX/Word for Statistical Reporting: The Ecosystem of R Markdown_
@@ -210,7 +210,7 @@ Projects participated:
 - Yihui Xie, 2015, _Automatic reporting and interactive applications with R_, 58.com Inc, Beijing ([slides in Chinese](http://slides.yihui.name/2015-58-Yihui-Xie.html))
 - Yihui Xie, 2015, _HTML Widgets_, LA R User Group ([slides](http://slides.yihui.name/2015-htmlwidgets-LA-Yihui-Xie.html); [video](http://datascience.la/yihui-xie-presents-html-widgets/))
 - Yihui Xie & Dirk Eddelbuettel, 2014, An [R Workshop](http://ditraglia.com/RWorkshop/) at the Warren Center of UPenn, Philadelphia, PA
-- JJ Allaire & Yihui Xie, 2014, _Reproducible R Reports with Packrat and Rmarkdown _, [R Day](http://strataconf.com/stratany2014/public/schedule/detail/37037) at Strata New York
+- JJ Allaire & Yihui Xie, 2014, _Reproducible R Reports with Packrat and Rmarkdown_, [R Day](http://strataconf.com/stratany2014/public/schedule/detail/37037) at Strata New York
 - Yihui Xie, 2014, _Reproducible Research Is Dead, Long Live Reproducible Research!_, a talk given at JSM 2014, Boston, MA ([slides](http://slides.yihui.name/2014-JSM-knitr-Yihui-Xie.html))
 - Yihui Xie, 2014, _Knitr Ninja_, a talk given at UseR! 2014, UCLA ([slides](https://github.com/yihui/knitr-talks/tree/master/useR2014))
 - Yihui Xie, 2014, _Dynamic Documents with R and knitr_, a tutorial given at UseR! 2014, UCLA ([slides](http://slides.yihui.name/2014-useR-knitr-tutorial-Yihui-Xie.html); [examples](https://www.dropbox.com/s/0mabfshkbpe9bp1/2014-useR-knitr-tutorial-examples.zip))
