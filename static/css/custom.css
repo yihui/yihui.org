@@ -9,9 +9,6 @@ a {
 .article-content {
   hyphens: auto;
 }
-.cn {
- text-align: justify;
-}
 code {
   hyphens: none;
 }
