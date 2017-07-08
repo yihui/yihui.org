@@ -21,6 +21,7 @@
     {{ $.Scratch.Set "filePath" $.File.Path }}
     {{ if $.Params.from_Rmd }}
     {{ $.Scratch.Set "filePath" (replaceRE "[.]md$" ".Rmd" $.File.Path) }}
+    {{ $.Scratch.Set "filePath" (replace ($.Scratch.Get "filePath") "\\" "/") }}
     {{ end }}
     <a href="{{ or $.Params.githubEditURL  (print .  ($.Scratch.Get "filePath")) }}"><i class="fa fa-pencil-square-o" aria-hidden="true" title="{{ default (index $.Site.Params.lang.edit.en) (index $.Site.Params.lang.edit $.Section) }}"></i></a>
     {{ end }}
