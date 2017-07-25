@@ -28,6 +28,8 @@ slug: little-mind
 
 - 再如 [How to cite multiple papers in RMarkdown](https://stackoverflow.com/q/44767358/559676)，这个更夸张，发出来 5 分钟就被一个威望值高达十万的人投了关闭票，我去看了这个人的资料，他压根儿就不是 R 社区的人，我疑心他也是连 R Markdown 是什么都没搞清楚，就来横插一脚关闭别人的问题。
 
+- 再如 [Header continuing on an empty page of pdf latex output using r package bookdown](https://stackoverflow.com/q/44958234/559676)，又是一群人投票关闭。我看了其中一个人的资料，他自己三天的[提问](https://stackoverflow.com/q/44891342/559676)还被人标记为重复了，这么快就来教训新人了，而且他压根儿就不是 R 社区的人，我也怀疑他连 bookdown 是什么也不知道。
+
 就这么急于展示你们的虚拟权力吗。
 
 前一阵子我看了 Likan 的一篇日志《[权力感如何改变一个人](http://likan.info/p_chinese/2017-04-16-power-moves/)》，觉得很受启发。我觉得网络社区里“威望”高的人就容易被权力感毒害，而且是被毒害了还浑然不知，以为自己在行使正义。寡人对抗权力感的办法就是做饭和看书，这两件事容易让人找到本体。在网上写博客都不算办法，因为总有人围观；但写日记算，比如霍志骥和妙竹师姐。
