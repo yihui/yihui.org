@@ -322,4 +322,4 @@ Email：xie@yihui.name；主页：<http://yihui.name>；现居住于美国内布
 ### 其它
 
 - LyX 中的 Sweave 和 knitr 模块
-- Hugo 主题 [XMin](https://xmin.yihui.name)
+- Hugo 主题 [XMin](https://xmin.yihui.name)、[XMag](https://xmag.yihui.name)、[Ivy](https://ivy.yihui.name)

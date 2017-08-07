@@ -338,4 +338,4 @@ I have contributed to:
 ### Misc
 
 - The Sweave and knitr modules in LyX
-- The Hugo theme [XMin](https://xmin.yihui.name)
+- The Hugo theme [XMin](https://xmin.yihui.name), [XMag](https://xmag.yihui.name), and [Ivy](https://ivy.yihui.name)
