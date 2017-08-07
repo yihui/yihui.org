@@ -100,10 +100,9 @@ menu:
 
 params:
   description: "Personal website of Yihui Xie; 谢益辉的个人网站"
+  footer: "&copy; [Yihui Xie](/) 2005 - 2017 | [Github](https://github.com/yihui) | [Twitter](https://twitter.com/xieyihui)"
   disqusURL: "http://yihui.name"
-  dateFormat: "2006/01/02"
-  customCSS: ["css/custom.css"]
-  customJS: ["js/center-img.js", "js/right-quote.js", "js/no-highlight.js", "js/fix-footnote.js"]
+  customJS: ["js/center-img.js", "js/right-quote.js", "js/no-highlight.js", "js/fix-footnote.js", "js/math-code.js"]
   githubContentURL: "https://github.com/rbind/yihui/edit/master/content/"
 
   # options for highlight.js (version, additional languages, and theme)
@@ -112,20 +111,17 @@ params:
   highlightjsLang: ["r", "yaml", "tex"]
   highlightjsTheme: "github"
 
-  MathJaxVersion: "2.7.1"
-  MathJaxCDN: "//cdn.bootcss.com"
-
-  social:
-    twitter: "xieyihui"
-    weibo: "谢益辉"
-    weibo_url: "yihuixie"
-    github: "yihui"
-
   logo:
-    url: "logo.png"
-    width: 50
-    height: 50
-    alt: "Yihui Xie"
+    en:
+      img: "/images/logo.png"
+      url: "/"
+      alt: "Yihui Xie"
+      tag: ""
+    knitr:
+      img: "/knitr/images/knit-logo.png"
+      url: "/knitr/"
+      alt: "knitr logo"
+      tag: "knitr: elegant, flexible, and fast dynamic report generation with R"
 
   author:
     en: "Yihui Xie"
@@ -134,8 +130,11 @@ params:
 
   lang:
     edit:
-      en: "Suggest an edit of this page"
-      cn: "编辑本页"
+      cn: "编辑"
+    license:
+      cn: "版权"
+    subscribe:
+      cn: "订阅"
 
 blackfriday:
     extensionsmask: ["noIntraEmphasis"]

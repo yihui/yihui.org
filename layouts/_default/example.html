@@ -1,30 +1,20 @@
 {{ partial "header.html" . }}
 
-<main class="content" role="main">
+{{ if .Content }}
+{{ .Content }}
+{{ end }}
 
-  {{ if .Content }}
-  {{ partial "article_meta.html" . }}
-  <article class="article">
-    <div class="article-content">
-      {{ .Content }}
-    </div>
-  </article>
-  {{ end }}
-  {{ if or (not .Content) .Params.list_pages }}
-  <div class="archive">
-    {{ range (where .Site.Pages "Type" .Section).ByParam (or .Params.order_by "date" ) }}
-    {{ if len (findRE "/(demo|example)/$" .File.Dir) }}
-    <article class="archive-item">
-      <a href="{{ .RelPermalink }}" class="archive-item-link">{{ .Title }} {{ with .Params.subtitle }}<span class='article-subtitle'> &middot; {{ . }} </span>{{ end }}</a>
-      <span class="archive-item-date">
-        {{ .Date.Format "2006/01/02" }}
-      </span>
-    </article>
-    {{ end }}
-    {{ end }}
-  </div>
-  {{ end }}
-  {{ partial "disqus.html" .}}
-</main>
+{{ if or (not .Content) .Params.list_pages }}
+<div class="archive">
+{{ range (where .Site.Pages "Type" .Section).ByParam (or .Params.order_by "date" ) }}
+{{ if len (findRE "/(demo|example)/$" .File.Dir) }}
+<p>
+  <span>{{ .Date.Format "2006-01-02" }}</span>
+  <a href="{{ .RelPermalink }}">{{ .Title }} {{ with .Params.subtitle }}<span class='subtitle'> &middot; {{ . }} </span>{{ end }}</a>
+</p>
+{{ end }}
+{{ end }}
+</div>
+{{ end }}
 
 {{ partial "footer.html" . }}

@@ -1,98 +1,39 @@
-a {
-  color: inherit;
-  text-decoration: none;
+.menu li:not([class]) a, a:hover, .copyright a {
+  border-bottom: none;
 }
-.nav-links .active a, .nav-links a:hover, .nav-links a:focus {
-  border-bottom: 2px solid #ddd;
-  padding-bottom: 2px;
-}
-.article-content {
+.main {
   hyphens: auto;
 }
 code {
   hyphens: none;
 }
-.article-content a {
-  border-bottom: 1px solid #CBF8DF;
-  box-shadow: inset 0 -2px 0 #CBF8DF;
-}
-.article-content img, iframe {
-  max-width: 100%;
-}
-#article-nav, .article-date {
-  display: flex;
-  align-items: stretch;
-  clear: both;
-}
-#article-nav {
-  margin-bottom: 15px;
-}
-#article-nav-older, #article-nav-newer, .article-date span {
-  flex: 1;
-}
-#article-nav-newer, .article-date .article-toolbar {
-  text-align: right;
-}
-.article-nav-link-wrap {
-  display: block;
-  text-decoration: none;
-}
-.article-toolbar a {
-  margin-left: .2em;
-}
-.article-toolbar a:hover, .article-toolbar a:focus {
-  color: #222;
-}
 iframe, twitterwidget, video {
+  max-width: 100%;
   display: block;
   margin: auto;
 }
-.article-subtitle {
-  font-size: .8em;
-  color: #696969;
-}
-h1 .article-subtitle {
-  display: block;
-}
 #TableOfContents {
   background-color: #f8f8f8;
-}
-#TableOfContents ul {
-  padding-top: .5em;
-  padding-bottom: .5em;
+  padding: .5em;
 }
 table {
   min-width: 50%;
   max-width: 100%;
   margin: auto;
-  border-top: 1px solid #e8e8e8;
-  border-bottom: 1px solid #e8e8e8;
-}
-table thead th {
-  border-bottom: 1px solid #e8e8e8;
-}
-main {
-  display: block;
 }
 pre .nohighlight {
   background-color: transparent;
-  border: 1px solid #f3f3f3;
-  display: block;
-  padding: .5em;
-  overflow-x: auto;
 }
-.footnotes {
-  font-size: .9em;
+.hljs-comment {
+  font-style: inherit;
+}
+.hljs {
+  padding: 1em;
+}
+.home hr {
+  margin: 2em auto 1em;
 }
 
-@media (min-width: 600px) {
-  .archive-item-link {
-    text-overflow: ellipsis;
-    max-width: calc(100% - 100px);
-    white-space: nowrap;
-    overflow: hidden;
-  }
-}
 @media print {
   del {
     display: none;

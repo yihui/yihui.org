@@ -2,7 +2,6 @@
 title: animation
 subtitle: A gallery of animations in statistics and utilities to create animations
 date: 2017-02-04
-show_title: true
 ---
 
 This is an R package to create and export animations to a variety of formats (HTML/JS, GIF, Video, PDF), and it also serves as a gallery of animations related to statistics and computing. A detailed introduction can be found in the this paper:^[Please note that it was written in 2011, and some functions may have been renamed or changed. This website contains more up-to-date information.]

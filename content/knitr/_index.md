@@ -1,8 +1,7 @@
 ---
 title: knitr
-subtitle: Elegant, flexible and fast dynamic report generation with R
+subtitle: Elegant, flexible, and fast dynamic report generation with R
 date: '2017-02-03'
-show_title: true
 ---
 
 ## Overview
@@ -141,7 +140,7 @@ testers. This package was initiated based on the design of **decumar**.
 ## FOAS
 
 <img src="https://db.yihui.name/imgur/XmT6L3F.png" style="float:right;margin-left:1em" width=150 />
-`knitr` is proudly affiliated with the [Foundation for Open Access
+**knitr** is proudly affiliated with the [Foundation for Open Access
 Statistics](http://www.foastat.org/) (FOAS). FOAS is a nonprofit public
 benefit corporation with a worldwide mission to promote free software, open
 access publishing, and reproducible research in statistics.

@@ -1,4 +1,3 @@
-<script async src="https://use.fontawesome.com/32c3d13def.js"></script>
 {{ if or .IsHome (len (findRE "^/cn/" .URL)) }}
 <script async src="/js/load-typekit.js"></script>
 {{ if lt (.Date.Year) 2017 }}
@@ -14,3 +13,4 @@
 </script>
 {{ end }}
 {{ end }}
+<link rel="stylesheet" href="{{ "/css/custom.css" | relURL }}" />
