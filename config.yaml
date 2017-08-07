@@ -1,7 +1,7 @@
 baseurl: "https://yihui.name/"
 languageCode: "en-us"
 title: "Yihui Xie | 谢益辉"
-theme: "hugo-lithium-theme"
+theme: "hugo-ivy"
 googleAnalytics: "UA-1988641-2"
 disqusShortname: "yihui"
 ignoreFiles: ["\\.Rmd$", "_files$", "_cache$"]
