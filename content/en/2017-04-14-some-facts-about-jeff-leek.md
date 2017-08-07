@@ -68,7 +68,7 @@ And I just wanted to collect these unknown "facts" about Jeff A-leek-sa:
 
 - @brandenco: CRAN checks itself before it submits to Jeff Leek.
 
-- @BeEngelhardt: When Jeff Leek inverts a matrix, time actually reverses $O(n^3)$.
+- @BeEngelhardt: When Jeff Leek inverts a matrix, time actually reverses `$O(n^3)$`.
 
 - @michaelhoffman: Jeff Leek is the Uniformly Most Powerful Jeff.
 
