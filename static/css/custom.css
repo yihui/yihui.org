@@ -1,8 +1,17 @@
+html {
+  background: #fafafa;
+}
+body {
+  background: #fff;
+}
 .menu li:not([class]) a, a:hover, .copyright a {
   border-bottom: none;
 }
 .main {
   hyphens: auto;
+}
+.main, .masthead {
+  padding: 1em 40px;
 }
 code {
   hyphens: none;
