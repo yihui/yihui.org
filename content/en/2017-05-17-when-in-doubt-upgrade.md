@@ -36,3 +36,4 @@ P.S. A list of issues solved simply by updating packages:
 - [Forbidden control sequence found when knitting the minimal example](https://github.com/rstudio/bookdown/issues/375)
 - [Error in render_page(f) : Failed to render '2015-07-23-r-rmarkdown.Rmd'](https://github.com/rstudio/blogdown/issues/130)
 - [Figures not referenced with consecutive numbers](https://github.com/rstudio/bookdown-demo/issues/17)
+- [Kable with single column data frame ends up with no `<TABLE>` tag in generated HTML](https://github.com/yihui/knitr/issues/1423)
