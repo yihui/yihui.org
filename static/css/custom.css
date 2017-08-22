@@ -1,8 +1,10 @@
-html {
-  background: #fafafa;
-}
-body {
-  background: #fff;
+@media screen and (min-width: 960px) {
+  html {
+    background: #fafafa;
+  }
+  body {
+    background: #fff;
+  }
 }
 .menu li:not([class]) a, a:hover, .copyright a {
   border-bottom: none;
