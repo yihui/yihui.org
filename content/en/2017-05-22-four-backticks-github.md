@@ -4,9 +4,7 @@ date: '2017-05-22'
 slug: four-backticks-github
 ---
 
-It is always the little things...
-
-Over the years, I have been totally happy with almost everything about Github, but I have also been waiting for one little thing:^[Actually I have also been waiting for another feature ([commenting in the source file view](https://github.com/isaacs/github/issues/211)), but it does not bother me as much.] I wish we could enclose text that contains N backticks with a pair of N + 1 backticks in Github issues/comments, i.e.,
+It is always the little things... Over the years, I have been totally happy with almost everything about Github, but I have also been waiting for one little thing:^[Actually I have also been waiting for another feature ([commenting in the source file view](https://github.com/isaacs/github/issues/211)), but it does not bother me as much.] I wish we could enclose text that contains N backticks with a pair of N + 1 backticks in Github issues/comments, i.e.,
 
 `````markdown
 ````

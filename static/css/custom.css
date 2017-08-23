@@ -15,6 +15,17 @@
 .main, .masthead {
   padding: 1em 40px;
 }
+.en .main header ~ p:first-of-type::first-line {
+  font-variant: small-caps;
+  letter-spacing: .05em;
+  font-size: 1.1em;
+}
+.en .main header ~ p:first-of-type::first-letter {
+  font-size: 3em;
+  padding-right: .1em;
+  float: left;
+  line-height: 1.2em;
+}
 code {
   hyphens: none;
 }

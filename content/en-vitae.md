@@ -8,9 +8,12 @@ disable_comments: true
 
 ## Contact Information
 
+<p>
 <!--
 Address: 560 S 183rd Ave, Elkhorn, NE 68022  
 -->
+</p>
+
 Email: xie@yihui.name; Homepage: <http://yihui.name>; Twitter [@xieyihui](https://twitter.com/xieyihui)
 
 ## Research Interests
