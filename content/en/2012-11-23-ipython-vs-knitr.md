@@ -6,7 +6,7 @@ slug: ipython-vs-knitr
 
 I watched this video by Fernando Pérez a few days ago when I was reading [a comment](http://simplystatistics.tumblr.com/post/35778860973/reproducible-research-with-us-or-against-us) by James Correia Jr on Simply Statistics:
 
-<object width="420" height="315"><param name="movie" value="http://www.youtube.com/v/F4rFuIb1Ie4?version=3&amp;hl=en_US&amp;rel=0"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/F4rFuIb1Ie4?version=3&amp;hl=en_US&amp;rel=0" type="application/x-shockwave-flash" width="420" height="315" allowscriptaccess="always" allowfullscreen="true"></embed></object>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/F4rFuIb1Ie4?rel=0" frameborder="0" allowfullscreen></iframe>
 
 This is absolutely a fantastic talk that I recommend everybody to watch (it is good in both the form and content). Not surprisingly, I started thinking ipython vs knitr. [Corey Chivers](http://bayesianbiologist.com/2012/11/21/ipython-vs-rstudioknitr/) said we could learn a lot from each other, and that is definitely true on my side, since ipython is so powerful now.
 
