@@ -41,8 +41,6 @@ if (!local && Sys.which('sed') != '') for (i in files[, 2]) {
   Sys.chmod(i, '444')  # lock .md again
 }
 
-blogdown:::hugo_build(local = local)
-
 if (!local) {
   message('Optimizing PNG files under static/')
   for (i in list.files('static', '[.]png$', full.names = TRUE, recursive = TRUE)) {
