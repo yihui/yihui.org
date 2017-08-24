@@ -22,9 +22,9 @@
 }
 .en .main header ~ p:first-of-type::first-letter {
   font-size: 3em;
-  padding-right: .1em;
+  padding: .1em .1em 0 0;
   float: left;
-  line-height: 1.2em;
+  line-height: 1em;
 }
 code {
   hyphens: none;
