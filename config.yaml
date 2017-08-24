@@ -80,6 +80,9 @@ menu:
       pre: "github"
       url: "https://github.com/yihui/knitr"
       weight: 6
+    - name: "Yihui Xie"
+      url: "/"
+      weight: 7
   animation:
     - name: "Home"
       url: "/animation/"
@@ -97,6 +100,9 @@ menu:
       pre: "github"
       url: "https://github.com/yihui/animation"
       weight: 5
+    - name: "Yihui Xie"
+      url: "/"
+      weight: 6
 
 params:
   description: "Personal website of Yihui Xie; 谢益辉的个人网站"
