@@ -4,7 +4,7 @@ date: '2012-04-22'
 slug: fancy-html5-slides-with-knitr-and-pandoc
 ---
 
-Karthik Ram gave an [Introduction to R](http://inundata.org/R_talks/meetup/) a couple of weeks ago, and I strongly recommend you to take a look at his cool HTML5 slides. I started [trying HTML5 slides](/slides/2011-r-dev-lessons.html) last year, and now it is difficult for me to go back to beamer, which I have used for a few years for my presenations. It is horrible to see beamer slides everywhere at academic conferences (especially the classic blue themes).
+Karthik Ram gave an [Introduction to R](http://inundata.org/R_talks/meetup/) a couple of weeks ago, and I strongly recommend you to take a look at his cool HTML5 slides. I started [trying HTML5 slides](https://slides.yihui.name/2011-r-dev-lessons.html) last year, and now it is difficult for me to go back to beamer, which I have used for a few years for my presenations. It is horrible to see beamer slides everywhere at academic conferences (especially the classic blue themes).
 
 ![Traces of all vessels](https://db.yihui.name/imgur/CiY3K.png)
 
