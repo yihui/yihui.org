@@ -4,7 +4,7 @@ date: '2013-01-26'
 slug: code-pollution-with-command-prompts
 ---
 
-This is not the first time I have ranted about [command prompts](http://en.wikipedia.org/wiki/Command-line_interface#Command_prompt), but I cannot help ranting about them whenever I saw them in source code. In short, a piece of source code with command prompts is like a bag of cooked shrimps in the market -- it does not make sense, and an otherwise good thing is ruined. I like cooking raw shrimps (way more tasty).
+This is not the first time I have ranted about [command prompts](http://en.wikipedia.org/wiki/Command-line_interface#Command_prompt), but I cannot help ranting about them whenever I see them in source code. In short, a piece of source code with command prompts is like a bag of cooked shrimps in the market -- it does not make sense, and an otherwise good thing is ruined. I like cooking raw shrimps (way more tasty).
 
 The command prompt here refers to the characters you saw in commands as the prefix, which indicates "I'm ready to take your commands". In a Unix shell, it is often `$`; in R, it is `> ` by default. A shell example from the [GTK web page](https://live.gnome.org/GTK%2B/OSX/Building):
 
