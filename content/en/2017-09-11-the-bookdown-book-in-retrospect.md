@@ -26,7 +26,7 @@ rgb2gray = function(x, maxColorValue = 1) {
 }
 ```
 
-Then I added an argument `highlight_bw` to the `bookdown::pdf_book()` format, so that I can easily turn my colored code blocks to grayscale using a single switch.
+Then I added an argument `highlight_bw` to the `bookdown::pdf_book()` format, so that I can easily turn my colored code blocks to grayscale using a single switch.^[On a side note, [Gavin Simpson thought](https://twitter.com/ucfagls/status/867455372843405312) "it (the lightgray background) looks like shit", but personally I'm happy with the background. Perhaps it has something to do with the printers. I'm comfortable as long as the background color is very light.]
 
 ## Acknowledgments
 
