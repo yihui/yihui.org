@@ -4,7 +4,7 @@ date: '2017-09-11'
 slug: the-bookdown-book-in-retrospect
 ---
 
-When [the **bookdown** book](https://bookdown.org/yihui/bookdown/) was published in last December, my editor John Kimmel told me that I made a record in his career. This book was the fastest one he had ever published. It only took a couple of months from me signing the contract to the printed copies were available on the market. I want to share a few random memories in this process.
+When [the **bookdown** book](https://bookdown.org/yihui/bookdown/) was published in last December, my editor John Kimmel told me that I made a record in his career. This book was the fastest one he had ever published. It only took a couple of months from me signing the contract to the printed copies being available on the market. I want to share a few random memories in this process.
 
 ## Get it done before talking about it
 
@@ -34,7 +34,7 @@ Although it sounds a little funny, my favorite part in writing a book is to writ
 
 A month ago, Dean Attali suddenly (and happily) [discovered](https://twitter.com/daattali/status/897336328500674560) that I thanked him in this book. I love leaving surprises here and there, and let people discover them even a year later. I'm not sure if it is specific to the Chinese culture, but the joy of discovering a five-dollar bill in a book that you read long time ago (when you used the bill as the bookmark) is much stronger than getting five dollars directly from your parents. This is why many Chinese kids love reading (just kidding).
 
-Don't underestimate the power of thanking people. As one example, my copy editors were very surprised and excited to see that I thanked them in the book. The second round of review from the copy editors came back on a Sunday morning. I could feel they were trying their best to help me publish the book as quickly as possible. And I sent the revision back in that evening.
+Don't underestimate the power of thanking people. As one example, my copy editors were very surprised and excited to see that I thanked them in the book. The second round of review from the copy editors came back on a Sunday (!) morning. I could feel they were trying their best to help me publish the book as quickly as possible. And I sent the revision back in that evening.
 
 ## The royalties
 
