@@ -14,7 +14,11 @@ Innocent users often report a problem without telling developers how to reproduc
 
 The particularly difficult requirement for users is "minimal". It takes time to prepare a minimal example. In most cases, users run into software issues while working on real-world problems. I have seen a lot of bug reports with reproducible examples, but alas, these examples can contain thousands of lines of code (e.g., a giant Shiny app or R Markdown report). It is impractical for me to try to understand all the data and models, plus 50 add-on packages, before I can start investigating the issue.
 
+![What is the root issue?](https://slides.yihui.name/gif/look-hard.gif)
+
 I think it is much easier for developers to minimize the examples than users, because they often have the intuition about those lines of code that cannot possibly be the culprit. For example, I'd remove as many add-on packages in the example as possible (such as `library(ggplot2)`), and replace real data with simpler built-in datasets (such as `iris` or `mtcars`, or even simulated data), and see if the problem persists. For an R Markdown document, I'd delete as much content as possible (e.g., perhaps leave only one short paragraph). The more irrelevant content I have to look at, the slower it is for me to figure out the root issue. Deleting irrelevant content or code is something users can do and can also be tremendously helpful, but the problems are (1) they do not have the good intuition as developers; (2) they probably do not have time; (3) they may not even know it is so helpful to minimize a reprex.
+
+![Cutting a reprex](https://slides.yihui.name/gif/shovel-snow.gif)
 
 When a user is able to create a minimal reprex, chances are that she is really close to the root problem (perhaps only one step away), so that she may actually be able to solve the problem by herself!
 
@@ -24,4 +28,4 @@ Lastly I want to show a few examples of minimal reproducible examples:
 
 - [rstudio/blogdown#197](https://github.com/rstudio/blogdown/issues/197): this is a recent issue, and Justin told me carefully how to reproduce the issue. I like this type of issues, because I don't need to ask more questions: just follow his steps, and I'm able to reproduce the issue. 
 
-In conclusion, it is helpful for a developer to receive a minimal reprex, but it may not be a trivial thing to do for beginners. I'm well prepared to repeat the boring sentence for another 5000 times. Oh, I almost forgot to mention the "[When in doubt, upgrade](/en/2017/05/when-in-doubt-upgrade/)" strategy. Your issue may be automatically solved by upgrading.
+In conclusion, it is helpful for a developer to receive a minimal reprex, but it may not be a trivial thing to do for beginners. I'm well prepared to repeat the boring sentence for another 5000 times. Let's keep educating users the importance of a reprex together. Oh, I almost forgot to mention the "[When in doubt, upgrade](/en/2017/05/when-in-doubt-upgrade/)" strategy. Your issue may be automatically solved by simply upgrading.
