@@ -14,4 +14,6 @@ As a procrastinator, I have read a lot of articles and posts on time management 
 
 - Jean Yang: [The Structured Procrastination Trap](http://jxyzabc.blogspot.com/2016/12/the-structured-procrastination-trap.html) (related: [The Art of Procrastination](http://a.co/bTrPSTh))
 
+- Shankar Vedantam: [You 2.0: The Value Of 'Deep Work' In An Age Of Distraction](http://www.npr.org/2017/07/25/539092670/you-2-0-the-value-of-deep-work-in-an-age-of-distraction)
+
 To be continued...
