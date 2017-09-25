@@ -110,7 +110,8 @@ Email：xie@yihui.name；主页：<http://yihui.name>；现居住于美国内布
 
 #### 参与项目
 
-- 2012.05 ~ 08 Google 编程夏令营 [2012](http://www.google-melange.com/gsoc/project/google/gsoc2012/cloud_wei/16001)（指导魏太云完成项目）
+- [2014](https://www.google-melange.com/archive/gsoc/2014/orgs/rproject/projects/kejun.html).05 ~ 08、[2017](https://summerofcode.withgoogle.com/projects/#5106168436359168).05 ~ 08 Google 编程夏令营导师
+- 2012.05 ~ 08 Google 编程夏令营 [2012](https://www.google-melange.com/archive/gsoc/2012/orgs/rproject/projects/cloud_wei.html)（指导魏太云完成项目）
 - 2008.07 新浪在线调研数据转换
 - 2007.06 ~ 2007.11 2005 年全国 1% 人口抽样调查合作课题《中国地区国民素质竞争力研究》（已完成报告）
 - 2007.05 ~ 2008.09 与“中国食品发酵工业研究院”合作开发统计质量控制与管理程序；使用[R (D)COM](http://sunsite.univie.ac.at/rcom/)

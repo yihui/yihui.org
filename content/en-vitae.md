@@ -167,7 +167,10 @@ Duties in associations & centers:
 
 Projects participated:
 
-- Google Summer of Code [2012](http://www.google-melange.com/gsoc/project/google/gsoc2012/cloud_wei/16001): Dynamic report generation on the web with R (I was the mentor);
+- Google Summer of Code (mentor)
+    - [2012](https://www.google-melange.com/archive/gsoc/2012/orgs/rproject/projects/cloud_wei.html): Dynamic report generation on the web with R;
+    - [2014](https://www.google-melange.com/archive/gsoc/2014/orgs/rproject/projects/kejun.html): rOptManifold: An R Package for Optimization over Matrix Manifolds;
+    - [2017](https://summerofcode.withgoogle.com/projects/#5106168436359168): Noninvasive source code formatting;
 - Translation of [R for beginners](http://cran.r-project.org/doc/contrib/Paradis-rdebuts_en.pdf) by Emmanuel Paradis (Collaborated with some colleagues on the translation) (Nov 2005 - Feb 2006);
 - Performance Evaluation of Taxation Management of _the China Customs_ (designed several R programs for sampling databases using R) (Sept 2006 - Jun 2009);
 - Important Projects in Social Science of _the Ministry of Education_: Research on the Industry Competitiveness of China (Apr 2007 - May 2007);
@@ -204,7 +207,7 @@ Projects participated:
 - Yihui Xie, 2016, _Interfacing DataTables_, Shiny Developer Conference, Stanford University ([slides](http://slides.yihui.name/2016-Shiny-DT-Yihui-Xie.html))
 - Yihui Xie, 2015, _Reflections on R Package Development a Software Engineer_, the 8th China-R conference, Nanchang, China ([slides in Chinese](http://slides.yihui.name/2015-Nanchang-R-Yihui-Xie.html))
 - Yihui Xie, 2015, _Reproducible Reports with Big Data_, Strata, New York City ([slides](http://conferences.oreilly.com/strata/big-data-conference-ny-2015/public/schedule/detail/44154))
-- Yihui Xie, 2015, _A Quick Dream in Ten Years_, Renmin University of China, Beijing ([slides in Chinese](http://slides.yihui.name/2015-RUC-alumni-sympo-Yihui-Xie.html)
+- Yihui Xie, 2015, _A Quick Dream in Ten Years_, Renmin University of China, Beijing ([slides in Chinese](http://slides.yihui.name/2015-RUC-alumni-sympo-Yihui-Xie.html))
 - Yihui Xie, 2015, _Escape the Land of LaTeX/Word for Statistical Reporting: The Ecosystem of R Markdown_
     - 03/13, Wright State University, Dayton, Ohio ([slides](http://slides.yihui.name/2015-Wright-State-Yihui-Xie.html))
     - 07/14, Central Iowa R User Group
@@ -280,7 +283,7 @@ Projects participated:
 - Yihui Xie, 2007, _A Guide to Stata_, a lecture in People's Bank of China ([slides in Chinese](https://github.com/downloads/yihui/yihui.github.com/Stata-2007-Yihui-Xie.pdf))
 - [Yihui Xie](https://db.yihui.name/imgur/lB9hL.jpg), 2007, _Visualization of Data and Statistical Models Using R_, 3rd Conference on Australia-China Free Trade Agreement (ACFTA): Econometric Modeling and Policy in Trade, Investment and Economic Integration ([paper](https://github.com/downloads/yihui/yihui.github.com/R-visualization-paper-2007-Yihui-Xie.pdf); [slides](https://github.com/downloads/yihui/yihui.github.com/R-visualization-2007-Yihui-Xie.pdf))
 - Yihui Xie, 2006, _Thoughts of Statistics_, an invited talk in the 1st postgraduate forum on statistics for universities in Beijing ([slides](https://github.com/downloads/yihui/yihui.github.com/Thoughts-2006-Yihui-Xie.pdf))
-- Yihui Xie, 2006, _Typesetting and LATEX_, a lecture in the School of Statistics ([slides](https://github.com/downloads/yihui/yihui.github.com/LaTeX-2006-Yihui-Xie.pdf))
+- Yihui Xie, 2006, _Typesetting and LaTeX_, a lecture in the School of Statistics ([slides](https://github.com/downloads/yihui/yihui.github.com/LaTeX-2006-Yihui-Xie.pdf))
 - Yihui Xie, 2006, _Statistical Programming & R Basics_, a lecture in the School of Statistics ([slides](https://github.com/downloads/yihui/yihui.github.com/R-Programming-2006-Yihui-Xie.pdf))
 - Yihui Xie, 2006, _An Introduction to Structural Equation Modeling_, A small seminar on SEM in Renmin University ([slides](https://github.com/downloads/yihui/yihui.github.com/SEM-2006-Yihui-Xie.pdf))
 - Yanyun Zhao, Guirong Li, Xuanxuan Chen, [Yihui Xie](https://db.yihui.name/imgur/0ZURF.jpg), 2006, _The Industrial Structure and Foreign Investment Introduction Policy in Shanghai and Its Adjacency_, 2nd [Conference](http://stat.ruc.edu.cn/en/22077.html) on Australia-China Free Trade Agreement (ACFTA): Econometric Modeling and Policy in Trade, Investment and Economic Integration ([slides](https://github.com/downloads/yihui/yihui.github.com/ACFTA-2006-Yihui-Xie.pdf))
