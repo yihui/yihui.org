@@ -14,7 +14,15 @@ Address: 560 S 183rd Ave, Elkhorn, NE 68022
 -->
 </p>
 
-Email: xie@yihui.name; Homepage: <http://yihui.name>; Twitter [@xieyihui](https://twitter.com/xieyihui)
+Email: xie@yihui.name; Homepage: <https://yihui.name>; Twitter [@xieyihui](https://twitter.com/xieyihui).
+
+## Brief Biography
+
+Yihui Xie is a software engineer at [RStudio](https://www.rstudio.com). He earned his PhD from the Department of Statistics, Iowa State University. He is interested in interactive statistical graphics and statistical computing. As an active R user, he has authored several R packages, such as **knitr**, **bookdown**, **blogdown**, **animation**, **DT**, **tufte**, **formatR**, **fun**, **mime**, **highr**, **servr**, and **Rd2roxygen**, among which the **animation** package won the 2009 John M. Chambers Statistical Software Award (ASA). He also co-authored a few other R packages, including **shiny**, **rmarkdown**, and **leaflet**. He has published a number of books, including "Dynamic Documents with R and knitr", and "bookdown: Authoring Books and Technical Documents with R Markdown".
+
+In 2006, he founded the Capital of Statistics (<https://cosx.org>), which has grown into a large online community on statistics in China. He initiated the Chinese R conference in 2008, and has been involved in organizing R conferences in China since then. During his PhD training at Iowa State University, he won the Vince Sposito Statistical Computing Award (2011) and the Snedecor Award (2012) in the Department of Statistics.
+
+Another brief biography can be found on [Wikipedia](https://en.wikipedia.org/wiki/Yihui_Xie).
 
 ## Research Interests
 
