@@ -187,6 +187,7 @@ Projects participated:
 
 ## Presentations & Tutorials
 
+- Yihui Xie, 2017, _DIY Your Personal Academic Website with blogdown_, a talk in the Department of Statistics, University of Nebraska-Lincoln ([slides](https://slides.yihui.name/2017-blogdown-UNL-Yihui-Xie.html))
 - Yihui Xie, 2017, _New Packages in the R Markdown Ecosystem_, a webinar given to the Statistics in Marketing Section, ASA ([slides](https://slides.yihui.name/2017-ASA-Marketing-rmarkdown-Yihui-Xie.html))
 - Yihui Xie, 2017, _Towards An Open-access, Fast, and Reproducible Journal_, a keynote talk at the WOMBAT MeDaScIn conference, Melbourne, Australia ([slides](https://slides.yihui.name/2017-DSM-Journal-Yihui-Xie.html))
 - Yihui Xie, 2017, _A Tour Through the R Markdown Ecosystem: Creating Documents, Presentations, Papers, Dashboards, Books, and Websites_, a tutorial at the Melbourne Data Science Week, Australia ([slides](https://slides.yihui.name/2017-DSM-rmarkdown-Yihui-Xie.html))
