@@ -5,7 +5,7 @@ date: '2017-08-24'
 slug: so-gh-email
 ---
 
-Everyone understands the importance of [an uninterrupted block of time](http://heeris.id.au/2013/this-is-why-you-shouldnt-interrupt-a-programmer/), especially to programmers. To me, the #1 source of distraction is emails.^[I can handle social media well. I limit my time on Twitter to be 10 minutes per day. I pretty much don't use Facebook or other social media websites or apps at all.] When I really need to get some serious work done, I have to close the Gmail tab in my browser, otherwise I cannot help looking at new emails, even though I still have other emails that I have not replied. I think I have reached the goal "Inbox Zero" once a couple of years ago, and usually I have about 40 emails left in my inbox.
+Everyone understands the importance of [an uninterrupted block of time](http://heeris.id.au/2013/this-is-why-you-shouldnt-interrupt-a-programmer/), especially to programmers. To me, the #1 source of distraction is emails.^[I can handle social media well. I limit my time on Twitter to be 10 minutes per day. I pretty much don't use Facebook or other social media websites or apps at all.] When I really need to get some serious work done, I have to close the Gmail tab in my browser, otherwise I cannot help looking at new emails, even though I still have other emails that I have not replied. I think I reached the goal "Inbox Zero" once a couple of years ago, and usually I have about 40 emails left in my inbox.
 
 ## Why Emails Are Bad
 
@@ -17,7 +17,7 @@ On my [About](/en/about/) page, I mentioned that I don't prefer private emails a
 
 ## Two StackOverflow Examples
 
-I have pushed people to StackOverflow many times in the past, and I'd say most of the time it worked pretty well. For example, Stéphane Laurent asked me a question in a Github issue and I asked him to post it on StackOverflow instead, although I felt that I actually knew the answer at that time. [He did it](https://stackoverflow.com/q/45409750/559676). Half an hour later, CL (I don't know the real name) answered it, which was exactly an answer that I'd type out. As a token of appreciation that he read the source code of **knitr**, I rewarded him 500 points.
+I have pushed people to StackOverflow many times in the past, and I'd say most of the time it worked pretty well. For example, Stéphane Laurent asked me a question in a Github issue and I asked him to post it on StackOverflow instead, although I felt that I actually knew the answer at that time. [He did it](https://stackoverflow.com/q/45409750/559676). Half an hour later, CL (I don't know his real name) answered it, which was exactly an answer that I'd type out. As a token of appreciation that he read the source code of **knitr**, I rewarded him 500 points.
 
 This morning I received an email about a **knitr** question. I was very happy that the sender read my email policy before. Actually she posted [the question](https://stackoverflow.com/q/44656046/559676) on StackOverflow two months ago, and waited till today to email me with the link to the post. I very much appreciate her patience. Again, as a sign of appreciation, I answered the question a few minutes later. It is actually a good question. Had this question come to my inbox first, I'd probably have ignored it.
 
@@ -26,6 +26,8 @@ This morning I received an email about a **knitr** question. I was very happy th
 ## Github Issues
 
 Similar to emails, Github issues should not be used as the first tool to ask questions (it is appropriate to file bug reports and feature requests there). It is often the core developers of a Github repo who closely watch all Github issues, and their time is often limited. 
+
+As an example, @DRManager asked a question using [a Github issue](https://github.com/rstudio/bookdown/issues/468) first, and I suggested him try StackOverflow instead. Although I was still very busy, I answered his question on StackOverflow just to thank him for his understanding.
 
 ## Conclusion
 
