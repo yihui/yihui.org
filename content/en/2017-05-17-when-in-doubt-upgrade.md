@@ -37,3 +37,4 @@ P.S. A list of issues solved simply by updating packages:
 - [Error in render_page(f) : Failed to render '2015-07-23-r-rmarkdown.Rmd'](https://github.com/rstudio/blogdown/issues/130)
 - [Figures not referenced with consecutive numbers](https://github.com/rstudio/bookdown-demo/issues/17)
 - [Kable with single column data frame ends up with no `<TABLE>` tag in generated HTML](https://github.com/yihui/knitr/issues/1423)
+- [`new_site()` in blogdown causes error in editor](https://stackoverflow.com/q/46402910/559676)
