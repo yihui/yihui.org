@@ -6,6 +6,8 @@ slug: time-management
 
 As a procrastinator, I have read a lot of articles and posts on time management in the past. Perhaps it is a good idea to put those links together in this single post, just in case I want to read them again in the future:
 
+- Ivan Mir: [How I got to 200 productive hours a month](https://qotoqot.com/blog/improving-focus/)
+
 - Colin Nanka: [3 Reasons Why Multi-Tasking is Dead](https://colinnanka.com/2017/09/05/3-reasons-why-multi-tasking-is-dead/) (related: [The ONE Thing](http://a.co/3qb6DqS))
 
 - Dave Girouard: [Speed as a Habit](http://firstround.com/review/speed-as-a-habit/)
