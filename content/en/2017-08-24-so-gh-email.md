@@ -9,7 +9,7 @@ Everyone understands the importance of [an uninterrupted block of time](http://h
 
 ## Why Emails Are Bad
 
-On my [About](/en/about/) page, I mentioned that I don't prefer private emails about open-source packages, and I recommend you to ask questions on StackOverflow first. Not many people followed my suggestion, probably because they have never seen this on my website. I have a strong belief that knowledge should be public by default, and private emails are terribly inefficient in sharing knowledge, because no matter how hard I try, I can only help one person at one time. In the future, I may have to repeat what I have emailed before. If you ask the question in the public, everyone else can see it, which has two important consequences:
+On my [About](/en/about/) page, I mentioned that I don't prefer private emails about open-source packages, and I recommend you to ask questions on StackOverflow first. Not many people followed my suggestion, probably because they have never seen this on my website. I have a strong belief that knowledge should be public by default, and private emails are terribly inefficient in sharing knowledge, because no matter how hard I try, I can only help one person at one time. In the future, I may have to repeat what I have emailed before to a different person. If you ask the question in the public, everyone else can see it, which has two important consequences:
 
 1. Someone else may answer it before I dive in, which can save me time, and more importantly, it means less distraction to me. In fact, you may not have to wait for me to reply to your email, and it can save you time, too.
 
