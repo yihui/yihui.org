@@ -13,3 +13,5 @@ The question itself is also of high quality. Apparently he had done his homework
 I feel quite stressful in the past few weeks due to something personal and time-consuming, and yet I have to deal with it. I haven't been productive in my work for a couple of weeks, which makes me feel uncomfortable. I'm particularly grateful to Max for not dragging me into the sea of emails or instant messages.
 
 ![force a cat to bathtub](https://slides.yihui.name/gif/drag-cat.gif)
+
+> **Update on 2017/10/01**: I just realized Max had sent [a pull request](https://github.com/davidgohel/ggiraph/pull/75) to fix the issue he reported before I posted an answer on StackOverflow! That is even better!
