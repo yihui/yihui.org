@@ -6,10 +6,14 @@ slug: quincunx
 ---
 Demonstration of the Quincunx (Bean Machine/Galton Box)
 
-Simulates the quincunx with ``balls'' (beans) falling through several layers
+Simulates the quincunx with 'balls' (beans) falling through several layers
 (denoted by triangles) and the distribution of the final locations at which
-the balls hit is denoted by a histogram; `quincunx()` is shows single
-layer, and `quincunx2()` is a two-stage version of the quincunx.
+the balls hit is denoted by a histogram.
+
+
+`quincunx()` is used to model intergenerational variation: balls are dropped from the top and cascade randomly through rows of alternating offset pins, landing in compartments at the bottom as a binomial or approximately normal distribution[^1].
+
+`quincunx2()` is afforded insight into regression to the mean. When the pellets in an upper compartment are released, their average final position is directly below. But what if we ask of a compartment at the lower level, from where did these pellets come? The answer was not 'on average, directly above'. Rather, it was 'on average, more towards the middle', for the simple reason that there were more pellets above it towards the middle that could wander left than there were in the left extreme that could wander to the right, inwards[^1].
 
 The bean machine, also known as the quincunx or Galton box, is a device
 invented by Sir Francis Galton to demonstrate the law of error and the normal
@@ -27,3 +31,7 @@ freq = quincunx(balls = 200, col.balls = rainbow(200))
 ## frequency table
 barplot(freq, space = 0)
 ```
+
+
+
+[^1]: Darwin, Galton and the Statistical Enlightenment, http://onlinelibrary.wiley.com/doi/10.1111/j.1467-985X.2010.00643.x/full 
