@@ -33,18 +33,23 @@ etc.  Note that `ani.options('interval')` can be a numeric vector!
 ```r
 library(animation)
 ## make sure ImageMagick has been installed in your system
-saveGIF({for(i in 1:10) plot(runif(10), ylim = 0:1)})
+saveGIF({
+  for (i in 1:10) plot(runif(10), ylim = 0:1)
+})
 
-## if the above conversion was successful, the option 'convert' should not be NULL under Windows
-ani.options('convert')
+## if the above conversion was successful, the option
+## 'convert' should not be NULL under Windows
+ani.options("convert")
 ## like 'C:/Software/LyX/etc/ImageMagick/convert.exe'
 
-saveGIF({brownian.motion(pch = 21, cex = 5, col = 'red', bg = 'yellow')},
-        movie.name = 'brownian_motion.gif',
-        interval = 0.1, nmax = 30, 2), ani.width = 600)
+saveGIF({
+  brownian.motion(pch = 21, cex = 5, col = "red", bg = "yellow")
+}, movie.name = "brownian_motion.gif", interval = 0.1, nmax = 30, 
+  ani.width = 600)
 
 ## non-constant intervals between image frames
-saveGIF({brownian.motion(pch = 21, cex = 5, col = 'red', bg = 'yellow')},
-        movie.name = 'brownian_motion2.gif',
-        interval = runif(30, .01, 1), nmax = 30)
+saveGIF({
+  brownian.motion(pch = 21, cex = 5, col = "red", bg = "yellow")
+}, movie.name = "brownian_motion2.gif", interval = runif(30, 
+  0.01, 1), nmax = 30)
 ```
