@@ -7,18 +7,18 @@ slug: moving-block
 
 For a long numeric vector or matrix (or data frame), we can plot only a
 subset of its elements to take a closer look at its structure. With a moving
-``block'' from the beginning to the end of a vector or matrix or any R
+'block' from the beginning to the end of a vector or matrix or any R
 objects to which we can apply `subset`, all elements inside the block
 are plotted as a line or scatter plot or any customized plots.
 
 For a vector, the elments from `i + 1` to `i + block` will be
-plotted in the i-th step; similarly for a matrix or data frame, a (scatter)
+plotted in the `i`-th step; similarly for a matrix or data frame, a (scatter)
 plot will be created from the `i + 1`-th row to `i + block`-th row.
 
 However, this function is not limited to scatter plots or lines -- we can
 customize the function `FUN` as we wish.
 
- 
+
 ```{r demo-a, cache=TRUE, interval=.1}
 library(animation)
 ## (1) Brownian motion
