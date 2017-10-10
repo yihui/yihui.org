@@ -7,6 +7,16 @@ slug: so-gh-email
 
 Everyone understands the importance of [an uninterrupted block of time](http://heeris.id.au/2013/this-is-why-you-shouldnt-interrupt-a-programmer/), especially to programmers. To me, the #1 source of distraction is emails.^[I can handle social media well. I limit my time on Twitter to be 10 minutes per day. I pretty much don't use Facebook or other social media websites or apps at all.] When I really need to get some serious work done, I have to close the Gmail tab in my browser, otherwise I cannot help looking at new emails, even though I still have other emails that I have not replied. I think I reached the goal "Inbox Zero" once a couple of years ago, and usually I have about 40 emails left in my inbox.
 
+## TL;DR
+
+Ask a question directly to me (by email or Github), and I'll be like this:
+
+![Busy me](https://slides.yihui.name/gif/repeat-smoke.gif)
+
+Ask a question in the community, there may be a lot of helpful hands:
+
+![A lot of love](https://slides.yihui.name/gif/cat-hands.gif)
+
 ## Why Emails Are Bad
 
 On my [About](/en/about/) page, I mentioned that I don't prefer private emails about open-source packages, and I recommend you to ask questions on StackOverflow first. Not many people followed my suggestion, probably because they have never seen this on my website. I have a strong belief that knowledge should be public by default, and private emails are terribly inefficient in sharing knowledge, because no matter how hard I try, I can only help one person at one time. In the future, I may have to repeat what I have emailed before to a different person. If you ask the question in the public, everyone else can see it, which has two important consequences:
@@ -27,7 +37,9 @@ This morning I received an email about a **knitr** question. I was very happy th
 
 Similar to emails, Github issues should not be used as the first tool to ask questions (it is appropriate to file bug reports and feature requests there). It is often the core developers of a Github repo who closely watch all Github issues, and their time is often limited. 
 
-As an example, @DRManager asked a question using [a Github issue](https://github.com/rstudio/bookdown/issues/468) first, and I suggested him try StackOverflow instead. Although I was still very busy, I answered his question on StackOverflow just to thank him for his understanding.
+As an example, @DRManager asked a question using [a Github issue](https://github.com/rstudio/bookdown/issues/468) first, and I suggested him try StackOverflow instead. Although I was still very busy, I answered his question on StackOverflow just to thank him for his understanding. Below are other similar examples (thanks to all who listened):
+
+- [rstudio/rmarkdown#1091](https://github.com/rstudio/rmarkdown/issues/1091) and the [StackOverflow post](https://stackoverflow.com/q/46666212/559676)
 
 ## Conclusion
 
