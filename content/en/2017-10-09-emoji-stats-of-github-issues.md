@@ -8,6 +8,6 @@ As I'm triaging more Github issues of the **rmarkdown** repo, I came across [a r
 
 Anyway, that is not the topic I'm trying to write about in this post. I'm wondering if anyone has used the Github API to obtain statistics of emoji's in Github issues. I'm asking because we don't get notifications when users add reactions to Github issues. We have no idea about which issues users liked or disliked most.
 
-I'd like to provide the Github repo name, and get the summary statistics of reactions on Github issues (including those on replies). It is probably not that difficult (the [Github API](https://developer.github.com/v3/issues/) looks clear enough to me but I don't have the time). Anyone to help?
+I'd like to provide the Github repo name, and get the summary statistics of _reactions_^[Note I don't mean emoji characters used in text, but reactions only. Currently Github has only provided six possible reactions.] on Github issues (including those on replies). It is probably not that difficult (the [Github API](https://developer.github.com/v3/issues/) looks clear enough to me but I don't have the time). Anyone to help?
 
 ![Waiting for help](https://slides.yihui.name/gif/questions.gif)
