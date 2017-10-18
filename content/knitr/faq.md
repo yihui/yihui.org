@@ -30,4 +30,4 @@ This FAQ is compiled from the [issues](https://github.com/yihui/knitr/issues) an
     - Cite the package and the [knitr book](http://amzn.com/1498716962); see `citation('knitr')` in R.
 1. How can I submit a documentation fix or other minor changes?
     - To fix anything in the R package: navigate to the file within the [repository](https://github.com/yihui/knitr); click on the <i class="fa fa-pencil" aria-hidden="true"></i> (Edit) button; make the necessary changes; add a descriptive commit summary, click on **Propose file change**, and submit the pull request.
-    - To fix anything or propose changes on any page of this website, please click on the <i class="fa fa-pencil-square-o" aria-hidden="true"></i> (Edit) button on the toolbar under the page title of that page, and follow the same steps on Github.
+    - To fix anything or propose changes on any page of this website, please click on the menu `Edit this page` on the left of the page, and follow the same steps on Github.
