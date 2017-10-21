@@ -1,10 +1,10 @@
 ---
-title: Schedule R Code to Be Executed Periodically
+title: Schedule R Code to Be Executed Periodically in the Current R Session
 date: '2017-10-19'
 slug: later-recursion
 ---
 
-A couple of months ago, while I was trying to implement an alternative approach for LiveReload in **blogdown** ([Section D.2](https://bookdown.org/yihui/blogdown/livereload.html)) using Hugo's built-in server, I played with Joe's **later** package for a little while, and my colleague Gabor gave me an interesting, useful, and elegant tip. I thought it might be useful to other people, too, so I'm writing it down here.
+A couple of months ago, while I was trying to implement an alternative approach for LiveReload in **blogdown** ([Section D.2](https://bookdown.org/yihui/blogdown/livereload.html)) using Hugo's built-in server, I played with Joe's [**later** package](https://github.com/r-lib/later) for a little while, and my colleague Gabor gave me an interesting, useful, and elegant tip. I thought it might be useful to other people, too, so I'm writing it down here.
 
 ## Motivation
 
