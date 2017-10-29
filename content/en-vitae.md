@@ -52,7 +52,7 @@ Reproducible research; statistical computing; statistical graphics; data visuali
 
 Books under development:
 
-1. [R Ninja](https://bookdown.com/yihui/r-ninja)
+1. [R Ninja](https://bookdown.org/yihui/r-ninja)
 1. [Modern Statistical Graphics](https://github.com/yihui/MSG)
 
 Papers:
