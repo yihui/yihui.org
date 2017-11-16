@@ -71,7 +71,7 @@ Besides, I published several articles in the [Capital of Statistics](http://cos.
 
 Books and book chapters:
 
-1. Yihui Xie (2017). [_blogdown: Creating Websites with R Markdown_](https://bookdown.org/yihui/blogdown). Under review. To be published by Chapman & Hall/CRC.
+1. Yihui Xie (2017). [_blogdown: Creating Websites with R Markdown_](https://bookdown.org/yihui/blogdown). To be published by [Chapman & Hall/CRC](https://www.crcpress.com/p/book/9780815363729). ISBN 978-0815363729.
 1. Yihui Xie (2016). [_bookdown: Authoring Books and Technical Documents with R Markdown_](https://bookdown.org/yihui/bookdown). Chapman and Hall/CRC. ISBN 978-1138700109
 1. Yihui Xie (2015). [_Dynamic Documents with R and knitr_](http://www.crcpress.com/product/isbn/9781498716963). 2nd edition. Chapman and Hall/CRC. ISBN 978-1498716963
     - Yihui Xie (2013). [_Dynamic Documents with R and knitr_](http://www.crcpress.com/product/isbn/9781482203530). Chapman and Hall/CRC. ISBN 978-1482203530
@@ -187,6 +187,8 @@ Projects participated:
 
 ## Presentations & Tutorials
 
+- Yihui Xie, 2017, _An R Markdown Tutorial on bookdown, blogdown, and xaringan_, a 3-hour tutorial in the School of Natural Resources, University of Nebraska-Lincoln ([slides](https://slides.yihui.name/2017-rmarkdown-UNL-Yihui-Xie.html))
+- Yihui Xie, 2017, _Creating A Static Website with blogdown_, a webinar at the Chinese Genomics Meetup ([slides](https://slides.yihui.name/2017-blogdown-CGM-Yihui-Xie.html) in Chinese)
 - Yihui Xie, 2017, _DIY Your Personal Academic Website with blogdown_, a talk in the Department of Statistics, University of Nebraska-Lincoln ([slides](https://slides.yihui.name/2017-blogdown-UNL-Yihui-Xie.html))
 - Yihui Xie, 2017, _New Packages in the R Markdown Ecosystem_, a webinar given to the Statistics in Marketing Section, ASA ([slides](https://slides.yihui.name/2017-ASA-Marketing-rmarkdown-Yihui-Xie.html))
 - Yihui Xie, 2017, _Towards An Open-access, Fast, and Reproducible Journal_, a keynote talk at the WOMBAT MeDaScIn conference, Melbourne, Australia ([slides](https://slides.yihui.name/2017-DSM-Journal-Yihui-Xie.html))

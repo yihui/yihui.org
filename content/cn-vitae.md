@@ -121,6 +121,8 @@ Email：xie@yihui.name；主页：<http://yihui.name>；现居住于美国内布
 
 ## 演讲和讲座
 
+- 谢益辉，2017，_An R Markdown Tutorial on bookdown, blogdown, and xaringan_，内布拉斯加大学林肯分校自然资源学院讲座（[幻灯片](https://slides.yihui.name/2017-rmarkdown-UNL-Yihui-Xie.html)）
+- 谢益辉，2017，用 blogdown 搭建一个静态网站（兼吐槽学术出版传统），北美华人基因组学在线沙龙（[幻灯片](https://slides.yihui.name/2017-blogdown-CGM-Yihui-Xie.html)）
 - 谢益辉，2017，_DIY Your Personal Academic Website with blogdown_，内布拉斯加大学林肯分校统计系报告（[幻灯片](https://slides.yihui.name/2017-blogdown-UNL-Yihui-Xie.html)）
 - 谢益辉，2017，_New Packages in the R Markdown Ecosystem_，美国统计学会统计市场研究分会网络报告（[幻灯片](https://slides.yihui.name/2017-ASA-Marketing-rmarkdown-Yihui-Xie.html)）
 - 谢益辉，2017，_Towards An Open-access, Fast, and Reproducible Journal_，WOMBAT MeDaScIn 会议特邀报告，墨尔本 （[幻灯片](https://slides.yihui.name/2017-DSM-Journal-Yihui-Xie.html)）
@@ -250,6 +252,7 @@ Email：xie@yihui.name；主页：<http://yihui.name>；现居住于美国内布
 
 ### 书籍
 
+1. Yihui Xie (2017). [_blogdown: Creating Websites with R Markdown_](https://bookdown.org/yihui/blogdown). To be published by [Chapman & Hall/CRC](https://www.crcpress.com/p/book/9780815363729). ISBN 978-0815363729.
 1. Yihui Xie (2016). [_bookdown: Authoring Books and Technical Documents with R Markdown_](https://bookdown.org/yihui/bookdown). Chapman and Hall/CRC. ISBN 978-1138700109
 1. Yihui Xie (2015). [_Dynamic Documents with R and knitr_](http://www.crcpress.com/product/isbn/9781498716963). 2nd edition. Chapman and Hall/CRC. ISBN 978-1498716963
 1. Yihui Xie (2014) knitr: [_A Comprehensive Tool for Reproducible Research in R_](http://www.crcpress.com/product/isbn/9781466561595). In Victoria Stodden, Friedrich Leisch and Roger D. Peng, editors, Implementing Reproducible Computational Research. Chapman and Hall/CRC. ISBN 978-1466561595
