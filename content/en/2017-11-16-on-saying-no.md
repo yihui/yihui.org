@@ -29,7 +29,7 @@ On a bright day last year, I took a deep breath and showed Karl a few examples o
 
 - [Say no when users can implement it at least as easily as me.](https://github.com/rstudio/rmarkdown/issues/1204) This time it was Jenny (aka "the single one person whom thou shall follow if thou newly joined Twitter"), and saying no was much harder because she is my colleague. I had to carefully think about the feature request, and explain why I wouldn't do it. Basically, the door is not closed, and users can easily achieve what they want without me officially supporting this new feature. She closed the issue after reading my arguments, although I was not sure if I should feel relieved or nervous.
 
-It is easy and very tempting to say yes, but the potential cost is unclear and sometimes unpredictable. You could end up with being "the good and helpful guy" in everybody's eyes, or leading a miserably busy life by yourself.
+It is easy and very tempting to say yes, but the potential cost is unclear and sometimes unpredictable. You could end up with being "the good and helpful guy" in everybody's eyes, while leading a miserably busy life by yourself.
 
 Do I wish myself to be helpful? Of course I do, and I have been trying hard (sometimes desperately hard) to be helpful, but on the other hand, I don't want my life to be completely defined by other people's requests. I only have 24 hours a day like everyone else, which means I must make decisions on priorities, and some requests have to be refused.
 
