@@ -1,5 +1,5 @@
 ---
-title: If You Really Want to Customize Your blogdown-based Website, Study the Hugo-XMin Theme
+title: Study the Hugo-XMin Theme If You Wish to Customize A blogdown Website
 date: '2017-11-22'
 slug: tweak-blogdown-site
 ---

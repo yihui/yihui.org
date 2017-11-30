@@ -1,5 +1,5 @@
 ---
-title: How to Generate A Verbatim Code Chunk or Inline R Expression in knitr in the Output
+title: Generate A Verbatim Code Chunk or Inline R Expression in knitr Output
 date: '2017-11-22'
 slug: knitr-verbatim-code-chunk
 ---
