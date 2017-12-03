@@ -87,6 +87,8 @@ TinyTeX is still a relatively new project, so these are only potential FAQs.
     
     This package was built by running [`equivs-build`](http://manpages.ubuntu.com/manpages/trusty/man1/equivs-build.1.html) on [debian-control-texlive-in.txt](https://github.com/scottkosty/install-tl-ubuntu/blob/master/debian-control-texlive-in.txt) (credits to Scott Kostyshak). Basically it pretends all `texlive` packages have been installed (which is not true), so that you can have the full freedom (and responsibility!) of choosing which LaTeX packages to install by yourself.
 
+    Personally, I don't like the way that all LaTeX packages are distributed on Linux (e.g., Debian) as `texlive-*` packages, and each `texlive-*` package contains several LaTeX packages. That means you must install several other LaTeX packages even if you only need one. Imagine as an R user (or Python, or other languages): if someone prebuilds the more than 10,000 R packages on CRAN as 20 _collections_ of packages, what do you feel when you only need the **ggplot2** package but are forced to install all possible packages related to **ggplot2**? Obviously the advantage of providing these collections is that you may not need to install missing packages over and over again (who knows), but I'd prefer a lean TeX Live distribution and install packages by myself (which is not difficult at all to me).
+
 1. **Can I change the installation directory?**
 
     The short answer is no. The directory path is hard-coded in the installation script. I chose these directories for Linux, macOS, and Windows because they are hidden by default on these platforms. TeX Live should not need (cry for) your attention in most cases. If you really want to change the directory, there are two ways:
