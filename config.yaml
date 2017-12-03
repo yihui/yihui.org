@@ -107,22 +107,19 @@ menu:
     - name: "Home"
       url: "/tinytex/"
       weight: 1
-    - name: "Homebrew"
-      url: "/tinytex/homebrew/"
+    - name: "FAQs"
+      url: "/tinytex/faq/"
       weight: 2
-    - name: "R Package"
+    - name: "R package"
       url: "/tinytex/r/"
       weight: 3
-    - name: "Contribute"
-      url: "/tinytex/contribute/"
-      weight: 4
     - name: "Github repo"
       pre: "github"
       url: "https://github.com/yihui/tinytex"
-      weight: 5
+      weight: 4
     - name: "Yihui Xie"
       url: "/"
-      weight: 6
+      weight: 5
 
 params:
   description: "Personal website of Yihui Xie; 谢益辉的个人网站"

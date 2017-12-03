@@ -8,12 +8,12 @@ disable_highlight: true
 I'm a software engineer working at [RStudio, Inc](https://www.rstudio.com).
 I earned my PhD from the Department of Statistics, Iowa State University. My
 [thesis](http://lib.dr.iastate.edu/etd/13518/) was _Dynamic
-[Graphics](http://cranvas.org) and [Reporting](/knitr) for Statistics_, advised
+[Graphics](http://cranvas.org) and [Reporting](/knitr/) for Statistics_, advised
 by [Di](http://dicook.github.io) and
 [Heike](http://hofmann.public.iastate.edu). I have developed a few
 R packages either seriously or for
 [fun](https://cran.rstudio.com/package=fun) (or both), such as
-[knitr](/knitr), [animation](/animation), [bookdown](https://bookdown.org), and [xaringan](https://slides.yihui.name/xaringan/). I founded
+[knitr](/knitr/), [animation](/animation/), [bookdown](https://bookdown.org), [xaringan](https://slides.yihui.name/xaringan/), and [tinytex](/tinytex/). I founded
 a Chinese website called "[Capital of Statistics](http://cos.name)" in 2006,
 which has grown into a large online community on statistics in China. I also
 initiated the first Chinese R conference in 2008. Besides statistics, I'm a
