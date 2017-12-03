@@ -113,13 +113,16 @@ menu:
     - name: "R package"
       url: "/tinytex/r/"
       weight: 3
+    - name: "中文文档"
+      url: "/tinytex/cn/"
+      weight: 4
     - name: "Github repo"
       pre: "github"
       url: "https://github.com/yihui/tinytex"
-      weight: 4
+      weight: 5
     - name: "Yihui Xie"
       url: "/"
-      weight: 5
+      weight: 6
 
 params:
   description: "Personal website of Yihui Xie; 谢益辉的个人网站"
