@@ -22,7 +22,7 @@ The most "lovely" feature of LaTeX is that you often have to compile a document 
 
 A common reason for LaTeX to fail is missing LaTeX packages. Sometimes it is not straightforward to figure out which package is missing (certain packages may contain multiple `*.sty` or `*.cls` files). If you use pre-packaged TeX Live, this problem can be even worse. For example, on Debian/Ubuntu, LaTeX packages are grouped into collections and built to different Debian packages, so even only if one LaTeX package is missing, you have to install a big Debian package, which contains the package you need and possibly many other packages that you don't need.
 
-The function `latexmk()` in **tinytex** tries to solve these two problems automatically. With a chosen LaTeX engine (`pdflatex`, `xelatex`, or `lualatex`), it compiles a LaTeX document three times by default, and also tries to install missing packages by default. The missing packages are detected from the LaTeX log via the function `tinytex::find_packages()`.
+The function `latexmk()` in **tinytex** tries to solve these two problems automatically. With a chosen LaTeX engine (`pdflatex`, `xelatex`, or `lualatex`), it compiles a LaTeX document three times by default, and also tries to install missing packages by default. The missing packages are detected from the LaTeX log via the function `tinytex::parse_packages()`.
 
 You can change the number of times to compile the document, and disable the automatic installation of missing packages. See `?tinytex::latexmk` for details.
 
