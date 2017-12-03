@@ -10,7 +10,7 @@ The installation and maintenance of LaTeX have bothered me for several years. Ye
 
 2. The documentation for installation and maintenance is often way too long for beginners. For example, I doubt if anyone has the courage or patience to read [the `tlmgr` manual](https://www.tug.org/texlive/doc/tlmgr.html) (yes, it is very useful, thanks to the TeX Live team).
 
-I hope to solve these problems by TinyTeX, a custom (and probably opinionated) LaTeX distribution based on TeX Live that is small in size (about 150MB^[On macOS and Ubuntu. It is about 220MB on Windows. You may think it is still too big, but please consider that the size of [BasicTeX](https://www.tug.org/mactex/morepackages.html) for macOS is about 215MB (when installed), and a [basic MiKTeX](https://miktex.org/download) for Windows is about 750MB. All these sizes refer to the installed packages, instead of the installers.]) but still functions well in most cases. Even if you run into the problem of missing LaTeX packages, it should be super clear to you what you need to do. The manual should be at most two pages long.
+I hope to solve these problems by TinyTeX, a custom (and probably opinionated) LaTeX distribution based on TeX Live that is small in size but still functions well in most cases. Even if you run into the problem of missing LaTeX packages, it should be super clear to you what you need to do. The manual should be at most two pages long.
 
 Please note that TinyTeX assumes that you are not afraid of using the command line. If you are, please use other popular LaTeX distributions instead. In fact, there is only one single command that you need to know: `tlmgr`. It is probably not too scary.
 
@@ -51,7 +51,7 @@ curl -sL \
   "https://github.com/yihui/tinytex/raw/master/tools/install-unx.sh" | sh
 ```
 
-For Windows users, save the batch file [install-windows.bat](https://github.com/yihui/tinytex/raw/master/tools/install-windows.bat) (open this link and press `Ctrl + S`), and double click it.^[You anti-virus software might warn against certain `*.dll` files, and you may want to trust these files. However, I'm not a Windows expert, so I'll leave the decision to yourself.] The installation directory is `%APPDATA%/TinyTeX`, where `APPDATA` is an environment variable that typically points to the path `C:\Users\Your Name\AppData\Roaming`.^[Click the Start menu, Run, type `cmd` to open a command window, and type `echo %APPDATA%` to figure out the actual path if you are curious.]
+For Windows users, save the batch file [install-windows.bat](https://github.com/yihui/tinytex/raw/master/tools/install-windows.bat) (open this link and press `Ctrl + S`), and double click it.^[You anti-virus software might warn against certain `*.dll` files, and you may want to trust these files. However, I'm not a Windows expert, so I'll leave the decision to yourself.] There might be an error dialog or two about `luatex.dll` during the installation ([like this](https://db.yihui.name/images/install-tl-win-lua.png)), but that does not seem to hurt, and I just clicked "OK". The installation directory is `%APPDATA%/TinyTeX`, where `APPDATA` is an environment variable that typically points to the path `C:\Users\Your Name\AppData\Roaming`.^[Click the Start menu, Run, type `cmd` to open a command window, and type `echo %APPDATA%` to figure out the actual path if you are curious.]
 
 To uninstall TinyTeX, simply delete the folder from your file manager/browser, or use command line:
 

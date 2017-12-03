@@ -1,17 +1,17 @@
 ---
-title: Frequently Asked Questions
+title: Frequently (?) Asked Questions
 date: '2017-12-02'
 ---
 
 TinyTeX is still a relatively new project, so these are only potential FAQs.
 
-1. Which version of TeX Live is installed?
+1. **Which version of TeX Live is installed?**
 
     The (very) latest. Using the very latest version of a software package can be risky. You have been warned. On the other hand, however, let's not pretend we haven't run into problems using the "stable" versions of TeX Live.
     
     Latest or stable? Your call. If you are not comfortable with the latest version, you should not consider TinyTeX.
 
-1. Do you provide prebuilt binaries of TinyTeX?
+1. **Do you provide prebuilt binaries of TinyTeX?**
 
     No. Technically it is easy, but I don't really understand the implications of [the TeX Live license](https://www.tug.org/texlive/LICENSE.TL). Specifically, the license says:
     
@@ -19,7 +19,13 @@ TinyTeX is still a relatively new project, so these are only potential FAQs.
 
     That sounds complicated to me.
 
-1. What does the installation script do exactly? How do you reduce the size of the gigantic TeX Live?
+1. **What is the size of TinyTeX?**
+
+    About 150MB on macOS and Ubuntu, and 220MB on Windows (when installed). You may think it is still too big, but please consider that the size of [BasicTeX](https://www.tug.org/mactex/morepackages.html) for macOS is about 215MB (when installed), and a [basic MiKTeX installer](https://miktex.org/download) for Windows is about 750MB (I didn't check how big it is when installed).
+    
+    If you create a tarball of TinyTeX on macOS or Ubuntu, it will be only 50MB. This can be very helpful if you install such a tarball on the cloud (e.g., for software testing purposes on Travis CI). The download and installation should take only a few seconds.
+
+1. **What does the TinyTeX installation script do exactly? How do you reduce the size of the gigantic TeX Live?**
 
     The best way to understand TinyTeX is to [read the source](https://github.com/yihui/tinytex/) under the `tools` directory. Basically, TinyTeX automates the TeX Live installation using a profile file named [texlive.profile](https://github.com/yihui/tinytex/blob/master/tools/texlive.profile) (`./install-tl -profile=texlive.profile`), which only specifies the `infraonly` scheme to be installed first. With this scheme, you cannot really compile any LaTeX documents, but it contains the most important utility `tlmgr` (TeX Live Manager). At this point, the total size is about 80MB.
     
@@ -36,7 +42,9 @@ TinyTeX is still a relatively new project, so these are only potential FAQs.
 
     Why do I exclude the documentations? Tell me honestly: how many times have you found a solution via [StackExchange](https://tex.stackexchange.com), and how many times have you tried to read the package documentation? Even with the full documentation installed, you probably don't even know where to find these documentation files on your computer. The documentation files take a lot of disk space, and I believe they are rarely read by an average user, so they are not included. The address bar of your web browser is the most convenient documentation: type and search.
 
-1. I'm an R package developer. Are the default LaTeX packages included in TinyTeX enough for me to develop an R package?
+    The other major factor that affects the size of TeX Live is the font packages, which are usually much bigger than other LaTeX packages, but we cannot really do much about it, unless you do not use `pdflatex`, in which case you may further reduce the size of this small TeX Live distribution.
+
+1. **I'm an R package developer. Are the default LaTeX packages included in TinyTeX enough for me to develop an R package?**
 
     No, you need a few more: **metafont**, **mfware**, **inconsolata**, and **tex**, mainly because `R CMD check` needs to build manuals to PDF. You can install these packages through either the command line:
     
@@ -55,7 +63,7 @@ TinyTeX is still a relatively new project, so these are only potential FAQs.
     
     Although it is irrelevant to TinyTeX, you may also need to install [**texinfo**](https://www.gnu.org/software/texinfo/) (not a LaTeX package), since `R CMD check` may also require it. For macOS users, you can install it via Homebrew: `brew install texinfo`.
 
-1. I'm a Linux system admin. I want to install TinyTeX for all users.
+1. **I'm a Linux system admin. I want to install TinyTeX for all users.**
 
     Just add an option `--admin` to the installation script:
 
@@ -67,7 +75,19 @@ TinyTeX is still a relatively new project, so these are only potential FAQs.
     
     During the installation, it will ask your for password, because it will call `sudo tlmgr path add` to add symlinks of TeX Live binaries to `/usr/local/bin`. Without this option, binaries are symlinked to `$HOME/bin` instead.
 
-1. Can I change the installation directory?
+1. **I'm a Debian/Ubuntu user. How do I prevent TeX Live from being installed when it is a dependency of other packages? I don't want (or need) both TinyTeX and the official TeX Live packages to be installed at the same time.**
+
+    Yes, `apt-get install` might install certain `texlive` packages. You can download and install [texlive-local.deb](https://travis-bin.yihui.name/texlive-local.deb) to "fool" `apt-get`.
+    
+    ```sh
+    wget "https://travis-bin.yihui.name/texlive-local.deb"
+    sudo dpkg -i texlive-local.deb
+    rm texlive-local.deb
+    ```
+    
+    This package was built by running [`equivs-build`](http://manpages.ubuntu.com/manpages/trusty/man1/equivs-build.1.html) on [debian-control-texlive-in.txt](https://github.com/scottkosty/install-tl-ubuntu/blob/master/debian-control-texlive-in.txt) (credits to Scott Kostyshak). Basically it pretends all `texlive` packages have been installed (which is not true), so that you can have the full freedom (and responsibility!) of choosing which LaTeX packages to install by yourself.
+
+1. **Can I change the installation directory?**
 
     The short answer is no. The directory path is hard-coded in the installation script. I chose these directories for Linux, macOS, and Windows because they are hidden by default on these platforms. TeX Live should not need (cry for) your attention in most cases. If you really want to change the directory, there are two ways:
     
@@ -88,13 +108,13 @@ TinyTeX is still a relatively new project, so these are only potential FAQs.
         
         You only need to do this once.
 
-1. Why doesn't the default installation path contain the year of TeX Live?
+1. **Why doesn't the default installation path contain the year of TeX Live?**
 
     TeX Live installs itself to a directory named by the year by default (so does MacTeX), e.g., `/usr/local/texlive/2017`. I don't think it makes much sense to average users. Who would want multiple versions of TeX Live to be installed on the same computer except TeX Live developers? The full TeX Live is gigantic, and you probably do not want it to eat your disk space year by year.
     
     Again, if you want to change the installation path of TinyTeX, you certainly can.
 
-1. Can I use Homebrew to install TinyTeX on macOS?
+1. **Can I use Homebrew to install TinyTeX on macOS?**
 
     Yes, but there are no obvious advantages, so I don't really recommend this approach:
 
@@ -119,3 +139,9 @@ TinyTeX is still a relatively new project, so these are only potential FAQs.
         ```
 
     If you feel these issues are too complicated (yes they are), just follow the simpler way on the [homepage](/tinytex/) to install TinyTeX on macOS.
+
+1. **How to open a command window (terminal) to execute the commands you mentioned?**
+
+    I'm not going to answer this question for Linux users. For macOS users, `Command + Space` to launch the Spotlight Search, and type `Terminal`. The first result should be `Terminal.app`. That is it. For Windows users, click the `Start` menu, select `Run`, and type `cmd`.
+    
+    If you are an [RStudio](https://www.rstudio.com) user, it can be easier. RStudio (>= v1.1) has [built-in support for terminals](https://blog.rstudio.com/2017/08/11/rstudio-v1-1-preview-terminal/), and you can open a terminal right inside RStudio.
