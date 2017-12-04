@@ -300,6 +300,7 @@ Email：xie@yihui.name；主页：<http://yihui.name>；现居住于美国内布
 - [animation](https://github.com/yihui/animation)：用动画展示统计学各学科的模型方法以及数据分析
 - [testit](https://github.com/yihui/testit)：用于 R 包的单元测试
 - [formatR](https://github.com/yihui/formatR)：格式化 R 代码的包，自动添加空格和缩进
+- [tinytex](https://github.com/yihui/tinytex)：安装精简版的 TeX Live以及编译 LaTeX 文档
 - [DT](https://github.com/rstudio/DT)：JavaScript 库 DataTables 的 R 接口
 - [mime](https://github.com/yihui/mime)：从文件名猜测 MIME 类型
 - [highr](https://github.com/yihui/highr)：R 代码高亮
@@ -328,3 +329,4 @@ Email：xie@yihui.name；主页：<http://yihui.name>；现居住于美国内布
 
 - LyX 中的 Sweave 和 knitr 模块
 - Hugo 主题 [XMin](https://xmin.yihui.name)、[XMag](https://xmag.yihui.name)、[Ivy](https://ivy.yihui.name)
+- [TinyTeX](/tinytex/)，精简版的 TeX Live
