@@ -1,6 +1,7 @@
 ---
-title: 'Please Help Me Test TinyTeX: A Small LaTeX Distribution And An R Companion Package'
+title: 'Please Help Me Test TinyTeX: A Small LaTeX Distribution'
 date: '2017-12-04'
+subtitle: And An R Companion Package
 slug: test-tinytex
 ---
 
