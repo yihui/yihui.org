@@ -1,5 +1,5 @@
 ---
-title: 'Please Help Me Test TinyTeX: A Small LaTeX Distribution'
+title: 'Please Help Me Test TinyTeX: A Lightweight LaTeX Distribution'
 date: '2017-12-04'
 subtitle: And An R Companion Package
 slug: test-tinytex
@@ -7,7 +7,7 @@ slug: test-tinytex
 
 Over the past week, I worked extremely hard on a small project that I had wished to work on for several years. It is called [TinyTeX](https://github.com/yihui/tinytex). The two basic goals of this project are:
 
-1. Provide a small version of TeX Live that is easy to maintain (one command to rule them all).
+1. Provide a lightweight version of TeX Live that is easy to maintain (one command to rule them all).
 
 1. Make it hassle-free for R users to compile LaTeX documents, e.g., you do not need to worry how many times you should run `pdflatex`. In particular, R Markdown users should no longer worry about missing LaTeX packages, because they can be automatically installed in most cases.
 

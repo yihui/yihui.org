@@ -1,7 +1,7 @@
 ---
 title: TinyTeX
 date: '2017-12-02'
-subtitle: A small and easy-to-maintain LaTeX distribution based on TeX Live
+subtitle: A lightweight and easy-to-maintain LaTeX distribution based on TeX Live
 ---
 
 The installation and maintenance of LaTeX have bothered me for several years. Yes, there are MiKTeX, MacTeX, and TeX Live, but the common problems are:
