@@ -73,7 +73,23 @@ TinyTeX is still a relatively new project, so these are only potential FAQs.
       sh -s - --admin
     ```
     
-    During the installation, it will ask your for password, because it will call `sudo tlmgr path add` to add symlinks of TeX Live binaries to `/usr/local/bin`. Without this option, binaries are symlinked to `$HOME/bin` instead.
+    During the installation, it will ask your for password, because it will call `sudo tlmgr path add` to add symlinks of TeX Live binaries to `/usr/local/bin` (this is the only place where `sudo` is used; the rest of the script does not require `sudo`). Without this option, binaries are symlinked to `$HOME/bin` instead.
+    
+    However, you may still feel uncomfortable with a random script on the Internet asking you for your password. If that is your concern, you can add the `--no-path` option:
+
+    ```sh
+    wget -qO- \
+      "https://github.com/yihui/tinytex/raw/master/tools/install-unx.sh" | \
+      sh -s - --admin --no-path
+    ```
+
+    Then the installation will not run `sudo tlmgr path add` (hence not requiring root privileges), and you can run this explicitly later:
+    
+    ```sh
+    sudo ~/.TinyTeX/bin/*/tlmgr path add
+    ```
+    
+    If you want to move `~/.TinyTeX` to a different location, see FAQ 8, and remember to run `tlmgr path add` with `sudo` after you move the folder.
 
 1. **I'm a Debian/Ubuntu user. How do I prevent TeX Live from being installed when installing other packages that depend on TeX Live? I don't want (or need) both TinyTeX and the official TeX Live packages to be installed at the same time.**
 
