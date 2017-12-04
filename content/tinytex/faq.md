@@ -75,7 +75,7 @@ TinyTeX is still a relatively new project, so these are only potential FAQs.
     
     During the installation, it will ask your for password, because it will call `sudo tlmgr path add` to add symlinks of TeX Live binaries to `/usr/local/bin`. Without this option, binaries are symlinked to `$HOME/bin` instead.
 
-1. **I'm a Debian/Ubuntu user. How do I prevent TeX Live from being installed when it is a dependency of other packages? I don't want (or need) both TinyTeX and the official TeX Live packages to be installed at the same time.**
+1. **I'm a Debian/Ubuntu user. How do I prevent TeX Live from being installed when installing other packages that depend on TeX Live? I don't want (or need) both TinyTeX and the official TeX Live packages to be installed at the same time.**
 
     Yes, `apt-get install` might install certain `texlive` packages. You can download and install [texlive-local.deb](https://travis-bin.yihui.name/texlive-local.deb) to "fool" `apt-get`.
     
