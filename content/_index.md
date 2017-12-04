@@ -15,10 +15,9 @@ R packages either seriously or for
 [fun](https://cran.rstudio.com/package=fun) (or both), such as
 [knitr](/knitr/), [animation](/animation/), [bookdown](https://bookdown.org), [xaringan](https://slides.yihui.name/xaringan/), and [tinytex](/tinytex/). I founded
 a Chinese website called "[Capital of Statistics](http://cos.name)" in 2006,
-which has grown into a large online community on statistics in China. I also
-initiated the first Chinese R conference in 2008. Besides statistics, I'm a
+which has grown into a large online community on statistics. I initiated the Chinese R conference in 2008. Besides statistics, I'm a
 big fan of [GitHub](https://github.com/yihui), [LyX](http://www.lyx.org) and
-[pandoc](http://pandoc.org). I hate IE. I fall asleep when I
+[Pandoc](http://pandoc.org). I hate IE. I fall asleep when I
 see beamer slides, and I yell at people who use `\textbf{}` to write
 `\title{}`. I know I cannot eat code, so I cook almost every day to stay
 away from my computer for two hours.
