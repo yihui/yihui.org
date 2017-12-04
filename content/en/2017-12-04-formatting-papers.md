@@ -1,5 +1,5 @@
 ---
-title: "The #1 Reason I Don't Want to Work in Academia"
+title: "The #1 Reason Why I Don't Want to Work in Academia"
 subtitle: Formatting Papers Is A Huge Waste of Time
 date: '2017-12-04'
 slug: formatting-papers
