@@ -82,14 +82,12 @@ Type X to quit or <RETURN> to proceed,
 or enter new name. (Default extension: sty)
 ```
 
-It basically indicates a missing LaTeX package. Do not panic. Open a command window, and use the command `tlmgr search --global --file` followed by the filename, e.g.,
+It basically indicates a missing LaTeX package. Do not panic. Open a command window, and use the command `tlmgr search --global --file` followed by the filename,^[Add a forward slash before the filename for an exact match. Without the slash, other packages may be matched, e.g., `mdframed.sty`.] e.g.,
 
-```
-$ tlmgr search --global --file framed.sty
+```sh
+$ tlmgr search --global --file "/framed.sty"
 framed:
         texmf-dist/tex/latex/framed/framed.sty
-mdframed:
-        texmf-dist/tex/latex/mdframed/mdframed.sty
 ...
 ```
 
@@ -99,7 +97,7 @@ Find the package that contains the file with the exact name in the error log abo
 tlmgr install framed
 ```
 
-If you still see error messages that you don't understand, you may try to update everything:
+If you still see error messages that you don't understand, you may update everything:
 
 ```sh
 tlmgr update --self --all
@@ -111,9 +109,9 @@ For R users, you can use the corresponding helper functions:
 
 ```r
 library(tinytex)
-tlmgr_search('framed.sty')  # search for framed.sty
-tlmgr_install('framed')     # install the framed package
-tlmgr_update()              # update everything
+tlmgr_search('/framed.sty')  # search for framed.sty
+tlmgr_install('framed')      # install the framed package
+tlmgr_update()               # update everything
 ```
 
 That is all for an average user. Read [the FAQ page](/tinytex/faq/) if you wish to know more technical details about TinyTeX.
