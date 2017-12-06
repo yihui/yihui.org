@@ -63,33 +63,52 @@ TinyTeX is still a relatively new project, so these are only potential FAQs.
     
     Although it is irrelevant to TinyTeX, you may also need to install [**texinfo**](https://www.gnu.org/software/texinfo/) (not a LaTeX package), since `R CMD check` may also require it. For macOS users, you can install it via Homebrew: `brew install texinfo`.
 
-1. **I'm a Linux system admin. I want to install TinyTeX for all users.**
+1. **I'm a Linux system admin. How can I install TinyTeX for all users of a system?**
 
-    Just add an option `--admin` to the installation script:
-
-    ```sh
-    wget -qO- \
-      "https://github.com/yihui/tinytex/raw/master/tools/install-unx.sh" | \
-      sh -s - --admin
-    ```
-    
-    During the installation, it will ask your for password, because it will call `sudo tlmgr path add` to add symlinks of TeX Live binaries to `/usr/local/bin` (this is the only place where `sudo` is used; the rest of the script does not require `sudo`). Without this option, binaries are symlinked to `$HOME/bin` instead.
-    
-    However, you may still feel uncomfortable with a random script on the Internet asking you for your password. If that is your concern, you can add the `--no-path` option:
+    First, add two options `--admin --no-path` to the installation script:
 
     ```sh
     wget -qO- \
       "https://github.com/yihui/tinytex/raw/master/tools/install-unx.sh" | \
       sh -s - --admin --no-path
     ```
-
-    Then the installation will not run `sudo tlmgr path add` (hence not requiring root privileges), and you can run this explicitly later:
+    
+    This will install TinyTeX to `~/.TinyTeX`, and this step does _not_ require root privileges. Then you need to add symlinks to `/usr/local/bin` via `sudo`, so that all users of this system can use the TeX Live executables (e.g., `pdflatex`):
     
     ```sh
     sudo ~/.TinyTeX/bin/*/tlmgr path add
     ```
+
+    If you want to move `~/.TinyTeX` to a different location, see FAQ 9, and remember to run `tlmgr path add` with `sudo` after you move the folder, to move sure symlinks under `/usr/local/bin` point to the the new paths correctly.
+
+1. **I'm a Linux admin. I used the above approach to install TinyTeX and added symlinks to `/usr/local/bin`. How can my users without root privileges install LaTeX packages by themselves?**
+
+    Users without root privileges won't be able to install packages via a normal `tlmgr install` command. However, TeX Live has provided a [user mode](https://www.tug.org/texlive/doc/tlmgr.html#USER-MODE) to allow users without root privileges to manage a user-level texmf tree, e.g., a user can install packages to his/her home directory instead of a system directory. With TinyTeX, the user-level texmf tree is at `$HOME/.TinyTeX/texmf-home` (in TeX Live's terms, this is the `TEXMFHOME` variable).
     
-    If you want to move `~/.TinyTeX` to a different location, see FAQ 8, and remember to run `tlmgr path add` with `sudo` after you move the folder.
+    The first thing users have to do is to initialize the tree (create the `TEXMFHOME` directory if it does not exist). It only needs to be done once:
+    
+    ```sh
+    tlmgr init-usertree
+    ```
+    
+    Then when they install packages, they must always use the option `--usermode`, e.g.,
+    
+    ```sh
+    tlmgr --usermode install koma-script xcolor
+    ```
+    
+    For R users, the above commands are equivalent to:
+    
+    ```r
+    tinytex::tlmgr('init-usertree')  # again, only do this once
+    tinytex::tlmgr_install(c('koma-script', 'xcolor'), usermode = TRUE)
+    ```
+    
+    However, the user mode of TeX Live can actually be quite complicated, and unfortunately it is not something that I can help with. A few known caveats:
+    
+    - The worst thing is that users cannot install all packages. For TeX Live, some packages are _relocatable_, and some are not. For example, packages containing executables are not relocatable (e.g., the **metafont** package contains the executable `mf`). If users have to use these packages, only the system admin can help. The good news is that the number of such packages is relatively small, so a conservative strategy is to just pre-install all of them.
+    
+    - Some packages may require running [`updmap`](https://www.tug.org/texlive/doc/updmap.html) after installation (e.g., font packages for `pdflatex`). Good news is that users should be able to run `updmap-user`, and bad news is that whenever the system admin runs `updmap-sys`, users may have to run `updmap-user` again (if I understand the documentation correctly). For users, the conservative stragety is to run `updmap-user` again when they run into font problems that didn't exist previously (R users can run `system2('updmap-user')`).
 
 1. **I'm a Debian/Ubuntu user. How do I prevent TeX Live from being installed when installing other packages that depend on TeX Live? I don't want (or need) both TinyTeX and the official TeX Live packages to be installed at the same time.**
 
