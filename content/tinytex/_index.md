@@ -31,7 +31,11 @@ What `install_tinytex()` does will be explained later. If you need to uninstall 
 tinytex::pdflatex('test.tex')
 ```
 
-In the near future, we will add the **tinytex** support in the **rmarkdown** package, so that R users will rarely need to worry about LaTeX maintenance issues (missing packages will be automatically installed) and can really focus on writing.
+In the near future, we will add the **tinytex** support in the **rmarkdown** package, so that R users will rarely need to worry about LaTeX maintenance issues (missing packages will be automatically installed) and can really focus on writing. If you cannot wait, try:
+
+```r
+devtools::install_github('rstudio/rmarkdown@feature/tinytex')
+```
 
 ## For Other Users
 
