@@ -83,7 +83,9 @@ TinyTeX is still a relatively new project, so these are only potential FAQs.
 
 1. **I'm a Linux admin. I used the above approach to install TinyTeX and added symlinks to `/usr/local/bin`. How can my users without root privileges install LaTeX packages by themselves?**
 
-    Users without root privileges won't be able to install packages via a normal `tlmgr install` command. However, TeX Live has provided a [user mode](https://www.tug.org/texlive/doc/tlmgr.html#USER-MODE) to allow users without root privileges to manage a user-level texmf tree, e.g., a user can install packages to his/her home directory instead of a system directory. With TinyTeX, the user-level texmf tree is at `$HOME/.TinyTeX/texmf-home` (in TeX Live's terms, this is the `TEXMFHOME` variable).
+    Users without root privileges won't be able to install packages via a normal `tlmgr install` command, unless you have assigned them to a group that has write permissions to the TinyTeX root directory (by default, `~/.TinyTeX`, and note that `~` is _your own_ home directory), in which case these users are able to modify the system-wide installation of TinyTeX.
+    
+    For those who do not have write permissions to the TinyTeX directory, there is a [user mode](https://www.tug.org/texlive/doc/tlmgr.html#USER-MODE) in TeX Live that allows such users to manage a user-level texmf tree, e.g., a user can install packages to his/her home directory instead of a system directory. With TinyTeX, the user-level texmf tree is at `~/.TinyTeX/texmf-home` (in TeX Live's terms, this is the `TEXMFHOME` variable, and note that `~` is the _user's_ home directory).
     
     The first thing users have to do is to initialize the tree (create the `TEXMFHOME` directory if it does not exist). It only needs to be done once:
     
@@ -126,9 +128,9 @@ TinyTeX is still a relatively new project, so these are only potential FAQs.
 
 1. **Can I change the installation directory?**
 
-    The short answer is no. The directory path is hard-coded in the installation script. I chose these directories for Linux, macOS, and Windows because they are hidden by default on these platforms. TeX Live should not need (cry for) your attention in most cases. If you really want to change the directory, there are two ways:
+    The directory path is hard-coded in the installation script, and you cannot change it from the command line when installing TinyTeX. I chose these directories for Linux, macOS, and Windows because they are hidden by default on these platforms. TeX Live should not need (cry for) your attention in most cases. If you really want to change the directory, there are two ways:
     
-    - You can download the installation scripts and modify them by yourself.
+    - You can download the installation scripts and modify them by yourself (in the spirit of open source).
     
     - Or install TinyTeX first, and move the installation folder to where you'd like it to be (you can even move it to a USB stick). That is because TinyTeX is essentially a _portable_ version of TeX Live. The tricky part of this way is to deal with the `PATH` variable. You need to run the command `tlmgr path add`, but `tlmgr` won't be on `PATH` if you have moved the default installation directory, so you have to execute `tlmgr` through its full path, e.g.,
     
@@ -143,7 +145,7 @@ TinyTeX is still a relatively new project, so these are only potential FAQs.
         "C:\Software\TinyTeX\bin\win32\tlmgr" path add
         ```
         
-        You only need to do this once.
+        You only need to do this once, and if you installed TinyTeX using the approach in FAQ 6, you need `sudo` to run `tlmgr path add`.
 
 1. **Why doesn't the default installation path contain the year of TeX Live?**
 
