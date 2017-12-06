@@ -105,13 +105,13 @@ tlmgr path add
 fmtutil-sys --all
 ```
 
-For R users, you can use the corresponding helper functions:
+For R users, you can use the corresponding helper functions. Some examples:
 
 ```r
 library(tinytex)
 tlmgr_search('/framed.sty')  # search for framed.sty
 tlmgr_install('framed')      # install the framed package
-tlmgr_update()               # update everything
+tlmgr_update()               # update everything (usually not necessary)
 ```
 
 That is all for an average user. Read [the FAQ page](/tinytex/faq/) if you wish to know more technical details about TinyTeX.
