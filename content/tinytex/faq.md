@@ -49,14 +49,16 @@ TinyTeX is still a relatively new project, so these are only potential FAQs.
     No, you need a few more: **metafont**, **mfware**, **inconsolata**, and **tex**, mainly because `R CMD check` needs to build manuals to PDF. You can install these packages through either the command line:
     
     ```sh
-    tlmgr install metafont mfware inconsolata tex
+    tlmgr install metafont mfware inconsolata tex times
     tlmgr path add
     ```
     
     or via the R function:
     
     ```r
-    tinytex::tlmgr_install(c('metafont', 'mfware', 'inconsolata', 'tex'))
+    tinytex::tlmgr_install(c(
+      'metafont', 'mfware', 'inconsolata', 'tex', 'times'
+    ))
     ```
     
     Another important thing to do is add R's texmf tree to TeX Live. This is not easy to explain, but I have provided a function `tinytex::r_texmf()` to do it. Just do it. See the help page `?tinytex::r_texmf` if you are curious about the technical details.

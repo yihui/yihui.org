@@ -18,7 +18,7 @@ The `tlmgr_*` family of functions calls the TeX Live utility `tlmgr` to manage T
 
 ## Compile LaTeX Documents
 
-The most "lovely" feature of LaTeX is that you often have to compile a document multiple times to get the PDF, when you have a bibliography and/or index.
+The most "lovely" feature of LaTeX is that you often have to compile a document multiple times to get the PDF, when you have cross-references (e.g., a bibliography or index).
 
 A common reason for LaTeX to fail is missing LaTeX packages. Sometimes it is not straightforward to figure out which package is missing (certain packages may contain multiple `*.sty` or `*.cls` files). If you use pre-packaged TeX Live, this problem can be even worse. For example, on Debian/Ubuntu, LaTeX packages are grouped into collections and built to different Debian packages, so even only if one LaTeX package is missing, you have to install a big Debian package, which contains the package you need and possibly many other packages that you don't need.
 
