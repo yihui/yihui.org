@@ -2,9 +2,9 @@
 title: formatR
 subtitle: Format R code automatically
 author: Yihui Xie
-date: "2017-04-25"
+date: "2017-12-07"
 show_toc: true
-slug: formatR
+slug: formatr
 githubEditURL: https://github.com/yihui/formatR/edit/master/vignettes/formatR.Rmd
 output:
   knitr:::html_vignette:
@@ -42,9 +42,9 @@ sessionInfo()
 ```
 
 ```
-## R version 3.4.0 (2017-04-21)
+## R version 3.4.2 (2017-09-28)
 ## Platform: x86_64-apple-darwin15.6.0 (64-bit)
-## Running under: macOS Sierra 10.12.4
+## Running under: macOS High Sierra 10.13.1
 ## 
 ## Matrix products: default
 ## BLAS: /Library/Frameworks/R.framework/Versions/3.4/Resources/lib/libRblas.0.dylib
@@ -60,8 +60,8 @@ sessionInfo()
 ## [1] formatR_1.5
 ## 
 ## loaded via a namespace (and not attached):
-## [1] compiler_3.4.0 magrittr_1.5   tools_3.4.0    stringi_1.1.5 
-## [5] knitr_1.15.20  methods_3.4.0  stringr_1.2.0  evaluate_0.10
+## [1] compiler_3.4.2  magrittr_1.5    tools_3.4.2     stringi_1.1.6  
+## [5] knitr_1.18      methods_3.4.2   stringr_1.2.0   evaluate_0.10.1
 ```
 
 # 2. Reformat R code
@@ -160,6 +160,7 @@ formatR::tidy_app()
 After hitting the `Tidy` button:
 
 [![R source code after tidying](https://db.yihui.name/imgur/TBZm0B8.png)](https://yihui.shinyapps.io/formatR/)
+
 
 # 4. Evaluate the code and mask output in comments
 
@@ -276,7 +277,7 @@ lm(y ~ x1 + x2, data = data.frame(y = rnorm(100), x1 = rnorm(100),
 
 # 6. Further notes
 
-The tricks used in this packages are very dirty. There might be dangers in using the functions in **formatR**. Please read the next section carefully to know exactly how comments are preserved. The best strategy to avoid failure is to put comments in complete lines or after _complete_ R expressions. Below are some known issues that `tidy_source()` may fail.
+The tricks used in this packages are very dirty. There might be dangers in using the functions in **formatR**. Please read the next section carefully to know exactly how comments are preserved. The best strategy to avoid failure is to put comments in complete lines or after _complete_ R expressions. Below are some known cases in which `tidy_source()` fails.
 
 ## In-line comments after an incomplete expression or ;
 
