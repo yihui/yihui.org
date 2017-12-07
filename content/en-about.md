@@ -32,15 +32,15 @@ This site is created with [Hugo](https://gohugo.io) and the theme is [hugo-ivy](
 
 Below is an incomplete list of packages and projects I have worked on. For a full list, please see my [vitae](../vitae).
 
-- [animation](/animation): a gallery of animations in statistics and utilities to create animations
+- [animation](/animation/): a gallery of animations in statistics and utilities to create animations
 - [blogdown](https://github.com/rstudio/blogdown): create blogs and websites with R Markdown
 - [bookdown](https://bookdown.org): author books and technical documents with R Markdown
 - [DT](https://github.com/rstudio/DT): a wrapper of the JavaScript library DataTables
-- [formatR](/formatR): Format R code automatically
-- [knitr](/knitr): Dynamic report generation with R
-- [printr](/printr): Some printing methods for **knitr**
-- [Rd2roxygen](/Rd2roxygen): Convert Rd to roxygen documentation
-- [rlp](/rlp): Write an R package using literate programming techniques
+- [formatR](/formatr/): Format R code automatically
+- [knitr](/knitr/): Dynamic report generation with R
+- [printr](/printr/): Some printing methods for **knitr**
+- [Rd2roxygen](/Rd2roxygen/): Convert Rd to roxygen documentation
+- [rlp](/rlp/): Write an R package using literate programming techniques
 - [servr](https://github.com/yihui/servr): a simple HTTP server to serve static files or dynamic documents
 - [testit](https://github.com/yihui/testit): a simple package for testing R packages
 - [tufte](https://github.com/rstudio/tufte): Tufte styles for R Markdown documents
