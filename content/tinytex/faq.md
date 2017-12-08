@@ -46,19 +46,17 @@ TinyTeX is still a relatively new project, so these are only potential FAQs.
 
 1. **I'm an R package developer. Are the default LaTeX packages included in TinyTeX enough for me to develop an R package?**
 
-    No, you need a few more: **metafont**, **mfware**, **inconsolata**, and **tex**, mainly because `R CMD check` needs to build manuals to PDF. You can install these packages through either the command line:
+    No, you need a few more: **inconsolata**, and **tex**, mainly because `R CMD check` needs to build manuals to PDF. You can install these packages through either the command line:
     
     ```sh
-    tlmgr install metafont mfware inconsolata tex times
+    tlmgr install "inconsolata" "tex" "times"
     tlmgr path add
     ```
     
     or via the R function:
     
     ```r
-    tinytex::tlmgr_install(c(
-      'metafont', 'mfware', 'inconsolata', 'tex', 'times'
-    ))
+    tinytex::tlmgr_install(c('inconsolata', 'tex', 'times'))
     ```
     
     Another important thing to do is add R's texmf tree to TeX Live. This is not easy to explain, but I have provided a function `tinytex::r_texmf()` to do it. Just do it. See the help page `?tinytex::r_texmf` if you are curious about the technical details.
