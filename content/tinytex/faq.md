@@ -153,6 +153,14 @@ TinyTeX is still a relatively new project, so these are only potential FAQs.
     
     Again, if you want to change the installation path of TinyTeX, you certainly can.
 
+1. **Which LaTeX packages do I need to use the R package tikzDevice?**
+
+    To use the graphical device `tikzDevice::tikz()`, you need at these LaTeX packages:
+    
+    ```sh
+    tlmgr install pgf preview xcolor
+    ```
+
 1. **Can I use Homebrew to install TinyTeX on macOS?**
 
     Yes, but there are no obvious advantages, so I don't really recommend this approach:
