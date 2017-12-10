@@ -12,6 +12,8 @@ This morning (actually last night) Karl Broman said on Twitter, "[The tweets are
 
 There were more replies in the thread that expressed the same feeling. That is exactly what I felt when Twitter increased the limit from 140 characters to 280. Twitter has successfully shaped us in terms of writing down thoughts and facts (?) in short pieces. Short messages are not necessarily bad or wrong. For example, I enjoy reading Feynman's quotes and often find them thoughtful, helpful, and valuable. What is essentially wrong, in my opinion, is that Twitter made us develop a _habit_ of writing pretty much everything in short pieces, no matter if it is a tasty meal, a cute kitten/puppy, a successful PhD defense, a valuable book chapter, a presidential election, a birth, or a death. In other words, messages being _unconditionally_ short is the problem.
 
+There are a lot of extremely popular tweets that do not make any practical sense in my opinion. For example, one should not just laugh at the [artificial intelligence hype by saying linear regressions could suffice](https://twitter.com/nealrichter/status/929220520473534466). Instead, write a concrete article with examples that show linear regressions outperform AI methods. You cannot do this in a tweet, and if you write the article, I don't believe millions of people would actually care about it.
+
 It feels quite scary to me when I realized I started to skip tweets longer than only 140 characters. Charlie Munger said some people's brains had become cabbages, and I certainly do not want my brain to become a cabbage.
 
 Actually, Andrew Gelman [has written a post three years ago](http://andrewgelman.com/2014/11/22/blogs-twitter/) on blogs vs Twitter.
