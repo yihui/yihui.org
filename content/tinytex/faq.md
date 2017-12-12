@@ -145,7 +145,7 @@ TinyTeX is still a relatively new project, so these are only potential FAQs.
         "C:\Software\TinyTeX\bin\win32\tlmgr" path add
         ```
         
-        You only need to do this once, and if you installed TinyTeX using the approach in FAQ 6, you need `sudo` to run `tlmgr path add`.
+        You only need to do this once. If you installed TinyTeX using the approach in FAQ 6, you need `sudo` to run `tlmgr path add`.
 
 1. **Why doesn't the default installation path contain the year of TeX Live?**
 
