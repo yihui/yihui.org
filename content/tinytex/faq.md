@@ -161,6 +161,17 @@ TinyTeX is still a relatively new project, so these are only potential FAQs.
     tlmgr install pgf preview xcolor
     ```
 
+1. **I see a warning "not verified: gpg unavailable" every time when running `tlmgr`. How to get rid of this warning?**
+
+    As the message indicates, your system does not have `gpg` (GnuPG):
+
+    ```
+    tlmgr: package repository http://example.org/.../tlnet (not verified:
+      gpg unavailable)
+    ```
+    
+    For TeX Live users on Windows and macOS, the easiest way to install `gpg` is probably http://www.preining.info/tlgpg/. The "one-time installation" suffices.
+
 1. **Can I use Homebrew to install TinyTeX on macOS?**
 
     Yes, but there are no obvious advantages, so I don't really recommend this approach:
