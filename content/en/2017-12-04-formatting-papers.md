@@ -24,3 +24,9 @@ I'm glad that I no longer need to deal with these trivialities. That said, one o
 There is a long way to go, and [**bookdown**](https://github.com/rstudio/bookdown) was my first step. My strong belief in R Markdown is based on the fact it is limited in terms of typesetting (i.e., being limited is a feature). By comparisons, other tools like LaTeX and Word are totally open-ended, and that is why they can quickly become complicated, and people tend to [build too many walls and not enough bridges](https://en.wikiquote.org/wiki/Talk:Isaac_Newton#.22We_build_too_many_walls....22_Source.3F).
 
 And what is even worse is that we are unconsciously making ourselves prisoners inside the walls we built, and we think we have been working hard.
+
+## Appendix
+
+Below I have collected some examples that show the pain of authors when they are forced to do things irrelevant to the content of their papers:
+
+- [Nick Tierney](https://twitter.com/nj_tierney/status/939800909978017792) felt desperate when being required to submit a Word version of the paper (presumably the paper was written in LaTeX or R Markdown).
