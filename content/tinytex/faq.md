@@ -128,10 +128,12 @@ TinyTeX is still a relatively new project, so these are only potential FAQs.
 
 1. **Can I change the installation directory?**
 
-    The directory path is hard-coded in the installation script, and you cannot change it from the command line when installing TinyTeX. I chose these directories for Linux, macOS, and Windows because they are hidden by default on these platforms. TeX Live should not need (cry for) your attention in most cases. If you really want to change the directory, there are two ways:
+    The directory path is hard-coded in the installation script, and you cannot change it from the command line when installing TinyTeX. I chose these directories for Linux, macOS, and Windows because they are hidden by default on these platforms. TeX Live should not need (cry for) your attention in most cases. If you really want to change the directory, there are a few ways:
     
     - You can download the installation scripts and modify them by yourself (in the spirit of open source).
     
+    - If you are an R user, you can install the R package **tinytex**, and pass a custom directory name to the `dir` argument of `tinytex::install_tinytex()`.
+
     - Or install TinyTeX first, and move the installation folder to where you'd like it to be (you can even move it to a USB stick). That is because TinyTeX is essentially a _portable_ version of TeX Live. The tricky part of this way is to deal with the `PATH` variable. You need to run the command `tlmgr path add`, but `tlmgr` won't be on `PATH` if you have moved the default installation directory, so you have to execute `tlmgr` through its full path, e.g.,
     
         ```sh
