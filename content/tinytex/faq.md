@@ -50,7 +50,6 @@ TinyTeX is still a relatively new project, so these are only potential FAQs.
     
     ```sh
     tlmgr install "inconsolata" "times" "tex"
-    tlmgr path add
     ```
     
     or via the R function:
@@ -79,7 +78,7 @@ TinyTeX is still a relatively new project, so these are only potential FAQs.
     sudo ~/.TinyTeX/bin/*/tlmgr path add
     ```
 
-    If you want to move `~/.TinyTeX` to a different location, see FAQ 9, and remember to run `tlmgr path add` with `sudo` after you move the folder, to move sure symlinks under `/usr/local/bin` point to the the new paths correctly.
+    If you want to move `~/.TinyTeX` to a different location, see FAQ 9, and remember to run `tlmgr path add` with `sudo` after you move the folder, to make sure symlinks under `/usr/local/bin` point to the the new paths correctly.
 
 1. **I'm a Linux admin. I used the above approach to install TinyTeX and added symlinks to `/usr/local/bin`. How can my users without root privileges install LaTeX packages by themselves?**
 
