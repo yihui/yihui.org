@@ -1,7 +1,7 @@
 ---
 title: TinyTeX
 date: '2017-12-02'
-subtitle: A lightweight and easy-to-maintain LaTeX distribution based on TeX Live
+subtitle: A lightweight, cross-platform, portable, and easy-to-maintain LaTeX distribution based on TeX Live
 ---
 
 The installation and maintenance of LaTeX have bothered me for several years. Yes, there are MiKTeX, MacTeX, and TeX Live, but the common problems are:
@@ -10,12 +10,14 @@ The installation and maintenance of LaTeX have bothered me for several years. Ye
 
 2. The documentation for installation and maintenance is often way too long for beginners. For example, I doubt if anyone has the courage or patience to read [the `tlmgr` manual](https://www.tug.org/texlive/doc/tlmgr.html) (yes, it is very useful, thanks to the TeX Live team).
 
-I hope to solve these problems by TinyTeX, a custom (and probably opinionated) LaTeX distribution based on TeX Live that is small in size but still functions well in most cases. Even if you run into the problem of missing LaTeX packages, it should be super clear to you what you need to do. The manual should be at most two pages long.
+## Philosophy
+
+TinyTeX is a custom (and probably opinionated) LaTeX distribution based on TeX Live that is small in size but still functions well in most cases. Even if you run into the problem of missing LaTeX packages, it should be super clear to you what you need to do. _You only install LaTeX packages you actually need._ The manual should be at most two pages long.
 
 Please note that TinyTeX assumes that you are not afraid of using the command line. If you are, please use other popular LaTeX distributions instead. In fact, there is only one single command that you need to know: `tlmgr`. It is probably not too scary.
 
-TinyTeX only provides an installation script that downloads and installs TeX Live over the network. This process may take less than 2 minutes on Linux and macOS, and more than 5 minutes on Windows, depending on your network speed. Before you install TinyTeX, I recommend that _you uninstall your existing LaTeX distribution_. Currently TinyTeX works best for R users, but it should not be too hard for other users to understand or use.
- 
+TinyTeX only provides an installation script that downloads and installs TeX Live over the network. It may take a couple of minutes, depending on your network speed. Before you install TinyTeX, I recommend that _you uninstall your existing LaTeX distribution_. Currently TinyTeX works best for R users, but it should not be too hard for other users to use.
+
 ## For R Users
 
 Installing and maintaining TinyTeX are easy for R users, since [the R package **tinytex**](/tinytex/r/) has provided wrapper functions.^[Note that when we say **tinytex** (lower case), we mean the R package. TinyTeX means the LaTeX distribution.] To install TinyTeX:

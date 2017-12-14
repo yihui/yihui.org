@@ -148,6 +148,11 @@ params:
       url: "/knitr/"
       alt: "knitr logo"
       tag: "knitr: elegant, flexible, and fast dynamic report generation with R"
+    tinytex:
+      img: "/images/logo-tinytex.png"
+      url: "/tinytex/"
+      alt: "tinytex logo"
+      tag: "tinytex: A lightweight and easy-to-maintain LaTeX distribution"
 
   author:
     en: "Yihui Xie"
