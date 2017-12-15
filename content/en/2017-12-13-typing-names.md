@@ -15,4 +15,4 @@ Same thing for "ReporteRs". Oh my, the second `R`... It kills me every time. Wha
 
 Last year [I wondered why](https://twitter.com/xieyihui/status/793513354199310337) so many people wrote "LaTeX" as "LaTex", because the latter makes me feel so uncomfortable (even "Latex" will be better). I think [Karl's explanation](https://twitter.com/kwbroman/status/793521169471123456) was very reasonable: it is too much work!
 
-I hesitated for a while before I decided to use the name "[TinyTeX](https://github.com/yihui/tinytex)", but used it anyway because of the strong tradition in the (La)TeX world. Then guess what? [Carl tripped on this name](https://github.com/rocker-org/rocker-versioned/issues/59#issuecomment-349997655), twice. The R package name **tinytex** is all lowercase, though.
+I hesitated for a while before I decided to use the name "[TinyTeX](https://github.com/yihui/tinytex)", but used it anyway because of the strong tradition in the (La)TeX world. Then guess what? [Carl immediately tripped on this name](https://github.com/rocker-org/rocker-versioned/issues/59#issuecomment-349997655), twice. The R package name **tinytex** is all lowercase, though.
