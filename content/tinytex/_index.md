@@ -10,6 +10,8 @@ The installation and maintenance of LaTeX have bothered me for several years. Ye
 
 2. The documentation for installation and maintenance is often way too long for beginners. For example, I doubt if anyone has the courage or patience to read [the `tlmgr` manual](https://www.tug.org/texlive/doc/tlmgr.html) (yes, it is very useful, thanks to the TeX Live team).
 
+Fortunately, there is a nice way out based on TeX Live. TeX Live is great: it is cross-platform (yes, it works on Windows, too), and it _can_ be portable. We just need to make it lightweight, and easier to maintain.
+
 ## Philosophy
 
 TinyTeX is a custom (and probably opinionated) LaTeX distribution based on TeX Live that is small in size but still functions well in most cases. Even if you run into the problem of missing LaTeX packages, it should be super clear to you what you need to do. _You only install LaTeX packages you actually need._ The manual should be at most two pages long.
@@ -36,7 +38,7 @@ tinytex::pdflatex('test.tex')
 In the near future, we will add the **tinytex** support in the **rmarkdown** package, so that R users will rarely need to worry about LaTeX maintenance issues (missing packages will be automatically installed) and can really focus on writing. If you cannot wait, try:
 
 ```r
-devtools::install_github('rstudio/rmarkdown@feature/tinytex')
+devtools::install_github('rstudio/rmarkdown')
 ```
 
 ## For Other Users
