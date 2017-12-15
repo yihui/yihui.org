@@ -113,16 +113,19 @@ menu:
     - name: "R package"
       url: "/tinytex/r/"
       weight: 3
+    - name: "Hall of Pain"
+      url: "/tinytex/pain/"
+      weight: 4
     - name: "中文文档"
       url: "/tinytex/cn/"
-      weight: 4
+      weight: 5
     - name: "Github repo"
       pre: "github"
       url: "https://github.com/yihui/tinytex"
-      weight: 5
+      weight: 6
     - name: "Yihui Xie"
       url: "/"
-      weight: 6
+      weight: 7
 
 params:
   description: "Personal website of Yihui Xie; 谢益辉的个人网站"
