@@ -4,9 +4,13 @@ subtitle: Helper Functions to Manage TinyTeX, and Compile LaTeX Documents
 date: '2017-12-03'
 ---
 
-The R package **tinytex** is currently not on CRAN yet. You have to install it from Github:
+You can install the **tinytex** package from either CRAN or Github:
 
 ```r
+# CRAN version
+install.packages('tinytex')
+
+# or the development version on Github
 devtools::install_github('yihui/tinytex')
 ```
 
@@ -24,8 +28,16 @@ A common reason for LaTeX to fail is missing LaTeX packages. Sometimes it is not
 
 The function `latexmk()` in **tinytex** tries to solve these two problems automatically. With a chosen LaTeX engine (`pdflatex`, `xelatex`, or `lualatex`), it compiles a LaTeX document three times by default, and also tries to install missing packages by default. The missing packages are detected from the LaTeX log via the function `tinytex::parse_packages()`.
 
-You can change the number of times to compile the document, and disable the automatic installation of missing packages. See `?tinytex::latexmk` for details.
+You can change the maximum number of times to compile the document, and disable the automatic installation of missing packages. See `?tinytex::latexmk` for details.
 
 The three function `pdflatex()`, `xelatex()`, and `lualatex()` are wrapper functions based on `latexmk()`. For example, `pdflatex()` is basically `latexmk(engine = 'pdflatex', emulation = TRUE)`.
 
 The implementation is clumsy. Don't read the source code. I may not improve it in the future. I have wasted enough time on LaTeX, and a clumsy implementation should already save me a lot of time. Perfect is the enemy of good.
+
+## Other LaTeX distributions
+
+The **tinytex** package is not tied to TinyTeX, although (unsurprisingly) it should work best with TinyTeX. Specifically:
+
+1. The feature of automatically compiling a LaTeX document for a number of times until all cross-references are resolved is available to any LaTeX distributions, e.g., you can use MiKTeX on Windows if you want. 
+
+1. The feature of automatically installing missing LaTeX packages requires the LaTeX distribution to be TeX Live (remember, TinyTeX is a custom version of TeX Live, so TinyTeX also works). It also requires `tlmgr install` to be able to install packages. If you use a copy of TeX Live or TinyTeX installed by your system admin, and you are not given the privileges to modify it, this feature won't work for you. If you installed TinyTeX on your personal computer, chances are it will work. This feature is not available to MiKTeX users, but you won't need it, either, because MiKTeX itself can automatically install missing packages, too.
