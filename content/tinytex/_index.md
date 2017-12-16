@@ -123,3 +123,9 @@ tlmgr_update()               # update everything (usually not necessary)
 ```
 
 That is all for an average user. Read [the FAQ page](/tinytex/faq/) if you wish to know more technical details about TinyTeX.
+
+## Acknowledgements
+
+I'd like to thank the TeX Live team for the great work, without which TinyTeX wouldn't be possible. I'm particularly grateful that they offered the options to remove source code and documentation from the installation.
+
+I cannot thank [Peng Zhao](http://www.pzhao.org) and [Miao Yu](https://yufree.cn) enough for their extremely careful and patient [testing](https://d.cosx.org/d/419672) as well as the very useful feedback. Several other users also helped test the beta version, including [Carl Boettiger](https://www.carlboettiger.info), [TC](http://tc.rbind.io), [Ce Gao](https://github.com/gaocegege), and [Xiangyun Huang](https://github.com/XiangyunHuang).

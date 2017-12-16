@@ -148,6 +148,14 @@ TinyTeX is still a relatively new project, so these are only potential FAQs.
         
         You only need to do this once. If you installed TinyTeX using the approach in FAQ 6, you need `sudo` to run `tlmgr path add`.
 
+1. **How can I use TinyTeX on a USB drive or other portable devices?**
+
+    As I said, TinyTeX is a portable version of TeX Live, so you can simply copy it to a portable device. The only thing you need to do after you plug the device to another computer is run the command `tlmgr path add`. Again, you need the full path to `tlmgr` in your portable device (see the the previous FAQ). After you run this command and restart the application, you should be able to run `tlmgr` without its full path.
+    
+    Note that TinyTeX installed on one platform will only work for the same platform, e.g., the Windows version only works for Windows. You cannot copy, for example, a macOS version of TinyTeX, and use it on a Windows machine.
+    
+    This is a great way to get rid of IT or system admins. You don't have to request them to install or upgrade LaTeX packages for you. You can do everything by yourself.
+
 1. **Why doesn't the default installation path contain the year of TeX Live?**
 
     TeX Live installs itself to a directory named by the year by default (so does MacTeX), e.g., `/usr/local/texlive/2017`. I don't think it makes much sense to average users. Who would want multiple versions of TeX Live to be installed on the same computer except TeX Live developers? The full TeX Live is gigantic, and you probably do not want it to eat your disk space year by year.
