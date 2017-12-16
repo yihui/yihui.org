@@ -22,9 +22,7 @@ I only spent one week on this little project, but I think it is pretty much done
 ```r
 # before installing TinyTeX, it will be great if you can uninstall
 # your existing LaTeX distribution
-devtools::install_github(
-  c("yihui/tinytex", "rstudio/rmarkdown@feature/tinytex")
-)
+devtools::install_github(c("yihui/tinytex", "rstudio/rmarkdown"))
 tinytex::install_tinytex()
 ```
 
