@@ -49,3 +49,9 @@ Below are stories and experiences contributed by other users:
 > Seriously one of my only holdups teaching LaTex in Rmarkdown (still taught it anyway) is now solved.
 
 > --- [ Tyson Barrett](https://twitter.com/healthandstats/status/941169151749406720)
+
+<!-- -->
+
+> Tried TinyTeX with rmarkdown and both English and Chinese rendering. The most smooth experience ever using LaTeX!
+
+> --- [Kun Ren](https://twitter.com/renkun_ken/status/941352666730455041)
