@@ -1,5 +1,6 @@
 ---
-title: Feel the Pain of Installing and Using Other LaTeX Distributions
+title: Why TinyTeX?
+subtitle: What is the pain with other LaTeX distributions?
 date: '2017-12-15'
 ---
 
@@ -26,3 +27,19 @@ On this page, I'll let other users share their stories of installing and managin
 - Missing LaTeX packages confuse users [forever](https://github.com/rstudio/rmarkdown/issues/359), [forever](https://github.com/rstudio/rmarkdown/issues/1076), and it takes [forever](https://twitter.com/xieyihui/status/763805846807547904) to figure them out and install. [Error messages](https://stackoverflow.com/q/47400936/559676) can also be confusing.
 
 Below are stories and experiences contributed by other users:
+
+> Really liking the simplicity of tinytex package. Easy to get up and running to knit PDFs. No need for slow LaTeX install.
+
+> --- [Daley Mikalson](https://twitter.com/lingwhatics/status/941766989424537602)
+
+<!-- -->
+
+> A tiny LaTeX distribution easy to install from RStudio or on Travis CI is just what we needed!
+
+> --- [Philippe Grosjean](https://twitter.com/PhilGrosjean/status/941241878309232640)
+
+<!-- -->
+
+> Seriously one of my only holdups teaching LaTex in Rmarkdown (still taught it anyway) is now solved.
+
+> --- [ Tyson Barrett](https://twitter.com/healthandstats/status/941169151749406720)
