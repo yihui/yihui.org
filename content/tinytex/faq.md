@@ -17,13 +17,15 @@ TinyTeX is still a relatively new project, so these are only potential FAQs.
     
     > [...] TeX Live has neither a single copyright holder nor a single license covering its entire contents, since it is a collection of many independent packages.  Therefore, you may copy, modify, and/or redistribute software from TeX Live only if you comply with the requirements placed thereon by the owners of the respective packages.
 
-    That sounds complicated to me.
+    That sounds complicated to me. I don't have time to examine the license and terms of all these packages. Installing over the network is fast enough after all.
 
 1. **What is the size of TinyTeX?**
 
     About 150MB on macOS and Ubuntu, and 220MB on Windows (when installed). You may think it is still too big, but please consider that the size of [BasicTeX](https://www.tug.org/mactex/morepackages.html) for macOS is about 215MB (when installed), and a [basic MiKTeX installer](https://miktex.org/download) for Windows is about 750MB (I didn't check how big it is when installed).
     
     If you create a tarball of TinyTeX on macOS or Ubuntu, it will be only 50MB. This can be very helpful if you install such a tarball on the cloud (e.g., for software testing purposes on Travis CI). The download and installation should take only a few seconds.
+
+    Of course, the size of TinyTeX will grow as you install more LaTeX packages.
 
 1. **What does the TinyTeX installation script do exactly? How do you reduce the size of the gigantic TeX Live?**
 
@@ -43,6 +45,16 @@ TinyTeX is still a relatively new project, so these are only potential FAQs.
     Why do I exclude the documentations? Tell me honestly: how many times have you found a solution via [StackExchange](https://tex.stackexchange.com), and how many times have you tried to read the package documentation? Even with the full documentation installed, you probably don't even know where to find these documentation files on your computer. The documentation files take a lot of disk space, and I believe they are rarely read by an average user, so they are not included. The address bar of your web browser is the most convenient documentation: type and search.
 
     The other major factor that affects the size of TeX Live is the font packages, which are usually much bigger than other LaTeX packages, but we cannot really do much about it, unless you do not use `pdflatex`, in which case you may further reduce the size of this small TeX Live distribution.
+
+1. **I'm a Linux and R user, and I saw a message "TinyTeX was not successfully installed or configured" after I install TinyTeX via `tinytex::install_tinytex()`. What should I do?**
+
+    First, try to restart R or RStudio, and check if `tinytex:::is_tinytex()` is `TRUE` in R. If it is, you are all set, otherwise, run `list.files('~/bin')` and see if `tlmgr` is there. If it is, you need to make sure `$HOME/bin` is in your `PATH` variable (which should be, according to [this StackExchange answer](https://unix.stackexchange.com/a/215717)). If it is not, you need to add it in the file `~/.bash_profile` or `~/.profile`:
+
+    ```sh
+    export PATH="$HOME/bin:$PATH"
+    ```
+
+    If `tinytex:::is_tinytex()` is still `FALSE` after you restart R/RStudio, I don't have other ideas, and you will have to install TinyTeX using the method in FAQ 7.
 
 1. **I'm an R package developer. Are the default LaTeX packages included in TinyTeX enough for me to develop an R package?**
 
@@ -78,7 +90,7 @@ TinyTeX is still a relatively new project, so these are only potential FAQs.
     sudo ~/.TinyTeX/bin/*/tlmgr path add
     ```
 
-    If you want to move `~/.TinyTeX` to a different location, see FAQ 9, and remember to run `tlmgr path add` with `sudo` after you move the folder, to make sure symlinks under `/usr/local/bin` point to the the new paths correctly.
+    If you want to move `~/.TinyTeX` to a different location, see FAQ 10, and remember to run `tlmgr path add` with `sudo` after you move the folder, to make sure symlinks under `/usr/local/bin` point to the the new paths correctly.
 
 1. **I'm a Linux admin. I used the above approach to install TinyTeX and added symlinks to `/usr/local/bin`. How can my users without root privileges install LaTeX packages by themselves?**
 
@@ -113,7 +125,7 @@ TinyTeX is still a relatively new project, so these are only potential FAQs.
 
 1. **I'm a Debian/Ubuntu user. How do I prevent TeX Live from being installed when installing other packages that depend on TeX Live? I don't want (or need) both TinyTeX and the official TeX Live packages to be installed at the same time.**
 
-    Yes, `apt-get install` might install certain `texlive` packages. You can download and install [texlive-local.deb](https://travis-bin.yihui.name/texlive-local.deb) to "fool" `apt-get`.
+    Yes, `apt-get install` might install certain `texlive-*` packages when they are dependencies of other packages (e.g., `apt-get install dvipng` will also install `texlive-base`). You can download and install [texlive-local.deb](https://travis-bin.yihui.name/texlive-local.deb) to "fool" `apt-get`.
     
     ```sh
     wget "https://travis-bin.yihui.name/texlive-local.deb"
@@ -146,7 +158,7 @@ TinyTeX is still a relatively new project, so these are only potential FAQs.
         "C:\Software\TinyTeX\bin\win32\tlmgr" path add
         ```
         
-        You only need to do this once. If you installed TinyTeX using the approach in FAQ 6, you need `sudo` to run `tlmgr path add`.
+        You only need to do this once. If you installed TinyTeX using the approach in FAQ 7, you need `sudo` to run `tlmgr path add`.
 
 1. **How can I use TinyTeX on a USB drive or other portable devices?**
 
