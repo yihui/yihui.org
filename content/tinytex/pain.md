@@ -3,7 +3,13 @@ title: Feel the Pain of Installing and Using Other LaTeX Distributions
 date: '2017-12-15'
 ---
 
-Some developers may doubt if I'm just reinventing wheels. I certainly don't want to reinvent wheels for no reason. As I said on the homepage, my own pain with existing LaTeX distributions is that they are often too big, and the documentation, while being comprehensive and useful, usually does not highlight the most useful part to me (how to find and install a missing package). I also dislike the fact that they often require `sudo` (on *nix) to manage LaTeX packages. For personal computers, I don't see any point of requiring `sudo`, considering the fact that TeX Live can be a self-contained folder that can be placed anywhere on your computer.
+Some developers may doubt if I'm just reinventing wheels. I certainly don't want to reinvent wheels for no reason. As I said on the homepage, my own pain with existing LaTeX distributions is that they are often too big, and the documentation, while being comprehensive and useful, usually does not highlight the most useful part to me (how to find and install a missing package).
+
+I also dislike the fact that it often requires `sudo` (on *nix) to manage LaTeX packages. For personal computers, I don't see any point of requiring `sudo`, considering the fact that TeX Live can be a self-contained folder that can be placed anywhere on your computer.
+
+My daily OS is macOS, and the officially recommended TeX Live distribution is MacTeX, which contains several additional packages that I don't need, such as the TeX Live Utility (I know how to use the `tlmgr` command), TeXShop (I use R Markdown primarily and hope not to edit or even read raw LaTeX if possible), LaTeXiT, and so on. 
+
+In fact, I appreciate one nice feature of MiKTeX on Windows (which seems to be cross-platform now): automatically installing missing LaTeX packages. I think this is very helpful, so I borrowed this feature to the R package **tinytex**, and R users can enjoy the same feature when using TeX Live or TinyTeX. That said, even the basic MiKTeX is still too big, and one issue that drives me crazy is `bibtex.exe` in MiKTeX: it always adds the `.bib` extension to the bibliography database file in the `.aux` file, e.g., when we have `\bibliography{foo.bib}` in `bar.tex`, `bibtex.exe` generates `\bibdata{foo.bib.bib}` in `bar.aux`. Anyway, I have [patched this issue](https://github.com/yihui/tinytex/blob/4275a375c6/R/latex.R#L189-L196) in the R package **tinytex** for Windows users who use MiKTeX. TeX Live users don't suffer from this issue.
 
 On this page, I'll let other users share their stories of installing and managing LaTeX. First I want to show a list of painful cases that I was aware of:
 

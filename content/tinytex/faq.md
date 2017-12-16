@@ -174,6 +174,8 @@ TinyTeX is still a relatively new project, so these are only potential FAQs.
     
     Again, if you want to change the installation path of TinyTeX, you certainly can.
 
+    One TinyTeX user told me he was not aware of the fact that every year he actually installed TeX Live (MacTeX) to a different folder. If it were not for testing TinyTeX, he would never have discovered that he had got 15GB of TeX Live in several folders (like `/usr/local/texlive/2015`, `.../2016`, and `.../2017`, etc.). That confirmed my guess: users often do not know they installed a new version of TeX Live without uninstalling or overriding the installation from the previous year, so this monster just keeps growing every year. Yes, disk space is cheap nowadays, but that does not mean you have to waste it.
+
 1. **Which LaTeX packages do I need to use the R package tikzDevice?**
 
     To use the graphical device `tikzDevice::tikz()`, you need at these LaTeX packages:
