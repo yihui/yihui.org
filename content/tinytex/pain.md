@@ -28,6 +28,12 @@ On this page, I'll let other users share their stories of installing and managin
 
 Below are stories and experiences contributed by other users:
 
+> Removed TeX Live from my system (openSUSE): 1.5gb. Installed TinyTeX + the dependencies to compile my thesis: 150mb!!!! This is great!
+
+> --- [Bruno Rodrigues](https://twitter.com/brodriguesco/status/942162790587957248)
+
+<!-- -->
+
 > Really liking the simplicity of tinytex package. Easy to get up and running to knit PDFs. No need for slow LaTeX install.
 
 > --- [Daley Mikalson](https://twitter.com/lingwhatics/status/941766989424537602)
