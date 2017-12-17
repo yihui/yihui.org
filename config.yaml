@@ -155,7 +155,7 @@ params:
       img: "/images/logo-tinytex.png"
       url: "/tinytex/"
       alt: "tinytex logo"
-      tag: "tinytex: A lightweight and easy-to-maintain LaTeX distribution"
+      tag: "TinyTeX: A lightweight and easy-to-maintain LaTeX distribution"
 
   author:
     en: "Yihui Xie"
