@@ -20,7 +20,7 @@ On this page, I'll let other users share their stories of installing and managin
 
 - [Installing (a lightweight version of) latex on an external hard drive](https://tex.stackexchange.com/q/81802/9128)
 
-- texlive-full is [too big](https://github.com/rstudio/rticles/pull/130#issuecomment-313732003), and [just too big](https://github.com/road2stat/liftr/issues/25) for Docker images
+- texlive-full is [too big](https://github.com/rstudio/rticles/pull/130#issuecomment-313732003), [too big](https://github.com/rocker-org/rocker/issues/266), and [just too big](https://github.com/road2stat/liftr/issues/25) for Docker images
 
 - [Which LaTeX to install on Linux?](https://tex.stackexchange.com/q/18939/9128)
 
