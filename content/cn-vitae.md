@@ -252,7 +252,7 @@ Email：xie@yihui.name；主页：<http://yihui.name>；现居住于美国内布
 
 ### 书籍
 
-1. Yihui Xie (2017). [_blogdown: Creating Websites with R Markdown_](https://bookdown.org/yihui/blogdown). To be published by [Chapman & Hall/CRC](https://www.crcpress.com/p/book/9780815363729). ISBN 978-0815363729.
+1. Yihui Xie (2017). [_blogdown: Creating Websites with R Markdown_](https://bookdown.org/yihui/blogdown). [Chapman & Hall/CRC](https://www.crcpress.com/p/book/9780815363729). ISBN 978-0815363729.
 1. Yihui Xie (2016). [_bookdown: Authoring Books and Technical Documents with R Markdown_](https://bookdown.org/yihui/bookdown). Chapman and Hall/CRC. ISBN 978-1138700109
 1. Yihui Xie (2015). [_Dynamic Documents with R and knitr_](http://www.crcpress.com/product/isbn/9781498716963). 2nd edition. Chapman and Hall/CRC. ISBN 978-1498716963
 1. Yihui Xie (2014) knitr: [_A Comprehensive Tool for Reproducible Research in R_](http://www.crcpress.com/product/isbn/9781466561595). In Victoria Stodden, Friedrich Leisch and Roger D. Peng, editors, Implementing Reproducible Computational Research. Chapman and Hall/CRC. ISBN 978-1466561595
@@ -260,9 +260,11 @@ Email：xie@yihui.name；主页：<http://yihui.name>；现居住于美国内布
 
 ### 中文论文
 
+<!--
 1. 赵彦云、冯乃林、赵云城、谢益辉、肖宁，2008，中国地区国民素质竞争力研究，统计研究，25(3)，12-19
+-->
 1. 谢益辉，2008，统计图形在数据分析中的应用，统计学评论，张波主编，中国财政经济出版社
-1. 谢益辉，2008，Bootstrap 方法的历史发展和前沿研究，统计与信息论坛，89，90-96
+1. 谢益辉、朱钰，2008，Bootstrap 方法的历史发展和前沿研究，统计与信息论坛，89，90-96
 1. 谢益辉，2007，基于 R 软件 rpart 包的分类与回归树应用，统计与信息论坛，86，67-70
 1. 谢益辉，2007，国际竞争力系列之中国金融体系有多弱，中国统计，7，35
 1. 赵彦云，谢益辉，前100大扩张能力强于经营实力 企业成长不均衡，英才杂志，2006.9

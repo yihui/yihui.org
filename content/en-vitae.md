@@ -57,22 +57,24 @@ Books under development:
 
 Papers:
 
+<!--
 1. Yanyun Zhao, Nailin Feng, Yuncheng Zhao, Yihui Xie, Ning Xiao, 2008, Research on the National Quality Competitiveness of China, _Statistical Research_, 25(3), 12-19
+-->
 1. Yihui Xie, 2008. On the Applications of Statistical Graphics in Data Analysis, _Statistics Review_, Bo Zhang (ed), China Financial and Economic Publishing House.
-1. Yihui Xie, 2008. Bootstrap Methods: Developments and Frontiers, _Statistics & Information Forum_, 89, 90-96.
+1. Yihui Xie, Yu Zhu, 2008. Bootstrap Methods: Developments and Frontiers, _Statistics & Information Forum_, 89, 90-96.
 1. Yihui Xie, 2007. The Application of the Classification and Regression Tree Based on the Package **rpart** in R, _Statistics & Information Forum_, 86, 67-70.
 1. Yihui Xie, 2007. Series in International Competitiveness: How Weak is the Financial System of China?, _China Statistics_, 7, 35.
 1. Yanyun Zhao, Yihui Xie, 2006. Unbalanced growth in top 100 industrial enterprises in China: market expanding outgoes business managing, _Talents_, 9, 84.
 1. Yanyun Zhao, Yihui Xie, 2005. Who is the champion of growth among top 1000 industrial enterprises in China: analysis on the capability of market expanding and aggregate efficiency, _Talents_, 9, 72-73.
 
-Besides, I published several articles in the [Capital of Statistics](http://cos.name/) in Chinese.
+Besides, I published several articles in the [Capital of Statistics](https://cosx.org) in Chinese.
 
 ### In English
 
 Books and book chapters:
 
-1. Yihui Xie (2017). [_blogdown: Creating Websites with R Markdown_](https://bookdown.org/yihui/blogdown). To be published by [Chapman & Hall/CRC](https://www.crcpress.com/p/book/9780815363729). ISBN 978-0815363729.
-1. Yihui Xie (2016). [_bookdown: Authoring Books and Technical Documents with R Markdown_](https://bookdown.org/yihui/bookdown). Chapman and Hall/CRC. ISBN 978-1138700109
+1. Yihui Xie (2017). [_blogdown: Creating Websites with R Markdown_](https://bookdown.org/yihui/blogdown). Chapman & Hall/[CRC](https://www.crcpress.com/p/book/9780815363729). ISBN 978-0815363729.
+1. Yihui Xie (2016). [_bookdown: Authoring Books and Technical Documents with R Markdown_](https://bookdown.org/yihui/bookdown). Chapman and Hall/[CRC](https://www.crcpress.com/product/isbn/9781138700109). ISBN 978-1138700109
 1. Yihui Xie (2015). [_Dynamic Documents with R and knitr_](http://www.crcpress.com/product/isbn/9781498716963). 2nd edition. Chapman and Hall/CRC. ISBN 978-1498716963
     - Yihui Xie (2013). [_Dynamic Documents with R and knitr_](http://www.crcpress.com/product/isbn/9781482203530). Chapman and Hall/CRC. ISBN 978-1482203530
 1. Yihui Xie (2014). knitr: [_A Comprehensive Tool for Reproducible Research in R_](http://www.crcpress.com/product/isbn/9781466561595). In Victoria Stodden, Friedrich Leisch and Roger D. Peng, editors, Implementing Reproducible Computational Research. Chapman and Hall/CRC. ISBN 978-1466561595
@@ -94,7 +96,7 @@ From late 2014, I started working on the [**DT**](https://github.com/rstudio/DT)
 
 In early 2016, I created a new package named [**tufte**](https://github.com/rstudio/tufte), to add the Tufte style to R Markdown documents and support both HTML and PDF output formats. I started the [**bookdown**](https://github.com/rstudio/bookdown) project in late 2015 to make it easier to write books and technical documents with R Markdown, and most of my time in 2016 was spent on this project. I also published a book for the **bookdown** package with Chapman & Hall/CRC.
 
-Since late 2016, I started the [**blogdown**](https://github.com/rstudio/blogdown) project, to create websites based on R Markdown. I'm working on a book for this project at the moment.
+Since late 2016, I started the [**blogdown**](https://github.com/rstudio/blogdown) project, to create websites based on R Markdown. The package is finished and the companion book has been published by Chapman & Hall/CRC.
 
 ### Internship
 
@@ -175,7 +177,7 @@ Duties in associations & centers:
 
 Projects participated:
 
-- Google Summer of Code (mentor)
+- Google Summer of Code (as a mentor)
     - [2012](https://www.google-melange.com/archive/gsoc/2012/orgs/rproject/projects/cloud_wei.html): Dynamic report generation on the web with R;
     - [2014](https://www.google-melange.com/archive/gsoc/2014/orgs/rproject/projects/kejun.html): rOptManifold: An R Package for Optimization over Matrix Manifolds;
     - [2017](https://summerofcode.withgoogle.com/projects/#5106168436359168): Noninvasive source code formatting;
