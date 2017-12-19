@@ -41,7 +41,7 @@ This little addin is the most important reason why I started to blog again this 
 
 ## Sigh, TOML
 
-Hugo seems to favor TOML (Tom's Obvious, Minimal Language), although it supports YAML and JSON. I feel that is unfortunate. YAML is bad enough, and now here comes TOML. It is funny that people just keep inventing new languages for configurations. Personally I don't enjoy the TOML syntax, and I'd rather use JSON if I must make a choice (note that **blogdown** does not support JSON). YAML is fine to me.
+Hugo seems to favor TOML (Tom's Obvious, Minimal Language), although it supports YAML and JSON, too. I feel that is unfortunate. YAML is bad enough, and now here comes TOML. It is funny that people just keep inventing new languages for configurations. Personally I don't enjoy the TOML syntax, and I'd rather use JSON if I must make a choice (note that **blogdown** does not support JSON). YAML is tolerable to me.
 
 ## Netlify, I have been waiting for you for years
 
@@ -113,7 +113,7 @@ In the past, a few readers told me they bought my books to put some money in my 
 
 > Life is short. Write for eternity.
 
-I also wrote a poem in Chinese there (sorry to English readers), which was another way to express this.
+I also wrote a poem in Chinese there (apologies to English readers), which was another way to express this.
 
 Because this time I have two co-authors, I cannot make the decision all by myself. Thankfully, both Amber and Alison agreed to waive the royalties, so none of us will make a single penny out of this book. We did this to make the book cheaper, and John Kimmel also convinced Chapman & Hall of not making money from this book, which further lowered the price. What's more, John also persuaded Chapman & Hall of letting us host a free online version of the **blogdown** book (we did the same thing for the **bookdown** book). I have to say that is very generous of our publisher. If you have a chance, you may want to thank [John](https://www.crcpress.com/go/from-your-editors) for these things (the holiday season is coming, so it is great time to write a thank-you email). Of course, you should also thank [Amber](https://amber.rbind.io) and [Alison](https://alison.rbind.io).
 
