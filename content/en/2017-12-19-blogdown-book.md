@@ -17,7 +17,7 @@ At that time, I was mainly thinking about two possible projects. One was to buil
 
 The plan for the R Markdown ecosystem has been very clear in my mind: I hope to be able to write single reproducible documents and reports with R Markdown, which is what the **rmarkdown** package does and the first step. I also hope to create presentations and posters, build websites, author books, write journal papers, and collaborate on contributed books, etc., with R Markdown. We have made some progress, but I'm not totally satisfied. There is certainly plenty of room for improvements. That said, I can only focus on one thing at a time, so I wanted to add websites to the R Markdown ecosystem.
 
-Originally we were thinking of completely reinventing the wheels of static websites using R, but when I finally started to work on it in October 2016, I realized the wheels were too big for me. It I were to take that route, this project would probably take me three years (remember, I'm a mediocre programmer).
+Originally we were thinking of completely reinventing the wheels of static websites using R, but when I finally started to work on it in October 2016, I realized the wheels were too big for me. If I were to take that route, this project would probably take me three years (remember, I'm a mediocre programmer).
 
 ![The initial plan](https://slides.yihui.name/gif/rpress.jpg)
 
