@@ -5,7 +5,7 @@ date: '2017-12-16'
 slug: r-dot-dot-dot
 ---
 
-Two months ago while I was trying to upgrade the highlight.js library in the **rmarkdown** package ([PR #1178](https://github.com/rstudio/rmarkdown/pull/1178)), I read the source code of the R syntax highlighter in our fork of highlight.js (created by Joe Cheng, our CIO), and [these lines](https://github.com/rstudio/highlight.js/blob/0710243a8e/src/languages/r.js#L60-L66) caught my attention:
+Two months ago while I was trying to upgrade the highlight.js library in the **rmarkdown** package ([PR #1178](https://github.com/rstudio/rmarkdown/pull/1178)), I read the source code of the R syntax highlighter in our fork of highlight.js (created by Joe Cheng, our CTO), and [these lines](https://github.com/rstudio/highlight.js/blob/0710243a8e/src/languages/r.js#L60-L66) caught my attention:
 
 ```js
 {
