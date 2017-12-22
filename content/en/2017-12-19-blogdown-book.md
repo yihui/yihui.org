@@ -5,7 +5,7 @@ date: '2017-12-19'
 slug: blogdown-book
 ---
 
-Last year when I finished the **bookdown** package and the companion book "[bookdown: Authoring Books and Technical Documents with R Markdown]((https://bookdown.org/yihui/bookdown/))", I summarized my 2016 as "[One year, one package, one book, and endless joy.](https://twitter.com/xieyihui/status/804732609171517440)"
+Last year when I finished the **bookdown** package and the companion book "[bookdown: Authoring Books and Technical Documents with R Markdown](https://bookdown.org/yihui/bookdown/)", I summarized my 2016 as "[One year, one package, one book, and endless joy.](https://twitter.com/xieyihui/status/804732609171517440)"
 
 This year, the summary is pretty much the same: another year, another R package (**blogdown**), [another book](https://bookdown.org/yihui/blogdown/), and still endless joy. The **blogdown** book is [available for purchase now](https://www.crcpress.com/p/book/9780815363729). I'm not writing this post to urge you to buy the book (it is free to read online, and even if you buy it, I won't get a penny in my pocket), but share some stories and thoughts behind the book and the package. There isn't a particular order below.
 
