@@ -45,6 +45,8 @@ TinyTeX is still a relatively new project, so these are only potential FAQs.
     Why do I exclude the documentations? Tell me honestly: how many times have you found a solution via [StackExchange](https://tex.stackexchange.com), and how many times have you tried to read the package documentation? Even with the full documentation installed, you probably don't even know where to find these documentation files on your computer. The documentation files take a lot of disk space, and I believe they are rarely read by an average user, so they are not included. The address bar of your web browser is the most convenient documentation: type and search.
 
     The other major factor that affects the size of TeX Live is the font packages, which are usually much bigger than other LaTeX packages, but we cannot really do much about it, unless you do not use `pdflatex`, in which case you may further reduce the size of this small TeX Live distribution.
+    
+    You can use the command `tlmgr info --list --only-installed --data name,size` to obtain the sizes of all installed packages. If you have installed the R package **tinytex**, you can also use the function `tinytex::tl_sizes()`. For example, the size of the font package **lm** (Latin modern) is about 42MB!
 
 1. **I'm a Linux and R user, and I saw a message "TinyTeX was not successfully installed or configured" after I install TinyTeX via `tinytex::install_tinytex()`. What should I do?**
 
