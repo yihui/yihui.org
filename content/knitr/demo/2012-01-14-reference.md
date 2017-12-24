@@ -19,6 +19,8 @@ Sweave has the feature of chunk reference to reuse chunks with the syntax `<<chu
 
 In `chunk2`, the code in `chunk1` will be inserted. This feature is also available in **knitr**, but note **knitr** supports arbitrary (finite) levels of recursion in chunk references (Sweave only supports one level), i.e. one chunk can reference another chunk which references yet another chunk.
 
+This same `<<chunk-label>>` syntax will work in markdown, to reuse a previous named markdown chunk within another chunk, even though your .Rmd editor will likely flag the line as an unexpected token.
+
 There are still other approaches to reuse chunks in **knitr**.
 
 1. use the same label as the previous chunk to be reused
