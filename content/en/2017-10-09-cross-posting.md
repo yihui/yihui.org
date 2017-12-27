@@ -19,3 +19,9 @@ Actually there is some subtle psychology here. If you are a total stranger askin
 In case you want to read more on this topic:
 
 - [Gimme Pizza!](http://latex.org/know-how/latex-community/94-etiquette/454-crossposts) (a post in a LaTeX community; pointed out by Scott Kostyshak)
+
+## Appendix
+
+Here is a list of good examples of mentioning cross-posting:
+
+- [gcushen/hugo-academic#416](https://github.com/gcushen/hugo-academic/issues/416) by @lucasmation
