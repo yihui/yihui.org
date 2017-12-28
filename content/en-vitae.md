@@ -18,7 +18,7 @@ Email: xie@yihui.name; Homepage: <https://yihui.name>; Twitter [@xieyihui](https
 
 ## Brief Biography
 
-Yihui Xie is a software engineer at [RStudio](https://www.rstudio.com). He earned his PhD from the Department of Statistics, Iowa State University. He is interested in interactive statistical graphics and statistical computing. As an active R user, he has authored several R packages, such as **knitr**, **bookdown**, **blogdown**, **xaringan**, **animation**, **DT**, **tufte**, **formatR**, **fun**, **mime**, **highr**, **servr**, and **Rd2roxygen**, among which the **animation** package won the 2009 John M. Chambers Statistical Software Award (ASA). He also co-authored a few other R packages, including **shiny**, **rmarkdown**, and **leaflet**. He has published a number of books, including "Dynamic Documents with R and knitr", and "bookdown: Authoring Books and Technical Documents with R Markdown".
+Yihui Xie is a software engineer at [RStudio](https://www.rstudio.com). He earned his PhD from the Department of Statistics, Iowa State University. He is interested in interactive statistical graphics and statistical computing. As an active R user, he has authored several R packages, such as **knitr**, **bookdown**, **blogdown**, **xaringan**, **animation**, **DT**, **tinytex**, **tufte**, **formatR**, **fun**, **mime**, **highr**, **servr**, and **Rd2roxygen**, among which the **animation** package won the 2009 John M. Chambers Statistical Software Award (ASA). He also co-authored a few other R packages, including **shiny**, **rmarkdown**, and **leaflet**. He has published a number of books, including "Dynamic Documents with R and knitr", and "bookdown: Authoring Books and Technical Documents with R Markdown".
 
 In 2006, he founded the Capital of Statistics (<https://cosx.org>), which has grown into a large online community on statistics in China. He initiated the Chinese R conference in 2008, and has been involved in organizing R conferences in China since then. During his PhD training at Iowa State University, he won the Vince Sposito Statistical Computing Award (2011) and the Snedecor Award (2012) in the Department of Statistics.
 
@@ -48,6 +48,25 @@ Reproducible research; statistical computing; statistical graphics; data visuali
 
 ## Publications
 
+See my [Google Scholar page](https://scholar.google.com/citations?user=lkjqsd4AAAAJ&hl=en) for a full list of publications.
+
+### In English
+
+Books and book chapters:
+
+1. Yihui Xie (2017). [_blogdown: Creating Websites with R Markdown_](https://bookdown.org/yihui/blogdown). Chapman & Hall/[CRC](https://www.crcpress.com/p/book/9780815363729). ISBN 978-0815363729.
+1. Yihui Xie (2016). [_bookdown: Authoring Books and Technical Documents with R Markdown_](https://bookdown.org/yihui/bookdown). Chapman and Hall/[CRC](https://www.crcpress.com/product/isbn/9781138700109). ISBN 978-1138700109
+1. Yihui Xie (2015). [_Dynamic Documents with R and knitr_](http://www.crcpress.com/product/isbn/9781498716963). 2nd edition. Chapman and Hall/CRC. ISBN 978-1498716963
+    - Yihui Xie (2013). [_Dynamic Documents with R and knitr_](http://www.crcpress.com/product/isbn/9781482203530). Chapman and Hall/CRC. ISBN 978-1482203530
+1. Yihui Xie (2014). knitr: [_A Comprehensive Tool for Reproducible Research in R_](http://www.crcpress.com/product/isbn/9781466561595). In Victoria Stodden, Friedrich Leisch and Roger D. Peng, editors, Implementing Reproducible Computational Research. Chapman and Hall/CRC. ISBN 978-1466561595
+
+Papers:
+
+1. Yihui Xie, Heike Hofmann, and Xiaoyue Cheng (2014). _Reactive Programming for Interactive Graphics_. Statistical Science, 29(**2**), 201-213. ([PDF](https://bitbucket.org/stat/www/downloads/STS477.pdf))
+1. Yihui Xie (2013). _animation: An R Package for Creating Animations and Demonstrating Statistical Methods_. Journal of Statistical Software, 53(1), 1-27. URL <http://www.jstatsoft.org/v53/i01/>
+1. Yihui Xie and Xiaoyue Cheng, 2008. _animation: A Package for Statistical Animations_, R News, 8(**2**). URL: <http://www.r-project.org/doc/Rnews/Rnews_2008-2.pdf>
+1. Yihui Xie, 2007. _Visualization of Data and Statistical Models Using R_, Proceedings of the 3rd Conference on Australia-China Free Trade Agreement (ACFTA): Econometric Modeling and Policy in Trade, Investment and Economic Integration ([PDF](https://github.com/downloads/yihui/yihui.github.com/R-visualization-paper-2007-Yihui-Xie.pdf))
+
 ### In Chinese
 
 Books under development:
@@ -68,23 +87,6 @@ Papers:
 1. Yanyun Zhao, Yihui Xie, 2005. Who is the champion of growth among top 1000 industrial enterprises in China: analysis on the capability of market expanding and aggregate efficiency, _Talents_, 9, 72-73.
 
 Besides, I published several articles in the [Capital of Statistics](https://cosx.org) in Chinese.
-
-### In English
-
-Books and book chapters:
-
-1. Yihui Xie (2017). [_blogdown: Creating Websites with R Markdown_](https://bookdown.org/yihui/blogdown). Chapman & Hall/[CRC](https://www.crcpress.com/p/book/9780815363729). ISBN 978-0815363729.
-1. Yihui Xie (2016). [_bookdown: Authoring Books and Technical Documents with R Markdown_](https://bookdown.org/yihui/bookdown). Chapman and Hall/[CRC](https://www.crcpress.com/product/isbn/9781138700109). ISBN 978-1138700109
-1. Yihui Xie (2015). [_Dynamic Documents with R and knitr_](http://www.crcpress.com/product/isbn/9781498716963). 2nd edition. Chapman and Hall/CRC. ISBN 978-1498716963
-    - Yihui Xie (2013). [_Dynamic Documents with R and knitr_](http://www.crcpress.com/product/isbn/9781482203530). Chapman and Hall/CRC. ISBN 978-1482203530
-1. Yihui Xie (2014). knitr: [_A Comprehensive Tool for Reproducible Research in R_](http://www.crcpress.com/product/isbn/9781466561595). In Victoria Stodden, Friedrich Leisch and Roger D. Peng, editors, Implementing Reproducible Computational Research. Chapman and Hall/CRC. ISBN 978-1466561595
-
-Papers:
-
-1. Yihui Xie, Heike Hofmann, and Xiaoyue Cheng (2014). _Reactive Programming for Interactive Graphics_. Statistical Science, 29(**2**), 201-213. ([PDF](https://bitbucket.org/stat/www/downloads/STS477.pdf))
-1. Yihui Xie (2013). _animation: An R Package for Creating Animations and Demonstrating Statistical Methods_. Journal of Statistical Software, 53(1), 1-27. URL <http://www.jstatsoft.org/v53/i01/>
-1. Yihui Xie and Xiaoyue Cheng, 2008. _animation: A Package for Statistical Animations_, R News, 8(**2**). URL: <http://www.r-project.org/doc/Rnews/Rnews_2008-2.pdf>
-1. Yihui Xie, 2007. _Visualization of Data and Statistical Models Using R_, Proceedings of the 3rd Conference on Australia-China Free Trade Agreement (ACFTA): Econometric Modeling and Policy in Trade, Investment and Economic Integration ([paper](https://github.com/downloads/yihui/yihui.github.com/R-visualization-paper-2007-Yihui-Xie.pdf))
 
 ## Professional Experience
 
