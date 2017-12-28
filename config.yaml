@@ -57,9 +57,12 @@ menu:
     - name: "简历"
       url: "/cn/vitae/"
       weight: 4
+    - name: "菜谱"
+      url: "/cn/recipe/"
+      weight: 5
     - name: "English"
       url: "/en/"
-      weight: 5
+      weight: 6
   knitr:
     - name: "Home"
       url: "/knitr/"
