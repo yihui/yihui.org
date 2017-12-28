@@ -211,7 +211,7 @@ Projects participated:
 - Yihui Xie, Karl Broman, and Ian Lyttle, 2016, _Dynamic Documents with R Markdown_, a tutorial at useR! 2016, Stanford University ([slides](http://slides.yihui.name/2016-useR-rmarkdown-Yihui-Xie.html))
 - Yihui Xie, 2016, _Pleasant Book Writing with bookdown_, the 9th China-R conference, Beijing ([slides](http://slides.yihui.name/2016-China-R-bookdown-Yihui-Xie.html))
 - Yihui Xie, 2016, _CosPlay R_, the 9th China-R conference, Beijing
-- Yihui Xie, 2016, _R Markdwon: A Convenient Toolset for Academic Writing and Data Analysis_, Ocean University of China, Qingdao ([slides](http://slides.yihui.name/2016-OUC-Yihui-Xie.html))
+- Yihui Xie, 2016, _R Markdown: A Convenient Toolset for Academic Writing and Data Analysis_, Ocean University of China, Qingdao ([slides](http://slides.yihui.name/2016-OUC-Yihui-Xie.html))
 - Yihui Xie, 2016, _Some Interesting Packages for Interactive Graphics_, School of Economics, Qingdao University, Qingdao
 - Yihui Xie, 2016, _Shiny and HTML Widgets in R_, Greater Omaha Tableau User Group, University of Nebraska at Omaha ([slides](http://slides.yihui.name/2016-UNO-Shiny-Yihui-Xie.html))
 - Yihui Xie, 2016, _Authoring Books with R Markdown_, the Chicago chapter of ASA, Chicago ([slides](http://slides.yihui.name/2016-ASAChicago-bookdown-Yihui-Xie.html))
