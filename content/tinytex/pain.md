@@ -24,7 +24,7 @@ On this page, I'll let other users share their stories of installing and managin
 
 - [Which LaTeX to install on Linux?](https://tex.stackexchange.com/q/18939/9128)
 
-- Missing LaTeX packages confuse users [forever](https://github.com/rstudio/rmarkdown/issues/359), [forever](https://github.com/rstudio/rmarkdown/issues/1076), and it takes [forever](https://twitter.com/xieyihui/status/763805846807547904) to figure them out and install. [Error messages](https://stackoverflow.com/q/47400936/559676) can also be confusing.
+- Missing LaTeX packages confuse users [forever](https://github.com/rstudio/rmarkdown/issues/359), [forever](https://github.com/rstudio/rmarkdown/issues/1076), and it takes [forever](https://twitter.com/xieyihui/status/763805846807547904) to figure them out and install. [Error messages](https://stackoverflow.com/q/47400936/559676) can also be confusing. Sometimes we just [don't have a clue](https://github.com/rstudio/bookdown/issues/507).
 
 Below are stories and experiences contributed by other users:
 
@@ -46,7 +46,7 @@ Below are stories and experiences contributed by other users:
 
 <!-- -->
 
-> Seriously one of my only holdups teaching LaTex in Rmarkdown (still taught it anyway) is now solved.
+> Seriously one of my only holdups teaching LaTeX in Rmarkdown (still taught it anyway) is now solved.
 
 > --- [ Tyson Barrett](https://twitter.com/healthandstats/status/941169151749406720)
 
