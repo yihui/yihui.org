@@ -41,6 +41,8 @@ As an example, @DRManager asked a question using [a Github issue](https://github
 
 - [rstudio/rmarkdown#1091](https://github.com/rstudio/rmarkdown/issues/1091) and the [StackOverflow post](https://stackoverflow.com/q/46666212/559676)
 
+- [rstudio/DT#391](https://github.com/rstudio/DT/issues/391) and the [StackOverflow post](https://stackoverflow.com/q/36071460/559676)
+
 ## Conclusion
 
 So it is not that I don't want to help you when I don't reply emails. It is just both impractical and inefficient to me.
