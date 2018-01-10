@@ -62,4 +62,4 @@ abs2 = function(x) {
 
 In this toy example, you may not see obvious advantages, but when the expressions in the `if-else` statement are lengthy, you will be able to save a large amount of white spaces. I tend to return early for simpler conditions, and handle more complex conditions later. This also make the code easier for me to reason about: I think from the easier parts to more difficult parts as I go through the code.
 
-I tend to make code a little dense (e.g., not indent excessively) so that when I read the code, I don't have to scroll up and down, and move my eyes over a long distance.
+I tend to make code a little dense (e.g., not to indent excessively) so that when I read the code, I don't have to scroll up and down, and move my eyes over a long distance.
