@@ -55,3 +55,9 @@ Below are stories and experiences contributed by other users:
 > Tried TinyTeX with rmarkdown and both English and Chinese rendering. The most smooth experience ever using LaTeX!
 
 > --- [Kun Ren](https://twitter.com/renkun_ken/status/941352666730455041)
+
+<!-- -->
+
+> TinyTeX is awesome, if it had existed before I would have saved hours of my life spent dealing with LaTeX packages and failed R Markdown knits...
+
+> --- [Antonio Vazquez Brust](https://github.com/rstudio/bookdown/issues/292#issuecomment-356480809)
