@@ -12,6 +12,10 @@ That reminded me of a few other joyful moments. Occasionally, I receive thank-yo
 
 ![bookdown gift](https://db.yihui.name/images/bookdown-gift.jpg)
 
+this note in a **bookdown** report:
+
+![thanks in a bookdown report](https://db.yihui.name/images/bookdown-thanks.jpg)
+
 and this picture in an email:
 
 ![drexel thank-you picture](https://db.yihui.name/images/drexel-thanks.jpg)
