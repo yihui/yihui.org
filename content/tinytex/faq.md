@@ -72,7 +72,7 @@ TinyTeX is still a relatively new project, so these are only potential FAQs.
     tinytex::tlmgr_install(c('inconsolata', 'times', 'tex'))
     ```
     
-    Another important thing to do is add R's texmf tree to TeX Live. This is not easy to explain, but I have provided a function `tinytex::r_texmf()` to do it. Just do it. See the help page `?tinytex::r_texmf` if you are curious about the technical details.
+    Another important thing to do is add R's texmf tree to TeX Live. This is not easy to explain, but I have provided a function `tinytex::r_texmf()` to do it. Just do it (unless you installed TinyTeX via `tinytex::install_tinytex()`, which automatically does this). See the help page `?tinytex::r_texmf` if you are curious about the technical details.
     
     Although it is irrelevant to TinyTeX, you may also need to install [**texinfo**](https://www.gnu.org/software/texinfo/) (not a LaTeX package), since `R CMD check` may also require it. For macOS users, if you installed R from CRAN, **texinfo** is usually included, otherwise you can install it via Homebrew: `brew install texinfo`.
 
