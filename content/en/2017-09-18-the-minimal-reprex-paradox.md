@@ -28,4 +28,6 @@ Lastly I want to show a few examples of minimal reproducible examples:
 
 - [rstudio/blogdown#197](https://github.com/rstudio/blogdown/issues/197): this is a recent issue, and Justin told me carefully how to reproduce the issue. I like this type of issues, because I don't need to ask more questions: just follow his steps, and I'm able to reproduce the issue. 
 
+- Similarly, here are more bug reports that I was able to reproduce with no further questions asked: [yihui/tinytex#12](https://github.com/yihui/tinytex/issues/12), [rstudio/rmarkdown#1154](https://github.com/rstudio/rmarkdown/issues/1154), and [rstudio/DT#471](https://github.com/rstudio/DT/issues/471).
+
 In conclusion, it is helpful for a developer to receive a minimal reprex, but it may not be a trivial thing to do for beginners. I'm well prepared to repeat the boring sentence for another 5000 times. Let's keep educating users the importance of a reprex together. Oh, I almost forgot to mention the "[When in doubt, upgrade](/en/2017/05/when-in-doubt-upgrade/)" strategy. Your issue may be automatically solved by simply upgrading.
