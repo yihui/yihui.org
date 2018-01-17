@@ -33,3 +33,5 @@ f()
 I don't have the capability to understand the [source code in C](https://github.com/wch/r-source/blob/a7356bf91b/src/main/builtin.c#L131-L186), and I'll leave it experts to explain the weird things I observed. For me, I'll just never move `add` before `expr` again.
 
 BTW, I don't know the rationale for the default `add = FALSE` in `on.exit()`, but I have not used `add = FALSE` for a single time, so I feel `add = TRUE` might be a better default. When I want to do something on exit, I almost surely mean do it _in addition to_ the things that I assigned to `on.exit()` before, instead of cleaning up all previous tasks and only doing this one (`add = FALSE`).
+
+> **Update on 2018/01/17**: Half a year later, [I was bitten by the same problem](https://github.com/yihui/tinytex/issues/12) again in the **tinytex** package. Never, ever, do `on.exit(add = TRUE, expr)`.
