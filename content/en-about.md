@@ -43,5 +43,6 @@ Below is an incomplete list of packages and projects I have worked on. For a ful
 - [rlp](/rlp/): Write an R package using literate programming techniques
 - [servr](https://github.com/yihui/servr): a simple HTTP server to serve static files or dynamic documents
 - [testit](https://github.com/yihui/testit): a simple package for testing R packages
+- [tinytex](/tinytex/): a lightweight LaTeX distribution based on TeX Live
 - [tufte](https://github.com/rstudio/tufte): Tufte styles for R Markdown documents
 - [xaringan](https://github.com/yihui/xaringan): presentation ninja
