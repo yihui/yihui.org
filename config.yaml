@@ -132,7 +132,7 @@ menu:
 
 params:
   description: "Personal website of Yihui Xie; 谢益辉的个人网站"
-  footer: "&copy; [Yihui Xie](/) 2005 - 2017 | [Github](https://github.com/yihui) | [Twitter](https://twitter.com/xieyihui)"
+  footer: "&copy; [Yihui Xie](/) 2005 - 2018 | [Github](https://github.com/yihui) | [Twitter](https://twitter.com/xieyihui)"
   disqusURL: "http://yihui.name"
   customJS: ["js/center-img.js", "js/right-quote.js", "js/no-highlight.js", "js/fix-footnote.js", "js/math-code.js"]
   githubContentURL: "https://github.com/rbind/yihui/edit/master/content/"
