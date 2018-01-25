@@ -24,11 +24,11 @@ slug: spring-tour
 
 本村松鼠多，但松鼠叫还真是头一次听到（今天在林子里还头一次听见啄木鸟的声音了，果真是好鼓手，那敲的节奏）。那松鼠就趴在一根枯树枝上，冲我叫个不停，我不知道它是什么意思，反正我看着很欢乐，于是给它[录了一段](http://v.youku.com/v_show/id_XMzc4MjUxMTcy.html)：
 
-<embed src="http://player.youku.com/player.php/sid/XMzc4MjUxMTcy/v.swf" allowFullScreen="true" quality="high" width="300" height="520" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash" />
+<embed src="https://player.youku.com/player.php/sid/XMzc4MjUxMTcy/v.swf" allowFullScreen="true" quality="high" width="300" height="520" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash" />
 
 它高高在那儿爬上爬下叫个不停，于是我跟它来了一段[对话](http://v.youku.com/v_show/id_XMzc4MjUxNzYw.html)，具体说的是什么，各位客官自己猜好了。最神奇的是，本来它在哪儿乱叫，后来我说五个字，它也说五个字，松鼠都会数数了，这可真是了不得了：
 
-<embed src="http://player.youku.com/player.php/sid/XMzc4MjUxNzYw/v.swf" allowFullScreen="true" quality="high" width="500" height="400" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash" />
+<embed src="https://player.youku.com/player.php/sid/XMzc4MjUxNzYw/v.swf" allowFullScreen="true" quality="high" width="500" height="400" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash" />
 
 游记完毕。
 

@@ -6,7 +6,7 @@ slug: flash-game-bloxorz
 
 昨晚写完论文，收到一封邮件，给我发了个游戏，号称全球只有4个人通关，我当时就很怀疑怎么会有这么高智商的游戏，于是乎本同学（低IQ）就查探了一把：
 
-<embed src="http://www.miniclip.com/games/bloxorz/en/bloxorz_miniclip.swf" allowFullScreen="true" quality="high" width="600" height="375" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash" />
+<embed src="https://www.miniclip.com/games/bloxorz/en/bloxorz_miniclip.swf" allowFullScreen="true" quality="high" width="600" height="375" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash" />
 
 前前后后大约搬了四个小时才把33级搬过去，看来我也就只能玩玩这种简单游戏了。
 

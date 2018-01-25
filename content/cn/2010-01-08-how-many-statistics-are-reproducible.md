@@ -14,6 +14,6 @@ slug: how-many-statistics-are-reproducible
 
 最后看个无关的短片，看什么叫“彪悍的人生不需要解释”：
 
-<iframe src="http://embed.ted.com/talks/pranav_mistry_the_thrilling_potential_of_sixthsense_technology.html" width="560" height="315" frameborder="0" scrolling="no" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+<iframe src="https://embed.ted.com/talks/pranav_mistry_the_thrilling_potential_of_sixthsense_technology.html" width="560" height="315" frameborder="0" scrolling="no" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 
 对他这样的人，有没有必要用论文证明什么呢？

@@ -10,26 +10,8 @@ slug: back-into-the-dust
 
 如果网页可以如此简洁高效并且只是基于纯文本，那么我可以立刻嗅出统计人的一个光明前途。此处省略八千字，如果你手中有八百万风投，请两年后联系我。这里我要说的是魂归大地，但并不是要说我自己，网页和魂归大地扯上关系有点勉强，这些东西真刀实枪干活就行了，没必要整得那么玄乎。最近有两个TED视频，我觉得都非常好，让我想起先生的“魂归大地”。一则为[开发新（纳米）材料获取能源（太阳能）](http://www.ted.com/talks/justin_hall_tipping_freeing_energy_from_the_grid.html)的人，技术听起来很诱人，你家的窗户玻璃在夏天自动排热、冬天吸热，不知道能省多少能源，但这不是关键，关键是视频的最后，他从钱包里拿出一张旧报纸上剪下来的照片，那就是那幅著名的获普利策奖的照片《饥饿的苏丹》。“她不应该死于缺水，无论如何”，演讲者说。
 
-<object width="526" height="374">
-<param name="movie" value="http://video.ted.com/assets/player/swf/EmbedPlayer.swf"></param>
-<param name="allowFullScreen" value="true" />
-<param name="allowScriptAccess" value="always"/>
-<param name="wmode" value="transparent"></param>
-<param name="bgColor" value="#ffffff"></param>
-<param name="flashvars" value="vu=http://video.ted.com/talk/stream/2011G/Blank/JustinHallTipping_2011G-320k.mp4&su=http://images.ted.com/images/ted/tedindex/embed-posters/JustinHallTipping_2011G-embed.jpg&vw=512&vh=288&ap=0&ti=1249&lang=&introDuration=15330&adDuration=4000&postAdDuration=830&adKeys=talk=justin_hall_tipping_freeing_energy_from_the_grid;year=2011;theme=a_greener_future;theme=tales_of_invention;theme=the_rise_of_collaboration;event=TEDGlobal+2011;tag=energy;tag=entrepreneur;tag=environment;tag=science;tag=technology;&preAdTag=tconf.ted/embed;tile=1;sz=512x288;" />
-<embed src="http://video.ted.com/assets/player/swf/EmbedPlayer.swf" pluginspace="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" wmode="transparent" bgColor="#ffffff" width="526" height="374" allowFullScreen="true" allowScriptAccess="always" flashvars="vu=http://video.ted.com/talk/stream/2011G/Blank/JustinHallTipping_2011G-320k.mp4&su=http://images.ted.com/images/ted/tedindex/embed-posters/JustinHallTipping_2011G-embed.jpg&vw=512&vh=288&ap=0&ti=1249&lang=&introDuration=15330&adDuration=4000&postAdDuration=830&adKeys=talk=justin_hall_tipping_freeing_energy_from_the_grid;year=2011;theme=a_greener_future;theme=tales_of_invention;theme=the_rise_of_collaboration;event=TEDGlobal+2011;tag=energy;tag=entrepreneur;tag=environment;tag=science;tag=technology;&preAdTag=tconf.ted/embed;tile=1;sz=512x288;"></embed>
-</object>
+<iframe src="https://embed.ted.com/talks/justin_hall_tipping_freeing_energy_from_the_grid" width="600" height="400" frameborder="0" scrolling="no" allowfullscreen></iframe>
 
 另一则为[赤脚运动的印度大爷](http://www.ted.com/talks/bunker_roy.html)，博士毕业，回村，跟老娘说要先挖井五年（如果我没听错的话），老娘听了差点没气疯。一辈子干了一件事，教育印度农民（或者说被教育），尤其是印度农妇，让五十多岁的老大娘都学会了整太阳能照明；这大爷认为民间自有高手在，要发掘他们的天才才干，向他们学习，他的学校里学生是老师，老师是学生；妇女们都会用太阳光聚焦了做饭，一个个比工程师都厉害；一位妻子说有了太阳能照明，她头一次在冬天里看清了她丈夫的脸。本小子非常相信这位大爷对贫民的看法，穷人有穷人的生存智慧。某个偏远山村的夜里头一次亮起灯光，这种感觉可能就是魂归大地了吧。
 
-<object width="526" height="374">
-<param name="movie" value="http://video.ted.com/assets/player/swf/EmbedPlayer.swf"></param>
-<param name="allowFullScreen" value="true" />
-<param name="allowScriptAccess" value="always"/>
-<param name="wmode" value="transparent"></param>
-<param name="bgColor" value="#ffffff"></param>
-<param name="flashvars" value="vu=http://video.ted.com/talk/stream/2011G/Blank/BunkerRoy_2011G-320k.mp4&su=http://images.ted.com/images/ted/tedindex/embed-posters/BunkerRoy_2011G-embed.jpg&vw=512&vh=288&ap=0&ti=1248&lang=&introDuration=15330&adDuration=4000&postAdDuration=830&adKeys=talk=bunker_roy;year=2011;theme=master_storytellers;theme=not_business_as_usual;theme=the_creative_spark;theme=how_we_learn;event=TEDGlobal+2011;tag=culture;tag=development;tag=education;tag=global+issues;tag=invention;tag=women;&preAdTag=tconf.ted/embed;tile=1;sz=512x288;" />
-<embed src="http://video.ted.com/assets/player/swf/EmbedPlayer.swf" pluginspace="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" wmode="transparent" bgColor="#ffffff" width="526" height="374" allowFullScreen="true" allowScriptAccess="always" flashvars="vu=http://video.ted.com/talk/stream/2011G/Blank/BunkerRoy_2011G-320k.mp4&su=http://images.ted.com/images/ted/tedindex/embed-posters/BunkerRoy_2011G-embed.jpg&vw=512&vh=288&ap=0&ti=1248&lang=&introDuration=15330&adDuration=4000&postAdDuration=830&adKeys=talk=bunker_roy;year=2011;theme=master_storytellers;theme=not_business_as_usual;theme=the_creative_spark;theme=how_we_learn;event=TEDGlobal+2011;tag=culture;tag=development;tag=education;tag=global+issues;tag=invention;tag=women;&preAdTag=tconf.ted/embed;tile=1;sz=512x288;"></embed>
-</object>
-
-
+<iframe src="https://embed.ted.com/talks/bunker_roy" width="600" height="400" frameborder="0" scrolling="no" allowfullscreen></iframe>

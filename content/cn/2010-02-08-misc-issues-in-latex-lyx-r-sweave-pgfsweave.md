@@ -4,7 +4,7 @@ date: '2010-02-08'
 slug: misc-issues-in-latex-lyx-r-sweave-pgfsweave
 ---
 
-> 2013/02/05更新：本文已经严重过期。pgfSweave包基本上已经进入不维护的状态，我的[knitr包](/knitr)已经可以完全替代它；LyX已经有大规模更新，本文提到的问题都已经在官方版本中解决，所有暗黑招数都已经没有必要。参见以下视频：
+> 2013/02/05更新：本文已经严重过期。pgfSweave包基本上已经进入不维护的状态，我的[knitr包](/knitr)已经可以完全替代它；LyX已经有大规模更新，本文提到的问题都已经在官方版本中解决，所有暗黑招数都已经没有必要。参见[以下视频](http://www.screenr.com/embed/SvL8)：
 
 > <iframe src="http://www.screenr.com/embed/SvL8" width="550" height="335" frameborder="0"></iframe>
 

@@ -24,4 +24,4 @@ slug: comp-human-lang
 
 从人类语言的角度来说，没有什么最小惊讶，只有最大熟悉问题。英语这种全是漏洞和不规则性的语言都能流行，上哪儿说理去呢。
 
-<iframe src="http://embed.ted.com/talks/lang/en/suzanne_talhouk_don_t_kill_your_language.html" width="560" height="315" frameborder="0" scrolling="no" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+<iframe src="https://embed.ted.com/talks/lang/en/suzanne_talhouk_don_t_kill_your_language.html" width="560" height="315" frameborder="0" scrolling="no" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
