@@ -27,7 +27,7 @@ ERROR: compilation failed for package ‘RGtk2’
 The default installation of `gtk+` does not include `gdk/gdkx.h`, and you have to customize the installation (use the options `--with-gdktarget=x11` and `--enable-x11-backend`). I mainly followed the steps written by Zhiya Zuo in [a Github gist](https://gist.github.com/zhiyzuo/a489ffdcc5da87f28f8589a55aa206dd), but changed his Step 4: I didn't want to modify `PKG_CONFIG_PATH` permanently in `.bash_profile`, so I just set the environment variable temporarily in R:
 
 ```r
-Sys.setenv(PKG_CONFIG_PATH=paste(
+Sys.setenv(PKG_CONFIG_PATH = paste(
   "/usr/local/lib/pkgconfig",
   "/usr/local/lib/pkgconfig/gtk+-2.0.pc",
   "/opt/X11/lib/pkgconfig", sep = ":"
