@@ -4,7 +4,7 @@ date: '2018-01-30'
 slug: ian-lyttle
 ---
 
-I think I got to know Ian Lyttle in early 2014 (about half a year before I left Iowa). Out of nowhere, he started to show up at the weekly ISU graphics working group meetings (led by my PhD advisors Di and Heike) after driving for three boring hours from another city.
+I think I got to know Ian Lyttle in early 2014 (about 1.5 years before I left Iowa). Out of nowhere, he started to show up at the weekly ISU graphics working group meetings (led by my PhD advisors Di and Heike) after driving for three boring hours from another city.
 
 Over these years, he become more and more active in the R community, and started to [write more R packages](https://github.com/ijlyttle) and attend more conferences. One special thing I have noticed about him is that he actually brings a pen and a notebook with him when attending conferences. In the notebook, [he has prepared questions in advance](https://twitter.com/ijlyttle/status/958408134074122240) for people whom he plans to catch at the conferences. This is rare in two aspects in my eyes:
 
