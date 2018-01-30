@@ -40,3 +40,4 @@ P.S. A list of issues solved simply by updating packages:
 - [`new_site()` in blogdown causes error in editor](https://stackoverflow.com/q/46402910/559676)
 - [Incompatible with Pandoc v2](https://github.com/rstudio/rmarkdown/issues/1244)
 - [DT does not show up in Shiny after last upgrade](https://github.com/rstudio/DT/issues/489)
+- [Blogdown Error: Couldn't Find Function "invalidUTF8"](https://stackoverflow.com/q/48523995/559676)
