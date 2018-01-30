@@ -65,7 +65,6 @@ Below are stories and experiences contributed by other users:
 <!-- -->
 
 > Many people don't realize that Texlive on some Linux systems (say you need a rstudio server) doesn't come with the TeX package manager. If the package you need is not in their system, you are basically screwed as you can't even install it. TinyTeX solves this problem and makes everything sweet and easy. Also, after using it for more than a month, I found the  messages of tinytex are very helpful, comparing with basically NULL in texlive. 
-
 > --- [Hao Zhu](https://community.rstudio.com/t/texlive-distribution-on-centos-for-rstudio-server-and-connect/2916)
 
 <!-- -->
@@ -73,3 +72,9 @@ Below are stories and experiences contributed by other users:
 > I'm a novice with R and I found the entire process of installing rmarkdown, knitr, MiKTeX, and pandoc and then reconciling all their directories very difficult. [...] The 3-4 hour detour into MiKTeX etc and how to produce PDFs was a frustration experience to say the least. (Up and running with TinyTeX five minutes later...)
 
 > --- Justin Shapiro
+
+<!-- -->
+
+> If you work in a locked down windows corporate enviroment and spent countless hours with MiKTeX or portable MiKTeX, you'll want to buy @xieyihui lunch.
+
+> --- [Thomas Speidel](https://twitter.com/ThomasSpeidel/status/957856056108920835)
