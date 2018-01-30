@@ -8,7 +8,7 @@ disable_comments: true
 
 ## 联系方式
 
-Email：xie@yihui.name；主页：<http://yihui.name>；现居住于美国内布拉斯加州麋鹿角郊区
+Email：xie@yihui.name；主页：<https://yihui.name>；现居住于美国内布拉斯加州麋鹿角郊区
 
 ## 研究兴趣
 
