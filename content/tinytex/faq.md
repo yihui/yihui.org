@@ -48,7 +48,7 @@ TinyTeX is still a relatively new project, so these are only potential FAQs.
     
     You can use the command `tlmgr info --list --only-installed --data name,size` to obtain the sizes of all installed packages. If you have installed the R package **tinytex**, you can also use the function `tinytex::tl_sizes()`. For example, the size of the font package **lm** (Latin modern) is about 42MB!
 
-1. **I'm a Linux and R user, and I saw a message "TinyTeX was not successfully installed or configured" after I install TinyTeX via `tinytex::install_tinytex()`. What should I do?**
+1. **I'm a Linux and R user, and I saw a message "TinyTeX was not successfully installed or configured" after I install TinyTeX via `tinytex::install_tinytex()` / RStudio says "No TeX distribution detected" / Pandoc says "pdflatex not found". What should I do?**
 
     First, try to restart R or RStudio, and check if `tinytex:::is_tinytex()` is `TRUE` in R. If it is, you are all set, otherwise, run `list.files('~/bin')` and see if `tlmgr` is there. If it is, you need to make sure `$HOME/bin` is in your `PATH` variable (which should be, according to [this StackExchange answer](https://unix.stackexchange.com/a/215717)). If it is not, you need to add it in the file `~/.bash_profile` or `~/.profile`:
 
@@ -56,7 +56,7 @@ TinyTeX is still a relatively new project, so these are only potential FAQs.
     export PATH="$HOME/bin:$PATH"
     ```
 
-    If `tinytex:::is_tinytex()` is still `FALSE` after you restart R/RStudio, I don't have other ideas, and you will have to install TinyTeX using the method in FAQ 7.
+    If `tinytex:::is_tinytex()` is still `FALSE` after you restart R/RStudio, I don't have other ideas (you may try to [restart your system](https://github.com/yihui/tinytex/issues/16) and see if you have better luck), and you will have to install TinyTeX using the method in FAQ 7.
 
 1. **I'm an R package developer. Are the default LaTeX packages included in TinyTeX enough for me to develop an R package?**
 
