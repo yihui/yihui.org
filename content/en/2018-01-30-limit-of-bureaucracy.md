@@ -11,7 +11,7 @@ I often create rules, too (in my software), but I will keep it in mind that I sh
 
 I mourned over an email that I received this morning, in which a (**bookdown**) user reported to me that his university's IT forbids numbers in directory names of websites, e.g., `jquery-2.0/jquery.js` is not allowed, and it must be `jquery/jquery.js`. He asked me how to get rid of these numbers. While I generally don't like version numbers in these directory names, I see no point of forcing faculty and students to remove these numbers when publishing their websites to the university's web servers.
 
-Fortunately, I have an answer: `options(htmltools.dir.version = FALSE)`, but it is still hard to imagine the limit of bureaucracy in this world.
+Fortunately, I have an answer: `options(htmltools.dir.version = FALSE)`, but why should I spend the time on dealing with such problems in the first place? It is hard to imagine the limit of bureaucracy in this world.
 
 ![Tired of bureaucracy](https://slides.yihui.name/gif/tired.gif)
 
