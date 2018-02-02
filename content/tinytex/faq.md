@@ -63,13 +63,15 @@ TinyTeX is still a relatively new project, so these are only potential FAQs.
     No, you need a few more: **inconsolata**, **times**, and **tex**, mainly because `R CMD check` needs to build manuals to PDF. You can install these packages through either the command line:
     
     ```sh
-    tlmgr install "inconsolata" "times" "tex"
+    tlmgr install "inconsolata" "times" "tex" "helvetic" "dvips"
     ```
     
     or via the R function:
     
     ```r
-    tinytex::tlmgr_install(c('inconsolata', 'times', 'tex'))
+    tinytex::tlmgr_install(c(
+      'inconsolata', 'times', 'tex', 'helvetic', 'dvips'
+    ))
     ```
     
     Another important thing to do is add R's texmf tree to TeX Live. This is not easy to explain, but I have provided a function `tinytex::r_texmf()` to do it. Just do it (unless you installed TinyTeX via `tinytex::install_tinytex()`, which automatically does this). See the help page `?tinytex::r_texmf` if you are curious about the technical details.
