@@ -60,7 +60,7 @@ TinyTeX is still a relatively new project, so these are only potential FAQs.
 
 1. **I'm an R package developer. Are the default LaTeX packages included in TinyTeX enough for me to develop an R package?**
 
-    No, you need a few more: **inconsolata**, **times**, and **tex**, mainly because `R CMD check` needs to build manuals to PDF. You can install these packages through either the command line:
+    No, you need a few more, mainly because `R CMD check` needs to build manuals to PDF. You can install these packages through either the command line:
     
     ```sh
     tlmgr install "inconsolata" "times" "tex" "helvetic" "dvips"
