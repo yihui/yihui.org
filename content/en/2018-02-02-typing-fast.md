@@ -6,11 +6,11 @@ slug: typing-fast
 disable_mathjax: true
 ---
 
-Right now I'm giving a talk at the RStudio Conference in San Diego. In my talk, I told the audience that I was going to write a blog post at the podium during my presentation. I only had 20 minutes in total for my presentation. Apparently it was impossible to type a nontrivial post. But I want to show them my work flow of writing and publishing blog posts, so I cheated using the **rstudioapi** package to automatically "type" the post in RStudio for me.
+Right now I'm giving a talk at the RStudio Conference in San Diego. In my talk, I told the audience that I was going to write a blog post at the podium during my presentation. I only had 20 minutes in total for my presentation. Apparently it was impossible to type out a nontrivial post. But I want to show them my workflow of writing and publishing blog posts, so I cheated using the **rstudioapi** package to automatically "type" the post in RStudio for me.
 
 ## The rstudioapi package
 
-The key idea is to use the function `rstudioapi::insertText()` to insert text in the RStudio source editor, and the editor context can be obtained from `rstudioapi::getSourceEditorContext()`. The rest of things to do is a plain `for` loop, in which you insert characters one by one, and use `Sys.sleep()` to pause occasionally, otherwise it will be obviously bogus.
+The key idea is to use the function `rstudioapi::insertText()` to insert text in the RStudio source editor, and the editor context can be obtained from `rstudioapi::getSourceEditorContext()`. The rest of things to do is a plain `for` loop, in which you insert characters one by one, and use `Sys.sleep()` to pause occasionally (and randomly), otherwise it will be obviously bogus.
 
 Below is a prototype of the function to automatically "type" a character vector into your RStudio source editor:
 
@@ -43,7 +43,7 @@ delayedAssign('go', {
   Sys.sleep(3)
   xfun::rstudio_type(
     readLines('content/en/2018-02-02-typing-fast.md'),
-    pause = function() rbeta(1, 1, 9)/10, mistake = .005, save = .01
+    pause = function() rbeta(1, 1, 9)/60, mistake = .001, save = .005
   )
 })
 ```
