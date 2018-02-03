@@ -4,7 +4,7 @@ date: '2013-06-10'
 slug: fix-typo-in-documentation
 ---
 
-> Update (2017/08/16): It is much easier to fix typos on my web pages now. There is a menu item "Edit this page" on each page. You can edit the source of a page if you find any mistakes, and propose a correction through a Github pull request. You don't need to use any command-line tools. You should not follow the instructions in the post below any more (the **knitr** documentation has been moved to a different repo).
+> Update (2017/08/16): It is much easier to fix typos on my web pages now. There is a menu item "Edit this page" on each page. You can edit the source of a page if you find any mistakes, and propose a correction through a Github pull request. You don't need to use any command-line tools. You should not follow the instructions in the post below any more (the **knitr** documentation has been moved to a different repo). Great idea! ;)
 
 So I just got yet yet another
 [comment](/knitr/demo/sweave/#comment-924948061) saying
