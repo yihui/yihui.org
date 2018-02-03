@@ -20,7 +20,7 @@
       <description>
         {{ (replace .Content "" "") | html }}
         {{ if eq .Section "en" }}
-        {{ (printf "<script>location.href/*Tal, could u pls not modify my script? It is not cool. Thanks!*/='%s';</script>" .Permalink) | html }}
+        {{ (printf "<script>location.href='%s';</script>" .Permalink) | html }}
         {{ end }}
       </description>
     </item>
