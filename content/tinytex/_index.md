@@ -25,20 +25,14 @@ TinyTeX only provides an installation script that downloads and installs TeX Liv
 Installing and maintaining TinyTeX are easy for R users, since [the R package **tinytex**](/tinytex/r/) has provided wrapper functions.^[Note that when we say **tinytex** (lower case), we mean the R package. TinyTeX means the LaTeX distribution.] To install TinyTeX:
 
 ```r
-devtools::install_github('yihui/tinytex')
+devtools::install_github(c('yihui/tinytex', 'rstudio/rmarkdown'))
 tinytex::install_tinytex()
 ```
 
-What `install_tinytex()` does will be explained later. If you need to uninstall TinyTeX, run `tinytex::uninstall_tinytex()`. To compile a LaTeX document to PDF, call one of these functions (depending on the LaTeX engine you want to use) in **tinytex**: `pdflatex()`, `xelatex()`, and `lualatex()`. If these functions detect LaTeX packages required but not installed in TinyTeX, they will automatically install the missing packages by default.
+What `install_tinytex()` does will be explained later. If you need to uninstall TinyTeX, run `tinytex::uninstall_tinytex()`. To compile an R Markdown document to PDF, there is nothing else you have to know. To compile a LaTeX document to PDF, call one of these functions (depending on the LaTeX engine you want to use) in **tinytex**: `pdflatex()`, `xelatex()`, and `lualatex()`. If these functions detect LaTeX packages required but not installed in TinyTeX, they will automatically install the missing packages by default.
 
 ```r
 tinytex::pdflatex('test.tex')
-```
-
-In the near future, we will add the **tinytex** support in the **rmarkdown** package, so that R users will rarely need to worry about LaTeX maintenance issues (missing packages will be automatically installed) and can really focus on writing. If you cannot wait, try:
-
-```r
-devtools::install_github('rstudio/rmarkdown')
 ```
 
 ## For Other Users
