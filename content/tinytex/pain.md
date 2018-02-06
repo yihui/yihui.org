@@ -26,6 +26,8 @@ On this page, I'll let other users share their stories of installing and managin
 
 - Missing LaTeX packages confuse users [forever](https://github.com/rstudio/rmarkdown/issues/359), [forever](https://github.com/rstudio/rmarkdown/issues/1076), and it takes [forever](https://twitter.com/xieyihui/status/763805846807547904) to figure them out and install. [Error messages](https://stackoverflow.com/q/47400936/559676) can also be confusing. Sometimes we just [don't have a clue](https://github.com/rstudio/bookdown/issues/507).
 
+- MiKTeX [might fail](https://github.com/rstudio/bookdown/issues/531) and we don't know what the error message "GUI framework cannot be initialized" means.
+
 Below are stories and experiences contributed by other users:
 
 > Removed TeX Live from my system (openSUSE): 1.5gb. Installed TinyTeX + the dependencies to compile my thesis: 150mb!!!! This is great!
