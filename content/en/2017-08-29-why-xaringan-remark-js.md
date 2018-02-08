@@ -11,7 +11,7 @@ I started playing with HTML5 slides [in 2011](/en/2012/04/fancy-html5-slides-wit
 
 ## Why I love remark.js
 
-I spent three days during the last Thanksgiving break on developing the prototype of the **xaringan** package. I saw remark.js about a month earlier, and I was so excited that I could not even stop thinking about it at night, but I was busy with **blogdown** at that time, so I waited for a few more weeks until the break. Below are the reasons why I fell love with remark.js almost on the first sight:
+I spent three days during the last Thanksgiving break on developing the prototype of the **xaringan** package. I saw remark.js about a month earlier, and I was so excited that I could not even stop thinking about it at night, but I was busy with **blogdown** at that time, so I waited for a few more weeks until the break. Below are the reasons why I fell in love with remark.js almost on the first sight:
 
 1. Its "Hello World" example is really simple: https://github.com/gnab/remark/wiki. I'm familiar with the web stuff like CSS and JavaScript, so I was able to understand it in less than a minute.
 
