@@ -109,6 +109,16 @@ Below is a list of chunk options in **knitr**. Note the options `background` and
   changing it will not invalidate the cache
 - `strip.white`: (`TRUE`; logical) whether to remove the white lines in the
   beginning or end of a source chunk in the output
+- `render`: (`knitr::knit_print`; `function(x, options, ...)`) 
+   the function which formats the result of the chunk for the final output 
+   format. The function is given the chunk result as first argument and 
+   the list of chunk options as a named argument `options`. If the function
+   contains further arguments which match names of chunk options, they are 
+   filled with the respective values. The function is expected to return 
+   one string which is then rendered appropriately for the current output 
+   format. For more information, invoke the help about custom chunk 
+   rendering: Invoke in R: `vignette('knit_print', package = 'knitr')` 
+   and `?knitr::knit_print`.
 - `class.output`: (NULL; character) useful for HTML output, appends classes that
   can be used in conjunction with css, so you can apply custom formatting.
 
