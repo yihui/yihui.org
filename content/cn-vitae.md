@@ -174,7 +174,7 @@ Email：xie@yihui.name；主页：<https://yihui.name>；现居住于美国内�
 - 谢益辉，2014，_An Introduction to knitr_，桔子郡 R 用户小组，远程报告，加州（[幻灯片](http://slides.yihui.name/2014-OC-RUG-Yihui-Xie.html)）
 - 谢益辉，2014，西雅图 R 用户聚会，_R Markdown v2_，Fred Hutchinson癌症研究中心，西雅图，华盛顿（[幻灯片](http://slides.yihui.name/Seattle-useR-2014-Yihui-Xie.html)）
 - 谢益辉，2013，怎样从你的作业/项目中省下时间去喝啤酒，美国统计协会爱荷华分会聚会（[海报](http://slides.yihui.name/2013-ASA-Iowa-knitr-poster.pdf)）
-- 谢益辉，2013，忍者神织，纽约 R 用户小组，远程报告（[幻灯片](http://bit.ly/18SIMpu)）
+- 谢益辉，2013，忍者神织，纽约 R 用户小组，远程报告（[幻灯片](https://slides.yihui.name/2013-NYCR-knitr-Yihui-Xie.html)）
 - 谢益辉，2013，_A tour through knitr_，Raphael Gottardo 实验室，Fred Hutchinson 癌症研究中心，西雅图，华盛顿（[幻灯片](http://slides.yihui.name/FHCRC-rglab-2013-Yihui-Xie.html)）
 - 谢益辉，2013，_An Introduction to knitr_，Bioconductor 2013，西雅图，华盛顿（[幻灯片](http://slides.yihui.name/BioC-2013-Yihui-Xie.html)，[源文件](http://slides.yihui.name/BioC-2013-Yihui-Xie.Rpres)）
 - 谢益辉，2013，_The Development of R in China, and One Sentence Summaries of My R Projects_，Revolution Analytics，西雅图，华盛顿（[幻灯片](https://bitbucket.org/stat/www/downloads/2013-RevoR-Yihui-Xie.pdf)）

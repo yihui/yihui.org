@@ -244,7 +244,7 @@ Projects participated:
 - Yihui Xie, 2014, _An Introduction to knitr_, a remote talk for the Orange County R User Group ([slides](http://slides.yihui.name/2014-OC-RUG-Yihui-Xie.html))
 - Yihui Xie, 2014, _R Markdown v2_, Seattle R User Meetup, Seattle, WA ([slides](http://slides.yihui.name/Seattle-useR-2014-Yihui-Xie.html))
 - Yihui Xie, 2013, _You Can Save More Time from Homework/Projects/Data Analysis for Beer/Fun/Whatever_, Iowa Chapter of ASA poster session with mixer ([poster](http://slides.yihui.name/2013-ASA-Iowa-knitr-poster.pdf))
-- Yihui Xie, 2013, _knitr for ninja_, a distance talk at the New York R Users Group ([slides](http://bit.ly/18SIMpu))
+- Yihui Xie, 2013, _knitr for ninja_, a distance talk at the New York R Users Group ([slides](https://slides.yihui.name/2013-NYCR-knitr-Yihui-Xie.html))
 - Yihui Xie, 2013, _A tour through knitr_, Raphael Gottardo's research lab, Fred Hutchinson Cancer Research Center, Seattle, WA ([slides](http://slides.yihui.name/FHCRC-rglab-2013-Yihui-Xie.html); [same talk given to the stats group](http://slides.yihui.name/FHCRC-VTN-2013-Yihui-Xie.html))
 - Yihui Xie, 2013, _An Introduction to knitr_, Bioconductor 2013, Seattle, WA ([slides](http://slides.yihui.name/BioC-2013-Yihui-Xie.html), [R Markdown](http://slides.yihui.name/BioC-2013-Yihui-Xie.Rpres))
 - Yihui Xie, 2013, _The Development of R in China, and One Sentence Summaries of My R Projects_, Revolution Analytics, Seattle, WA ([slides](https://bitbucket.org/stat/www/downloads/2013-RevoR-Yihui-Xie.pdf))
