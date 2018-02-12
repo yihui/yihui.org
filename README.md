@@ -7,3 +7,5 @@ git clone --recursive git@github.com:rbind/yihui.git
 ```
 
 The website is built via the R package [**blogdown**](https://github.com/rstudio/blogdown). Please read its documentation for how to use it.
+
+I don't recommend you to study how my website is built, because it is complicated. In particular, the way I manage images is fairly complicated.
