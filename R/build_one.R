@@ -28,9 +28,9 @@ local({
   knitr::knit(a[1], a[2], quiet = TRUE, encoding = 'UTF-8', envir = .GlobalEnv)
   if (file.exists(a[2])) {
     x = blogdown:::append_yaml(
-      blogdown:::readUTF8(a[2]), if (a[3] == 'FALSE') list(from_Rmd = TRUE)
+      xfun::read_utf8(a[2]), if (a[3] == 'FALSE') list(from_Rmd = TRUE)
     )
-    blogdown:::writeUTF8(xaringan:::protect_math(x), a[2])
+    xfun::write_utf8(xaringan:::protect_math(x), a[2])
     Sys.chmod(a[2], '0444')  # read-only (should not edit)
     # keep the animation, and delete all base plots
     r = '[.](gif|mp4)$'
