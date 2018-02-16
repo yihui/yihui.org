@@ -16,3 +16,5 @@ There was a "fireside chat" at [rstudio::conf](https://www.rstudio.com/conferenc
 The above evidence speaks louder than your CV. Everyone can say that he/she is good at R, Python, machine learning, and so on, you name it, in the CV, but you need something more concrete to show your capabilities and curiosities.
 
 I have never been involved with hiring people, but if I do, I'd check if they have personal websites or have written anything nontrivial.
+
+> Update on 2018-02-16: After I read the comments by Rebecca Robare and sleight82 below, I realized that I made a mistake. I think Eduardo's words resonated well with me partly because I would be a good candidate meeting the above criteria (I use GIT every day, I have given numerous talks, and I'm highly self-motivated). In other words, I unconsciously selected to write down things that were good for myself. In conclusion, I think this post was biased, and I'd welcome more managers to share their critiria.
