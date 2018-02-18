@@ -246,3 +246,7 @@ I want to quote Ray Dalio again to finalize this post. I went through a long per
 > "Everyone makes mistakes. The main difference is that successful people learn from them and unsuccessful people don't."
 
 Thanks, Tareef, JJ, and Joe.
+
+---
+
+**Update on 2018-02-17**: After I published this post, I received a lot of feedback in a short period of time, and I truly appreciate all your thoughts, encouragements, and care. I will see if I could summarize them in the future. For now, I just want to clarify it to those who were concerned about my mental health issues: I'm no longer depressed. The years 2016 and 2017 have been fantastic, and I have mostly recovered. Thanks again!
