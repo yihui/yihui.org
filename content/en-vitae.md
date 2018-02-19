@@ -191,6 +191,7 @@ Projects participated:
 
 ## Presentations & Tutorials
 
+- Yihui Xie, 2018, _Creating Websites with R Markdown and blogdown_, a talk at the RStudio Conference 2018, San Diego, CA ([slides](https://bit.ly/2018-blogdown))
 - Yihui Xie, 2017, _An R Markdown Tutorial on bookdown, blogdown, and xaringan_, a 3-hour tutorial in the School of Natural Resources, University of Nebraska-Lincoln ([slides](https://slides.yihui.name/2017-rmarkdown-UNL-Yihui-Xie.html))
 - Yihui Xie, 2017, _Creating A Static Website with blogdown_, a webinar at the Chinese Genomics Meetup ([slides](https://slides.yihui.name/2017-blogdown-CGM-Yihui-Xie.html) in Chinese)
 - Yihui Xie, 2017, _DIY Your Personal Academic Website with blogdown_, a talk in the Department of Statistics, University of Nebraska-Lincoln ([slides](https://slides.yihui.name/2017-blogdown-UNL-Yihui-Xie.html))

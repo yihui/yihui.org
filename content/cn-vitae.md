@@ -121,6 +121,7 @@ Email：xie@yihui.name；主页：<https://yihui.name>；现居住于美国内�
 
 ## 演讲和讲座
 
+- 谢益辉，2018，_Creating Websites with R Markdown and blogdown_，RStudio 大会报告，圣地亚哥，加州（[幻灯片](https://bit.ly/2018-blogdown)）
 - 谢益辉，2017，_An R Markdown Tutorial on bookdown, blogdown, and xaringan_，内布拉斯加大学林肯分校自然资源学院讲座（[幻灯片](https://slides.yihui.name/2017-rmarkdown-UNL-Yihui-Xie.html)）
 - 谢益辉，2017，用 blogdown 搭建一个静态网站（兼吐槽学术出版传统），北美华人基因组学在线沙龙（[幻灯片](https://slides.yihui.name/2017-blogdown-CGM-Yihui-Xie.html)）
 - 谢益辉，2017，_DIY Your Personal Academic Website with blogdown_，内布拉斯加大学林肯分校统计系报告（[幻灯片](https://slides.yihui.name/2017-blogdown-UNL-Yihui-Xie.html)）
