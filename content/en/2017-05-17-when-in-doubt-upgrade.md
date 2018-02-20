@@ -42,3 +42,4 @@ P.S. A list of issues solved simply by updating packages:
 - [DT does not show up in Shiny after last upgrade](https://github.com/rstudio/DT/issues/489)
 - [Blogdown Error: Couldn't Find Function "invalidUTF8"](https://stackoverflow.com/q/48523995/559676)
 - [DT datatable callback function not working after update](https://github.com/rstudio/DT/issues/492)
+- [imgur_upload fails](https://github.com/yihui/knitr/issues/1514)
