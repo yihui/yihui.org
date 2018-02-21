@@ -26,7 +26,7 @@ On this page, I'll let other users share their stories of installing and managin
 
 - Missing LaTeX packages confuse users [forever](https://github.com/rstudio/rmarkdown/issues/359), [forever](https://github.com/rstudio/rmarkdown/issues/1076), and it takes [forever](https://twitter.com/xieyihui/status/763805846807547904) to figure them out and install. [Error messages](https://stackoverflow.com/q/47400936/559676) can also be confusing. Sometimes we just [don't have a clue](https://github.com/rstudio/bookdown/issues/507).
 
-- MiKTeX [might fail](https://github.com/rstudio/bookdown/issues/531) and we don't know what the error message "GUI framework cannot be initialized" means.
+- MiKTeX [might fail](https://github.com/rstudio/bookdown/issues/531) and we don't know what the error message "GUI framework cannot be initialized" means. Sometimes we have [no clue](https://stackoverflow.com/questions/48892499/compile-rmarkdown-document-with-render#comment84801684_48892499) why it doesn't work.
 
 Below are stories and experiences contributed by other users:
 
@@ -67,6 +67,7 @@ Below are stories and experiences contributed by other users:
 <!-- -->
 
 > Many people don't realize that Texlive on some Linux systems (say you need a rstudio server) doesn't come with the TeX package manager. If the package you need is not in their system, you are basically screwed as you can't even install it. TinyTeX solves this problem and makes everything sweet and easy. Also, after using it for more than a month, I found the  messages of tinytex are very helpful, comparing with basically NULL in texlive. 
+
 > --- [Hao Zhu](https://community.rstudio.com/t/texlive-distribution-on-centos-for-rstudio-server-and-connect/2916)
 
 <!-- -->
