@@ -25,7 +25,7 @@ TinyTeX only provides an installation script that downloads and installs TeX Liv
 Installing and maintaining TinyTeX are easy for R users, since [the R package **tinytex**](/tinytex/r/) has provided wrapper functions.^[Note that when we say **tinytex** (lower case), we mean the R package. TinyTeX means the LaTeX distribution.] To install TinyTeX:
 
 ```r
-devtools::install_github(c('yihui/tinytex', 'rstudio/rmarkdown'))
+install.packages(c('tinytex', 'rmarkdown'))
 tinytex::install_tinytex()
 ```
 

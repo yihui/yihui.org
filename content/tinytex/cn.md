@@ -37,7 +37,7 @@ tlmgr_update()              # 更新 TeX Live
 
 ## R Markdown 用户
 
-在不久的将来，**rmarkdown** 包编译 R Markdown 为 PDF 时会调用 **tinytex**，这样一来，R Markdown 用户的 LaTeX 世界应该就安静了：因为对 R Markdown 用户来说，编译 PDF 的头号出错可能就是缺失 LaTeX 包（Pandoc 翻译 Markdown 为 LaTeX 代码时，几乎不太可能产生 LaTeX 语法错误），而可怜的 R 用户哪能明白那错误消息是什么意思。
+**rmarkdown** 包从版本 1.9 开始，编译 R Markdown 为 PDF 时会调用 **tinytex**，这样一来，R Markdown 用户的 LaTeX 世界应该就安静了：因为对 R Markdown 用户来说，编译 PDF 的头号出错可能就是缺失 LaTeX 包（Pandoc 翻译 Markdown 为 LaTeX 代码时，几乎不太可能产生 LaTeX 语法错误），而可怜的 R 用户哪能明白那错误消息是什么意思。
 
 ## 结语
 
