@@ -1,5 +1,5 @@
 ---
-title: '"Bite-Sized" Pull Requests'
+title: '"Bite-sized" Pull Requests'
 date: '2018-02-27'
 slug: bite-sized-pull-requests
 ---
