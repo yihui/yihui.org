@@ -50,6 +50,10 @@ delayedAssign('go', {
 
 You may ask why not define a normal function, like `go = function() { ... }`? I didn't want to type `go()` in my console, because that would look suspicious to the audience whose eyes are really good, and they might know I called a function to do something. If I just type `go`, even if they saw it, I don't think they would so quickly think of delayed assignments in R, and they might think I was trying to print a certain object in R, but didn't see its value for some reason after I press Enter.
 
+**Update on 2018-03-04**: The video of the talk is freely available [on the RStudio website](https://www.rstudio.com/resources/videos/create-and-maintain-websites-with-r-markdown-and-blogdown/).
+
+[![Create and maintain websites with R Markdown and blogdown – RStudio](https://embedwistia-a.akamaihd.net/deliveries/3a89d37534901d8aea63adaa722e644c547345ce.jpg?image_play_button_size=2x&image_crop_resized=960x540&image_play_button=1&image_play_button_color=4287c7e0)](https://www.rstudio.com/resources/videos/create-and-maintain-websites-with-r-markdown-and-blogdown/?wvideo=zvnt290yte)
+
 ## Appendix: Does `yolo: true` work in blogdown?
 
 Brandon Hurr asked me this question [on Twitter](https://twitter.com/bhive01/status/958543255955693574) a couple of days ago. Well, `yolo: true` in the **xaringan** package is essentially the Mustache Karl picture inserted on random slides. I can certainly make it work for **blogdown** (i.e., insert Karl's picture randomly in your blog posts), but I'd prefer not to, since **xaringan** is pretty much a personal package, and **blogdown** is not. I don't wish to push it too far.
