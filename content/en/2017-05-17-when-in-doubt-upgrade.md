@@ -43,3 +43,4 @@ P.S. A list of issues solved simply by updating packages:
 - [Blogdown Error: Couldn't Find Function "invalidUTF8"](https://stackoverflow.com/q/48523995/559676)
 - [DT datatable callback function not working after update](https://github.com/rstudio/DT/issues/492)
 - [imgur_upload fails](https://github.com/yihui/knitr/issues/1514)
+- [Error with RMarkdown: `is_latex_output` is not an exported object from 'namespace:knitr'](https://github.com/rstudio/rmarkdown/issues/1272)
