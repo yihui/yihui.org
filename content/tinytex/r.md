@@ -34,6 +34,16 @@ The three function `pdflatex()`, `xelatex()`, and `lualatex()` are wrapper funct
 
 The implementation is clumsy. Don't read the source code. I may not improve it in the future. I have wasted enough time on LaTeX, and a clumsy implementation should already save me a lot of time. Perfect is the enemy of good.
 
+## Debugging
+
+If an error occurs when compiling a LaTeX to PDF, and the error message is not clear, you may set the option
+
+```r
+options(tinytex.verbose = TRUE)
+```
+
+before you compile the document. If you are using R Markdown and the `Knit` button in RStudio, you should set the option in a code chunk in the R Markdown document.
+
 ## Other LaTeX distributions
 
 The **tinytex** package is not tied to TinyTeX, although (unsurprisingly) it should work best with TinyTeX. Specifically:
