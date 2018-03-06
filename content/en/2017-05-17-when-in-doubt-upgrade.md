@@ -44,3 +44,4 @@ P.S. A list of issues solved simply by updating packages:
 - [DT datatable callback function not working after update](https://github.com/rstudio/DT/issues/492)
 - [imgur_upload fails](https://github.com/yihui/knitr/issues/1514)
 - [Error with RMarkdown: `is_latex_output` is not an exported object from 'namespace:knitr'](https://github.com/rstudio/rmarkdown/issues/1272)
+- [I'm trying to install hugo for the blogdown package but I get a fatal error stating that "R session Aborted, R encountered the fatal error"](https://twitter.com/pprabaka1/status/970841320783835136)
