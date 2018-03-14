@@ -281,7 +281,8 @@ There are two hidden options which are not designed to be set by the users: `fig
   current chunk; this allows us to programmatically insert code into the
   current chunk; e.g. a chunk option `code = capture.output(dump('fivenum',
   ''))` will use the source code of the function `fivenum` to replace the
-  current chunk
+  current chunk; e.g. a chunk option `code = readLines('test.r')` will use
+  the content of the file `test.r` as the current chunk.
 - `ref.label`: (`NULL`; character) a character vector of labels of the
   chunks from which the code of the current chunk is inherited (see the demo
   for [chunk reference](../demo/reference/))
