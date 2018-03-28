@@ -14,7 +14,7 @@ The single piece of advice on writing that influenced me the most was this one:
 
 > ---  C.S. Lewis, Letter to Joan Lancaster, 26 June 1956
 
-Although I have reminded myself several times of this advice, I have to admit that I have failed numerous times to actually follow it. I often exaggerate, and don't consider how readers would feel. Once a **blogdown**^[Perhaps **bookdown**? I don't remember.] user pointed out to me that I often use "just" and "simply" in my writing (e.g., "just do this" / "simply do that"), just like mathematicians often use "obviously" in proofs. These words are not necessary, and could potentially hurt readers: You said "_simply_ do these twelve things and I'll be there?!" How??
+Although I have reminded myself several times of this advice, I have to admit that I have failed numerous times to actually follow it. I often exaggerate, and don't consider how readers would feel. Once a **blogdown**^[Perhaps **bookdown**? I don't remember.] user pointed out to me that I often use "just" and "simply" in my writing (e.g., "just do this" / "simply do that"), just like mathematicians often use "obviously" in proofs. These words are not necessary, and could potentially hurt readers: "You said '_simply_ do these twelve things and I'll be there?!' How??" Sam Tyner's [recent twitter thread](https://twitter.com/sctyner/status/978821060220121088) is an excellent example of how you could unconsciously hurt people by using words like "just" or "should".
 
 The reason I use "just" or "simply" is that I tend to fool myself into thinking my tools are simple to use, and then hopefully fool readers, too, but the fact is that using the word "simply" alone won't making tools simple. Only solid efforts in developing the tools will.
 
