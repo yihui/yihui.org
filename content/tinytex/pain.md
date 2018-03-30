@@ -81,3 +81,9 @@ Below are stories and experiences contributed by other users:
 > If you work in a locked down windows corporate enviroment and spent countless hours with MiKTeX or portable MiKTeX, you'll want to buy @xieyihui lunch.
 
 > --- [Thomas Speidel](https://twitter.com/ThomasSpeidel/status/957856056108920835)
+
+<!-- -->
+
+> Too bad, this computer had a good month of TeX-free.
+
+> --- [Romain François](https://twitter.com/romain_francois/status/979022989634174976)
