@@ -123,6 +123,7 @@ Email：xie@yihui.name；主页：<https://yihui.name>；现居住于美国内�
 
 以下多数幻灯片都是基于 R Markdown 文档输出的 HTML 网页格式（尤其是近年来的幻灯片）；若需要查看 R Markdown 源文档，只需要在浏览器地址栏中将 `.html` 扩展名替换为 `.Rmd` 即可下载相应的 R Markdown 文档。
 
+- 谢益辉，2018，_Easy Dashboards with R Markdown_，奥马哈 R 用户小组报告（[幻灯片](https://bit.ly/2018-dashboard)）
 - 谢益辉，2018，_Creating Websites with R Markdown and blogdown_，RStudio 大会报告，圣地亚哥，加州（[幻灯片](https://bit.ly/2018-blogdown)）
 - 谢益辉，2017，_An R Markdown Tutorial on bookdown, blogdown, and xaringan_，内布拉斯加大学林肯分校自然资源学院讲座（[幻灯片](https://slides.yihui.name/2017-rmarkdown-UNL-Yihui-Xie.html)）
 - 谢益辉，2017，用 blogdown 搭建一个静态网站（兼吐槽学术出版传统），北美华人基因组学在线沙龙（[幻灯片](https://slides.yihui.name/2017-blogdown-CGM-Yihui-Xie.html)）
