@@ -20,4 +20,6 @@ As a procrastinator, I have read a lot of articles and posts on time management 
 
 - Siobhan O'Rorke: [A beginner’s guide to Getting Things Done](https://blog.zenkit.com/a-beginners-guide-to-getting-things-done-3cc1a5123b98)
 
+- Carl Richards: [Resistance Is Futile. To Change Habits, Try Replacement Instead.](https://nyti.ms/2GIo0mb)
+
 To be continued...
