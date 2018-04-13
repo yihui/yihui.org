@@ -10,4 +10,4 @@ One nice thing about the time in China is that the whole country shares the same
 
 In the US, there are four timezones (I'm aware of two more, Alaska and Hawaii), which is enough trouble, as in most other countries. There is an even worse thing: the daylight saving time (which was one of the cultural shocks I had when I first came here).
 
-If I were able to vote, I'd elect a president who promises to cancel DST, or better, timezones and the Fahrenheit scale, or even better, non-UTF8 character encodings! How much time have we wasted on those worthless inconsistencies?
+If I were able to vote, I'd vote for a president who promises to cancel DST, or better, timezones and the Fahrenheit scale, or even better, non-UTF8 character encodings! How much time have we wasted on those worthless inconsistencies?
