@@ -22,4 +22,6 @@ As a procrastinator, I have read a lot of articles and posts on time management 
 
 - Carl Richards: [Resistance Is Futile. To Change Habits, Try Replacement Instead.](https://nyti.ms/2GIo0mb)
 
+- Sam Altman: [Productivity](http://blog.samaltman.com/productivity)
+
 To be continued...
