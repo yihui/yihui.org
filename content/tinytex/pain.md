@@ -87,3 +87,9 @@ Below are stories and experiences contributed by other users:
 > Too bad, this computer had a good month of TeX-free.
 
 > --- [Romain François](https://twitter.com/romain_francois/status/979022989634174976)
+
+<!-- -->
+
+> I'd been avoiding installing LaTeX on my macOS and Windows machines b/c it's always such a hassle. Just learned about about TinyTeX today and easily got setup on both machines.
+
+> --- [John Blischak](https://twitter.com/jdblischak/status/974066342780461056)
