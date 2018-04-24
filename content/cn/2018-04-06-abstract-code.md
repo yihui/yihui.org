@@ -13,8 +13,8 @@ if (isTRUE(config[['rmd_subdir']])) {
     )
 } else if (is.character(config[['rmd_subdir']])) {
   files = list.files(
-    config[['rmd_subdir']], '[.]Rmd$', ignore.case = TRUE, recursive = TRUE,
-    full.names = TRUE
+    config[['rmd_subdir']], '[.]Rmd$', ignore.case = TRUE,
+    recursive = TRUE, full.names = TRUE
   )
 } else {
   files = list.files(
