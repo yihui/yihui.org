@@ -94,6 +94,14 @@ TinyTeX is still a relatively new project, so these are only potential FAQs.
     sudo ~/.TinyTeX/bin/*/tlmgr path add
     ```
 
+    [Some systems](https://github.com/yihui/tinytex/issues/37) may set the permission of `~/.TinyTeX` to `700` by default, which means other users cannot really use TinyTeX (no permission to read, write, or execute anything in this directory). You may consider changing the owner or group of this directory using `chown`, and also granting write permission (plus execute permission on the subdirectory `bin`), e.g.,
+
+    ```sh
+    chown -R root:staff ~/.TinyTeX
+    chmod -R g+w ~/.TinyTeX
+    chmod -R g+wx ~/.TinyTeX/bin
+```
+
     If you want to move `~/.TinyTeX` to a different location, see FAQ 10, and remember to run `tlmgr path add` with `sudo` after you move the folder, to make sure symlinks under `/usr/local/bin` point to the the new paths correctly.
 
 1. **I'm a Linux admin. I used the above approach to install TinyTeX and added symlinks to `/usr/local/bin`. How can my users without root privileges install LaTeX packages by themselves?**
