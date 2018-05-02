@@ -59,6 +59,41 @@ pre .nohighlight {
   max-width: 80px;
 }
 
+@media screen and (max-width: 960px) {
+  body {
+    padding: 10px 0;
+  }
+  .masthead .menu {
+    max-width: inherit;
+  }
+  .masthead h1 {
+    margin-bottom: 10px;
+  }
+  .masthead .menu ul {
+    text-align: center;
+  }
+  .masthead .menu a {
+    display: inline-block;
+    padding: 5px 10px;
+    background: #444;
+    color: #fff;
+    border-radius: 5px;
+  }
+  .masthead .menu .active a {
+    background: none;
+    border: 1px solid #444;
+    color: #000;
+  }
+  .masthead .menu li, .masthead .menu li:first-child {
+    border: none;
+    display: inline-block;
+    margin-top: 5px;
+  }
+  .masthead .menu .menu-extra {
+    display: none;
+  }
+}
+
 @media print {
   del, footer, .masthead {
     display: none;
