@@ -1,6 +1,6 @@
 {{ if and (not .IsHome) .Content }}
 {{ $section := default .Section ($.Scratch.Get "section") }}
-<li class="meu-extra"></li>
+<li class="menu-extra"></li>
 {{ with .Site.Params.githubContentURL }}
 {{ $.Scratch.Set "filePath" $.File.Path }}
 {{ if $.Params.from_Rmd }}
