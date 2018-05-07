@@ -75,6 +75,8 @@ Compare the way to uninstall TinyTeX with the ways to uninstall other LaTeX dist
 
 ### Maintenance
 
+This section is only for those who are _not_ R Markdown users --- everything is automatic for R Markdown users, and you don't need to manually search for or install missing LaTeX packages.
+
 If you compile a LaTeX document and run into an error message like this:
 
 ```
@@ -114,6 +116,13 @@ library(tinytex)
 tlmgr_search('/framed.sty')  # search for framed.sty
 tlmgr_install('framed')      # install the framed package
 tlmgr_update()               # update everything (usually not necessary)
+```
+
+If you see an error message "Remote repository newer than local", it means you need to upgrade (reinstall) TinyTeX:
+
+```r
+devtools::install_github('yihui/tinytex')
+tinytex::reinstall_tinytex()
 ```
 
 That is all for an average user. Read [the FAQ page](/tinytex/faq/) if you wish to know more technical details about TinyTeX.
