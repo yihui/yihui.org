@@ -47,3 +47,4 @@ P.S. A list of issues solved simply by updating packages:
 - [I'm trying to install hugo for the blogdown package but I get a fatal error stating that "R session Aborted, R encountered the fatal error"](https://twitter.com/pprabaka1/status/970841320783835136)
 - [Getting failed to upload file error when reprex contains a plot](https://github.com/tidyverse/reprex/issues/168#issuecomment-367027374)
 - [Allow `fun` in stat_summary_2d to return `data.frame`](https://github.com/tidyverse/ggplot2/issues/2519)
+- [about the code run wrong in xaringan](https://github.com/yihui/xaringan/issues/131)
