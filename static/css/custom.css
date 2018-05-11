@@ -63,6 +63,18 @@ pre .nohighlight {
   body {
     padding: 10px 0;
   }
+  h1, h2, h3, h4, h5, h6 {
+    margin: 2em auto 1.5em auto;
+  }
+  .title h2, .title h3 {
+    margin: 1.5em auto;
+  }
+  .main .title h1 {
+    margin: 1em auto 0 auto;
+  }
+  .title hr {
+    margin: 2em auto;
+  }
   .masthead .menu {
     max-width: inherit;
   }
