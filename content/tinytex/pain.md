@@ -93,3 +93,9 @@ Below are stories and experiences contributed by other users:
 > I'd been avoiding installing LaTeX on my macOS and Windows machines b/c it's always such a hassle. Just learned about about TinyTeX today and easily got setup on both machines.
 
 > --- [John Blischak](https://twitter.com/jdblischak/status/974066342780461056)
+
+<!-- -->
+
+> Like 2 hours later, I'm not sure I want to know, but there *must* be a faster way of updating all my TeX packages than the ftp in TeX Live Utility...
+
+> --- [Mara Averick](https://twitter.com/dataandme/status/994531189217259521)
