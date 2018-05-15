@@ -5,6 +5,10 @@
   body {
     background: #fff;
   }
+  .masthead {
+    position: sticky;
+    top: 0;
+  }
 }
 .menu li:not([class]) a, a:hover, .copyright a {
   border-bottom: none;
