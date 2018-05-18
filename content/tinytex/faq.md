@@ -188,6 +188,24 @@ TinyTeX is still a relatively new project, so these are only potential FAQs.
 
     One TinyTeX user told me he was not aware of the fact that every year he actually installed TeX Live (MacTeX) to a different folder. If it were not for testing TinyTeX, he would never have discovered that he had got 15GB of TeX Live in several folders (like `/usr/local/texlive/2015`, `.../2016`, and `.../2017`, etc.). That confirmed my guess: users often do not know they installed a new version of TeX Live without uninstalling or overriding the installation from the previous year, so this monster just keeps growing every year. Yes, disk space is cheap nowadays, but that does not mean you have to waste it.
 
+1. **How do I upgrade TinyTeX yearly after I had installed it in the previous year? I got a message like "tlmgr: Remote repository is newer than local (2017 < 2018)".**
+
+    You can install TinyTeX again, as the installation script always installs the very latest version. However, the currently installed LaTeX packages will be lost. If you want to reinstall these packages, too, you may use the R function:
+    
+    ```r
+    tinytex::reinstall_tinytex()
+    # if function unavailable, try devtools::install_github('yihui/tinytex')
+    ```
+    
+    If you do not use R, you can retrieve the list of packages and install them later:
+
+    ```sh
+    TL_INSTALLED_PKGS=$(tlmgr info --list --only-installed --data name | sed 's/\..*$//' | uniq | tr '\n' ' ')
+    # Then reinstall TinyTeX using the script on the homepage.
+    # After TinyTeX has been reinstalled, reinstall packages:
+    tlmgr install $TL_INSTALLED_PKGS
+    ```
+
 1. **Which LaTeX packages do I need to use the R package tikzDevice?**
 
     To use the graphical device `tikzDevice::tikz()`, you need at these LaTeX packages:
