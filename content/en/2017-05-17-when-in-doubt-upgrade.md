@@ -48,3 +48,4 @@ P.S. A list of issues solved simply by updating packages:
 - [Getting failed to upload file error when reprex contains a plot](https://github.com/tidyverse/reprex/issues/168#issuecomment-367027374)
 - [Allow `fun` in stat_summary_2d to return `data.frame`](https://github.com/tidyverse/ggplot2/issues/2519)
 - [about the code run wrong in xaringan](https://github.com/yihui/xaringan/issues/131)
+- [Problem rendering PDF on binder](https://github.com/yihui/tinytex/issues/47)
