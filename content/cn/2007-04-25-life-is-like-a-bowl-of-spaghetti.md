@@ -14,6 +14,6 @@ An outline on the training course of EViews needs to be prepared these days. And
 
 I must find some applications of Java, and I wonder whether there're special "libraries" or "packages" for statistics.
 
-I'd better publish the first volume of the electronic journal of [COS](http://www.cos.name) before May 7th.
+I'd better publish the first volume of the electronic journal of [COS](https://cosx.org) before May 7th.
 
 And, I think I have another two reports to write.

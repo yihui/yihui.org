@@ -11,4 +11,4 @@ I'm going to give a talk in the CUEB on some topics in the discipline of statist
 
 If there are any errors in these materials, please tell me (through email `x@y` with `x = xieyihui` & `y = gmail.com` or leave a message here directly). Thanks!
 
-P.S. The time of this talk has been decided now: Nov 1st, 2007. For details please refer to: <http://cos.name/cn/topic/8122>
+P.S. The time of this talk has been decided now: Nov 1st, 2007. For details please refer to: <https://cosx.org/cn/topic/8122>

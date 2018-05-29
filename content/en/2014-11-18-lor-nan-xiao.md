@@ -8,7 +8,7 @@ slug: lor-nan-xiao
 
 > ![](https://db.yihui.name/imgur/kmzQife.gif)
 
-I'm not sure if I'm a good observer, but time and time again I feel some people are undervalued, or they were not given better opportunities to show their value. Not surprisingly, I know quite a few such people in the Chinese R/stats community, mainly because of the website [Capital of Statistics](http://cos.name) (COS) that I founded a number of years ago.
+I'm not sure if I'm a good observer, but time and time again I feel some people are undervalued, or they were not given better opportunities to show their value. Not surprisingly, I know quite a few such people in the Chinese R/stats community, mainly because of the website [Capital of Statistics](https://cosx.org) (COS) that I founded a number of years ago.
 
 I believe Nan Xiao is among these undervalued people, which is why I'm writing a public letter of recommendation for him to apply to a stats/biostats/bioinformatics program in the US. You can go to his website <http://r2s.name> to know more about him, and I'm not going to repeat his information here.
 

@@ -8,7 +8,7 @@ slug: 1st-volume-the-r-journal-and-1st-chinese-r-conference
 
 这次R Journal的面世，在R界是一件重大事情，R News这个刊名确实有点小家山寨，而其内容已经堪比正规统计刊物，所以更名The R Journal是理所当然的。之所以大家全都提到了这件事情我还要写这篇博文是因为：【插播广告：有哪位同学/老师愿意承担整理论文集的任务，请速速与我联系。这个任务包括：催促作者们完善论文（比如我个人的论文至今还没写完）、联系出版社、召集评委、排版等。谢谢！】
 	
-1. 我们[第一届中国R语言会议的会议纪要](http://cos.name/2008/12/1st-chinese-r-conference-summary/)发表在第一期R Journal上了，这是很有历史意义的。尽管当初主编大人说[i suspect this will be a nice article](/cn/2009/03/1st-chinese-r-conference-report/)，后来我也没收到其它邮件，于是应验了no news is good news，发表了。这里要向各位客官交代的是，我们的论文集在我的电脑里扔了半年也没整理，出版社也没再联系，抱歉抱歉。
+1. 我们[第一届中国R语言会议的会议纪要](https://cosx.org/2008/12/1st-chinese-r-conference-summary/)发表在第一期R Journal上了，这是很有历史意义的。尽管当初主编大人说[i suspect this will be a nice article](/cn/2009/03/1st-chinese-r-conference-report/)，后来我也没收到其它邮件，于是应验了no news is good news，发表了。这里要向各位客官交代的是，我们的论文集在我的电脑里扔了半年也没整理，出版社也没再联系，抱歉抱歉。
 
 2. 我在这一期The R Journal上看到一个人：Xuefei Mi。遥想当年[我在多特蒙德参加useR! 2008](/cn/2008/08/germany-trip-3/)的时候，某一天下午散会之后在多特蒙德大学外面等火车，看见一位童鞋，看长相我琢磨着可能是日本人吧，他也瞅瞅我，最终开口了，原来都是中国人……在火车上简单聊了聊，得知他和Torsten Hothorn有某种关系（导师？忘了），如今在R Journal上又看见这位兄台的名字了。这世界是不是很小呢？
 

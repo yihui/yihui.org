@@ -4,7 +4,7 @@ date: '2007-11-06'
 slug: steps-to-write-r-packages
 ---
 
-> 本文已经过期，请参考统计之都上的最新文章：[开发R程序包之忍者篇](http://cos.name/2011/05/write-r-packages-like-a-ninja/)。
+> 本文已经过期，请参考统计之都上的最新文章：[开发R程序包之忍者篇](https://cosx.org/2011/05/write-r-packages-like-a-ninja/)。
 
 这两天在忙着写一个R程序包“`animation`”，因此被迫得学习R包的基本写法，粗略看了看"Writing R Extensions"这本Manual，现提供大致步骤如下：
 
@@ -14,7 +14,7 @@ slug: steps-to-write-r-packages
 4. 包中的函数怎么写我就不说了。写好一系列函数（可能还有数据）之后，用`package.skeleton()`搭好架子，就可以在该文件夹下面开始修改、补充包的详细内容了。（1）DESCRIPTION文件，里面是关于你这个包的基本说明，包括版本、作者、版权、维护者、相关包等，里面需要看文档的可能只是Depends, Imports, Suggests, Enhances等那几项，稍有点费脑子；（2）帮助文档，这个在man文件夹下面，以Rd作为扩展名（R documentation），刚才的`package.skeleton()`函数已经把基本的项目都自动生成好了，我们需要把相应的内容填上，比如函数说明、参数说明、详细说明、返回值、示例、关键词（在R提供的关键词中选择）等。这些文本里面可以用链接\link{}、字体修饰\emph{} \code{}等，具体参见R-exts文档。
 5. 修改好了之后就可以开始编译了；打开一个Command窗口，`cd`到你的包源文件所在的文件夹，比如你的包写在`C:\pkg`这里，那么就`cd C:\`，然后用`R CMD`系列命令，如检查包是否有错误：`R CMD check pkg`；编译包：`R CMD build pkg`（需要编译为binary的话就加上相应选项`--binary`）；安装包：`R CMD install pkg`；如果你的包有任何错误，在check的时候会给出提示。
 
-这样一个R包就基本上完成了，build出来的`*.tar.gz`（或者binary形式的`*.zip`）就可以交给别人使用了（前提是check完全通过）。进一步可以为你的包写vignette，也就是PDF说明文档，类似一篇文章的形式。如果要写vignette的话，最好会用Sweave，这在R-exts中有相应的介绍，总体说来它的大致用途就是把LaTeX文档和R code结合起来，你可以在LaTeX文档中仅仅放R code，不必把code的输出（文本或者图形）事先准备好，Sweave文档在编译的时候会自动执行你的R代码生成相应的输出并插入到LaTeX文档中，这实在是太方便了——动态生成报告。Vignette文档（`*.Rnw`）放在包的`inst/doc`目录下，在build包的时候这个文档会被自动编译生成PDF（实际上是转换给LaTeX编译的），安装包的时候这个文档会被装到doc目录下。关于Sweave的用法也可以参见COS论坛上这篇帖子：<http://cos.name/cn/topic/8434>，momozilla对Emacs、ESS和Sweave比较熟悉，可以向他请教。
+这样一个R包就基本上完成了，build出来的`*.tar.gz`（或者binary形式的`*.zip`）就可以交给别人使用了（前提是check完全通过）。进一步可以为你的包写vignette，也就是PDF说明文档，类似一篇文章的形式。如果要写vignette的话，最好会用Sweave，这在R-exts中有相应的介绍，总体说来它的大致用途就是把LaTeX文档和R code结合起来，你可以在LaTeX文档中仅仅放R code，不必把code的输出（文本或者图形）事先准备好，Sweave文档在编译的时候会自动执行你的R代码生成相应的输出并插入到LaTeX文档中，这实在是太方便了——动态生成报告。Vignette文档（`*.Rnw`）放在包的`inst/doc`目录下，在build包的时候这个文档会被自动编译生成PDF（实际上是转换给LaTeX编译的），安装包的时候这个文档会被装到doc目录下。关于Sweave的用法也可以参见COS论坛上这篇帖子：<https://cosx.org/cn/topic/8434>，momozilla对Emacs、ESS和Sweave比较熟悉，可以向他请教。
 
 编写包的过程中不妨参考一下别人的源文件，看大概是怎么写的。
 

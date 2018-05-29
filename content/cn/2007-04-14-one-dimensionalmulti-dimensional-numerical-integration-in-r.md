@@ -4,7 +4,7 @@ date: '2007-04-14T23:54:37+08:00'
 slug: one-dimensionalmulti-dimensional-numerical-integration-in-r
 ---
 
-More than one members have asked such questions in [COS](http://www.cos.name/), and they can be easily solved by the function integrate (pkg stats) and adapt (pkg adapt). For example:
+More than one members have asked such questions in [COS](https://cosx.org/), and they can be easily solved by the function integrate (pkg stats) and adapt (pkg adapt). For example:
 
 ```r
 > fnorm = function(x) {

@@ -10,5 +10,5 @@ slug: spaces-in-latex-path-names
 
 要是你不笑，咱们见了面估计也就只能谈谈天气了。
 
-这类问题，就像我[前些日子说到的PATH问题](http://cos.name/2011/05/write-r-packages-like-a-ninja/)一样，提出来只想让人像李大嘴一样，垫着枕头撞柱子，一边撞一边念叨：空格！空格！空格！空格！……蕙兰！……
+这类问题，就像我[前些日子说到的PATH问题](https://cosx.org/2011/05/write-r-packages-like-a-ninja/)一样，提出来只想让人像李大嘴一样，垫着枕头撞柱子，一边撞一边念叨：空格！空格！空格！空格！……蕙兰！……
 

@@ -4,7 +4,7 @@ date: '2009-06-12'
 slug: simulation-of-burning-fire-in-r
 ---
 
-Linlin Yan posted [a cool (hot?) simulation of burning fire](http://cos.name/en/topic/the-first-r-code-here) with R in the [COS forum](http://cos.name/en/) yesterday, which was indeed a _warm_ welcome. I'm not sure whether our forum members will be scared by the "fire" under the title "Welcome to COS Forum". The fire was mainly created by the function `image()` with carefully designed rows and columns in heated colors `heat.colors()`. Here is one of the pictures generated from his code:
+Linlin Yan posted [a cool (hot?) simulation of burning fire](https://cosx.org/en/topic/the-first-r-code-here) with R in the [COS forum](https://cosx.org/en/) yesterday, which was indeed a _warm_ welcome. I'm not sure whether our forum members will be scared by the "fire" under the title "Welcome to COS Forum". The fire was mainly created by the function `image()` with carefully designed rows and columns in heated colors `heat.colors()`. Here is one of the pictures generated from his code:
 
 ![Simulation of Burning Fire in R](https://db.yihui.name/imgur/A0hAC.png)
 
@@ -23,5 +23,5 @@ Now the animation is much more smooth than what we saw in R graphics window.
 
 Thanks, awesome Linlin.
 
-> For those who are not familiar with the website [Capital of Statistics](http://cos.name/) (COS), I'd like to give a brief introduction here: this website was built 3 years ago by me and it was originally a Chinese website for discussion in statistics, but later I thought a place for English-speaking visitors was also necessary, so an English forum was constructed: <http://cos.name/en/>. Please feel free to join us if you are interested.
+> For those who are not familiar with the website [Capital of Statistics](https://cosx.org/) (COS), I'd like to give a brief introduction here: this website was built 3 years ago by me and it was originally a Chinese website for discussion in statistics, but later I thought a place for English-speaking visitors was also necessary, so an English forum was constructed: <https://cosx.org/en/>. Please feel free to join us if you are interested.
 

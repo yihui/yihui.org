@@ -59,7 +59,7 @@ Email：xie@yihui.name；主页：<https://yihui.name>；现居住于美国内�
 
 #### 建设网站
 
-- 统计学讨论与研究网站“统计之都”：<http://cos.name>
+- 统计学讨论与研究网站“统计之都”：<https://cosx.org>
 - R Views 博客技术支持：<http://rviews.rstudio.com>
 - 中国人民大学统计学院网站：<http://stat.ruc.edu.cn>
 - 教育部重点研究基地，应用统计科学研究中心：<http://www.applstats.org>
@@ -75,12 +75,12 @@ Email：xie@yihui.name；主页：<https://yihui.name>；现居住于美国内�
 
 2005 年 2 月至今曾主办过以下会议：
 
-- [第一届中国R语言会议](http://cos.name/2008/12/1st-chinese-r-conference-summary/)，2008 年 12 月 13 日 ~ 14 日
+- [第一届中国R语言会议](https://cosx.org/2008/12/1st-chinese-r-conference-summary/)，2008 年 12 月 13 日 ~ 14 日
 
 协助组织过如下会议：
 
-- [第三届中国R语言会议（北京）](http://cos.name/chinar/chinar-2010/)，2010 年 6 月 14 日 ~ 15 日
-- [第二届中国R语言会议（北京）](http://cos.name/chinar/chinar-2009/)，2009 年 12 月 5 日 ~ 6 日
+- [第三届中国R语言会议（北京）](https://cosx.org/chinar/chinar-2010/)，2010 年 6 月 14 日 ~ 15 日
+- [第二届中国R语言会议（北京）](https://cosx.org/chinar/chinar-2009/)，2009 年 12 月 5 日 ~ 6 日
 - [第二届“创新推动经济发展的微观实证”国际学术研讨会](http://stat.ruc.edu.cn/cn/54222.html)，2008 年 4 月 21 日 ~ 23 日
 - [第 2 届“计量模型与中国·澳大利亚自由贸易区发展国际研讨会”](http://www.applstats.org/news/detail.asp?id=21)，2006 年 4 月 18 日 ~ 19 日
 - [第 15 届投入产出国际会议](http://www.applstats.org/io/index.htm)，2005 年 6 月 27 日 ~ 7 月 1 日
@@ -215,7 +215,7 @@ Email：xie@yihui.name；主页：<https://yihui.name>；现居住于美国内�
 - 谢益辉，2009，_R in Stat500: Demonstration, Computing, and Graphics (with An Introduction to the R Package ISU.Stat500)_，RTG 讲座，爱荷华州立大学 （[幻灯片](https://github.com/downloads/yihui/yihui.github.com/ISU-Stat500-2009-Yihui-Xie.pdf)）
 - 谢益辉，2009，_Turning Statistical Ideas into Animations_，VIGRE统计图形讲座，爱荷华州立大学（[幻灯片](https://github.com/downloads/yihui/yihui.github.com/animation-2009-Yihui-Xie.pdf)；[R 代码](https://github.com/downloads/yihui/yihui.github.com/animation-2009-Yihui-Xie.tar.gz)）
 - 谢益辉，2009，可重复的科学研究与 Sweave 的应用，统计 08 博士班报告（[幻灯片](https://github.com/downloads/yihui/yihui.github.com/Sweave-2008-Yihui-Xie.pdf)）
-- [谢益辉](https://db.yihui.name/imgur/SDtSv.jpg)，2008，（1）R 语言的历史背景、发展历程及现状（[幻灯片](https://github.com/downloads/yihui/yihui.github.com/R-History-2008-Yihui-Xie.ppt)）（2）统计动画程序包 animation 介绍及其在教学和数据分析中的应用（[幻灯片](https://github.com/downloads/yihui/yihui.github.com/ChinaR-animations-2008-Yihui-Xie.ppt)）（3）无处不在的数据及 R 的探索方法（[幻灯片](https://github.com/downloads/yihui/yihui.github.com/Irregular-Data-2008-Yihui-Xie.ppt)，[R代码](https://gist.github.com/1756790#file_china_r_conference_intro_2008_yihui_xie.r)），[第 1 届中国R语言会议](http://cos.name/2008/12/1st-chinese-r-conference-summary/)，北京，2008 年 12 月 13 日 ~ 14 日（[会议介绍](https://github.com/downloads/yihui/yihui.github.com/ChinaR-Conference-Intro-2008-Yihui-Xie.pdf)，[R 代码](https://gist.github.com/1756790#file_irregular_data_2008_yihui_xie.r)）
+- [谢益辉](https://db.yihui.name/imgur/SDtSv.jpg)，2008，（1）R 语言的历史背景、发展历程及现状（[幻灯片](https://github.com/downloads/yihui/yihui.github.com/R-History-2008-Yihui-Xie.ppt)）（2）统计动画程序包 animation 介绍及其在教学和数据分析中的应用（[幻灯片](https://github.com/downloads/yihui/yihui.github.com/ChinaR-animations-2008-Yihui-Xie.ppt)）（3）无处不在的数据及 R 的探索方法（[幻灯片](https://github.com/downloads/yihui/yihui.github.com/Irregular-Data-2008-Yihui-Xie.ppt)，[R代码](https://gist.github.com/1756790#file_china_r_conference_intro_2008_yihui_xie.r)），[第 1 届中国R语言会议](https://cosx.org/2008/12/1st-chinese-r-conference-summary/)，北京，2008 年 12 月 13 日 ~ 14 日（[会议介绍](https://github.com/downloads/yihui/yihui.github.com/ChinaR-Conference-Intro-2008-Yihui-Xie.pdf)，[R 代码](https://gist.github.com/1756790#file_irregular_data_2008_yihui_xie.r)）
 - [谢益辉](https://db.yihui.name/imgur/4PXVg.jpg)，2008，R 语言基础，中国科学院植物研究所和中国科学院生物多样性委员会“生物统计和生物多样性数据分析培训班”系列课程（[幻灯片1](https://github.com/downloads/yihui/yihui.github.com/CAS-R-tutorial1-2008-Yihui-Xie.pdf)；[幻灯片2](https://github.com/downloads/yihui/yihui.github.com/CAS-R-tutorial2-2008-Yihui-Xie.pdf)；[幻灯片3](https://github.com/downloads/yihui/yihui.github.com/CAS-R-tutorial3-2008-Yihui-Xie.pdf)；[幻灯片4](https://github.com/downloads/yihui/yihui.github.com/CAS-R-tutorial4-2008-Yihui-Xie.pdf)）
 - 谢益辉，2008，_See? (escaping the math world via animations...)_，中国人民大学统计学院演讲（[幻灯片](https://github.com/downloads/yihui/yihui.github.com/animation-RUC-2008-Yihui-Xie.pps)）
 - [谢益辉](https://db.yihui.name/imgur/Kujko.jpg)，2008，_Statistical Animations Using R_，德国多特蒙德大学 [useR! 2008](http://www.statistik.uni-dortmund.de/useR-2008/) 会议（[摘要](http://www.statistik.uni-dortmund.de/useR-2008/abstracts/Xie.pdf)；[PPT](https://github.com/downloads/yihui/yihui.github.com/animation-useR-2008-Yihui-Xie.ppt)；[PDF 幻灯片](http://www.statistik.uni-dortmund.de/useR-2008/slides/Xie.pdf)）
@@ -289,7 +289,7 @@ Email：xie@yihui.name；主页：<https://yihui.name>；现居住于美国内�
 
 ### 网络文章
 
-统计之都文章参见[这里](http://cos.name/author/yihui/)。
+统计之都文章参见[这里](https://cosx.org/author/yihui/)。
 
 ## 软件包
 

@@ -43,7 +43,7 @@ Reproducible research; statistical computing; statistical graphics; data visuali
 - Excellent graduate scholarship, Renmin University of China, 2007
 - Successful Participant, Mathematical Contest in Modeling (America), 2006 ([paper](https://github.com/downloads/yihui/yihui.github.com/MCM-2006-paper-Yihui-Xie.pdf); [certificate](https://db.yihui.name/imgur/c3soC.jpg "Certificate of Mathematical Contest in Modelling (America)"))
 - Excellent graduate of Renmin University of China, 2006
-- "Excellent Worker in Student Media" of Renmin University of China, 2006 (for hosting the website of statistics discussions in <http://cos.name>)
+- "Excellent Worker in Student Media" of Renmin University of China, 2006 (for hosting the website of statistics discussions in <https://cosx.org>)
 - Scholarship for outstanding learning, Renmin University of China, 2005
 
 ## Publications
@@ -118,7 +118,7 @@ I created and maintained web pages for:
 
 I founded and have been maintaining:
 
-- "[Capital of Statistics](http://cos.name)", a popular online community for statistics in China (May 2006 - present)
+- "[Capital of Statistics](https://cosx.org)", a popular online community for statistics in China (May 2006 - present)
 
 I worked in these web studios:
 
@@ -136,12 +136,12 @@ Feb 2005 - Present
 
 I initiated the Chinese R conference in 2008, and organized
 
-- the 1st Chinese R [conference](http://cos.name/2008/12/1st-chinese-r-conference-summary/) (in Beijing), Dec 13~14, 2008
+- the 1st Chinese R [conference](https://cosx.org/2008/12/1st-chinese-r-conference-summary/) (in Beijing), Dec 13~14, 2008
 
 I helped organize these conferences:
 
-- the 3rd Chinese R [conference](http://cos.name/chinar/chinar-2010/) (Beijing), Jun 12~13, 2010
-- the 2nd Chinese R [conference](http://cos.name/chinar/chinar-2009/) (Beijing & Shanghai), December 2009
+- the 3rd Chinese R [conference](https://cosx.org/chinar/chinar-2010/) (Beijing), Jun 12~13, 2010
+- the 2nd Chinese R [conference](https://cosx.org/chinar/chinar-2009/) (Beijing & Shanghai), December 2009
 - Second [Conference](http://www.merit.unu.edu/MEIDE/) on Micro Evidence on Innovation in Developing Economies, April 22 ~ 23, 2008 (an international conference; I was also the Chair for the last session on April 22)
 - the 2nd [Conference](http://www.applstats.org/english/io/index.htm) on Australia-China Free Trade Agreement (ACFTA): Econometric Modeling and Policy in Trade, Investment and Economic Integration, April 17th ~ 18th, 2006
 - the 15th International [Conference](http://stat.ruc.edu.cn/en/21940.html) on Input-Output Techniques, June 27th ~ July 1st, 2005
@@ -152,7 +152,7 @@ I helped organize these conferences:
 
 May 2005 - Present
 
-I offer statistical consulting by email and I have been answering questions in the [Capital of Statistics](http://cos.name/cn/) almost every day. I'm particularly interested in these topics:
+I offer statistical consulting by email and I have been answering questions in the [Capital of Statistics](https://cosx.org/cn/) almost every day. I'm particularly interested in these topics:
 
 - data analysis and visualization
 - theoretical problems without measure theory
@@ -284,7 +284,7 @@ Most of my slides were generated from R Markdown (especially the ones in recent 
 - Yihui Xie, 2009, _R in Stat500: Demonstration, Computing, and Graphics (with An Introduction to the R Package ISU.Stat500)_, RTG Seminar, Department of Statistics, ISU ([slides](https://github.com/downloads/yihui/yihui.github.com/ISU-Stat500-2009-Yihui-Xie.pdf))
 - Yihui Xie, 2009, _Turning Statistical Ideas into Animations_, VIGRE Graphics Seminar, Department of Statistics, ISU ([slides](https://github.com/downloads/yihui/yihui.github.com/animation-2009-Yihui-Xie.pdf); [R code](https://github.com/downloads/yihui/yihui.github.com/animation-2009-Yihui-Xie.tar.gz))
 - Yihui Xie, 2009, _Reproducible Research and An Introduction to LaTeX, R and Sweave_, a report for PhD students in the School of Statistics, RUC ([slides in Chinese](https://github.com/downloads/yihui/yihui.github.com/Sweave-2008-Yihui-Xie.pdf))
-- [Yihui Xie](https://db.yihui.name/imgur/SDtSv.jpg), 2008, (1) _The History of R Language and Current Developments_ ([slides](https://github.com/downloads/yihui/yihui.github.com/R-History-2008-Yihui-Xie.ppt)) (2) _animation: An R Package for Statistical Animations with Applications in Teaching and Data Analysis_ ([slides](https://github.com/downloads/yihui/yihui.github.com/ChinaR-animations-2008-Yihui-Xie.ppt)) (3) _Explore Irregular Data with R_ ([slides](https://github.com/downloads/yihui/yihui.github.com/Irregular-Data-2008-Yihui-Xie.ppt), [R code](https://gist.github.com/1756790#file_china_r_conference_intro_2008_yihui_xie.r)), [the 1st Chinese R Conference](http://cos.name/2008/12/1st-chinese-r-conference-summary/), Beijing, 2008.12.13~14 ([introduction to the conference](https://github.com/downloads/yihui/yihui.github.com/ChinaR-Conference-Intro-2008-Yihui-Xie.pdf), [R code](https://gist.github.com/1756790#file_irregular_data_2008_yihui_xie.r))
+- [Yihui Xie](https://db.yihui.name/imgur/SDtSv.jpg), 2008, (1) _The History of R Language and Current Developments_ ([slides](https://github.com/downloads/yihui/yihui.github.com/R-History-2008-Yihui-Xie.ppt)) (2) _animation: An R Package for Statistical Animations with Applications in Teaching and Data Analysis_ ([slides](https://github.com/downloads/yihui/yihui.github.com/ChinaR-animations-2008-Yihui-Xie.ppt)) (3) _Explore Irregular Data with R_ ([slides](https://github.com/downloads/yihui/yihui.github.com/Irregular-Data-2008-Yihui-Xie.ppt), [R code](https://gist.github.com/1756790#file_china_r_conference_intro_2008_yihui_xie.r)), [the 1st Chinese R Conference](https://cosx.org/2008/12/1st-chinese-r-conference-summary/), Beijing, 2008.12.13~14 ([introduction to the conference](https://github.com/downloads/yihui/yihui.github.com/ChinaR-Conference-Intro-2008-Yihui-Xie.pdf), [R code](https://gist.github.com/1756790#file_irregular_data_2008_yihui_xie.r))
 - [Yihui Xie](https://db.yihui.name/imgur/4PXVg.jpg), 2008, _Tutorial Lectures on R Basics_, a four-day tutorial lecture series given at the Institute of Botany, Chinese Academy of Sciences (slides in Chinese: [1](https://github.com/downloads/yihui/yihui.github.com/CAS-R-tutorial1-2008-Yihui-Xie.pdf), [2](https://github.com/downloads/yihui/yihui.github.com/CAS-R-tutorial2-2008-Yihui-Xie.pdf), [3](https://github.com/downloads/yihui/yihui.github.com/CAS-R-tutorial3-2008-Yihui-Xie.pdf), [4](https://github.com/downloads/yihui/yihui.github.com/CAS-R-tutorial4-2008-Yihui-Xie.pdf))
 - Yihui Xie, 2008, _See? (escaping the math world via animations...)_, a talk in the School of Statistics, Renmin University of China ([slides](https://github.com/downloads/yihui/yihui.github.com/animation-RUC-2008-Yihui-Xie.pps))
 - [Yihui Xie](https://db.yihui.name/imgur/Kujko.jpg), 2008, _Statistical Animations Using R_, [useR! 2008](http://www.statistik.uni-dortmund.de/useR-2008/) in Dortmund ([abstract](http://www.statistik.uni-dortmund.de/useR-2008/abstracts/Xie.pdf); [slides](https://github.com/downloads/yihui/yihui.github.com/animation-useR-2008-Yihui-Xie.ppt); [slides in PDF](http://www.statistik.uni-dortmund.de/useR-2008/slides/Xie.pdf))

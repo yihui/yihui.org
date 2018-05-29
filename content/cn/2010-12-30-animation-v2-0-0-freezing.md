@@ -18,6 +18,6 @@ rgl的3D动画也可以被轻松抓进来了，参见`demo('rgl_animation')`。�
 
 又及：你看日本动画片多么懂得融合中国传统文化。
 
-再及：[COS论坛上这个帖子](http://cos.name/cn/topic/103299)应该载入史册。
+再及：[COS论坛上这个帖子](https://cosx.org/cn/topic/103299)应该载入史册。
 
 再再及：早上我在R-help里问CRAN的管理员是不是度假去了，Uwe说，“Yes, sometimes even Kurt is out of office.” Peter看到了说，嗯，这句话应该载入史册（即[fortunes](http://cran.r-project.org/web/packages/fortunes/index.html)包）。

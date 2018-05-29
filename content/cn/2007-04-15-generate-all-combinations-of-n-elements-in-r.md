@@ -4,7 +4,7 @@ date: '2007-04-16T00:45:38+08:00'
 slug: generate-all-combinations-of-n-elements-in-r
 ---
 
-Yesterday a member of [COS](http://www.cos.name/) asked how to generate all the elements of {_all sets consisting of arbitrary combinations of n elements_} in R and I didn't know the function _combn() _then, so after a while I constructed a simple loop to fulfill this function (later I found this was wrong because it didn't enumerate all possible combinations!):
+Yesterday a member of [COS](https://cosx.org/) asked how to generate all the elements of {_all sets consisting of arbitrary combinations of n elements_} in R and I didn't know the function _combn() _then, so after a while I constructed a simple loop to fulfill this function (later I found this was wrong because it didn't enumerate all possible combinations!):
 
 ```r
 > x = 1:5    # as an example, you may change this vector

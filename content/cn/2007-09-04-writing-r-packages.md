@@ -4,7 +4,7 @@ date: '2007-09-04'
 slug: writing-r-packages
 ---
 
-> 本文已经过期，请参考统计之都上的最新文章：[开发R程序包之忍者篇](http://cos.name/2011/05/write-r-packages-like-a-ninja/)。
+> 本文已经过期，请参考统计之都上的最新文章：[开发R程序包之忍者篇](https://cosx.org/2011/05/write-r-packages-like-a-ninja/)。
 
 若只想要一个粗略的包，其实也很简单，R 的 **utils** 包中提供了一个 `package.skeleton()` 函数，用它基本上就足够了。
 

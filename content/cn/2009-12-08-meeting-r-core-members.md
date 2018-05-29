@@ -8,7 +8,7 @@ slug: meeting-r-core-members
 
 然后是我发现Duncan Temple Lang这位不靠谱的大叔做着一些我很喜欢的不靠谱的事情，于是乎对Omegahat心向往之，一来二去聊了聊，将来有机会一定要会一会他。
 
-Sweave对注释的处理是要么完全去除，然后R代码会被整理整齐，要么完全保留，但R代码也保留原样，而我一直希望既能保留注释又能整理代码，这才诞生了`animation`包中`tidy.source()`函数（[在小邱聪明的技巧下](http://cos.name/bbs/read.php?tid=14056)），前段时间想想给Friedrich Leisch，也就是Sweave的作者，发封邮件说了这个事情，打探一下是否能多设置一些Sweave选项，比如把`parse()`和`deparse()`函数以选项的形式抽象出来，这样就可以实现既整理代码又保留注释的功能了，不过大叔貌似很忙，回了一封邮件就再也没有音信了，后来由于Michael Friendly对Sweave的一些功能请求在R-help上发了邮件，我们一干人等通过Duncan Murdoch间接了解到Friedrich的确很忙，不过好消息是圣诞节过后Sweave可能会有更新，届时用户可以自行设置图形设备，不必局限在PDF和EPS。但整理代码的事情仍然遥遥无期……唉，还得用硬性Hack的方法。
+Sweave对注释的处理是要么完全去除，然后R代码会被整理整齐，要么完全保留，但R代码也保留原样，而我一直希望既能保留注释又能整理代码，这才诞生了`animation`包中`tidy.source()`函数（[在小邱聪明的技巧下](https://cosx.org/bbs/read.php?tid=14056)），前段时间想想给Friedrich Leisch，也就是Sweave的作者，发封邮件说了这个事情，打探一下是否能多设置一些Sweave选项，比如把`parse()`和`deparse()`函数以选项的形式抽象出来，这样就可以实现既整理代码又保留注释的功能了，不过大叔貌似很忙，回了一封邮件就再也没有音信了，后来由于Michael Friendly对Sweave的一些功能请求在R-help上发了邮件，我们一干人等通过Duncan Murdoch间接了解到Friedrich的确很忙，不过好消息是圣诞节过后Sweave可能会有更新，届时用户可以自行设置图形设备，不必局限在PDF和EPS。但整理代码的事情仍然遥遥无期……唉，还得用硬性Hack的方法。
 
 Martin Maechler前面提过，看到我们开R会，说要向The R Journal交报告啊，回头再跟他谈谈明年R会议的事情。
 

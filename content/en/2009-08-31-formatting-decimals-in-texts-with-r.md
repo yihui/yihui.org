@@ -4,7 +4,7 @@ date: '2009-08-31'
 slug: formatting-decimals-in-texts-with-r
 ---
 
-Yanping Chen raised a question in the [Chinese COS forum](http://cos.name/cn/topic/16247) on the output of Eviews: how to (re)format the decimal coefficients in equations as text output? For example, we want to round the numbers in `CC = 16.5547557654 + 0.0173022117998*PP + 0.216234040485 * PP(-1) + 0.810182697599 * (WP + WG)` to the 3rd decimal places. This can be simply done by regular expressions, as decimals always begin with a period (`.`). The basic steps are:
+Yanping Chen raised a question in the [Chinese COS forum](https://cosx.org/cn/topic/16247) on the output of Eviews: how to (re)format the decimal coefficients in equations as text output? For example, we want to round the numbers in `CC = 16.5547557654 + 0.0173022117998*PP + 0.216234040485 * PP(-1) + 0.810182697599 * (WP + WG)` to the 3rd decimal places. This can be simply done by regular expressions, as decimals always begin with a period (`.`). The basic steps are:
 
 1. find out where are the decimals in the character string;
 2. format them;

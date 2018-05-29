@@ -32,7 +32,7 @@ demo('RealTurtle', package = 'fun')
 
 Although these topics are not new, they can still be good programming exercises.
 
-We started writing this package more than two years ago, but it was almost forgotten later until a few days ago someone mentioned the game "Five in a row" in [our web forum](http://cos.name/cn/). This forum is almost the Chinese version of R-help, and it is not unusual for people to bring forward all kinds of funny ideas with R. If you are at useR! 2011 right now, you probably have heard from George Zhang [about the Chinese R conferences](http://www.warwick.ac.uk/statsdept/useR-2011/schedule/LIGHTNING.HTML) these years, and this forum has been the sponsor and organizer ever since the first conference (which I initiated). However, please do not get a wrong impression that Chinese useRs are doing mine sweepers with R every day.
+We started writing this package more than two years ago, but it was almost forgotten later until a few days ago someone mentioned the game "Five in a row" in [our web forum](https://cosx.org/cn/). This forum is almost the Chinese version of R-help, and it is not unusual for people to bring forward all kinds of funny ideas with R. If you are at useR! 2011 right now, you probably have heard from George Zhang [about the Chinese R conferences](http://www.warwick.ac.uk/statsdept/useR-2011/schedule/LIGHTNING.HTML) these years, and this forum has been the sponsor and organizer ever since the first conference (which I initiated). However, please do not get a wrong impression that Chinese useRs are doing mine sweepers with R every day.
 
 Feel free to share with us if you have more fun. The developers' page is at: <https://github.com/yihui/fun>
 
