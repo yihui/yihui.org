@@ -49,3 +49,4 @@ P.S. A list of issues solved simply by updating packages:
 - [Allow `fun` in stat_summary_2d to return `data.frame`](https://github.com/tidyverse/ggplot2/issues/2519)
 - [about the code run wrong in xaringan](https://github.com/yihui/xaringan/issues/131)
 - [Problem rendering PDF on binder](https://github.com/yihui/tinytex/issues/47)
+- [Invalid arguments when building PDF output with Pandoc2](https://github.com/rstudio/bookdown/issues/587)
