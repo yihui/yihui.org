@@ -1,5 +1,5 @@
 ---
-title: The Best Experience of Remote Talks that I Have Given
+title: The Best Experience in Remote Talks that I Have Given
 date: '2018-06-12'
 slug: best-remote-talk
 ---
