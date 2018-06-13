@@ -123,6 +123,7 @@ Email：xie@yihui.name；主页：<https://yihui.name>；现居住于美国内�
 
 以下多数幻灯片都是基于 R Markdown 文档输出的 HTML 网页格式（尤其是近年来的幻灯片）；若需要查看 R Markdown 源文档，只需要在浏览器地址栏中将 `.html` 扩展名替换为 `.Rmd` 即可下载相应的 R Markdown 文档。
 
+- 谢益辉，2018，_Some Lesser Known Features of knitr_，瑞典 RaukR 暑期学校远程报告（[幻灯片](https://bit.ly/2018-raukr)）
 - 谢益辉，2018，_Easy Dashboards with R Markdown_，奥马哈 R 用户小组报告（[幻灯片](https://bit.ly/2018-dashboard)）
 - 谢益辉，2018，_Creating Websites with R Markdown and blogdown_，RStudio 大会报告，圣地亚哥，加州（[幻灯片](https://bit.ly/2018-blogdown)）
 - 谢益辉，2017，_An R Markdown Tutorial on bookdown, blogdown, and xaringan_，内布拉斯加大学林肯分校自然资源学院讲座（[幻灯片](https://slides.yihui.name/2017-rmarkdown-UNL-Yihui-Xie.html)）
@@ -256,8 +257,9 @@ Email：xie@yihui.name；主页：<https://yihui.name>；现居住于美国内�
 
 ### 书籍
 
-1. Yihui Xie (2017). [_blogdown: Creating Websites with R Markdown_](https://bookdown.org/yihui/blogdown). [Chapman & Hall/CRC](https://www.crcpress.com/p/book/9780815363729). ISBN 978-0815363729.
-1. Yihui Xie (2016). [_bookdown: Authoring Books and Technical Documents with R Markdown_](https://bookdown.org/yihui/bookdown). Chapman and Hall/CRC. ISBN 978-1138700109
+1. Yihui Xie, J. J. Allaire, Garrett Grolemund (2018). [_R Markdown: The Definitive Guide_](https://bookdown.org/yihui/rmarkdown). Chapman & Hall/[CRC](https://www.crcpress.com/p/book/9781138359338). ISBN 9781138359338.
+1. Yihui Xie, Amber Thomas, Alison Presmanes Hill (2017). [_blogdown: Creating Websites with R Markdown_](https://bookdown.org/yihui/blogdown). [Chapman & Hall/CRC](https://www.crcpress.com/p/book/9780815363729). ISBN 9780815363729.
+1. Yihui Xie (2016). [_bookdown: Authoring Books and Technical Documents with R Markdown_](https://bookdown.org/yihui/bookdown). Chapman and Hall/CRC. ISBN 9781138700109.
 1. Yihui Xie (2015). [_Dynamic Documents with R and knitr_](http://www.crcpress.com/product/isbn/9781498716963). 2nd edition. Chapman and Hall/CRC. ISBN 978-1498716963
 1. Yihui Xie (2014) knitr: [_A Comprehensive Tool for Reproducible Research in R_](http://www.crcpress.com/product/isbn/9781466561595). In Victoria Stodden, Friedrich Leisch and Roger D. Peng, editors, Implementing Reproducible Computational Research. Chapman and Hall/CRC. ISBN 978-1466561595
 1. Yihui Xie (2013) [_Dynamic Documents with R and knitr_](http://www.crcpress.com/product/isbn/9781482203530). Chapman and Hall/CRC. ISBN 978-1482203530

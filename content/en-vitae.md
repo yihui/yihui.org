@@ -18,7 +18,7 @@ Email: xie@yihui.name; Homepage: <https://yihui.name>; Twitter [@xieyihui](https
 
 ## Brief Biography
 
-Yihui Xie is a software engineer at [RStudio](https://www.rstudio.com). He earned his PhD from the Department of Statistics, Iowa State University. He is interested in interactive statistical graphics and statistical computing. As an active R user, he has authored several R packages, such as **knitr**, **bookdown**, **blogdown**, **xaringan**, **animation**, **DT**, **tinytex**, **tufte**, **formatR**, **fun**, **mime**, **highr**, **servr**, and **Rd2roxygen**, among which the **animation** package won the 2009 John M. Chambers Statistical Software Award (ASA). He also co-authored a few other R packages, including **shiny**, **rmarkdown**, and **leaflet**. He has published a number of books, including "Dynamic Documents with R and knitr", and "bookdown: Authoring Books and Technical Documents with R Markdown".
+Yihui Xie is a software engineer at [RStudio](https://www.rstudio.com). He earned his PhD from the Department of Statistics, Iowa State University. He is interested in interactive statistical graphics and statistical computing. As an active R user, he has authored several R packages, such as **knitr**, **bookdown**, **blogdown**, **xaringan**, **animation**, **DT**, **tinytex**, **tufte**, **formatR**, **fun**, **mime**, **highr**, **servr**, and **Rd2roxygen**, among which the **animation** package won the 2009 John M. Chambers Statistical Software Award (ASA). He also co-authored a few other R packages, including **shiny**, **rmarkdown**, and **leaflet**. He has published a number of books, including "Dynamic Documents with R and knitr", "bookdown: Authoring Books and Technical Documents with R Markdown", "blogdown: Creating Websites with R Markdown", and "R Markdown: The Definitive Guide".
 
 In 2006, he founded the Capital of Statistics (<https://cosx.org>), which has grown into a large online community on statistics in China. He initiated the Chinese R conference in 2008, and has been involved in organizing R conferences in China since then. During his PhD training at Iowa State University, he won the Vince Sposito Statistical Computing Award (2011) and the Snedecor Award (2012) in the Department of Statistics.
 
@@ -54,8 +54,9 @@ See my [Google Scholar page](https://scholar.google.com/citations?user=lkjqsd4AA
 
 Books and book chapters:
 
-1. Yihui Xie (2017). [_blogdown: Creating Websites with R Markdown_](https://bookdown.org/yihui/blogdown). Chapman & Hall/[CRC](https://www.crcpress.com/p/book/9780815363729). ISBN 978-0815363729.
-1. Yihui Xie (2016). [_bookdown: Authoring Books and Technical Documents with R Markdown_](https://bookdown.org/yihui/bookdown). Chapman and Hall/[CRC](https://www.crcpress.com/product/isbn/9781138700109). ISBN 978-1138700109
+1. Yihui Xie, J. J. Allaire, Garrett Grolemund (2018). [_R Markdown: The Definitive Guide_](https://bookdown.org/yihui/rmarkdown). Chapman & Hall/[CRC](https://www.crcpress.com/p/book/9781138359338). ISBN 9781138359338.
+1. Yihui Xie, Amber Thomas, Alison Presmanes Hill (2017). [_blogdown: Creating Websites with R Markdown_](https://bookdown.org/yihui/blogdown). Chapman & Hall/[CRC](https://www.crcpress.com/p/book/9780815363729). ISBN 9780815363729.
+1. Yihui Xie (2016). [_bookdown: Authoring Books and Technical Documents with R Markdown_](https://bookdown.org/yihui/bookdown). Chapman and Hall/[CRC](https://www.crcpress.com/product/isbn/9781138700109). ISBN 9781138700109
 1. Yihui Xie (2015). [_Dynamic Documents with R and knitr_](http://www.crcpress.com/product/isbn/9781498716963). 2nd edition. Chapman and Hall/CRC. ISBN 978-1498716963
     - Yihui Xie (2013). [_Dynamic Documents with R and knitr_](http://www.crcpress.com/product/isbn/9781482203530). Chapman and Hall/CRC. ISBN 978-1482203530
 1. Yihui Xie (2014). knitr: [_A Comprehensive Tool for Reproducible Research in R_](http://www.crcpress.com/product/isbn/9781466561595). In Victoria Stodden, Friedrich Leisch and Roger D. Peng, editors, Implementing Reproducible Computational Research. Chapman and Hall/CRC. ISBN 978-1466561595
@@ -98,7 +99,9 @@ From late 2014, I started working on the [**DT**](https://github.com/rstudio/DT)
 
 In early 2016, I created a new package named [**tufte**](https://github.com/rstudio/tufte), to add the Tufte style to R Markdown documents and support both HTML and PDF output formats. I started the [**bookdown**](https://github.com/rstudio/bookdown) project in late 2015 to make it easier to write books and technical documents with R Markdown, and most of my time in 2016 was spent on this project. I also published a book for the **bookdown** package with Chapman & Hall/CRC.
 
-Since late 2016, I started the [**blogdown**](https://github.com/rstudio/blogdown) project, to create websites based on R Markdown. The package is finished and the companion book has been published by Chapman & Hall/CRC.
+Since late 2016, I started the [**blogdown**](https://github.com/rstudio/blogdown) project, to create websites based on R Markdown. The package was finished, and the companion book was published by Chapman & Hall/CRC.
+
+I spent the first half of 2018 on writing the book "[R Markdown: The Definitive Guide](https://bookdown.org/yihui/rmarkdown)".
 
 ### Internship
 
@@ -193,6 +196,7 @@ Projects participated:
 
 Most of my slides were generated from R Markdown (especially the ones in recent years). To download the R Markdown source documents, simply replace the extension `.html` with `.Rmd` in the address bar of your web browser.
 
+- Yihui Xie, 2018, _Some Lesser Known Features of knitr_, a remote talk for the RaukR Summer School, Visby, Sweden ([slides](https://bit.ly/2018-raukr))
 - Yihui Xie, 2018, _Easy Dashboards with R Markdown_, a talk at the Omaha R User Group, Omaha, NE ([slides](https://bit.ly/2018-dashboard))
 - Yihui Xie, 2018, _Creating Websites with R Markdown and blogdown_, a talk at the RStudio Conference 2018, San Diego, CA ([slides](https://bit.ly/2018-blogdown))
 - Yihui Xie, 2017, _An R Markdown Tutorial on bookdown, blogdown, and xaringan_, a 3-hour tutorial in the School of Natural Resources, University of Nebraska-Lincoln ([slides](https://slides.yihui.name/2017-rmarkdown-UNL-Yihui-Xie.html))
