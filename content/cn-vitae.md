@@ -314,6 +314,7 @@ Email：xie@yihui.name；主页：<https://yihui.name>；现居住于美国内�
 - [highr](https://github.com/yihui/highr)：R 代码高亮
 - [printr](https://github.com/yihui/printr)：为 knitr 提供一些自动打印方法，如将数据框自动输出为表格
 - [Rd2roxygen](https://github.com/yihui/Rd2roxygen)：将R文档转化为 roxygen 注释，实现在源代码中以注释的形式写文档，方便 R 包的长期开发，同时包含一个改善 roxygen 功能的小工具 `rab()`，让包的编译更加方便高效
+- [xfun](https://github.com/yihui/xfun)：我的若干凌杂 R 函数
 - [R2SWF](https://github.com/yihui/R2SWF)，[MSG](https://github.com/yihui/MSG)，[iBUGS](https://github.com/yihui/iBUGS)，[fun](https://github.com/yihui/fun)，[等等](http://depsy.org/person/329908)
 
 作为贡献者：

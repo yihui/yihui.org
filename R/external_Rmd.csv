@@ -3,3 +3,4 @@
 "../formatR/vignettes/formatR.Rmd", "content/pkg-formatR.md"
 "../Rd2roxygen/vignettes/Rd2roxygen.Rmd", "content/pkg-Rd2roxygen.md"
 "../rlp/vignettes/LP-demo1.Rmd", "content/pkg-rlp.md"
+"../xfun/vignettes/xfun.Rmd", "content/pkg-xfun.md"

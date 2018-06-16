@@ -345,6 +345,7 @@ I'm the creator and main author of:
 - [highr](https://github.com/yihui/highr): syntax highlighting for R source code
 - [printr](https://github.com/yihui/printr): some printing methods for knitr
 - [Rd2roxygen](https://github.com/yihui/Rd2roxygen): convert Rd to roxygen documentation
+- [xfun](https://github.com/yihui/xfun): my miscellaneous R functions
 - [R2SWF](https://github.com/yihui/R2SWF), [MSG](https://github.com/yihui/MSG), [iBUGS](https://github.com/yihui/iBUGS), [fun](https://github.com/yihui/fun), [and so on](http://depsy.org/person/329908)
 
 I have contributed to:
