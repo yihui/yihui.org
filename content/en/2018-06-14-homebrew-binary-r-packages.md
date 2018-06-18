@@ -41,7 +41,7 @@ If you use the Homebrew version of R, it will be super easy to upgrade or remove
 install.packages(..., type = 'source')
 ```
 
-Actually, installing R packages from source may not be as bad as you thought. About 75% packages on CRAN does not need compilation, which means they are pure R packages, without C/C++/Fortran code. These packages can be easy and fast to install from source.
+Actually, installing R packages from source may not be as bad as you thought. About 75% packages on CRAN do not need compilation, which means they are pure R packages, without C/C++/Fortran code. These packages can be easy and fast to install from source.
 
 For the rest of 25%, most don't require external system dependencies, so your Hombrew version of R should be able to compile them (you have Clang, and also `gfortran` from Homebrew's `gcc` formula). The only problem is some packages take long time to compile (e.g., **stringi**), so we may want to prebuild the binaries for them.
 
