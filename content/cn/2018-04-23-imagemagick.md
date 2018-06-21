@@ -22,3 +22,10 @@ slug: imagemagick
     ```sh
     convert INPUT -fuzz 20% -transparent white OUTPUT.png
     ```
+
+- [横向合并多幅图片](https://stackoverflow.com/a/20749970/559676)：
+
+    ```sh
+    # 合并五幅图 0.png, 1.png, ..., 4.png
+    montage [0-5].png -tile 5x1 -geometry +0+0 out.png
+    ```
