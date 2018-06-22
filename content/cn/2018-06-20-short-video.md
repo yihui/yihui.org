@@ -8,7 +8,7 @@ slug: short-video
 
 我考虑的事情之一就是录一些三五分钟的技术短视频，每天录一则，半年录一百则（其实这不是我一次考虑了——四年前[已经想过一次](/cn/2014/12/summary/)）。倒不是我要向快餐文化低头，而是我觉得有些技术性的东西做成快餐也无碍。系统学习是一种学习方式，零碎学习也是一种学习方式，但零碎学习需要一定程度的系统学习作为前提，这是那些鼓吹所谓碎片化学习的人没意识到的问题。你不能指望三分钟就能掌握一门重要技能，只要你抱有这种贪念，你就会不停被各类网红、大咖、名嘴、段子手、知识领袖、畅销书作者收取智商税。碎片式学习只能给你的智商和技能树长叶子，不大可能帮你长根。
 
-好几周前看到一篇短视频教程网站 egghead.io 创始人的[采访稿](https://www.indiehackers.com/interview/how-we-turned-coding-screencasts-into-a-million-dollar-business-f20ef382a1)，读来有三点我觉得颇有意思。首先是：
+以下基本纯属题外话。好几周前看到一篇短视频教程网站 egghead.io 创始人的[采访稿](https://www.indiehackers.com/interview/how-we-turned-coding-screencasts-into-a-million-dollar-business-f20ef382a1)，读来有三点我觉得颇有意思。首先是：
 
 > Fake it til you make it!
 
