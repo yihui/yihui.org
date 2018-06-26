@@ -97,7 +97,7 @@ The tricky thing is, it is hard to find the balance. Either direction can offend
 
 I said above that the obvious price to pay for caching is storage (either in memory or on disk). However, to make caching work perfectly for you, there is a hidden cost. That is, the cost to understand caching. This is similar to a situation in our daily life: we may spend a lot of time and energy to save some money. We can only see the money we saved, but ignore the cost of time and emotion. If you don't analyze the two costs, the money you saved may not really be worthwhile.
 
-If you don't fully understand how caching works and the conditions for its invalidation, it could be too sensitive or dumb, and may not serve you well. Some users may be able to quick understand it, and some may not. If you want to speed, you'd better know the traffic rules first, otherwise you may be pulled over.
+If you don't fully understand how caching works and the conditions for its invalidation, caching could be too sensitive or dumb, and may not serve you well. Some users may be able to quick understand it, and some may not. If you want to speed, you'd better know the traffic rules first, otherwise you may be pulled over.
 
 The full documentation of **knitr**'s caching is in the **knitr** book "_Dynamic Documents with R and knitr_ (2nd ed)". If you don't have this book, there is  [a page on **knitr**'s website](https://yihui.name/knitr/demo/cache/) that contains more information.
 
