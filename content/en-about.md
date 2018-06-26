@@ -27,6 +27,7 @@ This site is created with [Hugo](https://gohugo.io) and the theme is [hugo-ivy](
 ## R Language
 
 - [The R Project](http://www.r-project.org/)
+- [R Weekly](https://rweekly.org)
 
 ## My projects
 
@@ -46,3 +47,4 @@ Below is an incomplete list of packages and projects I have worked on. For a ful
 - [tinytex](/tinytex/): a lightweight LaTeX distribution based on TeX Live
 - [tufte](https://github.com/rstudio/tufte): Tufte styles for R Markdown documents
 - [xaringan](https://github.com/yihui/xaringan): presentation ninja
+- [xfun](/xfun/): miscellaneous functions
