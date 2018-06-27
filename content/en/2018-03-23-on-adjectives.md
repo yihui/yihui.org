@@ -6,7 +6,7 @@ slug: on-adjectives
 
 Among all types of words, I have always found adjectives the most challenging to use in communication (either writing or talking). They are challenging because (1) it is so hard to refrain from using them, and (2) it is hard to be precise.
 
-In my opinion, it is hard to refrain from using adjectives because usually we want to draw attention, and adjectives are the most effective type of words to draw attention. If we want to draw attention, we often tend to use adjectives that are biased and fail to represent facts. For example, when we may use "supreme" when we only mean "good", because we are afraid that other people won't notice the good quality. Every time I go to grocery stores, I find labels like "_extra large_ eggs" funny -- as if the eggs would be a lot larger because of the label.
+In my opinion, it is hard to refrain from using adjectives because usually we want to draw attention, and adjectives are the most effective type of words to draw attention. If we want to draw attention, we often tend to use adjectives that are biased and fail to represent facts. For example, we may use "supreme" when we only mean "good", because we are afraid that other people won't notice the good quality. Every time I go to grocery stores, I find labels like "_extra large_ eggs" funny -- as if the eggs would be a lot larger because of the label.
 
 The single piece of advice on writing that influenced me the most was this one:
 
