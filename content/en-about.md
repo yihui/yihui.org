@@ -8,7 +8,7 @@ My name is Yihui Xie. You can know more about me on the [homepage](/) and my [vi
 - [R](https://www.r-project.org): I'm the author of a few R packages (see [my vitae](../vitae/))
 - [LyX](http://www.lyx.org): I maintain the Sweave and knitr modules in LyX with Jean-Marc Lasgouttes
 
-I have an interview on [The Setup](http://yihui.xie.usesthis.com) where you can learn more about me on the software side.
+I have an interview on [The Setup](https://usesthis.com/interviews/yihui.xie/) where you can learn more about me on the software side.
 
 You can find me on [GitHub](https://github.com/yihui/) or Twitter [@xieyihui](http://twitter.com/xieyihui) or [Google+](https://plus.google.com/u/0/109653178371807724268/posts). Subscribe to the RSS feed of [blog posts](../index.xml) or [all comments](https://yihui.disqus.com/latest.rss) to stay tuned. I used to provide a [guestbook](../guestbook/) page for people to leave me messages, but now I think it makes more sense just to leave comments on this page. I don't like formality, so it is not necessary to call me "Dr Xie" when you email me or introduce me to your friends. I'm a software engineer, so please don't call me professor.
 
