@@ -225,6 +225,16 @@ TinyTeX is still a relatively new project, so these are only potential FAQs.
     
     For TeX Live users on Windows and macOS, the easiest way to install `gpg` is probably http://www.preining.info/tlgpg/. The "one-time installation" suffices.
 
+1. **How can I install TinyTeX and/or LaTeX packages through HTTP/HTTPS/FTP proxies?**
+
+    You may create a `~/.wgetrc` file (`~` denotes your HOME directory), and add variables `http_proxy`, `https_proxy`, and/or `ftp_proxy` in it, e.g.,
+    
+    ```config
+    http_proxy=http://user:password@proxy.example.com:8001/
+    ```
+    
+    See [this page on tug.org](https://www.tug.org/texlive/acquire-netinstall.html) and [the documentation page of `wget`](https://www.gnu.org/software/wget/manual/html_node/Proxies.html) for more information.
+
 1. **Can I use Homebrew to install TinyTeX on macOS?**
 
     Yes, but there are no obvious advantages, so I don't really recommend this approach:
