@@ -5,17 +5,17 @@ date: '2018-01-26'
 slug: install-rgtk2-macos
 ---
 
-> **Update on 2018-06-13**: Because this issue has bothered me over and over again, I decided to work on some pre-built binaries of R packages for the Homebrew version of R. If you are using the latest versions of R from Homebrew and macOS, you can ignore this post, and just install **RGtk2** with:
+> **Update on 2018-06-13**: Because this issue has bothered me over and over again, I decided to work on some pre-built binaries of R packages for the Homebrew version of R. If you are using the latest versions of R (from either CRAN or Homebrew Cask) and macOS, you can ignore this post, and just install **RGtk2** with:
 
 > ```r
 system('brew install gtk+')
 install.packages(
-  'RGtk2', type = 'mac.binary.el-capitan',
+  'RGtk2', type = 'binary',
   repos = 'https://macos.rbind.org'
 )
 ```
 
-> You no longer need to edit the Homebrew formula as suggested in the post below, which is too complicated, time-consuming, and hard to maintain. BTW, I have experimented with the idea of building binary packages for the Homebrew version of R. See [this post](/en/2018/06/homebrew-binary-r-packages/) for more information.
+> You no longer need to edit the Homebrew formula as suggested in the post below, which is too complicated, time-consuming, and hard to maintain. BTW, I have experimented with the idea of building binary packages for the Homebrew version of R. See [this post](/en/2018/07/cranextra-macos/) for more information.
 
 While I'm doing my "favorite" thing in R (running `R CMD check` on thousands of reverse dependencies), I realized the **RGtk2** package was _just_ updated on CRAN yesterday. I have to install it from source again. My hair was turning gray... I have done this a couple of times before, and each time it was like hell, mainly because I use macOS.
 
