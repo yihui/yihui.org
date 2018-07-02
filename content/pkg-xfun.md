@@ -2,7 +2,7 @@
 title: An Introduction to xfun
 subtitle: A Collection of Miscellaneous Functions
 author: "Yihui Xie"
-date: "2018-06-15"
+date: "2018-07-02"
 slug: xfun
 githubEditURL: https://github.com/yihui/xfun/edit/master/vignettes/xfun.Rmd
 output:
@@ -290,6 +290,70 @@ The function `loadable()` tests if a package is loadable.
 
 Functions `read_utf8()` and `write_utf8()` can be used to read/write files in UTF-8. They are simple wrappers of `readLines()` and `writeLines()`.
 
+## Convert numbers to English words
+
+The function `numbers_to_words()` (or `n2w()` for short) converts numbers to English words.
+
+
+```r
+n2w(0, cap = TRUE)
+```
+
+```
+## [1] "Zero"
+```
+
+```r
+n2w(seq(0, 121, 11), and = TRUE)
+```
+
+```
+##  [1] "zero"                      
+##  [2] "eleven"                    
+##  [3] "twenty-two"                
+##  [4] "thirty-three"              
+##  [5] "forty-four"                
+##  [6] "fifty-five"                
+##  [7] "sixty-six"                 
+##  [8] "seventy-seven"             
+##  [9] "eighty-eight"              
+## [10] "ninety-nine"               
+## [11] "one hundred and ten"       
+## [12] "one hundred and twenty-one"
+```
+
+```r
+n2w(1e+06)
+```
+
+```
+## [1] "one million"
+```
+
+```r
+n2w(1e+11 + 12345678)
+```
+
+```
+## [1] "one hundred billion, twelve million, three hundred forty-five thousand, six hundred seventy-eight"
+```
+
+```r
+n2w(-987654321)
+```
+
+```
+## [1] "minus nine hundred eighty-seven million, six hundred fifty-four thousand, three hundred twenty-one"
+```
+
+```r
+n2w(1e+15 - 1)
+```
+
+```
+## [1] "nine hundred ninety-nine trillion, nine hundred ninety-nine billion, nine hundred ninety-nine million, nine hundred ninety-nine thousand, nine hundred ninety-nine"
+```
+
 ## Check reverse dependencies of a package
 
 Running `R CMD check` on the reverse dependencies of **knitr** and **rmarkdown** is my least favorite thing in developing R packages, because the numbers of their reverse dependencies are huge. The function `rev_check()` reflects some of my past experience in this process. I think I have automated it as much as possible, and made it as easy as possible to discover possible new problems introduced by the current version of the package (compared to the CRAN version). Finally I can just sit back and let it run.
@@ -312,15 +376,14 @@ xfun::session_info(c("xfun", "rmarkdown", "knitr", "tinytex"),
 
 ```
 ## R version 3.5.0 (2018-04-23)
-## Platform: x86_64-apple-darwin17.5.0 (64-bit)
+## Platform: x86_64-apple-darwin15.6.0 (64-bit)
 ## Running under: macOS High Sierra 10.13.5
 ## 
-## Locale:
-## [1] en_US.UTF-8/en_US.UTF-8/en_US.UTF-8/C/en_US.UTF-8/en_US.UTF-8
+## Locale: en_US.UTF-8 / en_US.UTF-8 / en_US.UTF-8 / C / en_US.UTF-8 / en_US.UTF-8
 ## 
 ## Package version:
-## [1] knitr_1.20.4     rmarkdown_1.10.1 tinytex_0.5.5   
-## [4] xfun_0.2        
+##   knitr_1.20.5     rmarkdown_1.10.3 tinytex_0.5.10  
+##   xfun_0.2.9      
 ## 
 ## Pandoc version: 2.2.1
 ```
