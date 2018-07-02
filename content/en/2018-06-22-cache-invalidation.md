@@ -9,7 +9,7 @@ Many people must have heard this quote (by Phil Karlton) many times: _There are 
 
 ## Why caching?
 
-First of all, the main purpose of caching is speed. The basic idea is simple: if you know you are going to compute the same thing, you may just load the result saved from the previous run, and skip the computing this time. There are two keywords here: "the same thing", and "the saved result". The latter means you are essentially trading (more) storage for (less) time. That is the price to pay for caching, and also an important fact to be aware of when you use caching (i.e., caching is definitely not free, and sometimes the price can be fairly high).
+First of all, the main purpose of caching is speed. The basic idea is simple: if you know you are going to compute the same thing, you may just load the result saved from the previous run, and skip the computing this time. There are two keywords here: "the same thing", and "the saved result". The latter means you are essentially trading (more) storage space for (less) time. That is the price to pay for caching, and also an important fact to be aware of when you use caching (i.e., caching is definitely not free, and sometimes the price can be fairly high).
 
 The tricky thing is "the same thing". How do you know that you are computing the same thing? That is all "cache invalidation" is about. When things become different, you have to invalidate the cache, and do the (presumably time-consuming) computing again.
 
@@ -75,9 +75,9 @@ The basic idea of **knitr**'s idea is that if you did not modify a code chunk (e
 
 That sounds about correct, right?
 
-I have heard unhappy users curse **knitr**'s caching. Some think it was too sensitive, and some thought it was dumb. For example, when you add a space in an R comment in your code chunk, should **knitr** invalidate the cache? Modifying a comment certainly won't affect the computing at all (but the text output may change if you show the code in the output via `echo = TRUE`), but the MD5 hash will change.^[Actually you can use the chunk option `cache.comments = FALSE` to prevent cache invalidation when only comments were changed in a code chunk. This can be useful when `echo = FALSE`.]
+I have heard unhappy users curse **knitr**'s caching. Some thought it was too sensitive, and some thought it was dumb. For example, when you add a space in an R comment in your code chunk, should **knitr** invalidate the cache? Modifying a comment certainly won't affect the computing at all (but the text output may change if you show the code in the output via `echo = TRUE`), but the MD5 hash will change.^[Actually you can use the chunk option `cache.comments = FALSE` to prevent cache invalidation when only comments were changed in a code chunk. This can be useful when `echo = FALSE`.]
 
-Then an example to explain why people thought **knitr**'s caching was dumb: if you read an external CSV file in a code chunk, **knitr** does not know whether you have modified the data file. If you happen to have updated the data file, **knitr** won't re-read it by default if you didn't modify chunk options or the code. The cache key does not depend on the external file. In this case, you have to explicitly associate the cache with the external file, e.g.,
+Then an example to explain why people thought **knitr**'s caching was dumb: if you read an external CSV file in a code chunk, **knitr** does not know whether you have modified the data file. If you happen to have updated the data file, **knitr** won't re-read it by default if you didn't modify chunk options or the code. The cache key does not depend on the external file. In this case, you have to explicitly associate the cache with the external file, e.g.,^[You could also use `file.mtime()` instead of `tools::md5sum()` if you want the cache to depend on the modification time of the CSV file.]
 
 ````md
 ```{r import-data, cache=TRUE, cache.extra=tools::md5sum('my-precious.csv')}
@@ -87,7 +87,7 @@ d = read.csv('my-precious.csv')
 
 Since the chunk option `cache.extra` is associated with the CSV file, cache will be invalidated when the file is changed (because the cache key will be different).
 
-Another example is one code chunk using a variable created from a previous code chunk. When the variable is updated in the previous chunk, this chunk's cache should be invalidated, too. This leads to the topic the dependency structure of code chunks, which can be complicated, but there are some helper functions such as `knitr::dep_prev()` and `knitr::dep_auto()` to make it a little easier.
+Another example is one code chunk using a variable created from a previous code chunk. When the variable is updated in the previous chunk, this chunk's cache should be invalidated, too. This leads to the topic of the dependency structure of code chunks, which can be complicated, but there are some helper functions such as `knitr::dep_prev()` and `knitr::dep_auto()` to make it a little easier.
 
 When a code chunk is extremely time-consuming, **knitr** should be more conservative (not to invalidate the expensive cache unless there have been critical changes). When a code chunk is only moderately slow (e.g., 10 or 20 seconds), the caching probably should be more sensitive.
 
