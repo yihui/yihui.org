@@ -13,3 +13,11 @@ in xaringan hath
 been placed on a single long line
 
 I laughed out loud. That was much better than my ["official" documentation](https://slides.yihui.name/xaringan/#16)!
+
+**Update on 2018-07-02**: Another limerick by Claus [on three dashes](https://github.com/yihui/xaringan/issues/151#issuecomment-401827615):
+
+> Three dashes are used for a split  
+But careful when using your wit  
+'Cause you must erase  
+any sign of a space  
+or else it will just look like ...
