@@ -7,7 +7,7 @@ slug: quick-questions
 
 "Hey Yihui, quick question for you..." For many times I have been asked "quick questions" on Twitter, on Slack, or in emails. I do love questions that are quick, because the net gain can be significant: you won't need to spend hours on questions of which the answers are obvious to me.
 
-Most of time I reply to such questions within seconds after I see them, and some people have been surprised by how quickly I respond. The only problem is, those questions are not always quick. This can be particularly problematic when I'm reading messages in IM (instant messaging) tools such as Twitter and Slack, because I usually don't intend to stay in IM tools for long. I often open Slack only once every morning to check messages from yesterday, and quit it for the rest of the day. I have installed a Chrome extension to limit my Twitter time to be 10 minutes per day. When quick questions do not really seem to be quick, I feel I'll be stuck there. Should I continue to ask for more information (which can lead to several rounds of asking), or simply ignore the question? I don't know.
+Most of time I reply to such questions within seconds after I see them, and some people have been surprised by how quickly I respond. The only problem is, those questions are not always quick. This can be particularly problematic when I'm reading messages in IM (instant messaging) tools such as Twitter and Slack, because I usually don't intend to stay in IM tools for long. I often open Slack only once every morning to check messages from yesterday, and quit it for the rest of the day. I have installed a Chrome extension to limit my Twitter time to 10 minutes per day. When quick questions do not really seem to be quick, I feel I'll be stuck there. Should I continue to ask for more information (which can lead to several rounds of asking), or simply ignore the question? I don't know.
 
 ![Should I give up?](https://slides.yihui.name/gif/give-up.gif)
 
@@ -23,8 +23,8 @@ I was surprised by this issue because that did not sound like what Pandoc would 
 
 Guess what? Then he just quickly realized what was wrong by himself. Had he tried to make a small reproducible example, he would not need to ask the question at all. Had I seen a reproducible example, I'd probably notice the problem within seconds, too. The problem was just that the quick question contained too little information. When one has to start asking for more information or clarification, the quick question is no longer quick.
 
-I don't mean to discourage people from asking me quick questions. I just want to set your expectation correctly: when I don't answer a question on Twitter, it probably means it is not clear to me, and you may try to ask a slow version of the question on Stack Overflow or other places that don't have the length limit.
+I don't mean to discourage people from asking me quick questions. I just want to set your expectation correctly: when I don't answer a question on Twitter, it probably means it is not clear to me, and you may try to ask a slow version of the question on Stack Overflow or other places that don't have the length limit, providing as much information as you can.
 
-Remember, the quick question might be like the two circles in the guide below on how to draw an owl, and the real question might be the owl on the right.
+Remember, the quick question might be like the two circles in the guide below on how to draw an owl, and the real question might be the owl on the right. Are you absolutely sure I can answer your question after seeing the two cirles?
 
 ![How to draw an owl](https://slides.yihui.name/gif/draw-an-owl.jpg)
