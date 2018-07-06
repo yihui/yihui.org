@@ -16,8 +16,8 @@ output:
 
 A few screenshots provided by Claus (and [a full example](http://biostatistics.dk/presentations/xaringan/ghoul.html)):
 
-![colored content boxes](https://user-images.githubusercontent.com/6160801/36378678-ffd093f8-157b-11e8-9718-7e4a9faef007.png)
+![colored content boxes](https://user-images.githubusercontent.com/6160801/36378678-ffd093f8-157b-11e8-9718-7e4a9faef007.png#border)
 
-![fancy picture effects](https://user-images.githubusercontent.com/6160801/36378683-03114d14-157c-11e8-9646-fe778db21a99.png)
+![fancy picture effects](https://user-images.githubusercontent.com/6160801/36378683-03114d14-157c-11e8-9646-fe778db21a99.png#border)
 
 I called for help with new CSS themes in **xaringan** [last time](/en/2017/10/xaringan-themes/), and have received a few interesting contributions. Big thanks to those who helped ([Alison for rladies](https://github.com/yihui/xaringan/pull/76), and [Patrick for metropolis](https://github.com/yihui/xaringan/pull/86), etc)!
