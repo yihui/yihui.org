@@ -1,7 +1,6 @@
 {{ if and (not (eq .Site.DisqusShortname "")) (and (not .Params.disable_comments) (or (eq .Kind "404") (and (not .IsHome) .Content))) }}
 <section class="comments">
   <div id="disqus_thread"></div>
-  <script src="/js/disqusloader.min.js"></script>
   <script>
   var disqus_config = function () {
   {{ with .Site.Params.disqusURL }}
@@ -16,17 +15,23 @@
     };
     if (inIFrame()) return;
     var disqus_js = '//{{ .Site.DisqusShortname }}.disqus.com/embed.js';
-    // do not use lazy loading when the hash means to jump to a comment
-    if (location.hash.match(/^#comment/)) {
-      var d = document, s = d.createElement('script');
-      s.src = disqus_js; s.async = true;
-      s.setAttribute('data-timestamp', +new Date());
-      (d.head || d.body).appendChild(s);
-    } else {
-      disqusLoader('#disqus_thread', {
-        scriptUrl: disqus_js, laziness: 0, disqusConfig: disqus_config
-      });
+    var d = document, s = d.createElement('script');
+    s.src = disqus_js; s.async = true;
+    s.setAttribute('data-timestamp', +new Date());
+    var b = false, l = function() {
+      if (b) return;
+      (d.head || d.body).appendChild(s); b = true;
     }
+    // show comments when the hash means to jump to a comment
+    if (location.hash.match(/^#comment/)) return(l());
+    var t = d.getElementById('disqus_thread');
+    var c = function() {
+      if (b) return;
+      var rect = t.getBoundingClientRect();
+      if (rect.top < window.innerHeight && rect.bottom >= 0) l();
+    };
+    window.addEventListener('load', c);
+    d.addEventListener('scroll', c);
   })();
   </script>
   <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
