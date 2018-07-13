@@ -7,6 +7,8 @@ slug: r-markdown-book
 
 Shortly after I came back from the 2018 rstudio::conf in early February, I started writing the book "R Markdown: The Definitive Guide". This 300-page book was finished by the end of May. I [just announced](https://blog.rstudio.com/2018/07/13/announcing-the-r-markdown-book/) the book in the RStudio official blog, but want to write a personal blog post to reflect some personal thoughts, too.
 
+![R Markdown: The Definitive Guide](https://bookdown.org/yihui/rmarkdown/images/cover.png)
+
 ## Happily eating my own dog food (for the third time)
 
 I don't know other people's secrets on how to create successful software, but my experience is that if you create a software package that you like to use by yourself on a daily basis, it is likely to succeed and will be used by many other people, too. In other words, if even you don't enjoy your own dog food, how would you expect other people to eat it?
