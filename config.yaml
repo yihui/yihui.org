@@ -136,6 +136,7 @@ params:
   disqusURL: "http://yihui.name"
   customJS: ["js/external-link.js", "js/center-img.js", "js/right-quote.js", "js/no-highlight.js", "js/fix-footnote.js", "js/math-code.js"]
   githubContentURL: "https://github.com/rbind/yihui/edit/master/content/"
+  twitterImage: "/images/logo.png"
 
   # options for highlight.js (version, additional languages, and theme)
   highlightjsVersion: "9.12.0"
