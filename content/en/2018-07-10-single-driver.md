@@ -11,7 +11,7 @@ A couple of days ago I saw [an interesting reply](http://r.789695.n4.nabble.com/
 
 > Only one person can help you with that, and it is most effective to contact him directly. 
 
-I think you all know whom he meant. The whole R world on macOS is pretty much on his shoulders. We all macOS R users should be extremely grateful to him. But...
+I think you all know whom he meant. The whole R world on macOS is pretty much on his shoulders. Help us, Simon Wan Kenobi, you are our [only hope](http://scifiquotes.net/quotes/152_Youre-My-Only-Hope). We all macOS R users should be extremely grateful to him. But...
 
 That is also what I'm deeply worried about. When users run into certain problems, only one person can help. One person managing more than 12,000 binary packages (although most should be easy to build).
 
