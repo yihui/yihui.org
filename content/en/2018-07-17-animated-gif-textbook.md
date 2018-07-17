@@ -17,3 +17,7 @@ BTW, actually I used a similar idea in [the function `animation::sim.qqnorm()`](
 <video controls loop autoplay><source src="https://assets.yihui.name/figures/animation/example/sim-qqnorm/demo-a.mp4?dl=1" /><p>Simulated QQ plots</p></video>
 
 I should also mention [the VIT project](https://www.stat.auckland.ac.nz/~wild/VIT/) (Visual Inference Tools) started by Chris Wild, in which you can find more interesting examples related to this topic.
+
+Oh, I should also mention one of [Colin Fay's favorite tech-related memes](https://twitter.com/_ColinFay/status/1012964820004548609):
+
+![a bookdown meme](https://pbs.twimg.com/media/Dg7GIbtX4AAyJFi.jpg#border)
