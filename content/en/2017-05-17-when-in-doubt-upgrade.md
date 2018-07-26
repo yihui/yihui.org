@@ -52,3 +52,4 @@ P.S. A list of issues solved simply by updating packages:
 - [Invalid arguments when building PDF output with Pandoc2](https://github.com/rstudio/bookdown/issues/587)
 - [Error while knitting a LaTeX file: could not find function “as”](https://stackoverflow.com/q/50834822/559676)
 - [blogdown本地预览与netlify部署后的显示不一致](https://github.com/rstudio/blogdown/issues/316)
+- [Incompatible with dev version of glue](https://github.com/rstudio/blogdown/issues/293)
