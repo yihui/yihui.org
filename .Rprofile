@@ -2,7 +2,7 @@ if (file.exists('~/.Rprofile')) sys.source('~/.Rprofile', envir = environment())
 
 options(
   blogdown.method = 'custom', blogdown.author = NULL,
-  digits = 4, formatR.indent = 2, blogdown.yaml.empty = FALSE,
+  digits = 4, formatR.indent = 2, blogdown.yaml.empty = FALSE, blogdown.rename_file = TRUE,
   blogdown.title_case = function(x) {
     # if the title is pure ASCII, use title case
     if (xfun::is_ascii(x)) tools::toTitleCase(x) else x
