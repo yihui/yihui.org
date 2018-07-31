@@ -40,6 +40,6 @@ So I wanted to create a simple bubble chart after seeing [the beautiful official
 
 ## Conclusion?
 
-Is there anything we can learn from these two examples? One obvious lesson is that it can be very normal for one to struggle with something, even if one is an expert in certain areas. Another lesson is that you may soothe other users if you share your secret struggles.
+Is there anything we can learn from these two examples? One obvious lesson is that it can be very normal for one to struggle with something, even if one is an expert in other areas. Another lesson is that you may soothe other users if you share your secret struggles.
 
 While I was writing this post, an idea came to my mind: How about editing a contributed book on all our failed attempts or struggles in installing/using software packages? I think it can be valuable because it will show the average users' perspectives. From the perspective of software authors, everything may be obvious and easy, and they may not even be able to imagine the possible ways in which users can fail. One challenge for this book, however, is to avoid turning it into a book of complaints.
