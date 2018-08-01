@@ -31,7 +31,7 @@ For example:
 assert('as.character() converts values to character', {
   (as.character(123) %==% '123')
   
-  (as.character(1:3) == c('1', '2', '3'))
+  (as.character(1:3) %==% c('1', '2', '3'))
 })
 ```
 
