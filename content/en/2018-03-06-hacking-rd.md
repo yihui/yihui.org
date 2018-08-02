@@ -13,3 +13,5 @@ Well, whenever I see hacks that are funny or unbelievable, I'd first guess it wo
 This morning I learned another amazing hack from Noam Ross, and the hack was even deeper and darker, which used `\Sexpr{}` inside `\if{html}{}`. He actually [inserted an HTML widget](https://discuss.ropensci.org/t/1078) (via **DT**) to an R help page!
 
 ![Oh my... You hackers are so awesome](https://slides.yihui.name/gif/slow-applaud.gif)
+
+**Update on 2018-08-01**: I discovered [yoni sidi's `<details>` hack](https://twitter.com/yoniceedee/status/1024740274495528960).
