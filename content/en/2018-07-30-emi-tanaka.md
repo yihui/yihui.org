@@ -10,7 +10,7 @@ Emi said [it was heck of a praise](https://twitter.com/statsgen/status/102311851
 
 - [The **datalegreyar** package](https://twitter.com/statsgen/status/1018823773162618882) that uses a special typeface to represent data directly with text (which is an even smarter idea than sparklines). Magic.
 
-- [She discovered the ultimate secret](https://twitter.com/statsgen/status/1012664098616590336) of the "Infinite Moon Reader" in **xaringan**: when an HTML page is automatically refreshed, the scroll position is preserved. This is extremely helpful when the document is long or have many pages, because otherwise you will have to scroll like crazy to the position where you last viewed. This feature is quite subtle and has been there for almost two years, and Emi was the first person (to my knowledge) who had discovered it and been excited about it.
+- [She discovered the ultimate secret](https://twitter.com/statsgen/status/1012664098616590336) of the "Infinite Moon Reader" in **xaringan**: when an HTML page is automatically refreshed, the scroll position is preserved. This is extremely helpful when the document is long or has many pages, because otherwise you will have to scroll like crazy to the position where you last viewed. This feature is quite subtle and has been there for almost two years, and Emi was the first person (to my knowledge) who had discovered it and been excited about it.
 
 - Obviously she is very good at hacking with CSS. [Look at her **xaringan** slides](https://twitter.com/statsgen/status/1009591310150299648) with the shiny (I mean sparkling) r-ladies theme, and the content is pretty good, too!
 
