@@ -8,7 +8,7 @@ When I gave my [first public talk on **bookdown**](http://slides.yihui.name/2016
 
 Yesterday (i.e. two years later) I finally saw a real example from [a tweet by Matt Crump](https://twitter.com/MattCrump_/status/1018897122635239424), where he showed an animated GIF that demonstrates how small sample sizes could fool you when you look for a correlation between two variables.
 
-![how correlation behaves when there is no correlation](https://camo.githubusercontent.com/3185b8694fd114426146f1f6c3d71c374e9ea1f4/68747470733a2f2f6372756d706c61622e6769746875622e696f2f737461746973746963732f737461746973746963735f66696c65732f6669677572652d68746d6c2f756e6e616d65642d6368756e6b2d32322d312e676966)
+![how correlation behaves when there is no correlation](https://crumplab.github.io/statistics/gifs/corUnifFourNs-1.gif)
 
 Nick Brown [asked](https://twitter.com/sTeamTraen/status/1018875230805258240) in a reply "How will an animated GIF work in a textbook?" I was excited to learn that Matt was working on a book written with **bookdown**, so the answer was "Read the web version of the book." You can find the GIF in their text book "[Answering Questions with Data](https://crumplab.github.io/statistics/Correlation.html#some-more-movies)". That is exactly the type of books I was looking forward to.
 
