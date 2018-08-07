@@ -8,6 +8,8 @@ A couple of days ago, the great hacker Leonardo Collado-Torres submitted [a pull
 
 The cognitive load of PR reviewers will also be lighter when PRs are bite-sized. Each small PR may take one minute to review and merge, but if three small changes are placed in a moderate PR, it may take more than three minutes to review and merge (1 + 1 > 2).
 
+[![Hey I've got a pull request for you](https://pbs.twimg.com/media/DkAJYk6XgAAEVt2.jpg:large)](https://twitter.com/_ColinFay/status/1026831038587326464)
+
 Because I understand how busy developers are, I'll try to submit small PRs when possible, and avoid bringing too many changes in a single PR. For example, I have submitted [three PRs](https://github.com/gohugoio/hugo/pulls?q=is%3Apr+author%3Ayihui+is%3Aclosed) to Hugo so far. In [#3639](https://github.com/gohugoio/hugo/pull/3639), I focused on the essential changes (making Hugo work with Disqus out of the box). I was not satisfied with the JavaScript code and wanted to make some cosmetic changes, but I refrained from doing it in this PR to make it really minimal and highlight the essential changes. After it was accepted, I submitted a separate PR [#3655](https://github.com/gohugoio/hugo/pull/3655) for the cosmetic changes. I didn't care if the second PR would be accepted or not.
 
 In terms of cosmetic changes, Leonardo actually paid close attention to my coding style, and tried to use `=` instead of `<-` for assignments. That was very considerate of him. However, he can only win the second-place award for being considerate of Yihui's coding style this week, because Ian Lyttle will definitely win the first-place award for his PR [rstudio/blogdown#265](https://github.com/rstudio/blogdown/pull/265): I didn't ask him to use the style
