@@ -4,7 +4,7 @@ date: '2018-08-09'
 slug: make-active-binding
 ---
 
-Of course, this is a follow-up post on my previous follow-up post on [lazy evaluation](/en/2018/07/lazy-evaluation/). One commenter (Michael---I believe I know this Michael) of that post pointed out the function `makeActiveBinding()` in base R. I have almost forgotten it. It was once the most magical function in my eyes, and was the foundation of one of my only two academic papers, "[Reactive Programming for Interactive Graphics](https://projecteuclid.org/euclid.ss/1408368571)".
+Of course, this is a follow-up post on my previous follow-up post on [lazy evaluation](/en/2018/07/lazy-evaluation/). One commenter (Michael---I believe I know this Michael) of that post pointed out the function `makeActiveBinding()` in base R. I have almost forgotten it. It was once the most magical function in my eyes, and was the foundation of one of my only two academic papers, "[Reactive Programming for Interactive Graphics](https://projecteuclid.org/euclid.ss/1408368571)" (Xie _et al_ 2014).
 
 ![Figure 2 in the paper](https://user-images.githubusercontent.com/163582/43879425-a5818b36-9b69-11e8-98d8-51db61c66a2f.png#border)
 
@@ -35,7 +35,7 @@ When you try to _get_ the value of `sword`, the argument `i` of the function wil
 
 ## A toy implementation of Shiny
 
-Active bindings can be a lot of fun to play with, simply because a function is executed no matter you try to obtain or set the value of an object. When you have a function, you have the full control of the world. I have shown an example of brushing a scatterplot in the paper I mentioned in the beginning of this post. Next I'm going to show a super naive implementation of [Shiny](https://shiny.rstudio.com) based on active bindings.
+Active bindings can be a lot of fun to play with, simply because a function is executed no matter if you try to obtain or set the value of an object. When you have a function, you have the full control of the world. I have shown an example of brushing a scatterplot in the paper I mentioned in the beginning of this post. Next I'm going to show a super naive implementation of [Shiny](https://shiny.rstudio.com) based on active bindings.
 
 ```r
 input  = new.env()
@@ -124,3 +124,7 @@ makeActiveBinding('open', function() {
 Then when you type `open` in the R console, your current working directory should be opened in your file viewer. This example only works on macOS. For other OSes, you need other commands (perhaps `xdg-open` for Linux, and `shell.exec()` for Windows).
 
 The object can be viewed as an alias of a function, in which you can run arbitrary commands. The only advantage of using active bindings in this case is that it saves you a pair of parentheses, because typically you would define a function instead: `open = function() system('open .')`, and call `open()`. Perhaps being cool is also an advantage.
+
+## Appendix: choose a type of pizza
+
+Colin Fay wrote a blog post on [active bindings (and pizza)](https://colinfay.me/ractivebinfing/) last year, which I believe is a much better tutorial than my post here. I recommend you to read that post, too.
