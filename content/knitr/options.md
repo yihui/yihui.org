@@ -118,8 +118,12 @@ Below is a list of chunk options in **knitr**. Note the options `background` and
 
 ## Code Decoration
 
-- `tidy`: (`FALSE`; logical) whether R code should be tidied up using the function `tidy_source()` in the **formatR** package; if it failed to tidy up, original R code will not be changed; `tidy=TRUE` is like `keep.source=FALSE` in Sweave, but it also tries not to discard R comments (N.B. this option does not work in certain cases; see <http://yihui.name/formatR> for more information)
-  - `tidy.opts`: (`NULL`; list) a list of options to be passed to `tidy.source()`, e.g. `tidy.opts=list(blank=FALSE, width.cutoff=60)`; these **formatR** options can also be set globally via `options()`
+- `tidy`: (`FALSE`) whether to reformat the R code; other possible values are:
+    - `TRUE` (equivalent to `'formatR'`): use `formatR::tidy_source()` to reformat the code;
+    - `'styler'`: use `styler::style_text()` to reformat the code;
+    - a custom function of the form `function(code, ...) {}` to return the reformatted code;
+    - if reformatting failed, the original R code will not be changed (with a warning)
+- `tidy.opts`: (`NULL`; list) a list of options to be passed to the function determined by the `tidy` option, e.g., `tidy.opts = list(blank = FALSE, width.cutoff = 60)` for `tidy = 'formatR'` to remove blank lines and set the approximate line width to be 60
 - `prompt`: (`FALSE`; logical) whether to add the prompt characters in the R code (see `prompt` and `continue` in `?base::options`; note that adding prompts can make it difficult for readers to copy R code from the output, so `prompt=FALSE` may be a better choice
   - this option may not work well when the chunk option `engine` is not `R` ([#1274](https://github.com/yihui/knitr/issues/1274))
 - `comment`: (`'##'`; character) the prefix to be put before source code output; default is to comment out the output by `##`, which is good for readers to copy R source code since output is masked in comments (set `comment=NA` to disable this feature)
