@@ -18,6 +18,8 @@ Emi said [it was heck of a praise](https://twitter.com/statsgen/status/102311851
 
 - She wrote [one of the bestest **blogdown** tutorials](https://twitter.com/statsgen/status/993003327074926592) (the level of details is amazing).
 
+- And [people truly appreciated](https://twitter.com/certifiedwaif/status/1029640487399915520) her **blogdown** seminar.
+
 - Her website is one of the most beautiful websites I have seen. In particular, [everyone loved her showcase.](https://twitter.com/statsgen/status/990422351593406464) Did I mention that it was actually one of the four websites I highlighted [in the R Markdown book](https://bookdown.org/yihui/rmarkdown/basics-examples.html)?
 
 - [The shiny custom loader.](https://twitter.com/statsgen/status/972727676459872256) Hahaha. [Super fun](https://twitter.com/statsgen/status/975321139550478336), and magic.
