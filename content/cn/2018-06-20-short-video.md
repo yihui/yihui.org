@@ -18,7 +18,7 @@ slug: short-video
 
 > I'm not a big fan of traditional education. My five kids have never been to school, and when I tried, it was slow and tedious. While I don't like school, I'm a huge fan of education.
 
-嚯，五个孩子都没上过学，真是一位猛士。这观点我也很同意，我一样不想让我的娃将来用传统教育的方式上学。我不知道他是否在暗地里引用[马克吐温的名言](http://www.loyhome.com/%E8%83%8C%E6%99%AF/)：别让学校耽误了你娃的教育（Don't let your boy's schooling interfere with his education）。我个人只看重学校的一点特征，就是社交，在那个集体里可以与人互动。至于学知识，我们真的还需要依赖实体的教室和老师吗？何况社交这个技能，学校也不一定是最好的环境。
+嚯，五个孩子都没上过学，真是一位猛士。这观点我也很同意，我一样不想让我的娃将来用传统教育的方式上学。我不知道他是否在暗地里引用[马克吐温的名言](http://www.loyhome.com/%E8%83%8C%E6%99%AF/)：别让上学耽误了你娃的教育（Don't let your boy's schooling interfere with his education）。我个人只看重学校的一点特征，就是社交，在那个集体里可以与人互动。至于学知识，我们真的还需要依赖实体的教室和老师吗？何况社交这个技能，学校也不一定是最好的环境。
 
 第三点是如何寻求比你厉害的人的帮助：
 
