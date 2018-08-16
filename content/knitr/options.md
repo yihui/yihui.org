@@ -269,6 +269,9 @@ There are two hidden options which are not designed to be set by the users: `fig
 ## Animation
 
 - `interval`: (`1`; numeric) number of seconds to pause between animation frames
+- `animation.hook`: (`knitr::hook_ffmpeg_html`; function or character) a hook function to create animations in HTML output; the default hook uses FFmpeg to convert images to a WebM video
+    - another hook function is `knitr::hook_gifski` (available in **knitr** >= v1.20.13) based on the [**gifski**](https://cran.r-project.org/package=gifski) package to create a GIF animation
+    - this option can also take a character string `'ffmpeg'` or `'gifski'` as a shorthand of the corresponding hook function (e.g., `animation.hook = 'gifski'` means `animation.hook = knitr::hook_gifski`)
 - `aniopts`: (`'controls,loop'`) extra options for animations; see the documentation of the [animate package](http://www.ctan.org/tex-archive/macros/latex/contrib/animate)
 - `ffmpeg.bitrate` (`1M`; character) to be passed to the `-b:v` argument of FFmpeg to control the quality of WebM videos created from FFmpeg
 - `ffmpeg.format` (`webm`; character) the video format of FFmpeg, i.e. the filename extension of the video
@@ -328,7 +331,6 @@ See `?opts_knit` for the alternative approach to setting package options using t
 
 All package options are:
 
-- `animation.fun`: (`hook_ffmpeg_html`) a hook function to create animations in HTML output; the default hook uses FFmpeg to convert images to an MP4 video
 - `aliases`: (`NULL`) a named character vector to specify the aliases of chunk options, e.g. `c(h = 'fig.height', w = 'fig.width')` tells **knitr** that the chunk option `h` really means `fig.height`, and `w` is an alias for `fig.width`; this option can be used to save some typing efforts for long option names
 - `base.dir`: (`NULL`) an absolute directory under which the plots are generated
 - `base.url`: (`NULL`) the base url for HTML pages
