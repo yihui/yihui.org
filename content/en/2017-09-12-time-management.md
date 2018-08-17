@@ -26,4 +26,6 @@ As a procrastinator, I have read a lot of articles and posts on time management 
 
 - Daniel Gross: [The Psychology of Dread Tasks](https://dcgross.com/accomplish-dread-tasks/)
 
+- James Clear: [The Akrasia Effect](https://jamesclear.com/akrasia)
+
 To be continued...
