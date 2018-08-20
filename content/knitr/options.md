@@ -295,12 +295,12 @@ There are two hidden options which are not designed to be set by the users: `fig
 ## Language Engines
 
 - `engine`: (`'R'`; character) the language name of the code chunk; currently other possible values are `'python'` and `'awk'`/`'gawk'`; the object `knit_engines` in this package can be used to set up engines for other languages
-- `engine.path` (`NULL`; character): the path to the executable of the `engine`; this option makes it possible to use alternative executables in your system, e.g., the default `python` may be at `/usr/bin//python`, and you may set `engine.path = '~/anaconda/bin//python'` to use a different version of Python
+- `engine.path` (`NULL`; character): the path to the executable of the `engine`; this option makes it possible to use alternative executables in your system, e.g., the default `python` may be at `/usr/bin/python`, and you may set `engine.path = '~/anaconda/bin/python'` to use a different version of Python
     - `engine.path` can also be a list of paths, which makes it possible to set different engine paths for different engines, e.g.,
 
         ```r
         knitr::opts_chunk$set(engine.path = list(
-          python = '~/anaconda/bin//python',
+          python = '~/anaconda/bin/python',
           ruby = '/usr/local/bin/ruby'
         ))
         ```
