@@ -83,9 +83,8 @@ TinyTeX is still a relatively new project, so these are only potential FAQs.
     First, add two options `--admin --no-path` to the installation script:
 
     ```sh
-    wget -qO- \
-      "https://github.com/yihui/tinytex/raw/master/tools/install-unx.sh" | \
-      sh -s - --admin --no-path
+    wget -qO- "https://yihui.name/gh/tinytex/tools/install-unx.sh" \
+      | sh -s - --admin --no-path
     ```
     
     This will install TinyTeX to `~/.TinyTeX`, and this step does _not_ require root privileges. Then you need to add symlinks to `/usr/local/bin` via `sudo`, so that all users of this system can use the TeX Live executables (e.g., `pdflatex`):
