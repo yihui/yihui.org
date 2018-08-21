@@ -9,7 +9,7 @@ TinyTeX is still a relatively new project, so these are only potential FAQs.
 
     The (very) latest. Using the very latest version of a software package can be risky. You have been warned. On the other hand, however, let's not pretend we haven't run into problems using the "stable" versions of TeX Live.
     
-    Latest or stable? Your call. If you are not comfortable with the latest version, you should not consider TinyTeX.
+    Latest or stable? Your call. If you are not comfortable with the latest version, TinyTeX is probably not a good choice. Note that you can install the current latest version, and choose not to upgrade in the future if the version happens to be "stable" enough for you, though.
 
 1. **Do you provide prebuilt binaries of TinyTeX?**
 
@@ -147,7 +147,7 @@ TinyTeX is still a relatively new project, so these are only potential FAQs.
     
     This package was built by running [`equivs-build`](http://manpages.ubuntu.com/manpages/trusty/man1/equivs-build.1.html) on [debian-control-texlive-in.txt](https://github.com/scottkosty/install-tl-ubuntu/blob/master/debian-control-texlive-in.txt) (credits to Scott Kostyshak). Basically it pretends all `texlive` packages have been installed (which is not true), so that you can have the full freedom (and responsibility!) of choosing which LaTeX packages to install by yourself.
 
-    Personally, I don't like the way that all LaTeX packages are distributed on Linux (e.g., Debian) as `texlive-*` packages, and each `texlive-*` package contains several LaTeX packages. That means you must install several other LaTeX packages even if you only need one. Imagine as an R user (or Python, or other languages): if someone prebuilds the more than 10,000 R packages on CRAN as 20 _collections_ of packages, what do you feel when you only need the **ggplot2** package but are forced to install all possible packages related to **ggplot2**? Obviously the advantage of providing these collections is that you may not need to install missing packages over and over again (who knows), but I'd prefer a lean TeX Live distribution and install packages by myself (which is not difficult at all to me).
+    Personally, I don't like the way that all LaTeX packages are distributed on Linux (e.g., Debian) as `texlive-*` packages, and each `texlive-*` package contains several LaTeX packages. That means you must install several other LaTeX packages even if you only need one. Imagine as an R user (or Python, or other languages): if someone prebuilds the more than 10,000 R packages on CRAN as 20 _collections_ of packages, what do you feel when you only need the **ggplot2** package but are forced to install all possible packages related to data visualization? Obviously the advantage of providing these collections is that you may not need to install missing packages over and over again (who knows), but I'd prefer a lean TeX Live distribution and install packages by myself (which is not difficult at all to me).
 
 1. **Can I change the installation directory?**
 
@@ -194,7 +194,6 @@ TinyTeX is still a relatively new project, so these are only potential FAQs.
     
     ```r
     tinytex::reinstall_tinytex()
-    # if function unavailable, try devtools::install_github('yihui/tinytex')
     ```
     
     If you do not use R, you can retrieve the list of packages and install them later:

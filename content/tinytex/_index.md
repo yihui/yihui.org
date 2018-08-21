@@ -4,38 +4,34 @@ date: '2017-12-02'
 subtitle: A lightweight, cross-platform, portable, and easy-to-maintain LaTeX distribution based on TeX Live
 ---
 
-The installation and maintenance of LaTeX have bothered me for several years. Yes, there are MiKTeX, MacTeX, and TeX Live, but the common problems are:
+TinyTeX is a custom LaTeX distribution based on TeX Live that is small in size but functions well in most cases, especially for R users. If you run into the problem of missing LaTeX packages, it should be super clear to you what you need to do (in fact, R users won't need to do anything). _You only install LaTeX packages you actually need._
 
-1. You have to either install a basic version that is relatively small (several hundred MB) but basically doesn't work, because it is very likely that certain frequently used LaTeX packages are missing; or you install the full version that is several GB, but in your whole life, you probably will only use 1% of the packages.
-
-2. The documentation for installation and maintenance is often way too long for beginners. For example, I doubt if anyone has the courage or patience to read [the `tlmgr` manual](https://www.tug.org/texlive/doc/tlmgr.html) (yes, it is very useful, thanks to the TeX Live team).
-
-Fortunately, there is a nice way out based on TeX Live. TeX Live is great: it is cross-platform (yes, it works on Windows, too), and it _can_ be portable. We just need to make it lightweight, and easier to maintain.
-
-## Philosophy
-
-TinyTeX is a custom (and probably opinionated) LaTeX distribution based on TeX Live that is small in size but still functions well in most cases. Even if you run into the problem of missing LaTeX packages, it should be super clear to you what you need to do. _You only install LaTeX packages you actually need._ The manual should be at most two pages long.
-
-Please note that TinyTeX assumes that you are not afraid of using the command line. If you are, please use other popular LaTeX distributions instead. In fact, there is only one single command that you need to know: `tlmgr`. It is probably not too scary.
-
-TinyTeX only provides an installation script that downloads and installs TeX Live over the network. It may take a couple of minutes, depending on your network speed. Before you install TinyTeX, I recommend that _you uninstall your existing LaTeX distribution_. Currently TinyTeX works best for R users, but it should not be too hard for other users to use.
+TinyTeX only provides an installation script that downloads and installs TeX Live over the network. It may take a couple of minutes, depending on your network speed. Before you install TinyTeX, I recommend that _you uninstall your existing LaTeX distribution_. Currently TinyTeX works best for R users. Other users can use it, too (it is just that missing LaTeX packages won't be automatically installed).
 
 ## For R Users
 
-Installing and maintaining TinyTeX are easy for R users, since [the R package **tinytex**](/tinytex/r/) has provided wrapper functions.^[Note that when we say **tinytex** (lower case), we mean the R package. TinyTeX means the LaTeX distribution.] To install TinyTeX:
+Installing and maintaining TinyTeX are easy for R users, since [the R package **tinytex**](/tinytex/r/) has provided wrapper functions (N.B. the lowercase and bold **tinytex** means _the R package_, and the camel-case TinyTeX means _the LaTeX distribution_). You can use **tinytex** to install TinyTeX:
 
 ```r
-install.packages(c('tinytex', 'rmarkdown'))
+install.packages('tinytex')
 tinytex::install_tinytex()
 ```
 
-What `install_tinytex()` does will be explained later. If you need to uninstall TinyTeX, run `tinytex::uninstall_tinytex()`. To compile an R Markdown document to PDF, there is nothing else you have to know. To compile a LaTeX document to PDF, call one of these functions (depending on the LaTeX engine you want to use) in **tinytex**: `pdflatex()`, `xelatex()`, and `lualatex()`. If these functions detect LaTeX packages required but not installed in TinyTeX, they will automatically install the missing packages by default.
+What `install_tinytex()` does will be explained later. If you need to uninstall TinyTeX, run `tinytex::uninstall_tinytex()`. To compile an R Markdown document to PDF, there is nothing else you have to know. To compile a LaTeX document to PDF, call one of these functions (depending on the LaTeX engine you want to use) in **tinytex**: `pdflatex()`, `xelatex()`, and `lualatex()`. When these functions detect LaTeX packages required but not installed in TinyTeX, they will automatically install the missing packages by default.
 
 ```r
+# writeLines(c(
+#   '\\documentclass{article}',
+#   '\\begin{document}', 'Hello world!', '\\end{document}'
+# ), 'test.tex')
 tinytex::pdflatex('test.tex')
 ```
 
+That is all an average R user needs to know. If you do not use R, you need to know one more thing: the `tlmgr` command.
+
 ## For Other Users
+
+TinyTeX assumes that you are not afraid of using the command line. If you are, please use other popular LaTeX distributions instead. In fact, there is only one single command that you need to know: `tlmgr`. It is probably not too scary.
 
 ### Installation
 
@@ -80,25 +76,25 @@ This section is only for those who are _not_ R Markdown users --- everything is 
 If you compile a LaTeX document and run into an error message like this:
 
 ```
-! LaTeX Error: File `framed.sty' not found.
+! LaTeX Error: File `times.sty' not found.
 
 Type X to quit or <RETURN> to proceed,
 or enter new name. (Default extension: sty)
 ```
 
-It basically indicates a missing LaTeX package. Do not panic. Open a command window, and use the command `tlmgr search --global --file` followed by the filename,^[Add a forward slash before the filename for an exact match. Without the slash, other packages may be matched, e.g., `mdframed.sty`.] e.g.,
+It basically indicates a missing LaTeX package. Do not panic. Open a command window, and use the command `tlmgr search --global --file` followed by the filename,^[Add a forward slash before the filename for an exact match. Without the slash, other packages may be matched, e.g., `chemtimes.sty`.] e.g.,
 
 ```sh
-$ tlmgr search --global --file "/framed.sty"
-framed:
-        texmf-dist/tex/latex/framed/framed.sty
+$ tlmgr search --global --file "/times.sty"
+psnfss:
+        texmf-dist/tex/latex/psnfss/times.sty
 ...
 ```
 
-Find the package that contains the file with the exact name in the error log above. In this case, the missing package is `framed` (not `mdframed` or other packages), and we can install a package via `tlmgr install`, e.g.,
+Find the package that contains the file with the exact name in the error log above. In this case, the missing package is `psnfss`, and we can install a package via `tlmgr install`, e.g.,
 
 ```sh
-tlmgr install framed
+tlmgr install psnfss
 ```
 
 If you still see error messages that you don't understand, you may update everything:
@@ -113,19 +109,28 @@ For R users, you can use the corresponding helper functions. Some examples:
 
 ```r
 library(tinytex)
-tlmgr_search('/framed.sty')  # search for framed.sty
-tlmgr_install('framed')      # install the framed package
-tlmgr_update()               # update everything (usually not necessary)
+tlmgr_search('/times.sty')   # search for times.sty
+tlmgr_install('psnfss')      # install the psnfss package
+tlmgr_update()               # update everything
 ```
 
-If you see an error message "Remote repository newer than local", it means you need to upgrade (reinstall) TinyTeX:
+If you see an error message "Remote repository newer than local", it means it is time for you need to upgrade (reinstall) TinyTeX annually:
 
 ```r
-devtools::install_github('yihui/tinytex')
 tinytex::reinstall_tinytex()
 ```
 
 That is all for an average user. Read [the FAQ page](/tinytex/faq/) if you wish to know more technical details about TinyTeX.
+
+## Motivation
+
+The installation and maintenance of LaTeX have bothered me for several years. Yes, there are MiKTeX, MacTeX, and TeX Live, but the common problems are:
+
+1. You have to either install a basic version that is relatively small (several hundred MB) but basically doesn't work, because it is very likely that certain frequently used LaTeX packages are missing; or you install the full version that is several GB, but in your whole life, you probably will only use 1% of the packages.
+
+2. The documentation for installation and maintenance is often way too long for beginners. For example, I doubt if anyone has the courage or patience to read [the `tlmgr` manual](https://www.tug.org/texlive/doc/tlmgr.html) (yes, it is very useful, thanks to the TeX Live team).
+
+Fortunately, there is a nice way out based on TeX Live. TeX Live is great: it is cross-platform (yes, it works on Windows, too), and it _can_ be portable. We just need to make it lightweight, and easier to maintain, so here comes TinyTeX.
 
 ## Acknowledgements
 
