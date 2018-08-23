@@ -38,6 +38,6 @@ This morning I opened the help page `?installed.packages`, and saw the argument 
 
 Strunk and White actually recommended in _The Elements of Style_ that "we put statements in positive form", which I believe also applies to program code.
 
-Well, if you look at `?download.file`, there is an argument `cacheOK = TRUE`. Sigh... Why the name `cacheOK`? Why not just `cache = TRUE`? `cacheOK = TRUE` reads like "the statement 'it is okay to use cache' is true". Double affirmatives this time?
+Well, if you look at `?download.file`, there is an argument `cacheOK = TRUE`. Sigh... Why the name `cacheOK`? Why not just `cache = TRUE`? `cacheOK = TRUE` reads like "the statement 'it is okay to use cache' is okay". Double affirmatives this time?
 
 Once again: naming, is, hard.
