@@ -1,5 +1,5 @@
 ---
-title: 娱乐至死
+title: 《娱乐至死》笔记
 date: '2018-04-12'
 slug: amusing-ourselves-to-death
 ---
