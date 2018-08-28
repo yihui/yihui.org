@@ -30,4 +30,4 @@ A和B的序列在下面的Flash动画中分别由x1（上）和x2（下）表示
 
 <embed width="600" height="400" src="http://animation.r-forge.r-project.org/swf/fair-coin.swf" type="application/x-shockwave-flash">
 
-我不是完全在开玩笑，国外有人真的做过这方面的理论，将假设检验的理论与图形检验的理论对应，不过时间太长我忘了是谁。如果lixiaoxu老师看到这篇日志，还请对这个试验多多提出宝贵建议：）
+我不是完全在开玩笑，国外有人真的做过这方面的理论，将假设检验的理论与图形检验的理论对应，不过时间太长我忘了是谁。如果李晓煦老师看到这篇日志，还请对这个试验多多提出宝贵建议：）
