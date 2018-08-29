@@ -112,7 +112,7 @@ tlmgr_install('psnfss')      # install the psnfss package
 tlmgr_update()               # update everything
 ```
 
-If you see an error message "Remote repository newer than local", it means it is time for you need to upgrade (reinstall) TinyTeX annually:
+If you see an error message "Remote repository newer than local", it means it is time for you to upgrade (reinstall) TinyTeX annually:
 
 ```r
 tinytex::reinstall_tinytex()
