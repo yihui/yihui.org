@@ -174,6 +174,16 @@ TinyTeX is still a relatively new project, so these are only potential FAQs.
 1. **How can I use TinyTeX on a USB drive or other portable devices?**
 
     As I said, TinyTeX is a portable version of TeX Live, so you can simply copy it to a portable device. The only thing you need to do after you plug the device to another computer is run the command `tlmgr path add`. Again, you need the full path to `tlmgr` in your portable device (see the the previous FAQ). After you run this command and restart the application, you should be able to run `tlmgr` without its full path.
+
+    If you are an R user, the above steps can be done with two functions:
+    
+    ```r
+    # copy an existing TinyTeX installation (to your portable device)
+    tinytex::copy_tinytex()
+    # tell me where TinyTeX is on your device, and I'll run
+    # tlmgr path add
+    tinytex::use_tinytex()
+    ```
     
     Note that TinyTeX installed on one platform will only work for the same platform, e.g., the Windows version only works for Windows. You cannot copy, for example, a macOS version of TinyTeX, and use it on a Windows machine.
     
