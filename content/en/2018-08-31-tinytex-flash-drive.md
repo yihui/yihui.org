@@ -17,13 +17,13 @@ Yesterday I pushed a new version (v0.8) of the R package **tinytex** [to CRAN](h
 
 1. `tinytex::use_tinytex()` asks you the location of TinyTeX, so that **tinytex** can find it later when compiling LaTeX documents. By default, it also pops up a dialog asking you to choose the TinyTeX folder, which can be on your flash drive.
 
-    Under the hood, it runs the command `tlmgr path add` to add TinyTeX to the environment variable `PATH` of your system (or create symlinks of TinyTeX's executables that can be found via `PATH`). If this fails, you still have the fallback plan. That is, set the global option `tinytex.tlmgr.path` and point it to the executable `tlmgr` in your system, e.g.,
+    Under the hood, it runs the command `tlmgr path add` to add TinyTeX to the environment variable `PATH` of your system (or create symlinks of TinyTeX's executables that can be found via `PATH`). If this fails, you still have a fallback plan. That is, set the global option `tinytex.tlmgr.path` and point it to the executable `tlmgr` in your system, e.g. (remember to replace the path in the example with the actual path to your TinyTeX),
 
     ```r
-    # Windows
+    # a Windows example
     options(tinytex.tlmgr.path = 'E:/Software/TinyTeX/bin/win32/tlmgr.bat')
     
-    # macOS
+    # a macOS example
     options(tinytex.tlmgr.path = '~/Dropbox/TinyTeX/bin/x86_64-darwin/tlmgr')
     ```
 
