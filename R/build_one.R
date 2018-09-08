@@ -8,7 +8,7 @@ local({
 
   # for external Rmd, '../../foo/bar/hi.Rmd' -> 'hi'; for internal,
   # content/foo/bar/hi.Rmd -> foo/bar/hi
-  d = knitr:::sans_ext(
+  d = xfun::sans_ext(
     if (a[3] == 'TRUE') basename(a[1]) else gsub('^content/', '', a[1])
   )
   knitr::opts_chunk$set(
