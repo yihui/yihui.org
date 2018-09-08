@@ -1,7 +1,7 @@
 ---
 title: "An Introduction to the printr Package"
 author: "Yihui Xie"
-date: "2017-05-18"
+date: "2018-09-08"
 slug: printr
 show_toc: yes
 githubEditURL: https://github.com/yihui/printr/edit/master/vignettes/printr.Rmd
@@ -20,7 +20,7 @@ The **printr** (read "printer" or "print R") package is a companion package to
 [**knitr**](https://yihui.name/knitr/). Its main purpose is to extend the S3
 generic function `knit_print()` in **knitr**, which is the default value of the
 chunk option `render`, as explained in the vignette
-[knit_print.html](https://cran.rstudio.org/web/packages/knitr/vignettes/knit_print.html).
+[knit_print.html](https://cran.r-project.org/web/packages/knitr/vignettes/knit_print.html).
 
 # Overview
 
@@ -330,11 +330,21 @@ Usage:
 
      coef(object, ...)
      coefficients(object, ...)
+     ## Default S3 method:
+     coef(object, complete = TRUE, ...)
+     ## S3 method for class 'aov'
+     coef(object, complete = FALSE, ...)
      
 Arguments:
 
   object: an object for which the extraction of model coefficients is
           meaningful.
+
+complete: for the default (used for 'lm', etc) and 'aov' methods:
+          logical indicating if the full coefficient vector should be
+          returned also in case of an over-determined system where some
+          coefficients will be set to 'NA', see also 'alias'.  Note
+          that the default _differs_ for 'lm()' and 'aov()' results.
 
      ...: other arguments.
 
@@ -344,8 +354,15 @@ Details:
      should provide a 'coef' method or use the default one.  (Note that
      the method is for 'coef' and not 'coefficients'.)
 
-     Class '"aov"' has a 'coef' method that does not report aliased
-     coefficients (see 'alias').
+     The '"aov"' method does not report aliased coefficients (see
+     'alias') by default where 'complete = FALSE'.
+
+     The 'complete' argument also exists for compatibility with 'vcov'
+     methods, and 'coef' and 'aov' methods for other classes should
+     typically also keep the 'complete = *' behavior in sync.  By that,
+     with 'p <- length(coef(obj, complete = TF))', 'dim(vcov(obj,
+     complete = TF)) == c(p,p)' will be fulfilled for both 'complete'
+     settings and the default.
 
 Value:
 
@@ -510,28 +527,30 @@ Description:
 
 Package:            printr
 Type:               Package
-Title:              Automatically Print R Objects to Different Formats According to the
+Title:              Automatically Print R Objects to Appropriate Formats According to the
                     'knitr' Output Format
 Version:            0.1
 Date:               2017-05-19
 Author:             Yihui Xie
 Maintainer:         Yihui Xie <xie@yihui.name>
-Description:        Extends the S3 generic function knit_print() in knitr to
+Description:        Extends the S3 generic function knit_print() in 'knitr' to
                     automatically print some objects using an appropriate format such as
                     Markdown or LaTeX. For example, data frames are automatically printed
-                    as tables, and the help() pages can also be rendered in knitr
+                    as tables, and the help() pages can also be rendered in 'knitr'
                     documents.
-Imports:            knitr (>= 1.11)
+Imports:            knitr (>= 1.16)
 Suggests:           tools, rmarkdown
 License:            GPL
-URL:                http://yihui.name/printr
+URL:                https://yihui.name/printr/
 BugReports:         https://github.com/yihui/printr/issues
 VignetteBuilder:    knitr
 LazyData:           TRUE
 RoxygenNote:        6.0.1
 NeedsCompilation:   no
-Packaged:           2017-05-18 20:44:47 UTC; yihui
-Built:              R 3.4.0; ; 2017-05-18 20:44:47 UTC; unix
+Packaged:           2017-05-18 21:08:46 UTC; yihui
+Repository:         CRAN
+Date/Publication:   2017-05-19 06:24:13 UTC
+Built:              R 3.5.0; ; 2018-04-24 08:43:11 UTC; unix
 
 Index:
 

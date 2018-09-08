@@ -97,7 +97,7 @@ You certainly do not want to type these commands repeatedly. Unfortunately, due 
 So let's start hacking and find a button to click. I have been secretly hacking the `Build & Reload` button in my RStudio IDE for a long time. If you open this **rlp** package in RStudio, and go to `Tools -> Project Options -> Build Tools`, you will see a weird configuration:
 
 ```bash
--v && Rscript -e "Rd2roxygen::rab(install=TRUE,before=system('make'))"
+-v && Rscript -e "Rd2roxygen::rab(install=T,before=system('make'))"
 ```
 
 At this moment, I'm not going to explain what it means since it is just a dirty hack, and please do not ask me, either. Let's wait for the RStudio IDE to give us more freedom to customize the package build options in the future. If you are interested in the idea of LP for R packages, just copy my configuration, but bear in mind that it may stop working at some point. I will update this document when that happens.
@@ -105,7 +105,7 @@ At this moment, I'm not going to explain what it means since it is just a dirty 
 Note `Rd2roxygen::rab()` is my own way of building R packages, and you certainly do not have to follow it. For example, if you are more comfortable with **devtools**, you can do^[Remember to replace `rlp` with your package name.]:
 
 ```bash
--v && make -C rlp && Rscript -e "devtools::install('rlp',keep_source=T)"
+-v && make -C rlp && Rscript -e "devtools::install('rlp')"
 ```
 
 # Call Functions in This Package
@@ -240,7 +240,7 @@ c(a - z * s, a + z * s)  # a 95% CI
 ```
 
 ```
-## [1] 3.875568 6.726619
+## [1] 3.876 6.727
 ```
 
 Below is a histogram of the simulated data, with the true density curve, the true mean (solid vertical line), and the estimated mean (dashed line):^[The mean of the Gamma distribution is `\(\alpha/\beta\)`.]

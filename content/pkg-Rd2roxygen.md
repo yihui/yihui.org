@@ -2,7 +2,7 @@
 title: Rd2roxygen
 subtitle: Convert Rd to roxygen documentation
 author: "Yihui Xie"
-date: '2017-06-07'
+date: '2018-09-08'
 slug: Rd2roxygen
 show_toc: true
 githubEditURL: https://github.com/yihui/Rd2roxygen/edit/master/vignettes/Rd2roxygen.Rmd
@@ -18,7 +18,7 @@ vignette: >
 
 The package [**Rd2roxygen**](https://github.com/yihui/Rd2roxygen) helps R package developers who
 used to write R documentation in the raw LaTeX-like commands but now want to
-switch their documentation to [**roxygen2**](https://cran.rstudio.org/package=roxygen2), which is a
+switch their documentation to [**roxygen2**](https://cran.r-project.org/package=roxygen2), which is a
 convenient tool for developers, since we can write documentation as inline
 comments, e.g.
 
@@ -30,15 +30,15 @@ cat(readLines(ex.file), sep = "\n")
 ```
 
 ```
-##' Parse the input Rd file and save the roxygen documentation into a file.
-##'
-##' @param path the path of the Rd file
-##' @param file the path to save the roxygen documentation
-##' @param usage logical: whether to include the usage section in the output
-##' @return a character vector if \code{file} is not specified, or write the vector
-##' into a file
-##' @export
-##' @author Hadley Wickham; modified by Yihui Xie <\url{http://yihui.name}>
+#' Parse the input Rd file and save the roxygen documentation into a file.
+#'
+#' @param path the path of the Rd file
+#' @param file the path to save the roxygen documentation
+#' @param usage logical: whether to include the usage section in the output
+#' @return a character vector if \code{file} is not specified, or write the
+#'   vector into a file
+#' @export
+#' @author Hadley Wickham; modified by Yihui Xie <\url{http://yihui.name}>
 parse_and_save <- function(path, file, usage = FALSE) {
   parsed <- parse_file(path)
   output <- create_roxygen(parsed, usage = usage)
