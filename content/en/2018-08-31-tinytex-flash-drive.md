@@ -27,7 +27,7 @@ Yesterday I pushed a new version (v0.8) of the R package **tinytex** [to CRAN](h
     options(tinytex.tlmgr.path = '~/Dropbox/TinyTeX/bin/x86_64-darwin/tlmgr')
     ```
 
-    You can do this in your `~/.Rprofile` or a code chunk of an R Markdown document that generates PDF output.
+    You can do this in your `~/.Rprofile` (recommended) or a code chunk of an R Markdown document that generates PDF output. Don't set this option in your R console unless you are trying to generate PDF in the R console via functions like `rmarkdown::render()` or `knitr::knit2pdf()`.
 
 One folder to rule them all. No dependency hell. No waste of disk space. No IT support. Just help yourself.
 
