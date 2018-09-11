@@ -122,7 +122,7 @@ The main lesson I learned from this part of Joel's slides (#91-102) is that user
 
 On slide #102, I'm curious since Joel doesn't like notebooks, why did he use the notebook format himself to file [the Github issue](https://github.com/chimpler/pyhocon/issues/171)? Did he just file the issue for someone else who passed a notebook to him? I didn't get the point of this slide (maybe I should watch the video recording if it exists somewhere).
 
-Anyway, Jupyter notebooks are not easy to copy and paste because they are not plain text. Well, they are, but they are essentially JSON and feel more like Word instead of the plain text in the sense of `.txt`. By comparison, R Markdown documents are true plain text (in the sense of `.txt`), so you can easily `Ctrl + C` and `Ctrl + V` (or `Command + C/V`).
+Anyway, Jupyter notebooks are not easy to copy and paste because they are not plain text. Well, they are, but they are essentially JSON and feel more like Word (essentially XML) instead of the plain text in the sense of `.txt`. By comparison, R Markdown documents are true plain text (in the sense of `.txt`), so you can easily `Ctrl + C` and `Ctrl + V` (or `Command + C/V`).
 
 ### 9. Errors will always halt execution
 
@@ -213,7 +213,7 @@ add_one = function(x) {
 ```
 ````
 
-If you don't want to repeat the code of the code chunk `func-full` in the output document, you can add the chunk option `echo=FALSE`, e.g.,
+If you don't want to display the R source code of the chunk `func-full` in the output document (because you have already displayed the three parts before), you can add the chunk option `echo=FALSE`, e.g.,
 
 ````md
 ```{r, func-full, echo=FALSE, ref.label=c('func-def', 'func-body', 'func-end')}
@@ -330,7 +330,7 @@ What was the real problem above? I think it is that the expectation of going fro
 
 In short, chances are your first notebook will/should not be your final product (e.g., a customer report).
 
-## `xaringan::inf_mr()`, another (lesser known/unpopular) solution to the out-of-order execution problem
+## `xaringan::inf_mr()`, another (lesser-known/unpopular) solution to the out-of-order execution problem
 
 I mentioned four ways to compile an R Markdown document [in the Definitive Guide book](https://bookdown.org/yihui/rmarkdown/compile.html):
 
@@ -359,7 +359,7 @@ Besides, you can freely examine any objects created in your R Markdown document 
 
 As I mentioned in Problem #11 above, you can use the literate programming technique for programming. I have prepared [a concrete example](/rlp/) a couple of years ago. You can see how you could write code in small (incomplete) pieces in different chunks and compose them to a complete package. When reading that example, I strongly recommend that you also read its [R Markdown source document](https://github.com/yihui/rlp/edit/master/vignettes/LP-demo1.Rmd) on Github to know how it actually works.
 
-So yes, you _can_ develop software using literate programming and R Markdown (notebooks). The natural question is whether you _should_. To be honest, I will probably never use this technique to develop software. "Haha, Yihui, so you are only kidding us?" You may ask. No, I'm not. I still believe this technique has its unique advantage that cannot be found in traditional programming methods. That is, the rich documentation (narratives) to explain the code. The narratives can be infinitely _rich_ and _granular_: rich because you can write anything that the authoring language (e.g., Markdown) allows you to write (images, videos, and math equations, etc.), granular because your can break your long code into any number of smaller units and explain each unit.
+So yes, you _can_ develop software using literate programming and R Markdown (notebooks). The natural question is whether you _should_. To be honest, I will probably never use this technique to develop software. "Haha, Yihui, so you are only kidding us?" You may ask. No, I'm not. I still believe this technique has its unique advantage that cannot be found in traditional programming methods. That is, the rich documentation (narratives) to explain the code. The narratives can be infinitely _rich_ and _granular_: rich because you can write anything that the authoring language (e.g., Markdown) allows you to write (images, videos, and math equations, etc.), and granular because your can break your long code into any number of smaller units and explain each unit.
 
 Literate programming is unbeatable when you need to explain your code very clearly. Note that Knuth's original implementation was base on TeX (the authoring language) and Pascal (the computing language). To my knowledge, only a few people in the TeX community have adopted this technique---they use literate programming to explain TeX code.^[Is that because TeX code is particularly difficult to understand? I don't know. I don't understand TeX well.] The vast majority of programmers just use comments to explain code in software.
 
