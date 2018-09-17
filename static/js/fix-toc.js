@@ -5,6 +5,6 @@
   if (ul.childElementCount !== 1) return;
   li = ul.firstElementChild;
   if (li.tagName !== 'LI') return;
-  // remove <ul><li></li></ul> where only <ul> only contains one <li>
+  // remove <ul><li></li></ul> where <ul> only contains one <li>
   ul.outerHTML = li.innerHTML;
 })();
