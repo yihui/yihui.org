@@ -10,7 +10,7 @@ My previous long post on [the notebook war](/en/2018/09/notebook-war/) scratched
 
 ## Why code in the appendix
 
-Last week [Alex Hayes showed an interesting trick](https://twitter.com/alexpghayes/status/1039170310560464897) on how to put all your code in the appendix of a document. This can be very useful when you don't want to distract your readers with program code in the body of your report, but want to give those who care about the computational details a chance to know the details. An appendix will be the natural place to go for these code.
+Last week [Alex Hayes showed an interesting trick](https://twitter.com/alexpghayes/status/1039170310560464897) on how to put all your code in the appendix of a document. This can be very useful when you don't want to distract your readers with program code in the body of your report, but want to give those who care about the computational details a chance to know the details. An appendix will be the natural place to go for these code (especially when your output format is PDF or other formats to be printed).
 
 ## The magical ninja Alex's method
 
