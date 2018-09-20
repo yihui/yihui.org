@@ -1,5 +1,5 @@
 ---
-title: My Trick of Deciding if a URL Should Open a New Browser Tab
+title: My Trick of Deciding if a Link Should Open a New Browser Tab
 date: '2018-09-20'
 slug: target-blank
 ---
