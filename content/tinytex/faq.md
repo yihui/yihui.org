@@ -48,36 +48,6 @@ TinyTeX is still a relatively new project, so these are only potential FAQs.
     
     You can use the command `tlmgr info --list --only-installed --data name,size` to obtain the sizes of all installed packages. If you have installed the R package **tinytex**, you can also use the function `tinytex::tl_sizes()`. For example, the size of the font package **lm** (Latin modern) is about 42MB!
 
-1. **I'm a Linux and R user, and I saw a message "TinyTeX was not successfully installed or configured" after I install TinyTeX via `tinytex::install_tinytex()` / RStudio says "No TeX distribution detected" / Pandoc says "pdflatex not found". What should I do?**
-
-    First, try to restart R or RStudio, and check if `tinytex:::is_tinytex()` is `TRUE` in R. If it is, you are all set, otherwise, run `list.files('~/bin')` and see if `tlmgr` is there. If it is, you need to make sure `$HOME/bin` is in your `PATH` variable (which should be, according to [this StackExchange answer](https://unix.stackexchange.com/a/215717)). If it is not, you need to add it in the file `~/.bash_profile` or `~/.profile`:
-
-    ```sh
-    export PATH="$HOME/bin:$PATH"
-    ```
-
-    If `tinytex:::is_tinytex()` is still `FALSE` after you restart R/RStudio, I don't have other ideas (you may try to [restart your system](https://github.com/yihui/tinytex/issues/16) and see if you have better luck), and you will have to install TinyTeX using the method in FAQ 7.
-
-1. **I'm an R package developer. Are the default LaTeX packages included in TinyTeX enough for me to develop an R package?**
-
-    No, you need a few more, mainly because `R CMD check` needs to build manuals to PDF. You can install these packages through either the command line:
-    
-    ```sh
-    tlmgr install "inconsolata" "times" "tex" "helvetic" "dvips"
-    ```
-    
-    or via the R function:
-    
-    ```r
-    tinytex::tlmgr_install(c(
-      'inconsolata', 'times', 'tex', 'helvetic', 'dvips'
-    ))
-    ```
-    
-    Another important thing to do is add R's texmf tree to TeX Live. This is not easy to explain, but I have provided a function `tinytex::r_texmf()` to do it. Just do it (unless you installed TinyTeX via `tinytex::install_tinytex()`, which automatically does this). See the help page `?tinytex::r_texmf` if you are curious about the technical details.
-    
-    Although it is irrelevant to TinyTeX, you may also need to install [**texinfo**](https://www.gnu.org/software/texinfo/) (not a LaTeX package), since `R CMD check` may also require it. For macOS users, if you installed R from CRAN, **texinfo** is usually included, otherwise you can install it via Homebrew: `brew install texinfo`.
-
 1. **I'm a Linux system admin. How can I install TinyTeX for all users of a system?**
 
     First, add two options `--admin --no-path` to the installation script:
@@ -101,7 +71,7 @@ TinyTeX is still a relatively new project, so these are only potential FAQs.
     chmod -R g+wx ~/.TinyTeX/bin
 ```
 
-    If you want to move `~/.TinyTeX` to a different location, see FAQ 10, and remember to run `tlmgr path add` with `sudo` after you move the folder, to make sure symlinks under `/usr/local/bin` point to the the new paths correctly.
+    If you want to move `~/.TinyTeX` to a different location, see FAQ 8, and remember to run `tlmgr path add` with `sudo` after you move the folder, to make sure symlinks under `/usr/local/bin` point to the the new paths correctly.
 
 1. **I'm a Linux admin. I used the above approach to install TinyTeX and added symlinks to `/usr/local/bin`. How can my users without root privileges install LaTeX packages by themselves?**
 
@@ -130,7 +100,7 @@ TinyTeX is still a relatively new project, so these are only potential FAQs.
     
     However, the user mode of TeX Live can actually be quite complicated, and unfortunately it is not something that I can help with. A few known caveats:
     
-    - The worst thing is that users cannot install all packages. For TeX Live, some packages are _relocatable_, and some are not. For example, packages containing executables are not relocatable (e.g., the **metafont** package contains the executable `mf`). If users have to use these packages, only the system admin can help. The good news is that the number of such packages is relatively small, so a conservative strategy is to just pre-install all of them.
+    - The worst thing is that users cannot install all packages. For TeX Live, some packages are _relocatable_, and some are not. For example, packages containing executables are not relocatable (e.g., the **metafont** package contains the executable `mf`). If users have to use these packages, only the system admin can help. The good news is that the number of such packages is relatively small, so a conservative strategy is to let the sysadmin just pre-install all of them.
     
     - Some packages may require running [`updmap`](https://www.tug.org/texlive/doc/updmap.html) after installation (e.g., font packages for `pdflatex`). Good news is that users should be able to run `updmap-user`, and bad news is that whenever the system admin runs `updmap-sys`, users may have to run `updmap-user` again (if I understand the documentation correctly). For users, the conservative stragety is to run `updmap-user` again when they run into font problems that didn't exist previously (R users can run `system2('updmap-user')`).
 
@@ -169,7 +139,7 @@ TinyTeX is still a relatively new project, so these are only potential FAQs.
         "C:\Software\TinyTeX\bin\win32\tlmgr" path add
         ```
         
-        You only need to do this once. If you installed TinyTeX using the approach in FAQ 7, you need `sudo` to run `tlmgr path add`.
+        You only need to do this once. If you installed TinyTeX using the approach in FAQ 5, you need `sudo` to run `tlmgr path add`.
 
 1. **How can I use TinyTeX on a USB drive or other portable devices?**
 
