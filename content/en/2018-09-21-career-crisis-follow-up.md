@@ -1,6 +1,6 @@
 ---
 title: A Follow-Up Post on My Early Career Crisis Post (Finally)
-subtitle: Those clever and brave are often trapped by what they enjoy
+subtitle: Those clever and brave are often trapped by what fascinates them
 date: '2018-09-21'
 slug: career-crisis-follow-up
 ---
@@ -27,7 +27,7 @@ Responsibility may be accompanied by anxiety, which is extremely poisonous. If y
 
 ## Why talents fail: easily burned by strong passion and too many choices
 
-[Ouyang Xiu](https://en.wikipedia.org/wiki/Ouyang_Xiu), a famous Chinese essayist of the Song dynasty one thousand years ago, once lamented that "智勇多困于所溺" (those clever and brave are often trapped by what they enjoy).^[From "[五代史伶官传序](https://zh.wikisource.org/zh-hans/%E4%BA%94%E4%BB%A3%E5%8F%B2%E4%BC%B6%E5%AE%98%E5%82%B3%E5%BA%8F)".] This resonated well with me, although I don't consider myself clever but I do consider myself brave.
+[Ouyang Xiu](https://en.wikipedia.org/wiki/Ouyang_Xiu), a famous Chinese essayist of the Song dynasty one thousand years ago, once lamented that "智勇多困于所溺" (those clever and brave are often trapped by what fascinates them).^[From "[五代史伶官传序](https://zh.wikisource.org/zh-hans/%E4%BA%94%E4%BB%A3%E5%8F%B2%E4%BC%B6%E5%AE%98%E5%82%B3%E5%BA%8F)".] This resonated well with me, although I don't consider myself clever but I do consider myself brave.
 
 There are two dangers in being a talent. One is that failures seem harder to endure, especially after you have poured a lot of enthusiasm but suddenly fall flat. The other is that you may have much more choices than others when thinking about what to do, so you only pick what you will enjoy. Both enthusiasm and your favorite choices can trap you.
 
