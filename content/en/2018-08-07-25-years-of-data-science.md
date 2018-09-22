@@ -66,7 +66,7 @@ Donoho marks the birth of Data Science with the publication of Tukey's "The Futu
 
 Are there R packages for these?
 
-I think the best part of the 67 page paper is near the end, which I believe is worth repeating for today's Data Scientists, so they can be confident they are have the right attitudes, unlike when I was initially learning and practicing statistics:
+I think the best part of the 67 page paper is near the end, which I believe is worth repeating for today's Data Scientists, so they can be confident they have the right attitudes, unlike when I was initially learning and practicing statistics:
 
 1. We need to face up to more realistic problems
 
