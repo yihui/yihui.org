@@ -7,7 +7,7 @@ slug: career-crisis
 
 When I was interviewed on the R Podcast on Feb 3, I briefly [mentioned](/en/2018/02/r-podcast/) my early career crisis for the first time to the public. In this post, I'm going to write about the details. Recently I started reading the book "Principles" by Ray Dalio, and it has had huge impact on me, even though I haven't finished reading it. In particular, he mentioned that many people were afraid of making mistakes, and when they do make mistakes, they never review or learn from the mistakes, which is really a shame, because it is such a great opportunity to improve oneself. This post is my attempt to review and analyze my mistakes, I hope I could do better in the future, and never go through the same type of crisis again.
 
-I also wish this post could be useful to two types of readers: HRs/managers in companies who plan to hire fresh PhDs with the similar personality to me, and those fresh PhDs who plan to work in a company environment like me in late 2013. I ran out of time after I finished this post, and I'll write another blog post in the future to summarize the explicit advice I want to give to managers and PhDs.
+I also wish this post could be useful to two types of readers: HRs/managers in companies who plan to hire fresh PhDs with the similar personality to me, and those fresh PhDs who plan to work in a company environment like me in late 2013. I ran out of time after I finished this post, and I'll write [another blog post in the future](/en/2018/09/career-crisis-follow-up/) to summarize the explicit advice I want to give to managers and PhDs.
 
 ## You've always got issues, Yihui
 
