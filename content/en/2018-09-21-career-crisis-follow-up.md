@@ -19,7 +19,7 @@ This was very insightful. I don't know if it is worthwhile building such a physi
 
 Freedom was one of the main topics of my career crisis post. I enjoyed too much freedom and independence for too long, and didn't think much about responsibility. My first advice to graduate students is that you should bear responsibility in mind while enjoying the freedom in academia.
 
-However, I should mention that responsibility is actually fairly tricky in academia, because people are _knowledge workers_. In general, it is hard to measure responsibility for knowledge workers. Even you have a weekly meeting with your advisor to talk about your progress, you may be able to survive the meeting with just half an hour's work instead of the expected twenty hours. Usually there are no physical products from your research projects like those produced by labor workers. It is tempting to change your goal from "deliver a research project" to "just survive the next meeting". You will develop a habit of avoiding responsibility with the latter goal.
+However, I should mention that responsibility is actually fairly tricky in academia, because people are _knowledge workers_. In general, it is hard to measure responsibility for knowledge workers. Even when you have a weekly meeting with your advisor to talk about your progress, you may be able to survive the meeting with just half an hour's work instead of the expected twenty hours. Usually there are no physical products from your research projects like those produced by labor workers. It is tempting to change your goal from "deliver a research project" to "just survive the next meeting". You will develop a habit of avoiding responsibility with the latter goal.
 
 For managers and advisors, you may have to spend a little more time on making responsibility more measurable when you realize an employee or student seems to be unproductive. It can be slow for one to gain the sense of responsibility, and you may start with assigning explicit bite-sized tasks to them. At the same time, also keep the long-term goal in their mind, and let them feel the possible future excitement from time to time (e.g., how awesome you will be when you accomplish this project). I understand that some projects may go nowhere and can fail. In this case, make sure they have at least learned something in the process, such as a good habit for working, a sense of responsibility, or knowledge for another project.
 
@@ -35,7 +35,7 @@ A month after I wrote my crisis post, [Romain François wrote his version](https
 
 To some extent, we were punished by our cleverness and passion. Here are some of my advice to those clever, brave, and passionate graduate students:
 
-- Passion is not necessarily good or bad. It is _unguided_ passion that is dangerous. As long as you passion is carefully guided, it is extremely powerful. Don't let your passion kick you around randomly. Without delivering results and products, you are just wasting your energy, even if you feel you are busy and working hard.
+- Passion is not necessarily good or bad. It is _unguided_ passion that is dangerous. As long as your passion is carefully guided, it is extremely powerful. Don't let your passion kick you around randomly. Without delivering results and products, you are just wasting your energy, even if you feel you are busy and working hard.
 
 - Being smart on one subject doesn't guarantee you will succeed on anything or be able to work on anything. Both your knowledge and time are limited. You are likely to be more famous than your peers because of your talent, so more people may reach out to you for various matters, but don't work or promise/agree to work on things just because you (potentially) can.
 
@@ -50,7 +50,7 @@ it or not. It is the first lesson that ought to be learned and however early a m
 
     > --- Thomas Henry Huxley
 
-For managers and advisors, the most important task is to guide these talents. Keep teaching them to say no, focus, and structure their life. Let them feel the joy of accomplishments and remember it. Cal Newport's book "[Deep Work](http://calnewport.com/books/deep-work/)" has been very useful to me. I think talents suffer more from distractions because they have both inner distractions (such as the strong desire to work on random side projects) and outer distractions (such as people reaching out to them for help).
+For managers and advisors, the most important task is to guide these talents. Keep teaching them to say no, focus, and structure their lives. Let them feel the joy of accomplishments and remember it. Cal Newport's book "[Deep Work](http://calnewport.com/books/deep-work/)" has been very useful to me. I think talents suffer more from distractions because they have both inner distractions (such as the strong desire to work on random side projects) and outer distractions (such as people reaching out to them for help).
 
 ## The guilty you are not alone
 
