@@ -49,7 +49,7 @@ My JavaScript solution is available at https://yihui.name/js/math-code.js. It is
 <script src="//yihui.name/js/math-code.js"></script>
 <!-- Just one possible MathJax CDN below. You may use others. -->
 <script async
-  src="//cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML">
+  src="//mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML">
 </script>
 ```
 
