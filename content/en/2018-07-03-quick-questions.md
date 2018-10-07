@@ -23,7 +23,7 @@ I was surprised by this issue because that did not sound like what Pandoc would 
 
 Guess what? Then he just quickly realized what was wrong by himself. Had he tried to make a small reproducible example, he would not need to ask the question at all. Had I seen a reproducible example, I'd probably notice the problem within seconds, too. The problem was just that the quick question contained too little information. When one has to start asking for more information or clarification, the quick question is no longer quick.
 
-I don't mean to discourage people from asking me quick questions. I just want to set your expectation correctly: when I don't answer a question on Twitter, it probably means it is not clear to me, and you may try to ask a slow version of the question on Stack Overflow or other places that don't have the length limit, providing as much information as you can.
+I don't mean to discourage people from asking me quick questions. I just want to set your expectation correctly: when I don't answer a question on Twitter, it probably means it is not clear to me, and you may try to ask a slow version of the question on Stack Overflow or other places that don't have the length limit, providing as much information as you can. If you need a convincing example, take a look at [Daniel Anderson's experience](https://twitter.com/datalorax_/status/1048199896132595713) (he almost wanted to ask on Twitter but decided to go with Stack Overflow instead, and succeeded).
 
 Remember, the quick question might be like the two circles in the guide below on how to draw an owl, and the real question might be the owl on the right. Are you absolutely sure I can answer your question after seeing the two cirles?
 
