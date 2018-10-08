@@ -28,4 +28,6 @@ As a procrastinator, I have read a lot of articles and posts on time management 
 
 - James Clear: [The Akrasia Effect](https://jamesclear.com/akrasia)
 
+- Cal Newport: [Deep Work](http://calnewport.com/books/deep-work/)
+
 To be continued...
