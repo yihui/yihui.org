@@ -11,7 +11,7 @@ When you ask questions or file bug reports, you want to get answers and solution
 
 That is why you should provide a fully reproducible example whenever possible, instead of describing all the steps to create such an example.
 
-I have seen this kind of issues many times in the past, and finally decided to write this post after I saw [yihui/knitr#1562](https://github.com/yihui/knitr/issues/1562) yesterday. Think about the work I had to do for this issue:
+I have seen this kind of issues many times in the past, and finally decided to write this post after I saw [yihui/knitr#1562](https://github.com/yihui/knitr/issues/1562) yesterday.^[And [rstudio/blogdown#337](https://github.com/rstudio/blogdown/issues/337) is another example a couple of months later.] Think about the work I had to do for this issue:
 
 - For step 1, I had to copy it to an Rmd document in my RStudio session.
 
