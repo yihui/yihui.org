@@ -4,7 +4,11 @@ date: '2018-07-30'
 slug: emi-tanaka
 ---
 
-Emi said [it was heck of a praise](https://twitter.com/statsgen/status/1023118510745038848) when I said Earo was a very impressive hacker. Well, the fact is that, honestly speaking, I have been actually impressed many more times by Emi, which is probably because Earo is a relatively low-key hacker, and I have seen a lot of cool things Emi posted on Twitter this year. If I were to write a full post about them, it would probably take me two whole days. Below is a one-hour attempt to show the many ways in which she can be so cool:
+Emi said [it was heck of a praise](https://twitter.com/statsgen/status/1023118510745038848) when I said Earo was a very impressive hacker. Well, the fact is that, honestly speaking, I have been actually impressed many more times by Emi, which is probably because Earo is a relatively low-key hacker, and I have seen a lot of cool things Emi posted on Twitter this year. If I were to write a full post about them, it would probably take me two whole days. Below is a one-hour attempt to show the many ways in which she can be so cool.
+
+![The kunoichi theme for xaringan, made by Emi](https://github.com/emitanaka/ninja-theme/raw/master/docs/images/kunoichi-showcase.gif)
+
+- She added the [ninja themes to **xaringan**](https://github.com/yihui/xaringan/pull/165).
 
 - [The **anicon** package](https://twitter.com/statsgen/status/1021683550171496449) to insert animated icons or images or [text](https://twitter.com/statsgen/status/1010323499901075456) in R Markdown / **xaringan** / Shiny.
 
