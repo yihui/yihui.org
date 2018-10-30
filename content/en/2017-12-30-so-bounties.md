@@ -17,7 +17,7 @@ I have seen several times that people vote to close questions too quickly, and w
 
 ## A recently closed question
 
-Below is a recent example, in which I could help ranting.
+Below is a recent example, in which I couldn't help ranting.
 
 [![A StackOverflow question on hold](https://db.yihui.name/images/so-on-hold.png)](https://stackoverflow.com/q/47990152/559676)
 
