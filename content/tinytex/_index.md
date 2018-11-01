@@ -10,7 +10,7 @@ TinyTeX only provides an installation script that downloads and installs TeX Liv
 
 ## For R Users
 
-Installing and maintaining TinyTeX are easy for R users, since [the R package **tinytex**](/tinytex/r/) has provided wrapper functions (N.B. the lowercase and bold **tinytex** means _the R package_, and the camel-case TinyTeX means _the LaTeX distribution_). You can use **tinytex** to install TinyTeX:
+Installing and maintaining TinyTeX is easy for R users, since [the R package **tinytex**](/tinytex/r/) has provided wrapper functions (N.B. the lowercase and bold **tinytex** means _the R package_, and the camel-case TinyTeX means _the LaTeX distribution_). You can use **tinytex** to install TinyTeX:
 
 ```r
 install.packages('tinytex')
@@ -47,7 +47,7 @@ For macOS users, TinyTeX will be installed to `~/Library/TinyTeX`, and executabl
 curl -sL "https://yihui.name/gh/tinytex/tools/install-unx.sh" | sh
 ```
 
-For Windows users, save the batch file [install-windows.bat](https://yihui.name/gh/tinytex/tools/install-windows.bat) (open this link and press `Ctrl + S`), and double click it.^[You anti-virus software might warn against certain `*.dll` files, and you may want to trust these files. However, I'm not a Windows expert, so I'll leave the decision to yourself.] Please note that it requires PowerShell ([at least version 3.0](https://docs.microsoft.com/en-us/powershell/scripting/setup/starting-windows-powershell-on-earlier-versions-of-windows)). If your Windows version is too low and does not have PowerShell, follow [this article](https://docs.microsoft.com/en-us/powershell/scripting/setup/starting-windows-powershell-on-earlier-versions-of-windows) to install it. There might be an error dialog or two about `luatex.dll` during the installation ([like this](https://db.yihui.name/images/install-tl-win-lua.png)), but that does not seem to hurt, and I just clicked "OK". The installation directory is `%APPDATA%/TinyTeX`, where `APPDATA` is an environment variable that typically points to the path `C:\Users\Your Name\AppData\Roaming`.^[Click the Start menu, Run, type `cmd` to open a command window, and type `echo %APPDATA%` to figure out the actual path if you are curious.]
+For Windows users, save the batch file [install-windows.bat](https://yihui.name/gh/tinytex/tools/install-windows.bat) (open this link and press `Ctrl + S`), and double click it.^[Your anti-virus software might warn against certain `*.dll` files, and you may want to trust these files. However, I'm not a Windows expert, so I'll leave the decision to yourself.] Please note that it requires PowerShell ([at least version 3.0](https://docs.microsoft.com/en-us/powershell/scripting/setup/starting-windows-powershell-on-earlier-versions-of-windows)). If your Windows version is too low and does not have PowerShell, follow [this article](https://docs.microsoft.com/en-us/powershell/scripting/setup/starting-windows-powershell-on-earlier-versions-of-windows) to install it. There might be an error dialog or two about `luatex.dll` during the installation ([like this](https://db.yihui.name/images/install-tl-win-lua.png)), but that does not seem to hurt, and I just clicked "OK". The installation directory is `%APPDATA%/TinyTeX`, where `APPDATA` is an environment variable that typically points to the path `C:\Users\Your Name\AppData\Roaming`.^[Click the Start menu, Run, type `cmd` to open a command window, and type `echo %APPDATA%` to figure out the actual path if you are curious.]
 
 To uninstall TinyTeX, simply delete the folder from your file manager/browser, or use command line:
 
@@ -112,7 +112,7 @@ tlmgr_install('psnfss')      # install the psnfss package
 tlmgr_update()               # update everything
 ```
 
-If you see an error message "Remote repository newer than local", it means it is time for you to upgrade (reinstall) TinyTeX annually:
+If you see an error message "Remote repository newer than local", it means it is time for you to upgrade (reinstall) TinyTeX manually:
 
 ```r
 tinytex::reinstall_tinytex()
