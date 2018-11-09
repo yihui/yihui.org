@@ -8,7 +8,7 @@ Half a year ago, I said [it was not necessary to upgrade to Pandoc 2.x yet](/en/
 
 - If you are not an RStudio user, you may [install Pandoc by yourself](https://pandoc.org/installing.html).
 
-- If you use RStudio, you may consider trying [the latest preview release of the RStudio IDE](https://www.rstudio.com/products/rstudio/download/preview/), in which we have bundled Pandoc 2.2.1, so you don't need to install Pandoc separately.
+- If you use RStudio, you may consider trying [the latest preview release of the RStudio IDE](https://www.rstudio.com/products/rstudio/download/preview/), in which we have bundled Pandoc 2.x, so you don't need to install Pandoc separately.
 
 If you encounter any problems with the new version of Pandoc, please feel free to report to [the **rmarkdown** repo](https://github.com/rstudio/rmarkdown) on Github.
 

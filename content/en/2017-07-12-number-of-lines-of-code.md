@@ -4,6 +4,10 @@ date: '2017-07-12'
 slug: lines-of-code
 ---
 
+> Measuring programming progress by lines of code is like measuring aircraft building progress by weight.
+
+> --- Bill Gates
+
 I just stumbled upon an article with a catchy title "[Kafka Elasticsearch Connect: From 9,071 to 1 Line of Code](https://blog.datasyndrome.com/kafka-elasticsearch-connect-from-9-071-to-1-line-of-code-33ca4a6e0f29)". Most of the time I find it silly to talk about the number of lines of code (LOC), because people who declare that they achieved something with an amazingly small number of LOC are often more or less cheating. One LOC often calls other code that is significantly longer. So the number of LOC actually is nonsense.  I quickly read this article, and indeed, the so-called "one LOC" was one line of bash code that chained several commands. The first command was... `bin/kafka_console_consumer.sh`.
 
 WAT.
