@@ -47,7 +47,7 @@ glue('The total is {total}.')
 is better than
 
 ```r
-sprintf('The total is %f.', total)`
+sprintf('The total is %f.', total)
 ```
 
 or
