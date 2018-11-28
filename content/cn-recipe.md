@@ -201,3 +201,7 @@ slug: cn/recipe
 ## [珍珠丸子](https://www.xiachufang.com/recipe/1006438/)
 
 泡糯米。肉馅加葱姜蓉、料酒、胡椒粉、糖、盐、鸡精、生抽、香油，拌好放冰箱。团肉丸，裹糯米。蒸 20 分钟。
+
+## [脂饼](https://www.xiachufang.com/recipe/100144220/)
+
+热葱油炸面粉成油酥，冷却之后当馅包包子。
