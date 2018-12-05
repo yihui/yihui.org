@@ -67,6 +67,9 @@ img[src$="#border"] {
   border: 1px solid #ddd;
   box-shadow: 5px 5px 5px #eee;
 }
+.home blockquote, .cn blockquote:not(:hover) {
+  border-left-color: transparent;
+}
 
 @media screen and (max-width: 960px) {
   body {
