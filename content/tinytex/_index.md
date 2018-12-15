@@ -8,6 +8,8 @@ TinyTeX is a custom LaTeX distribution based on TeX Live that is small in size b
 
 TinyTeX only provides an installation script that downloads and installs TeX Live over the network. It may take a couple of minutes, depending on your network speed. Before you install TinyTeX, I recommend that _you uninstall your existing LaTeX distribution_. Currently TinyTeX works best for R users. Other users can use it, too (it is just that missing LaTeX packages won't be automatically installed).
 
+Installing or running TinyTeX _does not_ require admin privileges, which means you no longer need `sudo` or your IT. You can even run TinyTeX from a Flash drive.
+
 ## For R Users
 
 Installing and maintaining TinyTeX is easy for R users, since [the R package **tinytex**](/tinytex/r/) has provided wrapper functions (N.B. the lowercase and bold **tinytex** means _the R package_, and the camel-case TinyTeX means _the LaTeX distribution_). You can use **tinytex** to install TinyTeX:
