@@ -8,4 +8,4 @@ I have to admit that I'm far from smart or clever, and I believe perhaps more to
 
 It's cruel, again. Really.  
 
-![](http://www.huangjiwei.com/blog/wp-content/uploads/2007/06/zuiniude1.jpg)
+![](https://www.huangjiwei.com/blog/wp-content/uploads/2007/06/zuiniude1.jpg)

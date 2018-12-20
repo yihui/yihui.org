@@ -10,4 +10,4 @@ slug: study-and-work-at-the-same-time
 
 正溜达着，又看见另一幅很欢快的毕业照：
 
-![欢快毕业照](http://funnyinchina.com/wp-content/uploads/2010/05/teachers-team-photo.jpg)
+![欢快毕业照](https://funnyinchina.com/wp-content/uploads/2010/05/teachers-team-photo.jpg)

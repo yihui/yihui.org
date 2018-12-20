@@ -18,7 +18,7 @@ I have ported the new `RJournal.sty` to [LyX](http://www.lyx.org), and you can f
 
 Now you should be able to open `templates/RJournal.lyx` and compile it. I have made [a quick video](http://www.screenr.com/BqZ7) of the process below:
 
-<iframe src="http://www.screenr.com/embed/BqZ7" width="600" height="365" frameborder="0"></iframe>
+<iframe src="https://www.screenr.com/embed/BqZ7" width="600" height="365" frameborder="0"></iframe>
 
 So you have no execuse to escape reproducible research! It is even easier than writing in Word to contribute a reproducible article to The R Journal now.
 

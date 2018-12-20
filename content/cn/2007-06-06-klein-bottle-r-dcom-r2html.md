@@ -6,11 +6,11 @@ slug: klein-bottle-r-dcom-r2html
 
 "Klein Bottle" is really a strange surface; can you imagine such a "bottle"? 
 
-[![](http://math1.cgu.edu.tw/mediawiki-1.9.3/images/gnuplot/2547f0cb18ec91f6f723929df6baccad.png)](http://math1.cgu.edu.tw/mediawiki-1.9.3/index.php?title=Main_Page) 
+[![](https://math1.cgu.edu.tw/mediawiki-1.9.3/images/gnuplot/2547f0cb18ec91f6f723929df6baccad.png)](http://math1.cgu.edu.tw/mediawiki-1.9.3/index.php?title=Main_Page) 
 
 And this animated one? 
 
-[![](http://alem3d.obidos.org/i/kbottle/kbdswe.gif)](http://alem3d.obidos.org/en/struik/kbottle/) 
+[![](https://user-images.githubusercontent.com/163582/50254780-0a670b80-03b5-11e9-95d4-e9326cdfbd7b.gif)](http://alem3d.obidos.org/en/struik/kbottle/) 
 
 I spent more than an hour trying to make a perspective plot using R but failed at last, because [the equations for Klein Bottle](http://mathworld.wolfram.com/KleinBottle.html) is a little bit complex and I don't know how to find a proper function to denote _z_ by _x_ and _y_. 
 

@@ -32,10 +32,10 @@ slug: germany-trip-1
 
 多特蒙德这个城市是相当漂亮啊，但相机没带USB线，暂时就不发照片了。不过这里可以看看网上的照片：
 
-![这就是我说的Sky train，颇有坐过山车的感觉](http://www.cetic.be/IMG/png/dortmund-3.png)
+![这就是我说的Sky train，颇有坐过山车的感觉](https://www.cetic.be/IMG/png/dortmund-3.png)
 
-![这就是我住的旅馆](http://www.hotel-koenigshof.biz/images/stories/bthumbs/haus.jpg)
+![这就是我住的旅馆](https://www.hotel-koenigshof.biz/images/stories/bthumbs/haus.jpg)
 
-![多特蒙德绿化率非常高](http://graphics8.nytimes.com/images/2006/05/28/travel/28worldcup_dortmund.span.jpg)
+![多特蒙德绿化率非常高](https://graphics8.nytimes.com/images/2006/05/28/travel/28worldcup_dortmund.span.jpg)
 
 当地时间晚上7:20，北京时间夜里1:20，还是有点时差感觉，洗洗之后把后天要讲的幻灯片做一下，然后就准备睡觉啦。

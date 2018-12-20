@@ -4,7 +4,7 @@ date: '2009-02-27'
 slug: introduction-to-john-chambers-software-award
 ---
 
-![给John Chambers颁奖的场景](http://stat-computing.org/awards/jmc/images/jmc.small.jpg)
+![给John Chambers颁奖的场景](https://user-images.githubusercontent.com/163582/50254903-721d5680-03b5-11e9-82ea-7ce05ba43f23.png)
 
 话说1998年John Chambers因为S语言获得了ACM的软件系统奖之后，他把奖金捐给了ASA的统计计算部门，设立了[John Chambers Software Award](http://stat-computing.org/awards/jmc/index.html)，用来奖励那些写出好软件的学生，奖金1000刀，并且作者会被邀请到当年的Joint Statistical Meeting上作报告。
 

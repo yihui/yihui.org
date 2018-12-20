@@ -6,4 +6,4 @@ slug: pessimistic-inference
 
 Frankly speaking, I do hate pessimism.
 
-![](http://images.ruc.edu.cn/images/2006-09-15/1158332762306.jpg)
+![](https://user-images.githubusercontent.com/163582/50254655-80b73e00-03b4-11e9-8679-114b628b3983.png)

@@ -8,4 +8,4 @@ Surprisingly I found that there was only a very little space between simplicity 
 
 Anyway, I still prefer simple life.
 
-![](http://images.ruc.edu.cn/images/2006-09-16/1158383866753.jpg)
+![](https://user-images.githubusercontent.com/163582/50254676-9dec0c80-03b4-11e9-8207-6c7014f60479.png)

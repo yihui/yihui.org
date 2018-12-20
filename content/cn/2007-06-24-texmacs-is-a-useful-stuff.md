@@ -4,7 +4,7 @@ date: '2007-06-24T23:57:52+08:00'
 slug: texmacs-is-a-useful-stuff
 ---
 
-[![](http://www.gnu.org/graphics/gnu-head-banner.png)](http://www.gnu.org/)
+[![](https://www.gnu.org/graphics/gnu-head-banner.png)](http://www.gnu.org/)
 
 Website: <http://www.texmacs.org>
 
