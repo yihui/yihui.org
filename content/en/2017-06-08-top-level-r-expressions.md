@@ -67,7 +67,7 @@ WAT?
 
 WAT!
 
-![Darth Vader WAT](http://cdn.shopify.com/s/files/1/0070/7032/files/darth_wat_grande.jpg)
+![Darth Vader WAT](https://cdn.shopify.com/s/files/1/0070/7032/files/darth_wat_grande.jpg)
 
 Lastly, there is a function `withVisible()` that can tell you whether an expression returns a visible value or not, e.g.,
 

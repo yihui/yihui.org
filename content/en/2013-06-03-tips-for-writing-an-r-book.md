@@ -6,7 +6,7 @@ slug: tips-for-writing-an-r-book
 
 I just finished fixing (hopefully all) the problems in the [knitr book](http://amzn.com/1482203537) returned from the copy editor. David Smith has kindly [announced](http://blog.revolutionanalytics.com/2013/05/two-forthcoming-r-books.html) this book before I do. I do not have much to say about this book: almost everything in the book can be found in the online documentation, questions & answers and the source code. The point of buying this book is perhaps you do not have time to read through all the two thousand questions and answers online, and I did that for you.
 
-[![the knitr book](http://images.tandf.co.uk/common/jackets/crclarge/978148220/9781482203530.jpg)](http://amzn.com/1482203537)
+[![the knitr book](https://images.tandf.co.uk/common/jackets/crclarge/978148220/9781482203530.jpg)](http://amzn.com/1482203537)
 
 This is my first book, and obviously there have been a lot for me to learn about writing a book. In retrospect, I want to share a few tips that I found useful (in particular, for those who plan to write for Chapman & Hall):
 

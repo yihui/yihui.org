@@ -78,8 +78,8 @@ m</A></DIV></BODY></HTML>
 ------=_NextPart_000_0037_01C6D8C0.6AA29C40--
 ```
 
-But what you **actually **see in your inbox is like this:
+But what you **actually** see in your inbox is like this:
 
-![](http://images.ruc.edu.cn/images/2006-09-16/1158386634708.gif)
+![](https://user-images.githubusercontent.com/163582/50353754-d1db4500-050e-11e9-853a-6379c739e40d.png)
 
 I could say nothing about it... They are just too crafty. From a pure technical view, I just admire their "brightness" in the handling of CSS (Cascading Style Sheets). Anyway, this conduct is absulutely disgusting.

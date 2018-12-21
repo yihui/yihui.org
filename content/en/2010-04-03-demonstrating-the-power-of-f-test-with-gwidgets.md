@@ -6,7 +6,7 @@ slug: demonstrating-the-power-of-f-test-with-gwidgets
 
 We know the real distribution of the F statistic in linear models -- it is a non-central F distribution. Under H0, we have a central F distribution. Given 1 - alpha, we can compute the probability of (correctly) rejecting H0. I created a simple demo to illustrate how the power changes as other parameters vary, e.g. the degrees of freedoms, the non-central parameter and alpha. Here is [the video](http://vimeo.com/10647395):
 
-<iframe src="http://player.vimeo.com/video/10647395" width="600" height="749" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+<iframe src="https://player.vimeo.com/video/10647395" width="600" height="749" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 
 And for those who might be interested, here is the code (you need to install the **gWidgets** package first and I recommend the **RGtk2** interface). Have fun:
 

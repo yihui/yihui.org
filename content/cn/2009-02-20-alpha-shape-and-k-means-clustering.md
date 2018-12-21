@@ -28,6 +28,6 @@ for (k in 2:30) {
 
 通过选择不同的k，可以逐步描述出点的外形，不过这种方法太粗略，而且最后找出来的多边形的顶点也没有排序，因此不是太好的解决方案。Alpha Shape的算法之一是用某个固定半径的圆去“套”一对一对的点，当一对点都刚好落在圆上而且圆内不包含任何其它点的时候，这两个点就是形状的边界点。通过这样的方法找出所有的边界点，便描述出了Alpha Shape。有兴趣的看官可以把这几句话转化为R代码试试。注意圆的半径是可变的参数，不同的半径对形状的描述精确程度有不同，显然当半径很大时，算法找出的就是闭包。
 
-![Alpha Shape](http://cgm.cs.mcgill.ca/~godfried/teaching/projects97/belair/example4.gif)
+![Alpha Shape](https://user-images.githubusercontent.com/163582/50353864-2d0d3780-050f-11e9-81fb-2ca8c5198526.png)
 
 写出代码的看官请不吝分享一下：）

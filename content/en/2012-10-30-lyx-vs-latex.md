@@ -34,7 +34,7 @@ Finally, I do not recommend LaTeX novices to try LyX. It is a bad idea in genera
 
 I know this promotion for LyX is, as usual, not going to help. People simply walk by.
 
-![](http://forgifs.com/gallery/d/171709-3/Cat-ignores-girl-like-a-boss.gif)
+![](https://forgifs.com/gallery/d/171709-3/Cat-ignores-girl-like-a-boss.gif)
 
 Image [via](http://researchinprogress.tumblr.com/post/34403093418/how-i-feel-at-poster-presentations). Also see [Changing just a tiny little bit in my LaTeX tabular](http://researchinprogress.tumblr.com/post/34692517685/changing-just-a-tiny-little-bit-in-my-latex-tabular).
 

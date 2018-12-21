@@ -38,6 +38,6 @@ cat(paste(sample(p), collapse = ''), '\n')
 
 I'll probably leave this as an exercise to Stat579 students in the coming semester.
 
-![Password Strength](http://imgs.xkcd.com/comics/password_strength.png)
+![Password Strength](https://imgs.xkcd.com/comics/password_strength.png)
 
 (via [xkcd](http://xkcd.com/936/))

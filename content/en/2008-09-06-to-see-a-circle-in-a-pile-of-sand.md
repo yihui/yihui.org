@@ -12,35 +12,35 @@ The question is, how to reveal the particular pattern in this "pile of sand"? Le
 
 What can we observe from this scatter plot? Perhaps nothing but "a pile of sand". However, if we choose alternative ways to create the plot again, things will be completely different. Here are my approaches:
 
-# 1. Use Semi-transparent Colors
+## 1. Use Semi-transparent Colors
 
 Actually there are 10000 points lying on the circle, so the critical problem is overlapping. In order to show the degree of overlapping, we can use semi-transparent colors, because the color will be more opaque if there are many points at the same place.
 
 ![Transparent Colors](https://db.yihui.name/imgur/CwPVN.png)
 
-# 2. Set Axes Limits
+## 2. Set Axes Limits
 
 If we look closer into the plot, the scene will also be different. For example, we only plot the data in the range `[-1, 1]`.
 
 ![Set Axes Limits](https://db.yihui.name/imgur/szpEf.png)
 
-# 3. Plot with Smaller Point Symbols
+## 3. Plot with Smaller Point Symbols
 
 Certainly, small symbols can prevent overlapping effectively in this case.
 
 ![Plot with small symbols](https://db.yihui.name/imgur/xszYg.png)
 
-# 4. Draw A Subset of the Data
+## 4. Draw A Subset of the Data
 
 As the problem is that there are too many data points, why not draw a subset and try a scatter plot first? For example, here we have sampled 1000 rows of data and the plot is like this:
 
 ![A subset of the original data](https://db.yihui.name/imgur/NGl93.png)
 
-# 5. Estimate the 2D Density
+## 5. Estimate the 2D Density
 
 The R package `KernSmooth` has provided functions to estimate the 1D or 2D density.We can further examine the shape of this 2D density using the package `rgl`. Here is [an animation](http://vimeo.com/4745847) recorded to illustrate the 2D density.
 
-<iframe src="http://player.vimeo.com/video/4745847?title=0&amp;byline=0&amp;portrait=0" width="400" height="372" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+<iframe src="https://player.vimeo.com/video/4745847?title=0&amp;byline=0&amp;portrait=0" width="400" height="372" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
 
 The R code for the above plots & animation is as follows:
 
