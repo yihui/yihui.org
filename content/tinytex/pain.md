@@ -26,6 +26,8 @@ On this page, I'll let other users share their stories of installing and managin
 
 - Missing LaTeX packages confuse users [forever](https://github.com/rstudio/rmarkdown/issues/359), [forever](https://github.com/rstudio/rmarkdown/issues/1076), [forever](https://github.com/rstudio/rmarkdown/issues/1393), and it takes [forever](https://twitter.com/xieyihui/status/763805846807547904) to figure them out and install. [Error messages](https://stackoverflow.com/q/47400936/559676) can also be confusing. Sometimes we just [don't have a clue](https://github.com/rstudio/bookdown/issues/507).
 
+- You may suffer from [old bugs](https://github.com/rstudio/rmarkdown/issues/1505) that have been fixed in certain LaTeX packages.
+
 - MiKTeX [might fail](https://github.com/rstudio/bookdown/issues/531) and we don't know what the error message "GUI framework cannot be initialized" means. Sometimes we have [no clue](https://stackoverflow.com/questions/48892499/compile-rmarkdown-document-with-render#comment84801684_48892499) why it doesn't work.
 
 Below are stories and experiences contributed by other users:
