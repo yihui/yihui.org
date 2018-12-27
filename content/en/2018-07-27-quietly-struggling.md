@@ -4,7 +4,7 @@ date: '2018-07-27'
 slug: quietly-struggling
 ---
 
-Recently I was kind of amused by two instances of quiet yet long-time struggles with software. Struggles are not inherently amusing,^[Not sure if there is an equivalent version in the western culture, but we sometimes joke in Chinese: "What made you so unhappy? Come on! Tell us, to make us happy." Again, this is only a joke. We are not really that evil.] but when you discover that you are not the only one struggling with a problem, you may feel relieved and even amused (phew, I'm probably not totally an idiot).
+Recently I was kind of amused by two instances of quiet yet long-time struggles with software. Struggles are not inherently amusing,^[Not sure if there is an equivalent version in the western culture, but we sometimes joke in Chinese: "What made you so unhappy? Come on! Tell us, to make us happy." Again, this is only a joke. We are not really that evil.] but when you discover that you are not the only one struggling with a problem, [you may feel relieved](https://twitter.com/darokun/status/1062618033078915078) and even amused (phew, I'm probably not totally an idiot).
 
 ## rJava
 
