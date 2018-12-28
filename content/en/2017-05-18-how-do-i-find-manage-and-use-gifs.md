@@ -6,7 +6,7 @@ slug: gifs
 
 A few months ago [Jenny](https://twitter.com/JennyBryan) wanted me (and Karthik, if I remember correctly) to share some experience with GIFs. I have been busy with writing the [**blogdown** book](https://bookdown.org/yihui/blogdown/) recently and don't really have much time, so I'm going to write a quick post just to take a short break. I may expand this post in the future.
 
-First thing first. I tend to pronounce "GIF" with the _soft_ G, but I feel there are much more people saying the hard G. Since my native language is not English, I usually try to say the hard G when I speak in English (and soft G in Chinese). I'm fine with either way, and I promise I won't [turn your skull into a toilet](http://theoatmeal.com/comics/gif).
+First things first. I tend to pronounce "GIF" with the _soft_ G, but I feel there are more people pronouncing the hard G. Since my native language is not English, I usually try to say the hard G when I speak in English (and soft G in Chinese). I'm fine with either way, and I promise I won't [turn your skull into a toilet](http://theoatmeal.com/comics/gif).
 
 ## Where do I find GIFs?
 
@@ -20,7 +20,7 @@ When I see a funny GIF on Twitter, I copy the URL of the tweet and paste to [ezg
 
 ## How do I manage GIFs?
 
-I don't have a clever method to manage my GIFs. I simply store them in a Dropbox folder. All my slides, which you can find in my [CV](/en/vitae), are hosted in Dropbox via [Updog](https://updog.co)^[Updog used to be cheap. When I became a Pro member, it only cost my $5 in total for lifetime membership. Now it is a little bit expensive. GIFs are static files, so you have many other choices to host them, althouth maybe not as convenient as Updog. Or you can use the free plan of Updog only to serve your GIFs but not HTML slides.] and I have assigned a subdomain slides.yihui.name to serve these (HTML) slides as well as the GIFs. For example, https://slides.yihui.name/gif/goose-smile.gif actually points to a GIF file in my Dropbox folder.
+I don't have a clever method to manage my GIFs. I simply store them in a Dropbox folder. All my slides, which you can find in my [CV](/en/vitae), are hosted in Dropbox via [Updog](https://updog.co)^[Updog used to be cheap. When I became a Pro member, it only cost my $5 in total for lifetime membership. Now it is a little bit expensive. GIFs are static files, so you have many other choices to host them, although maybe not as convenient as Updog. Or you can use the free plan of Updog only to serve your GIFs but not HTML slides.] and I have assigned a subdomain slides.yihui.name to serve these (HTML) slides as well as the GIFs. For example, https://slides.yihui.name/gif/goose-smile.gif actually points to a GIF file in my Dropbox folder.
 
 I don't have a huge amount of GIFs in this folder (less than 100), so I don't need a clever method for indexing or searching. I can remember most of them in my mind. The filenames are typically very short, like [happy-elmo.gif](https://slides.yihui.name/gif/happy-elmo.gif) and [mad-panda.gif](https://slides.yihui.name/gif/mad-panda.gif).
 
@@ -30,7 +30,7 @@ Sometimes static images are also funny. The one that made me smile the most is t
 
 ## How do I use GIFs?
 
-In short, you must have a strong ability of association. When I collect a GIF, I often have already got vague ideas of its possible use in my talks and I can associate it with software packages or techniques. So far I have been intentionally trying to avoid showing you actual GIFs in this post, because I don't want to attract your attention, but now I need to show you an example of association:
+In short, you must have a strong ability of association. When I collect a GIF, I often have already got vague ideas of its possible use in my talks and I can associate it with software packages or techniques. So far I have been intentionally trying to avoid showing you actual GIFs in this post, because I don't want to distract, but now I need to show you an example of association:
 
 ![git push --force](https://slides.yihui.name/gif/git-push-force.gif)
 
@@ -42,7 +42,7 @@ Even though I'm fairly familiar with the GIFs I collected, sometimes I could be 
 
 ## Can you share the full collection of your GIFs?
 
-No.^[On one hand, I don't own these GIFs and I didn't create them. On the other, I want you to think more carefully when deciding whether you want to download a GIF. You won't value them if you are suddently given 100 GIFs that I carefully collected over the years.]
+No.^[On one hand, I don't own these GIFs and I didn't create them. On the other, I want you to think more carefully when deciding whether you want to download a GIF. You won't value them if you are suddenly given 100 GIFs that I carefully collected over the years.]
 
 ## Amusing ourselves to death
 
@@ -52,4 +52,4 @@ Recently my bed reading time has been spent on the book "[Amusing Ourselves to D
 
 I have been trying to amuse the audience but I certainly do not want to amuse you to death (good intention [does not necessarily](https://slides.yihui.name/gif/save-him.gif) lead to good results). I hope you can laugh and remember, instead of laughing then forgetting (like what was described as the effect of TV in the book).
 
-GIF is an effective way to get people's attention, but I guess we will need some time to think and check [what is actually left](https://slides.yihui.name/gif/you-get-nothing.gif) after the laughters. I'll truly appreciate it if you have ever attended any of my talks, but want to leave me some negative comments on my presentation style.
+GIF is an effective way to get people's attention, but I guess we will need some time to think and check [what is actually left](https://slides.yihui.name/gif/you-get-nothing.gif) after the laughter. I'll truly appreciate it if you have ever attended any of my talks, but want to leave me some negative comments on my presentation style.
