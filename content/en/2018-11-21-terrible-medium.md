@@ -62,7 +62,7 @@ I cannot help missing Google Reader whenever thinking about this world of social
 
 Infinite, scrolling.
 
-It is bottomless. You no longer have control over what you want to read. The app or the website will keep pushing new content to you. If you don't like the content, they are able to make you like it soon (partly because you have submitted your data of personal preferences to them _for free_ by hitting the like buttons). Even when you don't like a president candidate, they may be able to change your mind because they control what you see on the web.
+It is bottomless. You no longer have control over what you want to read. The app or the website will keep pushing new content to you. If you don't like the content, they are able to make you like it soon (partly because you have submitted your data of personal preferences to them _for free_ by hitting the like buttons). Even when you don't like a presidential candidate, they may be able to change your mind because they control what you see on the web.
 
 I guess Google shut down Google Reader not because "the product had a declining following", but because it gave users full control of what they wanted to read, which means there was no way to push irrelevant content to users. Then Google went to the social media battlefield and bet on Google+. Thank goodness that Google+ eventually died. No one seemed to miss Google+ at all, whereas [tons of people still miss Google Reader](https://gcemetery.co) like me.
 
