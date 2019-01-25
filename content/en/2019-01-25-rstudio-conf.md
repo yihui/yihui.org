@@ -75,7 +75,7 @@ There were three parallel sessions, so I only attended 1/3 of the talks. For tho
 
 - Kara Woo, Box plots: A case study in debugging and perseverance
 
-- Karl Broman,, R/qtl2: Rewrite of a very old R package
+- Karl Broman, R/qtl2: Rewrite of a very old R package
 
 - David Robinson, The unreasonable effectiveness of public work
 
