@@ -123,6 +123,7 @@ Email：xie@yihui.name；主页：<https://yihui.name>；现居住于美国内�
 
 以下多数幻灯片都是基于 R Markdown 文档输出的 HTML 网页格式（尤其是近年来的幻灯片）；若需要查看 R Markdown 源文档，只需要在浏览器地址栏中将 `.html` 扩展名替换为 `.Rmd` 即可下载相应的 R Markdown 文档。
 
+- 谢益辉，2019，_pagedown: Creating beautiful PDFs with R Markdown and CSS_，RStudio 大会，奥斯汀，德州（[幻灯片](https://bit.ly/pagedown)；[视频](https://resources.rstudio.com/rstudio-conf-2019/pagedown-creating-beautiful-pdfs-with-r-markdown-and-css)）
 - 谢益辉，2018，_Some Lesser Known Features of knitr_，瑞典 RaukR 暑期学校远程报告（[幻灯片](https://bit.ly/2018-raukr)）
 - 谢益辉，2018，_Easy Dashboards with R Markdown_，奥马哈 R 用户小组报告（[幻灯片](https://bit.ly/2018-dashboard)）
 - 谢益辉，2018，_Creating Websites with R Markdown and blogdown_，RStudio 大会报告，圣地亚哥，加州（[幻灯片](https://bit.ly/2018-blogdown)）

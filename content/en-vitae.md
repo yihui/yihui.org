@@ -91,17 +91,17 @@ Besides, I published several articles in the [Capital of Statistics](https://cos
 
 ## Professional Experience
 
-I joined RStudio as a software engineer in 2013, and have been writing software tools for data visualization, reproducible research, and automatic report/document generation.
+I joined RStudio as a software engineer in 2013, and have been writing software tools for data visualization, reproducible research, and automatic reporting/document generation.
 
 I [worked on](https://github.com/rstudio/shiny/graphs/contributors) Shiny from late 2013 to mid-2015. I added a few new features to Shiny, such as the support for JavaScript libraries [DataTables](https://datatables.net) and [selectize.js](http://selectize.github.io/selectize.js/), and solved the problem with Unicode characters in Shiny apps on Windows.
 
 From late 2014, I started working on the [**DT**](https://github.com/rstudio/DT) package for displaying tables, and **DT** is an interface to the DataTables library in both Shiny apps and R Markdown documents. At about the same time, I worked extensively on the [**leaflet**](https://github.com/rstudio/leaflet) package for interactive maps, to bring it to the HTML widgets framework. My 2015 was primarily spent on these two packages.
 
-In early 2016, I created a new package named [**tufte**](https://github.com/rstudio/tufte), to add the Tufte style to R Markdown documents and support both HTML and PDF output formats. I started the [**bookdown**](https://github.com/rstudio/bookdown) project in late 2015 to make it easier to write books and technical documents with R Markdown, and most of my time in 2016 was spent on this project. I also published a book for the **bookdown** package with Chapman & Hall/CRC.
+In early 2016, I created a new package named [**tufte**](https://github.com/rstudio/tufte), to add the Tufte style to R Markdown documents and support both HTML and PDF output formats. I started the [**bookdown**](https://github.com/rstudio/bookdown) project in late 2015 to make it easier to write books and technical documents with R Markdown, and most of my time in 2016 was spent on this project. I also published a book for the **bookdown** package with Chapman & Hall/CRC in 2016.
 
-Since late 2016, I started the [**blogdown**](https://github.com/rstudio/blogdown) project, to create websites based on R Markdown. The package was finished, and the companion book was published by Chapman & Hall/CRC.
+Since late 2016, I started the [**blogdown**](https://github.com/rstudio/blogdown) project, to create websites based on R Markdown. The package was finished, and the companion book was published by Chapman & Hall/CRC in 2017.
 
-I spent the first half of 2018 on writing the book "[R Markdown: The Definitive Guide](https://bookdown.org/yihui/rmarkdown)".
+I spent the first half of 2018 on writing the book "[R Markdown: The Definitive Guide](https://bookdown.org/yihui/rmarkdown)" (published in July), and the last few months on the R package [**pagedown**](https://github.com/rstudio/pagedown).
 
 ### Internship
 
@@ -196,6 +196,7 @@ Projects participated:
 
 Most of my slides were generated from R Markdown (especially the ones in recent years). To download the R Markdown source documents, simply replace the extension `.html` with `.Rmd` in the address bar of your web browser.
 
+- Yihui Xie and Romain Lesur, 2019, _pagedown: Creating beautiful PDFs with R Markdown and CSS_, rstudio::conf, Austin, TX ([slides](https://bit.ly/pagedown); [video](https://resources.rstudio.com/rstudio-conf-2019/pagedown-creating-beautiful-pdfs-with-r-markdown-and-css))
 - Yihui Xie, 2018, _Some Lesser Known Features of knitr_, a remote talk for the RaukR Summer School, Visby, Sweden ([slides](https://bit.ly/2018-raukr))
 - Yihui Xie, 2018, _Easy Dashboards with R Markdown_, a talk at the Omaha R User Group, Omaha, NE ([slides](https://bit.ly/2018-dashboard))
 - Yihui Xie, 2018, _Creating Websites with R Markdown and blogdown_, a talk at the RStudio Conference 2018, San Diego, CA ([slides](https://bit.ly/2018-blogdown))
@@ -334,6 +335,7 @@ I'm the creator and main author of:
 - [bookdown](https://github.com/rstudio/bookdown): authoring books and technical documents with R Markdown
 - [xaringan](https://github.com/yihui/xaringan): presentation ninja
 - [blogdown](https://github.com/rstudio/blogdown): create blogs and websites with R Markdown
+- [pagedown](https://github.com/rstudio/pagedown): typeset HTML documents with CSS and Paged.js and print to PDF
 - [tufte](https://github.com/rstudio/tufte): Tufte styles for R Markdown documents
 - [servr](https://github.com/yihui/servr): a simple HTTP server to serve static files or dynamic documents
 - [animation](https://github.com/yihui/animation): a gallery of animations in statistics and utilities to create animations
