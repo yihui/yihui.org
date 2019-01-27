@@ -70,6 +70,9 @@ img[src$="#border"] {
 .home blockquote, .cn blockquote:not(:hover) {
   border-left-color: transparent;
 }
+#disqus_thread a {
+  color: steelblue;
+}
 
 @media screen and (max-width: 960px) {
   body {
