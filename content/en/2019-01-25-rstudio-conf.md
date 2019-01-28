@@ -21,6 +21,8 @@ I met [Christophe Dervieux](https://github.com/cderv) for the second time at rst
 
 At last year's rstudio::conf, an American lady talked to me in fluent Mandarin. I was so very impressed, but didn't remember her name, which had been a shame to me. Luckily, she came to this year's conference again. The first thing I did when I found her was to look at her badge and made sure I remembered the name, Amanda Johnson. However, I made the same mistake two days later when another lady came to me and told me she could also speak and read Chinese. It is kind of embarrassing for me to bend my neck to look at other people's badges while talking. Anyway, she asked me for permission to correct other people's pronunciation of my name. I was so touched! People were so kind and humble at this conference.
 
+Ian Lyttle was still carrying [his notebook](/en/2018/01/ian-lyttle/) with him this year.
+
 The list of amazing people I met could go on and on, but I'm just going to stop here.
 
 ## How do you pronounce it?
