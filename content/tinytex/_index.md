@@ -4,7 +4,9 @@ date: '2017-12-02'
 subtitle: A lightweight, cross-platform, portable, and easy-to-maintain LaTeX distribution based on TeX Live
 ---
 
-TinyTeX is a custom LaTeX distribution based on TeX Live that is small in size but functions well in most cases, especially for R users. If you run into the problem of missing LaTeX packages, it should be super clear to you what you need to do (in fact, R users won't need to do anything). _You only install LaTeX packages you actually need._
+TinyTeX is a custom LaTeX distribution based on TeX Live that is small in size (150Mb on macOS/Linux and 220Mb on Windows) but functions well in most cases, especially for R users. If you run into the problem of missing LaTeX packages, it should be super clear to you what you need to do (in fact, R users won't need to do anything). _You only install LaTeX packages you actually need._
+
+![The TinyTeX logo; designed by Hao Zhu @haozhu233](/images/logo-tinytex.png)
 
 TinyTeX only provides an installation script that downloads and installs TeX Live over the network. It may take a couple of minutes, depending on your network speed. Before you install TinyTeX, I recommend that _you uninstall your existing LaTeX distribution_. Currently TinyTeX works best for R users. Other users can use it, too (it is just that missing LaTeX packages won't be automatically installed).
 
@@ -136,4 +138,4 @@ Fortunately, there is a nice way out based on TeX Live. TeX Live is great: it is
 
 I'd like to thank the TeX Live team for the great work, without which TinyTeX wouldn't be possible. I'm particularly grateful that they offered the options to remove source code and documentation from the installation.
 
-I cannot thank [Peng Zhao](http://www.pzhao.org) and [Miao Yu](https://yufree.cn) enough for their extremely careful and patient [testing](https://d.cosx.org/d/419672) as well as the very useful feedback. Several other users also helped test the beta version, including [Carl Boettiger](https://www.carlboettiger.info), [TC](http://tc.rbind.io), [Ce Gao](https://github.com/gaocegege), and [Xiangyun Huang](https://github.com/XiangyunHuang).
+I cannot thank [Peng Zhao](http://www.pzhao.org) and [Miao Yu](https://yufree.cn) enough for their extremely careful and patient [testing](https://d.cosx.org/d/419672) as well as the very useful feedback. Several other users also helped test the beta version, including [Carl Boettiger](https://www.carlboettiger.info), [TC](http://tc.rbind.io), [Ce Gao](https://github.com/gaocegege), and [Xiangyun Huang](https://github.com/XiangyunHuang). The hex logo was designed by [Hao Zhu](https://github.com/haozhu233).
