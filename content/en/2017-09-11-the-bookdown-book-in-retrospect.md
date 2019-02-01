@@ -8,13 +8,13 @@ When [the **bookdown** book](https://bookdown.org/yihui/bookdown/) was published
 
 ## Get it done before talking about it
 
-I have to admit that I have failed to accomplish a lot of things that I promised over the years. This makes me feel really bad, and I can tell you that I constantly felt guilty especially in the years 2014 and 2015. Someday I'll write more about my crisis.
+I have to admit that I have failed to accomplish a lot of things that I promised over the years. This makes me feel really bad, and I can tell you that I constantly felt guilty especially in the years 2014 and 2015. Someday I'll write more about [my crisis](/en/2018/02/career-crisis/).
 
 To avoid failing to keep my promises, I developed a special strategy when writing a book: I wouldn't talk to a publisher until I finish the first draft of the book. In particular, I won't send a book proposal to the publisher. Basically, I'll try to get the whole book done before I start to think about publishing it. Publishing the bookdown book was a much more comfortable process due to two reasons: I had finished the draft when I started to talk to John (not much burden left on writing), and the book was short (only a little over 100 pages).
 
 ## Forget about typos
 
-In some of my previous talks, I have mentioned that I ignore my typos on purpose when I write. To some extent, I even hope I have some typos in the manuscript, so that readers can help a bit as they read the book. I have no evidence to support it, but I believe that when a reader realized she could help correct typos, she would probably read the manuscript more carefully. Evil me, but look at the (merged and closed) [pull requests](https://github.com/rstudio/bookdown/pulls) to correct my typos.
+In some of my previous talks, I have mentioned that I ignore my typos on purpose when I write. To some extent, I even hope I have some typos in the manuscript, so that readers can help a bit as they read the book. I have no evidence to support it, but I believe that when a reader realized she could help correct typos, she would probably read the manuscript more carefully. Evil me, but look at the merged [pull requests](https://github.com/rstudio/bookdown/pulls) to correct my typos.
 
 ## Automate as much as possible
 
