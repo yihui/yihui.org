@@ -41,6 +41,6 @@ httpuv::startServer('127.0.0.1', 9102, list(
 }))
 ```
 
-网页端用 JavaScript 监听 R 那边发来的消息，也可以根据发来的消息再发回去一个响应，让 R 执行特定操作。这个过程在 servr 包的 [`ws-reload.html` 文件](https://github.com/yihui/servr/blob/master/inst/resources/ws-reload.html)中有所体现。
+网页端用 JavaScript 监听 R 那边发来的消息，也可以根据发来的消息再发回去一个响应，让 R 执行特定操作。这个过程在 servr 包的 [`ws-reload.js` 文件](https://github.com/yihui/servr/blob/master/inst/resources/ws-reload.js)中有所体现。
 
 虽然这玩意儿是如此之好玩，但估计多数 R 码农都不会走到这个偏僻的角落里来。我常常想要是更多人知道这个秘密花园的话，会不会诞生更多类似 shiny 的重量级应用？基础设施都在那儿了，剩下的就看你的想象力和执行力了。迄今为止，除了 [plumber](https://github.com/trestletech/plumber) 和 [fiery](https://github.com/thomasp85/fiery)，貌似我还没看到别的有一定牛力的作品。回到最初的跑题吐槽上，要是那位 R 核心团队成员当初能把服务器接口公开出来而不是一直紧紧捂在 `help.start()` 的口袋里，也许 shiny 还会提前好几年诞生。所以，我们得再好好想想，究竟[嘛叫开源](/cn/2017/12/homebrew-open-source/)、[嘛叫开源](/cn/2013/11/open-source-again/)呢？
