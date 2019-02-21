@@ -17,7 +17,7 @@ I have been slightly unhappy with the user experience of authoring documents wit
 
 1. The source document and the output page are completely independent. When the documents are long, it can be time-consuming for the user to navigate to the R Markdown source corresponding to a certain part in the output, or go from a certain part of the output page to the corresponding source.
 
-Fortunately, these general issues are solvable in the case of HTML5 slides, because slides are usually short and regular pages. It is relatively easy to establish the mapping between the slide source (Markdown) and the slide output (an HTML element).
+Fortunately, these general issues are solvable in the case of HTML5 slides, because slides are usually short and regular pages. It is relatively easy to establish the map between the slide source (Markdown) and the slide output (an HTML element).
 
 ## The new `xaringan::inf_mr()`
 
@@ -39,7 +39,7 @@ Please note that these features only exist for **xaringan** slides. General HTML
 
 ## When in doubt, save the source document
 
-The above features work when the document is modified but not saved. The navigation won't work if the numbers of pages of slides calculated from the source and the output are not equal (e.g., after you add a new slide in the source). The preview doesn't run R code chunks, and doesn't respect slide attributes (such as classes or background images). As soon as the source document is saved, the whole document will be recompiled, and things should be normal again.
+The above features work when the document is modified but not saved. The navigation won't work if the numbers of pages of slides calculated from the source and the output are not equal (e.g., after you add a new slide in the source). The preview doesn't run R code chunks, respect slide attributes (such as classes or background images), or understand any **knitr** code chunk options.^[One exception is that when a code chunk uses the option `eval=FALSE` or `include=FALSE`, the code block will be hidden in the preview, but no code chunks are really executed through **knitr** until you save the document.] As soon as the source document is saved, the whole document will be recompiled, and things should be normal again.
 
 However, if you dynamically generate slides via R code, these features won't work (`xaringan::inf_mr()` won't be that smart), e.g.,
 
