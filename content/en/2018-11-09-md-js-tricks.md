@@ -14,6 +14,33 @@ The MathJax support in most Markdown flavors is missing. The only exception is P
 
 Most Markdown renderers translate `[text](url)` to `<a href="url">text</a>`, which means links will be opened in the current tab or window. I have explained my trick of [making links open in new tabs](/en/2018/09/target-blank/) in a previous post, too.
 
+## How to add anchor links to section headings
+
+When a page has mutiple sections, it can be very helpful to generate an anchor link for each section heading, because we can send other people the links to specific sections. Basically, we just need to add an `<a>` tag inside a heading with the attribute `href` pointing to the ID of the heading:
+
+```js
+(function() {
+  var h, hs = document.querySelectorAll('h1, h2, h3');
+  for (var i = 0; i < hs.length; i++) {
+    h = hs[i];
+    if (h.id === '') continue;
+    h.innerHTML += ' <span class="anchor"><a href="#' + h.id +
+      '">#</a></span>';
+  }
+})();
+```
+
+You can hide the anchor links by default, and show them only when the mouse is over a heading:
+
+```css
+.anchor {
+  display: none;
+}
+:hover > .anchor {
+  display: inline;
+}
+```
+
 ## How to generate tooltips for images
 
 Images on the web often have an `alt` attribute, which stands for "alternate text". This is often invisible to readers _without_ vision problems, but important for users who have to use screen readers (such as blind people). Without the `alt` text, they will have no idea what an image means. The text is also displayed with the image cannot be loaded.

@@ -143,6 +143,7 @@ params:
     - "js/math-code.js"
     - "js/external-link.js"
     - "js/alt-title.js"
+    - "js/header-link.js"
   githubContentURL: "https://github.com/rbind/yihui/edit/master/content/"
   twitterImage: "/images/logo.png"
 

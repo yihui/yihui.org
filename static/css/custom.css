@@ -70,6 +70,12 @@ img[src$="#border"] {
 .home blockquote, .cn blockquote:not(:hover) {
   border-left-color: transparent;
 }
+.anchor {
+  display: none;
+}
+:hover > .anchor {
+  display: inline;
+}
 #disqus_thread a {
   color: steelblue;
 }
