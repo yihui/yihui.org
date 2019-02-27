@@ -134,7 +134,15 @@ params:
   description: "Personal website of Yihui Xie; 谢益辉的个人网站"
   footer: "&copy; [Yihui Xie](/) 2005 - 2019"
   disqusURL: "http://yihui.name"
-  customJS: ["js/fix-toc.js", "js/center-img.js", "js/right-quote.js", "js/no-highlight.js", "js/fix-footnote.js", "js/math-code.js", "js/external-link.js", "js/alt-title.js"]
+  customJS:
+    - "js/fix-toc.js"
+    - "js/center-img.js"
+    - "js/right-quote.js"
+    - "js/no-highlight.js"
+    - "js/fix-footnote.js"
+    - "js/math-code.js"
+    - "js/external-link.js"
+    - "js/alt-title.js"
   githubContentURL: "https://github.com/rbind/yihui/edit/master/content/"
   twitterImage: "/images/logo.png"
 
