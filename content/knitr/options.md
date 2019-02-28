@@ -113,8 +113,9 @@ Below is a list of chunk options in **knitr**. Note the options `background` and
    format. For more information, invoke the help about custom chunk 
    rendering: Invoke in R: `vignette('knit_print', package = 'knitr')` 
    and `?knitr::knit_print`.
-- `class.output`: (NULL; character) useful for HTML output, appends classes that
-  can be used in conjunction with css, so you can apply custom formatting.
+- `class.output`: (NULL; character) useful for HTML output from R Markdown, appends classes that
+  can be used in conjunction with CSS, so you can apply custom formatting.
+- `class.message`/`class.warning`/`class.error`: (`NULL`; character) similar to `class.output` but applied to messages, warnings, and errors in R Markdown output.
 
 ## Code Decoration
 
