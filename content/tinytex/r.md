@@ -50,6 +50,8 @@ options(tinytex.verbose = TRUE)
 ```
 ````
 
+You can, and perhaps should, remove this option after you finish debugging (to silence LaTeX, because you no longer need to read the full log).
+
 ## Other LaTeX distributions
 
 The **tinytex** package is not tied to TinyTeX, although (unsurprisingly) it should work best with TinyTeX. Specifically:
