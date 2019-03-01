@@ -44,6 +44,12 @@ options(tinytex.verbose = TRUE)
 
 before you compile the document. If you are using R Markdown and the `Knit` button in RStudio, you should set the option in a code chunk in the R Markdown document.
 
+````md
+```{r, include=FALSE}
+options(tinytex.verbose = TRUE)
+```
+````
+
 ## Other LaTeX distributions
 
 The **tinytex** package is not tied to TinyTeX, although (unsurprisingly) it should work best with TinyTeX. Specifically:
