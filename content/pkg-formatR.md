@@ -2,7 +2,7 @@
 title: formatR
 subtitle: Format R code automatically
 author: Yihui Xie
-date: "2017-12-07"
+date: "2019-03-05"
 show_toc: true
 slug: formatr
 githubEditURL: https://github.com/yihui/formatR/edit/master/vignettes/formatR.Rmd
@@ -42,26 +42,27 @@ sessionInfo()
 ```
 
 ```
-## R version 3.4.2 (2017-09-28)
+## R version 3.5.2 (2018-12-20)
 ## Platform: x86_64-apple-darwin15.6.0 (64-bit)
-## Running under: macOS High Sierra 10.13.1
+## Running under: macOS Mojave 10.14.3
 ## 
 ## Matrix products: default
-## BLAS: /Library/Frameworks/R.framework/Versions/3.4/Resources/lib/libRblas.0.dylib
-## LAPACK: /Library/Frameworks/R.framework/Versions/3.4/Resources/lib/libRlapack.dylib
+## BLAS: /Library/Frameworks/R.framework/Versions/3.5/Resources/lib/libRblas.0.dylib
+## LAPACK: /Library/Frameworks/R.framework/Versions/3.5/Resources/lib/libRlapack.dylib
 ## 
 ## locale:
 ## [1] en_US.UTF-8/en_US.UTF-8/en_US.UTF-8/C/en_US.UTF-8/en_US.UTF-8
 ## 
 ## attached base packages:
-## [1] stats     graphics  grDevices utils     datasets  base     
+## [1] stats     graphics  grDevices utils     datasets  methods  
+## [7] base     
 ## 
 ## other attached packages:
-## [1] formatR_1.5
+## [1] formatR_1.6
 ## 
 ## loaded via a namespace (and not attached):
-## [1] compiler_3.4.2  magrittr_1.5    tools_3.4.2     stringi_1.1.6  
-## [5] knitr_1.18      methods_3.4.2   stringr_1.2.0   evaluate_0.10.1
+## [1] compiler_3.5.2 magrittr_1.5   tools_3.5.2    stringi_1.3.1 
+## [5] knitr_1.21.11  stringr_1.4.0  xfun_0.5.1     evaluate_0.13
 ```
 
 # 2. Reformat R code
@@ -94,7 +95,7 @@ x=2;print('Oh no... ask the right bracket to go away!')}
 
 lm(y~x1+x2, data=data.frame(y=rnorm(100),x1=rnorm(100),x2=rnorm(100)))  ### a linear model
 1+1+1+1+1+1+1+1+1+1+1+1+1+1+1+1+1+1+1+1+1+1+1  # comment after a long line
-## here is a long long long long long long long long long long long long long comment which will be wrapped
+## here is a long long long long long long long long long long long long long comment that may be wrapped
 ```
 
 We can copy the above code to clipboard, and type `tidy_source(width.cutoff = 50)` to get:
@@ -120,7 +121,7 @@ lm(y ~ x1 + x2, data = data.frame(y = rnorm(100), x1 = rnorm(100),
 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 
     1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1  # comment after a long line
 ## here is a long long long long long long long long
-## long long long long long comment which will be
+## long long long long long comment that may be
 ## wrapped
 ```
 
@@ -138,12 +139,13 @@ Two applications of `tidy_source()`:
     ##     offset, control = list(...),
     ##     model = TRUE, method = "glm.fit",
     ##     x = FALSE, y = TRUE,
+    ##     singular.ok = TRUE,
     ##     contrasts = NULL, ...)
     args(glm)
     ## function (formula, family = gaussian, data, weights, subset, 
     ##     na.action, start = NULL, etastart, mustart, offset, control = list(...), 
-    ##     model = TRUE, method = "glm.fit", x = FALSE, y = TRUE, contrasts = NULL, 
-    ##     ...) 
+    ##     model = TRUE, method = "glm.fit", x = FALSE, y = TRUE, singular.ok = TRUE, 
+    ##     contrasts = NULL, ...) 
     ## NULL
     ```
 
@@ -256,6 +258,15 @@ if (TRUE)
 }
 ```
 
+## Do not wrap comments
+
+
+```r
+1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 
+    1 + 1 + 1 + 1 + 1  # comment after a long line
+## here is a long long long long long long long long long long long long long comment that may be wrapped
+```
+
 ## Discard comments
 
 
@@ -327,22 +338,6 @@ We can use the question mark (`?`) to view the help page, but **formatR** packag
 ```
 
 In this case, it is recommended to use the function `help()` instead of the short-hand version `?`.
-
-## `!!` and `!!!` from the **rlang** package
-
-The syntactic shortcuts `!!` and `!!!` from the **rlang** packages will be ruined by `tidy_source()`, e.g.,
-
-
-```r
-rlang::quo(mean(!! 1:10 * 2))
-```
-
-will be reformatted as:
-
-
-```r
-rlang::quo(mean(!(!1:10 * 2)))
-```
 
 ## `->` with comments
 
