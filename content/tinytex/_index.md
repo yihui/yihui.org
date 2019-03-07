@@ -19,9 +19,12 @@ Installing and maintaining TinyTeX is easy for R users, since [the R package **t
 ```r
 install.packages('tinytex')
 tinytex::install_tinytex()
+# to uninstall TinyTeX, run tinytex::uninstall_tinytex() 
 ```
 
-What `install_tinytex()` does will be explained later. If you need to uninstall TinyTeX, run `tinytex::uninstall_tinytex()`. To compile an R Markdown document to PDF, there is nothing else you have to know. To compile a LaTeX document to PDF, call one of these functions (depending on the LaTeX engine you want to use) in **tinytex**: `pdflatex()`, `xelatex()`, and `lualatex()`. When these functions detect LaTeX packages required but not installed in TinyTeX, they will automatically install the missing packages by default.
+To compile an R Markdown document to PDF, there is nothing else you have to know.
+
+To compile a LaTeX document to PDF, call one of these functions (depending on the LaTeX engine you want to use) in **tinytex**: `pdflatex()`, `xelatex()`, and `lualatex()`. When these functions detect LaTeX packages required but not installed in TinyTeX, they will automatically install the missing packages by default.
 
 ```r
 # writeLines(c(
@@ -121,6 +124,13 @@ If you see an error message "Remote repository newer than local", it means it is
 ```r
 tinytex::reinstall_tinytex()
 ```
+
+If you see a message like below, don't panic. Just wait for a couple of months and prepare for reinstalling TinyTeX.
+
+> TeX Live 2018 is frozen forever and will no longer be updated.  This happens in preparation for a new release.
+
+> If you're interested in helping to pretest the new release (when pretests are available), please read https://tug.org/texlive/pretest.html. Otherwise, just wait, and the new release will be ready in due time.
+
 
 That is all for an average user. Read [the FAQ page](/tinytex/faq/) if you wish to know more technical details about TinyTeX.
 
