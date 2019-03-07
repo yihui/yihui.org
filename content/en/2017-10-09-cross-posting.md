@@ -25,3 +25,4 @@ In case you want to read more on this topic:
 Here is a list of good examples of mentioning cross-posting:
 
 - [gcushen/hugo-academic#416](https://github.com/gcushen/hugo-academic/issues/416) by @lucasmation
+- [rstudio/rmarkdown#1498](https://github.com/rstudio/rmarkdown/issues/1498) by @joelkuiper
