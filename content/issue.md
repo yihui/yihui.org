@@ -29,6 +29,7 @@ It will be helpful if you make sure [all your packages are up-to-date](/en/2017/
 
 ```r
 update.packages(ask = FALSE, checkBuilt = TRUE)
+# please remember to restart R after updating packages
 ```
 
 Even better if you could test the development version of the package, e.g. (taking **knitr** for example below),
