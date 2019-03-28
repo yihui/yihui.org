@@ -1,24 +1,28 @@
 @media screen and (min-width: 960px) {
-  html {
-    background: #fafafa;
-  }
-  body {
-    background: #fff;
-  }
   .masthead {
     position: sticky;
     top: 0;
+    min-height: 100vh;
+    border-right: 3px solid #ddd;
+    background: #fafafa;
   }
+  .main {
+    margin-left: calc(50% - 220px);
+  }
+}
+body {
+  width: auto;
+  padding: 0;
+}
+.main, .masthead {
+  padding: 2em 40px;
 }
 .menu li:not([class]) a, a:hover, .copyright a {
   border-bottom: none;
 }
 .main {
   hyphens: auto;
-  border-left-color: #ddd;
-}
-.main, .masthead {
-  padding: 1em 40px;
+  border-left: none;
 }
 .en .main header ~ p:first-of-type::first-line {
   font-variant: small-caps;
@@ -81,9 +85,6 @@ img[src$="#border"] {
 }
 
 @media screen and (max-width: 960px) {
-  body {
-    padding: 10px 0;
-  }
   h1, h2, h3, h4, h5, h6 {
     margin: 2em auto 1.5em auto;
   }
