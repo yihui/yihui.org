@@ -13,7 +13,9 @@ by [Di Cook](http://www.dicook.org) and
 [Heike Hofmann](http://hofmann.public.iastate.edu). I have developed a few
 R packages either seriously or for
 [fun](https://cran.rstudio.com/package=fun) (or both), such as
-[knitr](/knitr/), [animation](/animation/), [bookdown](https://bookdown.org), [xaringan](https://slides.yihui.name/xaringan/), and [tinytex](/tinytex/). I founded
+[knitr](/knitr/), [animation](/animation/), [bookdown](https://bookdown.org),
+[blogdown](https://github.com/rstudio/blogdown), [pagedown](https://github.com/rstudio/pagedown),
+[xaringan](https://slides.yihui.name/xaringan/), and [tinytex](/tinytex/). I founded
 a Chinese website called "[Capital of Statistics](https://cosx.org)" in 2006,
 which has grown into a large online community on statistics. I initiated the Chinese R conference in 2008. I'm a
 big fan of [GitHub](https://github.com/yihui), [LyX](http://www.lyx.org) and
