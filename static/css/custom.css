@@ -5,24 +5,27 @@
     min-height: 100vh;
     border-right: 3px solid #ddd;
     background: #fafafa;
+    width: 200px;
+    padding: 2em 1em;
   }
   .main {
-    margin-left: calc(50% - 220px);
+    margin-left: calc(50% - 250px);
   }
 }
 body {
   width: auto;
   padding: 0;
 }
-.main, .masthead {
+.main {
   padding: 2em 40px;
+  hyphens: auto;
+  border-left: none;
 }
 .menu li:not([class]) a, a:hover, .copyright a {
   border-bottom: none;
 }
-.main {
-  hyphens: auto;
-  border-left: none;
+.menu-extra {
+  list-style: circle;
 }
 .en .main header ~ p:first-of-type::first-line {
   font-variant: small-caps;
@@ -96,6 +99,9 @@ img[src$="#border"] {
   }
   .title hr {
     margin: 2em auto;
+  }
+  .masthead {
+    padding: 1em;
   }
   .masthead .menu {
     max-width: inherit;
