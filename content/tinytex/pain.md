@@ -110,3 +110,10 @@ Below are stories and experiences contributed by other users:
 
 > --- [Kim Cressman](https://twitter.com/swmpkim/status/1014514680088399874)
 
+<!-- -->
+
+> Siri, how much of my life have I spent [installing TeX distributions](https://twitter.com/djnavarro/status/1112674242523361281)?
+
+> I have discovered that the tinytex package has handy tools for analysing the .log files, which solved my problems for me. That is, after I wasted half an hour trying to install MiKTeX for no good reason
+
+> --- [Danielle Navarro](https://twitter.com/djnavarro/status/1112687238196822016)
