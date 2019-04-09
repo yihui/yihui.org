@@ -11,7 +11,7 @@ slug: install-rgtk2-macos
 system('brew install gtk+')
 install.packages(
   'RGtk2', type = 'binary',
-  repos = 'https://macos.rbind.org'
+  repos = 'https://macos.rbind.io'
 )
 ```
 

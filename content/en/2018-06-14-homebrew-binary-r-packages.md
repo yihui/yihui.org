@@ -5,7 +5,7 @@ date: '2018-06-14'
 slug: homebrew-binary-r-packages
 ---
 
-> **Update on 2018-07-01**: I have changed the scope of the repository https://macos.rbind.org. Please ignore the post below, and see [this post](/en/2018/07/cranextra-macos/) instead.
+> **Update on 2018-07-01**: I have changed the scope of the repository https://macos.rbind.io. Please ignore the post below, and see [this post](/en/2018/07/cranextra-macos/) instead.
 
 One of the open source projects is not like the others. The project is called [Homebrew](https://brew.sh). In my eyes, it is *the* most successful open source project in history in several aspects. I saw an interesting graph [on Twitter](https://twitter.com/nayafia/status/1004526578175361024) a few days ago, which perfectly characterized the amazing community nature of Homebrew:
 
@@ -51,15 +51,15 @@ The trickiest packages are those with (heavy) system dependencies, such as **RGt
 
 With the above background information, the problem of "the missing CRAN repository of binary R packages for the Homebrew R" is actually not too bad. We may not really need to build 12,000 binary R packages. Perhaps building only the top 30 trickiest and also frequently used R packages is enough for most R users on macOS.
 
-## An experiment: macos.rbind.org
+## An experiment: macos.rbind.io
 
 I have been hoping to experiment with this for a couple of years. Finally I finished [the R Markdown book](https://github.com/rstudio/rmarkdown-book), which pretty much swallowed the first half of my 2018. Then I got a short break mainly because I started to run the reverse dependency check for the **rmarkdown** package. To those who are not R package developers, this basically means I have to run `R CMD check` on more than 2000 reverse dependencies of **rmarkdown**. This usually takes a couple of days. Every time I do this task, I need to figure out how to install a few tricky R packages (same pain comes when I check the **knitr** package).
 
-This time I just gave up and decided to take a stab at building some binary R packages against the Homebrew version of R, so that I won't need to worry about installing them again in the future. I used the `osx` environment for the first time on Travis, built some packages on Travis, and automatically deployed to https://macos.rbind.org. So far so good, although I have to admit I'm definitely not an expert in compiling packages from source. I just have some bare minimum knowledge.
+This time I just gave up and decided to take a stab at building some binary R packages against the Homebrew version of R, so that I won't need to worry about installing them again in the future. I used the `osx` environment for the first time on Travis, built some packages on Travis, and automatically deployed to https://macos.rbind.io. So far so good, although I have to admit I'm definitely not an expert in compiling packages from source. I just have some bare minimum knowledge.
 
 Currently the scripts for building the packages are in the Github repo [yihui/homebrew-r-packages](https://github.com/yihui/homebrew-r-packages) (I may move it to a certain organization in the future if a wider community shows interest in it). The main script is [build.R](https://github.com/yihui/homebrew-r-packages/blob/master/build.R), which I believe is not too complicated.
 
-See https://macos.rbind.org for detailed instructions on how to install these pre-built binary packages, as well as things that I need help with. You have been warned that this is only a quick experiment of mine over two days. Trust me: I'm not an expert, I'm not an expert, and I'm not an expert (e.g., OpenMP? What's that?)! I'll be waiting for experts' feedback and help!
+See https://macos.rbind.io for detailed instructions on how to install these pre-built binary packages, as well as things that I need help with. You have been warned that this is only a quick experiment of mine over two days. Trust me: I'm not an expert, I'm not an expert, and I'm not an expert (e.g., OpenMP? What's that?)! I'll be waiting for experts' feedback and help!
 
 ## Appendix: Hello, RGtk2, Finally!
 
@@ -69,7 +69,7 @@ In January this year, I wrote down some notes [on how to install **RGtk2** on ma
 system('brew install gtk+')
 install.packages(
   'RGtk2', type = 'mac.binary.el-capitan',
-  repos = 'https://macos.rbind.org'
+  repos = 'https://macos.rbind.io'
 )
 ```
 

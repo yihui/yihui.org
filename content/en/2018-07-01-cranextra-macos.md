@@ -5,14 +5,14 @@ date: '2018-07-01'
 slug: cranextra-macos
 ---
 
-Two weeks ago [I announced](/en/2018/06/homebrew-binary-r-packages/) the repository `macos.rbind.org`, and asked for feedback in [RStudio Community](https://community.rstudio.com/t/9907). After reading my colleague Jim Hester's feedback and doing some research on the differences between `brew install r` and `brew cask install r`, I decided to switch to the latter.^[One reason for this was that `brew install r` does not support `cairo`, so you cannot use graphical devices such as `svg()` or `cairo_pdf()`. Anyway, `brew cask install r` installs the official version of R from CRAN, which supports features like `install.packages(..., type = 'both')`.] Consequently, I changed the scope of the repository `macos.rbind.org` to only building the missing binary packages on CRAN. Windows users may have heard of the so-called "CRANextra" repository, which contains binary R packages that are not available on CRAN. The repository `macos.rbind.org` is also a CRANextra repository, but created for macOS users.
+Two weeks ago [I announced](/en/2018/06/homebrew-binary-r-packages/) the repository `macos.rbind.io`, and asked for feedback in [RStudio Community](https://community.rstudio.com/t/9907). After reading my colleague Jim Hester's feedback and doing some research on the differences between `brew install r` and `brew cask install r`, I decided to switch to the latter.^[One reason for this was that `brew install r` does not support `cairo`, so you cannot use graphical devices such as `svg()` or `cairo_pdf()`. Anyway, `brew cask install r` installs the official version of R from CRAN, which supports features like `install.packages(..., type = 'both')`.] Consequently, I changed the scope of the repository `macos.rbind.io` to only building the missing binary packages on CRAN. Windows users may have heard of the so-called "CRANextra" repository, which contains binary R packages that are not available on CRAN. The repository `macos.rbind.io` is also a CRANextra repository, but created for macOS users.
 
-The full documentation is on the repository homepage https://macos.rbind.org. In short, you just add an extra CRAN repository in your global option `repos`, e.g.,
+The full documentation is on the repository homepage https://macos.rbind.io. In short, you just add an extra CRAN repository in your global option `repos`, e.g.,
 
 ```r
 options(repos = c(
   CRAN = 'https://cran.rstudio.com',
-  CRANextra = 'https://macos.rbind.org'
+  CRANextra = 'https://macos.rbind.io'
 ))
 ```
 
