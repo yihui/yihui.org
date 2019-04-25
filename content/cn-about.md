@@ -95,6 +95,7 @@ slug: "cn/about"
 - [谭显英](https://shrektan.com)：useR，金融，靠谱厮
 - [肖楠](https://nanx.me)：中南大学，useR，技术控
 - [徐依含](https://yihanxu.github.io)：能言善辩，爱追问，爱读书
+- [杨洵默](https://tcya.xyz)：脑力深邃
 - [殷腾飞](http://www.tengfei.name/)：ISU，生物，统计
 - [俞丽佳](https://yulijia.net)：生物信息、码农、靠谱厮
 - [于淼](https://yufree.cn)：环境科学，useR，思考者
