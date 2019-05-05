@@ -322,7 +322,7 @@ There are two hidden options which are not designed to be set by the users: `fig
 
 # Package Options
 
-The package options can be changed using the object [`opts_knit`](objects); for example,
+The package options can be changed using the object [`opts_knit`](/knitr/objects/); for example,
 
 ```r 
 opts_knit$set(progress = TRUE, verbose = TRUE)
