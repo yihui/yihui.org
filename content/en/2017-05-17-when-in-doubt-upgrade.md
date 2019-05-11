@@ -55,3 +55,4 @@ P.S. A list of issues solved simply by updating packages:
 - [Incompatible with dev version of glue](https://github.com/rstudio/blogdown/issues/293)
 - [chrome_print missing text in PDF, not with Google Chrome](https://github.com/rstudio/pagedown/issues/80)
 - [Error when running serve_site(): "Error in as.vector(x, "character"): cannot coerce type 'environment' to vector of type 'character'"](https://github.com/rstudio/blogdown/issues/365)
+- [tinytex::install_tinytex() can not work](https://github.com/yihui/tinytex/issues/112)
