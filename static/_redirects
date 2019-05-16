@@ -12,3 +12,4 @@ https://yihui.netlify.com/*  https://yihui.name/:splat  301!
 http://yihui.netlify.com/*   https://yihui.name/:splat  301!
 /cn/2018/10/pod/             /cn/2018/10/pot/
 /en/2007/10/jokes-in-statistics/  /en/2007/10/jokes-in-statistics-a-talk-to-be-given-in-cueb/
+/cv/images/stat_in_med_yihui.pdf  https://github.com/downloads/yihui/yihui.github.com/Medicine-2007-Yihui-Xie.pdf
