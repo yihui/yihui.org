@@ -2,6 +2,8 @@
 /cn/feed/     /cn/index.xml
 /en/feed/     /en/index.xml
 /xran/*       https://xran.yihui.name/:splat
+/r/*/index.htm    https://r.yihui.name/:splat
+/r/*              https://r.yihui.name/:splat
 /gh/tinytex/*                https://github.com/yihui/tinytex/raw/master/:splat
 /knitr-jekyll/*              https://jekyll.yihui.name/:splat
 /recharts/*                  https://recharts.yihui.name/:splat
@@ -9,3 +11,4 @@
 https://yihui.netlify.com/*  https://yihui.name/:splat  301!
 http://yihui.netlify.com/*   https://yihui.name/:splat  301!
 /cn/2018/10/pod/             /cn/2018/10/pot/
+/en/2007/10/jokes-in-statistics/  /en/2007/10/jokes-in-statistics-a-talk-to-be-given-in-cueb/

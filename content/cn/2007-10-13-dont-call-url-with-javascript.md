@@ -10,7 +10,7 @@ slug: dont-call-url-with-javascript
 
 今天看JavaScript Reference顺便也了解到`window.onload`的作用，当一个页面在客户端加载完成之后这个函数就会被调用，因此可以事先在页面内放置一个“正在加载”的说明字样，等页面全都加载完毕了之后把这个说明隐去，并将动画的“开始”按钮设置为可用（`disabled = false`）。这样一个动画页面就完美了，吼吼。
 
-依然参见：<http://yihui.name/r/misc/java.htm>（猛增速度，faster，直接把时间间隔减小到0秒，看看是什么效果）
+依然参见：<https://r.yihui.name/misc/java.htm>（猛增速度，faster，直接把时间间隔减小到0秒，看看是什么效果）
 
 ## 外一篇：之前走了什么弯路
 

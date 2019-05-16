@@ -10,5 +10,5 @@ slug: difficulty-in-writing
 
 万事开头难，先做出一个大致的样子来，然后考虑往R主页里的链接中放，没准儿到时候就有帮忙一起做的啦。
 
-抽样的地址在：<http://yihui.name/r/stat/sampling_survey/index.htm>
+抽样的地址在：<https://r.yihui.name/stat/sampling_survey/>
 
