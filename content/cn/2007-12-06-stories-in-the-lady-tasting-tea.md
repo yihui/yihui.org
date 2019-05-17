@@ -35,7 +35,7 @@ slug: stories-in-the-lady-tasting-tea
 - Wassily Leontief计算24*24的矩阵的逆矩阵时，曾经向哈佛大学购买过一个“逆矩阵”，主要原因是手工计算得花上几百年时间，而哈佛大学刚好发明了第一台原始的计算机，但是Leontief所在的政府部门却无法为此项服务付费，因为当时只有货物可以购买，服务不可以购买，这个会计问题后来就被作为固定资产处理了，购买发票上写着购买的固定资产是“逆矩阵”。
 - George W. Snedecor在Iowa State College创建了美国第一个统计系。
 - Gertrude Cox是Iowa State College统计学系的第一个统计学硕士。
-- Grace Wahba的样条拟合对后世的样条理论产生了重大影响，**她**也提出了Log-linear模型。
+- Grace Wahba的样条拟合对后世的样条理论产生了重大影响，她也提出了Log-linear模型。
 - ETS的评分系统与Wilks有关。
 - 计算机领域的两个基本术语bit和software竟然是John Tukey造出来的！（rootgram和boxplot就不说了）
 - George Box是Fisher的女婿。
