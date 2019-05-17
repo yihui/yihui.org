@@ -116,6 +116,7 @@ Below is a list of chunk options in **knitr**. Note the options `background` and
 - `class.output`: (NULL; character) useful for HTML output from R Markdown, appends classes that
   can be used in conjunction with CSS, so you can apply custom formatting.
 - `class.message`/`class.warning`/`class.error`: (`NULL`; character) similar to `class.output` but applied to messages, warnings, and errors in R Markdown output.
+- `attr.output`/`attr.message`/`attr.warning`/`attr.error`: (`NULL`; character) similar to the `class.*` options above, but for specifying arbitrary fenced code block attributes for Pandoc; `class.*` is a special application of `attr.*`, e.g., `class.source = 'numberLines'` is equivalent to `attr.source = '.numberLines'`, but `attr.source` can take arbitrary attribute values, e.g., `attr.source = c('.numberLines', 'startFrom="11"')`
 
 ## Code Decoration
 
@@ -133,6 +134,7 @@ Below is a list of chunk options in **knitr**. Note the options `background` and
 - `background`: (`'#F7F7F7'`; character or numeric) background color of chunks in LaTeX output (passed to the LaTeX package **framed**); the color model is `rgb`; it can be either a numeric vector of length 3, with each element between 0 and 1 to denote red, green and blue, or any built-in color in R like `red` or `springgreen3` (see `colors()` for a full list), or a hex string like `#FFFF00`, or an integer (all these colors will be converted to the RGB model; see `?col2rgb` for details)
 - `class.source`: (NULL; character) useful for HTML output, appends classes that
   can be used in conjunction with css, so you can apply custom formatting.
+- `attr.source`: (`NULL`; character) similar to the `attr.*` options for output such as `attr.output` and `attr.message`, etc.
 
 There is a hidden option `indent` which stores the possible leading white spaces of the chunk, e.g. for the chunk below, `indent` is a character string of two spaces:
 
