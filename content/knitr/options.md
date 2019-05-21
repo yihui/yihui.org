@@ -6,16 +6,16 @@ slug: options
 show_toc: true
 ---
 
-The **knitr** package shares most options with Sweave, but some were
-dropped or changed, and some new options were added. The default values are in
-the parentheses below. Note that the chunk label for each chunk is assumed
-to be unique, i.e., no two chunks should share the same label. This is especially
+The **knitr** package has most of the same options as Sweave, but some were
+dropped or changed and some new options were added. The default values are in
+parentheses below. Note that the chunk label for each chunk is assumed
+to be unique, i.e. no two chunks should share the same label. This is especially
 important for cache and plot filenames. Chunks without labels will be
 assigned labels like `unnamed-chunk-i` where `i` is an incremental number.
 
 # Chunk Options
 
-Take Rnw files as an example: usually we write chunk options in the form
+Take Rnw files as an example, usually we write chunk options in the form
 `tag=value` like this:
 
 ````r 
@@ -23,62 +23,62 @@ Take Rnw files as an example: usually we write chunk options in the form
 ```
 ````
 
-And `opts_chunk$set()` can change the default global options in a document
-(e.g. put this in a code chunk: `knitr::opts_chunk$set(comment=NA, fig.width=6,
+And `opts_chunk$set()` can change the default global options of a document
+(e.g., put this in a code chunk: `knitr::opts_chunk$set(comment=NA, fig.width=6,
 fig.height=6)`). A few special notes on the options:
 
-1. Chunk options must be written in one line; no line breaks are allowed
-  inside chunk options;
-1. Avoid spaces ` ` and periods `.` in chunk labels and directory names; if
-  your output is a TeX document, these characters can cause troubles (in
+1. Chunk options must be written in one line and no line breaks are allowed
+  inside chunk options.
+1. Avoid spaces ` ` and periods `.` in chunk labels and directory names. If
+  your output is a TeX document, these characters can cause problems (in
   general it is recommended to use alphabetic characters with words
-  separated by `-` and avoid other characters), e.g. `setup-options`
+  separated by `-` and avoid other characters). For example, `setup-options`
   is a good label, whereas `setup.options` and `chunk 1` are bad;
-  `fig.path='figures/mcmc-'` is a good prefix for figure output, and `fig.path='markov chain/monte carlo'` is bad;
-  non-alphanumeric characters except `-` and `_` in figure filenames will be
-  replaced with `_` automatically;
+  `fig.path='figures/mcmc-'` is a good prefix for figure output and `fig.path='markov chain/monte carlo'` is bad.
+  Non-alphanumeric characters except `-` and `_` in figure filenames will be
+  replaced with `_` automatically.
 1. All option values must be _valid R expressions_ just like how we write
-  function arguments;
-  - for example, options that take _character_ values must be quoted as you
-    do in R (e.g. should write `fig.path="abc"` instead of `fig.path=abc`,
-    and `out.width='\\textwidth'` instead of `out.width=\textwidth`)
-  - in theory, the chunk label should be quoted as well, but for the sake of
-    convenience it will be automatically quoted if you did not quote it
-    (e.g. ```` ```{r, 2a}```` will become ```` ```{r, '2a'}````)
-  - for logical options, `TRUE` and `FALSE` are OK, and `true`/`false` will
-    not work as you might have expected because `true` is not `TRUE`
-  - you can write arbitrarily complicated expressions as you want as long as
-    they are legitimate R code
-  - Sweave users please read the [transition page](../demo/sweave/)
-    carefully because the syntax is different
+  function arguments.
+  - For example, options that take _character_ values must be quoted as you
+    do in R (e.g., you should write `fig.path="abc"` instead of `fig.path=abc`
+    and `out.width='\\textwidth'` instead of `out.width=\textwidth`).
+  - In theory, the chunk label should be quoted as well. But, for the sake of
+    convenience, it will be automatically quoted if you did not
+    (e.g., ```` ```{r, 2a}```` will become ```` ```{r, '2a'}````).
+  - For logical options, `TRUE` and `FALSE` are OK, but `true`/`false` will
+    not work as you might expect because `true` is not `TRUE`.
+  - You can write arbitrarily complicated expressions as long as
+    they are legitimate R code.
+  - Sweave users, please read the [transition page](../demo/sweave/)
+    carefully because the syntax is different.
 
-Below is a list of chunk options in **knitr**. Note the options `background` and `size` only apply to `.Rnw` documents.
+Below is a list of chunk options in **knitr** in the format: `option`: (`default`; type). Note the options `background` and `size` only apply to `.Rnw` documents.
 
 ## Code Evaluation
 
-- `eval`: (`TRUE`; logical) whether to evaluate the code chunk; it can also
-  be a numeric vector to select which R expression(s) to evaluate, e.g.
-  `eval=c(1, 3, 4)` or `eval=-(4:5)`
+- `eval`: (`TRUE`; logical) whether to evaluate the code chunk. It can also
+  be a numeric vector to select which R expression(s) to evaluate; e.g.,
+  `eval=c(1, 3, 4)` will evaluate the first, third and forth expressions, and `eval=-(4:5)` will evaluate all expressions except the forth and fifth.
 
 ## Text Results
 
 - `echo`: (`TRUE`; logical or numeric) whether to include R source code in
-  the output file; besides `TRUE`/`FALSE` which completely turns on/off the
+  the output file. Besides `TRUE`/`FALSE`, which completely turns on/off the
   source code, we can also use a numeric vector to select which R
-  expression(s) to echo in a chunk, e.g. `echo=2:3` means only echo the 2nd
-  and 3rd expressions, and `echo=-4` means to exclude the 4th expression
-- `results`: (`'markup'`; character) takes these possible values
-  - `markup`: mark up the results using the output hook, e.g. put results in
-    a special LaTeX environment
-  - `asis`: output as-is, i.e., write raw results from R into the output
-    document
-  - `hold`: hold all the output pieces and push them to the end of a chunk
+  expression(s) to echo in a chunk. E.g., `echo=2:3` means only echo the 2nd
+  and 3rd expressions, and `echo=-4` means to exclude the 4th expression.
+- `results`: (`'markup'`; character) takes these possible values:
+  - `markup`: mark up the results using the output hook, e.g., put the results in
+    a special LaTeX environment.
+  - `asis`: output as-is, i.e., write the raw results from R into the output
+    document.
+  - `hold`: hold all the output pieces and push them to the end of a chunk.
   - `hide` (or `FALSE`): hide results; this option only applies to normal R output (not
-    warnings, messages or errors)
-- `collapse`: (`FALSE`; logical; applies to Markdown output only) whether
+    warnings, messages or errors).
+- `collapse`: (`FALSE`; logical) whether
   to, if possible, collapse all the source and output blocks from one code
   chunk into a single block (by default, they are written to separate
-  `<pre></pre>` blocks)
+  `<pre></pre>` blocks). This option applies to Markdown output only.
 - `warning`: (`TRUE`; logical) whether to preserve warnings (produced by
   `warning()`) in the output like we run R code in a terminal (if `FALSE`,
   all warnings will be printed in the console instead of the output
