@@ -370,6 +370,6 @@ I have contributed to:
 
 ### Misc
 
-- The Sweave and knitr modules in LyX
+- The Sweave and knitr modules in [LyX](http://www.lyx.org) (with Jean-Marc Lasgouttes)
 - The Hugo theme [XMin](https://xmin.yihui.name), [XMag](https://xmag.yihui.name), and [Ivy](https://ivy.yihui.name)
 - [TinyTeX](/tinytex/), a small and easy-to-maintain LaTeX distribution based on TeX Live
