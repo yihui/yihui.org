@@ -178,7 +178,7 @@ TinyTeX is still a relatively new project, so these are only potential FAQs.
     If you do not use R, you can retrieve the list of packages and install them later:
 
     ```sh
-    TL_INSTALLED_PKGS=$(tlmgr info --list --only-installed --data name | sed 's/\..*$//' | uniq | tr '\n' ' ')
+    TL_INSTALLED_PKGS=$(tlmgr info --list --only-installed --data name | tr '\n' ' ')
     # Then reinstall TinyTeX using the script on the homepage.
     # After TinyTeX has been reinstalled, reinstall packages:
     tlmgr install $TL_INSTALLED_PKGS
