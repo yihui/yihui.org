@@ -196,6 +196,7 @@ Projects participated:
 
 Most of my slides were generated from R Markdown (especially the ones in recent years). To download the R Markdown source documents, simply replace the extension `.html` with `.Rmd` in the address bar of your web browser.
 
+- Yihui Xie, 2019, _Quick Demos of the R Markdown Ecosystem_, a remote talk for the RaukR Summer School, Visby, Sweden ([slides](https://bit.ly/2019-raukr))
 - Yihui Xie and Romain Lesur, 2019, _pagedown: Creating beautiful PDFs with R Markdown and CSS_, rstudio::conf, Austin, TX ([slides](https://bit.ly/pagedown); [video](https://resources.rstudio.com/rstudio-conf-2019/pagedown-creating-beautiful-pdfs-with-r-markdown-and-css))
 - Yihui Xie, 2018, _Some Lesser Known Features of knitr_, a remote talk for the RaukR Summer School, Visby, Sweden ([slides](https://bit.ly/2018-raukr))
 - Yihui Xie, 2018, _Easy Dashboards with R Markdown_, a talk at the Omaha R User Group, Omaha, NE ([slides](https://bit.ly/2018-dashboard))
