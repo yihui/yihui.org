@@ -10,6 +10,8 @@ Emi said [it was heck of a praise](https://twitter.com/statsgen/status/102311851
 
 - She added the [ninja themes to **xaringan**](https://github.com/yihui/xaringan/pull/165).
 
+- She figured out a bug in remark.js in a few minutes after I asked her to help with [a **xaringan** issue](https://stackoverflow.com/q/56650542/559676).
+
 - [The **anicon** package](https://twitter.com/statsgen/status/1021683550171496449) to insert animated icons or images or [text](https://twitter.com/statsgen/status/1010323499901075456) in R Markdown / **xaringan** / Shiny.
 
 - [The **datalegreyar** package](https://twitter.com/statsgen/status/1018823773162618882) that uses a special typeface to represent data directly with text (which is an even smarter idea than sparklines). Magic.
