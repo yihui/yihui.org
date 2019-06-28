@@ -3,7 +3,7 @@ title: "About"
 slug: "en/about"
 ---
 
-My name is Yihui Xie. You can know more about me on the [homepage](/) and my [vitae](../vitae/). This blog is about statistics, R, graphics, life, and fun, with a special focus on R. I often update my old posts (even after years) to correct errors and remove outdated information, so please don't take everything for granted. I like contributing to open-source software, especially [R](https://www.r-project.org) (I'm the author of a few R packages listed on my vitae). I have an interview on [The Setup](https://usesthis.com/interviews/yihui.xie/) where you can learn more about me on the software side.
+My name is Yihui Xie. You can know more about me on the [homepage](/) and my [vitae](../vitae/). This blog is about statistics, R, graphics, life, and fun, with a special focus on R. I often update my old posts (even after years) to correct errors and remove outdated information, so please don't take everything for granted. All opinions expressed here are my own, and I don't represent anyone else. I like contributing to open-source software, especially [R](https://www.r-project.org) (I'm the author of a few R packages listed on my vitae). I have an interview on [The Setup](https://usesthis.com/interviews/yihui.xie/) where you can learn more about me on the software side.
 
 ## Contact me
 
