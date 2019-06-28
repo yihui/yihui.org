@@ -1,6 +1,8 @@
 /slides/*     https://slides.yihui.name/:splat
 /cn/feed/     /cn/index.xml
 /en/feed/     /en/index.xml
+/en/comments/feed/   https://yihui.disqus.com/latest.rss
+/cn/comments/feed/   https://yihui.disqus.com/latest.rss
 /xran/*       https://xran.yihui.name/:splat
 /r/*/index.htm    https://r.yihui.name/:splat
 /r/*              https://r.yihui.name/:splat
