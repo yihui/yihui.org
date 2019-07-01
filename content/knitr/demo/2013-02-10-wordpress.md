@@ -29,7 +29,7 @@ opts_knit$set(base.url = 'https://dl.dropbox.com/u/15335397/wp/',
 
 I created a folder named `wp` under the `Public` folder, and the above code tells **knitr** to add a prefix to the image URL's, and generate images in the Dropbox folder. To get the URL of a file in the Public folder, just right-click on it and copy the link from the menu.
 
-Note you can write and preview the draft in RStudio until you are comfortable to publish it. Once it is published, it is not straightforward to modify it (although you can), and that is why you, as a cool hacker, should blog with Jekyll instead of WordPress. It is always easy to deal with plain text files. Once you have got PHP, MySQL, password, plugins, ... things get complicated quickly.
+Note you can write and preview the draft in RStudio until you are comfortable to publish it. Once it is published, it is not straightforward to modify it (although you can), and that is why you, as a cool hacker, should blog with Jekyll instead of WordPress. It is always easy to deal with plain text files. Once you have got PHP, [MySQL](https://hosting.review/web-hosting-glossary/#24), password, plugins, ... things get complicated quickly.
 
 If you have your own server, I recommend you not to use the `shortcode` option, and you should consider much nicer alternative options for syntax highlighting such as [highlight.js](http://softwaremaniacs.org/soft/highlight/en/), e.g. you can add this to your WordPress template:
 
