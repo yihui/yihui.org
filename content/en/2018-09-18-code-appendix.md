@@ -60,6 +60,24 @@ Among the replies to Alex's original tweet, the very cool hacker^[I wish I had t
 
 After **knitr** parses a document, all code chunks and their labels are stored internally. You have access to these labels via `knitr::all_labels()`. With the `ref.label` option, you can pull all code chunks into this code chunk.
 
+## Another cool hacker in a parallel universe
+
+(Ten months later.)
+
+[Ariel Muldoon](https://twitter.com/aosmith16/status/1144669579630669829) independently discovered `all_labels()`, and also tried to filter the chunk labels programmatically:
+
+````md
+```{r getlabels, echo = FALSE}
+labs = knitr::all_labels()
+labs = labs[!labs %in% c("setup", "toc", "getlabels", "allcode")]
+```
+
+```{r allcode, ref.label = labs, eval = FALSE}
+```
+````
+
+Clever! You got it.
+
 ## But calling a single function doesn't sound like _programming_...
 
 Some people may say that the taste of programming in "literate programming" seems to be too light. Don't judge code by its length. Simplicity is definitely a merit. However, if your task is complicated enough, you can certainly program a **knitr** document in any way you like. The sky is your limit when you can program something.^[Practically, your toddler's mood is your limit. The sky doesn't matter at all.]
