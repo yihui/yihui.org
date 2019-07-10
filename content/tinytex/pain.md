@@ -117,3 +117,9 @@ Below are stories and experiences contributed by other users:
 > I have discovered that the tinytex package has handy tools for analysing the .log files, which solved my problems for me. That is, after I wasted half an hour trying to install MiKTeX for no good reason
 
 > --- [Danielle Navarro](https://twitter.com/djnavarro/status/1112687238196822016)
+
+<!-- -->
+
+> I used tinytex to upgrade TeX Live and install a package and it ... worked. @xieyihui may have ended some of my LaTeX torment.
+
+> --- [PirateGrunt](https://twitter.com/FanninQED/status/1146857305285242880)
