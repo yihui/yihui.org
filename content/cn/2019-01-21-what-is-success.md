@@ -8,7 +8,7 @@ slug: what-is-success
 
 > To laugh often and much; To win the respect of intelligent people and the affection of children; To earn the appreciation of honest critics and endure the betrayal of false friends; To appreciate beauty, to find the best in others; To leave the world a bit better, whether by a healthy child, a garden patch, or a redeemed social condition; To know even one life has breathed easier because you have lived. This is to have succeeded.
 
-那时候我对各类成功学的书很痴迷。现在大家老说鸡汤鸡汤，但不知道有多少人真的看过心灵鸡汤系列。我从高二（2001 年）开始从书店里买了英文版的鸡汤系列来看，里面各式各样的故事在当时看来确实很动人，也学了不少课本上没有的单词。
+那时候我对各类成功学的书很痴迷。现在大家老说鸡汤鸡汤，但不知道有多少人真的看过心灵鸡汤系列。我从高二（2001 年）开始从书店里买了[英文版的鸡汤系列](https://img3.doubanio.com/view/note/l/public/p62738983.webp)来看，里面各式各样的故事在当时看来确实很动人，也学了不少课本上没有的单词。
 
 如今鸡汤一词已经几乎变成了贬义，指那种烂大街、不切实际、听得耳朵起茧的激励。从我的经历来看，鸡汤本来是很有正能量的，到底为何它沦落至此呢？我想可能还是得归咎于信息流通太过迅速。互联网把所有人都迅速连接起来，而鸡汤的进化速度赶不上人民群众日益增长的心理能量需求。今日鸡汤的效用很容易被明日更猛的鸡汤盖过，等大家都喝够了鸡汤，鸡汤也就失效了。
 
