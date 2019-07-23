@@ -211,7 +211,7 @@ To be honest, I'm still not comfortable with making plans and writing them down.
 
 Among the many emails that Tareef sent to help me in early 2015, he once quoted Chris Hadfield (the astronaut):
 
-> "Decide in your heart of hearts what really excites you and challenges you, and start moving your life in that direction.  Every decision you make, from what you eat to what you do with your time tonight, turns you into who you are tomorrow, and the day after that.  Look at who you want to be, and start sculpting yourself into that person.  You may not get exactly where you thought you’d be, but you will be doing things that suit you in a profession you believe in. Don't let life randomly kick you into the adult you don't want to become."
+> "Decide in your heart of hearts what really excites you and challenges you, and start moving your life in that direction.  Every decision you make, from what you eat to what you do with your time tonight, turns you into who you are tomorrow, and the day after that.  Look at who you want to be, and start sculpting yourself into that person.  You may not get exactly where you thought you'd be, but you will be doing things that suit you in a profession you believe in. Don't let life randomly kick you into the adult you don't want to become."
 
 Don't let life randomly kick you into the adult you don't want to become.
 

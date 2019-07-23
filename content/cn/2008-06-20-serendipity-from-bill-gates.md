@@ -6,7 +6,7 @@ slug: serendipity-from-bill-gates
 
 刚才从一个朋友那儿收到一封很有意思的邮件，标题是巨长一串“FW: Fw : Fw : Fw : Fw : Fw : Fw : ?转发:……”，打开来一看，原来是告诉我天上掉钱了，让赶紧打开口袋接着：
 
-> Don’t Know True Or False, Just Have a Try
+> Don't Know True Or False, Just Have a Try
 請不要管它是真還是假，試一下！　如下文章的意思是：（水平有限，可能翻譯得不是很正確，班門弄斧了！）
 Dear Friends,
 Please do not take this for a junk letter. Bill Gates is sharing his fortune. If you ignore this you will repent later. Microsoft and AOL are now the largest Internet companies and in an effort to make sure that Internet Explorer remains the most widely used program, Microsoft and AOL are running an e-mail beta test.

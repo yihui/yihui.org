@@ -41,7 +41,7 @@ To some extent, we were punished by our cleverness and passion. Here are some of
 
 - Be brave to work on challenges, but don't throw the whole world behind and disappear in the woods. The dark side of being brave is that you may be unreasonably stubborn, too. You don't have to listen to other people's feedback and opinions, but you have to at least make sure to hear them. Be brave to start, but more importantly, be brave to stop (which is much more difficult). On the other hand, although you have a lot of choices, don't always only pick up things you like to work on. In April, I said this in [an interview by Amstat News](https://magazine.amstat.org/blog/2018/04/01/data-is-my-job/) when being asked "what career advice would you give your 20-year-old self":
 
-    > Try more often to do things you don’t like but are important at the same time. It is easy to do things you like, but in the real world, there is no guarantee you will like all tasks assigned to you.
+    > Try more often to do things you don't like but are important at the same time. It is easy to do things you like, but in the real world, there is no guarantee you will like all tasks assigned to you.
     
     I was basically paraphrasing Huxley's words, which I learned from "Poor Charlie's Almanack":
     

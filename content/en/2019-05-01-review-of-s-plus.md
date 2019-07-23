@@ -5,7 +5,7 @@ date: '2019-05-01'
 slug: review-of-s-plus
 ---
 
-Note: This is a guest post and not written by Yihui. Its author desires to remain anonymous. If anyone would like to contact the author, please contact me (Yihui). And if any statistical sleuths out there determine the author’s identity, please refrain from revealing it. Thank you.
+Note: This is a guest post and not written by Yihui. Its author desires to remain anonymous. If anyone would like to contact the author, please contact me (Yihui). And if any statistical sleuths out there determine the author's identity, please refrain from revealing it. Thank you.
 
 ---
 

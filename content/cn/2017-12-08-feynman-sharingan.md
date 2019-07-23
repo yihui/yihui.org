@@ -30,6 +30,6 @@ slug: feynman-sharingan
 
 > It was a brilliant idea: You have no responsibility to live up to what other people think you ought to accomplish.  I have no responsibility to be like they expect me to be.
 
-> It’s their mistake, not my failing.
+> It's their mistake, not my failing.
 
 据说（[我尚未仔细查证](http://www.sohu.com/a/169151018_358836)）阿德勒说过，“你并不是为了满足他人的期待而活着，别人也不是为了满足你的期待而活着。”跟费曼的话简直雷同。

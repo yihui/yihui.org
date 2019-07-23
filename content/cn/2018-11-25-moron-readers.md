@@ -16,7 +16,7 @@ slug: moron-readers
 
 说到排版，我觉得现在可以揭开我两年前一个隐秘的腹诽了。前年我写 bookdown 的书时，[在前言中讽刺了 LaTeX 排版控](https://bookdown.org/yihui/bookdown/why-read-this-book.html)，但我不知道有多少人注意到并看懂了。里面举的例子是针对 JSS 的，问它为何 R 这个语言名称需要放在一个特殊排版命令 `\proglang{}` 中（真的需要把 R 用不同字体凸显出来吗）。最后我说：
 
-> It does not make much difference whether everything, or nothing, needs the reader’s attention.
+> It does not make much difference whether everything, or nothing, needs the reader's attention.
 
 意即：如果一篇文字中处处是特殊样式的话，那跟处处都没有样式是一样的。处处是重点，也就跟处处不是重点一样。能不惊扰读者，就不要惊扰他们。给他们留一点脑力去自由思考，而不要通过形式去步步紧逼，强迫他们咽下你所谓的重点。
 

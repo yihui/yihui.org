@@ -16,7 +16,7 @@ I don't mean a certain end on the spectrum is wrong. There is nothing wrong with
 
 BTW, [John Myles White was skeptical](https://twitter.com/johnmyleswhite/status/1017773947360874497) about a few points in Roger's post. One of his doubts was:
 
-> I also find this odd: "If R seems a bit confusing, disorganized, and perhaps incoherent at times, in some ways that’s because so is data analysis." If anything, the reason tidyverse succeeded was precisely because it wasn't incoherent, but that didn't make it worse for analysis.
+> I also find this odd: "If R seems a bit confusing, disorganized, and perhaps incoherent at times, in some ways that's because so is data analysis." If anything, the reason tidyverse succeeded was precisely because it wasn't incoherent, but that didn't make it worse for analysis.
 
 I tend to agree with John that R was incoherent not because data analysis was so. My theory is that R does not have a [BDFL](https://en.wikipedia.org/wiki/Benevolent_dictator_for_life), and perhaps features/changes in base R are not implemented as pull requests (I'm not really sure; maybe they have something similar in SVN). Besides, I guess most active R core developers are more on the developer's end of the spectrum. The Tidyverse does not have a nominal BDFL, either, but we all know "one of these developers is not like others". He cares deeply, deeply about data analysis, and has simple yet sound frameworks for data analysis (e.g., Tidy Data). I think that should explain the much better coherence.
 

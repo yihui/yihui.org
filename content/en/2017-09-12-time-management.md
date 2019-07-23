@@ -18,7 +18,7 @@ As a procrastinator, I have read a lot of articles and posts on time management 
 
 - Shankar Vedantam: [You 2.0: The Value Of 'Deep Work' In An Age Of Distraction](http://www.npr.org/2017/07/25/539092670/you-2-0-the-value-of-deep-work-in-an-age-of-distraction)
 
-- Siobhan O'Rorke: [A beginner’s guide to Getting Things Done](https://blog.zenkit.com/a-beginners-guide-to-getting-things-done-3cc1a5123b98)
+- Siobhan O'Rorke: [A beginner's guide to Getting Things Done](https://blog.zenkit.com/a-beginners-guide-to-getting-things-done-3cc1a5123b98)
 
 - Carl Richards: [Resistance Is Futile. To Change Habits, Try Replacement Instead.](https://nyti.ms/2GIo0mb)
 

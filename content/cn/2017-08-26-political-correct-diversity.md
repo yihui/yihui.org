@@ -40,7 +40,7 @@ slug: political-correct-diversity
 
 最后再举一个我认为糟糕的讨伐男性的例子：
 
-- [WHY MEN DON’T BELIEVE THE DATA ON GENDER BIAS IN SCIENCE](https://www.wired.com/story/why-men-dont-believe-the-data-on-gender-bias-in-science/)
+- [WHY MEN DON'T BELIEVE THE DATA ON GENDER BIAS IN SCIENCE](https://www.wired.com/story/why-men-dont-believe-the-data-on-gender-bias-in-science/)
 
     我还是那句话：[抽象是万恶之源](/cn/2017/08/petrified-forest/)。这个标题里有两个抽象名词：MEN 和 SCIENCE；仿佛所有男性都带着歧视、仿佛所有科学领域女性人才都被埋没了（我是尤其不爱看任何文章标题里出现“科学”的字样）。用这些抽象名词的文章，说到底，不过是抒发一下胡适所说的“民气”：就像爱国运动中在墙上写大字“打倒英日”，写完自己看着很满意，五分钟之后啥事儿也没有，回家该吃吃该睡睡。性别平等的运动，跟爱国运动没什么两样，都是为一个群体争取权利，所以我觉得胡适在《爱国运动与求学》一文中引用的易卜生的话在当下也是给女权主义者最好的建议：
     

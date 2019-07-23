@@ -10,7 +10,7 @@ I found Jenny and I had several things in common (yes, you may have discovered t
 
 In terms of collaboration, she told us an interesting fact:
 
-> [...] I would work with people in genomics and if I’m completely honest with myself, often my biggest contribution to the paper would be getting all the datasets and analyses organized. [...] And I was like, I have a PhD in stats, why is this my main contribution? 
+> [...] I would work with people in genomics and if I'm completely honest with myself, often my biggest contribution to the paper would be getting all the datasets and analyses organized. [...] And I was like, I have a PhD in stats, why is this my main contribution? 
 
 That also reveals one of the [reasons why](/en/2017/12/formatting-papers/) I don't want to work in academia: I simply wouldn't be able to survive, because I cannot make contributions on statistical methodology or theory. I'm not good at or interested in making these kinds of contributions. Jenny is a "Spreadsheet Lady", and I'm probably a "Markdown Man". RStudio is a perfect place for us. I don't need to write grant proposals. If I'm interested in working on anything, it often only needs a 5-min video chat or an email before I'm able to actually work on it. The total time I spend every week on meetings is about 15 minutes (and sometimes the meeting could be cancelled).
 
