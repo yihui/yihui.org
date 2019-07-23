@@ -5,7 +5,7 @@ date: '2018-05-02'
 slug: right-easier-than-wrong
 ---
 
-Last week I saw a fantastic post written by Jay Hanlon from Stack Overflow titled "[Stack Overflow Isn’t Very Welcoming. It’s Time for That to Change](https://stackoverflow.blog/2018/04/26/stack-overflow-isnt-very-welcoming-its-time-for-that-to-change/)". I wanted to stand up in front of my computer and applaud for five minutes after reading this post. It is great that Stack Overflow was admitting the problem publicly and showing the intention to fix it.
+Last week I saw a fantastic post written by Jay Hanlon from Stack Overflow titled "[Stack Overflow Isn't Very Welcoming. It's Time for That to Change](https://stackoverflow.blog/2018/04/26/stack-overflow-isnt-very-welcoming-its-time-for-that-to-change/)". I wanted to stand up in front of my computer and applaud for five minutes after reading this post. It is great that Stack Overflow was admitting the problem publicly and showing the intention to fix it.
 
 First of all, I should make it clear that I do love Stack Overflow, use it almost every day, and truly appreciate its value, despite of my previous rants. I ranted just because I care a lot about this site and I wish it continued success for a really long time.
 
@@ -23,7 +23,7 @@ Putting questions on hold has the same problem. It takes the equal number of peo
 
 Building a welcoming online community without losing the quality is definitely not easy, especially for a community of the scale of Stack Overflow. I have been running a Q&A web forum for more than ten years. I have seen many times how moderators unintentionally treat beginners poorly, although these moderators have contributed a lot in the past and are often helpful. Many people just forget what it feels like to be a beginner after they become experts. When they make you feel the hostility, they may not really mean it. However, as Jay wrote in his post:
 
-> [...] Feelings have no "technically correct." They’re just what the feeler is telling you. When someone tells you how they feel,  you can pack up your magnifying glass and clue kit, cuz that's the answer. You're done. And a lot of devs feel like Stack Overflow is an intimidating, unwelcoming place. We know because they tell us.
+> [...] Feelings have no "technically correct." They're just what the feeler is telling you. When someone tells you how they feel,  you can pack up your magnifying glass and clue kit, cuz that's the answer. You're done. And a lot of devs feel like Stack Overflow is an intimidating, unwelcoming place. We know because they tell us.
 
 No matter what you really mean, if users have got the bad feelings, there is a problem. I don't think [a $10,000 challenge to prove the Stack Overflow toxicity](https://medium.com/dunder-data/10-000-stack-overflow-toxicity-challenge-75951a739993) makes much sense (but this is really another topic).
 
