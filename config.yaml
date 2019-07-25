@@ -149,7 +149,7 @@ params:
 
   # options for highlight.js (version, additional languages, and theme)
   highlightjsVersion: "9.12.0"
-  highlightjsCDN: "//cdn.bootcss.com"
+  highlightjsCDN: "//cdnjs.cloudflare.com/ajax/libs"
   highlightjsLang: ["r", "yaml", "tex"]
   highlightjsTheme: "github"
 
