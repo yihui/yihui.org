@@ -34,7 +34,9 @@ To compile a LaTeX document to PDF, call one of these functions (depending on th
 tinytex::pdflatex('test.tex')
 ```
 
-That is all an average R user needs to know. If you do not use R, you need to know one more thing: the `tlmgr` command.
+That is all an average R user needs to know. If you are a developer, you may want to install [some more packages](https://github.com/yihui/tinytex/blob/master/tools/pkgs-yihui.txt) via `tinytex:::install_yihui_pkgs()`. This function installs packages that I need for building PDF vignettes of many CRAN packages, and may save you some time for searching for them [by yourself](https://github.com/yihui/tinytex/issues/135).
+
+If you do not use R, you need to know one more thing: the `tlmgr` command.
 
 ## For Other Users
 
