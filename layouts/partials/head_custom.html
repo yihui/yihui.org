@@ -1,4 +1,4 @@
-{{ if or .IsHome (len (findRE "^/cn/" .URL)) }}
+{{ if or .IsHome (len (findRE "^/cn/" .RelPermalink)) }}
 <script async src="/js/load-typekit.js"></script>
 {{ if lt (.Date.Year) 2017 }}
 <script>
