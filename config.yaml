@@ -51,7 +51,7 @@ menu:
     - name: "关于"
       url: "/cn/about/"
       weight: 2
-    - name: "博客"
+    - name: "日志"
       url: "/cn/"
       weight: 3
     - name: "简历"
