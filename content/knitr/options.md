@@ -236,7 +236,7 @@ leading white spaces have special meanings in markdown.
   original Markdown syntax `![]()`, because Markdown does not have native
   support for figure alignments (see
   [#611](https://github.com/yihui/knitr/issues/611))
-- `fig.env`: (`'figure'`) the LaTeX environment for figures, e.g. set `fig.env='marginfigure'` to get `\begin{marginfigure}`
+- `fig.env`: (`'figure'`) the LaTeX environment for figures, e.g. set `fig.env='marginfigure'` to get `\begin{marginfigure}`. This option requires `fig.cap` be specified.
 - `fig.cap`: (`NULL`; character) figure caption to be used in a figure environment in LaTeX (in `\caption{}`); if `NULL` or `NA`, it will be ignored, otherwise a figure environment will be used for the plots in the chunk (output in `\begin{figure}` and `\end{figure}`)
 - `fig.scap`: (`NULL`; character) short caption; if `NULL`, all the words before `.` or `;` or `:` will be used as a short caption; if `NA`, it will be ignored
 - `fig.lp`: (`'fig:'`; character) label prefix for the figure label to be used in `\label{}`; the actual label is made by concatenating this prefix and the chunk label, e.g. the figure label for `<<foo-plot>>=` will be `fig:foo-plot` by default
