@@ -13,7 +13,7 @@ This question has been listed as the [**knitr** FAQ](/knitr/faq/) #7, but I want
 As I mentioned in the FAQ, the key is to avoid **knitr** parsing the code chunk, so we need to make an invalid code chunk --- _invalid in the source, but valid in the output._ The trick is to add  `` `r ''` `` to the chunk header, which will be evaluated as an inline expression to _an empty string_ by **knitr**. For this example, the following "code chunk" in the source document
 
 ````md
-```{r, eval=TRUE}`r ''`
+`r ''````{r, eval=TRUE}
 1 + 1
 ```
 ````
@@ -32,7 +32,7 @@ However, that is only the first step. To show something verbatim in the output, 
 
 `````md
 ````
-```{r, eval=TRUE}`r ''`
+`r ''````{r, eval=TRUE}
 1 + 1
 ```
 ````
