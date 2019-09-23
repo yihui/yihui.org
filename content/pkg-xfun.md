@@ -2,7 +2,7 @@
 title: An Introduction to xfun
 subtitle: A Collection of Miscellaneous Functions
 author: "Yihui Xie"
-date: "2018-07-02"
+date: "2019-09-23"
 slug: xfun
 githubEditURL: https://github.com/yihui/xfun/edit/master/vignettes/xfun.Rmd
 output:
@@ -166,7 +166,7 @@ The function `gsub_dir()` is very flexible: you can limit the list of files by M
 
 ## Manipulate filename extensions
 
-Functions `file_ext()` and `sans_ext()` are based on functins in **tools**. The function `with_ext()` adds or replaces extensions of filenames, and it is vectorized.
+Functions `file_ext()` and `sans_ext()` are based on functions in **tools**. The function `with_ext()` adds or replaces extensions of filenames, and it is vectorized.
 
 
 ```r
@@ -308,18 +308,12 @@ n2w(seq(0, 121, 11), and = TRUE)
 ```
 
 ```
-##  [1] "zero"                      
-##  [2] "eleven"                    
-##  [3] "twenty-two"                
-##  [4] "thirty-three"              
-##  [5] "forty-four"                
-##  [6] "fifty-five"                
-##  [7] "sixty-six"                 
-##  [8] "seventy-seven"             
-##  [9] "eighty-eight"              
-## [10] "ninety-nine"               
-## [11] "one hundred and ten"       
-## [12] "one hundred and twenty-one"
+##  [1] "zero"                       "eleven"                    
+##  [3] "twenty-two"                 "thirty-three"              
+##  [5] "forty-four"                 "fifty-five"                
+##  [7] "sixty-six"                  "seventy-seven"             
+##  [9] "eighty-eight"               "ninety-nine"               
+## [11] "one hundred and ten"        "one hundred and twenty-one"
 ```
 
 ```r
@@ -370,21 +364,19 @@ You can choose to print out the versions of only the packages you specify, e.g.,
 
 
 ```r
-xfun::session_info(c("xfun", "rmarkdown", "knitr", "tinytex"), 
-  dependencies = FALSE)
+xfun::session_info(c("xfun", "rmarkdown", "knitr", "tinytex"), dependencies = FALSE)
 ```
 
 ```
-## R version 3.5.0 (2018-04-23)
+## R version 3.6.1 (2019-07-05)
 ## Platform: x86_64-apple-darwin15.6.0 (64-bit)
-## Running under: macOS High Sierra 10.13.5
+## Running under: macOS Mojave 10.14.6
 ## 
 ## Locale: en_US.UTF-8 / en_US.UTF-8 / en_US.UTF-8 / C / en_US.UTF-8 / en_US.UTF-8
 ## 
 ## Package version:
-##   knitr_1.20.5     rmarkdown_1.10.3 tinytex_0.5.10  
-##   xfun_0.2.9      
+##   knitr_1.25       rmarkdown_1.15.2 tinytex_0.16     xfun_0.9.1      
 ## 
-## Pandoc version: 2.2.1
+## Pandoc version: 2.3.1
 ```
 
