@@ -22,7 +22,7 @@ slug: wysiwyg-r-markdown
 
 1. 如果你想站在巨人肩膀上，我已经花了一些时间调查了一大圈，各种所见即所得的编辑器中，我觉得有戏的是 [ProseMirror](http://prosemirror.net) 和 [Toast UI Editor](https://github.com/nhnent/tui.editor)。目测前者轻一些，后者重一些（而且暂时[不适合写代码段](https://github.com/nhnent/tui.editor/issues/186)）。
 
-当网页版的编辑器搞定之后，剩下的事情就是如何把编辑的内容和本地文件关联起来，也就是如何打开和保存文件。此时又有两条路：一是用 Shiny，框架现成（比如点保存按钮之后就 `writeLines()`），但重一些；二是自制一个能在 R 环境中通过网页读写本地文件的工具，这个其实也并不太难，看看我的 [servr 包](https://github.com/yihui/servr)如何借力 httpuv 大概能明白（通过 Websockets 与 R  交流）。
+当网页版的编辑器搞定之后，剩下的事情就是如何把编辑的内容和本地文件关联起来，也就是如何打开和保存文件。此时又有两条路：一是用 Shiny，框架现成（比如点保存按钮之后就 `writeLines()`），但重一些；二是自制一个能在 R 环境中通过网页读写本地文件的工具，这个其实也并不太难，看看我的 [servr 包](https://github.com/yihui/servr)如何借力 httpuv 大概能明白（通过 Websockets 与 R  交流）。当然，等 [Chrome 的文件读写](https://developers.google.com/web/updates/2019/08/native-file-system)原生支持出来以后就不用这么复杂了。
 
 这个编辑器的一个明显缺点是，代码段中的代码无法像在 RStudio 编辑器中可以直接运行，但这个问题可能也不是太大的问题，取决于你的 R Markdown 文档有多少需要边写边跑的代码。对我而言，我的写作中并没有多少需要即时运行并看结果的代码。就算需要看代码运行的结果，也可以通过写轮眼的无限月读（`xaringan::inf_mr()`）来实时编译预览，或不可挡的 `bookdown::serve_book()`。即便如此，还是大大损失了 RStudio 的代码功能，如自动补全。比起上面我的三个痛苦，这个代价我可以接受。
 
