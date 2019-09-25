@@ -123,3 +123,9 @@ Below are stories and experiences contributed by other users:
 > I used tinytex to upgrade TeX Live and install a package and it ... worked. @xieyihui may have ended some of my LaTeX torment.
 
 > --- [PirateGrunt](https://twitter.com/FanninQED/status/1146857305285242880)
+
+<!-- -->
+
+> literally took me longer to remove all traces of MacTeX than to install TinyTeX and all the packages needed to build my thesis, and i saved about 10gb of disk space.
+
+> --- [Tim Hosgood](https://twitter.com/tjohnhos/status/1175575859748638720)
