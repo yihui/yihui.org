@@ -65,7 +65,7 @@ shiny::updateSelectizeInput(session, "foo", label = "New Label",
                             server = TRUE)
 ```
 
-这种世事苍茫成云烟的写法给我带来的虚无感会让我联想到[虚无与大地之外的悲怆](http://www.v4.cc/News-1154118.html)，而我自己会用这种写法：
+这种世事苍茫成云烟的写法给我带来的虚无感会让我联想到[虚无与大地之外的悲怆](https://kknews.cc/comic/6p93agl.html)，而我自己会用这种写法：
 
 ```r
 shiny::updateSelectizeInput(
