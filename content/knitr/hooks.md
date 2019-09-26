@@ -127,7 +127,7 @@ Code is put after `::` and indented by 4 spaces, or in the `sourcecode` directiv
 
 # Option hooks
 
-Sometimes you may want to change certain chunk options according to the values of other chunk options, and you may use the object `opts_hooks` to set up an option hook to do it. An option hook is executed when a corresponding chunk option is not `NULL`. For example, we can tweak the `figure.width` option so that it is always no smaller than `fig.height`:
+Sometimes you may want to change certain chunk options according to the values of other chunk options, and you may use the object `opts_hooks` to set up an option hook to do it. An option hook is executed when a corresponding chunk option is not `NULL`. For example, we can tweak the `fig.width` option so that it is always no smaller than `fig.height`:
 
 ```r 
 opts_hooks$set(fig.width = function(options) {
