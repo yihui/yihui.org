@@ -250,7 +250,7 @@ xfun::is_windows()
 
 ## Loading and attaching packages
 
-Often times I see users attach a series of packages in the beginning of their scripts by repeating `library()` multiple times. This could be easily vectorized, and the function `xfun::pkg_attach()` does this job. For example,
+Oftentimes I see users attach a series of packages in the beginning of their scripts by repeating `library()` multiple times. This could be easily vectorized, and the function `xfun::pkg_attach()` does this job. For example,
 
 
 ```r
@@ -358,7 +358,7 @@ The function `rstudio_type()` inputs characters in the RStudio source editor as 
 
 ## Print session information
 
-Since I have never been fully satisfied by the output of `sessionInfo()`, I tweaked it to make it more useful in my use cases. For example, it is rarely useful to print out the names of base R packages, or information about the matrix products / BLAS / LAPACK. Often times I want additional information in the session information, such as the Pandoc version when **rmarkdown** is used. The function `session_info()` tweaks the output of `sessionInfo()`, and makes it possible for other packages to append information in the output of `session_info()`.
+Since I have never been fully satisfied by the output of `sessionInfo()`, I tweaked it to make it more useful in my use cases. For example, it is rarely useful to print out the names of base R packages, or information about the matrix products / BLAS / LAPACK. Oftentimes I want additional information in the session information, such as the Pandoc version when **rmarkdown** is used. The function `session_info()` tweaks the output of `sessionInfo()`, and makes it possible for other packages to append information in the output of `session_info()`.
 
 You can choose to print out the versions of only the packages you specify, e.g.,
 
