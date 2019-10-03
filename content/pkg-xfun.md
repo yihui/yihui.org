@@ -2,7 +2,7 @@
 title: An Introduction to xfun
 subtitle: A Collection of Miscellaneous Functions
 author: "Yihui Xie"
-date: "2019-09-23"
+date: "2019-10-03"
 slug: xfun
 githubEditURL: https://github.com/yihui/xfun/edit/master/vignettes/xfun.Rmd
 output:
@@ -22,7 +22,7 @@ This page shows examples of a subset of functions in this package. For a full li
 
 ## No more partial matching for lists!
 
-I have been bitten many times by partial matching in lists, e.g., when I want `x$a` but the element `a` does not exist in the list `x`, it returns the value `x$abc` if `abc` exists in `x`. This is [very annoying to me](https://twitter.com/xieyihui/status/782462926862954496). The function `xfun::strict_list()` makes a list "strict" by disabling the partial matching of the `$` operator, e.g.,
+I have been bitten many times by partial matching in lists, e.g., when I want `x$a` but the element `a` does not exist in the list `x`, it returns the value `x$abc` if `abc` exists in `x`. This is [very annoying to me](https://twitter.com/xieyihui/status/782462926862954496) which is why I created strict lists. A strict list is a list for which the partial matching of the `$` operator is disabled. The functions `xfun::strict_list()` and `xfun::as_strict_list()` are the equivalents to `base::list()` and `base::as.list()` respectively which always return as strict list, e.g.,
 
 
 ```r
@@ -75,6 +75,15 @@ z2$a  # partial matching
 
 ```
 ## [1] "I am aaa"
+```
+
+```r
+z3 = as_strict_list(z2)  # a strict list again
+z3$a  # NULL (strict matching) again!
+```
+
+```
+## NULL
 ```
 
 Similarly, the default partial matching in `attr()` can be annoying, too. The function `xfun::attr()` is simply a shorthand of `attr(..., exact = TRUE)`.
@@ -375,7 +384,7 @@ xfun::session_info(c("xfun", "rmarkdown", "knitr", "tinytex"), dependencies = FA
 ## Locale: en_US.UTF-8 / en_US.UTF-8 / en_US.UTF-8 / C / en_US.UTF-8 / en_US.UTF-8
 ## 
 ## Package version:
-##   knitr_1.25       rmarkdown_1.15.2 tinytex_0.16     xfun_0.9.1      
+##   knitr_1.25     rmarkdown_1.16 tinytex_0.16   xfun_0.10     
 ## 
 ## Pandoc version: 2.3.1
 ```
