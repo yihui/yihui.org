@@ -32,4 +32,6 @@ As a procrastinator, I have read a lot of articles and posts on time management 
 
 - Kate Matsudaira: [How to Get Things Done When You Don't Feel Like It](https://queue.acm.org/detail.cfm?id=3280677)
 
+- Ben Brostoff: [Strategies for long projects](http://benbrostoff.github.io/2019/09/28/long-projects.html)
+
 To be continued...
