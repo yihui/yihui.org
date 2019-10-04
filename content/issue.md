@@ -11,6 +11,10 @@ This is a guide expected to be read before anyone files an issue to a repository
 
 For general questions, please post them on Stack Overflow first: http://stackoverflow.com/questions/ask (typically you want to use at least the tags `r` and relevant R package names such as `knitr`, `rmarkdown`, `blogdown`, and so on). You can also ask in the RStudio Community: https://community.rstudio.com. Please come back to Github only if nobody answers your question there in at least 24 hours, and [let us know the URL](/en/2017/10/cross-posting/) of your post. There are several benefits of asking questions on popular public forums than asking a single developer ([see this post](/en/2017/08/so-gh-email/)).
 
+If you have asked the question elsewhere, [please mention your cross-posting](/en/2017/10/cross-posting/) in all places where you asked the question. After your question has been answered in one place, please notify people in other places so they won't waste their time.
+
+If an issue has been closed, please refrain from continuing to reply to it. An issue that can never be "truly" closed makes me feel stressful. Instead, please feel free to open a new issue and you can reference the closed issue if you think it is relevant.
+
 ## Bug reports
 
 For bug reports, please provide [a minimal, self-contained, and reproducible example](/en/2017/09/the-minimal-reprex-paradox/) by reducing your example as much as possible right before the problem goes away. By doing this, you may be able to figure out what the problem really is before reporting to us.
@@ -38,7 +42,15 @@ Even better if you could test the development version of the package, e.g. (taki
 remotes::install_github('yihui/knitr', upgrade = TRUE)
 ```
 
+## Proposing a feature implementation or bug fix
+
 If you are able to fix the bug by yourself, you are welcome to submit a pull request. When you feel the fix would require some substantial effort, please talk to us before doing all the hard work, because we want to make sure you would work on something that we would be willing to accept later. This also applies to feature requests.
+
+Two common problems in pull requests are:
+
+1. [Making cosmetic changes](/en/2018/11/cosmetic-changes/) in the original codebase. Please refrain from doing this, so the reviewer won't be distracted by trivial changes or argue with you. If you have strong opinions on cosmetic changes, please send a separate pull request.
+
+1. Including multiple features or bug fixes in a single pull request. This often makes it hard for us to make the decision. Please try to bring [bite-sized pull requests](/en/2018/02/bite-sized-pull-requests/).
 
 ## Please format your issue correctly
 
