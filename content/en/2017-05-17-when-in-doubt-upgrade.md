@@ -59,3 +59,4 @@ P.S. A list of issues solved simply by updating packages:
 - [How do I force knitr to delete support directory (.png files) after HTML is knitted](https://stackoverflow.com/q/56278856/559676)
 - [PeerJ output text appears cut](https://github.com/rstudio/rticles/issues/237)
 - [error building theme](https://github.com/yihui/hugo-xmin/issues/38)
+- [DT hanging with shiny/flexdashboard](https://github.com/rstudio/DT/issues/718)
