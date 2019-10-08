@@ -6,7 +6,7 @@ slug: influence-focus
 
 两周前我在 Github 上看到一个开源项目叫 [Marp](https://github.com/yhatt/marp/)，大意是基于 Markdown 做幻灯片。在它的项目主页上，我注意到它的一幅屏幕录像动图，展示了它的实时预览功能。
 
-![Marp 的实时预览功能](https://yhatt.github.io/marp/images/marp-cast.gif)
+![Marp 的实时预览功能](https://web.archive.org/web/20190824115121im_/https://yhatt.github.io/marp/images/marp-cast.gif)
 
 当时我心里咯噔一下，心想这种一边敲 Markdown 源代码一边实时预览的功能搞不好在 [xaringan](https://github.com/yihui/xaringan) 中也可以实现。当时我还顾不上马上去实现，但在脑子里琢磨了一下需要哪些零部件。
 
