@@ -92,7 +92,33 @@ Output hooks are used to customize and polish the *raw* output from chunks. Ther
 
 All these hooks should be of the form `function(x, options)` (except the `inline` and `document` hooks which only have one argument `x`), where `x` is the character string of the output, and `options` is a list of current chunk options. Unlike chunk hooks which are empty by default, output hooks all come with default values. 
 
-This package tried hard to set reasonable default output hooks for different parts of output and to accommodate different output formats such as LaTeX, HTML and even Jekyll. A series of functions of the form `render_xxx()` are provided to set built-in output hooks for different output formats, e.g. `render_latex()` and `render_html()`, etc. Details for these formats:
+Output hooks can be set as follows (this adds extra html formatting to any error messages).
+```
+knitr::knit_hooks$set(error = function(x, options){ 
+      paste('\n\n<div style="color:Crimson; background-color: SeaShell;">',
+            gsub('##', '\n', gsub('^##\ Error', '**Error**', x)),
+            '</div>', sep = '\n')
+})
+```
+
+Hooks can be chained together with
+```
+knitr::knit_hooks$append(error = function(x, options){ 
+      "Additional actions"
+})
+```
+
+Unlike chunk hooks which are empty by default, output hooks all come with default values which can be reset with:
+
+```
+knitr::knit_hooks$restore() 
+```
+
+
+This package tried hard to set reasonable default output hooks for different parts of output and to accommodate different output formats such as LaTeX, HTML and even Jekyll. A series of functions of the form `render_xxx()` are provided to set built-in output hooks for different output formats, e.g. `render_latex()` and `render_html()`, etc.  Output hooks should be set inside the document, but if the hooks are set before knitr::knit() processes the document then render_xxxx() must be called first, where xxxx is the output format eg render_markdown() or render_html() - see below.
+
+
+Details for these formats:
 
 ## LaTeX: render_latex()
 
