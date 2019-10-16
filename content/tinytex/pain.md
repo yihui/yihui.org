@@ -129,3 +129,9 @@ Below are stories and experiences contributed by other users:
 > literally took me longer to remove all traces of MacTeX than to install TinyTeX and all the packages needed to build my thesis, and i saved about 10gb of disk space.
 
 > --- [Tim Hosgood](https://twitter.com/tjohnhos/status/1175575859748638720)
+
+<!-- -->
+
+> I've always had a problem knitting to pdf with windows.  I followed instruction for tinytex and it works great now!
+
+> --- [Dilsher Dhillon](https://twitter.com/TexanDhillon/status/1183831526485712897)
