@@ -350,4 +350,3 @@ All package options are:
 - `unnamed.chunk.label`: (`unnamed-chunk`) the label prefix for unnamed chunks
 - `upload.fun`: (`identity`) a function that takes a filename as its input, processes it and returns a character string when the output format is HTML or Markdown; typically it is a function to upload a image and return the link to the image, e.g. `opts_knit$set(upload.fun = imgur_upload)` can upload a file to <http://imgur.com> (see `?imgur_upload`)
 - `verbose`: (`FALSE`) whether to show verbose information (e.g., R code in each chunk and message logs) or just show chunk labels and options
-- `width`: (`75`) it is used to set the R session option `width` that may affect the width of source code and text output
