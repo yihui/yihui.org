@@ -14,8 +14,8 @@ The **knitr** package uses a special object to control options and settings (den
 
 These objects are visible to users in **knitr**:
 
-- [`opts_chunk`](../options/#chunk_options) and `opts_current`: manages **opt**ions for code **chunk**s
-- [`opts_knit`](../options/#package_options): manages **opt**ions for the **knit**r package
+- [`opts_chunk`](../options/#chunk-options) and `opts_current`: manages **opt**ions for code **chunk**s
+- [`opts_knit`](../options/#package-options): manages **opt**ions for the **knit**r package
 - [`knit_hooks`](../hooks): manages hook functions
 - [`knit_patterns`](../patterns): manages regular expressions to extract R code from the input document
 - `knit_engines`: functions to deal with other languages
