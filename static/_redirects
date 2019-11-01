@@ -11,8 +11,11 @@
 /knitr-jekyll/*              https://jekyll.yihui.name/:splat
 /recharts/*                  https://recharts.yihui.name/:splat
 /media/js/center-images.js   /js/center-img.js
+
 https://yihui.netlify.com/*  https://yihui.name/:splat  301!
-http://yihui.netlify.com/*   https://yihui.name/:splat  301!
+https://yihui.rbind.io/*     https://yihui.name/:splat  301!
+https://yihui.org/*          https://yihui.name/:splat  301!
+
 /cn/2018/10/pod/             /cn/2018/10/pot/
 /cn/2018/09/index-zero/      /cn/2018/09/inbox-zero/
 /cn/guestbook.php            /cn/about/
