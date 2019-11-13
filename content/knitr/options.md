@@ -89,6 +89,7 @@ Below is a list of chunk options in **knitr**. Note the options `background` and
   R to stop on errors, we need to set this option to `FALSE`
   - when the chunk option `include = FALSE`, `error` **knitr** will stop on
   error, because it is easy to overlook potential errors in this case
+  - when knitting via `rmarkdown` package, `FALSE` is the default value
 - `message`: (`TRUE`; logical) whether to preserve messages emitted by
   `message()` (similar to `warning`)
 - `split`: (`FALSE`; logical) whether to split the output from R into separate
