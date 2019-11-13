@@ -205,7 +205,7 @@ Most of my slides were generated from R Markdown (especially the ones in recent 
 - Yihui Xie, 2018, _Easy Dashboards with R Markdown_, a talk at the Omaha R User Group, Omaha, NE ([slides](https://bit.ly/2018-dashboard))
 - Yihui Xie, 2018, _Creating Websites with R Markdown and blogdown_, a talk at the RStudio Conference 2018, San Diego, CA ([slides](https://bit.ly/2018-blogdown))
 - Yihui Xie, 2017, _An R Markdown Tutorial on bookdown, blogdown, and xaringan_, a 3-hour tutorial in the School of Natural Resources, University of Nebraska-Lincoln ([slides](https://slides.yihui.name/2017-rmarkdown-UNL-Yihui-Xie.html))
-- Yihui Xie, 2017, _Creating A Static Website with blogdown_, a webinar at the Chinese Genomics Meetup ([slides](https://slides.yihui.name/2017-blogdown-CGM-Yihui-Xie.html) in Chinese)
+- Yihui Xie, 2017, _Creating A Static Website with blogdown_, a webinar at the Chinese Genomics Meetup ([slides](https://slides.yihui.name/2017-blogdown-CGM-Yihui-Xie.html) in Chinese; [video](https://www.youtube.com/watch?v=g-UnHlp_IgA))
 - Yihui Xie, 2017, _DIY Your Personal Academic Website with blogdown_, a talk in the Department of Statistics, University of Nebraska-Lincoln ([slides](https://slides.yihui.name/2017-blogdown-UNL-Yihui-Xie.html))
 - Yihui Xie, 2017, _New Packages in the R Markdown Ecosystem_, a webinar given to the Statistics in Marketing Section, ASA ([slides](https://slides.yihui.name/2017-ASA-Marketing-rmarkdown-Yihui-Xie.html))
 - Yihui Xie, 2017, _Towards An Open-access, Fast, and Reproducible Journal_, a keynote talk at the WOMBAT MeDaScIn conference, Melbourne, Australia ([slides](https://slides.yihui.name/2017-DSM-Journal-Yihui-Xie.html))
