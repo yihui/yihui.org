@@ -196,6 +196,7 @@ Projects participated:
 
 Most of my slides were generated from R Markdown (especially the ones in recent years). To download the R Markdown source documents, simply replace the extension `.html` with `.Rmd` in the address bar of your web browser.
 
+- Yihui Xie, 2019, _15 Tips on Making Better Use of R Markdown_, an online seminar hosted by DahShu ([slides](https://bit.ly/dahshu-down))
 - Yihui Xie, 2019, _My failures and perplexities as a former PhD student at Iowa State and later a software engineer at RStudio_, a talk invited by STAT-ers at Iowa State University ([slides](https://bit.ly/isu-talk))
 - Yihui Xie, 2019, _The fun with CSS and JavaScript, joined by the simplicity of Markdown_, Statistical Graphics Group, Iowa State University ([slides](https://bit.ly/isu-pagedown))
 - Yihui Xie, 2019, _R Markdown: a Software Ecosystem for Reproducible Publications_, [JSM](https://ww2.amstat.org/meetings/jsm/2019/onlineprogram/ActivityDetails.cfm?SessionID=218013), Denver, CO ([slides](https://bit.ly/jsm-rmarkdown))
