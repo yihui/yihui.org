@@ -25,7 +25,7 @@ slug: cold-joke-on-163-mailbox
 Yihui  
 \-\-\-  
 Yihui Xie <***@gmail.com>  
-Phone: 515-294-2465 Web: http://yihui.name  
+Phone: 515-294-2465 Web: http://yihui.org  
 Department of Statistics, Iowa State University  
 2215 Snedecor Hall, Ames, IA
 

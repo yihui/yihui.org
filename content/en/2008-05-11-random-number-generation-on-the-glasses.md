@@ -6,7 +6,7 @@ slug: random-number-generation-on-the-glasses
 
 I was unfortunately caught in the rain this evening and my glasses were blurred by the rain drops. When I came back the office, took them off and was about to clear the beads, I just found a good RNG (_Random Number Generator_) from the nature:
 
-![rain drops on glasses](https://db.yihui.name/imgur/osW1e.jpg)
+![rain drops on glasses](https://db.yihui.org/imgur/osW1e.jpg)
 
 People who are familiar with statistical computation must have learned how to generate random numbers following a `U(0, 1)` distribution. One of the most common generators is the [linear congruential generator](http://en.wikipedia.org/wiki/Linear_congruential_generator). This is just what I was reminded of by the rain drops on my glasses. The plot below is made in R based the linear congruential generator:
 
@@ -24,9 +24,9 @@ plot(x, col = "white")
 par(op)
 ```
 
-![Random Number Generation on the Glasses](https://db.yihui.name/imgur/xcMdj.png)
+![Random Number Generation on the Glasses](https://db.yihui.org/imgur/xcMdj.png)
 
 Do they look like each other? Here is a simple animation.
 
-![Random Number Generation on the Glasses](https://db.yihui.name/imgur/jtJ1S.gif)
+![Random Number Generation on the Glasses](https://db.yihui.org/imgur/jtJ1S.gif)
 

@@ -17,4 +17,4 @@ Hopefully you will understand better why I prefer "[bite-sized pull requests](/e
 
 I'm writing this down to [remind myself](https://twitter.com/tjmahr/status/1017415868517683200) as well because I often forget it: other people may have crying babies in their hands, and I may need to give them more time and patience. Needless to say, the metaphor could refer to many other constraints.
 
-![Be kind](https://slides.yihui.name/gif/overhead-bin.gif)
+![Be kind](https://slides.yihui.org/gif/overhead-bin.gif)

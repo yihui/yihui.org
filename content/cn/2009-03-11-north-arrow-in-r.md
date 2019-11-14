@@ -19,6 +19,6 @@ plot(1, type = "n", ylim = c(0, 1), axes = FALSE, ann = FALSE)
 north.arrow(1, 0.8, 0.4)
 ```
 
-![指北箭头](https://db.yihui.name/imgur/BLJT13o.png)
+![指北箭头](https://db.yihui.org/imgur/BLJT13o.png)
 
 不过这种基础性练习带来的坏处就是，你总觉得用R的基础图形元素什么图都可以画，从而不愿学习新的作图系统。

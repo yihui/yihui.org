@@ -8,4 +8,4 @@ Amber Watkins gave me a suggestion on the animation for the ratio estimation, an
 
 As we know, the benefit of ratio estimation is that sampling skewness may be  adjusted for, because the estimation of `\(\bar{Y}\)` will make use of the information in the relationship of _X_ and _Y_: `\(\bar{X} \cdot (\bar{y}/\bar{x})\)`. Here is a demo (we can see the ratio estimate, denoted by the red line, generally performs better than `\(\bar{y}\)`):
 
-![An animation demo for the ratio estimation](https://db.yihui.name/imgur/ob7Fy.gif)
+![An animation demo for the ratio estimation](https://db.yihui.org/imgur/ob7Fy.gif)

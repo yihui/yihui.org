@@ -92,4 +92,4 @@ And I just wanted to collect these unknown "facts" about Jeff A-leek-sa:
 
 I'm looking forward to yet more facts.
 
-![More](https://slides.yihui.name/gif/dog-reach.gif)
+![More](https://slides.yihui.org/gif/dog-reach.gif)

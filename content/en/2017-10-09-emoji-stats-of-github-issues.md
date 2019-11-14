@@ -10,6 +10,6 @@ Anyway, that is not the topic I'm trying to write about in this post. I'm wonder
 
 I'd like to provide the Github repo name, and get the summary statistics of _reactions_^[Note I don't mean emoji characters used in text, but reactions only. Currently Github has only provided six possible reactions.] on Github issues (including those on replies). It is probably not that difficult (the [Github API](https://developer.github.com/v3/issues/) looks clear enough to me but I don't have the time). Anyone to help?
 
-![Waiting for help](https://slides.yihui.name/gif/questions.gif)
+![Waiting for help](https://slides.yihui.org/gif/questions.gif)
 
 > **Update on 2017/11/16**: Yang has prepared a [Github repo](https://github.com/yiluheihei/github_issues_reactions), and it worked well for me. Thanks, Yang!

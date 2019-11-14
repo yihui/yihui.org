@@ -12,7 +12,7 @@ Ensure that your math
 in xaringan hath  
 been placed on a single long line
 
-I laughed out loud. That was much better than my ["official" documentation](https://slides.yihui.name/xaringan/#16)!
+I laughed out loud. That was much better than my ["official" documentation](https://slides.yihui.org/xaringan/#16)!
 
 **Update on 2018-07-02**: Another limerick by Claus [on three dashes](https://github.com/yihui/xaringan/issues/151#issuecomment-401827615):
 

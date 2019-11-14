@@ -13,6 +13,6 @@ In Caddisfly's first post, (s)he showed good intentions: (s)he found a solution 
 
 Downvoting or voting to close a question only requires clicking your mouse once or twice, which is extremely easy. Educating the beginner that an answer should be separate from the question requires you to type more words, which could take a minute or two, and therefore is much harder to do, but also much more helpful and meaningful (thanks, @gparyani, for doing that in the second comment).
 
-[![A Stack Overflow post that shows good intentions but was voted to be closed](https://db.yihui.name/images/so-good-intention.png#border)](https://stackoverflow.com/q/50164548/559676)
+[![A Stack Overflow post that shows good intentions but was voted to be closed](https://db.yihui.org/images/so-good-intention.png#border)](https://stackoverflow.com/q/50164548/559676)
 
 Perhaps my words "slap in the face" are too strong. My point is that if a user is showing good intentions, we should try to welcome and encourage him/her. Formality problems such as splitting a post into a question and answer are fairly easy to fix, but kind users who are willing to share solutions are relatively difficult to find (some are busy, and some don't bother). Between the two choices, a Stack Overflow post correct in the form and a generous Stack Overflow user, which would you value more? I think the answer should be obvious.

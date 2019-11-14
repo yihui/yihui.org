@@ -8,7 +8,7 @@ This is an R package to create and export animations to a variety of formats (HT
 
 - Yihui Xie (2013). _animation: An R Package for Creating Animations and Demonstrating Statistical Methods._ Journal of Statistical Software, 53(**1**), 1-27. URL http://www.jstatsoft.org/v53/i01/.
 
-![The Gradient Descent Algorithm](https://assets.yihui.name/figures/animation/example/grad-desc/demo-a.gif)
+![The Gradient Descent Algorithm](https://assets.yihui.org/figures/animation/example/grad-desc/demo-a.gif)
 
 You can install the stable version from [CRAN](https://cran.rstudio.com/package=animation), or the development version from [GitHub](https://github.com/yihui/animation):
 

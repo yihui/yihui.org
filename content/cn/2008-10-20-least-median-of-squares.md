@@ -8,11 +8,11 @@ slug: least-median-of-squares
 
 但是转念一想，LMS这个东西怎么看着眼熟，打开MASS一看，原来是自己以前用过的。MASS包的lqs()可以计算各种稳健和耐抗回归，LMS是其中一种。LMS是一种稳健回归方法（下第一幅图），然而MASS的文献指出它对大量堆在中间位置上的数值敏感（下第二幅图）。
 
-![LMS与OLS的比较（LMS较稳健）](https://db.yihui.name/imgur/iIb0IDM.png)
+![LMS与OLS的比较（LMS较稳健）](https://db.yihui.org/imgur/iIb0IDM.png)
 
 图1 离群点对普通最小二乘有严重影响，LMS却没问题
 
-![LMS与OLS的比较（LMS对中间值敏感）](https://db.yihui.name/imgur/YtY3dt0.png)
+![LMS与OLS的比较（LMS对中间值敏感）](https://db.yihui.org/imgur/YtY3dt0.png)
 
 图2 大量的中间值让LMS失效，普通最小二乘却没事
 

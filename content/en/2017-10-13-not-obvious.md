@@ -12,6 +12,6 @@ Eventually I was told that he changed the value of a default argument, which I c
 
 So he thought it should be obvious to me that the argument took a different value. No, it was not. Please do not make this assumption when filing issues.
 
-![How to draw an owl](https://slides.yihui.name/gif/draw-an-owl.jpg)
+![How to draw an owl](https://slides.yihui.org/gif/draw-an-owl.jpg)
 
 To clarify, I'm not blaming this user. I can totally understand it. Many users do the same thing. The problem is that there are so many possibilities for software to screw up, so you have to describe everything clearly to eliminate as many possibilities as possible.

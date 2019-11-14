@@ -9,11 +9,11 @@ slug: continuous-human-world-and-discrete-computer-world
 以下三幅图说明了这个近似的过程：第一幅图看起来很光滑很强大；第二幅图和第一幅图完全相同，只是把作图用到的数据点标了出来——实际上只用了[-3, 3]区间上的100个点；第三附图只用了10个点，图穷匕首见。
 
 
-![](https://db.yihui.name/imgur/3gwKxy0.png)
+![](https://db.yihui.org/imgur/3gwKxy0.png)
 
-![](https://db.yihui.name/imgur/doMWd56.png)
+![](https://db.yihui.org/imgur/doMWd56.png)
 
-![](https://db.yihui.name/imgur/tdebC87.png)
+![](https://db.yihui.org/imgur/tdebC87.png)
 
     # png("polygon%d-s.png", width = 500, height = 500)
     par(mar = c(2, 2, 0.1, 0.1), las = 1, mgp = c(3, 0.5, 0), tcl = -0.3)

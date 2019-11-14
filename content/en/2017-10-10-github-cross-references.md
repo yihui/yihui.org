@@ -10,4 +10,4 @@ Problem solved. I didn't need to do anything, and happily closed the **rmarkdown
 
 Thanks, Karl, for the "free ride". You are so cool.
 
-![Dog riding motorcyle](https://slides.yihui.name/gif/dog-motor.gif)
+![Dog riding motorcyle](https://slides.yihui.org/gif/dog-motor.gif)

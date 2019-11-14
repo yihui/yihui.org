@@ -20,6 +20,6 @@ slug: smoked-bacon
 
 断断续续忙活了一冬天，就为了能吃到肥肉是透明的、带着柴火味儿的肉。现在冰箱里的肉和肠应该能撑过这个夏天，终于了却本吃货的一大心愿。
 
-![自制腊肉](https://db.yihui.name/images/smoked-bacon.jpg)
+![自制腊肉](https://db.yihui.org/images/smoked-bacon.jpg)
 
 以上图片深刻表明：这个碗不够圆！（宽 400 像素、高 403 像素）

@@ -10,7 +10,7 @@ Recently I was kind of amused by two instances of quiet yet long-time struggles 
 
 One instance was [Julia Silge crying over **rJava**](https://twitter.com/juliasilge/status/1021931066460794882). Oh rJava... RJAVA! Let me count the number of ways you could fail and the number of hours I have spent on your installation...
 
-![Crying together](https://db.yihui.name/images/gaocheng-wuliuyi.jpg)
+![Crying together](https://db.yihui.org/images/gaocheng-wuliuyi.jpg)
 
 There may well be good reasons for our frustrations. I don't know. I know nothing about Java. I don't use **rJava** myself. I just tried to install it because I need to check the reverse dependencies of some of my R packages, which happened to use **rJava**.
 
@@ -26,7 +26,7 @@ Anyway, if a software package seems to try to turn an average user into a sysadm
 
 - sudo?
 
-![Tired](https://slides.yihui.name/gif/tired.gif)
+![Tired](https://slides.yihui.org/gif/tired.gif)
 
 Actually I did figure out how to install it, but it was a long way... I was afraid that I would have to go through this again in the future (like I did for a few times in the past), so I chose not to touch it again.
 

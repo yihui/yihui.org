@@ -8,9 +8,9 @@ slug: dragon-warrior
 
 （我发现我的思维经常是一个巨大的转移矩阵）小孩子的理想就是简单，打败每一层的Boss，一直到第七层打败背后的总Boss，就拯救了世界。
 
-![](https://db.yihui.name/imgur/iOCqh.jpg)
+![](https://db.yihui.org/imgur/iOCqh.jpg)
 
-![](https://db.yihui.name/imgur/M6Lq0.jpg)
+![](https://db.yihui.org/imgur/M6Lq0.jpg)
 
 （突然发现思维又可以转移回来了）我下午的报告中谈到的关于统计模型的想法也颇有小孩子想法，我希望模型可以尽量符合人们最直接的思维，并可以将最直接的思维用数学的形式表达出来。统计发展史上，也曾有这样一段年月，统计理论越来越抽象，脱离现实越来越远（例如Biometrika已经完全拒绝刊登应用文章），20世纪80年代美国才纷纷成立应用型的统计学系，如生物统计系、流行病学系等。
 

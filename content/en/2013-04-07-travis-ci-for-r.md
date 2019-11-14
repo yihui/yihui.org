@@ -13,7 +13,7 @@ I have a good solution for 2, which is to keep silent when your submission passe
 
 The key is, do not argue. Silence is gold.
 
-![You shall not pass](https://db.yihui.name/imgur/3mdv0k9.jpg)
+![You shall not pass](https://db.yihui.org/imgur/3mdv0k9.jpg)
 
 The CRAN maintainers have been volunteering their time, and we should respect them. The question is, will this approach scale well with the growth of packages? Or who should be in charge of `R CMD check`?
 

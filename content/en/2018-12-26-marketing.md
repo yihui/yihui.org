@@ -58,4 +58,4 @@ As I was writing [the post](/en/2018/09/code-appendix/) about Alex and Lucy's me
 
 Is marketing necessary? Absolutely. Do you have to use social media? It depends. The take-home message? Do good work first. Then try to be creative in marketing.
 
-![Be a good duck first. Then wear a dog mask to impress others.](https://slides.yihui.name/gif/duck-dog-mask.gif)
+![Be a good duck first. Then wear a dog mask to impress others.](https://slides.yihui.org/gif/duck-dog-mask.gif)

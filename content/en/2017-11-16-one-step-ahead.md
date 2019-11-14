@@ -12,4 +12,4 @@ That is why sometimes when users ask "HOW to do something", it could be useful i
 
 See [this line of code](https://github.com/rstudio/blogdown/blob/e6844804/R/utils.R#L287-L288) for a silly example of me "thinking ahead" :) It is easy to think about and write code that works for the current step (or the current environment, setting, and so on), and who knows what will happen in the future...
 
-![](https://slides.yihui.name/gif/missed-shot.gif)
+![](https://slides.yihui.org/gif/missed-shot.gif)

@@ -6,7 +6,7 @@ slug: explain-statistics-with-animations
 
 这个想法由来已久，但直至昨日才真正动手做，这项工程看起来有点野心勃勃，也正好借此机会把统计学的经典理论回顾复习一遍。
 
-网址：<http://animation.yihui.name>
+网址：<http://animation.yihui.org>
 
 专门开一个二级域名用作动画展示。抱歉的是，我暂时不想用中文写……先跟鬼子们交流充分之后再考虑建一个中文版好了。同时对鄙人的蹩脚英文也抱歉一下……有砖头的请使劲拍。
 

@@ -6,7 +6,7 @@ slug: alphahull-an-r-package-for-alpha-convex-hull
 
 [A new paper on the &alpha;-convex hull](http://www.jstatsoft.org/v34/i05/paper) appeared in the Journal of Statistical Software today. The &alpha;-convex hull is an interesting problem which caught my attention long time ago but I didn't know a solution then. R has a function `chull()` which can generate (indices of) the convex hull for a series of points. Now we can use the R package **alphahull** to compute the &alpha;-convex hull. For those who are not familiar with the &alpha;-convex hull, the animation below might be a good illustration for the difference between a convex hull and an &alpha;-convex hull. Note how the parameter &alpha; affects the shape of the hull:
 
-![alpha-convex hull with different alpha's](https://db.yihui.name/imgur/L7Ijj.gif)
+![alpha-convex hull with different alpha's](https://db.yihui.org/imgur/L7Ijj.gif)
 
 The above animation can be reproduced with the code below (uncomment the lines to create a GIF animation with the **animation** package):
 

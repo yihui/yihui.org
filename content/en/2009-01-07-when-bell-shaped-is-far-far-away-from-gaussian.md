@@ -14,6 +14,6 @@ plot(density(x), main = "")
 rug(jitter(x))
 ```
 
-![](https://db.yihui.name/imgur/kMSde.png)
+![](https://db.yihui.org/imgur/kMSde.png)
 
 Note that I added a rug (jittered) to the right plot to tell you the true locations of the data points.

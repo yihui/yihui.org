@@ -4,7 +4,7 @@ date: '2014-11-29'
 slug: inequality-in-us
 ---
 
-![](https://db.yihui.name/imgur/z0Hnjz8.jpg)
+![](https://db.yihui.org/imgur/z0Hnjz8.jpg)
 
 图中的女选手名为Kathrine Switzer，她参加了1967年的波士顿马拉松，从此扬名，因为她是第一名参加这项活动的女性。图中显示的是她被人试图驱逐出跑步队伍，因为当时社会偏见是不让女性参加马拉松（[相关视频](http://youtu.be/fOGXvBAmTsY)）。嗯，这就是几十年前的美国，一个自由民主平等的国家，女性参加马拉松都要被人赶出去。
 

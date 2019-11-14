@@ -6,11 +6,11 @@ slug: latex-float-no-longer-sucks
 
 还是DJ兄给力，给的这篇[关于如何使用LaTeX浮动召唤术的神帖](http://www.howtotex.com/tips-tricks/control-float-placement)相当的有用。书中的那些稍微高一点的图形现在都乖乖浮动到页面上方去了，下面的文字如流水般淌过。这事情，只能用《十全九美》第5分06秒的场景描述了：
 
-![太强啦](https://db.yihui.name/imgur/CwBsAqs.png)
+![太强啦](https://db.yihui.org/imgur/CwBsAqs.png)
 
 对于“按下葫芦浮起瓢”（卢编语，非常贴切）的LaTeX浮动，现在我们可以引用《疯狂的石头》10分17秒的场景来描述：
 
-![老子叫你飞](https://db.yihui.name/imgur/4rHon0B.png)
+![老子叫你飞](https://db.yihui.org/imgur/4rHon0B.png)
 
 尽管[前面我说参考文献很可恶](/cn/2011/03/hacking-econometrics/)，但长期在此溜达的客官也许可以发现以上两部老片子是我常用的参考文献。
 

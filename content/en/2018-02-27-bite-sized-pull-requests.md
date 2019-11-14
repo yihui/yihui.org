@@ -24,4 +24,4 @@ but apparently he noticed my style, respected it, and started the long list of a
 
 P.S. This is what it feels like when opening a PR on Github only to find too many changes in it (cannot bite with a single bite):
 
-![Reviewing a PR with too many changes](https://slides.yihui.name/gif/dog-fish.gif)
+![Reviewing a PR with too many changes](https://slides.yihui.org/gif/dog-fish.gif)

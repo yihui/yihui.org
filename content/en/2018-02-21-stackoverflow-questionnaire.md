@@ -9,7 +9,7 @@ Surveys and questionnaires are fairly common today, and I believe most people mu
 
 Earlier last month, I took the 2018 Stack Overflow Developer Survey, and I found a few really difficult questions, such as the one that asked me to rank 10 aspects of a job opportunity in order of importance:
 
-![Ranking 10 aspects of a job opportunity](https://db.yihui.name/images/so-survey.png)
+![Ranking 10 aspects of a job opportunity](https://db.yihui.org/images/so-survey.png)
 
 You may think 10 is a small number. Indeed it is. I can count to 10 without using my toes. The problem is that when you compare `n` aspects with each other, you will end up with doing `n * (n + 1) / 2` comparisons. In this case, you need to do 55 comparisons to accurately answer this question. How long do you think it will need to make 55 decisions? The time is probably not trivial. Also consider that this is only one of the many questions in the survey.
 

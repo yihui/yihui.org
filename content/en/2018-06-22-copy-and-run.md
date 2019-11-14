@@ -23,7 +23,7 @@ I have seen this kind of issues many times in the past, and finally decided to w
 
 In terms of the structure, this is actually a pretty good bug report. It stated the steps to reproduce the problem, and the expected behavior. But I can't simply copy and run an example. I just can't.
 
-![I just can't](https://slides.yihui.name/images/cant-do-it.jpg)
+![I just can't](https://slides.yihui.org/images/cant-do-it.jpg)
 
 I asked for a full reproducible example, and finally realized that I should be looking at the two elements "title" and "title2" in the TOC. Within five seconds, I was able to reproducible the problem after I copied and ran the full example.
 

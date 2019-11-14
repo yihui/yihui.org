@@ -10,9 +10,9 @@ slug: new-r-package-formatr
 
 这个包的界面很简略，就是一个文本框加上若干按钮。以下是效果图：
 
-![R代码整容前](https://db.yihui.name/imgur/Y55lL.png)
+![R代码整容前](https://db.yihui.org/imgur/Y55lL.png)
 
-![R代码整容后](https://db.yihui.name/imgur/v141t.png)
+![R代码整容后](https://db.yihui.org/imgur/v141t.png)
 
 感兴趣的客官可以从[GitHub](https://github.com/yihui/formatR)获得最新源代码自行编译安装，注意这个包依赖于**gWidgetsRGtk2**包。初级用户可以从CRAN安装（CRAN上的版本取决于我的提交，可能会有延迟）：
 

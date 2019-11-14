@@ -14,7 +14,7 @@ slug: 3rd-chinese-r-conference-beijing
 
 会议T恤是这次会议的一个小亮点，下次要保持。顺便附图一张：某童鞋把这次R语言会议的T恤穿到了美帝农村钓鱼（其实一条鱼都没钓到）。
 
-![中国R语言会议T恤与Ada Hayden湖边的渔夫"](https://db.yihui.name/imgur/Z9LNk.jpg)
+![中国R语言会议T恤与Ada Hayden湖边的渔夫"](https://db.yihui.org/imgur/Z9LNk.jpg)
 
 下期预告：《现代统计图形》书稿。这两天忙着搬家，估计要等几天了。
 

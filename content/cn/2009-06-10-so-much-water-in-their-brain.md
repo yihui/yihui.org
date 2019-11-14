@@ -12,7 +12,7 @@ slug: so-much-water-in-their-brain
 
 该管的刁民你不管，不该管的良民你天天来找麻烦。于是，还是[那句话](/cn/2009/05/turning-to-wordpress/)，还看什么看，搬！
 
-![搬家！](https://db.yihui.name/imgur/TrIGky8.jpg)
+![搬家！](https://db.yihui.org/imgur/TrIGky8.jpg)
 
 搬了主机还得搬域名，结果国内某号称最大的域名注册机构非得让你去ICANN投诉它它才肯把域名转出去，你要是老老实实写申请寄过去，中间不催不问不投诉，下辈子都搬不出去。
 
@@ -36,8 +36,8 @@ slug: so-much-water-in-their-brain
 
 附Google搜索图两张：
 
-![绿坝的搜索条目（敲入“绿坝”之后的截图）](https://db.yihui.name/imgur/AHxBiJU.png)
+![绿坝的搜索条目（敲入“绿坝”之后的截图）](https://db.yihui.org/imgur/AHxBiJU.png)
 
-![绿坝的搜索条目（绿坝+空格之后的截图）](https://db.yihui.name/imgur/9EbGTtq.png)
+![绿坝的搜索条目（绿坝+空格之后的截图）](https://db.yihui.org/imgur/9EbGTtq.png)
 
 更新：[学者律师质疑预装“绿坝”合法性](http://www.caijing.com.cn/2009-06-11/110182910_1.html)（鼓掌！！）

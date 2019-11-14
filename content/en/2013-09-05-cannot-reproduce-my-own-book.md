@@ -7,7 +7,7 @@ slug: cannot-reproduce-my-own-book
 > TL;DR I thought I could easily jump to a high standard (reproducibility), but I
   failed.
 
-![](https://db.yihui.name/imgur/niyXcfk.gif)
+![](https://db.yihui.org/imgur/niyXcfk.gif)
 
 Some of you may have noticed that the knitr book is finally out. [Amazon is
 offering a good price](http://www.amazon.com/gp/product/1482203537) at the

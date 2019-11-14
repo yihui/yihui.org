@@ -10,6 +10,6 @@ slug: cranvas-package
 
 由于这个包有一堆依赖（Qt和其它R包），所以安装起来可能还有点费事，而且目前仅限于Linux和Mac用户可用。包中广泛使用R最新推出的引用类（reference class），这东西出来的正是时候，对开发交互式统计图形太有用了；另外Qt的绘图速度比R自身的图形系统要快N倍，对大数据的可视化也有一定的前景（之所以说“一定的”，是因为Qt的一个bug严重制约了本包的niubility）。由于本包还在紧锣密鼓开发中，暂时不广告太多，先奉上截图两张（可以看出它的风格严重受到了ggplot2的影响），感兴趣的[到GitHub下载自己折腾去](https://github.com/ggobi/cranvas)。
 
-![平行坐标图](https://db.yihui.name/imgur/oKLXd.png)
+![平行坐标图](https://db.yihui.org/imgur/oKLXd.png)
 
-![散点图](https://db.yihui.name/imgur/JETrt.png)
+![散点图](https://db.yihui.org/imgur/JETrt.png)

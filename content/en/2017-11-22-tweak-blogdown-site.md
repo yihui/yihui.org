@@ -20,4 +20,4 @@ To be able to fully customize your website, you have to understand how Hugo work
 
 Section 2.5 is a little lengthy, so you have to weigh your urge to customize your website against the possible pain of reading this section. Accept a Hugo theme as-is, or learn more about Hugo and customize it. There is no free lunch.
 
-![Talk to yourself.](https://slides.yihui.name/images/me-to-me.jpg)
+![Talk to yourself.](https://slides.yihui.org/images/me-to-me.jpg)

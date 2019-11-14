@@ -4,7 +4,7 @@ date: '2007-04-26T22:14:13+08:00'
 slug: english-classes-for-postgraduates
 ---
 
-![English courses](https://db.yihui.name/space/english.gif)
+![English courses](https://db.yihui.org/space/english.gif)
 
 I insist that such classes should be canceled, because what we need is no longer the knowledge from special English classes. To some degree, these classes are listed in the schedule of our teaching programs just in case that some teachers should have nothing to do and some students should totally forget English.
 

@@ -2,7 +2,7 @@
 title: An Introduction to xfun
 subtitle: A Collection of Miscellaneous Functions
 author: "Yihui Xie"
-date: "2019-10-03"
+date: "2019-11-14"
 slug: xfun
 githubEditURL: https://github.com/yihui/xfun/edit/master/vignettes/xfun.Rmd
 output:
@@ -363,7 +363,7 @@ Running `R CMD check` on the reverse dependencies of **knitr** and **rmarkdown**
 
 ## Input a character vector into the RStudio source editor
 
-The function `rstudio_type()` inputs characters in the RStudio source editor as if they were typed by a human. I came up with the idea when preparing my talk for rstudio::conf 2018 ([see this post](https://yihui.name/en/2018/03/blogdown-video-rstudio-conf/) for more details).
+The function `rstudio_type()` inputs characters in the RStudio source editor as if they were typed by a human. I came up with the idea when preparing my talk for rstudio::conf 2018 ([see this post](https://yihui.org/en/2018/03/blogdown-video-rstudio-conf/) for more details).
 
 ## Print session information
 
@@ -379,12 +379,12 @@ xfun::session_info(c("xfun", "rmarkdown", "knitr", "tinytex"), dependencies = FA
 ```
 ## R version 3.6.1 (2019-07-05)
 ## Platform: x86_64-apple-darwin15.6.0 (64-bit)
-## Running under: macOS Mojave 10.14.6
+## Running under: macOS Catalina 10.15.1
 ## 
 ## Locale: en_US.UTF-8 / en_US.UTF-8 / en_US.UTF-8 / C / en_US.UTF-8 / en_US.UTF-8
 ## 
 ## Package version:
-##   knitr_1.25     rmarkdown_1.16 tinytex_0.16   xfun_0.10     
+##   knitr_1.26     rmarkdown_1.17 tinytex_0.17   xfun_0.11     
 ## 
 ## Pandoc version: 2.3.1
 ```

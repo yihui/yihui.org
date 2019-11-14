@@ -22,4 +22,4 @@ I guess the moral is, if you want to use Feature X of a software package, you ma
 
 And don't panic.
 
-![You can do it](https://slides.yihui.name/gif/you-can-do-it.gif)
+![You can do it](https://slides.yihui.org/gif/you-can-do-it.gif)

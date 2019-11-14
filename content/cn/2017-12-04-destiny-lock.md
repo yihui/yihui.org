@@ -8,6 +8,6 @@ slug: destiny-lock
 
 看到这个标题，我突然想起小时候在邻居家看的一部电视剧，叫《命运的锁链》，剧情我已经几乎不记得，唯一记得的是里面有个有权势的坏人后来遭家人背叛而落魄，而之前他欺负过的穷人仍然以德报怨，帮助了他。再就是记得这个片头曲中的赶马车画面：
 
-![](https://db.yihui.name/images/destiny-lock.png)
+![](https://db.yihui.org/images/destiny-lock.png)
 
 随手搜了一下，1988 年的电视剧，几乎找不到其它相关的资料。就是这样。

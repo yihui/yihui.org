@@ -31,7 +31,7 @@ qplot(n, p.value, data = d, shape = method, geom = c("smooth", "point")) +
     scale_shape_manual(values = c(2, 3))
 ```
 
-![McNemar检验统计量与卡方分布拟合的好坏](https://db.yihui.name/imgur/0sn2Hjr.png)
+![McNemar检验统计量与卡方分布拟合的好坏](https://db.yihui.org/imgur/0sn2Hjr.png)
 
 实际上，两种统计量与卡方分布的接近程度几乎是一样的，对于每一个n，KS检验得到的P值都差不多，可以看见图上两种方法检验得到的P值基本上是重叠的（其实也意味着统计量的值差不多），而n过了200之后，统计量基本上和卡方分布拟合比较好，即P值较大，但这种关系并不严格。
 

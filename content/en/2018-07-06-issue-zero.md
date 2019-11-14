@@ -33,7 +33,7 @@ env:
     - PATH=$HOME/bin:$PATH
 
 before_install:
-  - wget -qO- https://yihui.name/gh/tinytex/tools/download-travis-linux.sh | sh
+  - wget -qO- https://yihui.org/gh/tinytex/tools/download-travis-linux.sh | sh
 ```
 
 At this moment, the setup for R on Travis adds symlinks of TeX Live executables to `/usr/local/bin`, which prevents us from installing other executables (such as `epstopdf`). That is why I disabled the default LaTeX installation `latex: false`.
@@ -42,4 +42,4 @@ At this moment, the setup for R on Travis adds symlinks of TeX Live executables 
 
 Early last year, the editor of JSS said the JSS article format in **rticles** [was "unacceptable"](https://github.com/rstudio/rticles/issues/102). I was sad to hear that. I'm [always sad to hear](/en/2017/12/formatting-papers/) formatting issues could be real and critical issues. Anyway, after some communication with the editor, we happily and [easily](https://github.com/rstudio/rticles/commit/65a66b51) resolved the main issue (bibliography should have been generated via **natbib**). So it was actually not too bad. After fixing the dollar sign issue mentioned before, and the issue of authors on multiple lines ([#100](https://github.com/rstudio/rticles/issues/100)), personally I feel the JSS article format in **rticles** is pretty good now. The new version of **rticles** (v0.5) has been released on CRAN. Let's see if we can survive the journal of the highest LaTeX standard in the world this time.
 
-![Am I awesome enough now?](https://slides.yihui.name/gif/awesome-me.gif)
+![Am I awesome enough now?](https://slides.yihui.org/gif/awesome-me.gif)

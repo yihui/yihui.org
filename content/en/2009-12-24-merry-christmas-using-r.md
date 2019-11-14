@@ -21,7 +21,7 @@ saveSWF({
     plot.window(c(1, n), c(0, 1))
     for (i in 1:n) text(i, 0.5, x[i], srt = angle[i], cex = runif(1,
       1, 4), col = sample(colors(), 1))
-    text(n, 0, "Yihui @ 2009-12-24 (http://yihui.name)",
+    text(n, 0, "Yihui @ 2009-12-24 (http://yihui.org)",
       adj = c(1, 0), col = "white", cex = 0.8)
   }
 }, interval = 0.04, dev = "pdf", outdir = getwd(), para = list(mar = rep(0,

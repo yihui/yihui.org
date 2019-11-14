@@ -39,4 +39,4 @@ I did not know much about the Johns Hopkins biostat department before I [visited
 
 In case you have not seen it, I strongly recommend you read (and apply for) the [postdoctoral fellow position in reproducible research](http://simplystatistics.org/?p=1097) at Hopkins. Note in particular the phrase "serious moxie"!!
 
-So do I regret ENAR? Certainly no. If I can organize my time more efficiently meeting more people like those above, it will be even better. BTW, if you are not the 20 people in my session, feel free to check out [my slides on **knitr**](https://slides.yihui.name/knitr-ENAR-Yihui-Xie-2013.html) (Brian Bot simply called them "animated gifs" instead of "slides").
+So do I regret ENAR? Certainly no. If I can organize my time more efficiently meeting more people like those above, it will be even better. BTW, if you are not the 20 people in my session, feel free to check out [my slides on **knitr**](https://slides.yihui.org/knitr-ENAR-Yihui-Xie-2013.html) (Brian Bot simply called them "animated gifs" instead of "slides").

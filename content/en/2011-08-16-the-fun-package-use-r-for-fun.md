@@ -13,14 +13,14 @@ if (.Platform$OS.type == "windows") x11() else x11(type = "Xlib")
 mine_sweeper()
 ```
 
-![Mine Sweeper in R](https://db.yihui.name/imgur/U4oAT.png)
+![Mine Sweeper in R](https://db.yihui.org/imgur/U4oAT.png)
 
 ```r 
 library(fun)
 gomoku()
 ```
 
-![Five in a row in R](https://db.yihui.name/imgur/8jcQl.png)
+![Five in a row in R](https://db.yihui.org/imgur/8jcQl.png)
 
 You can take a look at the list of functions in this package by reading the HTML help page (go to `help.start()`), and I also need to mention the demos, e.g. see `demo('TurtleGraphics')` for a demo of Turtle graphics (how many people know the old Logo programming language?), and `demo(package = 'fun')` for a list of all demos in this package.
 
@@ -28,7 +28,7 @@ You can take a look at the list of functions in this package by reading the HTML
 demo('RealTurtle', package = 'fun')
 ```
 
-![A turtle drawn in R](https://db.yihui.name/imgur/oWdOu.png)
+![A turtle drawn in R](https://db.yihui.org/imgur/oWdOu.png)
 
 Although these topics are not new, they can still be good programming exercises.
 

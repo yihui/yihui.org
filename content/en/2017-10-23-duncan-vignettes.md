@@ -8,7 +8,7 @@ Many R users may have heard this morning that [Duncan Murdoch has stepped down f
 
 I haven't had much interaction with Duncan on a personal basis. I think we have met only once at Interface 2012, where I complained about the old-fashioned R homepage to him. I'm definitely not the right person to summarize his enormous contributions to the R world, but after hearing that he was leaving the R Core Team, I briefly recalled what I knew about him in my mind.
 
-If I can only mention one thing in this post, it would be [R package vignettes](https://yihui.name/knitr/demo/vignette/). I mean the non-Sweave vignettes. This would not be possible without Duncan's support and Henrik Bengtsson's hard work. An R package vignette can be an extremely helpful (to users) and convenient (to authors) documentation format, and is a great companion to R help pages.
+If I can only mention one thing in this post, it would be [R package vignettes](https://yihui.org/knitr/demo/vignette/). I mean the non-Sweave vignettes. This would not be possible without Duncan's support and Henrik Bengtsson's hard work. An R package vignette can be an extremely helpful (to users) and convenient (to authors) documentation format, and is a great companion to R help pages.
 
 It was one of my most exciting moments when I learned that non-Sweave vignettes were going to be supported in R 3.0.0. I think it is fairly clear today that limiting R package authors to Sweave in vignettes was not a good idea. Not many authors actually cared to write vignettes when Sweave was the only option, since it basically means you have to write in LaTeX.
 

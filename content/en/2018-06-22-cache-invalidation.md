@@ -99,7 +99,7 @@ I said above that the obvious price to pay for caching is storage (either in mem
 
 If you don't fully understand how caching works and the conditions for its invalidation, caching could be too sensitive or dumb, and may not serve you well. Some users may be able to quick understand it, and some may not. If you want to speed, you'd better know the traffic rules first, otherwise you may be pulled over.
 
-The full documentation of **knitr**'s caching is in the **knitr** book "_Dynamic Documents with R and knitr_ (2nd ed)". If you don't have this book, there is  [a page on **knitr**'s website](https://yihui.name/knitr/demo/cache/) that contains more information.
+The full documentation of **knitr**'s caching is in the **knitr** book "_Dynamic Documents with R and knitr_ (2nd ed)". If you don't have this book, there is  [a page on **knitr**'s website](https://yihui.org/knitr/demo/cache/) that contains more information.
 
 I don't know what was on Phil Karlton's mind when he said those words, but the above is my experience about caching. The ultimate suggestion I often give to users is that if you feel **knitr**'s caching is too complicated, it is totally fine to use a much simpler caching mechanism like this:
 

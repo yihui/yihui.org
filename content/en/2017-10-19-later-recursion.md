@@ -27,7 +27,7 @@ print_time()
 
 This function will keep running until the R session is terminated or restarted. Every time `print_time()` is called, the current time is printed, and the same task is scheduled again.
 
-![penguins stumbled](https://slides.yihui.name/gif/penguin-stumble.gif)
+![penguins stumbled](https://slides.yihui.org/gif/penguin-stumble.gif)
 
 ## Caveats
 

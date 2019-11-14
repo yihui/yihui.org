@@ -13,6 +13,6 @@ I mourned over an email that I received this morning, in which a (**bookdown**) 
 
 Fortunately, I have an answer: `options(htmltools.dir.version = FALSE)`, but why should I spend the time on dealing with such problems in the first place? It is hard to imagine the limit of bureaucracy in this world.
 
-![Tired of bureaucracy](https://slides.yihui.name/gif/tired.gif)
+![Tired of bureaucracy](https://slides.yihui.org/gif/tired.gif)
 
 P.S. I think most people must have been desperate enough about the [password rules](/en/2012/08/stupid-iastate-password-rules/) defined by the crazy IT people. That is a more common example of bureaucracy.

@@ -8,7 +8,7 @@ Yesterday Fan J asked me for a cover design of the statistical journal of gradua
 
 I always insist that students (as well as many researchers in the field of statistics) have ignored the great importance of statistical computation. For example, every now and then I can see presenters prefer to stop going further when they come to an issue related to computations; logistic regression is just a very typical topic. Rarely have I seen any authors mentioned the process of estimating parameters in logistic regression, what's more, some authors just tell us to find the roots of a series of partial derivative equations (as if they were quite easy to solve by hand), which is a conventional method in optimization -- I just cannot see where "IWLS" or "Fisher Scoring" are mentioned. Thus I designed this picture to emphasize the importance of statistical computation.
 
-![gradient descent algorithm](https://db.yihui.name/imgur/QSJXS.png)
+![gradient descent algorithm](https://db.yihui.org/imgur/QSJXS.png)
 
 The function is `z = sin(1/2 * x^2 - 1/4 * y^2 + 3) * cos(2 * x + 1 - exp(y)`. It is a little complex. The meaning of the above plot lies in:
 

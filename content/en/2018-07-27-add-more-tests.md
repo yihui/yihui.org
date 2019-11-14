@@ -43,4 +43,4 @@ Note that:
 
 Of course, many of other packages that I maintain also lack sufficient testing (e.g., **knitr**). Please feel free to work on any packages you like. I believe as you work on these tests, you will understand many internal functions much better, because you have to clearly know what each function is supposed to do! Sometimes you may have to split a big function into smaller ones, and test these small parts separately. Please feel free to refactor/split whenever you think is necessary. I'll be waiting for your pull requests! Thanks!
 
-![Let's test it!](https://slides.yihui.name/gif/demo-fail.gif)
+![Let's test it!](https://slides.yihui.org/gif/demo-fail.gif)

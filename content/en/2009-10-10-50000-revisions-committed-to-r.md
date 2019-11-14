@@ -16,7 +16,7 @@ Today [Romain Francois](http://romainfrancois.blog.free.fr/) posted an interesti
 
 While these facts are revealing their great efforts in helping R users, we can see their work hours in committing revisions to R. For example, the answer to my question is clear in the graph below:
 
-![Does Prof Ripley Ever Sleep?](https://db.yihui.name/imgur/1kSb7.png)
+![Does Prof Ripley Ever Sleep?](https://db.yihui.org/imgur/1kSb7.png)
 
 ```r 
 ## R code borrowed from Romain Francios
@@ -55,7 +55,7 @@ qplot(hour, data = subset(hour.data, author == "ripley"),
 
 Here I only selected four authors who have largest number of commits during 1997~2009. We can see the changes of working hours along these years:
 
-![Working hours of four R core members](https://db.yihui.name/imgur/Q2KJi.gif)
+![Working hours of four R core members](https://db.yihui.org/imgur/Q2KJi.gif)
 
 ```r 
 hour.max = max(with(hour.data, table(author, year, hour)))

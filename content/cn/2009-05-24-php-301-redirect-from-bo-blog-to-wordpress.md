@@ -12,7 +12,7 @@ slug: php-301-redirect-from-bo-blog-to-wordpress
 
 > 插播不重要的通知：
 
-> 1、本站的RSS地址已经更改为：_[http://yihui.name/cn/feed/](http://yihui.name/cn/feed/)_，评论RSS为：_[http://yihui.disqus.com/latest.rss](http://yihui.disqus.com/latest.rss)_，请Google Reader中的读者即时更换。英文博客也类似，把cn改成en就可以了。
+> 1、本站的RSS地址已经更改为：_[http://yihui.org/cn/feed/](http://yihui.org/cn/feed/)_，评论RSS为：_[http://yihui.disqus.com/latest.rss](http://yihui.disqus.com/latest.rss)_，请Google Reader中的读者即时更换。英文博客也类似，把cn改成en就可以了。
 > 2、如果你懒得换也行，反正我已经重定向了。
 
 Bo-Blog的`feed.php`文件在不带参数的时候是博客正文的RSS，带参数`go`的时候可能是评论，也可能是分类目录的RSS，因此需要在WP根目录下建一个`feed.php`文件，里面对参数作简单的判断，把原来的RSS重定向到WP的RSS中。以下代码只是本博客的转向，具体怎么写要根据具体搬家结果分析。

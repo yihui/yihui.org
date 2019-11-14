@@ -30,4 +30,4 @@ The example I gave above was just a special case: `x` could be an array of more 
 
 R help pages have too much hidden power. You have to carefully unfold and read them.
 
-![The help page is really powerful](https://slides.yihui.name/gif/annoying-paper.gif)
+![The help page is really powerful](https://slides.yihui.org/gif/annoying-paper.gif)

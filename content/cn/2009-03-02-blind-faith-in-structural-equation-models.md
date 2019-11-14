@@ -8,7 +8,7 @@ slug: blind-faith-in-structural-equation-models
 
 话说前两天发生的一件事情：某高校一位教授找到我，希望我帮忙算一算SEM，我本不太情愿干这种和SEM有关的事，有碍于是导师大人介绍的，也就答应下来，哪知前天突然得知，他们圈内有规定，SEM必须用LISREL求解，不能用AMOS，论文必须附注LISREL代码。
 
-![万能的结构方程模型，阿弥陀佛！](https://db.yihui.name/imgur/XF0QuIQ.gif)
+![万能的结构方程模型，阿弥陀佛！](https://db.yihui.org/imgur/XF0QuIQ.gif)
 
 娘希匹，迷信SEM建模本身的方法论就忍了，居然对软件都有宗教般的信仰，你们说说，这帮人是不是脑子让猪栏门给夹了？（注2）
 

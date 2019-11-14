@@ -13,9 +13,9 @@ slug: yang-zhou-slow
 
 这似乎是高二某篇课文。当时觉得这词有股音律在里面，今日再看，也许是这词本身的场景和平仄起伏都比较大的缘故。转念一想，切，这到底有嘛啊？
 
-![扬州慢：四声](https://db.yihui.name/imgur/ataQ3.png)
+![扬州慢：四声](https://db.yihui.org/imgur/ataQ3.png)
 
-![扬州慢：平仄](https://db.yihui.name/imgur/IcTQ9.png)
+![扬州慢：平仄](https://db.yihui.org/imgur/IcTQ9.png)
 
 可惜了儿了当年的语文老师，愣是把课上得无人愿意听。本小子在初中萌发的一肚子文学热情，在高中全被掐灭了。你看，现在读首破词，也要画个破折线图，这就是他娘的理科。
 

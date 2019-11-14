@@ -36,4 +36,4 @@ Emi said [it was heck of a praise](https://twitter.com/statsgen/status/102311851
 
 Creative, enthusiastic, excellent taste of design, with great attention to details. That is my overall impression of this hacker. Wait... Why do I feel as if I were writing [a letter of recommendation](/en/2014/11/lor-nan-xiao/)?...
 
-![The hacker's way of parking](https://slides.yihui.name/gif/impossible-parking.gif)
+![The hacker's way of parking](https://slides.yihui.org/gif/impossible-parking.gif)

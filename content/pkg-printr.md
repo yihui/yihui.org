@@ -17,7 +17,7 @@ vignette: >
 
 
 The **printr** (read "printer" or "print R") package is a companion package to
-[**knitr**](https://yihui.name/knitr/). Its main purpose is to extend the S3
+[**knitr**](https://yihui.org/knitr/). Its main purpose is to extend the S3
 generic function `knit_print()` in **knitr**, which is the default value of the
 chunk option `render`, as explained in the vignette
 [knit_print.html](https://cran.r-project.org/web/packages/knitr/vignettes/knit_print.html).
@@ -541,7 +541,7 @@ Description:        Extends the S3 generic function knit_print() in 'knitr' to
 Imports:            knitr (>= 1.16)
 Suggests:           tools, rmarkdown
 License:            GPL
-URL:                https://yihui.name/printr/
+URL:                https://yihui.org/printr/
 BugReports:         https://github.com/yihui/printr/issues
 VignetteBuilder:    knitr
 LazyData:           TRUE

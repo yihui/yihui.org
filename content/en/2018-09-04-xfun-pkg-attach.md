@@ -12,7 +12,7 @@ library(dplyr)
 library(shiny)
 ```
 
-![Repeat the same function call over and over again](https://slides.yihui.name/gif/repeat-smoke.gif)
+![Repeat the same function call over and over again](https://slides.yihui.org/gif/repeat-smoke.gif)
 
 ## The vectorized `library()`
 

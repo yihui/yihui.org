@@ -10,7 +10,7 @@ Statistics is a discipline with strong logics. From traditional regressions (mod
 
 For postgraduates, currently I have noticed a strange phenomenon, i.e. we are pursuing the "frontiers" of statistics, but lack some very very basic knowledge of statistics. For example, we're discussing LASSO every day, but we know little about computational statistics, or even we're using the principle of least squares every day, but we still have no idea about the computation of standard errors of the coefficients in a nonlinear least square (NLS) regression.  
 
-![Graduate courses](https://db.yihui.name/space/courses.gif)
+![Graduate courses](https://db.yihui.org/space/courses.gif)
 
 Problems always exist. The only thing we can do is neither worry nor complain, but make efforts to improve the current situation. Again, there's a long long way to go. Some day I shall discuss these problems with our teachers and students again.  
 

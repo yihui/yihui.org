@@ -53,7 +53,7 @@ This list of FAQs explain the technical details of TinyTeX for those who are cur
     First, add two options `--admin --no-path` to the installation script:
 
     ```sh
-    wget -qO- "https://yihui.name/gh/tinytex/tools/install-unx.sh" \
+    wget -qO- "https://yihui.org/gh/tinytex/tools/install-unx.sh" \
       | sh -s - --admin --no-path
     ```
     
@@ -106,10 +106,10 @@ This list of FAQs explain the technical details of TinyTeX for those who are cur
 
 1. **I'm a Debian/Ubuntu user. How do I prevent TeX Live from being installed when installing other packages that depend on TeX Live? I don't want (or need) both TinyTeX and the official TeX Live packages to be installed at the same time.**
 
-    Yes, `apt-get install` might install certain `texlive-*` packages when they are dependencies of other packages (e.g., `apt-get install dvipng` will also install `texlive-base`). You can download and install [texlive-local.deb](https://travis-bin.yihui.name/texlive-local.deb) to "fool" `apt-get`.
+    Yes, `apt-get install` might install certain `texlive-*` packages when they are dependencies of other packages (e.g., `apt-get install dvipng` will also install `texlive-base`). You can download and install [texlive-local.deb](https://travis-bin.yihui.org/texlive-local.deb) to "fool" `apt-get`.
     
     ```sh
-    wget "https://travis-bin.yihui.name/texlive-local.deb"
+    wget "https://travis-bin.yihui.org/texlive-local.deb"
     sudo dpkg -i texlive-local.deb
     rm texlive-local.deb
     ```

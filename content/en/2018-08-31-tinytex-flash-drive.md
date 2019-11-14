@@ -31,4 +31,4 @@ Yesterday I pushed a new version (v0.8) of the R package **tinytex** [to CRAN](h
 
 One folder to rule them all. No dependency hell. No waste of disk space. No IT support. Just help yourself.
 
-![Help yourself](https://slides.yihui.name/gif/car-transform.gif)
+![Help yourself](https://slides.yihui.org/gif/car-transform.gif)

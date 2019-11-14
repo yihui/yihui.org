@@ -16,4 +16,4 @@ Some people have been helping me so frequently on Github and Stack Overflow that
 
 So if/when you find my work useful, please remember this nice crowd of helpers who liberated my productivity.
 
-![Two kittens doing the job so one kitten can rest](https://slides.yihui.name/gif/cats-celebrate.gif)
+![Two kittens doing the job so one kitten can rest](https://slides.yihui.org/gif/cats-celebrate.gif)

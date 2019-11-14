@@ -12,45 +12,45 @@ slug: back-from-bremen
 
 有空上两张照片。
 
-![](https://db.yihui.name/imgur/vMIpK.jpg)
+![](https://db.yihui.org/imgur/vMIpK.jpg)
 
-![](https://db.yihui.name/imgur/RRFyL.jpg)
+![](https://db.yihui.org/imgur/RRFyL.jpg)
 
-![](https://db.yihui.name/imgur/ZgjTR.jpg)
+![](https://db.yihui.org/imgur/ZgjTR.jpg)
 
-![](https://db.yihui.name/imgur/clqwm.jpg)
+![](https://db.yihui.org/imgur/clqwm.jpg)
 
-![](https://db.yihui.name/imgur/R4FaL.jpg)
+![](https://db.yihui.org/imgur/R4FaL.jpg)
 
-![](https://db.yihui.name/imgur/8d1AD.jpg)
+![](https://db.yihui.org/imgur/8d1AD.jpg)
 
-![](https://db.yihui.name/imgur/NDVcH.jpg)
+![](https://db.yihui.org/imgur/NDVcH.jpg)
 
-![](https://db.yihui.name/imgur/F7Rmu.jpg)
+![](https://db.yihui.org/imgur/F7Rmu.jpg)
 
-![](https://db.yihui.name/imgur/AYkXe.jpg)
+![](https://db.yihui.org/imgur/AYkXe.jpg)
 
-![](https://db.yihui.name/imgur/gYFQy.jpg)
+![](https://db.yihui.org/imgur/gYFQy.jpg)
 
-![](https://db.yihui.name/imgur/4hKse.jpg)
+![](https://db.yihui.org/imgur/4hKse.jpg)
 
-![](https://db.yihui.name/imgur/T59v8.jpg)
+![](https://db.yihui.org/imgur/T59v8.jpg)
 
-![](https://db.yihui.name/imgur/Hnis6.jpg)
+![](https://db.yihui.org/imgur/Hnis6.jpg)
 
-![](https://db.yihui.name/imgur/bt9NS.jpg)
+![](https://db.yihui.org/imgur/bt9NS.jpg)
 
-![](https://db.yihui.name/imgur/TcaiC.jpg)
+![](https://db.yihui.org/imgur/TcaiC.jpg)
 
-![](https://db.yihui.name/imgur/GV974.jpg)
+![](https://db.yihui.org/imgur/GV974.jpg)
 
-![](https://db.yihui.name/imgur/GTSAC.jpg)
+![](https://db.yihui.org/imgur/GTSAC.jpg)
 
-![](https://db.yihui.name/imgur/pa0Aj.jpg)
+![](https://db.yihui.org/imgur/pa0Aj.jpg)
 
 我自己没怎么照相，只是和参会者照了一些合影，就不放上来了。等会议全体合影寄过来之后再放一张大合影。
 
-![不莱梅归来](https://db.yihui.name/imgur/48iA6.jpg)
+![不莱梅归来](https://db.yihui.org/imgur/48iA6.jpg)
 
 ## 流水账游记
 

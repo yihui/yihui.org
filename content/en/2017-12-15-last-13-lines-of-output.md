@@ -9,4 +9,4 @@ When running `R CMD check`, I often cry a little upon "Last 13 lines of output" 
 
 After I set `_R_CHECK_TESTS_NLINES_=0`, I was able to see the full output (instead of the truncated version), and finally figured out what was wrong.
 
-![Seeing the full cookie](https://slides.yihui.name/gif/happy-elmo.gif)
+![Seeing the full cookie](https://slides.yihui.org/gif/happy-elmo.gif)

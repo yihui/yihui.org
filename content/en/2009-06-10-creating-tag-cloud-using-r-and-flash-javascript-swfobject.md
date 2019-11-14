@@ -16,7 +16,7 @@ Marc Schwartz mentioned that [Gorjanc Gregor](http://ggorjan.blogspot.com/) has 
 
 Before introducing how to port the plugin into R, I'd like to introduce an R function `pointLabel()` in **maptools** package and it can partially solve the problem of arranging text labels in a plot (using simulated annealing or genetic algorithm). Here is a simulated example:
 
-![Simulated Tag Cloud with R function pointLabel in maptools](https://db.yihui.name/imgur/dnWDx.png)
+![Simulated Tag Cloud with R function pointLabel in maptools](https://db.yihui.org/imgur/dnWDx.png)
 
 ```r 
 library(maptools)
@@ -44,12 +44,12 @@ The main argument is `tagData` which is a data.frame containing at least three c
 ```r 
 > head(tagData)
                 tag                                        link count
-1 2D Kernel Density http://yihui.name/en/tag/2d-kernel-density/     1
-2         algorithm         http://yihui.name/en/tag/algorithm/     1
-3         Animation         http://yihui.name/en/tag/animation/    11
-4           AniWiki           http://yihui.name/en/tag/aniwiki/     2
-5            Arcing            http://yihui.name/en/tag/arcing/     1
-6          arrows()            http://yihui.name/en/tag/arrows/     1
+1 2D Kernel Density http://yihui.org/en/tag/2d-kernel-density/     1
+2         algorithm         http://yihui.org/en/tag/algorithm/     1
+3         Animation         http://yihui.org/en/tag/animation/    11
+4           AniWiki           http://yihui.org/en/tag/aniwiki/     2
+5            Arcing            http://yihui.org/en/tag/arcing/     1
+6          arrows()            http://yihui.org/en/tag/arrows/     1
 ```
 
 Additional columns `color` and `hicolor` will be used if they exist (hexadecimal numbers specifying RGB), e.g.
@@ -57,12 +57,12 @@ Additional columns `color` and `hicolor` will be used if they exist (hexadecimal
 ```r 
 > head(tagData)
                 tag                                        link count  color hicolor
-1 2D Kernel Density http://yihui.name/en/tag/2d-kernel-density/     1 2163bb  f0763d
-2         algorithm         http://yihui.name/en/tag/algorithm/     1 9f0f38  d825b1
-3         Animation         http://yihui.name/en/tag/animation/    11 800130  5b8d6a
-4           AniWiki           http://yihui.name/en/tag/aniwiki/     2 7ce1df  6607b0
-5            Arcing            http://yihui.name/en/tag/arcing/     1 df4e4a  f5cdf2
-6          arrows()            http://yihui.name/en/tag/arrows/     1 31f5fb  19d50d
+1 2D Kernel Density http://yihui.org/en/tag/2d-kernel-density/     1 2163bb  f0763d
+2         algorithm         http://yihui.org/en/tag/algorithm/     1 9f0f38  d825b1
+3         Animation         http://yihui.org/en/tag/animation/    11 800130  5b8d6a
+4           AniWiki           http://yihui.org/en/tag/aniwiki/     2 7ce1df  6607b0
+5            Arcing            http://yihui.org/en/tag/arcing/     1 df4e4a  f5cdf2
+6          arrows()            http://yihui.org/en/tag/arrows/     1 31f5fb  19d50d
 ```
 
 # 3. Example

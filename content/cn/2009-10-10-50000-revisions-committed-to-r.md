@@ -6,7 +6,7 @@ slug: 50000-revisions-committed-to-r
 
 昨天Ripley教授向R提交了第50000次修改，Romain Francios对SVN的日志数据[做了一些简单分析](http://romainfrancois.blog.free.fr/index.php?post/2009/10/09/celebrating-R-commit-50000)，我个人一直关心Ripley是不是整天不用睡觉（你看这老爷子一天到晚都在邮件列表中出没），这次正好验证一下他是不是24小时工作，数据和R代码参见[50000 Revisions Committed to R](/en/2009/10/50000-revisions-committed-to-r/)。
 
-![](https://db.yihui.name/imgur/1kSb7.png)
+![](https://db.yihui.org/imgur/1kSb7.png)
 
 Ripley从1999年加入R核心团队，从上图可以看出，他显然是不需要睡觉的——每个小时都可能有commit。时间分布呈双峰：早上7点到10点、下午3点到6点。看看其他人的工作时间，很容易发现Martin倾向于早起干活，而Peter倾向于每天晚上12点之后干活。
 

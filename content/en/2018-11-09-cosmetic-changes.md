@@ -12,4 +12,4 @@ Programmers, including myself, make cosmetic changes in code all the time, such 
 
 In summary, the whole point is "recognize the priorities". Getting the pull request merged is more important, so you want to save the reviewer time. It is more important for the package maintainers to be happy so they can carry on (bear in mind that they will also have to maintain the code you contributed _after you have left_), so you follow their own styles.
 
-![I love pull requests, but usually you won't stay in my bathtub for long](https://slides.yihui.name/gif/drag-cat.gif)
+![I love pull requests, but usually you won't stay in my bathtub for long](https://slides.yihui.org/gif/drag-cat.gif)

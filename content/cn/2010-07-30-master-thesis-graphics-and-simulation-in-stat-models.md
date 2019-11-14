@@ -16,7 +16,7 @@ slug: master-thesis-graphics-and-simulation-in-stat-models
 
 曾经有童鞋称呼在下为“坛霸”，这个……有时候确实有那么点意思，无图无真相（两个多月没怎么回帖了，一鼓作气）：
 
-![坛霸是怎样练成的](https://db.yihui.name/imgur/SxJ0Y.gif)
+![坛霸是怎样练成的](https://db.yihui.org/imgur/SxJ0Y.gif)
 
 接下来我会陆续写第三届中国R语言会议、《现代统计图形》书稿和useR! 2010，若时间允许，我考虑一下电视剧《九阴真经》（93版）。
 

@@ -6,7 +6,7 @@ slug: simulation-of-burning-fire-in-r
 
 Linlin Yan posted [a cool (hot?) simulation of burning fire](https://cosx.org/en/topic/the-first-r-code-here) with R in the [COS forum](https://cosx.org/en/) yesterday, which was indeed a _warm_ welcome. I'm not sure whether our forum members will be scared by the "fire" under the title "Welcome to COS Forum". The fire was mainly created by the function `image()` with carefully designed rows and columns in heated colors `heat.colors()`. Here is one of the pictures generated from his code:
 
-![Simulation of Burning Fire in R](https://db.yihui.name/imgur/A0hAC.png)
+![Simulation of Burning Fire in R](https://db.yihui.org/imgur/A0hAC.png)
 
 The speed of drawing animation frames is rather slow in my computer, but it doesn't matter since we can use the **animation** package (hey, you are advertising!) to save all the image frames and convert them to a single animation file.
 

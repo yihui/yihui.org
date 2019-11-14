@@ -8,10 +8,10 @@ Tal Galili [asked](http://stackoverflow.com/q/14660969/559676) a question on Sta
 
 See the [page for WordPress](/knitr/demo/wordpress/) in the **knitr** website for details. Below is a sample screenshot:
 
-![knitr, R Markdown and WordPress](https://db.yihui.name/imgur/E7af1ET.png)
+![knitr, R Markdown and WordPress](https://db.yihui.org/imgur/E7af1ET.png)
 
 P.S. I meant to write a separate post about this, but I probably will not find time -- in case you have not [noticed](http://lists.stat.ucla.edu/pipermail/jss-announce/2013-January/000377.html), the [Journal of Statistical Software](http://www.jstatsoft.org/) ranked the first recently in terms of the impact factor in the category of "Statistics & Probability":
 
-[![Impact factor of the Journal of Statistical Software](https://db.yihui.name/imgur/xC0MI6P.png)](https://db.yihui.name/imgur/xC0MI6P.png)
+[![Impact factor of the Journal of Statistical Software](https://db.yihui.org/imgur/xC0MI6P.png)](https://db.yihui.org/imgur/xC0MI6P.png)
 
 Although everybody agrees the impact factor is nonsense, I think this is still an indication of the impact of open-access journals. If I cannot read the full content of a paper from my Google search, I will not bother to read it at all. No, I'm lazy and I will not go the library.

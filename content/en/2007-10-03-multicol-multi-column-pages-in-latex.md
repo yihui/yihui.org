@@ -21,4 +21,4 @@ When I was adjusting my slides for a talk (to be given in Oct 16) in the Capital
 
 This is what my table of contents looks like now:
 
-![multicol -- Multi-column Pages in LaTeX](https://db.yihui.name/imgur/MguIG.png)
+![multicol -- Multi-column Pages in LaTeX](https://db.yihui.org/imgur/MguIG.png)

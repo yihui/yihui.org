@@ -6,11 +6,11 @@ slug: demo-of-interaction-in-regression
 
 我们常见到的教科书上对交互作用的展示一般都是分别给定第二个自变量，然后看第一个自变量对因变量的影响随着第二个自变量取值变化会有何变化。总之，用到的图形都是二维图形，这里我以三维图形来展示交互效应的效果。首先看变量之间没有交互的时候是什么效果：
 
-![无交互作用](https://db.yihui.name/imgur/Mv8F4.png)
+![无交互作用](https://db.yihui.org/imgur/Mv8F4.png)
 
 无论是从x方向还是z方向来看，y（气泡大小）增大的速度都是一样的，例如x=0与x=10的时候，随着z的增加，y增加的速度一样（因为y与z是线性关系，这种关系不受x影响）。
 
-![有交互作用](https://db.yihui.name/imgur/FzsUH.png)
+![有交互作用](https://db.yihui.org/imgur/FzsUH.png)
 
 而有交互效应的时候情况就不一样了，y在x或z方向上增大的速度会与x或z本身的取值有关。例如图中x越大，则y沿着z增大越快（因为斜率里面包含了x）。
 

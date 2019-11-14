@@ -12,6 +12,6 @@ Then I did a quick search, and found [a similar question](https://stackoverflow.
 
 Anyway, I always configure my text editors to add a newline to the end of text files (below is a screenshot of my RStudio options), so I probably would never have discovered this issue by myself.
 
-![Ensure that source files end with newline in RStudio](https://db.yihui.name/images/rstudio-newline.png)
+![Ensure that source files end with newline in RStudio](https://db.yihui.org/images/rstudio-newline.png)
 
 Update on 2018-06-05: This issue just [continues to confuse more users](https://stackoverflow.com/q/50686292/559676).

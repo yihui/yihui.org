@@ -14,6 +14,6 @@ This is useful because it saves users from the headache of understanding [the sp
 
 Actually his [first PR](https://github.com/rstudio/blogdown/pull/263) was also very helpful (it fixed a nontrivial bug), but I have to say the second PR looked so exciting to me when I first saw it. Now I miss nothing in WordPress. Many thanks to Leo, [the great hacker](/en/2018/02/bite-sized-pull-requests/).
 
-![That... is... awesome!](https://slides.yihui.name/gif/finally.gif)
+![That... is... awesome!](https://slides.yihui.org/gif/finally.gif)
 
 P.S. Leo has published [a more detailed blog post](https://lcolladotor.github.io/2018/03/07/blogdown-insert-image-addin/) about this addin.

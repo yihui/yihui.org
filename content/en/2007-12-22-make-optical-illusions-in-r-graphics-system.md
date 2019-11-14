@@ -9,7 +9,7 @@ slug: make-optical-illusions-in-r-graphics-system
 This was a sudden idea that came into my mind yesterday. Actually some optical illusions can be very easily created using R graphics system. Here is one example I wrote yesterday:
 
 ```r 
-# By Yihui XIE, Dec 22, 2007 http://yihui.name
+# By Yihui XIE, Dec 22, 2007 http://yihui.org
 op = par(bg = "gray", mar = rep(2, 4), xpd = NA)
 x = seq(0, 2 * pi, length = 16)
 invisible(replicate(100, {

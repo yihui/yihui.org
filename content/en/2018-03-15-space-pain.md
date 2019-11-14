@@ -30,4 +30,4 @@ Chunk labels will be used to name figure files (if any plots are generated in th
 
 Sigh. Technology.
 
-![Sigh. Technology.](https://slides.yihui.name/gif/dump-computer.gif)
+![Sigh. Technology.](https://slides.yihui.org/gif/dump-computer.gif)

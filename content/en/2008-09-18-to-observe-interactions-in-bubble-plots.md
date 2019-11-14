@@ -6,11 +6,11 @@ slug: to-observe-interactions-in-bubble-plots
 
 Is it clear enough to observe the interaction between `z` and `x` from these bubble plots?
 
-![No interaction](https://db.yihui.name/imgur/Mv8F4.png)
+![No interaction](https://db.yihui.org/imgur/Mv8F4.png)
 
 If there is no interaction between `x` and `z`, the size of bubbles will increase at the _same_ rate while either `x` or `z` is fixed.
 
-![Positive Interaction](https://db.yihui.name/imgur/FzsUH.png)
+![Positive Interaction](https://db.yihui.org/imgur/FzsUH.png)
 
 But when interaction exists, the rate of increasing will be different.
 

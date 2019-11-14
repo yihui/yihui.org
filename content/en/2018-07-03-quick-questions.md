@@ -9,7 +9,7 @@ slug: quick-questions
 
 Most of time I reply to such questions within seconds after I see them, and some people have been surprised by how quickly I respond. The only problem is, those questions are not always quick. This can be particularly problematic when I'm reading messages in IM (instant messaging) tools such as Twitter and Slack, because I usually don't intend to stay in IM tools for long. I often open Slack only once every morning to check messages from yesterday, and quit it for the rest of the day. I have installed a Chrome extension to limit my Twitter time to 10 minutes per day. When quick questions do not really seem to be quick, I feel I'll be stuck there. Should I continue to ask for more information (which can lead to several rounds of asking), or simply ignore the question? I don't know.
 
-![Should I give up?](https://slides.yihui.name/gif/give-up.gif)
+![Should I give up?](https://slides.yihui.org/gif/give-up.gif)
 
 In general, I'm not big fan of IM tools, although I'm not truly against them. They are convenient indeed. For example, you can ask a friend for dinner together via a text message. That is totally cool. However, if you have something important to say, it is probably not a good idea to bury it in the endless and chaotic stream of messages. For example, I never believe it is a good idea to debate on anything on Twitter.
 
@@ -27,4 +27,4 @@ I don't mean to discourage people from asking me quick questions. I just want to
 
 Remember, the quick question might be like the two circles in the guide below on how to draw an owl, and the real question might be the owl on the right. Are you absolutely sure I can answer your question after seeing the two cirles?
 
-![How to draw an owl](https://slides.yihui.name/gif/draw-an-owl.jpg)
+![How to draw an owl](https://slides.yihui.org/gif/draw-an-owl.jpg)

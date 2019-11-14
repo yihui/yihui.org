@@ -6,7 +6,7 @@ slug: code-appendix
 
 My previous long post on [the notebook war](/en/2018/09/notebook-war/) scratched the surface of literate programming in **knitr** and R Markdown. I don't often talk about the "literate programming" aspect of **knitr**, but it is very interesting. I guess people mostly use **knitr** for the purpose of report generation from a linear combination of text and code. The power of "_programming_ code chunks" is probably seriously underestimated. Note that here "program" is a verb.
 
-![The force is strong!](https://slides.yihui.name/gif/git-push-force.gif)
+![The force is strong!](https://slides.yihui.org/gif/git-push-force.gif)
 
 ## Why code in the appendix
 

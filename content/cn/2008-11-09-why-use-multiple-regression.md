@@ -6,7 +6,7 @@ slug: why-use-multiple-regression
 
 同一个数据，同一个梦想？不一定。有人学了很久回归，却没有理解多元回归到底是要干嘛。
 
-![x和y正相关？一个完美的回归](https://db.yihui.name/imgur/wyqxRep.png)
+![x和y正相关？一个完美的回归](https://db.yihui.org/imgur/wyqxRep.png)
 
     > summary(lm(y ~ x))
     
@@ -28,7 +28,7 @@ slug: why-use-multiple-regression
     Multiple R-squared: 0.3316,  Adjusted R-squared: 0.3248
     F-statistic: 48.63 on 1 and 98 DF,  p-value: 3.646e-10
 
-![若有个控制变量则情况就反过来了](https://db.yihui.name/imgur/EKAhZmR.png)
+![若有个控制变量则情况就反过来了](https://db.yihui.org/imgur/EKAhZmR.png)
 
     > summary(lm(y ~ x + z)) 
     

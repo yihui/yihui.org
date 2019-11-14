@@ -30,13 +30,12 @@ for (i in seq_len(nrow(files))) {
   build_one(unlist(files[i, 1:2]), files[i, 3])
 }
 
-# add https://assets.yihui.name to image/video URLs /figures/..., and add the
-# query param ?dl=1 so that mp4 works on Safari (picky about Range requests)
+# add https://assets.yihui.org to image/video URLs /figures/...
 if (!local && Sys.which('sed') != '') for (i in files[, 2]) {
   Sys.chmod(i, '644')  # unlock .md
   system2('sed', paste(
-    "-i '' -e 's@\\([(\"]\\)\\(/figures/\\)@\\1https://assets.yihui.name\\2@g'",
-    "-e 's@\\(/figures/[^.]*\\.mp4\\)\\([\")]\\)@\\1?dl=1\\2@g'", i
+    "-i '' -e 's@\\([(\"]\\)\\(/figures/\\)@\\1https://assets.yihui.org\\2@g'",
+    "-e 's@\\(/figures/[^.]*\\.mp4\\)\\([\")]\\)@\\1\\2@g'", i
   ))
   Sys.chmod(i, '444')  # lock .md again
 }

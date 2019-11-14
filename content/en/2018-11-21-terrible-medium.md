@@ -54,7 +54,7 @@ The general problem with the web today is that there are too many candies to eng
 
 Basically, I recommend hosting a website by yourself, and I believe static sites are far easier now (at least they are becoming easier). When you use a third-party service, even if it is free, there is a potential problem: they might be selling you and your content indirectly.
 
-![You are not the customer of Facebook. You are their product being sold.](https://db.yihui.name/images/facebook.jpg)
+![You are not the customer of Facebook. You are their product being sold.](https://db.yihui.org/images/facebook.jpg)
 
 ## P.S. The Consequence of the Death of Google Reader
 

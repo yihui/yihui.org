@@ -12,7 +12,7 @@ Dear RUC, do you let live or not let live?! (hai rang bu rang ren huo a?)
 
 Today I suddenly found that the plum blossom was quite similar to Brownian motion @___@!!! Just take a look at this graph (it is in fact a trace for the Brownian motion on the 2-D plane): 
 
-![](https://db.yihui.name/space/plum-blossom.gif) 
+![](https://db.yihui.org/space/plum-blossom.gif) 
 
 Below is the source R code (slightly modified):
 

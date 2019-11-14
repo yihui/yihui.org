@@ -29,5 +29,5 @@ getGraphicsEvent("Click mouse to exit", onMouseDown = mousedown,
 
 We can adjust the parameter `r` as we wish.
 
-![Dynamically Selecting Points Using R (Screen Snapshot)](https://db.yihui.name/imgur/fatp8.png)
+![Dynamically Selecting Points Using R (Screen Snapshot)](https://db.yihui.org/imgur/fatp8.png)
 

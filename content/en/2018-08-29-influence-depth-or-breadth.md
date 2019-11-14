@@ -8,7 +8,7 @@ Last year someone invited me to give a talk to early career researchers at [an I
 
 My principle is depth first. The broad impact may be a natural by-product.
 
-Actually [I briefly mentioned this](https://slides.yihui.name/2017-rstudio-conf-rmarkdown-Yihui-Xie.html#34) in an R Markdown tutorial I gave at rstudio::conf 2017. I said (as a software developer):
+Actually [I briefly mentioned this](https://slides.yihui.org/2017-rstudio-conf-rmarkdown-Yihui-Xie.html#34) in an R Markdown tutorial I gave at rstudio::conf 2017. I said (as a software developer):
 
 > Make one person extremely happy first. Do not aim at making everybody (even mildly) happy.
 

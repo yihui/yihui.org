@@ -6,7 +6,7 @@ slug: r-package-versioning
 
 This should be what it feels like to bump the major version of your software:
 
-![bump the major version](https://db.yihui.name/imgur/hfdOEsw.gif)
+![bump the major version](https://db.yihui.org/imgur/hfdOEsw.gif)
 
 For me, the main reason for package versioning is to indicate the (slight or
 significant) differences among different versions of the same package,

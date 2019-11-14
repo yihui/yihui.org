@@ -37,7 +37,7 @@ dev.off()
 
 The answer is counterintuitive, isn't it?
 
-![Number of times needed to get HTT and HTH (bold segments are for median; dots denote mean)](https://db.yihui.name/imgur/L8Koq.png)
+![Number of times needed to get HTT and HTH (bold segments are for median; dots denote mean)](https://db.yihui.org/imgur/L8Koq.png)
 
 Well, mathematicians certainly do not like my solution (I guess they even hate such an imprecise approach). I hope some smart guys can give me some hints on working out the probability distribution and hence the expectation.
 

@@ -12,7 +12,7 @@ The original headline:
 \ifbeamer@secheader\else\setbeamertemplate{headline}[default]\fi
 ```
 
-![Slight Changes to Boadilla Theme in Beamer Class](https://db.yihui.name/imgur/PCdOk.png)
+![Slight Changes to Boadilla Theme in Beamer Class](https://db.yihui.org/imgur/PCdOk.png)
 
 The modified version:
 
@@ -20,7 +20,7 @@ The modified version:
 \ifbeamer@secheader\else\setbeamertemplate{headline}[infolines]\fi
 ```
 
-![Slight Changes to Boadilla Theme in Beamer Class](https://db.yihui.name/imgur/wmecm.png)
+![Slight Changes to Boadilla Theme in Beamer Class](https://db.yihui.org/imgur/wmecm.png)
 
 You may visit the post [Jokes in Statistics](/en/2007/10/jokes-in-statistics-a-talk-to-be-given-in-cueb/) to see the effects of my modifications.
 

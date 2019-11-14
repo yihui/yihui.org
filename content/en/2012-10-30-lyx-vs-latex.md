@@ -8,11 +8,11 @@ Two months ago [there was a discussion](https://stat.ethz.ch/pipermail/ess-help/
 
 Then [I went off-topic](https://stat.ethz.ch/pipermail/ess-help/2012-August/008084.html) by discussing Emacs vs [LyX](http://www.lyx.org) as the editor for LaTeX, and I quoted [an example](http://cmenzel.org/LyXvsEmacs.pdf) by Chris Menzel. This is LyX:
 
-![LyX for LaTeX](https://db.yihui.name/imgur/nvbqz.png)
+![LyX for LaTeX](https://db.yihui.org/imgur/nvbqz.png)
 
 And this is Emacs:
 
-![Emacs for LaTeX](https://db.yihui.name/imgur/0Uswf.png)
+![Emacs for LaTeX](https://db.yihui.org/imgur/0Uswf.png)
 
 The difference is obvious. I find it difficult to understand why there are so many people who enjoy reading LaTeX code, which makes my eyes bleed. My experience of promoting LyX was often unsuccessful, and I feel some people were born to hate GUI. [Paul Thompson](https://stat.ethz.ch/pipermail/ess-help/2012-August/008109.html), the last person in that discussion thread, wrote these final comments:
 
@@ -38,4 +38,4 @@ I know this promotion for LyX is, as usual, not going to help. People simply wal
 
 Image [via](http://researchinprogress.tumblr.com/post/34403093418/how-i-feel-at-poster-presentations). Also see [Changing just a tiny little bit in my LaTeX tabular](http://researchinprogress.tumblr.com/post/34692517685/changing-just-a-tiny-little-bit-in-my-latex-tabular).
 
-![](https://db.yihui.name/imgur/uarWJuS.gif)
+![](https://db.yihui.org/imgur/uarWJuS.gif)

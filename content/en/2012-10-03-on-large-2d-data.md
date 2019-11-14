@@ -16,7 +16,7 @@ library(hexbin)
 with(x, plot(hexbin(V1, V2)))
 ```
 
-![hexbin of the random normal + circle data](https://db.yihui.name/imgur/e5d0J.png)
+![hexbin of the random normal + circle data](https://db.yihui.org/imgur/e5d0J.png)
 
 ---
 

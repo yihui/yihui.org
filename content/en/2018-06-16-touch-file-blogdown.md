@@ -12,4 +12,4 @@ This feature is great, but on some (relatively rare) occasions, you may want to 
 
 Four keystrokes (`Space`, `Delete`, `Ctrl/Command + S`) were "simplified" to two mouse clicks (`Addins -> Touch File`). Is it worth it?
 
-![Should I really celebrate it?](https://slides.yihui.name/gif/missed-shot.gif)
+![Should I really celebrate it?](https://slides.yihui.org/gif/missed-shot.gif)

@@ -3,7 +3,7 @@ title: TinyTeX 中文文档
 date: '2017-12-03'
 ---
 
-TinyTeX 是一个瘦身版的 [TeX Live](https://tug.org/texlive/)。TeX Live 的庞大体型问题[困扰我多年](https://yihui.name/cn/2017/06/lightweight-texlive/)，在 2018 年之前我终于抽出一周时间来解决这个问题，其实方案很简单：把对普通用户毫无用处的源代码和文档去掉即可。具体技术细节参见[常见问题](/tinytex/faq/)，总体而言就是利用了 TeX Live 的自动化安装方式，配置文件中设置不要安装源文件和文档。
+TinyTeX 是一个瘦身版的 [TeX Live](https://tug.org/texlive/)。TeX Live 的庞大体型问题[困扰我多年](/cn/2017/06/lightweight-texlive/)，在 2018 年之前我终于抽出一周时间来解决这个问题，其实方案很简单：把对普通用户毫无用处的源代码和文档去掉即可。具体技术细节参见[常见问题](/tinytex/faq/)，总体而言就是利用了 TeX Live 的自动化安装方式，配置文件中设置不要安装源文件和文档。
 
 TinyTeX 假设你不惧怕或反感使用命令行，但其实需要的命令行指令并不复杂，常见任务都可以通过一行命令搞定。如果不清楚如何打开系统命令行窗口，请参见常见问题。
 
@@ -18,7 +18,7 @@ tinytex::install_tinytex()
 
 安装 TinyTeX 之前建议卸载系统中已有的 LaTeX 套件，如 TeX Live、MiKTeX、MacTeX 等。一个系统中最好不要有两个 LaTeX 套件同时存在，否则可能会产生冲突。
 
-对其它用户，请参阅[首页](/tinytex/)上的脚本安装方式，通常就是打开命令行窗口，运行一行命令即可。该命令会自动下载 TeX Live 的安装脚本并自动安装，由于是从网络下载安装 TeX Live，所以具体等待时间取决于网速。Unix 系统应该不会超过两分钟，Windows 系统可能需要五分钟左右（其间可能会弹出两次[错误对话框](https://db.yihui.name/images/install-tl-win-lua.png)，点确定即可；如果杀毒软件弹出警告，请允许修改）。
+对其它用户，请参阅[首页](/tinytex/)上的脚本安装方式，通常就是打开命令行窗口，运行一行命令即可。该命令会自动下载 TeX Live 的安装脚本并自动安装，由于是从网络下载安装 TeX Live，所以具体等待时间取决于网速。Unix 系统应该不会超过两分钟，Windows 系统可能需要五分钟左右（其间可能会弹出两次[错误对话框](https://db.yihui.org/images/install-tl-win-lua.png)，点确定即可；如果杀毒软件弹出警告，请允许修改）。
 
 ## 维护
 

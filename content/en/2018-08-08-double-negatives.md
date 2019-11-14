@@ -6,7 +6,7 @@ slug: double-negatives
 
 Every time I use the function `stopifnot(...)`, I have to stop and think about it: should the conditions in `...` return `TRUE` or `FALSE`? Then I have to think in plain English. Hmm, what does "stop if not false" mean? Do I actually want to stop or not if the condition is true? All kinds of circles emerging in my mind...
 
-![How to tie a tie](https://slides.yihui.name/gif/how-to-tie-a-tie.jpg)
+![How to tie a tie](https://slides.yihui.org/gif/how-to-tie-a-tie.jpg)
 
 I have wished many times the function name were `stopif()` instead. Reasoning about negations is often trickier than affirmatives. Compare these examples:
 
@@ -34,7 +34,7 @@ This morning I opened the help page `?installed.packages`, and saw the argument 
 
 `noCache = FALSE`? Excuse me. I'm slow. Just give me five seconds to decipher it again.
 
-![How to find the key](https://slides.yihui.name/gif/lost-key.gif)
+![How to find the key](https://slides.yihui.org/gif/lost-key.gif)
 
 Strunk and White actually recommended in _The Elements of Style_ that "we put statements in positive form", which I believe also applies to program code.
 

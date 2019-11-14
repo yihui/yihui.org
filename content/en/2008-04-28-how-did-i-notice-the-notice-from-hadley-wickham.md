@@ -6,7 +6,7 @@ slug: how-did-i-notice-the-notice-from-hadley-wickham
 
 Who is Hadley Wickham? Actually I was not quite sure until I received an email from his major professor [Di Cook](http://www.public.iastate.edu/~dicook) just now... But I have already noticed this interesting guy a couple of days ago, or more definitely speaking, I just noticed his notice about my website.
 
-![The notice about a notice...](https://db.yihui.name/imgur/d8R3F.jpg)
+![The notice about a notice...](https://db.yihui.org/imgur/d8R3F.jpg)
 
 The other day when I was reading the statistics about my homepage, I noticed that there was a special link (officially called "HTTP referer") in the list of referring sites: <http://crantastic.org/packages/1290>. This domain name is really fantastic! Following this site, I just found his homepage here: <http://had.co.nz/>
 

@@ -6,7 +6,7 @@ slug: github-contributions
 
 有好事者做了一个 Github 瓷砖在线生成器：<https://github-contributions.now.sh>，可以用一幅瓷砖图表达一个码农的 Github 简史。下面是我自己这些年的瓷砖：
 
-![@yihui 在 Github 上的活动汇总](https://db.yihui.name/images/github-yihui-contributions.png)
+![@yihui 在 Github 上的活动汇总](https://db.yihui.org/images/github-yihui-contributions.png)
 
 我其实是 2009 年注册的 Github 账号，但图中有 2008 年的活动，那是因为我当年把我的 [animation 包](https://github.com/yihui/animation)从 SVN 迁移到 Github 上，而 SVN 里的提交历史早于 2009 年。迁移过来之后腰不疼了，腿不酸了，写代码也有劲儿了。
 
@@ -30,4 +30,4 @@ slug: github-contributions
 
 上面是一个初出茅庐的职场人士的记录，作为对比，下面我们可以看看本厂厂长的活动记录。他是一个高度自律的人，他的活动在这些年也相对比较均匀，不像我，到处都是大缺口。唯有 2013 年上半年活动量相对少一些，我不知道发生了什么，但我记得那之后他曾跟我说他已经落后他的计划好几个月，所以他不想分心做别的事，而是要集中精力写代码了。2013 年下半年 RStudio 招来一个做管理的主席，解放了厂长，于是他心无旁骛、乐此不疲地写代码去了。
 
-![@jjallaire 在 Github 上的活动汇总](https://db.yihui.name/images/github-jjallaire-contributions.png)
+![@jjallaire 在 Github 上的活动汇总](https://db.yihui.org/images/github-jjallaire-contributions.png)

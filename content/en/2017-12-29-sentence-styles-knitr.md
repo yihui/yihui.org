@@ -38,4 +38,4 @@ English is only my third language: my first language is Chinese, and my second i
 
 I'll look forward to your pull requests!
 
-![pull requests](https://slides.yihui.name/gif/dog-drag.gif)
+![pull requests](https://slides.yihui.org/gif/dog-drag.gif)

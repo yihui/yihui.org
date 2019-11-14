@@ -34,6 +34,6 @@ to
 
 Straight to the point! Why did I use such an awkward clause?
 
-![Shoot myself](https://slides.yihui.name/gif/shoot-myself.gif)
+![Shoot myself](https://slides.yihui.org/gif/shoot-myself.gif)
 
 It is a blessing to have a proofreader like Becky to help me. There are so many unsung heroes and heroines in this world. I'm hoping to write more about them in the future.

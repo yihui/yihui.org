@@ -55,4 +55,4 @@ Romain's first pull request to packages that I maintain was [rstudio/rmarkdown#1
 
 To sum it up, Romain has exactly the skills that I don't have but definitely need, has a creative mind as a hacker, shares the same belief in the web, is able to sense my headache in Github issues, and often actively helps me in a way that really minimizes the work on my shoulders. I know he is [currently on vacation](https://github.com/rstudio/pagedown/issues/120#issuecomment-511243498), and probably won't see this post until three weeks later, but anyway, I want to thank him so much for being such a wonderful collaborator as well as all the help along the way!
 
-![A wonderful collaborator](https://slides.yihui.name/gif/duiyou-4.gif)
+![A wonderful collaborator](https://slides.yihui.org/gif/duiyou-4.gif)

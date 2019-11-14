@@ -22,7 +22,7 @@ ani.options(interval = 0.2, nmax = 100)
 MC.hitormiss()$est
 ```
 
-<video controls loop autoplay><source src="https://assets.yihui.name/figures/animation/example/MC-hitormiss/demo-a.mp4?dl=1" /><p>plot of chunk demo-a</p></video>
+<video controls loop autoplay><source src="https://assets.yihui.org/figures/animation/example/MC-hitormiss/demo-a.mp4?dl=1" /><p>plot of chunk demo-a</p></video>
 
 ```
 ## [1] 0.1725
@@ -34,7 +34,7 @@ MC.hitormiss()$est
 MC.hitormiss(from = 0.5, to = 1)$est
 ```
 
-<video controls loop autoplay><source src="https://assets.yihui.name/figures/animation/example/MC-hitormiss/demo-b.mp4?dl=1" /><p>plot of chunk demo-b</p></video>
+<video controls loop autoplay><source src="https://assets.yihui.org/figures/animation/example/MC-hitormiss/demo-b.mp4?dl=1" /><p>plot of chunk demo-b</p></video>
 
 ```
 ## [1] 0.07874

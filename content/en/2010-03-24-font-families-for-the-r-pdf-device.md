@@ -20,7 +20,7 @@ for (f in c("AvantGarde", "Bookman", "Courier", "Helvetica",
 }
 ```
 
-![Font Families for the R PDF Device](https://db.yihui.name/imgur/TqZWn.png)
+![Font Families for the R PDF Device](https://db.yihui.org/imgur/TqZWn.png)
 
 It seems that `"Bookman"`, `"NewCenturySchoolbook"`, `"Palatino"` and `"Times"` can be better choices when using Sweave because they are serif fonts, which are usually more consistent with LaTeX PDF.
 

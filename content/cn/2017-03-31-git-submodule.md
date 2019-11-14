@@ -6,11 +6,11 @@ slug: git-submodule
 
 我是 2009 年在~~世界上最大的同性交友网站~~ Github 上注册的。我转向 GIT 的根本原因是因为这个网站的界面好看又实用，而不是因为版本控制工具 GIT 比 SVN 好或不好，在那之前我一直蹲守在土得掉渣的 R-Forge 上用 SVN。此后四年里，我基本上一直是在 git 菜鸟状态，日常操作用到的 git 命令非常有限，基本上就是一个库克隆到本地（`git clone`），剩下的就是用图形界面操作了；因为当年在 Ubuntu 底下混，所以用 `git gui`，极少用到命令行 `git add / commit / push / pull` 之类的。我觉得在图形界面里点点点也挺好的。直到现在我仍然是以用 RStudio 的 GIT 界面为主，绝不会手工敲 `git add` 或 `git commit`，我觉得那样既麻烦又容易出错。^[最恨那种看也不看就暴力添加所有文件 `git add *` 的做法了，该提交的不该提交的都被提交了。尤其是在 GIT 历史里看见 `.DS_Store` 文件，我会爆炸。用图形界面能清楚知道自己到底每次提交了哪些文件。]
 
-![我恨计算机](https://slides.yihui.name/gif/dump-computer.gif)
+![我恨计算机](https://slides.yihui.org/gif/dump-computer.gif)
 
 如果是自己一个人主要操作一个库，那么其实没什么需要学的，但一旦涉及到跟其他人协作，那就得开始了解稍微进阶一些的概念和命令了，比如最有用的就是分支^[对我而言，分支算比较简单有用的工具，当年我觉得稍微需要动脑筋理解的是 `git rebase`，这个也非常有趣和有用，作为一个期望 git 历史记录干净的强迫症，我经常用 ` git rebase -i master~5` 之类的命令。]。绝对菜鸟和普通菜鸟的最大区别就是，绝对菜鸟永远留在 master 次元一百年不变，普通菜鸟会考虑用新的分支去做一些没有绝对把握的事情，比如修正软件缺陷。前些日子看见[边小编](http://statsjoke.me)竟然威武地召唤出了[摘樱桃模式](https://github.com/cosname/cosx.org/pull/142)（`git cherry-pick`），我都震惊了，我用了这么些年 git 好像一共只摘过一次樱桃。显然边小编已经不是菜鸟，而是一头翼龙了。厉害啊。
 
-![神队友](https://slides.yihui.name/gif/duiyou-4.gif)
+![神队友](https://slides.yihui.org/gif/duiyou-4.gif)
 
 闲话少说。
 

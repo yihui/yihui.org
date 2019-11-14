@@ -10,7 +10,7 @@ There are many graphical functions offering the availability of the parameter `a
 
 Here is an example illustrating semi-transparent colors in a `pdf()` device:
 
-![Semi-transparent Colors in R: Color Image as an Example](https://db.yihui.name/imgur/U324z.png)
+![Semi-transparent Colors in R: Color Image as an Example](https://db.yihui.org/imgur/U324z.png)
 
 ```r 
 (tmp = file.path(tempdir(), "alpha.pdf"))

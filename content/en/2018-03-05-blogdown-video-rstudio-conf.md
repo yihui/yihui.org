@@ -8,4 +8,4 @@ After I gave the talk on blogdown at rstudio::conf 2018, some people really thou
 
 You can [watch the full video here](https://www.rstudio.com/resources/videos/create-and-maintain-websites-with-r-markdown-and-blogdown/) on the RStudio website. I started to type the post at 18:20, if you don't want to watch the full video. In fact, I had explained how I made it [in that post](/en/2018/02/typing-fast/), but apparently the audience wouldn't notice it because the editor was scrolling fast. Note that when I typed the commit message in GIT, I was so very slow...
 
-![Typing fast](https://slides.yihui.name/gif/programming-movie-actual.gif)
+![Typing fast](https://slides.yihui.org/gif/programming-movie-actual.gif)

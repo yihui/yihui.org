@@ -9,7 +9,7 @@ slug: r-package-for-visual-illusions
 比如这里我可以提供我昨天随意写的一段光学幻象代码：
 
 ```r
-# By Yihui XIE, Dec 22, 2007 yihui.name
+# By Yihui XIE, Dec 22, 2007 yihui.org
 op = par(bg = "gray", mar = rep(2, 4), xpd = NA)
 x = seq(0, 2 * pi, length = 16)
 replicate(100, {

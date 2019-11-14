@@ -8,7 +8,7 @@ I remember a few weeks ago, there was a challenge in the R-help list to make the
 
 Here is an example per request of a reader of my blog:
 
-![authentic math formula in R](https://db.yihui.name/imgur/3mWKw.png)
+![authentic math formula in R](https://db.yihui.org/imgur/3mWKw.png)
 
 ```r 
 library(tikzDevice)

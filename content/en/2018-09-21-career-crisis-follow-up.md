@@ -62,7 +62,7 @@ For example, I had both external and internal causes. The internal cause was tha
 
 It turned out that once I was able to fix the internal cause, the impact of the external cause became much smaller, because I was very willing to focus on the projects that I was genuinely interested in. So my last advice to graduate students and fresh PhDs is that when the guilty feeling starts to hit you over and over again, talking to your advisor or manager may be a much better idea than just quietly feeling guilty by yourself. I know this can be challenging especially for introverts (like myself). You may choose an approach that makes you most comfortable to express yourself. For example, I prefer writing over talking, so I'd email my manager.
 
-![Introverts, unite separately in your own homes! (My favorite image about introverts)](https://slides.yihui.name/images/introverts.jpg)
+![Introverts, unite separately in your own homes! (My favorite image about introverts)](https://slides.yihui.org/images/introverts.jpg)
 
 ## Summary
 

@@ -22,7 +22,7 @@ slug: human-music-player
 
 我出门的时候，看见垃圾桶里有个袋子，仔细一看，是Ou, P.用过的注会资料的袋子，他刚考完试，东西就扔垃圾桶了。我说，你这是兔死狗烹啊。
 
-![Ou, P.用过的注会资料的袋子](https://db.yihui.name/imgur/ztK6L.jpg)
+![Ou, P.用过的注会资料的袋子](https://db.yihui.org/imgur/ztK6L.jpg)
 
 ---
 

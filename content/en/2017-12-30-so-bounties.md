@@ -19,7 +19,7 @@ I have seen several times that people vote to close questions too quickly, and w
 
 Below is a recent example, in which I couldn't help ranting.
 
-[![A StackOverflow question on hold](https://db.yihui.name/images/so-on-hold.png)](https://stackoverflow.com/q/47990152/559676)
+[![A StackOverflow question on hold](https://db.yihui.org/images/so-on-hold.png)](https://stackoverflow.com/q/47990152/559676)
 
 Again, I believe the good intention of the people who voted to close the question. They want to keep StackOverflow free of bad questions. But... Among these five people, only one of them has answered one `bookdown` question before (which was not directly related to `bookdown` but `knitr` instead). One seems to be a Python expert, one is a Spark expert, and one is a PHP expert.
 
@@ -31,7 +31,7 @@ However, when I saw the question, it was already put on hold and I could not ans
 
 I hope to avoid the illusion of "reputation" or karma, and I prefer staying in the world of "beginners" without a lot of privileges. One thing I have been trying over the years is [to offer the maximum possible bounties](https://stackoverflow.com/users/559676/yihui-xie?tab=bounties&sort=offered) whenever I see good answers. That means I almost always offer 500 points. There were a few exceptions in my history. The 300-point one was because I didn't have a lot of points back then. The 50-point and 100-point ones were because I didn't have time to answer those questions, and I offered bounties only to help the posters to attract other people, such as this one:
 
-[![50 points to attact people to answer the question](https://db.yihui.name/images/so-bounty.png)](https://stackoverflow.com/q/47840392/559676)
+[![50 points to attact people to answer the question](https://db.yihui.org/images/so-bounty.png)](https://stackoverflow.com/q/47840392/559676)
 
 The poster asked me the same question [on Github](https://github.com/rstudio/bookdown/issues/499), and I was not very motivated by issues related to the Internet Explorer, so all I could do was offer the bounties on his StackOverflow question, and hope someone else could figure out a solution.
 

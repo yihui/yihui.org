@@ -12,6 +12,6 @@ I was very happy to learn that [Marie Dussault](https://twitter.com/londonaesthe
 
 BTW, I found [Jesse Maegan](https://twitter.com/kierisi/status/960879081553387520)'s description very amusing: "I'll tweak this - OMG WHY IS MY SITE BROKEN?" That immediately brought this GIF to my mind:
 
-![OMG WHY IS MY SITE BROKEN](https://slides.yihui.name/gif/encontro.gif)
+![OMG WHY IS MY SITE BROKEN](https://slides.yihui.org/gif/encontro.gif)
 
 Again BTW, can you imagine [how amazing my co-author Alison is](https://twitter.com/apreshill/status/960879856413163520)?!

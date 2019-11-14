@@ -37,13 +37,13 @@ flip.coin(faces = c("Head", "Stand", "Tail"), type = "n", prob = c(0.45,
   0.1, 0.45), col = c(1, 2, 4))
 ```
 
-<video controls loop autoplay><source src="https://assets.yihui.name/figures/animation/example/flip-coin/demo-a.mp4?dl=1" /><p>plot of chunk demo-a</p></video>
+<video controls loop autoplay><source src="https://assets.yihui.org/figures/animation/example/flip-coin/demo-a.mp4?dl=1" /><p>plot of chunk demo-a</p></video>
 
 
 ```r
 flip.coin(bg = "yellow")
 ```
 
-<video controls loop autoplay><source src="https://assets.yihui.name/figures/animation/example/flip-coin/demo-b.mp4?dl=1" /><p>plot of chunk demo-b</p></video>
+<video controls loop autoplay><source src="https://assets.yihui.org/figures/animation/example/flip-coin/demo-b.mp4?dl=1" /><p>plot of chunk demo-b</p></video>
 
 

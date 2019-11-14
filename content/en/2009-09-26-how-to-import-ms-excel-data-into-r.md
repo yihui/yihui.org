@@ -20,7 +20,7 @@ I know there are reasons for you to continue using Excel. Your boss required you
 
 A quick solution to the problem is to save your Excel data in a pure text format, e.g. CSV (comma-separated value) or tab-delimited. If you have ever thumbed through Dr Murrell's book "Introduction to Data Technologies", you probably know that the CSV format is NOT an Excel-specific format, although Windows users always find the Excel icon is associated with the `*.csv` files. Pure text is a ridiculously simple data format, but it's amazing that there are still many people who do not know anything about it. The basic idea is to **separate** data **columns** with a delimiter (e.g. `,` or `;`) and **rows** with a usual line-break symbol (e.g. carriage-return, which can be different in Windows and Linux). In this case, we can identify all data values as we do in the spreadsheet. Here is an example with data in a spreadsheet:
 
-![Data in Grid Cells](https://db.yihui.name/imgur/3okhD.png)
+![Data in Grid Cells](https://db.yihui.org/imgur/3okhD.png)
 
 If we save this data as a CSV file, and open it with a pure text editor (e.g. Notepad), we will see:
 

@@ -43,11 +43,11 @@ Then you can either paste your code into the text box or click the "Open"
 button to open an existing R code file. Click the "Convert" button and you
 are done!
 
-![formatR: unformatted R code](https://db.yihui.name/imgur/Y55lL.png)
+![formatR: unformatted R code](https://db.yihui.org/imgur/Y55lL.png)
 
-![formatR: tidy R code](https://db.yihui.name/imgur/v141t.png)
+![formatR: tidy R code](https://db.yihui.org/imgur/v141t.png)
 
-![formatR: the Java GUI](https://db.yihui.name/imgur/dEhS2.png)
+![formatR: the Java GUI](https://db.yihui.org/imgur/dEhS2.png)
 
 There are several options in the "Preferences" panel, e.g. you can specify
 whether to keep comments or blank lines, or specify the width of the

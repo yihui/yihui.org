@@ -14,4 +14,4 @@ Oftentimes I feel I'm buried in Github issues and StackOverflow questions alone 
 
 Next time when you discover an interesting or useful repo on Github, don't shy away -- its author(s) may need your help.
 
-![Police walking into a camera](https://slides.yihui.name/gif/police-hide.gif)
+![Police walking into a camera](https://slides.yihui.org/gif/police-hide.gif)

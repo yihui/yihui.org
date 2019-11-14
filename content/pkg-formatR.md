@@ -2,7 +2,7 @@
 title: formatR
 subtitle: Format R code automatically
 author: Yihui Xie
-date: "2019-03-05"
+date: "2019-11-14"
 show_toc: true
 slug: formatr
 githubEditURL: https://github.com/yihui/formatR/edit/master/vignettes/formatR.Rmd
@@ -16,21 +16,21 @@ vignette: >
 
 <script type="text/javascript">
 // redirect from CRAN to my personal website
-if (location.protocol === 'https:' && location.href.match('yihui.name') === null)
-  location.href = 'https://yihui.name/formatR';
+if (location.protocol === 'https:' && location.href.match('yihui.org') === null)
+  location.href = 'https://yihui.org/formatR';
 </script>
 
 
 
 # 1. Installation
 
-You can install **formatR** from [CRAN](https://cran.r-project.org/package=formatR), or [XRAN](https://xran.yihui.name) if you want to test the latest development version:
+You can install **formatR** from [CRAN](https://cran.r-project.org/package=formatR), or [XRAN](https://xran.yihui.org) if you want to test the latest development version:
 
 
 ```r
 install.packages("formatR", repos = "http://cran.rstudio.com")
 #' to install the development version, run
-#' install.packages('formatR', repos = 'https://xran.yihui.name')
+#' install.packages('formatR', repos = 'https://xran.yihui.org')
 ```
 
 Or check out the [Github repository](https://github.com/yihui/formatR) and install from source if you know what this means. This page is always based on the development version.
@@ -42,13 +42,13 @@ sessionInfo()
 ```
 
 ```
-## R version 3.5.2 (2018-12-20)
+## R version 3.6.1 (2019-07-05)
 ## Platform: x86_64-apple-darwin15.6.0 (64-bit)
-## Running under: macOS Mojave 10.14.3
+## Running under: macOS Catalina 10.15.1
 ## 
 ## Matrix products: default
-## BLAS: /Library/Frameworks/R.framework/Versions/3.5/Resources/lib/libRblas.0.dylib
-## LAPACK: /Library/Frameworks/R.framework/Versions/3.5/Resources/lib/libRlapack.dylib
+## BLAS:   /Library/Frameworks/R.framework/Versions/3.6/Resources/lib/libRblas.0.dylib
+## LAPACK: /Library/Frameworks/R.framework/Versions/3.6/Resources/lib/libRlapack.dylib
 ## 
 ## locale:
 ## [1] en_US.UTF-8/en_US.UTF-8/en_US.UTF-8/C/en_US.UTF-8/en_US.UTF-8
@@ -58,11 +58,11 @@ sessionInfo()
 ## [7] base     
 ## 
 ## other attached packages:
-## [1] formatR_1.6
+## [1] formatR_1.7
 ## 
 ## loaded via a namespace (and not attached):
-## [1] compiler_3.5.2 magrittr_1.5   tools_3.5.2    stringi_1.3.1 
-## [5] knitr_1.21.11  stringr_1.4.0  xfun_0.5.1     evaluate_0.13
+## [1] compiler_3.6.1 magrittr_1.5   tools_3.6.1    stringi_1.4.3 
+## [5] knitr_1.26     stringr_1.4.0  xfun_0.11      evaluate_0.14
 ```
 
 # 2. Reformat R code
@@ -157,11 +157,11 @@ If the **shiny** packages has been installed, the function `tidy_app()` can laun
 formatR::tidy_app()
 ```
 
-[![R source code before tidying](https://db.yihui.name/imgur/lUgtEAb.png)](https://yihui.shinyapps.io/formatR/)
+[![R source code before tidying](https://db.yihui.org/imgur/lUgtEAb.png)](https://yihui.shinyapps.io/formatR/)
 
 After hitting the `Tidy` button:
 
-[![R source code after tidying](https://db.yihui.name/imgur/TBZm0B8.png)](https://yihui.shinyapps.io/formatR/)
+[![R source code after tidying](https://db.yihui.org/imgur/TBZm0B8.png)](https://yihui.shinyapps.io/formatR/)
 
 
 # 4. Evaluate the code and mask output in comments

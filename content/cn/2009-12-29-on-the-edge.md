@@ -48,4 +48,4 @@ And - which is more - you'll be a Man my son!
 
 这Kipling老爷子写了一大通，我总结无非就两个字：淡……！定！
 
-![淡定](https://db.yihui.name/imgur/2R9iyPv.jpg)
+![淡定](https://db.yihui.org/imgur/2R9iyPv.jpg)

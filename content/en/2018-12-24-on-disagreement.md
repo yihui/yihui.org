@@ -32,4 +32,4 @@ I'm totally open to critiques, too. There are things I hate in my own work and p
 
 In fact, occasionally I want to speak up my disagreement with certain people but I'd hesitate because I don't know what their attitude is and I don't want to offend or hurt them. I hope this post will remove the hesitation of readers who disagree with me. Going forward, I'm always looking forward to more of your corrections of my biases and mistakes.
 
-![Feel free to correct me when you feel anything is wrong. Don't hesitate.](https://slides.yihui.name/gif/daaaad.gif)
+![Feel free to correct me when you feel anything is wrong. Don't hesitate.](https://slides.yihui.org/gif/daaaad.gif)

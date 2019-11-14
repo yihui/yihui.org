@@ -8,5 +8,5 @@ slug: academic-circle-and-background-of-stat-graphics
 
 第二个：浏览网页看着看着，看到[Martin Theus](http://rosuda.org/%7Etheus/)那旮旯去了，突然发现原来[这个Blog](http://statisticalgraphics.blog.com/)是他写的！以前有眼不识泰山，今天又好好看了一遍，看着看着又链接到另一个[R图形网站](http://zoonek2.free.fr/UNIX/48_R/04.html)上去了，往下拖着看的时候突然又想到我在书中提到的统计图形的设计要适应问题的背景，比如全球变暖的图应该用火焰般的面积图。然后我就操起键盘设计了这样一幅关于婚姻幸福的饼图（[数据来源](http://news.sohu.com/20060901/n245103639.shtml)）：
 
-![婚姻幸福比例](https://db.yihui.name/imgur/DNtTSZT.jpg)
+![婚姻幸福比例](https://db.yihui.org/imgur/DNtTSZT.jpg)
 

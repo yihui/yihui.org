@@ -6,7 +6,7 @@ slug: on-exit-parent
 
 Kevin wrote a clever `defer()` function in [a pull request](https://github.com/rstudio/reticulate/pull/107/files) two months ago, and it almost killed me when I first saw it.^[This PR is one of the greatest contributions in the history of R packages. I'll talk about it next year. Some of you may be sleepless because of it.] It looked so short, but I'm really bad at reasoning code that uses a combination of `substitute()`, `evalq()`, and `do.call()` with the `envir` argument, especially when `substitute()` is used three times, and there are three `envir` arguments.
 
-![It killed me several times](https://slides.yihui.name/gif/latex-tweak.gif)
+![It killed me several times](https://slides.yihui.org/gif/latex-tweak.gif)
 
 I was [once confused by `on.exit()`](/en/2017/05/a-note-on-on-exit/), so the `defer()` function was completely magic to me. Today I found that I needed something similar -- I wanted to insert an `on.exit()` call to a parent function. I know how `on.exit()` works in the current function and have used it many times before, but I have never tried to inject `on.exit()` to a parent function, so I looked at Kevin's code again, and simplified it a little bit (hopefully):
 

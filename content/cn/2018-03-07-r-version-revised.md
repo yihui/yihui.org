@@ -6,7 +6,7 @@ slug: r-version-revised
 
 [继续](/cn/2018/02/reticulate-naming/)书接《[命名](/cn/2017/07/naming/)》，说一件两年前的旧事。如果客官们看一眼 [R 3.x 版本的历史存档](https://cran.rstudio.com/src/base/R-3/)，很快就会发现有什么奇怪的东西混进来了：
 
-![R 3.x 版本](https://db.yihui.name/images/r-versions.png)
+![R 3.x 版本](https://db.yihui.org/images/r-versions.png)
 
 2016 年 3 月 10 日 R 核心团队发布了 R 3.2.4，16 日立刻又发布了 R 3.2.4-revised。好呀么一个 revised。这又是一例“只是欢喜随意而至”的“废话命名”：我们当然知道是修改过的（revised），否则何必发一个新版本呢。命名时用废话是人的本能，因为人都不愿意动脑筋。生活中我们不会给自家的猫取名叫猫，或给狗取名叫狗。涉及到计算机里的命名时，我们便喜欢给猫命名为猫、狗命名为狗、新版本叫啥啥-revised。于是乎，我们的博士论文文件的最终版通常是“[某某论文最终版-修改1-审稿人修改2-导师再修改3-真的是最终版-这次是真心最终版-修改7-去踏马的鬼博士论文老子不干了.pdf](http://phdcomics.com/comics/archive.php?comicid=1531)”。
 

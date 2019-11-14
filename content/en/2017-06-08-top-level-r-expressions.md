@@ -8,7 +8,7 @@ For any developers who have ever written an S3 method for the `print()` function
 
 Yesterday I saw [a Github issue](https://github.com/rstudio/rmarkdown/issues/1069) in the **rmarkdown** repository, and you can see that there are still users confused by the fact that  **ggplot2** plots are not rendered in certain cases. I have seen similar questions perhaps hundreds of times. Such questions have been answered in the R FAQ 7.22 "[Why do lattice/trellis graphics not work?](https://cran.rstudio.com/doc/FAQ/R-FAQ.html#Why-do-lattice_002ftrellis-graphics-not-work_003f)", but the answer didn't explain the root reason in detail.
 
-![Inferno](https://slides.yihui.name/images/inferno.jpg)
+![Inferno](https://slides.yihui.org/images/inferno.jpg)
 
 A top-level R expression is usually _implicitly printed_. Both words can cause confusion: printing is _implicit_ so that you probably don't consciously know it, and _printing_ means the `print()` function is called on the object returned by the expression. For example, when you type `1 + 1` in the R console, and press Enter/Return, what actually happens is `print(2)`, where `2` is the value returned by `1 + 1`.
 
@@ -63,7 +63,7 @@ for (i in 1:10) {
 
 WAT?
 
-![Dog WAT](https://slides.yihui.name/gif/dog-wat.gif)
+![Dog WAT](https://slides.yihui.org/gif/dog-wat.gif)
 
 WAT!
 

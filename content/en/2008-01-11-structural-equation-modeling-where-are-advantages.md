@@ -4,7 +4,7 @@ date: '2008-01-11'
 slug: structural-equation-modeling-where-are-advantages
 ---
 
-![SEM spaghette](https://db.yihui.name/space/spaghette.gif)
+![SEM spaghette](https://db.yihui.org/space/spaghette.gif)
 
 Personally I don't believe structural equation models (SEM) at all. I have been fighting against this modeling technique for quite a long time, but it seems that SEM is becoming more and more popular _outside_ the discipline of statistics. It's indeed strange. Yesterday I received an email asking me about the SEM, and I listed some reasons for my objection to such a kind of modeling in my reply as follows:
 

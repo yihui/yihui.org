@@ -8,7 +8,7 @@ slug: moonlight-box
 
 下面两张手机照片分别是走在路上和来到办公室站在楼上拍的：
 
-![](https://db.yihui.name/imgur/Fsmsu.jpg)
+![](https://db.yihui.org/imgur/Fsmsu.jpg)
 
-![](https://db.yihui.name/imgur/lJXQi.jpg)
+![](https://db.yihui.org/imgur/lJXQi.jpg)
 

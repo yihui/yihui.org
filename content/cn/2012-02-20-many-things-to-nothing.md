@@ -29,7 +29,7 @@ slug: many-things-to-nothing
 
     转台之前，为啥我用“巨子”这个词？显然我最近在看《秦时明月》，我觉得这动画挺好的，寒假在家跟着侄子一起看了几集，第二次觉得国产动画片挺有味道。第一次是看《魁拔》，可惜下一集不知道猴年马月才能出。
     
-    ![窝窝村，我喜欢这个名字](https://db.yihui.name/images/kuiba.jpg)
+    ![窝窝村，我喜欢这个名字](https://db.yihui.org/images/kuiba.jpg)
 
 1. 得失
 

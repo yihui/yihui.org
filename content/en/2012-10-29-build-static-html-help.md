@@ -12,7 +12,7 @@ Error in fetch(key) : internal error -3 in R_decompress1
 
 This is how I feel about the dynamic help system in R:
 
-![How I felt about R dynamic help](https://slides.yihui.name/gif/give-up.gif)
+![How I felt about R dynamic help](https://slides.yihui.org/gif/give-up.gif)
 
 The greatest potential of the httpd server, in my opinion, is to build real dynamic documentation for R, which is something like Sweave, e.g. run examples in real time. But this is not yet done (a design has been there for a long time, though). Anyway, it is super cool to see the package demos run in the web browser when we click the links in `help.start()`.
 

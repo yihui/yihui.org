@@ -18,6 +18,6 @@ slug: tufte-rants
 
 又及：我并没关注 Tufte，今天特意去翻了一下他发的历史消息，发现一个有趣的特点，那就是他基本上每一条自己发的消息都会给自己点赞。诗云：满园春色关不住，感觉自己棒棒哒。
 
-![Tufte 自说自赞](https://db.yihui.name/images/tufte-likes-himself.png)
+![Tufte 自说自赞](https://db.yihui.org/images/tufte-likes-himself.png)
 
 再及：我还注意到有个机器人账户会自动给那些把 LaTeX 误拼为 LaTex 的人点赞。

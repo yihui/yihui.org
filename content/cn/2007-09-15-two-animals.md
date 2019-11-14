@@ -6,5 +6,5 @@ slug: two-animals
 
 这个有点意思：
 
-![Hello，大马户！嗯？](https://db.yihui.name/imgur/NnaXhzX.jpg)
+![Hello，大马户！嗯？](https://db.yihui.org/imgur/NnaXhzX.jpg)
 

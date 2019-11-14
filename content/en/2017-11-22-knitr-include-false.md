@@ -4,7 +4,7 @@ date: '2017-11-22'
 slug: knitr-include-false
 ---
 
-There are lots of [chunk options](https://yihui.name/knitr/options/) in the **knitr** package that give you granular control of your chunk output, but this huge number of options means it is easy to miss some useful ones when you go through the documentation.
+There are lots of [chunk options](https://yihui.org/knitr/options/) in the **knitr** package that give you granular control of your chunk output, but this huge number of options means it is easy to miss some useful ones when you go through the documentation.
 
 I added an option named `include` in **knitr** almost from Day 1 (thanks to Sweave), but I feel it is often ignored by users ([for example](https://twitter.com/xieyihui/status/929186181509763072)), because I have seen code chunks with options like these many times:
 
@@ -44,4 +44,4 @@ With `include=FALSE`, the code chunk will be evaluated (unless `eval=FALSE`), bu
 
 So it is really easier than you imagined to kill the beast.
 
-![Kill the beast](https://slides.yihui.name/gif/cool-car.gif)
+![Kill the beast](https://slides.yihui.org/gif/cool-car.gif)

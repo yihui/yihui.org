@@ -16,7 +16,7 @@ it possible for you to contribute to open source and fix obvious problems
 _with no questions being asked_ -- just do it yourself, and send the changes
 to the original author(s) through Github.
 
-![help me with Github pull requests](https://db.yihui.name/imgur/j9NYXiQ.png)
+![help me with Github pull requests](https://db.yihui.org/imgur/j9NYXiQ.png)
 
 The official documentation for Github pull requests is a little bit verbose
 for beginners. Basically what you need to do for simple tasks are:

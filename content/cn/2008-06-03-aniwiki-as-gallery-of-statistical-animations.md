@@ -4,7 +4,7 @@ date: '2008-06-03'
 slug: aniwiki-as-gallery-of-statistical-animations
 ---
 
-终于可以有几天时间放手玩玩儿了，于是乎开始一项新的工程：[统计学动画维基百科](http://animation.yihui.name)。
+终于可以有几天时间放手玩玩儿了，于是乎开始一项新的工程：[统计学动画维基百科](http://animation.yihui.org)。
 
 基于Wiki来做网站，相信会省事很多。过去的两天时间里刚刚重写完支持网页动画的JavaScript，下一步就是写一个Wiki插件，将Wiki的语言转化为HTML代码，这一点尚需要学习一点PHP；再下一步就该修改更新R程序包了；等这一切框架搭建好之后便可暂时放手网站，开始准备[DataViz VI](http://www.jacobs-university.de/schools/shss/awilhelm/)的论文。
 

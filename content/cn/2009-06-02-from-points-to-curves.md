@@ -16,7 +16,7 @@ curve((sqrt(2) * gamma(x/2) * 2)/(sqrt(x - 1) * gamma(x - 1)), 2, 50)
 # type = "l")那也可以，只不过curve()就是干这事的，不必麻烦分两步走了
 ```
 
-![描点法画函数曲线](https://db.yihui.name/imgur/kszO2iR.png)
+![描点法画函数曲线](https://db.yihui.org/imgur/kszO2iR.png)
 
 如同某些网文说人一辈子的守则在幼儿园都已经教完了，就看你长大还记不记得。所以每当面对一个貌似复杂的问题时，首先要想想幼儿园有没有学过。
 

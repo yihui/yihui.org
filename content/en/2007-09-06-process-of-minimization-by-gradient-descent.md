@@ -6,7 +6,7 @@ slug: process-of-minimization-by-gradient-descent
 
 This demo was written by me about three months ago when I was illustrating the algorithm of [Gradient Descent](http://en.wikipedia.org/wiki/Gradient_descent) in the class of "Data Mining & Machine Learning". I like to combine iterations (or loopings) with animated pictures, because it's simple and heuristic, and of course, it's easy in R: just use `Sys.sleep()` to control the time of steps of your demonstration and some low-level graphics functions such as `lines()`, `points()`, `rect()`, `polygon()` and `segments()`, etc to illustrate the process of your algorithm. To understand the figure below, you need to be clear about what's `contour plot`.
 
-![Process of Minimization by Gradient Descent (2D)](https://db.yihui.name/imgur/C8jlQ.png)
+![Process of Minimization by Gradient Descent (2D)](https://db.yihui.org/imgur/C8jlQ.png)
 
 Below is the code for the above example, and it has been included in the [**animation**](http://cran.r-project.org/package=animation) package as the `grad.desc()` function:
 

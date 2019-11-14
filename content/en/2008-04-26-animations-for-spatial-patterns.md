@@ -10,7 +10,7 @@ A week ago, [Ye Li](http://individual.utoronto.ca/ye_li/) wrote me an email, tel
 
 Here is a simple demonstration using the map of USA:
 
-![Animations for Spatial Patterns (simulation only!)](https://db.yihui.name/imgur/CJe13.gif)
+![Animations for Spatial Patterns (simulation only!)](https://db.yihui.org/imgur/CJe13.gif)
 
 I just used the function `saveMovie()` in the **animation** package:
 

@@ -14,4 +14,4 @@ By comparison, bloggers have a lot more freedom. They don't need to worry much a
 
 That basically explains why my books are boring to read. I have to eliminate things that may change in the next few years, even though they may be super helpful, such as screenshots. Do I love screenshots? Absolutely! Screenshots will make it much easier for new users to follow certain steps than text descriptions. Peter's tutorial is full of screenshots. So is [Alison's](https://apreshill.rbind.io/post/up-and-running-with-blogdown/). So is [Amber's](https://proquestionasker.github.io/blog/2016/12/19/creatingsite/). But I can only add boring links in the book (and pray they won't be broken in the next few years), instead of taking screenshots of these web pages.
 
-![boring](https://slides.yihui.name/gif/give-up.gif)
+![boring](https://slides.yihui.org/gif/give-up.gif)

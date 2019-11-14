@@ -12,6 +12,6 @@ Sometimes I feel like I would have to bend the head of a user towards a specific
 
 On the bright side, some readers pay amazingly close attention to what I write. For example, this morning I received a pull request on Github ([rstudio/bookdown#526](https://github.com/rstudio/bookdown/pull/526/files)), in which two double quotes were corrected to single quotes. I love Germans. Someday I'll write more about my experience with a few Germans.
 
-![Sometimes happy. Sometimes sad. On average, it is okay.](https://slides.yihui.name/gif/baby-wat.gif)
+![Sometimes happy. Sometimes sad. On average, it is okay.](https://slides.yihui.org/gif/baby-wat.gif)
 
 Sometimes happy, and sometimes sad. On average, it feels okay.

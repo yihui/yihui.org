@@ -11,6 +11,6 @@ Similarly, I stopped using special libraries such as FontAwesome for icons and s
 
 Most of the time, I only need a couple of symbols, so I really don't want to import a full external JS/CSS library. For example, yesterday I wanted to add icons after those external links on [the **rmarkdown** website](https://rmarkdown.rstudio.com), to indicate that they will be opened in new windows. Eventually [I found and added the entity `&boxbox;`](https://github.com/rstudio/rmarkdown/commit/02a87d69bf) (double boxes &boxbox;), which was a perfect symbol for my purpose.
 
-Last year, when I was designing [the hugo-xmag theme](https://xmag.yihui.name) for Hugo, I also got an inspiration from the list of HTML entities: I realized I could easy turn a letter into a Blackletter, e.g., `&Afr;` is &Afr;, and `&Bfr;` is &Bfr;, etc. So the default site name is generated in Blackletter in the hugo-xmag theme. It looked cool to me, and didn't need any third-party dependencies.
+Last year, when I was designing [the hugo-xmag theme](https://xmag.yihui.org) for Hugo, I also got an inspiration from the list of HTML entities: I realized I could easy turn a letter into a Blackletter, e.g., `&Afr;` is &Afr;, and `&Bfr;` is &Bfr;, etc. So the default site name is generated in Blackletter in the hugo-xmag theme. It looked cool to me, and didn't need any third-party dependencies.
 
 Certain HTML entities may not work in all web browsers, but I don't really care. For my personal websites, I have no intention to support legacy browsers.

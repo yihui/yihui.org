@@ -39,7 +39,7 @@ Why are some people so obsessed with computer language wars? Why don't people al
 
 1. Most people only have one native language. They don't know enough about foreign languages. When they learn a foreign language, they know attacking this language will make no sense even if they see all kinds of unexpected rules compared to their native languages. For example, from the point of view of Chinese speakers, none of plural nouns (hence countable/uncountable nouns), the subject-verb agreement, or tenses of verbs in English make practical sense. Surprises to one language speaker may feel fairly natural to another language speaker who has learned all these "surprises" since he/she was one year old.^[For example, just tell me why the plural of "cow" is "cows", but the plural of "sheep" is still "sheep" instead of "sheeps".] When talking about computer languages, people seem to forget this. They become snarky about surprises in other languages, even if they haven't really spent any substantial time on learning the foreign computer languages.
 
-    ![Some people don't bother learning a language or tool seriously](https://slides.yihui.name/gif/wrong-usage.gif)
+    ![Some people don't bother learning a language or tool seriously](https://slides.yihui.org/gif/wrong-usage.gif)
 
     I don't mean you should spend 22 years on a computer language before you are qualified to comment on its disadvantages, but I won't listen to arguments from someone who hasn't learned a language for more than half a year. I guess if someone hates a language, he won't even bother learning it seriously, so language wars tend to be shallow.
 

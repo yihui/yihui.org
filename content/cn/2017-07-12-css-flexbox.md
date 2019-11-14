@@ -6,7 +6,7 @@ slug: css-flexbox
 
 现代网页布局中，Flexbox 简直不能更方便。我经历了旧时代的 `float: left;` 和 `clear: both`，所以能深切体会 Flexbox 的便利。一旦碰了 float 属性，就像一脚踏进地狱，你会有擦不完的屁股。更别说什么响应式设计了。
 
-![万劫不复](https://slides.yihui.name/gif/fountain.gif)
+![万劫不复](https://slides.yihui.org/gif/fountain.gif)
 
 Flexbox 好像还没什么中文翻译，我索性译为超级弹力盒子好了，Q 可 Q，非常 Q。如果找它的资料，第一个应该会是 [CSS Tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) 网站。我作为前端界的草履虫，平时捣鼓 CSS 基本就指着这个网站和[爆栈网](https://stackoverflow.com)活了，有时候也看看 W3CSchools，虽然它被很多仁波切吐槽。若要严肃认真，我也会看看 [MDN](https://developer.mozilla.org)。
 

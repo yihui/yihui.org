@@ -6,7 +6,7 @@ slug: life-in-bike-box
 
 晚上蹬着自行车去东区吃饭，停车时发现车筐中有一张广告条，拿起来一看，原来是农民工在找体力活儿，还真是头一次看见这样的传单：
 
-![车筐中的众生](https://db.yihui.name/imgur/INDkS.gif)
+![车筐中的众生](https://db.yihui.org/imgur/INDkS.gif)
 
 看着这样一张手写的广告传单，觉得还是挺辛酸的。
 

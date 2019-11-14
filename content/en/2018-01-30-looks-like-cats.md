@@ -11,6 +11,6 @@ Luis A. Apiolaza's reply: They look like cats! All of a sudden, [Murphy's Law](h
 
 P.S. Below are two of my favorite cats pictures.
 
-![Cats camouflage 1](https://slides.yihui.name/gif/camouflage-3.jpg)
+![Cats camouflage 1](https://slides.yihui.org/gif/camouflage-3.jpg)
 
-![Cats camouflage 2](https://slides.yihui.name/gif/disguised-cat.jpg)
+![Cats camouflage 2](https://slides.yihui.org/gif/disguised-cat.jpg)

@@ -12,7 +12,7 @@ Unfortunately I'm among those people who don't understand baseball. When I was a
 
 My major personal hobby is badminton and I'm not interested in pretty much any other sports (my ping-pong skills are okay and my tennis skills are at the beginner's level). I'm sure many people will be equally crazy if a stat computing course uses badminton datasets.
 
-![Indifferent cat](https://slides.yihui.name/gif/dull-cat.gif)
+![Indifferent cat](https://slides.yihui.org/gif/dull-cat.gif)
 
 When I wrote the [**xaringan**](https://github.com/yihui/xaringan) package, I knew this weird package name would [prevent some people from using it](https://twitter.com/minebocek/status/903633123153518593), because most people, not being a Naruto fan like me, wouldn't get what it means. Similarly I named several functions and parameters using ninja terminologies, and I believe most people will only be confused, even though personally I think they are great names.
 

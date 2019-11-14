@@ -17,7 +17,7 @@ I'm certainly not the only person who does not have enough courage to say no. [K
 
 Very occasionally I even feel confused whether it is a fortune or misfortune that many people use software packages I developed, when there are just endless new feature requests, and I can never [finish a project](http://250bpm.com/blog:50). The bad consequence is that I can never truly focus on my next new exciting project, and old projects keep dragging me back. I guess that is normal, though. Not many software projects can be really "finished".
 
-![too many feature requests](https://slides.yihui.name/gif/cat-hands.gif)
+![too many feature requests](https://slides.yihui.org/gif/cat-hands.gif)
 
 On a bright day last year, I took a deep breath and showed Karl a few examples of me saying no, hoping myself to remember the courage.
 
@@ -41,4 +41,4 @@ Me: Say yes.
 
 Me to me: How about saying no?
 
-![the dark side of me](https://slides.yihui.name/images/me-to-me.jpg)
+![the dark side of me](https://slides.yihui.org/images/me-to-me.jpg)

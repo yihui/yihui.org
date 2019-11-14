@@ -10,7 +10,7 @@ There is a famous story "[Buy the Case and Return the Pearl](https://books.googl
 
 I was flattered. That was exactly one of my motivations of developing the **bookdown** package. As I mentioned in [the Acknowledgments section](https://bookdown.org/yihui/bookdown/acknowledgments.html) in **bookdown** book, I loved the beautiful Gitbook style, which motivated me to write an R package based on it.
 
-[![买椟还珠](https://db.yihui.name/images/mai-du-huan-zhu.jpg)](http://www.hschinese.com/en/node/2349)
+[![买椟还珠](https://db.yihui.org/images/mai-du-huan-zhu.jpg)](http://www.hschinese.com/en/node/2349)
 
 Mareviv's tweet is actually the opposite of the story "Buy the Case and Return the Pearl" and also how I hoped **bookdown** would work: I hope users feel good about the book style first ("buy the (empty) case"), and then start writing a book (produce the "pearl").
 

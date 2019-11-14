@@ -38,7 +38,7 @@ This is what used to drive me crazy, because you cannot easily indent text in a 
 
 Sometimes I need to write verbatim R code chunks on Github to show other people examples, and sometimes I ask users to provide examples. This four-space thing has annoyed me for a couple of years. You may not think it is big deal, but let me just show you two numbers: the [**knitr**](https://github.com/yihui/knitr) repo has got about 1400 issues over the years, and [**rmarkdown**](https://github.com/rstudio/rmarkdown) has got about 1000. You could try to sit here still and simply count the numbers from 1 to 1000. Then feel my despair of bang bang bang bang once every few days.^[I have edited almost every single issue/comment from users that didn't properly format R code chunks.]
 
-![I love technology](https://slides.yihui.name/gif/dump-computer.gif)
+![I love technology](https://slides.yihui.org/gif/dump-computer.gif)
 
 I have a Github issue template for **knitr**, and hopefully anyone who opens a new issue should see the instructions on four spaces, but I feel most users simply ignored it. I don't think it is the problem of these users, but it is just too much hassle to indent the text.
 

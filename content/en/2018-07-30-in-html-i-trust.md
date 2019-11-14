@@ -9,7 +9,7 @@ One **bookdown** user seemed to be [very unhappy](https://twitter.com/conjja/sta
 
 In short, I believe [LaTeX is dead (long live LaTeX)](https://www.authorea.com/users/5713/articles/19359). It will definitely survive for a few more years (maybe twenty or thirty years), but I believe HTML has much more potential to prosper. The fittest will survive, and HTML is the fittest. If you choose LaTeX, you are pretty much tied to PDF. If you choose HTML, you will have much more freedom and fun (e.g., interactivity). In terms of typesetting, HTML cannot beat LaTeX, but it all depends on how good you want the typesetting to be. On one extreme, you could spend an infinite amount of time on improving the appearance of your work, but I'm sure most people won't do that. Getting things done is often more important than making things extremely beautiful or fancy. There has to be a point where you stop investing time in styling and typesetting. The question is when to stop. I tend to stop a little earlier myself, and I understand some people want to stop later.
 
-![Forget about formatting](https://slides.yihui.name/gif/flip-table.jpg)
+![Forget about formatting](https://slides.yihui.org/gif/flip-table.jpg)
 
 One project that made me believe even more in HTML is [ReLaXed](https://github.com/RelaxedJS/ReLaXed). The typesetting quality of web pages will surely catch up with LaTeX, but on the other hand, LaTeX will probably never be able to catch up with HTML in other aspects.
 

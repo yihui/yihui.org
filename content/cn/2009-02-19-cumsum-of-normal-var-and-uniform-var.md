@@ -6,7 +6,7 @@ slug: cumsum-of-normal-var-and-uniform-var
 
 理论上应该是独立的啊，但今天偶然发现这么个现象：
 
-![正态随机数累加与均匀分布随机数累加的散点图](https://db.yihui.name/imgur/AZ2m5y5.png)
+![正态随机数累加与均匀分布随机数累加的散点图](https://db.yihui.org/imgur/AZ2m5y5.png)
 
 不管怎么重复这幅散点图，两个累加变量之间总是有某种说不清的关系。怪哉，怪哉。
 

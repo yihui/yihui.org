@@ -12,7 +12,7 @@ The other day when I was browsing the R documentation pages, I noticed that the 
 
 So... Let's come back to the topic. In fact this is a demonstration I made several weeks ago, and today I modified it a little bit in order that the coverage rate can be better shown. The idea behind this simulation is simple: draw samples (random numbers) from the population which follows `N(0, 1)`, and calculate confidence intervals (CI) based on these samples respectively. I believe everybody surely knows the formula in the main title of the figure below (suppose `sigma` is _known_, then compute the CI for the _unknown_ `mu`).
 
-![Demonstration of Confidence Intervals Using R (Animated)](https://db.yihui.name/imgur/V37Mp.png)
+![Demonstration of Confidence Intervals Using R (Animated)](https://db.yihui.org/imgur/V37Mp.png)
 
 R code for the demo:
 

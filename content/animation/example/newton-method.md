@@ -33,7 +33,7 @@ par(pch = 20)
 xx = newton.method()
 ```
 
-<video controls loop autoplay><source src="https://assets.yihui.name/figures/animation/example/newton-method/demo-a.mp4?dl=1" /><p>plot of chunk demo-a</p></video>
+<video controls loop autoplay><source src="https://assets.yihui.org/figures/animation/example/newton-method/demo-a.mp4?dl=1" /><p>plot of chunk demo-a</p></video>
 
 ```r
 xx$root  # solution
@@ -50,7 +50,7 @@ newton.method(function(x) 5 * x^3 - 7 * x^2 - 40 * x + 100, 7.15,
   c(-6.2, 7.1))
 ```
 
-<video controls loop autoplay><source src="https://assets.yihui.name/figures/animation/example/newton-method/demo-b.mp4?dl=1" /><p>plot of chunk demo-b</p></video>
+<video controls loop autoplay><source src="https://assets.yihui.org/figures/animation/example/newton-method/demo-b.mp4?dl=1" /><p>plot of chunk demo-b</p></video>
 
 
 ```r
@@ -59,7 +59,7 @@ ani.options(interval = 0.5)
 xx = newton.method(function(x) exp(-x) * x, rg = c(0, 10), init = 2)
 ```
 
-<video controls loop autoplay><source src="https://assets.yihui.name/figures/animation/example/newton-method/demo-c.mp4?dl=1" /><p>plot of chunk demo-c</p></video>
+<video controls loop autoplay><source src="https://assets.yihui.org/figures/animation/example/newton-method/demo-c.mp4?dl=1" /><p>plot of chunk demo-c</p></video>
 
 
 ```r
@@ -67,7 +67,7 @@ xx = newton.method(function(x) exp(-x) * x, rg = c(0, 10), init = 2)
 xx = newton.method(function(x) atan(x), rg = c(-5, 5), init = 1.5)
 ```
 
-<video controls loop autoplay><source src="https://assets.yihui.name/figures/animation/example/newton-method/demo-d.mp4?dl=1" /><p>plot of chunk demo-d</p></video>
+<video controls loop autoplay><source src="https://assets.yihui.org/figures/animation/example/newton-method/demo-d.mp4?dl=1" /><p>plot of chunk demo-d</p></video>
 
 ```r
 xx$root  # Inf

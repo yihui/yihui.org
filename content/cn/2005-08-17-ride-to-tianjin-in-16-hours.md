@@ -233,60 +233,60 @@ slug: ride-to-tianjin-in-16-hours
 
 没能拍到南开大学，只在远处拍了一下天津大学的东门：
 
-![](https://db.yihui.name/images/tianjin/tianjindaxue.jpg)
+![](https://db.yihui.org/images/tianjin/tianjindaxue.jpg)
 
 统计大楼：）
 
-![](https://db.yihui.name/images/tianjin/tongjidalou.jpg)
+![](https://db.yihui.org/images/tianjin/tongjidalou.jpg)
 
 鞍山道那条小街：
 
-![](https://db.yihui.name/images/tianjin/anshandao.jpg)
+![](https://db.yihui.org/images/tianjin/anshandao.jpg)
 
 广场桥：
 
-![](https://db.yihui.name/images/tianjin/guangchangqiao.jpg)
+![](https://db.yihui.org/images/tianjin/guangchangqiao.jpg)
 
 我的小破车：
 
-![](https://db.yihui.name/images/tianjin/zixingche.jpg)
+![](https://db.yihui.org/images/tianjin/zixingche.jpg)
 
 大沽桥：
 
-![](https://db.yihui.name/images/tianjin/daguqiao.jpg)
+![](https://db.yihui.org/images/tianjin/daguqiao.jpg)
 
-![](https://db.yihui.name/images/tianjin/daguqiaojin.jpg)
+![](https://db.yihui.org/images/tianjin/daguqiaojin.jpg)
 
-![](https://db.yihui.name/images/tianjin/huayuan.jpg)
+![](https://db.yihui.org/images/tianjin/huayuan.jpg)
 
 八仙过海：（下面赫然写着“保护环境，节约用水”，当时我很无语）
 
-![](https://db.yihui.name/images/tianjin/baxianguohai.jpg)
+![](https://db.yihui.org/images/tianjin/baxianguohai.jpg)
 
 天津站的狗不理包子店：
 
-![](https://db.yihui.name/images/tianjin/goubuli.jpg)
+![](https://db.yihui.org/images/tianjin/goubuli.jpg)
 
 北安桥上的塑像：
 
-![](https://db.yihui.name/images/tianjin/suxiang1.jpg)
+![](https://db.yihui.org/images/tianjin/suxiang1.jpg)
 
-![](https://db.yihui.name/images/tianjin/suxiang2.jpg)
+![](https://db.yihui.org/images/tianjin/suxiang2.jpg)
 
 步行街一个路口地面的图案——和平聚宝：
 
-![](https://db.yihui.name/images/tianjin/hepingjubao.jpg)
+![](https://db.yihui.org/images/tianjin/hepingjubao.jpg)
 
 临走时太阳快从西边出来了：
 
-![](https://db.yihui.name/images/tianjin/taiyangchulai.jpg)
+![](https://db.yihui.org/images/tianjin/taiyangchulai.jpg)
 
 火车开到天津北站：
 
-![](https://db.yihui.name/images/tianjin/tianjinbei.jpg)
+![](https://db.yihui.org/images/tianjin/tianjinbei.jpg)
 
 离开天津，太阳公公笑得倍儿灿烂：
 
-![](https://db.yihui.name/images/tianjin/taiyang.jpg)
+![](https://db.yihui.org/images/tianjin/taiyang.jpg)
 
 我真是倍儿ft！

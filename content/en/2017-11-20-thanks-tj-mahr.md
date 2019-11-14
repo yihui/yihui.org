@@ -10,4 +10,4 @@ I have encouraged R Markdown users to read [Pandoc's documentation](http://pando
 
 TJ's answer was quite simple, but it was worth 500 points because it saved me a little bit patience. When you have to repeat something [several times](/en/2017/10/501st-reminder/) to different users, it is easy to lose patience. Even though I think I'm pretty good at controlling my temper online now, it is still good to see that someone else has read Pandoc's documentation and pointed out the correct solution in the documentation before I have to do so.
 
-![The documentation can save you. It is not that bad.](https://slides.yihui.name/gif/no-panic.gif)
+![The documentation can save you. It is not that bad.](https://slides.yihui.org/gif/no-panic.gif)

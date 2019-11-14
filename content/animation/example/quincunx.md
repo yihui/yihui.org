@@ -37,6 +37,6 @@ freq = quincunx(balls = 200, col.balls = rainbow(200))
 barplot(freq, space = 0)
 ```
 
-<video controls loop autoplay><source src="https://assets.yihui.name/figures/animation/example/quincunx/demo-a.mp4?dl=1" /><p>plot of chunk demo-a</p></video>
+<video controls loop autoplay><source src="https://assets.yihui.org/figures/animation/example/quincunx/demo-a.mp4?dl=1" /><p>plot of chunk demo-a</p></video>
 
 [^1]: Darwin, Galton and the Statistical Enlightenment, http://onlinelibrary.wiley.com/doi/10.1111/j.1467-985X.2010.00643.x/full 

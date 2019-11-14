@@ -27,4 +27,4 @@ I doubt if anyone is still able to focus on one thing like a worm for a whole li
 
 Programming languages are so complicated, yet the index is so simple.
 
-![I can do any rankings I want.](https://slides.yihui.name/gif/have-permit.gif)
+![I can do any rankings I want.](https://slides.yihui.org/gif/have-permit.gif)

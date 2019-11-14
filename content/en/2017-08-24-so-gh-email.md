@@ -11,11 +11,11 @@ Everyone understands the importance of [an uninterrupted block of time](http://h
 
 Ask a question directly to me (by email or Github), and I'll be like this:
 
-![Busy me](https://slides.yihui.name/gif/repeat-smoke.gif)
+![Busy me](https://slides.yihui.org/gif/repeat-smoke.gif)
 
 Ask a question in the community, there may be a lot of helpful hands:
 
-![A lot of love](https://slides.yihui.name/gif/cat-hands.gif)
+![A lot of love](https://slides.yihui.org/gif/cat-hands.gif)
 
 ## Why Emails Are Bad
 

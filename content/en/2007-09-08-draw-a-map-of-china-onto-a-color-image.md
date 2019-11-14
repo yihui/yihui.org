@@ -6,7 +6,7 @@ slug: draw-a-map-of-china-onto-a-color-image
 
 What we need to do is just use the parameter `add = TRUE` in the function of `map()` (package **maps**):
 
-![A Map of China on A Color Image](https://db.yihui.name/imgur/jx0ou.png)
+![A Map of China on A Color Image](https://db.yihui.org/imgur/jx0ou.png)
 
 Source code:
 

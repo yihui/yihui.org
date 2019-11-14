@@ -32,7 +32,7 @@ ani.options(nmax = 30)
 xx = bisection.method()
 ```
 
-<video controls loop autoplay><source src="https://assets.yihui.name/figures/animation/example/bisection-method/demo-a.mp4?dl=1" /><p>plot of chunk demo-a</p></video>
+<video controls loop autoplay><source src="https://assets.yihui.org/figures/animation/example/bisection-method/demo-a.mp4?dl=1" /><p>plot of chunk demo-a</p></video>
 
 ```r
 xx$root  # solution
@@ -49,7 +49,7 @@ f = function(x) x^3 - 7 * x - 10
 xx = bisection.method(f, c(-3, 5))
 ```
 
-<video controls loop autoplay><source src="https://assets.yihui.name/figures/animation/example/bisection-method/demo-b.mp4?dl=1" /><p>plot of chunk demo-b</p></video>
+<video controls loop autoplay><source src="https://assets.yihui.org/figures/animation/example/bisection-method/demo-b.mp4?dl=1" /><p>plot of chunk demo-b</p></video>
 
 
 

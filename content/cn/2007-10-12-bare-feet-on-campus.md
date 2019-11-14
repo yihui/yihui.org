@@ -8,9 +8,9 @@ slug: bare-feet-on-campus
 
 从十一假期开始，基本上天天嘎吱嘎吱骑着小破车从西边往东边跑，吃那边的食堂。回来就顺路看望它们：
 
-![光着脚丫子在校园溜达](https://db.yihui.name/imgur/Lyr9o.jpg)
+![光着脚丫子在校园溜达](https://db.yihui.org/imgur/Lyr9o.jpg)
 
-![光着脚丫子在校园溜达](https://db.yihui.name/imgur/rJ7xF.jpg)
+![光着脚丫子在校园溜达](https://db.yihui.org/imgur/rJ7xF.jpg)
 
 手机拍照效果极其不好， 对于浅色的花照出来基本上就是一片白，郁闷。我还一直认为与其花大价钱卖个好相机还不如学点Photoshop管用，看样子相机太差了也不行。
 

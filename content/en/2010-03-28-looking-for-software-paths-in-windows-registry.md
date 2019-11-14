@@ -63,7 +63,7 @@ if (nzchar(magick.path) && require(animation)) {
 
 You should be able to see the output as this:
 
-![ImageMagick Example](https://db.yihui.name/imgur/O8BJB.gif)
+![ImageMagick Example](https://db.yihui.org/imgur/O8BJB.gif)
 
 OpenBUGS example:
 

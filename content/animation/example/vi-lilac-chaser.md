@@ -19,4 +19,4 @@ par(pty = "s")
 vi.lilac.chaser()
 ```
 
-<video controls loop autoplay><source src="https://assets.yihui.name/figures/animation/example/vi-lilac-chaser/demo-a.mp4?dl=1" /><p>plot of chunk demo-a</p></video>
+<video controls loop autoplay><source src="https://assets.yihui.org/figures/animation/example/vi-lilac-chaser/demo-a.mp4?dl=1" /><p>plot of chunk demo-a</p></video>

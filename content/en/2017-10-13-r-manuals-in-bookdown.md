@@ -9,4 +9,4 @@ Colin Fay [converted all official R manuals to **bookdown**](https://twitter.com
 
 "I had no idea these manuals existed," [said tj mahr](https://twitter.com/tjmahr/status/917344120896618496).
 
-![I have no idea there is a cat](https://slides.yihui.name/gif/camouflage-3.jpg)
+![I have no idea there is a cat](https://slides.yihui.org/gif/camouflage-3.jpg)

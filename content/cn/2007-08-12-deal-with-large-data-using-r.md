@@ -72,11 +72,11 @@ slug: deal-with-large-data-using-r
 ```
  
 
-![新建数据源（控制面板-->管理工具-->数据源 (ODBC)；添加）](https://db.yihui.name/imgur/rdlDQ.png)
+![新建数据源（控制面板-->管理工具-->数据源 (ODBC)；添加）](https://db.yihui.org/imgur/rdlDQ.png)
 
 图1：新建数据源（控制面板-->管理工具-->数据源 (ODBC)；添加）
 
-![Microsoft Text Driver](https://db.yihui.name/imgur/3GH3V.png)
+![Microsoft Text Driver](https://db.yihui.org/imgur/3GH3V.png)
 
 图2：Microsoft Text Driver
 

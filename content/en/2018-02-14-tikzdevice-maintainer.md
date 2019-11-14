@@ -10,4 +10,4 @@ Today the **tikzDevice** package was orphaned [on CRAN](https://cran.rstudio.com
 
 If anyone has time, understands C, and loves TikZ, please feel free to take over the maintainership. Since the package has been orphaned, you won't need to ask for our permission to take it over. I'll be happy to give you write access to the Github repo [yihui/tikzDevice](https://github.com/yihui/tikzDevice), or simply transfer this repo to you.
 
-![The tikzDevice vignette](https://db.yihui.name/images/tikzDevice-vignette.png#border)
+![The tikzDevice vignette](https://db.yihui.org/images/tikzDevice-vignette.png#border)

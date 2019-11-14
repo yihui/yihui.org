@@ -10,4 +10,4 @@ slug: birthday-present-to-felix-andrews
 
 这是他用playwith包给我的答案：
 
-![数据中隐藏的“蜡烛”](https://db.yihui.name/imgur/tvDxB4g.png)
+![数据中隐藏的“蜡烛”](https://db.yihui.org/imgur/tvDxB4g.png)

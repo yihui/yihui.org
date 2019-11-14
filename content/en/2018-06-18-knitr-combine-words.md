@@ -18,4 +18,4 @@ Since then, I have used this function by myself several times. Today I saw [a St
 
 P.S. On an only marginally related note, here is a cat trying to demonstrate the importance of the "Oxford comma" (the Oxford cat?):
 
-![Meerkat, meerkat, the Oxford cat, and meerkat](https://slides.yihui.name/gif/camouflage-3.jpg)
+![Meerkat, meerkat, the Oxford cat, and meerkat](https://slides.yihui.org/gif/camouflage-3.jpg)

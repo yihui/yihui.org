@@ -51,9 +51,9 @@ Finally we are back to the technical world again. On my personal website, I use 
 
 To fully understand the code above, you have to understand URLs. You may think URLs are simple, but they may not be. People [make mistakes](/en/2018/01/valid-url/) all the time. People [get confused](https://twitter.com/xieyihui/status/1040441928087683072) over and over again. Relative URLs? Absolute URLs? Absolute relative URLs? Protocol-free URLs? You may read my least favorite part of the **blogdown** book to know more: [Appendix B.1](https://bookdown.org/yihui/blogdown/html.html).
 
-![I'm just going to shoot myself](https://slides.yihui.name/gif/shoot-myself.gif)
+![I'm just going to shoot myself](https://slides.yihui.org/gif/shoot-myself.gif)
 
-Long story short, when I add links to my web pages, I omit the protocol and domain in the URLs^[This makes the URLs more portable: when I change my domain name or protocol, I don't need to update these URLs.] if they are internal links to pages that are still on my website (under `https://yihui.name/`), e.g.,
+Long story short, when I add links to my web pages, I omit the protocol and domain in the URLs^[This makes the URLs more portable: when I change my domain name or protocol, I don't need to update these URLs.] if they are internal links to pages that are still on my website (under `https://yihui.org/`), e.g.,
 
 ```md
 [the knitr website](/knitr/)

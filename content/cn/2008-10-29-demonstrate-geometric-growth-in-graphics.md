@@ -8,7 +8,7 @@ slug: demonstrate-geometric-growth-in-graphics
 
 表达几何级数增长（或者指数增长）的方式一般是对y取对数，然后与x作图，看图形是否呈一条直线：若log(y) = a * x + b，那么显然是指数增长方式。人眼观察直线比观察曲线要容易得多，因此这种方法比用原始数据作图要更容易表达“几何级数增长”。下图左边为原始数据，右边为y轴取对数后的图形。R中处理起来非常简单，作图时添加参数log即可（可以对x轴或y轴或者同时取对数）。
 
-![指数增长的图示方法](https://db.yihui.name/imgur/MMM7v5X.png)
+![指数增长的图示方法](https://db.yihui.org/imgur/MMM7v5X.png)
 
     # png("exp_growth.png", width = 600, height = 500)
     options(scipen = 5)

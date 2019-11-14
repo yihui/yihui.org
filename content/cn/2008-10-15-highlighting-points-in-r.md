@@ -27,4 +27,4 @@ slug: highlighting-points-in-r
 
 其中`r`可以自行调整。
 
-![](https://db.yihui.name/imgur/jUMGKFx.png)
+![](https://db.yihui.org/imgur/jUMGKFx.png)

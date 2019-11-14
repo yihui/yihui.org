@@ -10,4 +10,4 @@ slug: question-sea
 
 四小时后，那 TC 君（这是我第三遍提名了吧）跳将出来，把我想说的话说了。好嘛，这位壮士，希望有朝一日能请你吃酒。
 
-![](https://db.yihui.name/images/gaocheng-wuliuyi.jpg)
+![](https://db.yihui.org/images/gaocheng-wuliuyi.jpg)

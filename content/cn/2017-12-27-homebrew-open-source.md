@@ -20,6 +20,6 @@ Homebrew 的作者 Max Howell 时隔两年后在 Quora 上[回答了一个关于
 
 翻滚吧，牛宝宝！
 
-![滚犊子](https://slides.yihui.name/gif/roll-away.gif)
+![滚犊子](https://slides.yihui.org/gif/roll-away.gif)
 
 其实看看另一个比 Homebrew 早得多的软件包管理工具 MacPorts 的命运就更能理解什么是开放的开源、什么是一个人在战斗的开源。这也从一个侧面告诉我们，不必因为天资不够而害怕挑战那些天才码农，如果你足够关心用户，以及擅长搭架子让用户像黄瓜爬藤一样爬上来为你开花结果，你也可以做出漂亮得多的开源软件。我相信这种机会一直都会存在。

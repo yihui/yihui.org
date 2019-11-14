@@ -54,21 +54,21 @@ img {
 回到前面的 Kiera 主题，它里面让我更加眼前一亮的是 `img[src*="full"]` 这部分，这个黑魔法实在是高；我以前知道 CSS 有这种查询技能，但从没想过可以这样玩。它给 Markdown 世界倒是添了一种非常实用的可能性：除了 Pandoc 之外，几乎没有哪种 Markdown 转换工具支持定义图片的类属性，所以也就无法根据不同图片自定义不同样式；但如果用 `src` 属性去匹配图片，那么就可以给特定网址的图片配特定的样式。真正的黑魔法在于，如果网址中含有锚点，它并不会影响图片的提取（锚点除了页面内定位之外一般没有特殊含义），比如下面两个网址提取的都是同一幅图，第二个网址中的锚点 `#full` 对图片而言并没有任何意义：
 
 ```
-https://slides.yihui.name/gif/roll-away.gif
-https://slides.yihui.name/gif/roll-away.gif#full
+https://slides.yihui.org/gif/roll-away.gif
+https://slides.yihui.org/gif/roll-away.gif#full
 ```
 
 但如果定义了 `img[src*="#full"]` 的样式，那么它就只会被用到第二幅图上。相应地，用 Markdown 语法写出图片就是：
 
 ```md
-![普通图片](https://slides.yihui.name/gif/roll-away.gif)
-![全宽图片](https://slides.yihui.name/gif/roll-away.gif#full)
+![普通图片](https://slides.yihui.org/gif/roll-away.gif)
+![全宽图片](https://slides.yihui.org/gif/roll-away.gif#full)
 ```
 
 当然，对于万能的 Pandoc，我们可以不必如此曲线救国，直接定义一个类属性即可：
 
 ```md
-![全宽图片](https://slides.yihui.name/gif/roll-away.gif){.full}
+![全宽图片](https://slides.yihui.org/gif/roll-away.gif){.full}
 ```
 
 看，玩网页是不是其乐无穷。

@@ -6,7 +6,7 @@ slug: violin-plot-to-show-density
 
 小提琴图没什么特别的，就是把密度估计放在一根对称轴的两边，然后竖起来就可以了。我们可以把它看做箱线图的同伴；箱线图只是展示了分位数的位置，小提琴图展示了任意位置的密度，通过小提琴图我们可以知道哪些位置的密度较高。另外，我们也可以把多个小提琴放在一起比较。如下图：
 
-![小提琴图；Violin Plot](https://db.yihui.name/imgur/R92pi6p.png)
+![小提琴图；Violin Plot](https://db.yihui.org/imgur/R92pi6p.png)
 
 所用函数`simple.violinplot()`来自于UsingR包，不过它没有提供填充不同颜色的功能，上图是我修改了源代码之后作出来的。问题来自于Adelaide大学的Fernando Marmolejo Ramos，他在R-help里面问了没人回答，所以就给我私人Email了。
 

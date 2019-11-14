@@ -2,7 +2,7 @@
 title: Rd2roxygen
 subtitle: Convert Rd to roxygen documentation
 author: "Yihui Xie"
-date: '2018-09-08'
+date: '2019-11-14'
 slug: Rd2roxygen
 show_toc: true
 githubEditURL: https://github.com/yihui/Rd2roxygen/edit/master/vignettes/Rd2roxygen.Rmd
@@ -38,7 +38,7 @@ cat(readLines(ex.file), sep = "\n")
 #' @return a character vector if \code{file} is not specified, or write the
 #'   vector into a file
 #' @export
-#' @author Hadley Wickham; modified by Yihui Xie <\url{http://yihui.name}>
+#' @author Hadley Wickham; modified by Yihui Xie <\url{http://yihui.org}>
 parse_and_save <- function(path, file, usage = FALSE) {
   parsed <- parse_file(path)
   output <- create_roxygen(parsed, usage = usage)
@@ -64,7 +64,7 @@ cat(readLines(rd.file), sep = "\n")
 \description{Parse the input Rd file and save the roxygen documentation into a file.}
 \value{a character vector if \code{file} is not specified, or write the vector
 into a file}
-\author{Hadley Wickham; modified by Yihui Xie <\url{http://yihui.name}>}
+\author{Hadley Wickham; modified by Yihui Xie <\url{http://yihui.org}>}
 \arguments{\item{path}{the path of the Rd file}
 \item{file}{the path to save the roxygen documentation}
 \item{usage}{logical: whether to include the usage section in the output}}
@@ -111,7 +111,7 @@ List of 9
  $ desc    : chr "Parse the input Rd file and save the roxygen documentation into a file."
  $ section : chr(0) 
  $ value   : chr "a character vector if \\code{file} is not specified, or write the vector\ninto a file"
- $ author  : chr "Hadley Wickham; modified by Yihui Xie <\\url{http://yihui.name}>"
+ $ author  : chr "Hadley Wickham; modified by Yihui Xie <\\url{http://yihui.org}>"
  $ name    : chr "parse_and_save"
  $ keywords: list()
  $ params  : chr [1:3] "path the path of the Rd file" "file the path to save the roxygen documentation" "usage logical: whether to include the usage section in the output"
@@ -133,7 +133,7 @@ cat(create_roxygen(info), sep = "\n")
 ##' @param usage logical: whether to include the usage section in the output
 ##' @return a character vector if \code{file} is not specified, or write the
 ##' vector into a file
-##' @author Hadley Wickham; modified by Yihui Xie <\url{http://yihui.name}>
+##' @author Hadley Wickham; modified by Yihui Xie <\url{http://yihui.org}>
 ```
 
 # Roxygenize and build a package
@@ -167,7 +167,7 @@ rab = function(pkg, build = TRUE, install = FALSE, check = FALSE,
 }
 ```
 
-Note this functionality depends on the package [**formatR**](https://yihui.name/formatR), and
+Note this functionality depends on the package [**formatR**](https://yihui.org/formatR), and
 sometimes it might not be possible to reformat the code, e.g. the
 `\dontrun{}` command in Rd can contain arbitrary texts, which means there
 could be illegal R expressions and **formatR** will be unable to format the
@@ -177,7 +177,7 @@ will be printed on screen.
 # About this vignette
 
 This vignette was built using the vignette engine `knitr::rmarkdown`
-in the [**knitr**](https://yihui.name/knitr) package. You can find the source
+in the [**knitr**](https://yihui.org/knitr) package. You can find the source
 in the [Rd2roxygen
 repository](https://github.com/yihui/Rd2roxygen/tree/master/vignettes) on
 Github, or

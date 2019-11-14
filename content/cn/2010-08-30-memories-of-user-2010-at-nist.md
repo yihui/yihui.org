@@ -30,7 +30,7 @@ slug: memories-of-user-2010-at-nist
 
 最后一天下午安排了Richard M Stallman演讲，我吃完午饭看见RMS一个人在那里看书，我心想怎么到现在还没有粉丝前来围观，于是赶紧抓紧机会和这位大仙合影一张（按照惯例，我依旧不会放正面清晰照，哈哈）：
 
-![RMS and Yihui at useR! 2010](https://db.yihui.name/imgur/SohGg.jpg)
+![RMS and Yihui at useR! 2010](https://db.yihui.org/imgur/SohGg.jpg)
 
 我跟RMS说，您老人家揍是俺们的神呐，他说，不，我只是个圣人（Saint）而已。看上面的照片，果然很圣人，照相时头上都顶着光圈（不是我特意涂上去的），而我就没有。
 

@@ -7,7 +7,7 @@ slug: why-xaringan-remark-js
 
 Last year I wrote an R package with a weird name "[**xaringan**](https://github.com/yihui/xaringan)". Although I have documented it, I have never explained why I preferred the underlying HTML5 presentation framework remark.js over other frameworks like dzslides, ioslides, Slidy, or reveal.js.
 
-I started playing with HTML5 slides [in 2011](/en/2012/04/fancy-html5-slides-with-knitr-and-pandoc/), and rarely went back to LaTeX beamer ever since.^[Yes, I started with PowerPoint, like most people did. Then my brain was washed by LaTeX just like many people in academia.] To be honest, I was never truly happy with any of the Markdown-based slide generation tools until I saw remark.js. Prior to that, my personal favorite HTML5 presentation was still my [very first one](https://slides.yihui.name/2011-r-dev-lessons.html) based on a library named [keydown](http://infews.github.io/keydown/).^[I like the old version of keydown more than the current new version.] I loved it primarily because of the possibility of using fullscreen background images, which I think is critical to presentations. Fortunately, background images are dead easy with remark.js, and I found its feature set was just the right size for me: not too small, or too big.
+I started playing with HTML5 slides [in 2011](/en/2012/04/fancy-html5-slides-with-knitr-and-pandoc/), and rarely went back to LaTeX beamer ever since.^[Yes, I started with PowerPoint, like most people did. Then my brain was washed by LaTeX just like many people in academia.] To be honest, I was never truly happy with any of the Markdown-based slide generation tools until I saw remark.js. Prior to that, my personal favorite HTML5 presentation was still my [very first one](https://slides.yihui.org/2011-r-dev-lessons.html) based on a library named [keydown](http://infews.github.io/keydown/).^[I like the old version of keydown more than the current new version.] I loved it primarily because of the possibility of using fullscreen background images, which I think is critical to presentations. Fortunately, background images are dead easy with remark.js, and I found its feature set was just the right size for me: not too small, or too big.
 
 ## Why I love remark.js
 
@@ -23,7 +23,7 @@ I spent three days during the last Thanksgiving break on developing the prototyp
 
 1. There are several useful slide properties such as `class`, `background-image`, and `layout`. These are simple to write but can style individual slides in pretty much any way you want if you know a little bit CSS. Even if you don't know CSS, the built-in classes like `class: center, middle` are useful enough.
 
-1. As I mentioned above, the background image property is my favorite one. A few weeks before I wrote the R package, Karthik [requested a feature](https://github.com/yihui/xaringan/issues/1) on Twitter that allows users to insert the Mustache Karl (TM) picture using an argument `yolo = TRUE`. I felt it was fun, so I [implemented](https://slides.yihui.name/xaringan/karl.html) it in **xaringan**. If you turn it on, you will see the happy Karl on a _random_ slide like this:
+1. As I mentioned above, the background image property is my favorite one. A few weeks before I wrote the R package, Karthik [requested a feature](https://github.com/yihui/xaringan/issues/1) on Twitter that allows users to insert the Mustache Karl (TM) picture using an argument `yolo = TRUE`. I felt it was fun, so I [implemented](https://slides.yihui.org/xaringan/karl.html) it in **xaringan**. If you turn it on, you will see the happy Karl on a _random_ slide like this:
 
     ![Mustache Karl](https://github.com/yihui/xaringan/releases/download/v0.0.2/karl-moustache.jpg)
 
@@ -33,7 +33,7 @@ I spent three days during the last Thanksgiving break on developing the prototyp
 
 1. You can write slide notes under three question marks `???`. These notes are only displayed in the presentation mode, and only the speaker can see these notes. This is very helpful when you want to give a talk but have too many things to remember, in which case you can look at your own screen and read the notes. The audience won't see the notes on the projector screen.
 
-1. The keyboard shortcuts are fun, too. For example, you can open [**xaringan**'s documenation](https://slides.yihui.name/xaringan/) (written in remark.js, of course), and press keys like `P` (presentation mode), `C` (clone slides to a new window), `B` (black out), `M` (mirror the slide), and `H` (help), etc.
+1. The keyboard shortcuts are fun, too. For example, you can open [**xaringan**'s documenation](https://slides.yihui.org/xaringan/) (written in remark.js, of course), and press keys like `P` (presentation mode), `C` (clone slides to a new window), `B` (black out), `M` (mirror the slide), and `H` (help), etc.
 
 1. You can highlight certain lines in code blocks.
 

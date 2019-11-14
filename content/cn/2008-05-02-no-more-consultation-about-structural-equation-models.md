@@ -8,7 +8,7 @@ slug: no-more-consultation-about-structural-equation-models
 
 这两年来我收到过很多询问SEM问题的邮件，现在实在是已经回答累了，主要原因是很多提问者根本没有弄清楚SEM的基本原理。不管是主观原因不想弄清楚，还是客观原因无法弄清楚，我都觉得这种事情颇为荒唐。并非我要求统计应用者对统计技术掌握得多么精通，但如果最基础的知识都不具备，如何敢跑模型，如何敢作解释？
 
-![模型这么复杂，晕不晕啊？](https://db.yihui.name/imgur/Xxp7s.gif)
+![模型这么复杂，晕不晕啊？](https://db.yihui.org/imgur/Xxp7s.gif)
 
 那么话说回来，什么是基础呢？
 

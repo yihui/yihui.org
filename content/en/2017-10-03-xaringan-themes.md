@@ -12,7 +12,7 @@ I know this will [at least help Mine](https://twitter.com/minebocek/status/91504
 
 Anyone?
 
-![Waiting for volunteers](https://slides.yihui.name/gif/questions.gif)
+![Waiting for volunteers](https://slides.yihui.org/gif/questions.gif)
 
 P. S. If you really want to kill time, see if you can "reproduce" a Microsoft PowerPoint style with CSS, or LaTeX beamer. The latter may be more challenging. I'll be waiting for pull requests on Github.
 

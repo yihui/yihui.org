@@ -13,6 +13,6 @@ Yes! The fewer open issues I see, the happier I feel. Every single Github issue 
 
 Marcel also pointed out that one could help edit the source of the **bookdown** book and send a pull request if the book is not clear. Joyful tears were rolling down my face. I love people who know how to edit files online on Github. I, just, love, them.
 
-![Tears rolling down my face](https://db.yihui.name/images/gaocheng-wuliuyi.jpg)
+![Tears rolling down my face](https://db.yihui.org/images/gaocheng-wuliuyi.jpg)
 
 Thanks, Marcel. You made my day better.

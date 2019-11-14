@@ -19,7 +19,7 @@ The plan for the R Markdown ecosystem has been very clear in my mind: I hope to 
 
 Originally we were thinking of completely reinventing the wheels of static websites using R, but when I finally started to work on it in October 2016, I realized the wheels were too big for me. If I were to take that route, this project would probably take me three years (remember, I'm a mediocre programmer).
 
-![The initial plan](https://slides.yihui.name/gif/rpress.jpg)
+![The initial plan](https://slides.yihui.org/gif/rpress.jpg)
 
 ## The shoulders of giants
 
@@ -75,7 +75,7 @@ The **blogdown** book was not easy to write because there are too many technolog
 
 Some technical details drove me nuts when I tried to explain them. For example, I felt desperate when I was writing the last part of Appendix B.1: you cannot imagine how confusing URLs could be. Will the Markdown text `[Link](www.example.com)` generate a valid link? Chances are it will not. At least it will not generate the link you expected: the link will not take you to the website `www.example.com`, because `www.example.com` is a relative URL.
 
-I also recommend you to learn a bit about DNS. You should consider registering your own domain, and setting up your personal email accounts (like mine, `xie@yihui.name`). You can simply use email aliases on Migadu for free.
+I also recommend you to learn a bit about DNS. You should consider registering your own domain, and setting up your personal email accounts (like mine, `xie@yihui.org`). You can simply use email aliases on Migadu for free.
 
 ## Make a plan! Yes, make, a, plan!
 
@@ -107,7 +107,7 @@ I have already mentioned my proofreader Becky [in a previous post](/en/2017/11/b
 
 ## Let's talk about money (thank Chapman & Hall and my co-authors)
 
-![Man of honor never talks about money but he needs food](https://db.yihui.name/images/junzi-money.jpg)
+![Man of honor never talks about money but he needs food](https://db.yihui.org/images/junzi-money.jpg)
 
 In the past, a few readers told me they bought my books to put some money in my pocket. That was very kind of them, and I feel grateful. I have written three books, and the total amount of money I have made is, zero. I intentionally chose not to make money from my books because I didn't want money to become a stimulator in my brain. I write mainly because I enjoy writing (although sometimes it can be really painful), and I hope what I write can be useful. If I feel I'm paid to write, the experience will be totally different. I won't love it. If you happen to have got a hard copy or [PDF copy](https://bookdown.org/yihui/blogdown/blogdown.pdf) of the book, you will see I wrote this on the dedication page:
 

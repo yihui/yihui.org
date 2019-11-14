@@ -24,4 +24,4 @@ par(mar = c(3, 3, 2, 0.5), mgp = c(1.5, 0.5, 0), tcl = -0.3)
 sim.qqnorm(n = 20, last.plot = expression(abline(0, 1)))
 ```
 
-<video controls loop autoplay><source src="https://assets.yihui.name/figures/animation/example/sim-qqnorm/demo-a.mp4?dl=1" /><p>plot of chunk demo-a</p></video>
+<video controls loop autoplay><source src="https://assets.yihui.org/figures/animation/example/sim-qqnorm/demo-a.mp4?dl=1" /><p>plot of chunk demo-a</p></video>

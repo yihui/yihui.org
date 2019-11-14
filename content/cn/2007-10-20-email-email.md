@@ -6,7 +6,7 @@ slug: email-email
 
 经常回不完……遇到自己不熟悉的知识就先留在草稿箱中，等自己搞清楚之后才能回复。因此我的邮箱中常年堆积邮件……到现在还留有3月份没回复的邮件，估计到时候给人家回复了人家会疯掉的——这反射弧也够长的。
 
-近两天动画片的网站上也许可以把[Bootstrap](https://r.yihui.name/stat/machine_learning/bootstrapping/)的页面做完吧。在考虑要不要把每个页面都用LaTeX编一个PDF文件，这样方便阅读。要不关于动画片也写一个Package提交给CRAN好了，他们应该会感兴趣吧（如同那个TeachingDemos包一样）。想了想，应该把rgl也纳入动画的范围内。这个工程越来越庞大，ft……
+近两天动画片的网站上也许可以把[Bootstrap](https://r.yihui.org/stat/machine_learning/bootstrapping/)的页面做完吧。在考虑要不要把每个页面都用LaTeX编一个PDF文件，这样方便阅读。要不关于动画片也写一个Package提交给CRAN好了，他们应该会感兴趣吧（如同那个TeachingDemos包一样）。想了想，应该把rgl也纳入动画的范围内。这个工程越来越庞大，ft……
 
 下周还要再去一趟海关，给他们培训培训我的程序使用方法。也在考虑要不要打叉讲点R的统计分析应用，或者讲点Excel也好，周四过去的时候，随意告诉一位科长一点Excel小技巧，他就高兴得不得了。
 

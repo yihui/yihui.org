@@ -12,7 +12,7 @@ file.path(R.home('doc'), 'html', 'R.css')
 
 Simply replace this file with my version of [R.css](https://github.com/yihui/configuration/raw/master/R.css) (1K) which looks like:
 
-![R HTML Help Theme](https://db.yihui.name/imgur/9DReh.png)
+![R HTML Help Theme](https://db.yihui.org/imgur/9DReh.png)
 
 Of course you can design your own `R.css` if you know CSS.
 

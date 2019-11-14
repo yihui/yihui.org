@@ -12,6 +12,6 @@ As usual, I started my morning by going through new Github issues, and I saw [a 
 
 It turned out the second possibility was true. What a relief! I'm glad that I didn't yell "Why don't you read the documentation?"
 
-![Why don't you read documentation?](https://db.yihui.name/imgur/hfdOEsw.gif)
+![Why don't you read documentation?](https://db.yihui.org/imgur/hfdOEsw.gif)
 
 That said, as software developers, we should always keep the first possibility in mind. Documentation is hard, and sometimes harder than developing the software itself.

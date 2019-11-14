@@ -31,7 +31,7 @@ No matter what you really mean, if users have got the bad feelings, there is a p
 
 I'm going to finish this post with a recent example to illustrate the point of "people tend to avoid doing the right things if they are harder, and will do wrong things if they are easier." Five users have voted to close the recent post "[Graphs don't show when Rmarkdown posted to blogdown on shiny server](https://stackoverflow.com/q/50084663/559676)". Let me show you what it looks like when it was first posted:
 
-![No one bothers to edit the post](https://db.yihui.name/images/so-no-edit.png#border)
+![No one bothers to edit the post](https://db.yihui.org/images/so-no-edit.png#border)
 
 The OP, Rain Wei, was apparently a completely beginner on Stack Overflow. His (apologies if I guessed the gender wrong) reputation point was one. What happened to this post in two hours?
 

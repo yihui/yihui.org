@@ -6,19 +6,19 @@ slug: joyful-moments
 
 Maëlle Salmon [announced](https://twitter.com/ma_salmon/status/920660343063490562) her "new session" (a cute newborn) on Twitter, and I was delighted and honored to see the **knitr** hex logo on her blanket. Welcome to the woRld, little Émile!
 
-![knitr logo on blanket](https://db.yihui.name/images/knitr-blanket.jpg)
+![knitr logo on blanket](https://db.yihui.org/images/knitr-blanket.jpg)
 
 That reminded me of a few other joyful moments. Occasionally, I receive thank-you notes and gifts from users, such as this card in a package:
 
-![bookdown gift](https://db.yihui.name/images/bookdown-gift.jpg)
+![bookdown gift](https://db.yihui.org/images/bookdown-gift.jpg)
 
 this note in a **bookdown** report:
 
-![thanks in a bookdown report](https://db.yihui.name/images/bookdown-thanks.jpg)
+![thanks in a bookdown report](https://db.yihui.org/images/bookdown-thanks.jpg)
 
 and this picture in an email:
 
-![drexel thank-you picture](https://db.yihui.name/images/drexel-thanks.jpg)
+![drexel thank-you picture](https://db.yihui.org/images/drexel-thanks.jpg)
 
 The instructor in the above picture ran into me in early 2015 when I was looking for the classroom at UConn to teach my tutorial, and took a selfie with me. I was surprised and touched to see he put this picture on the projector and took another picture with his students a couple of months later. That was very encouraging to me.
 
