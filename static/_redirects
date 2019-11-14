@@ -1,21 +1,21 @@
-/slides/*     https://slides.yihui.name/:splat
+/slides/*     https://slides.yihui.org/:splat
 /cn/feed/     /cn/index.xml
 /en/feed/     /en/index.xml
 /en/comments/feed/   https://yihui.disqus.com/latest.rss
 /cn/comments/feed/   https://yihui.disqus.com/latest.rss
 /cv/          /en/vitae/
-/xran/*       https://xran.yihui.name/:splat
-/r/*/index.htm    https://r.yihui.name/:splat
-/r/*              https://r.yihui.name/:splat
+/xran/*       https://xran.yihui.org/:splat
+/r/*/index.htm    https://r.yihui.org/:splat
+/r/*              https://r.yihui.org/:splat
 /gh/tinytex/*                https://github.com/yihui/tinytex/raw/master/:splat
-/knitr-jekyll/*              https://jekyll.yihui.name/:splat
-/recharts/*                  https://recharts.yihui.name/:splat
+/knitr-jekyll/*              https://jekyll.yihui.org/:splat
+/recharts/*                  https://recharts.yihui.org/:splat
 /media/js/center-images.js   /js/center-img.js
 
-https://yihui.netlify.com/*  https://yihui.name/:splat  301!
-https://yihui.rbind.io/*     https://yihui.name/:splat  301!
-https://yihui.org/*          https://yihui.name/:splat  301!
-https://www.yihui.org/*      https://yihui.name/:splat  301!
+https://yihui.netlify.com/*  https://yihui.org/:splat  301!
+https://yihui.rbind.io/*     https://yihui.org/:splat  301!
+https://yihui.name/*         https://yihui.org/:splat  301!
+https://www.yihui.name/*     https://yihui.org/:splat  301!
 
 https://r.yihui.name/*          https://r.yihui.org/:splat          301!
 https://animation.yihui.name/*  https://animation.yihui.org/:splat  301!

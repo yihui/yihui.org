@@ -133,7 +133,7 @@ menu:
 params:
   description: "Personal website of Yihui Xie; 谢益辉的个人网站"
   footer: "&copy; [Yihui Xie](/) 2005 - 2019"
-  disqusURL: "http://yihui.name"
+  disqusURL: "https://yihui.org"
   customJS:
     - "js/fix-toc.js"
     - "js/center-img.js"
