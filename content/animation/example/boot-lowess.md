@@ -20,11 +20,11 @@ ani.options(nmax = 100, interval = 0.02)
 boot.lowess(cars, pch = 20, xlab = "speed", ylab = "dist")
 ```
 
-<video controls loop autoplay><source src="https://assets.yihui.org/figures/animation/example/boot-lowess/demo-a.mp4?dl=1" /><p>plot of chunk demo-a</p></video>
+<video controls loop autoplay><source src="https://assets.yihui.org/figures/animation/example/boot-lowess/demo-a.mp4" /><p>plot of chunk demo-a</p></video>
 
 
 ```r
 boot.lowess(cars, f = 1/3, pch = 20)
 ```
 
-<video controls loop autoplay><source src="https://assets.yihui.org/figures/animation/example/boot-lowess/demo-b.mp4?dl=1" /><p>plot of chunk demo-b</p></video>
+<video controls loop autoplay><source src="https://assets.yihui.org/figures/animation/example/boot-lowess/demo-b.mp4" /><p>plot of chunk demo-b</p></video>

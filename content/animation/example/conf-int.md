@@ -34,7 +34,7 @@ ani.options(interval = 0.1, nmax = 100)
 conf.int(0.9, main = "Demonstration of Confidence Intervals")
 ```
 
-<video controls loop autoplay><source src="https://assets.yihui.org/figures/animation/example/conf-int/demo-a.mp4?dl=1" /><p>plot of chunk demo-a</p></video>
+<video controls loop autoplay><source src="https://assets.yihui.org/figures/animation/example/conf-int/demo-a.mp4" /><p>plot of chunk demo-a</p></video>
 
 
 This animation shows the concept of the confidence interval which depends on the observations: if the samples change, the interval changes too. At last we can see that the coverage rate will be approximate to the confidence level.

@@ -41,7 +41,7 @@ xx$par  # solution
 xx$persp(col = "lightblue", phi = 30)  # perspective plot
 ```
 
-<video controls loop autoplay><source src="https://assets.yihui.org/figures/animation/example/grad-desc/demo-a.mp4?dl=1" /><p>plot of chunk demo-a</p></video>
+<video controls loop autoplay><source src="https://assets.yihui.org/figures/animation/example/grad-desc/demo-a.mp4" /><p>plot of chunk demo-a</p></video>
 
 ```r
 ## define more complex functions; a little time-consuming
@@ -53,7 +53,7 @@ xx = grad.desc(f1, pi * c(-2, -2, 2, 2), c(-2 * pi, 2))
 xx$persp(col = "lightblue", theta = 30, phi = 30)
 ```
 
-<video controls loop autoplay><source src="https://assets.yihui.org/figures/animation/example/grad-desc/demo-b.mp4?dl=1" /><p>plot of chunk demo-b</p></video>
+<video controls loop autoplay><source src="https://assets.yihui.org/figures/animation/example/grad-desc/demo-b.mp4" /><p>plot of chunk demo-b</p></video>
 
 
 ```r
@@ -73,7 +73,7 @@ grad.desc(FUN = function(x1, x2) {
 ## number of iterations reached!
 ```
 
-<video controls loop autoplay><source src="https://assets.yihui.org/figures/animation/example/grad-desc/demo-c.mp4?dl=1" /><p>plot of chunk demo-c</p></video>
+<video controls loop autoplay><source src="https://assets.yihui.org/figures/animation/example/grad-desc/demo-c.mp4" /><p>plot of chunk demo-c</p></video>
 
 
 ```r
@@ -85,7 +85,7 @@ xx = grad.desc(f2, c(-2, -2, 2, 2), c(-1, 0.5), gamma = 0.1,
   tol = 1e-04)
 ```
 
-<video controls loop autoplay><source src="https://assets.yihui.org/figures/animation/example/grad-desc/demo-d.mp4?dl=1" /><p>plot of chunk demo-d</p></video>
+<video controls loop autoplay><source src="https://assets.yihui.org/figures/animation/example/grad-desc/demo-d.mp4" /><p>plot of chunk demo-d</p></video>
 
 
 ```r

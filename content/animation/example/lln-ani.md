@@ -26,7 +26,7 @@ ani.options(interval = 0.01, nmax = 150)
 lln.ani(pch = ".")
 ```
 
-<video controls loop autoplay><source src="https://assets.yihui.org/figures/animation/example/lln-ani/demo-a.mp4?dl=1" /><p>plot of chunk demo-a</p></video>
+<video controls loop autoplay><source src="https://assets.yihui.org/figures/animation/example/lln-ani/demo-a.mp4" /><p>plot of chunk demo-a</p></video>
 
 
 ```r
@@ -34,6 +34,6 @@ lln.ani(pch = ".")
 lln.ani(FUN = function(n, mu) rchisq(n, df = mu), mu = 5, cex = 0.6)
 ```
 
-<video controls loop autoplay><source src="https://assets.yihui.org/figures/animation/example/lln-ani/demo-b.mp4?dl=1" /><p>plot of chunk demo-b</p></video>
+<video controls loop autoplay><source src="https://assets.yihui.org/figures/animation/example/lln-ani/demo-b.mp4" /><p>plot of chunk demo-b</p></video>
 
 The sample mean approaches to the population mean as the sample size n grows
