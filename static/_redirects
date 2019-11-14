@@ -17,6 +17,23 @@ https://yihui.rbind.io/*     https://yihui.name/:splat  301!
 https://yihui.org/*          https://yihui.name/:splat  301!
 https://www.yihui.org/*      https://yihui.name/:splat  301!
 
+https://r.yihui.name/*          https://r.yihui.org/:splat          301!
+https://animation.yihui.name/*  https://animation.yihui.org/:splat  301!
+https://apps.yihui.name/*       https://apps.yihui.org/:splat       301!
+https://assets.yihui.name/*     https://assets.yihui.org/:splat     301!
+https://db.yihui.name/*         https://db.yihui.org/:splat         301!
+https://hexo.yihui.name/*       https://hexo.yihui.org/:splat       301!
+https://xmin.yihui.name/*       https://xmin.yihui.org/:splat       301!
+https://xmag.yihui.name/*       https://xmag.yihui.org/:splat       301!
+https://xran.yihui.name/*       https://xran.yihui.org/:splat       301!
+https://ivy.yihui.name/*        https://ivy.yihui.org/:splat        301!
+https://slides.yihui.name/*     https://slides.yihui.org/:splat     301!
+https://jekyll.yihui.name/*     https://jekyll.yihui.org/:splat     301!
+https://recharts.yihui.name/*   https://recharts.yihui.org/:splat   301!
+https://travis-bin.yihui.name/*            https://travis-bin.yihui.org/:splat        301!
+https://blogdown-static.yihui.name/*       https://blogdown-static.yihui.org/:splat   301!
+https://travis-blogdown.yihui.name/*       https://travis-blogdown.yihui.org/:splat   301!
+
 /cn/2018/10/pod/             /cn/2018/10/pot/
 /cn/2018/09/index-zero/      /cn/2018/09/inbox-zero/
 /cn/guestbook.php            /cn/about/
