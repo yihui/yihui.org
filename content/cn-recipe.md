@@ -4,6 +4,11 @@ date: '2017-12-28'
 slug: cn/recipe
 ---
 
+<style type="text/css">
+body { counter-reset: recipe; }
+h2::before { counter-increment: recipe; content: counter(recipe) ". "; }
+</style>
+
 收集一些简化版的菜谱在此，主要是为了方便自己看各种原料的用量及基本步骤，具体做法参见菜名上的链接，我并不严格按菜谱行事。按拼音排序。
 
 # B
