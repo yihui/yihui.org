@@ -2,7 +2,6 @@ baseurl: "https://yihui.org/"
 languageCode: "en-us"
 title: "Yihui Xie | 谢益辉"
 theme: "hugo-ivy"
-googleAnalytics: "UA-1988641-2"
 disqusShortname: "yihui"
 ignoreFiles: ["\\.Rmd$", "_files$", "_cache$"]
 hasCJKLanguage: true
