@@ -36,7 +36,21 @@ The implementation is clumsy. Don't read the source code. I may not improve it i
 
 ## Debugging
 
-If an error occurs when compiling a LaTeX to PDF, and the error message is not clear, you may set the option
+If an error occurs when compiling a LaTeX to PDF, and the error message is not clear, you may try two things. 
+First, [update all your R and LaTeX packages](/en/2017/05/when-in-doubt-upgrade/):
+
+```r
+update.packages(ask = FALSE, checkBuilt = TRUE)  # update R packages
+tinytex::tlmgr_update()  # update LaTeX packages
+```
+
+If you see an error message like "tlmgr: Remote repository is newer than local (2018 < 2019)" when updating LaTeX packages, it means your TinyTeX is too old now, and you need to reinstall it for a newer version:
+
+```r
+tinytex::reinstall_tinytex()
+```
+
+If updating packages does not solve the problem, set the option in R:
 
 ```r
 options(tinytex.verbose = TRUE)
