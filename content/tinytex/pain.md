@@ -135,3 +135,15 @@ Below are stories and experiences contributed by other users:
 > I've always had a problem knitting to pdf with windows.  I followed instruction for tinytex and it works great now!
 
 > --- [Dilsher Dhillon](https://twitter.com/TexanDhillon/status/1183831526485712897)
+
+<!-- -->
+
+> Learning to write a LaTeX manuscript  in R Markdown and was having problems loading new packages: tlmgr wasn't updating the packages. So, found the "tinytex" package that fixed everything.
+
+> --- [Akash](https://twitter.com/dynamic_choice/status/1203389695419224064)
+
+<!-- -->
+
+> Just had to reinstall texlive on my Mac and once again, @xieyihui's tinytex package saves the day with tinytex::reinstall_tinytex().
+
+> --- [Zhian N Kamvar](https://twitter.com/ZKamvar/status/1202525888031657984)
