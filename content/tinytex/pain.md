@@ -147,3 +147,9 @@ Below are stories and experiences contributed by other users:
 > Just had to reinstall texlive on my Mac and once again, @xieyihui's tinytex package saves the day with tinytex::reinstall_tinytex().
 
 > --- [Zhian N Kamvar](https://twitter.com/ZKamvar/status/1202525888031657984)
+
+<!-- -->
+
+> Having just for fun installed R on my new Raspberry pi 4, I thought to myself now it would be nice to have latex, but really, all of texlive, probably not, so this was exactly what was needed. It installed for me immediately and "just worked."
+
+> --- [Roger Koenker](/tinytex/#comment-4720783918)
