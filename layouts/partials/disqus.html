@@ -33,7 +33,7 @@
       sessionStorage.setItem('failure-note', true);
     };
     // show comments when the hash means to jump to a comment
-    if (location.hash.match(/^#comment/)) return l();
+    if (location.hash.match(/^#comment-[0-9]+$/)) return l();
     var c = function() {
       if (b) return;
       var rect = t.getBoundingClientRect();
