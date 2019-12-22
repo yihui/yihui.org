@@ -18,11 +18,12 @@
     var d = document, s = d.createElement('script');
     s.src = disqus_js; s.async = true;
     s.setAttribute('data-timestamp', +new Date());
+    var t = d.getElementById('disqus_thread');
     var b = false, l = function() {
       if (b) return;
       (d.head || d.body).appendChild(s); b = true;
+      t.scrollIntoView();
     }
-    var t = d.getElementById('disqus_thread');
     s.onerror = function(e) {
       if (sessionStorage.getItem('failure-note')) return;
       t.innerText = 'Sorry, but you cannot make comments because Disqus failed to load for some reason. It is known to be blocked in China. If you are sure it is not blocked in your region, please refresh the page. 中国大陆地区读者需要翻墙才能发表评论。';
