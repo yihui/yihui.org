@@ -153,3 +153,15 @@ Below are stories and experiences contributed by other users:
 > Having just for fun installed R on my new Raspberry pi 4, I thought to myself now it would be nice to have latex, but really, all of texlive, probably not, so this was exactly what was needed. It installed for me immediately and "just worked."
 
 > --- [Roger Koenker](/tinytex/#comment-4720783918)
+
+<!-- -->
+
+> I've always had problems knitting to pdf on Windows until I came across tinytex package.
+
+> --- [Dilsher Dhillon](https://twitter.com/dhillon_stats/status/1214204113359179779)
+
+<!-- -->
+
+> [...] uninstall MacTeX and install TinyTeX was the ticket! It FINALLY knit to pdf!!!!
+
+> --- [Tiffany Timbers](https://twitter.com/TiffanyTimbers/status/1214344978769403905)
