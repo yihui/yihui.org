@@ -19,10 +19,10 @@
     s.src = disqus_js; s.async = true;
     s.setAttribute('data-timestamp', +new Date());
     var t = d.getElementById('disqus_thread');
-    var b = false, l = function() {
+    var b = false, l = function(scroll) {
       if (b) return;
       (d.head || d.body).appendChild(s); b = true;
-      t.scrollIntoView();
+      if (scroll) t.scrollIntoView();
     }
     s.onerror = function(e) {
       if (sessionStorage.getItem('failure-note')) return;
@@ -33,7 +33,7 @@
       sessionStorage.setItem('failure-note', true);
     };
     // show comments when the hash means to jump to a comment
-    if (location.hash.match(/^#comment-[0-9]+$/)) return l();
+    if (location.hash.match(/^#comment-[0-9]+$/)) return l(true);
     var c = function() {
       if (b) return;
       var rect = t.getBoundingClientRect();
