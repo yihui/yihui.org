@@ -7,9 +7,15 @@ This list of FAQs explain the technical details of TinyTeX for those who are cur
 
 1. **Which version of TeX Live is installed?**
 
-    The (very) latest. Using the very latest version of a software package can be risky. You have been warned. On the other hand, however, let's not pretend we haven't run into problems using the "stable" versions of TeX Live.
-    
-    Latest or stable? Your call. If you are not comfortable with the latest version, TinyTeX is probably not a good choice. Note that you can install the current latest version, and choose not to upgrade in the future if the version happens to be "stable" enough for you, though.
+    The very latest. Using the very latest version of a software package can be risky. You have been warned. If you have to install an older version, you may consider using the service provided on [texlive.info](https://texlive.info). Specifically, you can find the possible versions by date at https://texlive.info/tlnet-archive/, and pass the URL of the `tlnet` directory to the `repository` argument of `install_tinytex()` if you install TinyTeX via the R package **tinytex**:
+
+    ```r
+    tinytex::install_tinytex(repository = 'https://texlive.info/tlnet-archive/2017/04/13/tlnet')
+    ```
+
+    If you install TinyTeX using the installation script, set the environment variable `CTAN_REPO` to the URL of the appropriate `tlnet` directory before running the installation script.
+
+    Note that you can install the current latest version, and choose not to upgrade in the future if the version happens to be stable enough for you. However, this means you will not be able to install or update LaTeX packages after the current version of TeX Live is frozen (which happens annually).
 
 1. **Do you provide prebuilt binaries of TinyTeX?**
 
