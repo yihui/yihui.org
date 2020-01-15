@@ -325,10 +325,10 @@ There are two hidden options which are not designed to be set by the users: `fig
 
 # Package Options
 
-The package options can be changed using the object [`opts_knit`](/knitr/objects/); for example,
+The package options can be changed using the object [`opts_knit`](/knitr/objects/) (_not to be confused with `opts_chunk`_). For example:
 
 ```r 
-opts_knit$set(progress = TRUE, verbose = TRUE)
+knitr::opts_knit$set(progress = TRUE, verbose = TRUE)
 ```
 
 See `?opts_knit` for the alternative approach to setting package options using the R base function `options()`.
