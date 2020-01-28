@@ -62,3 +62,5 @@ P.S. A list of issues solved simply by updating packages:
 - [DT hanging with shiny/flexdashboard](https://github.com/rstudio/DT/issues/718)
 - [Knit error in RStudio: pandoc conversion failed with error 23. Extension ascii_identifiers is not supported for markdown](https://stackoverflow.com/q/58999923/559676)
 - [Table links don't work across R Markdown documents](https://github.com/rstudio/bookdown/issues/853)
+- [knit pagedown html_resume to pdf with chrome_print produces error](https://stackoverflow.com/q/59845106/559676)
+- [Rmarkdown not knitting to pdf ==> Fatal error occurred, no output PDF file produced](https://stackoverflow.com/q/59845679/559676)
