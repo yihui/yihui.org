@@ -45,6 +45,10 @@ h2::before { counter-increment: recipe; content: counter(recipe) ". "; }
 
 # D
 
+## [大骨汤](https://www.xiachufang.com/recipe/22452/)
+
+大骨焯水后洗净渣渣沫沫，放高压锅里多加水，放葱姜烧开，小火能炖多久炖多久。要是汤不白，可以加少量大米浆蒙混过关。
+
 ## [大米发糕](https://www.xiachufang.com/recipe/101835401/)
 
 粘米粉 150 克，水 160 克，酵母 2 克，糖 40 克，拌匀等待发酵。蒸 15 分钟。
@@ -118,6 +122,10 @@ h2::before { counter-increment: recipe; content: counter(recipe) ". "; }
 ## [红糖发糕](https://www.xiachufang.com/recipe/101869060/)
 
 白糖 20 克，红糖 80 克，加温水 245 克，酵母 4 克，两只鸡蛋，搅匀；加面粉 320 克（低筋或普通）、3 克泡打粉，拌匀成面糊，发酵一小时（时间看情况，不要发出太大气泡）。撒/铺葡萄干或红枣（可选），蒸 30 分钟，焖 5 分钟拿出来。
+
+## 花卷
+
+发面，擀成长方形，上面可以根据喜好任意操作，包括：涂油、撒葱花、撒盐、涂芝麻酱、花生酱、[培根碎](https://www.xiachufang.com/recipe/103834421/)、老干妈，等等，任选一项或多项组合。然后可以卷起来切段，或者像叠被子一样两折后（三层）切段再包在一根筷子上对折、扭两圈。蒸或生煎皆可。
 
 ## [花生酥](https://www.xiachufang.com/recipe/100099334/)
 
