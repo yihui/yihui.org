@@ -5,6 +5,7 @@
 /cn/comments/feed/   https://yihui.disqus.com/latest.rss
 /cv/          /en/vitae/
 /xran/*       https://xran.yihui.org/:splat
+/tinytex/.tlmgr   /tinytex/
 /r/*/index.htm    https://r.yihui.org/:splat
 /r/*              https://r.yihui.org/:splat
 /gh/tinytex/*                https://github.com/yihui/tinytex/raw/master/:splat
