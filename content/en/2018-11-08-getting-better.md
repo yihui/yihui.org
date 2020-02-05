@@ -21,7 +21,7 @@ Anyway, here are some other recent things that have made me feel the world is be
 
 1. One of my life dreams has been (more or less) fulfilled: making it easier for students to write dissertations with R Markdown and **bookdown**. As I mentioned in [the announcement of the **bookdown** contest winners](https://community.rstudio.com/t/16394), I was excited to see [a network graph](https://github.com/ryanpeek/aggiedown/network/members) like this on Github:
 
-    ![The network graph of the thesisdown package](https://discourse-cdn-sjc1.com/business4/uploads/tidyverse/original/2X/f/fe99e9903e1c7ffc1c0b2c85518fc45fd8b13013.png)
+    ![The network graph of the thesisdown package](https://community.rstudio.com/uploads/default/original/2X/f/fe99e9903e1c7ffc1c0b2c85518fc45fd8b13013.png)
 
     At the same time, publishers seem to be more and more willing to [allow authors to host free versions of their books online](https://twitter.com/StatGarrett/status/1052642829745496064). As I said in an earlier post, I believe [we could tear down the paywall](/en/2018/08/bookdown-crc/). Just like any other revolutions in history, it takes time and requires patience.
 
