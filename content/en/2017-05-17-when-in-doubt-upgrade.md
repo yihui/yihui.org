@@ -64,3 +64,4 @@ P.S. A list of issues solved simply by updating packages:
 - [Table links don't work across R Markdown documents](https://github.com/rstudio/bookdown/issues/853)
 - [knit pagedown html_resume to pdf with chrome_print produces error](https://stackoverflow.com/q/59845106/559676)
 - [Rmarkdown not knitting to pdf ==> Fatal error occurred, no output PDF file produced](https://stackoverflow.com/q/59845679/559676)
+- [version 1.18 not knitting to PDF due to `! Undefined control sequence. l.942 \file_get:nnN {unicode-math-table.tex} {} \l__um_mathtable_tl`](https://github.com/rstudio/rmarkdown/issues/1733)
