@@ -5,7 +5,7 @@ disable_mathjax: true
 disable_highlight: true
 ---
 
-I'm a software engineer working at [RStudio, Inc](https://www.rstudio.com).
+I'm a software engineer working at [RStudio, PBC](https://www.rstudio.com).
 I earned my PhD from the Department of Statistics, Iowa State University. My
 [thesis](http://lib.dr.iastate.edu/etd/13518/) was _Dynamic
 [Graphics](http://cranvas.org) and [Reporting](/knitr/) for Statistics_, advised
