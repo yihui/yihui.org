@@ -103,6 +103,8 @@ Since late 2016, I started the [**blogdown**](https://github.com/rstudio/blogdow
 
 I spent the first half of 2018 on writing the book "[R Markdown: The Definitive Guide](https://bookdown.org/yihui/rmarkdown)" (published in July), and the last few months on the R package [**pagedown**](https://github.com/rstudio/pagedown).
 
+I was not very productive in 2019. I often felt drown in Github issues and Stack Overflow questions. There was too much maintainence work for me to do for my R packages. I planned to write the R Markdown Cookbook, but didn't finish it.
+
 ### Internship
 
 1. Summer 2012, [AT&T Labs Research](http://research.att.com), Florham, NJ (mentor: [Simon Urbanek](http://urbanek.info))
@@ -196,6 +198,9 @@ Projects participated:
 
 Most of my slides were generated from R Markdown (especially the ones in recent years). To download the R Markdown source documents, simply replace the extension `.html` with `.Rmd` in the address bar of your web browser.
 
+- Yihui Xie, 2020, _One R Markdown Document, Fourteen Demos_, a talk at rstudio::conf(2020), San Francisco, CA ([post](/en/2020/02/rstudio-conf-2020/))
+- Yihui Xie, 2020, _A Bag of R Markdown Tricks_, a talk at Genentech, San Francisco, CA ([slides](http://bit.ly/genen-down))
+- Yihui Xie, 2020, _R Markdown Recipes_, a session at the R Markdown workshop at rstudio::conf(2020), San Francisco, CA ([slides](http://bit.ly/down-recipes))
 - Yihui Xie, 2019, _15 Tips on Making Better Use of R Markdown_, an online seminar hosted by DahShu ([slides](https://bit.ly/dahshu-down); [video](https://www.youtube.com/watch?v=L5yTrtRdeCI))
 - Yihui Xie, 2019, _My failures and perplexities as a former PhD student at Iowa State and later a software engineer at RStudio_, a talk invited by STAT-ers at Iowa State University ([slides](https://bit.ly/isu-talk))
 - Yihui Xie, 2019, _The fun with CSS and JavaScript, joined by the simplicity of Markdown_, Statistical Graphics Group, Iowa State University ([slides](https://bit.ly/isu-pagedown))

@@ -123,6 +123,9 @@ Email：xie@yihui.org；主页：<https://yihui.org>；现居住于美国内布�
 
 以下多数幻灯片都是基于 R Markdown 文档输出的 HTML 网页格式（尤其是近年来的幻灯片）；若需要查看 R Markdown 源文档，只需要在浏览器地址栏中将 `.html` 扩展名替换为 `.Rmd` 即可下载相应的 R Markdown 文档。
 
+- 谢益辉，2020，_One R Markdown Document，Fourteen Demos_，RStudio 大会报告，旧金山（[详情](/en/2020/02/rstudio-conf-2020/)）
+- 谢益辉，2020，_A Bag of R Markdown Tricks_，Genentech 报告，旧金山（[幻灯片](http://bit.ly/genen-down)）
+- 谢益辉，2020，_R Markdown Recipes_，RStudio 大会会前培训课程，旧金山（[幻灯片](http://bit.ly/down-recipes)）
 - 谢益辉，2019，_15 Tips on Making Better Use of R Markdown_，大树在线报告（[幻灯片](https://bit.ly/dahshu-down)；[视频](https://www.youtube.com/watch?v=L5yTrtRdeCI)）
 - 谢益辉，2019，_My failures and perplexities as a former PhD student at Iowa State and later a software engineer at RStudio_，爱荷华州立大学 STAT-ers 邀请报告（[幻灯片](https://bit.ly/isu-talk)）
 - 谢益辉，2019，_The fun with CSS and JavaScript, joined by the simplicity of Markdown_，爱荷华州立大学统计图形小组报告（[幻灯片](https://bit.ly/isu-pagedown)）
