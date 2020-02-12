@@ -167,3 +167,9 @@ Below are stories and experiences contributed by other users:
 > [...] uninstall MacTeX and install TinyTeX was the ticket! It FINALLY knit to pdf!!!!
 
 > --- [Tiffany Timbers](https://twitter.com/TiffanyTimbers/status/1214344978769403905)
+
+<!-- -->
+
+> [...] Why install 3GB of languages you don't know when all you want are beautiful tables?
+
+> --- [Roman Link](https://twitter.com/RomanMLink/status/1227496566157524992)
