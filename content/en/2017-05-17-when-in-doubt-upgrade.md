@@ -66,3 +66,4 @@ P.S. A list of issues solved simply by updating packages:
 - [Rmarkdown not knitting to pdf ==> Fatal error occurred, no output PDF file produced](https://stackoverflow.com/q/59845679/559676)
 - [version 1.18 not knitting to PDF due to `! Undefined control sequence. l.942 \file_get:nnN {unicode-math-table.tex} {} \l__um_mathtable_tl`](https://github.com/rstudio/rmarkdown/issues/1733)
 - [The extension ascii_identifiers is not supported for markdown](https://github.com/yihui/knitr/issues/1814)
+- [Pagedown: Not printing an element when kniting](https://github.com/rstudio/pagedown/issues/167)
