@@ -101,6 +101,10 @@ h2::before { counter-increment: recipe; content: counter(recipe) ". "; }
 
 # F
 
+## [番茄鱼](https://www.xiachufang.com/recipe/103714085/)
+
+盐、淀粉、料酒、姜末腌鱼。西红柿加蒜炒出红汤，番茄酱、甜辣酱可选。加水煮开，放鱼。撒香菜和熟芝麻。
+
 ## [腐乳](https://www.xiachufang.com/recipe/102269681/)
 
 老豆腐切块，沥水半天，垫块笼屉布放盒子里，盖上盖子，不用密封。闻到臭了或长毛了拿出来沾白酒后放罐子里，撒盐、辣椒面，最后倒香油。
@@ -294,6 +298,10 @@ h2::before { counter-increment: recipe; content: counter(recipe) ". "; }
 ## [排骨焖饭](https://www.xiachufang.com/recipe/1065180/)
 
 排骨过水，加料酒、生抽、姜丝腌 20 分钟，小火煎。加葱姜蒜、（冰）糖、生抽、老抽。加香菇、胡萝卜、蚝油、盐炒。和米饭同煮。
+
+## [排骨一锅熟](https://www.xiachufang.com/recipe/103778534/)
+
+排骨焯水炒糖色，加葱姜、料酒、生抽老抽、大料。放开水里炖烂。擀面皮，涂油折叠，切段。同土豆块、茄子和扁豆下锅煮熟。视咸淡决定是否加盐。
 
 # Q
 
