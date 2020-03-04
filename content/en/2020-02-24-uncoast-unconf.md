@@ -21,6 +21,8 @@ I drove from Omaha to Des Moines for a little over two hours, and attended my fi
     ![The hotel in which I stayed during the unconfernce](https://user-images.githubusercontent.com/163582/75079989-496c8180-54d0-11ea-993e-fc57a37c2928.jpg)
 
     I love this feeling of living in the woods. There is no doubt that I enjoyed the "Iowa experience". During the icebreaker session before the unconfernce, Sam asked us if we loved the Midwest. Craig (Van Pay), a student at Iowa State, told me the criterion to check if someone truely loves the Midwest was whether he/she loves Ames. I absolutely do. Even Omaha is too big to me. I love small villages.
+    
+    [![Craig and me, chatting about Ames at the door](https://pbs.twimg.com/media/ESMGdH-WAAQby6s?format=jpg&name=large)](https://twitter.com/CKVanPay/status/1234839299696119809)
 
 - I gave a crash course on HTML/CSS/JS on Day 0. I didn't prepare the slides and just talked leisurely, since I was busy preparing the next three days' meals for my family in the morning before I left (and they ordered pizza instead when I was away...). I thought I taught the tutorial quite poorly, but later I found [Amelia's notes](https://uncoast-unconf.github.io/uu-2019-day-zero/04-html-css-js/Amelias-notes.html), and I was astonished by how well she recorded what I mumbled at the podium.[^2]
 
