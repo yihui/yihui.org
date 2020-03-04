@@ -4,7 +4,7 @@ date: '2020-02-24'
 slug: uncoast-unconf
 ---
 
-When Sam emailed me about this idea of "uncoast unconference" in November 2018, I replied her email within five minutes with two "Yes! And Yes!" I don't usually reply emails so quickly, but I had wished for a Midwest R conference for years.
+When Sam emailed me about this idea of "uncoast unconference" in November 2018, I replied her email within five minutes with "Yes! And Yes!" I don't usually reply emails so quickly, but I had wished for a Midwest R conference for years.
 
 Born in a poor family, I have always been a frugal person, even though I don't consider myself poor any more. On the other hand, I usually don't like traveling, either (especially by air, which is often time-consuming and costly). Sam explained the motivations of the uncoast unconference [in her blog post](https://sctyner.github.io/uncoast-unconf.html), and the travel cost is one of them.
 
