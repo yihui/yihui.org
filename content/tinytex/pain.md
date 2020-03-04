@@ -173,3 +173,15 @@ Below are stories and experiences contributed by other users:
 > [...] Why install 3GB of languages you don't know when all you want are beautiful tables?
 
 > --- [Roman Link](https://twitter.com/RomanMLink/status/1227496566157524992)
+
+<!-- -->
+
+> [...] Have you tried {tinytex}? It installs only what you need from LaTeX so you can knit to pdf! Changed my life!
+
+> --- [Kim Cressman](https://twitter.com/swmpkim/status/1234517924028784640)
+
+<!-- -->
+
+> [...] R Markdown + library(tinytex) basically unlock all of the power of LaTeX without any of the headaches.
+
+> --- [Aaron R. Williams](https://twitter.com/awunderground/status/1234665396654837761)
