@@ -11,8 +11,8 @@ The full documentation is on the repository homepage https://macos.rbind.io. In 
 
 ```r
 options(repos = c(
-  CRAN = 'https://cran.rstudio.com',
-  CRANextra = 'https://macos.rbind.io'
+  CRANextra = 'https://macos.rbind.io',
+  CRAN = 'https://cran.rstudio.com'
 ))
 ```
 
