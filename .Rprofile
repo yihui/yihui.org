@@ -1,7 +1,7 @@
 if (file.exists('~/.Rprofile')) sys.source('~/.Rprofile', envir = environment())
 
 options(
-  servr.port = 4321L, blogdown.method = 'custom', blogdown.author = NULL,
+  servr.port = 4321L, blogdown.method = 'custom', blogdown.author = '',
   digits = 4, formatR.indent = 2, blogdown.yaml.empty = FALSE, blogdown.rename_file = TRUE,
   blogdown.title_case = function(x) {
     # if the title is pure ASCII, use title case
