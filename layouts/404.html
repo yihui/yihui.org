@@ -1,6 +1,10 @@
 {{ partial "header.html" . }}
 
-<p>Page not found. Feel confused? Please go ahead and leave a message below to notify me. Thanks!</p>
+<p>The page at <code>
+<script>
+document.write(location.href);
+</script>
+</code> was not found. Feel confused? Please go ahead and leave a message below to notify me. It will be great if you could tell me the URL of the page and where/how you got this URL. Thanks!</p>
 
 <p><img src="https://slides.yihui.org/gif/elevator.gif" alt="404 not found" /></p>
 
