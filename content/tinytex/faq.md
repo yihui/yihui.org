@@ -75,7 +75,7 @@ This list of FAQs explain the technical details of TinyTeX for those who are cur
     chown -R root:staff ~/.TinyTeX
     chmod -R g+w ~/.TinyTeX
     chmod -R g+wx ~/.TinyTeX/bin
-```
+    ```
 
     If you want to move `~/.TinyTeX` to a different location, see FAQ 8, and remember to run `tlmgr path add` with `sudo` after you move the folder, to make sure symlinks under `/usr/local/bin` point to the the new paths correctly.
 
