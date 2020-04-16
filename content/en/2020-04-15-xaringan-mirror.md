@@ -17,9 +17,9 @@ The first time I saw this feature in the JS library remark.js (on which **xaring
 
 I admit I'm evil.
 
-Anyway, this reminded me of something in my childhood in the 90's. At that time, movies were rare in my village. Movies were typically played once or twice in the summer evenings every year. They were projected to a screen (which was pretty much a large piece of white cloth tied to two bamboo poles) in a large open place, so lots of people could watch together. Sometimes it was so crowded in the front of the screen that I could barely see the screen because I was buried in the crowd as a little child. One day I figured out a solution, which was to go to the back side of the screen.
+Anyway, this reminded me of something in my childhood in the 90's. At that time, films were rare in my village. Films were typically played once or twice in the summer evenings every year. They were projected to a screen (which was pretty much a large piece of white cloth tied to two bamboo poles) in a large open place, so [lots of people could watch together](https://www.sohu.com/a/220821759_720273). Sometimes it was so crowded in the front of the screen that I could barely see the screen because I was buried in the crowd as a little child. One day I figured out a solution, which was to go to the back side of the screen.
 
-I didn't need to read any characters on the screen, and usually there weren't many characters to read in the movies. It doesn't really matter when pictures are mirrored---it was equally awesome no matter if Bruce Lee was kicking to the left or right.
+I didn't need to read any characters on the screen, and usually there weren't many characters to read in the films. It doesn't really matter when pictures are mirrored---it was equally awesome no matter if Bruce Lee was kicking to the left or right.
 
 The really nice thing on the other side of the screen was that I could enjoy a huge dedicated theater. I have never had such luxury again later in my life.
 
