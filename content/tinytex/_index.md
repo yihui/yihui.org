@@ -67,7 +67,7 @@ rm -r "~/.TinyTeX"
 
 # macOS
 tlmgr path remove
-rm -r "~/Library/TinyTeX"
+rm -r ~/Library/TinyTeX
 
 # Windows
 tlmgr path remove
