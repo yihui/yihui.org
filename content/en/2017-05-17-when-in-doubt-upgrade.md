@@ -69,3 +69,4 @@ P.S. A list of issues solved simply by updating packages:
 - [Pagedown: Not printing an element when kniting](https://github.com/rstudio/pagedown/issues/167)
 - [include_graphics() does not work](https://github.com/yihui/tinytex/issues/183)
 - [The extension SearchPanes does not exist](https://stackoverflow.com/q/60607052/559676)
+- [rmarkdown removes ~/.TinyTex on errors with latex rendering](https://github.com/rstudio/rmarkdown/issues/1811)
