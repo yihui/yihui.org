@@ -50,7 +50,13 @@ For Linux users, TinyTeX will be installed to `$HOME/.TinyTeX` and symlinks of e
 wget -qO- "https://yihui.org/gh/tinytex/tools/install-unx.sh" | sh
 ```
 
-For macOS users, TinyTeX will be installed to `~/Library/TinyTeX`, and executables are symlinked to `/usr/local/bin`:
+For macOS users, if you do not have write permission to `/usr/local/bin`, you may want to run this for TeX Live executables to be symlinked to `/usr/local/bin` ([why?](https://github.com/yihui/tinytex/issues/188)):
+
+```sh
+sudo chown -R $(whoami) /usr/local/bin
+```
+
+TinyTeX is installed to `~/Library/TinyTeX` on macOS:
 
 ```sh
 curl -sL "https://yihui.org/gh/tinytex/tools/install-unx.sh" | sh
