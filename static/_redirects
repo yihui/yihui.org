@@ -14,6 +14,10 @@
 /recharts/*                  https://recharts.yihui.org/:splat
 /media/js/center-images.js   /js/center-img.js
 
+/tinytex/TinyTeX.zip     https://ci.appveyor.com/api/projects/yihui/tinytex/artifacts/TinyTeX.zip?job=image:%20Visual%20Studio%202019
+/tinytex/TinyTeX.tgz     https://ci.appveyor.com/api/projects/yihui/tinytex/artifacts/TinyTeX.tgz?job=image:%20macOS
+/tinytex/TinyTeX.tar.gz  https://ci.appveyor.com/api/projects/yihui/tinytex/artifacts/TinyTeX.tar.gz?job=image:%20Ubuntu
+
 https://yihui.netlify.com/*  https://yihui.org/:splat  301!
 https://yihui.rbind.io/*     https://yihui.org/:splat  301!
 https://yihui.name/*         https://yihui.org/:splat  301!
