@@ -2,7 +2,7 @@
 title: An Introduction to xfun
 subtitle: A Collection of Miscellaneous Functions
 author: "Yihui Xie"
-date: "2019-11-14"
+date: "2020-05-21"
 slug: xfun
 githubEditURL: https://github.com/yihui/xfun/edit/master/vignettes/xfun.Rmd
 output:
@@ -357,6 +357,69 @@ n2w(1e+15 - 1)
 ## [1] "nine hundred ninety-nine trillion, nine hundred ninety-nine billion, nine hundred ninety-nine million, nine hundred ninety-nine thousand, nine hundred ninety-nine"
 ```
 
+## Cache an R expression to an RDS file
+
+The function `cache_rds()` provides a simple caching mechanism: the first time an expression is passed to it, it saves the result to an RDS file; the next time it will read the RDS file and return the value instead of evaluating the expression again. If you want to invalidate the cache, you can use the argument `rerun = TRUE`.
+
+
+```r
+res = xfun::cache_rds({
+  # pretend the computing here is a time-consuming
+  Sys.sleep(2)
+  1:10
+})
+```
+
+When the function is used in a code chunk in a **knitr** document, the RDS cache file is saved to a path determined by the chunk label (the base filename) and the chunk option `cache.path` (the cache directory), so you do not have to provide the `file` and `dir` arguments of `cache_rds()`.
+
+This caching mechanism is much simpler than **knitr**'s caching. Cache invalidation is often tricky (see [this post](https://yihui.org/en/2018/06/cache-invalidation/)), so this function may be helpful if you want more transparency and control over when to invalidate the cache (for `cache_rds()`, the cache is invalidated when the cache file is deleted, which can be achieved via the argument `rerun = TRUE`).
+
+As documented on the help page of `cache_rds()`, there are two common cases in which you may want to invalidate the cache:
+
+1. The code in the expression has changed, e.g., if you changed the code from `cache_rds({x + 1})` to `cache_rds({x + 2})`, the cache will be automatically invalidated and the expression will be re-evaluated. However, please note that changes in white spaces or comments do not matter. Or generally speaking, as long as the change does not affect the parsed expression, the cache will not be invalidated, e.g., the two expressions below are essentially identical (hence if you have executed `cache_rds()` on the first expression, the second expression will be able to take advantage of the cache):
+
+    ```r
+    res = xfun::cache_rds({
+      Sys.sleep(3  );
+      x=1:10;  # semi-colons won't matter
+      x+1;
+    })
+    
+    res = xfun::cache_rds({
+      Sys.sleep(3)
+      x = 1:10  # a comment
+      x +
+        1  # feel free to make any changes in white spaces
+    })
+    ```
+
+1. The value of a global variable in the expression has changed, e.g., if `y` has changed, you are most likely to want to invalidate the cache and rerun the expression below:
+
+    ```r
+    res = xfun::cache_rds({
+      x = 1:10
+      x + y
+    })
+    ```
+
+    This is because `x` is a local variable in the expression, and `y` is an external global variable (not created locally like `x`). To invalidate the cache when `y` has changed, you may let `cache_rds()` know through the `hash` argument that `y` needs to be considered when deciding if the cache should be invalidated:
+
+    ```r
+    res = xfun::cache_rds({
+      x = 1:10
+      x + y
+    }, hash = list(y))
+    ```
+
+    If you do not want to provide this list of value(s) to the `hash` argument, you may try `hash = "auto"` instead, which asks `cache_rds()` to try to figure out all global variables automatically and use a list of their values as the value for the `hash` argument.
+
+    ```r
+    res = xfun::cache_rds({
+      x = 1:10
+      x + y
+    }, hash = "auto")
+    ```
+
 ## Check reverse dependencies of a package
 
 Running `R CMD check` on the reverse dependencies of **knitr** and **rmarkdown** is my least favorite thing in developing R packages, because the numbers of their reverse dependencies are huge. The function `rev_check()` reflects some of my past experience in this process. I think I have automated it as much as possible, and made it as easy as possible to discover possible new problems introduced by the current version of the package (compared to the CRAN version). Finally I can just sit back and let it run.
@@ -377,15 +440,15 @@ xfun::session_info(c("xfun", "rmarkdown", "knitr", "tinytex"), dependencies = FA
 ```
 
 ```
-## R version 3.6.1 (2019-07-05)
-## Platform: x86_64-apple-darwin15.6.0 (64-bit)
-## Running under: macOS Catalina 10.15.1
+## R version 4.0.0 (2020-04-24)
+## Platform: x86_64-apple-darwin17.0 (64-bit)
+## Running under: macOS Catalina 10.15.4
 ## 
 ## Locale: en_US.UTF-8 / en_US.UTF-8 / en_US.UTF-8 / C / en_US.UTF-8 / en_US.UTF-8
 ## 
 ## Package version:
-##   knitr_1.26     rmarkdown_1.17 tinytex_0.17   xfun_0.11     
+##   knitr_1.28.6    rmarkdown_2.1.2 tinytex_0.23    xfun_0.14.1    
 ## 
-## Pandoc version: 2.3.1
+## Pandoc version: 2.9.2.1
 ```
 
