@@ -31,7 +31,21 @@ This list of FAQs explain the technical details of TinyTeX for those who are cur
     
     If you create a tarball of TinyTeX on macOS or Ubuntu, it will be only 50MB. This can be very helpful if you install such a tarball on the cloud (e.g., for software testing purposes on Travis CI). The download and installation should take only a few seconds.
 
-    Of course, the size of TinyTeX will grow as you install more LaTeX packages.
+    Of course, the size of TinyTeX will grow as you install more LaTeX packages. You can certainly go to the extreme to install all packages (to avoid the possible need for figuring out which packages are missing). To do that, either run
+
+    ```r
+    tinytex::tlmgr_install('scheme-full')
+    ```
+
+    in R, or equivalently, the command line:
+
+    ```sh
+    tlmgr install scheme-full
+    # you may also need to run:
+    # tlmgr path add
+    ```
+
+    This may take quite a while since it needs to download and install several Gigabytes of packages.
 
 1. **What does the TinyTeX installation script do exactly? How do you reduce the size of the gigantic TeX Live?**
 
