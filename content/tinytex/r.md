@@ -36,35 +36,44 @@ The implementation is clumsy. Don't read the source code. I may not improve it i
 
 ## Debugging
 
-If an error occurs when compiling a LaTeX to PDF, and the error message is not clear, you may try two things. 
-First, [update all your R and LaTeX packages](/en/2017/05/when-in-doubt-upgrade/):
+If an error occurs when compiling a LaTeX to PDF, and the error message is not clear, please follow these steps one by one until the problem is gone.
 
-```r
-update.packages(ask = FALSE, checkBuilt = TRUE)  # update R packages
-tinytex::tlmgr_update()  # update LaTeX packages
-```
+1. [Update all your R and LaTeX packages](/en/2017/05/when-in-doubt-upgrade/):
 
-If you see an error message like "tlmgr: Remote repository is newer than local (2018 < 2019)" when updating LaTeX packages, it means your TinyTeX is too old now, and you need to reinstall it for a newer version:
+    ```r
+    update.packages(ask = FALSE, checkBuilt = TRUE)
+    tinytex::tlmgr_update()
+    ```
 
-```r
-tinytex::reinstall_tinytex()
-```
+1. If you see an error message like "tlmgr: Remote repository is newer than local (2018 < 2019)" when updating LaTeX packages, it means your TinyTeX is too old now, and you need to reinstall it for a newer version:
 
-If updating packages does not solve the problem, set the option in R:
+    ```r
+    tinytex::reinstall_tinytex()
+    ```
 
-```r
-options(tinytex.verbose = TRUE)
-```
+1. There is a small chance that TinyTeX is actually broken, and you may try:
 
-before you compile the document. If you are using R Markdown and the `Knit` button in RStudio, you should set the option in a code chunk in the R Markdown document.
+    ```r
+    tinytex:::install_prebuilt()
+    ```
 
-````md
-```{r, include=FALSE}
-options(tinytex.verbose = TRUE)
-```
-````
+1. If neither updating nor reinstalling solves the problem, set the option in R:
 
-You can, and perhaps should, remove this option after you finish debugging (to silence LaTeX, because you no longer need to read the full log).
+    ```r
+    options(tinytex.verbose = TRUE)
+    ```
+
+    before you compile the document. This may show additional messages to help you debug the problem. If you are using R Markdown and the `Knit` button in RStudio, you should set the option in a code chunk in the R Markdown document.
+    
+    ````md
+    ```{r, include=FALSE}
+    options(tinytex.verbose = TRUE)
+    ```
+    ````
+
+    You can, and perhaps should, remove this option after you finish debugging (to silence LaTeX, because you no longer need to read the full log).
+
+1.  If none of these steps work, please [follow the guide](/issue/) to report your problem. In case you are too busy, please remember the most important thing when reporting problems: _a minimal reproducible example_.
 
 ## Other LaTeX distributions
 
