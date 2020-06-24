@@ -4,6 +4,8 @@ date: '2017-05-19'
 slug: a-note-on-on-exit
 ---
 
+> **Update on 2020/06/23:** The issue mentioned in this post [has been fixed](https://github.com/wch/r-source/commit/5bd6e3ce) in R 4.0.2, thanks to Martin Maechler.
+
 I have used `on.exit()` for several years, but it was not until the other day that I realized a very weird thing about it: you'd better follow the default positions of its arguments `expr` and `add`, i.e., the first argument has to be `expr` and the second has to be `add`.
 
 ```r
