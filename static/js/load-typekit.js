@@ -1,6 +1,6 @@
 (function(d) {
   // https://www.kirupa.com/html5/detect_whether_font_is_installed.htm
-  var canvas = document.createElement("canvas");
+  var canvas = d.createElement("canvas");
   var context = canvas.getContext("2d");
   var text = "abcdefghijklmnopqrstuvwxyz0123456789";
   context.font = "72px monospace";
