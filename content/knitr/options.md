@@ -27,7 +27,7 @@ And `opts_chunk$set()` can change the default global options of a document
 (e.g., put this in a code chunk: `knitr::opts_chunk$set(comment=NA, fig.width=6,
 fig.height=6)`). A few special notes on the options:
 
-1. Chunk options must be written in one line and no line breaks are allowed
+1. Chunk options must be written on one line. No line breaks are allowed
   inside chunk options.
 1. Avoid spaces ` ` and periods `.` in chunk labels and directory names. If
   your output is a TeX document, these characters can cause problems (in
