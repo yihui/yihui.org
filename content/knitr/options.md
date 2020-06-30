@@ -15,7 +15,7 @@ assigned labels like `unnamed-chunk-i` where `i` is an incremental number.
 
 # Chunk Options
 
-Take Rnw files as an example, usually we write chunk options in the form
+Take Rmd files as an example. Usually we write chunk options in the form
 `tag=value` like this:
 
 ````r 
