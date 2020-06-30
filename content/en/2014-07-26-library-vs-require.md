@@ -4,9 +4,7 @@ date: '2014-07-26'
 slug: library-vs-require
 ---
 
-While I was sitting in a conference room at UseR! 2014, I started counting the number of times that `require()` was used in the presentations, and would rant about it after I counted to ten. With drums rolling, David won this little award (sorry, I did not really mean this to you).
-
-{{< tweet 484476578416455680 >}}
+While I was sitting in a conference room at UseR! 2014, I started counting the number of times that `require()` was used in the presentations, and would rant about it after I counted to ten. With drums rolling, [David won this little award](https://twitter.com/xieyihui/status/484476578416455680) (sorry, I did not really mean this to you).
 
 After I tweeted about it, some useRs seemed to be unhappy and asked me why. Both `require()` and `library()` can load (strictly speaking, _attach_) an R package. Why should not one use `require()`? The answer is pretty simple. If you take a look at the source code of `require` (use the source, Luke, as Martin Mächler mentioned in his invited talk), you will see that `require()` basically means "_try_ to load the package using `library()` and return a logical value indicating the success or failure". In other words, `library()` loads a package, and `require()` tries to load a package. So when you want to load a package, do you load a package or try to load a package? It should be crystal clear.
 
