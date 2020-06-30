@@ -42,7 +42,7 @@ fig.height=6)`). A few special notes on the options:
   - For example, options that take _character_ values must be quoted as you
     do in R (e.g., you should write `fig.path="abc"` instead of `fig.path=abc`
     and `out.width='\\textwidth'` instead of `out.width=\textwidth`).
-  - In theory, the chunk label should be quoted as well. But, for the sake of
+  - In theory, the chunk label should be quoted as well. However, for the sake of
     convenience, it will be automatically quoted if you did not
     (e.g., ```` ```{r, 2a}```` will become ```` ```{r, '2a'}````).
   - For logical options, `TRUE` and `FALSE` are OK, but `true`/`false` will
