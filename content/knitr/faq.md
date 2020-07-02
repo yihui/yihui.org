@@ -10,7 +10,7 @@ This FAQ is compiled from the [issues](https://github.com/yihui/knitr/issues) an
 
 1. What is the best place to ask questions when the package website is not helpful?
     - Depending what you want to ask, you may use these tools (I keep track of the first two more frequently):
-        - (Recommended) [StackOverflow](http://stackoverflow.com/questions/tagged/knitr): general questions (more experts and quicker answers there). Don't forget to use both the tags `r` and `knitr`.
+        - (Recommended) [Stack Overflow](http://stackoverflow.com/questions/tagged/knitr): general questions (more experts and quicker answers there). Don't forget to use both the tags `r` and `knitr`.
         - [Github issues](https://github.com/yihui/knitr/issues): bug reports and feature requests only.
         - [knitr mailing list](https://groups.google.com/group/knitr) or [R-help](http://www.r-project.org/mail.html) list: general questions and feedback via email in public.
         - Private emails [are not recommended](/en/2017/08/so-gh-email/) unless there are really private issues.

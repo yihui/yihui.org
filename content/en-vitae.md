@@ -162,7 +162,7 @@ I offer statistical consulting by email and I have been answering questions in t
 - data analysis and visualization
 - theoretical problems without measure theory
 - linear models, generalized linear models and nonlinear models
-- R packages that I maintain (other questions on R should be asked on StackOverflow)
+- R packages that I maintain (other questions on R should be asked on Stack Overflow)
 - statistics in other disciplines (e.g. biology) in which I can also learn something from you
 - real world data mining and machine learning
 - simulation

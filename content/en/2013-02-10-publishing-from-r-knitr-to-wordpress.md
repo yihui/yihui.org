@@ -4,7 +4,7 @@ date: '2013-02-10'
 slug: publishing-from-r-knitr-to-wordpress
 ---
 
-Tal Galili [asked](http://stackoverflow.com/q/14660969/559676) a question on StackOverflow on publishing blog posts to WordPress from R + **knitr**. William K. Morris has written [a solution](http://wkmor1.wordpress.com/2012/07/01/rchievement-of-the-day-3-bloggin-from-r-14/) long time ago, and I tweaked it a little bit and created a function `knit2wp()` in the [development version](https://github.com/yihui/knitr) of **knitr**.
+Tal Galili [asked](http://stackoverflow.com/q/14660969/559676) a question on Stack Overflow on publishing blog posts to WordPress from R + **knitr**. William K. Morris has written [a solution](http://wkmor1.wordpress.com/2012/07/01/rchievement-of-the-day-3-bloggin-from-r-14/) long time ago, and I tweaked it a little bit and created a function `knit2wp()` in the [development version](https://github.com/yihui/knitr) of **knitr**.
 
 See the [page for WordPress](/knitr/demo/wordpress/) in the **knitr** website for details. Below is a sample screenshot:
 

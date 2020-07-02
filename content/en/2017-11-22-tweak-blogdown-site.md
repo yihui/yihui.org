@@ -4,7 +4,7 @@ date: '2017-11-22'
 slug: tweak-blogdown-site
 ---
 
-Jose [asked a question](https://stackoverflow.com/q/47114299/559676) about customizing [the hugo-xmin theme](https://github.com/yihui/hugo-xmin) for his website on StackOverflow a few weeks ago. Then he waited for two weeks and [asked me on Github](https://github.com/rstudio/blogdown/issues/231) since he didn't get a response (thanks for waiting for two weeks!). I asked him to read the Section 2.5 of the **blogdown** book, in which I carefully documented the hugo-xmin theme. This is a section that took me the longest time to write, so I hope readers can spend a good amount of time on it, if (and only if) they really want to tweak their websites. This morning, Jose came back and said:
+Jose [asked a question](https://stackoverflow.com/q/47114299/559676) about customizing [the hugo-xmin theme](https://github.com/yihui/hugo-xmin) for his website on Stack Overflow a few weeks ago. Then he waited for two weeks and [asked me on Github](https://github.com/rstudio/blogdown/issues/231) since he didn't get a response (thanks for waiting for two weeks!). I asked him to read the Section 2.5 of the **blogdown** book, in which I carefully documented the hugo-xmin theme. This is a section that took me the longest time to write, so I hope readers can spend a good amount of time on it, if (and only if) they really want to tweak their websites. This morning, Jose came back and said:
 
 > Oh my!!! Read the manual twice and didn't notice the answer was there. Thanks Yihui!!
 

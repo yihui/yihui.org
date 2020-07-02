@@ -20,4 +20,4 @@ Charlie Munger seems to quote Benjamin Franklin frequently:
 
 I think the same idea can be applied to learning something new: you can appeal to interest (in the sense of advantages or benefits) instead of other things. The "interest" in my early days was the praises. I felt good about them. That is it.
 
-BTW, this also explains [my reward to Yihan](https://stackoverflow.com/a/47109231/559676) on StackOverflow. It is good to see beginners help beginners, and this behavior should be strongly encouraged.
+BTW, this also explains [my reward to Yihan](https://stackoverflow.com/a/47109231/559676) on Stack Overflow. It is good to see beginners help beginners, and this behavior should be strongly encouraged.

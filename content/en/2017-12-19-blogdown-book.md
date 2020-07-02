@@ -79,7 +79,7 @@ I also recommend you to learn a bit about DNS. You should consider registering y
 
 ## Make a plan! Yes, make, a, plan!
 
-I'm not a person with strong self-discipline, and writing a book is never as simple as "keep writing from the beginning to end". A lot of random things can happen, not to mention the distractions. When you write a book, other things like emails, Github issues, StackOverflow questions, and social media won't automatically stop and wait for you. They will continue to pour in, making it really, really hard for me to focus. That is how Internet works. I cannot hang a sign on my door saying "Please do not disturb".
+I'm not a person with strong self-discipline, and writing a book is never as simple as "keep writing from the beginning to end". A lot of random things can happen, not to mention the distractions. When you write a book, other things like emails, Github issues, Stack Overflow questions, and social media won't automatically stop and wait for you. They will continue to pour in, making it really, really hard for me to focus. That is how Internet works. I cannot hang a sign on my door saying "Please do not disturb".
 
 The most important lesson I learned was to make a plan, and stick firmly to it. I think everyone knows the importance and how to make a plans, but the difference between those who can get things done and those procrastinators is that the former group of people will actually execute the plan. A plan is the minimal tool needed to move you from E (Entrepreneurial) to P (Purposeful); you understand what this means if you have read the book "[The One Thing](https://www.the1thing.com)" (not really a great book in my eyes, but the point "from E to P" is critical).
 
