@@ -9,9 +9,9 @@ show_toc: true
 The **knitr** package has provided a lot of chunk options for customizing nearly
 all components of code chunks, such as the source code, text output, plots, and
 the language of the chunk, etc. It has also offered some options at the package
-level to customize the knitting process. This page documents all chunk options
-and package options available in **knitr**. The default values of these options
-are in parentheses in the list items.
+level to customize the knitting process. This page documents all chunk options 
+(that apply across all language engines) and package options available in **knitr**. 
+The default values of these options are in parentheses in the list items.
 
 ## Chunk Options
 
@@ -30,12 +30,12 @@ Chunk options are written in the form `tag=value` like this:
 ````
 
 A special chunk option is the chunk label (e.g., `my-chunk` in the above
-example). Only the chunk label does not need a `value` (i.e., you only provide
-the `tag`). If you prefer the form `tag=value`, you could also use the chunk
+example). Only the chunk label does not need a `tag` (i.e., you only provide
+the `value`). If you prefer the form `tag=value`, you could also use the chunk
 option `label` explicitly, e.g.,
 
 ```` md
-```{r, labe='my-chunk'}
+```{r, label='my-chunk'}
 ```
 ````
 
@@ -104,7 +104,7 @@ Below is a list of chunk options in **knitr** documented in the format
 
     -   `markup`: Mark up text output with the appropriate environments
         depending on the output format. For example, for R Markdown, if the text
-        output put is a character string `"[1] 1 2 3"`, the actual output that
+        output is a character string `"[1] 1 2 3"`, the actual output that
         **knitr** produces will be:
 
         ```` md
@@ -159,12 +159,12 @@ Below is a list of chunk options in **knitr** documented in the format
     beginning or end of a source code block in the output.
 
 -   `class.output`: (`NULL`; character) A vector of class names to be added to
-    the text output blocks. This option only works for R Markdown. For exmaple,
+    the text output blocks. This option only works for R Markdown. For example,
     with `class.output = c('foo', 'bar')`, the text output will be placed in
     `<pre class="foo bar"></pre>`.
 
 -   `class.message`/`class.warning`/`class.error`: (`NULL`; character) Similar
-    to `class.output`, but applied to source blocks, messages, warnings, and
+    to `class.output`, but applied to messages, warnings, and
     errors in R Markdown output.
 
 -   `attr.output`/`attr.message`/`attr.warning`/`attr.error`: (`NULL`;
@@ -220,7 +220,7 @@ Below is a list of chunk options in **knitr** documented in the format
 -   `highlight`: (`TRUE`; logical) Whether to syntax highlight the source code.
 
 -   `class.source`: (NULL; character) Class names for source code blocks in the
-    output document. Similar to the chunk option `class.output`.
+    output document. Similar to the `class.*` options for output such as `class.output`.
 
 -   `attr.source`: (`NULL`; character) Attributes for source code blocks.
     Similar to the `attr.*` options for output such as `attr.output`.
@@ -312,7 +312,7 @@ Below is a list of chunk options in **knitr** documented in the format
 ### Plots
 
 -   `fig.path`: (`'figure/'`; character) A prefix to be used to generate figure
-    file paths: `fig.path` and chunk labels are concatenated to generate the
+    file paths. `fig.path` and chunk labels are concatenated to generate the
     full paths. It may contain a directory like `figure/prefix-`, the directory
     will be created if it does not exist.
 
@@ -378,7 +378,7 @@ Below is a list of chunk options in **knitr** documented in the format
     `dev.args = list(bg = 'yellow', pointsize = 10)` for `dev = 'png'`. This
     option depends on the specific device (see the device documentation). When
     `dev` contains multiple devices, `dev.args` can be a list of lists of
-    arguments, and each list of arguments are passed to each individual device,
+    arguments, and each list of arguments is passed to each individual device,
     e.g.,
     `dev = c('pdf', 'tiff'), dev.args = list(pdf = list(colormodel = 'cmyk', useDingats = TRUE), tiff = list(compression = 'lzw'))`.
 
@@ -519,7 +519,7 @@ for examples).
         a shorthand of the corresponding hook function, e.g.,
         `animation.hook = 'gifski'` means `animation.hook = knitr::hook_gifski`.
 
--   `aniopts`: (`'controls,loop'`) Extra options for animations; see the
+-   `aniopts`: (`'controls,loop'`; character) Extra options for animations; see the
     documentation of the LaTeX
     [**animate** package](http://www.ctan.org/tex-archive/macros/latex/contrib/animate).
 
