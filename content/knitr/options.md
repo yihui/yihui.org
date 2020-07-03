@@ -30,8 +30,8 @@ Chunk options are written in the form `tag=value` like this:
 ````
 
 A special chunk option is the chunk label (e.g., `my-chunk` in the above
-example). Only the chunk label does not need a `tag` (i.e., you only provide
-the `value`). If you prefer the form `tag=value`, you could also use the chunk
+example). Only the chunk label does not need a `tag` (i.e., you only provide the
+`value`). If you prefer the form `tag=value`, you could also use the chunk
 option `label` explicitly, e.g.,
 
 ```` md
@@ -138,10 +138,10 @@ Below is a list of chunk options in **knitr** documented in the format
 -   `warning`: (`TRUE`; logical) Whether to preserve warnings (produced by
     `warning()`) in the output. If `FALSE`, all warnings will be printed in the
     console instead of the output document. It can also take numeric values as
-    indices to select a subset of warnings to include in the output. Note that these
-    values reference the indices of the warnings themselves (e.g., `3` means "the third 
-    warning thrown from this chunk") and not the indices of which expressions are allowed 
-    to emit warnings.
+    indices to select a subset of warnings to include in the output. Note that
+    these values reference the indices of the warnings themselves (e.g., `3`
+    means "the third warning thrown from this chunk") and not the indices of
+    which expressions are allowed to emit warnings.
 
 -   `error`: (`TRUE`; logical) Whether to preserve errors (from `stop()`). By
     default, the code evaluation will not stop even in case of errors! If we
@@ -162,14 +162,14 @@ Below is a list of chunk options in **knitr** documented in the format
     beginning or end of a source code block in the output.
 
 -   `class.output`: (`NULL`; character) A vector of class names to be added to
-    the text output blocks. This option only works for HTML output formats in 
-    R Markdown. For example, with `class.output = c('foo', 'bar')`, the text 
+    the text output blocks. This option only works for HTML output formats in R
+    Markdown. For example, with `class.output = c('foo', 'bar')`, the text
     output will be placed in `<pre class="foo bar"></pre>`.
 
 -   `class.message`/`class.warning`/`class.error`: (`NULL`; character) Similar
-    to `class.output`, but applied to messages, warnings, and
-    errors in R Markdown output. Please see the "Code Decoration" section for
-    `class.source` which applies similarly to source code blocks. 
+    to `class.output`, but applied to messages, warnings, and errors in R
+    Markdown output. Please see the "Code Decoration" section for `class.source`
+    which applies similarly to source code blocks.
 
 -   `attr.output`/`attr.message`/`attr.warning`/`attr.error`: (`NULL`;
     character) Similar to the `class.*` options above, but for specifying
@@ -224,7 +224,8 @@ Below is a list of chunk options in **knitr** documented in the format
 -   `highlight`: (`TRUE`; logical) Whether to syntax highlight the source code.
 
 -   `class.source`: (NULL; character) Class names for source code blocks in the
-    output document. Similar to the `class.*` options for output such as `class.output`.
+    output document. Similar to the `class.*` options for output such as
+    `class.output`.
 
 -   `attr.source`: (`NULL`; character) Attributes for source code blocks.
     Similar to the `attr.*` options for output such as `attr.output`.
@@ -485,7 +486,7 @@ Below is a list of chunk options in **knitr** documented in the format
 
 -   `fig.showtext`: (`NULL`; logical) If `TRUE`, call
     `showtext::showtext_begin()` before drawing plots. See the documentation of
-    the **[showtext](http://cran.rstudio.com/package=showtext)** package for
+    the [**showtext**](http://cran.rstudio.com/package=showtext) package for
     details.
 
 -   `external`: (`TRUE`; logical) Whether to externalize tikz graphics
@@ -516,16 +517,16 @@ for examples).
     to convert images to a WebM video.
 
     -   Another hook function is `knitr::hook_gifski` based on the
-        **[gifski](https://cran.r-project.org/package=gifski)** package to
+        [**gifski**](https://cran.r-project.org/package=gifski) package to
         create GIF animations.
 
     -   This option can also take a character string `'ffmpeg'` or `'gifski'` as
         a shorthand of the corresponding hook function, e.g.,
         `animation.hook = 'gifski'` means `animation.hook = knitr::hook_gifski`.
 
--   `aniopts`: (`'controls,loop'`; character) Extra options for animations; see the
-    documentation of the LaTeX
-    [**animate** package](http://www.ctan.org/tex-archive/macros/latex/contrib/animate).
+    -   `aniopts`: (`'controls,loop'`; character) Extra options for animations;
+        see the documentation of the LaTeX [**animate**
+        package](http://www.ctan.org/tex-archive/macros/latex/contrib/animate).
 
 -   `ffmpeg.bitrate` (`1M`; character) To be passed to the `-b:v` argument of
     FFmpeg to control the quality of WebM videos.
