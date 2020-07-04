@@ -10,8 +10,8 @@ The **knitr** package has provided a lot of chunk options for customizing nearly
 all components of code chunks, such as the source code, text output, plots, and
 the language of the chunk, etc. It has also offered some options at the package
 level to customize the knitting process. This page documents all chunk options 
-(that apply across all language engines) and package options available in **knitr**. 
-The default values of these options are in parentheses in the list items.
+and package options available in **knitr**. The default values of these options
+are in parentheses in the list items.
 
 ## Chunk Options
 
@@ -138,7 +138,10 @@ Below is a list of chunk options in **knitr** documented in the format
 -   `warning`: (`TRUE`; logical) Whether to preserve warnings (produced by
     `warning()`) in the output. If `FALSE`, all warnings will be printed in the
     console instead of the output document. It can also take numeric values as
-    indices to select a subset of warnings to include in the output.
+    indices to select a subset of warnings to include in the output. Note that numeric 
+    indexes for warning directly count the number of warnings (e.g. 3 means "the third 
+    warning thrown from this chunk") and not the indices of which expressions are allowed 
+    to emit warnings.
 
 -   `error`: (`TRUE`; logical) Whether to preserve errors (from `stop()`). By
     default, the code evaluation will not stop even in case of errors! If we
@@ -155,13 +158,13 @@ Below is a list of chunk options in **knitr** documented in the format
     document, but the code is still evaluated and plot files are generated if
     there are any plots in the chunk, so you can manually insert figures later.
 
--   `strip.white`: (`TRUE`; logical) Whether to remove the white lines in the
+-   `strip.white`: (`TRUE`; logical) Whether to remove blank lines in the
     beginning or end of a source code block in the output.
 
 -   `class.output`: (`NULL`; character) A vector of class names to be added to
-    the text output blocks. This option only works for R Markdown. For example,
-    with `class.output = c('foo', 'bar')`, the text output will be placed in
-    `<pre class="foo bar"></pre>`.
+    the text output blocks. This option only works for HTML output formats in 
+    R Markdown. For example, with `class.output = c('foo', 'bar')`, the text 
+    output will be placed in `<pre class="foo bar"></pre>`.
 
 -   `class.message`/`class.warning`/`class.error`: (`NULL`; character) Similar
     to `class.output`, but applied to messages, warnings, and
