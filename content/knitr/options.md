@@ -9,7 +9,7 @@ show_toc: true
 The **knitr** package has provided a lot of chunk options for customizing nearly
 all components of code chunks, such as the source code, text output, plots, and
 the language of the chunk, etc. It has also offered some options at the package
-level to customize the knitting process. This page documents all chunk options 
+level to customize the knitting process. This page documents all chunk options
 and package options available in **knitr**. The default values of these options
 are in parentheses in the list items.
 
@@ -139,7 +139,7 @@ Below is a list of chunk options in **knitr** documented in the format
     `warning()`) in the output. If `FALSE`, all warnings will be printed in the
     console instead of the output document. It can also take numeric values as
     indices to select a subset of warnings to include in the output. Note that these
-    values reference the indices of the warnings themselves (e.g. 3 means "the third 
+    values reference the indices of the warnings themselves (e.g., `3` means "the third 
     warning thrown from this chunk") and not the indices of which expressions are allowed 
     to emit warnings.
 
