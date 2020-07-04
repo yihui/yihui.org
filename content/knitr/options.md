@@ -138,8 +138,8 @@ Below is a list of chunk options in **knitr** documented in the format
 -   `warning`: (`TRUE`; logical) Whether to preserve warnings (produced by
     `warning()`) in the output. If `FALSE`, all warnings will be printed in the
     console instead of the output document. It can also take numeric values as
-    indices to select a subset of warnings to include in the output. Note that numeric 
-    indexes for warning directly count the number of warnings (e.g. 3 means "the third 
+    indices to select a subset of warnings to include in the output. Note that these
+    values reference the indices of the warnings themselves (e.g. 3 means "the third 
     warning thrown from this chunk") and not the indices of which expressions are allowed 
     to emit warnings.
 
