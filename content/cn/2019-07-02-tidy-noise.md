@@ -16,7 +16,11 @@ slug: tidy-noise
 
 > People are wonderful. I love individuals. I hate groups of people. I hate a group of people with a 'common purpose'. 'Cause pretty soon they have little hats. And armbands. And fight songs. And a list of people they're going to visit at 3am. So, I dislike and despise groups of people but I love individuals. Every person you look at; you can see the universe in their eyes, if you're really looking.
 
-可以说一定程度上它描述了当下敝厂领导的净土宗。我们有了 T 恤、六边形贴纸，还有粉丝[创作漫画](https://twitter.com/CMastication/status/1142832452890759169)。我们有着其他人无可比拟的巨大宣传优势。这样的后果是，就算我们推出的是垃圾产品，也一定有无数粉丝叫好。就像《皇帝的新装》一样，没有人敢站出来说皇帝没穿衣服，因为别人都在叫好，你就算觉得不太对也不敢出声，不然好像显得你很蠢。比如 [TC 兄说](https://d.cosx.org/d/420697/14)他至今没明白“非标准运行代码”（non-standard evaluation）是怎么回事，他敢承认，而我估计绝大多数迷迷瞪瞪的粉丝都不敢公开说。其实我也没太明白 rlang 造出来的一系列新概念在弄啥，但这可能是我也没认真看，因为那些玩意儿跟我没啥关系，我不做数据分析，也用不到。这就要说到净土的第二大问题了：发明的新概念太多（尤其是魔法），变动太快。他们自己可能也意识到了这个问题，但丝毫没有刹车的迹象。更可怕的是，狂热的粉丝看见净土开发者承认自己的失误之后，会把这些本来该批评、反省的行为解读为“[聆听社区的声音](https://twitter.com/MilesMcBain/status/1144608295061090306)”：你们过去发明了我们搞不懂的魔法，现在推出了一个更易懂的新魔法，谢主隆恩！
+可以说一定程度上它描述了当下敝厂领导的净土宗。我们有了 T 恤、六边形贴纸，还有粉丝[创作漫画](https://twitter.com/CMastication/status/1142832452890759169)。我们有着其他人无可比拟的巨大宣传优势。这样的后果是，就算我们推出的是垃圾产品，也一定有无数粉丝叫好。就像《皇帝的新装》一样，没有人敢站出来说皇帝没穿衣服，因为别人都在叫好，你就算觉得不太对也不敢出声，不然好像显得你很蠢。比如 [TC 兄说](https://d.cosx.org/d/420697/14)他至今没明白“非标准运行代码”（non-standard evaluation）是怎么回事，他敢承认，而我估计绝大多数迷迷瞪瞪的粉丝都不敢公开说。其实我也没太明白 rlang 造出来的一系列新概念在弄啥，但这可能是我也没认真看，因为那些玩意儿跟我没啥关系，我不做数据分析，也用不到。这就要说到净土的第二大问题了：发明的新概念太多（尤其是魔法），变动太快。他们自己可能也意识到了这个问题，但丝毫没有刹车的迹象。更可怕的是，狂热的粉丝看见净土开发者承认自己的失误之后，会把这些本来该批评、反省的行为解读为“[聆听社区的声音](https://twitter.com/MilesMcBain/status/1144608295061090306)”：你们过去发明了我们搞不懂的魔法，现在推出了一个更易懂的新魔法，谢主隆恩！这让我想起[一句讽刺](http://www.quotationspage.com/quote/27303.html)：
+
+> Advertising is the modern substitute for argument; its function is to make the worse appear the better.
+>
+> --- George Santayana
 
 在喧嚣中很难有人能静下来反省、批评与自我批评。喧嚣让修正错误这种行为变成了纯粹的恩惠。这不免[让我想起](/cn/2018/12/craving/)《文明及其缺憾》中那种廉价的缩被窝的幸福。推特上总是弥漫着“R 社区是世界上最友好的社区”这种情绪，但这正是我对 R 社区最大的担心。我们的确有很多友好的方面，尤其是对待新手、少数族裔、女性、同性恋等群体，但这个社区现在实在是太缺乏批评的声音，而净土宗的反对派的批评又不靠谱，更像是私人泄愤，而不是健康的批评。要我说，R 社区是过度友好到不太健康的社区。
 
