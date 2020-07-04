@@ -30,12 +30,12 @@ Chunk options are written in the form `tag=value` like this:
 ````
 
 A special chunk option is the chunk label (e.g., `my-chunk` in the above
-example). Only the chunk label does not need a `value` (i.e., you only provide
-the `tag`). If you prefer the form `tag=value`, you could also use the chunk
+example). Only the chunk label does not need a `tag` (i.e., you only provide
+the `value`). If you prefer the form `tag=value`, you could also use the chunk
 option `label` explicitly, e.g.,
 
 ```` md
-```{r, labe='my-chunk'}
+```{r, label='my-chunk'}
 ```
 ````
 
@@ -104,7 +104,7 @@ Below is a list of chunk options in **knitr** documented in the format
 
     -   `markup`: Mark up text output with the appropriate environments
         depending on the output format. For example, for R Markdown, if the text
-        output put is a character string `"[1] 1 2 3"`, the actual output that
+        output is a character string `"[1] 1 2 3"`, the actual output that
         **knitr** produces will be:
 
         ```` md
@@ -138,7 +138,10 @@ Below is a list of chunk options in **knitr** documented in the format
 -   `warning`: (`TRUE`; logical) Whether to preserve warnings (produced by
     `warning()`) in the output. If `FALSE`, all warnings will be printed in the
     console instead of the output document. It can also take numeric values as
-    indices to select a subset of warnings to include in the output.
+    indices to select a subset of warnings to include in the output. Note that these
+    values reference the indices of the warnings themselves (e.g., `3` means "the third 
+    warning thrown from this chunk") and not the indices of which expressions are allowed 
+    to emit warnings.
 
 -   `error`: (`TRUE`; logical) Whether to preserve errors (from `stop()`). By
     default, the code evaluation will not stop even in case of errors! If we
@@ -155,17 +158,18 @@ Below is a list of chunk options in **knitr** documented in the format
     document, but the code is still evaluated and plot files are generated if
     there are any plots in the chunk, so you can manually insert figures later.
 
--   `strip.white`: (`TRUE`; logical) Whether to remove the white lines in the
+-   `strip.white`: (`TRUE`; logical) Whether to remove blank lines in the
     beginning or end of a source code block in the output.
 
 -   `class.output`: (`NULL`; character) A vector of class names to be added to
-    the text output blocks. This option only works for R Markdown. For exmaple,
-    with `class.output = c('foo', 'bar')`, the text output will be placed in
-    `<pre class="foo bar"></pre>`.
+    the text output blocks. This option only works for HTML output formats in 
+    R Markdown. For example, with `class.output = c('foo', 'bar')`, the text 
+    output will be placed in `<pre class="foo bar"></pre>`.
 
 -   `class.message`/`class.warning`/`class.error`: (`NULL`; character) Similar
-    to `class.output`, but applied to source blocks, messages, warnings, and
-    errors in R Markdown output.
+    to `class.output`, but applied to messages, warnings, and
+    errors in R Markdown output. Please see the "Code Decoration" section for
+    `class.source` which applies similarly to source code blocks. 
 
 -   `attr.output`/`attr.message`/`attr.warning`/`attr.error`: (`NULL`;
     character) Similar to the `class.*` options above, but for specifying
@@ -220,7 +224,7 @@ Below is a list of chunk options in **knitr** documented in the format
 -   `highlight`: (`TRUE`; logical) Whether to syntax highlight the source code.
 
 -   `class.source`: (NULL; character) Class names for source code blocks in the
-    output document. Similar to the chunk option `class.output`.
+    output document. Similar to the `class.*` options for output such as `class.output`.
 
 -   `attr.source`: (`NULL`; character) Attributes for source code blocks.
     Similar to the `attr.*` options for output such as `attr.output`.
@@ -312,7 +316,7 @@ Below is a list of chunk options in **knitr** documented in the format
 ### Plots
 
 -   `fig.path`: (`'figure/'`; character) A prefix to be used to generate figure
-    file paths: `fig.path` and chunk labels are concatenated to generate the
+    file paths. `fig.path` and chunk labels are concatenated to generate the
     full paths. It may contain a directory like `figure/prefix-`, the directory
     will be created if it does not exist.
 
@@ -378,7 +382,7 @@ Below is a list of chunk options in **knitr** documented in the format
     `dev.args = list(bg = 'yellow', pointsize = 10)` for `dev = 'png'`. This
     option depends on the specific device (see the device documentation). When
     `dev` contains multiple devices, `dev.args` can be a list of lists of
-    arguments, and each list of arguments are passed to each individual device,
+    arguments, and each list of arguments is passed to each individual device,
     e.g.,
     `dev = c('pdf', 'tiff'), dev.args = list(pdf = list(colormodel = 'cmyk', useDingats = TRUE), tiff = list(compression = 'lzw'))`.
 
@@ -519,7 +523,7 @@ for examples).
         a shorthand of the corresponding hook function, e.g.,
         `animation.hook = 'gifski'` means `animation.hook = knitr::hook_gifski`.
 
--   `aniopts`: (`'controls,loop'`) Extra options for animations; see the
+-   `aniopts`: (`'controls,loop'`; character) Extra options for animations; see the
     documentation of the LaTeX
     [**animate** package](http://www.ctan.org/tex-archive/macros/latex/contrib/animate).
 
