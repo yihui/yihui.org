@@ -168,7 +168,8 @@ Below is a list of chunk options in **knitr** documented in the format
 
 -   `class.message`/`class.warning`/`class.error`: (`NULL`; character) Similar
     to `class.output`, but applied to messages, warnings, and
-    errors in R Markdown output.
+    errors in R Markdown output. Please see the "Code Decoration" section for
+    `class.source` which applies similarly to source code blocks. 
 
 -   `attr.output`/`attr.message`/`attr.warning`/`attr.error`: (`NULL`;
     character) Similar to the `class.*` options above, but for specifying
