@@ -18,9 +18,9 @@ are in parentheses in the list items.
 Chunk options are written in chunk headers. The syntax for chunk headers depends
 on the document format, e.g., for `.Rnw` documents (R + LaTeX), chunk headers
 are written with `<< >>=`, and for `.Rmd` documents, chunk headers are written
-with ```` ```{r} ````. The examples on this page are primarily for `.Rmd`
-documents (R Markdown), but in most cases, the chunk options can be used with
-any document formats.
+with ```` ```{r} ````. The examples below are primarily for `.Rmd` documents (R
+Markdown), but in most cases, the chunk options can be used with any document
+formats.
 
 Chunk options are written in the form `tag=value` like this:
 
@@ -71,7 +71,7 @@ Below are a few more tips about chunk options:
     values to be passed to function arguments.
 
     -   For example, options that take *character* values must be quoted, e.g.,
-        `results = 'asis'` and `out.width='\\textwidth'` (remember that a
+        `results = 'asis'` and `out.width = '\\textwidth'` (remember that a
         literal backslash needs double backslashes).
     -   In theory, the chunk label should be quoted, too. However, for the sake
         of convenience, it will be automatically quoted if you did not (e.g.,
@@ -194,8 +194,8 @@ Below is a list of chunk options in **knitr** documented in the format
 
 -   `tidy`: (`FALSE`) Whether to reformat the R code. Other possible values are:
 
-    -   `TRUE` (equivalent to `tidy = 'formatR'`): use `formatR::tidy_source()`
-        to reformat the code;
+    -   `TRUE` (equivalent to `tidy = 'formatR'`): call the function
+        `formatR::tidy_source()` to reformat the code;
     -   `'styler'`: use `styler::style_text()` to reformat the code;
     -   A custom function of the form `function(code, ...) {}` to return the
         reformatted code;
@@ -260,7 +260,7 @@ Below is a list of chunk options in **knitr** documented in the format
     consists of the chunk label with an MD5 digest of the R code and chunk
     options of the code chunk, which means any changes in the chunk will produce
     a different MD5 digest, hence invalidate the cache. See more information on
-    [this page](../demo/cache/).
+    [this page.](../demo/cache/)
 
 -   `cache.path`: (`'cache/'`; character) A prefix to be used to generate the
     paths of cache files. For R Markdown, the default value is based on the
@@ -412,8 +412,8 @@ Below is a list of chunk options in **knitr** documented in the format
     Depending on the output format, these two options can take special values.
     For example, for LaTeX output, they can be `.8\\linewidth`, `3in`, or `8cm`;
     for HTML, they may be `300px`. For `.Rnw` documents, the default value for
-    `out.width` will be changed to `\\maxwidth`, which is defined
-    [here](../demo/framed/). It can also be a percentage, e.g., `'40%'` will be
+    `out.width` will be changed to `\\maxwidth`, which is defined [on this
+    page.](../demo/framed/) It can also be a percentage, e.g., `'40%'` will be
     translated to `0.4\linewidth` when the output format is LaTeX.
 
 -   `out.extra`: (`NULL`; character) Extra options for figures. It can be an
@@ -423,7 +423,7 @@ Below is a list of chunk options in **knitr** documented in the format
     `out.extra = 'style="border:5px solid orange;"'`).
 
 -   `fig.retina`: (`1`; numeric) This option only applies to HTML output. For
-    [Retina displays](http://en.wikipedia.org/wiki/Retina_Display), setting this
+    [Retina displays,](http://en.wikipedia.org/wiki/Retina_Display) setting this
     option to a ratio (usually 2) will change the chunk option `dpi` to
     `dpi * fig.retina`, and `out.width` to `fig.width * dpi / fig.retina`
     internally. For example, the physical size of an image is doubled, and its
@@ -468,8 +468,8 @@ Below is a list of chunk options in **knitr** documented in the format
     [067-graphics-options.Rnw](https://github.com/yihui/knitr-examples/blob/master/067-graphics-options.Rnw)
     for an example.
 
--   `fig.ncol`: (`NULL`; integer) The number of columns of subfigures; see
-    [here](https://github.com/yihui/knitr/issues/1327#issuecomment-346242532)
+-   `fig.ncol`: (`NULL`; integer) The number of columns of subfigures; see [this
+    issue](https://github.com/yihui/knitr/issues/1327#issuecomment-346242532)
     for examples (note that `fig.ncol` and `fig.sep` only work for LaTeX
     output).
 
@@ -526,7 +526,7 @@ for examples).
 
     -   `aniopts`: (`'controls,loop'`; character) Extra options for animations;
         see the documentation of the LaTeX [**animate**
-        package](http://www.ctan.org/tex-archive/macros/latex/contrib/animate).
+        package.](http://ctan.org/pkg/animate)
 
 -   `ffmpeg.bitrate` (`1M`; character) To be passed to the `-b:v` argument of
     FFmpeg to control the quality of WebM videos.
@@ -596,7 +596,7 @@ for examples).
 ## Package Options
 
 The package options can be changed using the object
-[`knitr::opts_knit`](/knitr/objects/) (*not to be confused with
+[`knitr::opts_knit`](../objects/) (*not to be confused with
 `knitr::opts_chunk`*). For example:
 
 ``` r
