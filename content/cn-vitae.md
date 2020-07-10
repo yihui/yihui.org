@@ -123,6 +123,7 @@ Email：xie@yihui.org；主页：<https://yihui.org>；现居住于美国内布�
 
 以下多数幻灯片都是基于 R Markdown 文档输出的 HTML 网页格式（尤其是近年来的幻灯片）；若需要查看 R Markdown 源文档，只需要在浏览器地址栏中将 `.html` 扩展名替换为 `.Rmd` 即可下载相应的 R Markdown 文档。
 
+- 谢益辉，2020，R Markdown 技能杂谈，狗熊会远程报告（[幻灯片](https://slides.yihui.org/2020-bearclub-rmarkdown.html)）
 - 谢益辉，2020，_One R Markdown Document，Fourteen Demos_，RStudio 大会报告，旧金山（[详情](/en/2020/02/rstudio-conf-2020/)；[视频](https://rstudio.com/resources/rstudioconf-2020/one-r-markdown-document-fourteen-demos/)）
 - 谢益辉，2020，_A Bag of R Markdown Tricks_，Genentech 报告，旧金山（[幻灯片](http://bit.ly/genen-down)）
 - 谢益辉，2020，_R Markdown Recipes_，RStudio 大会会前培训课程，旧金山（[幻灯片](http://bit.ly/down-recipes)）
