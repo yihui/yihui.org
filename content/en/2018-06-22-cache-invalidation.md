@@ -112,4 +112,4 @@ if (file.exists('results.rds')) {
 }
 ```
 
-In this case, you clearly understand how your caching works. The one and only way to invalidate the cache is to delete `results.rds`, which is no longer hard at all.
+In this case, you clearly understand how your caching works. The one and only way to invalidate the cache is to delete `results.rds`, which is no longer hard at all. If you prefer this mechanism, [you may consider using `xfun::cache_rds()`](https://bookdown.org/yihui/rmarkdown-cookbook/cache-rds.html).
