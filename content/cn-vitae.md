@@ -165,7 +165,7 @@ Email：xie@yihui.org；主页：<https://yihui.org>；现居住于美国内布�
     - 02/17，内布拉斯加大学林肯分校统计系（[幻灯片](http://slides.yihui.org/2016-UNL-bookdown-Yihui-Xie.html)）
 - 谢益辉，2016，_Complex Application Layouts with Grid Style Sheets_，Shiny 开发者大会，斯坦福大学（[幻灯片](http://slides.yihui.org/2016-Shiny-GSS-Yihui-Xie.html)）
 - 谢益辉，2016，_Interfacing DataTables_，Shiny 开发者大会，斯坦福大学（[slides](http://slides.yihui.org/2016-Shiny-DT-Yihui-Xie.html)）
-- 谢益辉，2015，论 R 码农的自我修养，第 9 届中国 R 语言会议（南昌）远程报告（[幻灯片](http://slides.yihui.org/2015-Nanchang-R-Yihui-Xie.html)；[视频](http://www.xueqing.cc/course/33)）
+- 谢益辉，2015，论 R 码农的自我修养，第 9 届中国 R 语言会议（南昌）远程报告（[幻灯片](http://slides.yihui.org/2015-Nanchang-R-Yihui-Xie.html)）
 - 谢益辉，2015，_Reproducible Reports with Big Data_，Strata 会议，纽约（[幻灯片](http://conferences.oreilly.com/strata/big-data-conference-ny-2015/public/schedule/detail/44154)）
 - 谢益辉，2015，黄粱十载梦，中国人民大学统计学院远程报告（[幻灯片](http://slides.yihui.org/2015-RUC-alumni-sympo-Yihui-Xie.html)）
 - 谢益辉，2015，_Escape the Land of LaTeX/Word for Statistical Reporting: The Ecosystem of R Markdown_

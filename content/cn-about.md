@@ -112,7 +112,6 @@ slug: "cn/about"
 ## 统计
 
 - [统计之都](https://cosx.org)：国内的统计学网站先驱
-- [雪晴数据网](http://www.xueqing.cc)：数据科学在线学习社区
 
 ## 软件
 
