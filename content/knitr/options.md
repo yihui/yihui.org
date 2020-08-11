@@ -6,12 +6,12 @@ slug: options
 show_toc: true
 ---
 
-The **knitr** package has provided a lot of chunk options for customizing nearly
-all components of code chunks, such as the source code, text output, plots, and
-the language of the chunk, etc. It has also offered some options at the package
-level to customize the knitting process. This page documents all chunk options
-and package options available in **knitr**. The default values of these options
-are in parentheses in the list items.
+The **knitr** package provides a lot of chunk options for customizing nearly all
+components of code chunks, such as the source code, text output, plots, and the
+language of the chunk. It also offers some options at the package level to
+customize the knitting process. This page documents all chunk options and
+package options available in **knitr**. The default values of these options are
+in parentheses in the list items.
 
 ## Chunk Options
 
@@ -20,7 +20,7 @@ on the document format, e.g., for `.Rnw` documents (R + LaTeX), chunk headers
 are written with `<< >>=`, and for `.Rmd` documents, chunk headers are written
 with ```` ```{r} ````. The examples below are primarily for `.Rmd` documents (R
 Markdown), but in most cases, the chunk options can be used with any document
-formats.
+format.
 
 Chunk options are written in the form `tag=value` like this:
 
@@ -86,9 +86,9 @@ Below is a list of chunk options in **knitr** documented in the format
 
 -   `eval`: (`TRUE`; logical or numeric) Whether to evaluate the code chunk. It
     can also be a numeric vector to choose which R expression(s) to evaluate,
-    e.g., `eval = c(1, 3, 4)` will evaluate the first, third, and forth
+    e.g., `eval = c(1, 3, 4)` will evaluate the first, third, and fourth
     expressions, and `eval = -(4:5)` will evaluate all expressions except the
-    forth and fifth.
+    fourth and fifth.
 
 ### Text output
 
@@ -100,7 +100,7 @@ Below is a list of chunk options in **knitr** documented in the format
 
 -   `results`: (`'markup'`; character) Controls how to display the text results.
     Note that this option only applies to normal text output (not warnings,
-    messages, or errors). The possible values are:
+    messages, or errors). The possible values are as follows:
 
     -   `markup`: Mark up text output with the appropriate environments
         depending on the output format. For example, for R Markdown, if the text
@@ -168,8 +168,8 @@ Below is a list of chunk options in **knitr** documented in the format
 
 -   `class.message`/`class.warning`/`class.error`: (`NULL`; character) Similar
     to `class.output`, but applied to messages, warnings, and errors in R
-    Markdown output. Please see the "Code Decoration" section for `class.source`
-    which applies similarly to source code blocks.
+    Markdown output. Please see the "Code Decoration" section for
+    `class.source`, which applies similarly to source code blocks.
 
 -   `attr.output`/`attr.message`/`attr.warning`/`attr.error`: (`NULL`;
     character) Similar to the `class.*` options above, but for specifying
@@ -187,18 +187,19 @@ Below is a list of chunk options in **knitr** documented in the format
     `vignette('knit_print', package = 'knitr')`.
 
 -   `split`: (`FALSE`; logical) Whether to split the output into separate files
-    and include them into LaTeX by `\input{}` or HTML by `<iframe></iframe>`.
-    This option only works for `.Rnw`, `.Rtex`, and `.Rhtml` documents.
+    and include them in LaTeX by `\input{}` or HTML by `<iframe></iframe>`. This
+    option only works for `.Rnw`, `.Rtex`, and `.Rhtml` documents.
 
 ### Code decoration
 
--   `tidy`: (`FALSE`) Whether to reformat the R code. Other possible values are:
+-   `tidy`: (`FALSE`) Whether to reformat the R code. Other possible values are
+    as follows:
 
-    -   `TRUE` (equivalent to `tidy = 'formatR'`): call the function
-        `formatR::tidy_source()` to reformat the code;
-    -   `'styler'`: use `styler::style_text()` to reformat the code;
+    -   `TRUE` (equivalent to `tidy = 'formatR'`): Call the function
+        `formatR::tidy_source()` to reformat the code.
+    -   `'styler'`: Use `styler::style_text()` to reformat the code.
     -   A custom function of the form `function(code, ...) {}` to return the
-        reformatted code;
+        reformatted code.
     -   If reformatting fails, the original R code will not be changed (with a
         warning).
 
@@ -259,8 +260,8 @@ Below is a list of chunk options in **knitr** documented in the format
     not found (e.g., you may have removed them by hand). Note that the filename
     consists of the chunk label with an MD5 digest of the R code and chunk
     options of the code chunk, which means any changes in the chunk will produce
-    a different MD5 digest, hence invalidate the cache. See more information on
-    [this page.](../demo/cache/)
+    a different MD5 digest, and hence invalidate the cache. See more information
+    on [this page.](../demo/cache/)
 
 -   `cache.path`: (`'cache/'`; character) A prefix to be used to generate the
     paths of cache files. For R Markdown, the default value is based on the
@@ -303,10 +304,11 @@ Below is a list of chunk options in **knitr** documented in the format
     must be updated accordingly.
 
     -   If `dependson` is a numeric vector, it means the indices of chunk
-        labels, e.g. `dependson = 1` means this chunk depends on the first chunk
-        in the document, and `dependson = c(-1, -2)` means it depends on the
-        previous two chunks (negative indices stand for numbers of chunks before
-        this chunk, and note they are always relative to the current chunk).
+        labels, e.g., `dependson = 1` means this chunk depends on the first
+        chunk in the document, and `dependson = c(-1, -2)` means it depends on
+        the previous two chunks (negative indices stand for numbers of chunks
+        before this chunk, and note they are always relative to the current
+        chunk).
     -   Please note this option does not work when set as a global chunk option
         via `opts_chunk$set()`; it must be set as a local chunk option.
 
@@ -318,18 +320,18 @@ Below is a list of chunk options in **knitr** documented in the format
 
 -   `fig.path`: (`'figure/'`; character) A prefix to be used to generate figure
     file paths. `fig.path` and chunk labels are concatenated to generate the
-    full paths. It may contain a directory like `figure/prefix-`, the directory
+    full paths. It may contain a directory like `figure/prefix-`; the directory
     will be created if it does not exist.
 
 -   `fig.keep`: (`'high'`; character) How plots in chunks should be kept.
-    Possible values are:
+    Possible values are as follows:
 
     -   `high`: Only keep high-level plots (merge low-level changes into
-        high-level plots);
-    -   `none`: Discard all plots;
-    -   `all`: Keep all plots (low-level plot changes may produce new plots);
-    -   `first`: Only keep the first plot;
-    -   `last`: only keep the last plot;
+        high-level plots).
+    -   `none`: Discard all plots.
+    -   `all`: Keep all plots (low-level plot changes may produce new plots).
+    -   `first`: Only keep the first plot.
+    -   `last`: Only keep the last plot.
     -   If set to a numeric vector, the values are indices of (low-level) plots
         to keep.
 
@@ -355,13 +357,13 @@ Below is a list of chunk options in **knitr** documented in the format
     saved.
 
 -   `fig.show`: (`'asis'`; character) How to show/arrange the plots. Possible
-    values are:
+    values are as follows:
 
     -   `asis`: Show plots exactly in places where they were generated (as if
-        the code were run in an R terminal);
-    -   `hold`: Hold all plots and output them at the end of a code chunk;
-    -   `animate`: Concatenate all plots into an animation if there are mutiple
-        plots in a chunk;
+        the code were run in an R terminal).
+    -   `hold`: Hold all plots and output them at the end of a code chunk.
+    -   `animate`: Concatenate all plots into an animation if there are multiple
+        plots in a chunk.
     -   `hide`: Generate plot files but hide them in the output document.
 
 -   `dev`: (`'pdf'` for LaTeX output and `'png'` for HTML/Markdown; character)
@@ -391,7 +393,7 @@ Below is a list of chunk options in **knitr** documented in the format
     `NULL`, it will be derived from the graphical device; see
     `knitr:::auto_exts` for details.
 
--   `dpi`: (`72`; numeric) the DPI (dots per inch) for bitmap devices
+-   `dpi`: (`72`; numeric) The DPI (dots per inch) for bitmap devices
     (`dpi * inches = pixels`).
 
 -   `fig.width`, `fig.height`: (both are `7`; numeric) Width and height of the
@@ -432,10 +434,10 @@ Below is a list of chunk options in **knitr** documented in the format
 -   `resize.width`, `resize.height`: (`NULL`; character) The width and height to
     be used in `\resizebox{}{}` in LaTeX output. These two options are not
     needed unless you want to resize TikZ graphics, because there is no natural
-    way to do it. However, according to **tikzDevice** authors, TikZ graphics
-    are not meant to be resized, to maintain consistency in style with other
-    text in LaTeX. If only one of them is `NULL`, `!` will be used (read the
-    documentation of **graphicx** if you do not understand this).
+    way to do it. However, according to the **tikzDevice** authors, TikZ
+    graphics are not meant to be resized, to maintain consistency in style with
+    other text in LaTeX. If only one of them is `NULL`, `!` will be used (read
+    the documentation of **graphicx** if you do not understand this).
 
 -   `fig.align`: (`'default'`; character) Alignment of figures in the output
     document. Possible values are `default`, `left`, `right`, and `center`. The
@@ -481,7 +483,7 @@ Below is a list of chunk options in **knitr** documented in the format
 
 -   `fig.process`: (`NULL`; function) A function to post-process figure files.
     It should take the path of a figure file, and return the (new) path of the
-    figure to be inserted in the output. If the function contains `options`
+    figure to be inserted in the output. If the function contains the `options`
     argument, the list of chunk options will be passed to this argument.
 
 -   `fig.showtext`: (`NULL`; logical) If `TRUE`, call
@@ -498,9 +500,9 @@ Below is a list of chunk options in **knitr** documented in the format
     special LaTeX characters). See the documentation of the **tikzDevice**
     package.
 
-There are two hidden options that are not designed to be set by the users:
-`fig.cur` (the current figure number or index when there are multiple figures),
-and `fig.num` (the total number of figures in a chunk). The purpose of these two
+There are two hidden options that are not designed to be set by users: `fig.cur`
+(the current figure number or index when there are multiple figures), and
+`fig.num` (the total number of figures in a chunk). The purpose of these two
 options is to help **knitr** deal with the filenames of multiple figures as well
 as animations. In some cases, we can make use of them to write animations into
 the output using plot files that are saved manually (see the [graphics
@@ -606,7 +608,7 @@ knitr::opts_knit$set(progress = TRUE, verbose = TRUE)
 See `?knitr::opts_knit` for the alternative approach to setting package options
 using the R base function `options()`.
 
-Available package options are:
+Available package options are as follows:
 
 -   `aliases`: (`NULL`; character) A named character vector to specify the
     aliases of chunk options, e.g., `c(h = 'fig.height', w = 'fig.width')` tells
@@ -621,7 +623,7 @@ Available package options are:
 
 -   `concordance`: (`FALSE`; logical) Whether to write a concordance file to map
     the output line numbers to the input line numbers. This enables one to
-    navigate from the output to the input, and can be helpful especially when
+    navigate from the output to the input, and can be helpful especially when a
     TeX error occurs. This feature is only for `.Rnw` documents, and implemented
     in RStudio.
 
