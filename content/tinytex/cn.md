@@ -12,7 +12,7 @@ TinyTeX 假设你不惧怕或反感使用命令行，但其实需要的命令行
 TinyTeX 的安装和维护对 R 用户来说最简单，两行 R 代码加上两到六分钟的等待时间：
 
 ```r
-devtools::install_github('yihui/tinytex')
+remotes::install_github('yihui/tinytex')
 tinytex::install_tinytex()
 ```
 

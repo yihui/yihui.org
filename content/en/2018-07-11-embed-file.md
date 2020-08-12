@@ -14,7 +14,7 @@ Actually two years ago, Noam Ross sent [a pull request](https://github.com/rstud
 While deciding the issues/features for [the next release](https://github.com/rstudio/rmarkdown/projects/1) of **rmarkdown**, I revisited the **rmarkdown** PR and the **blogdown** issue. At one late night, I finally [typed out the two lines of code](https://github.com/yihui/xfun/commit/d8199f86dbf06) to implement it in the **xfun** package, so now you can embed an arbitrary file, or multiple files, or a whole directory, in the HTML output of an R Markdown document. For now you need the development version of **xfun**:
 
 ```r
-devtools::install_github('yihui/xfun')
+remotes::install_github('yihui/xfun')
 # embed_file() requires a few more packages
 xfun::pkg_load2(c('base64enc', 'htmltools', 'mime'))
 ```

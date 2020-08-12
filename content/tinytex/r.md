@@ -11,7 +11,7 @@ You can install the **tinytex** package from either CRAN or Github:
 install.packages('tinytex')
 
 # or the development version on Github
-devtools::install_github('yihui/tinytex')
+remotes::install_github('yihui/tinytex')
 ```
 
 The package mainly provides two sets of functions: functions to manage TinyTeX, and those that help compile LaTeX documents to PDF.

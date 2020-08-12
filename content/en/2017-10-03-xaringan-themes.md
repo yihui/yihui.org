@@ -21,7 +21,7 @@ P. S. If you really want to kill time, see if you can "reproduce" a Microsoft Po
 Before you work on a new theme, please install the development version of **xaringan**:
 
 ```r
-devtools::install_github('yihui/xaringan')
+remotes::install_github('yihui/xaringan')
 ```
 
 Unless you want to overhaul the default theme ([default.css](https://github.com/yihui/xaringan/blob/master/inst/rmarkdown/templates/xaringan/resources/default.css)), I recommend you to build your theme on top of it. That is, only change a (small) subset of `default.css`, and submit the new CSS rules in your pull request. For example, in `default.css`, the color of links is red(dish):

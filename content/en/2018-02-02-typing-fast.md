@@ -31,7 +31,7 @@ rstudio_type = function(x) {
 I polished up the code and included it in the **xfun** package as the function `xfun::rstudio_type()`. I added a few arguments to the function to make it feel more like a real human typing. In particular, the `mistake` argument controls how frequently you make mistakes (insert random strings that will be deleted shortly). Currently you have to install the development version of **xfun** to use this function:
 
 ```r
-devtools::install_github('yihui/xfun')
+remotes::install_github('yihui/xfun')
 ```
 
 ## How did it work when I gave the talk?
