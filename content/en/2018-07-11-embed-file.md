@@ -16,7 +16,7 @@ While deciding the issues/features for [the next release](https://github.com/rst
 ```r
 remotes::install_github('yihui/xfun')
 # embed_file() requires a few more packages
-xfun::pkg_load2(c('base64enc', 'htmltools', 'mime'))
+xfun::pkg_load2(c('htmltools', 'mime'))
 ```
 
 Basically, you can use one of the functions `xfun::embed_file()`, `xfun::embed_dir()`, or `xfun::embed_files()` in an R code chunk to embed one or multiple files or an entire directory in the HTML output, e.g.,
