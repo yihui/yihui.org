@@ -33,7 +33,7 @@ env:
     - PATH=$HOME/bin:$PATH
 
 before_install:
-  - wget -qO- https://yihui.org/gh/tinytex/tools/download-travis-linux.sh | sh
+  - wget -qO- https://yihui.org/tinytex/download-travis-linux.sh | sh
 ```
 
 At this moment, the setup for R on Travis adds symlinks of TeX Live executables to `/usr/local/bin`, which prevents us from installing other executables (such as `epstopdf`). That is why I disabled the default LaTeX installation `latex: false`.

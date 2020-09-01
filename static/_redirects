@@ -18,6 +18,8 @@
 /tinytex/TinyTeX.tgz     https://ci.appveyor.com/api/projects/yihui/tinytex/artifacts/TinyTeX.tgz?job=image:%20macOS
 /tinytex/TinyTeX.tar.gz  https://ci.appveyor.com/api/projects/yihui/tinytex/artifacts/TinyTeX.tar.gz?job=image:%20Ubuntu
 
+/tinytex/*   https://tinytex.yihui.org/:splat
+
 https://yihui.netlify.com/*  https://yihui.org/:splat  301!
 https://yihui.rbind.io/*     https://yihui.org/:splat  301!
 https://yihui.name/*         https://yihui.org/:splat  301!
