@@ -123,6 +123,7 @@ Email：xie@yihui.org；主页：<https://yihui.org>；现居住于美国内布�
 
 以下多数幻灯片都是基于 R Markdown 文档输出的 HTML 网页格式（尤其是近年来的幻灯片）；若需要查看 R Markdown 源文档，只需要在浏览器地址栏中将 `.html` 扩展名替换为 `.Rmd` 即可下载相应的 R Markdown 文档。
 
+- 谢益辉，2020，_Literate Programming, R Markdown, and Reproducible Research_，新冠数据科学会议讨论（[幻灯片](https://bit.ly/covid-down)）
 - 谢益辉，2020，R Markdown 技能杂谈，狗熊会远程报告（[幻灯片](https://slides.yihui.org/2020-bearclub-rmarkdown.html)）
 - 谢益辉，2020，_One R Markdown Document，Fourteen Demos_，RStudio 大会报告，旧金山（[详情](/en/2020/02/rstudio-conf-2020/)；[视频](https://rstudio.com/resources/rstudioconf-2020/one-r-markdown-document-fourteen-demos/)）
 - 谢益辉，2020，_A Bag of R Markdown Tricks_，Genentech 报告，旧金山（[幻灯片](http://bit.ly/genen-down)）
@@ -267,6 +268,7 @@ Email：xie@yihui.org；主页：<https://yihui.org>；现居住于美国内布�
 
 ### 书籍
 
+1. Yihui Xie, Christophe Dervieux, Emily Riederer (2020). [_R Markdown Cookbook_](https://bookdown.org/yihui/rmarkdown-cookbook). Chapman & Hall/[CRC](https://www.routledge.com/p/book/9780367563837). ISBN 9780367563837.
 1. Yihui Xie, J. J. Allaire, Garrett Grolemund (2018). [_R Markdown: The Definitive Guide_](https://bookdown.org/yihui/rmarkdown). Chapman & Hall/[CRC](https://www.crcpress.com/p/book/9781138359338). ISBN 9781138359338.
 1. Yihui Xie, Amber Thomas, Alison Presmanes Hill (2017). [_blogdown: Creating Websites with R Markdown_](https://bookdown.org/yihui/blogdown). [Chapman & Hall/CRC](https://www.crcpress.com/p/book/9780815363729). ISBN 9780815363729.
 1. Yihui Xie (2016). [_bookdown: Authoring Books and Technical Documents with R Markdown_](https://bookdown.org/yihui/bookdown). Chapman and Hall/CRC. ISBN 9781138700109.
