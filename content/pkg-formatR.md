@@ -2,7 +2,7 @@
 title: formatR
 subtitle: Format R code automatically
 author: Yihui Xie
-date: "2019-11-14"
+date: "2020-09-13"
 show_toc: true
 slug: formatr
 githubEditURL: https://github.com/yihui/formatR/edit/master/vignettes/formatR.Rmd
@@ -42,13 +42,13 @@ sessionInfo()
 ```
 
 ```
-## R version 3.6.1 (2019-07-05)
-## Platform: x86_64-apple-darwin15.6.0 (64-bit)
-## Running under: macOS Catalina 10.15.1
+## R version 4.0.2 (2020-06-22)
+## Platform: x86_64-apple-darwin17.0 (64-bit)
+## Running under: macOS Catalina 10.15.6
 ## 
 ## Matrix products: default
-## BLAS:   /Library/Frameworks/R.framework/Versions/3.6/Resources/lib/libRblas.0.dylib
-## LAPACK: /Library/Frameworks/R.framework/Versions/3.6/Resources/lib/libRlapack.dylib
+## BLAS:   /Library/Frameworks/R.framework/Versions/4.0/Resources/lib/libRblas.dylib
+## LAPACK: /Library/Frameworks/R.framework/Versions/4.0/Resources/lib/libRlapack.dylib
 ## 
 ## locale:
 ## [1] en_US.UTF-8/en_US.UTF-8/en_US.UTF-8/C/en_US.UTF-8/en_US.UTF-8
@@ -61,8 +61,8 @@ sessionInfo()
 ## [1] formatR_1.7
 ## 
 ## loaded via a namespace (and not attached):
-## [1] compiler_3.6.1 magrittr_1.5   tools_3.6.1    stringi_1.4.3 
-## [5] knitr_1.26     stringr_1.4.0  xfun_0.11      evaluate_0.14
+## [1] compiler_4.0.2 magrittr_1.5   tools_4.0.2    stringi_1.5.3 
+## [5] knitr_1.29.5   stringr_1.4.0  xfun_0.17.1    evaluate_0.14
 ```
 
 # 2. Reformat R code
@@ -300,7 +300,7 @@ x <- ## this is not a complete expression
 x <- 1; # you should not use ; here!
 ```
 
-It is not a good idea to interrupt R code with comments and sometimes it can be confusing -- comments should come after a complete R expression naturally; by the way, `tidy_source()` will move the comments after `{` to the next line, e.g.
+Code with comments after incomplete R expression cannot be reformatted by **formatR**. By the way, `tidy_source()` will move comments after `{` to the next line, e.g.,
 
 
 ```r
