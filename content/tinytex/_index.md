@@ -4,11 +4,11 @@ date: '2017-12-02'
 subtitle: A lightweight, cross-platform, portable, and easy-to-maintain LaTeX distribution based on TeX Live
 ---
 
-TinyTeX is a custom LaTeX distribution based on TeX Live that is small in size (150Mb on macOS/Linux and 220Mb on Windows) but functions well in most cases, especially for R users. If you run into the problem of missing LaTeX packages, it should be super clear to you what you need to do (in fact, R users won't need to do anything). _You only install LaTeX packages you actually need._
+TinyTeX is a custom LaTeX distribution based on TeX Live that is small in size (about 67Mb on macOS/Linux, and 97Mb on Windows when (g)zipped), but functions well in most cases, especially for R users. If you run into the problem of missing LaTeX packages, it should be super clear to you what you need to do (in fact, R users won't need to do anything). _You only install LaTeX packages you actually need._
 
 ![The TinyTeX logo; designed by Hao Zhu @haozhu233](/images/logo-tinytex.png)
 
-TinyTeX only provides an installation script that downloads and installs TeX Live over the network. It may take a couple of minutes, depending on your network speed. Currently TinyTeX works best for R users. Other users can use it, too---it is just that missing LaTeX packages won't be automatically installed. If this concerns you, you can certainly install all TeX Live packages (see [FAQ 3](/tinytex/faq/) for how).
+Currently TinyTeX works best for R users. Other users can use it, too---it is just that missing LaTeX packages won't be automatically installed, and you need to install them manually. Or you can go to the extreme to install all packages (see [FAQ 3](/tinytex/faq/) for how), but remember there are thousands of them.
 
 Installing or running TinyTeX _does not_ require admin privileges, which means you no longer need `sudo` or your IT. You can even run TinyTeX from a Flash drive.
 
@@ -44,10 +44,12 @@ TinyTeX assumes that you are not afraid of using the command line. If you are, p
 
 ### Installation
 
+The binary packages of TinyTeX are released on the monthly basis to the Github repo https://github.com/yihui/tinytex-releases.
+
 For Linux users, TinyTeX will be installed to `$HOME/.TinyTeX` and symlinks of executables (such as `pdflatex`) are created under `$HOME/bin`, which should be on the `PATH` environment variable:^[If not, you know how to add it to `PATH`, just because you are a Linux user!]
 
 ```sh
-wget -qO- "https://yihui.org/tinytex/install-unx.sh" | sh
+wget -qO- "https://yihui.org/tinytex/install-bin-unix.sh" | sh
 ```
 
 For macOS users, if you do not have write permission to `/usr/local/bin`, you may want to run this for TeX Live executables to be symlinked to `/usr/local/bin` ([why?](https://github.com/yihui/tinytex/issues/188)):
@@ -59,10 +61,10 @@ sudo chown -R $(whoami) /usr/local/bin
 TinyTeX is installed to `~/Library/TinyTeX` on macOS:
 
 ```sh
-curl -sL "https://yihui.org/tinytex/install-unx.sh" | sh
+curl -sL "https://yihui.org/tinytex/install-bin-unix.sh" | sh
 ```
 
-For Windows users, save the batch file [install-windows.bat](https://yihui.org/tinytex/install-windows.bat) (open this link and press `Ctrl + S`), and double click it.^[Your anti-virus software might warn against certain `*.dll` files, and you may want to trust these files. However, I'm not a Windows expert, so I'll leave the decision to yourself.] Please note that it requires PowerShell ([at least version 3.0](https://docs.microsoft.com/en-us/powershell/scripting/setup/starting-windows-powershell-on-earlier-versions-of-windows)). If your Windows version is too low and does not have PowerShell, follow [this article](https://docs.microsoft.com/en-us/powershell/scripting/setup/starting-windows-powershell-on-earlier-versions-of-windows) to install it. There might be an error dialog or two about `luatex.dll` during the installation ([like this](https://db.yihui.org/images/install-tl-win-lua.png)), but that does not seem to hurt, and I just clicked "OK". The installation directory is `%APPDATA%/TinyTeX`, where `APPDATA` is an environment variable that typically points to the path `C:\Users\Your Name\AppData\Roaming`.^[Click the Start menu, Run, type `cmd` to open a command window, and type `echo %APPDATA%` to figure out the actual path if you are curious.]
+For Windows users, save the batch file [install-bin-windows.bat](https://yihui.org/tinytex/install-bin-windows.bat) (open this link and press `Ctrl + S`), and double click it.^[Your anti-virus software might warn against certain `*.dll` files, and you may want to trust these files. However, I'm not a Windows expert, so I'll leave the decision to yourself.] Please note that it requires PowerShell ([at least version 3.0](https://docs.microsoft.com/en-us/powershell/scripting/setup/starting-windows-powershell-on-earlier-versions-of-windows)). If your Windows version is too low and does not have PowerShell, follow [this article](https://docs.microsoft.com/en-us/powershell/scripting/setup/starting-windows-powershell-on-earlier-versions-of-windows) to install it. The installation directory is `%APPDATA%/TinyTeX`, where `APPDATA` is an environment variable that typically points to the path `C:\Users\Your Name\AppData\Roaming`.^[Click the Start menu, Run, type `cmd` to open a command window, and type `echo %APPDATA%` to figure out the actual path if you are curious.]
 
 To uninstall TinyTeX, simply delete the folder from your file manager/browser, or use command line:
 
