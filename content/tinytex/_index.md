@@ -66,6 +66,8 @@ curl -sL "https://yihui.org/tinytex/install-bin-unix.sh" | sh
 
 For Windows users, save the batch file [install-bin-windows.bat](https://yihui.org/tinytex/install-bin-windows.bat) (open this link and press `Ctrl + S`), and double click it.^[Your anti-virus software might warn against certain `*.dll` files, and you may want to trust these files. However, I'm not a Windows expert, so I'll leave the decision to yourself.] Please note that it requires PowerShell ([at least version 3.0](https://docs.microsoft.com/en-us/powershell/scripting/setup/starting-windows-powershell-on-earlier-versions-of-windows)). If your Windows version is too low and does not have PowerShell, follow [this article](https://docs.microsoft.com/en-us/powershell/scripting/setup/starting-windows-powershell-on-earlier-versions-of-windows) to install it. The installation directory is `%APPDATA%/TinyTeX`, where `APPDATA` is an environment variable that typically points to the path `C:\Users\Your Name\AppData\Roaming`.^[Click the Start menu, Run, type `cmd` to open a command window, and type `echo %APPDATA%` to figure out the actual path if you are curious.]
 
+Alternatively, Windows users can use Chocolatey or Scoop to install TinyTeX. Please see the Github repo [tinytex-releases](https://github.com/yihui/tinytex-releases) for instructions.
+
 To uninstall TinyTeX, simply delete the folder from your file manager/browser, or use command line:
 
 ```sh
