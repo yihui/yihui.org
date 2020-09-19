@@ -23,6 +23,7 @@
 /tinytex/TinyTeX-1.zip     https://ci.appveyor.com/api/projects/yihui/tinytex/artifacts/TinyTeX-1.zip?job=image:%20Visual%20Studio%202019
 /tinytex/TinyTeX-1.tgz     https://ci.appveyor.com/api/projects/yihui/tinytex/artifacts/TinyTeX-1.tgz?job=image:%20macOS
 /tinytex/TinyTeX-1.tar.gz  https://ci.appveyor.com/api/projects/yihui/tinytex/artifacts/TinyTeX-1.tar.gz?job=image:%20Ubuntu
+/tinytex/installer-unix.tar.gz  https://ci.appveyor.com/api/projects/yihui/tinytex/artifacts/installer-unix.tar.gz?job=image:%20Ubuntu
 
 /tinytex/*   https://tinytex.yihui.org/:splat
 

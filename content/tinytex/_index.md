@@ -4,7 +4,7 @@ date: '2017-12-02'
 subtitle: A lightweight, cross-platform, portable, and easy-to-maintain LaTeX distribution based on TeX Live
 ---
 
-TinyTeX is a custom LaTeX distribution based on TeX Live that is small in size (about 67Mb on macOS/Linux, and 97Mb on Windows when (g)zipped), but functions well in most cases, especially for R users. If you run into the problem of missing LaTeX packages, it should be super clear to you what you need to do (in fact, R users won't need to do anything). _You only install LaTeX packages you actually need._
+TinyTeX is a custom LaTeX distribution based on TeX Live that is small in size (about 61Mb on macOS/Linux, and 94Mb on Windows when (g)zipped), but functions well in most cases, especially for R users. If you run into the problem of missing LaTeX packages, it should be super clear to you what you need to do (in fact, R users won't need to do anything). _You only install LaTeX packages you actually need._
 
 ![The TinyTeX logo; designed by Hao Zhu @haozhu233](/images/logo-tinytex.png)
 

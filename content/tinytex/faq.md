@@ -7,29 +7,19 @@ This list of FAQs explain the technical details of TinyTeX for those who are cur
 
 1. **Which version of TeX Live is installed?**
 
-    The very latest. Using the very latest version of a software package can be risky. You have been warned. If you have to install an older version, you may consider using the service provided on [texlive.info](https://texlive.info). Specifically, you can find the possible versions by date at https://texlive.info/tlnet-archive/, and pass the URL of the `tlnet` directory to the `repository` argument of `install_tinytex()` if you install TinyTeX via the R package **tinytex**:
-
-    ```r
-    tinytex::install_tinytex(repository = 'https://texlive.info/tlnet-archive/2017/04/13/tlnet')
-    ```
-
-    If you install TinyTeX using the installation script, set the environment variable `CTAN_REPO` to the URL of the appropriate `tlnet` directory before running the installation script.
+    By default, the latest working version on Windows, macOS, and Linux, and the latest version on other platforms (which may work or not). Here "working" means the version of TinyTeX has at least passed some basic tests by compiling a variety of R Markdown documents to PDF. If you have to install an older version, please read the next FAQ.
 
     Note that you can install the current latest version, and choose not to upgrade in the future if the version happens to be stable enough for you. However, this means you will not be able to install or update LaTeX packages after the current version of TeX Live is frozen (which happens annually).
 
 1. **Do you provide prebuilt binaries of TinyTeX?**
 
-    No. Technically it is easy, but I don't really understand the implications of [the TeX Live license](https://www.tug.org/texlive/LICENSE.TL). Specifically, the license says:
-    
-    > [...] TeX Live has neither a single copyright holder nor a single license covering its entire contents, since it is a collection of many independent packages.  Therefore, you may copy, modify, and/or redistribute software from TeX Live only if you comply with the requirements placed thereon by the owners of the respective packages.
-
-    That sounds complicated to me. I don't have time to examine the license and terms of all these packages. Installing over the network is fast enough after all.
+    Yes, we have started to provide prebuilt binary packages for TinyTeX since September 2020, which can be found in the Github repo [`yihui/tinytex-releases`](https://github.com/yihui/tinytex-releases). This was made possible after two TeX Live developers explained the TeX Live license to me, which sounded complicated to me previously and made me hesitate to redistribute TeX Live as a binary package. After I knew it was okay to do so, I built the binaries on AppVeyor and released them to Github Releases.
 
 1. **What is the size of TinyTeX?**
 
-    About 150MB on macOS and Ubuntu, and 220MB on Windows (when installed). You may think it is still too big, but please consider that the size of [BasicTeX](https://www.tug.org/mactex/morepackages.html) for macOS is about 215MB (when installed), and a [basic MiKTeX installer](https://miktex.org/download) for Windows is about 750MB (I didn't check how big it is when installed).
-    
-    If you create a tarball of TinyTeX on macOS or Ubuntu, it will be only 50MB. This can be very helpful if you install such a tarball on the cloud (e.g., for software testing purposes on Travis CI). The download and installation should take only a few seconds.
+    About 61MB on macOS and Linux (gzipped), and 94MB on Windows (zipped). You may think it is still too big, but please consider that the size of [the BasicTeX installer](https://www.tug.org/mactex/morepackages.html) for macOS is about 80MB, and a [basic MiKTeX installer](https://miktex.org/download) for Windows is about 235MB (I didn't check how big it is when installed).
+
+    TinyTeX's small size can be very helpful if you install it on the cloud (e.g., for software testing purposes on Travis CI). The download and installation should take only a few seconds.
 
     Of course, the size of TinyTeX will grow as you install more LaTeX packages. You can certainly go to the extreme to install all packages (to avoid the possible need for figuring out which packages are missing). To do that, either run
 
@@ -41,18 +31,17 @@ This list of FAQs explain the technical details of TinyTeX for those who are cur
 
     ```sh
     tlmgr install scheme-full
-    # you may also need to run:
-    # tlmgr path add
+    tlmgr path add
     ```
 
     This may take quite a while since it needs to download and install several Gigabytes of packages.
 
-1. **What does the TinyTeX installation script do exactly? How do you reduce the size of the gigantic TeX Live?**
+1. **How is TinyTeX created? How do you reduce the size of the gigantic TeX Live?**
 
-    The best way to understand TinyTeX is to [read the source](https://github.com/yihui/tinytex/) under the `tools` directory. Basically, TinyTeX automates the TeX Live installation using a profile file named [tinytex.profile](https://github.com/yihui/tinytex/blob/master/tools/tinytex.profile) (`./install-tl -profile=tinytex.profile`), which only specifies the `infraonly` scheme to be installed first. With this scheme, you cannot really compile any LaTeX documents, but it contains the most important utility `tlmgr` (TeX Live Manager). At this point, the total size is about 80MB.
-    
-    Then I use `tlmgr` to install a few more commonly used packages (defined in [pkgs-custom.txt](https://github.com/yihui/tinytex/blob/master/tools/pkgs-custom.txt)). With these packages, you should be able to compile most R Markdown documents to PDF. The total size becomes about 150MB.
-    
+    The best way to understand TinyTeX is to [read the source](https://github.com/yihui/tinytex/) under the `tools` directory. Basically, TinyTeX automates the TeX Live installation using a profile file named [tinytex.profile](https://github.com/yihui/tinytex/blob/master/tools/tinytex.profile) (`./install-tl -profile=tinytex.profile`), which only specifies the `infraonly` scheme to be installed first. With this scheme, you cannot really compile any LaTeX documents, but it contains the most important utility `tlmgr` (TeX Live Manager). At this point, the total size is less than 1MB (on *nix).
+
+    Then I use `tlmgr` to install a few more commonly used packages (defined in [pkgs-custom.txt](https://github.com/yihui/tinytex/blob/master/tools/pkgs-custom.txt)). With these packages, you should be able to compile most R Markdown documents to PDF. The total size becomes about 61MB.
+
     The fact that I only included a small number of LaTeX packages in TinyTeX is one of the two reasons why TinyTeX is relatively small in size. The other reason is that I excluded the source files and documentation of packages. In `tinytex.profile`, you can see these two options:
 
     ```config
@@ -60,9 +49,11 @@ This list of FAQs explain the technical details of TinyTeX for those who are cur
     option_src 0
     ```
 
-    Why do I exclude source files? Because they are unlikely to be useful to end-users. Would you really read the source code of a LaTeX package? Probably not, unless you are a developer or advanced LaTeX user. In fact, this also explains why I don't provide prebuilt binaries of TinyTeX: some open-source licenses may require that you provide source files when you redistribute the open-source software. TinyTeX does not redistribute TeX Live, but only provides a custom installation script.
+    Why do I exclude source files? Because they are unlikely to be useful to end-users. Would you really read the source code of a LaTeX package? Probably not, unless you are a developer or advanced LaTeX user.
 
     Why do I exclude the documentations? Tell me honestly: how many times have you found a solution via [StackExchange](https://tex.stackexchange.com), and how many times have you tried to read the package documentation? Even with the full documentation installed, you probably don't even know where to find these documentation files on your computer. The documentation files take a lot of disk space, and I believe they are rarely read by an average user, so they are not included. The address bar of your web browser is the most convenient documentation: type and search.
+
+    If you do want to obtain the source and documentation of packages, you may find them [on CTAN](https://ctan.org). Alternatively, you can reinstall the source and documentation of a package with the command `tlmgr installl --reinstall --with-doc --with-src <PKG>` (thanks to [the tip from Norbert Preining](https://github.com/yihui/tinytex/pull/236#issuecomment-690789472)).
 
     The other major factor that affects the size of TeX Live is the font packages, which are usually much bigger than other LaTeX packages, but we cannot really do much about it, unless you do not use `pdflatex`, in which case you may further reduce the size of this small TeX Live distribution.
 
