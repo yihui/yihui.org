@@ -54,6 +54,7 @@ See my [Google Scholar page](https://scholar.google.com/citations?user=lkjqsd4AA
 
 Books and book chapters:
 
+1. Yihui Xie, Christophe Dervieux, Emily Riederer (2020). [_R Markdown Cookbook_](https://bookdown.org/yihui/rmarkdown-cookbook). Chapman & Hall/[CRC](https://www.routledge.com/p/book/9780367563837). ISBN 9780367563837.
 1. Yihui Xie, J. J. Allaire, Garrett Grolemund (2018). [_R Markdown: The Definitive Guide_](https://bookdown.org/yihui/rmarkdown). Chapman & Hall/[CRC](https://www.crcpress.com/p/book/9781138359338). ISBN 9781138359338.
 1. Yihui Xie, Amber Thomas, Alison Presmanes Hill (2017). [_blogdown: Creating Websites with R Markdown_](https://bookdown.org/yihui/blogdown). Chapman & Hall/[CRC](https://www.crcpress.com/p/book/9780815363729). ISBN 9780815363729.
 1. Yihui Xie (2016). [_bookdown: Authoring Books and Technical Documents with R Markdown_](https://bookdown.org/yihui/bookdown). Chapman and Hall/[CRC](https://www.crcpress.com/product/isbn/9781138700109). ISBN 9781138700109
@@ -103,7 +104,7 @@ Since late 2016, I started the [**blogdown**](https://github.com/rstudio/blogdow
 
 I spent the first half of 2018 on writing the book "[R Markdown: The Definitive Guide](https://bookdown.org/yihui/rmarkdown)" (published in July), and the last few months on the R package [**pagedown**](https://github.com/rstudio/pagedown).
 
-I was not very productive in 2019. I often felt drown in Github issues and Stack Overflow questions. There was too much maintainence work for me to do for my R packages. I planned to write the R Markdown Cookbook, but didn't finish it.
+I was not very productive in 2019. I often felt drown in Github issues and Stack Overflow questions. There was too much maintainence work for me to do for my R packages. I planned to write the [R Markdown Cookbook](https://bookdown.org/yihui/rmarkdown-cookbook), but didn't finish it until the summer of 2020.
 
 ### Internship
 
@@ -198,6 +199,7 @@ Projects participated:
 
 Most of my slides were generated from R Markdown (especially the ones in recent years). To download the R Markdown source documents, simply replace the extension `.html` with `.Rmd` in the address bar of your web browser.
 
+- Yihui Xie, 2020, _Literate Programming, R Markdown, and Reproducible Research_, Panel discussion at the Data Science Conference on COVID-19 ([slides](https://bit.ly/covid-down))
 - Yihui Xie, 2020, _Miscellaneous tricks in R Markdown_, a remote talk to the Bear Club in Chinese ([slides](https://slides.yihui.org/2020-bearclub-rmarkdown.html))
 - Yihui Xie, 2020, _One R Markdown Document, Fourteen Demos_, a talk at rstudio::conf(2020), San Francisco, CA ([post](/en/2020/02/rstudio-conf-2020/); [video](https://rstudio.com/resources/rstudioconf-2020/one-r-markdown-document-fourteen-demos/))
 - Yihui Xie, 2020, _A Bag of R Markdown Tricks_, a talk at Genentech, San Francisco, CA ([slides](http://bit.ly/genen-down))

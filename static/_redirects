@@ -17,6 +17,14 @@
 /tinytex/TinyTeX.zip     https://ci.appveyor.com/api/projects/yihui/tinytex/artifacts/TinyTeX.zip?job=image:%20Visual%20Studio%202019
 /tinytex/TinyTeX.tgz     https://ci.appveyor.com/api/projects/yihui/tinytex/artifacts/TinyTeX.tgz?job=image:%20macOS
 /tinytex/TinyTeX.tar.gz  https://ci.appveyor.com/api/projects/yihui/tinytex/artifacts/TinyTeX.tar.gz?job=image:%20Ubuntu
+/tinytex/TinyTeX-0.zip     https://ci.appveyor.com/api/projects/yihui/tinytex/artifacts/TinyTeX-0.zip?job=image:%20Visual%20Studio%202019
+/tinytex/TinyTeX-0.tgz     https://ci.appveyor.com/api/projects/yihui/tinytex/artifacts/TinyTeX-0.tgz?job=image:%20macOS
+/tinytex/TinyTeX-0.tar.gz  https://ci.appveyor.com/api/projects/yihui/tinytex/artifacts/TinyTeX-0.tar.gz?job=image:%20Ubuntu
+/tinytex/TinyTeX-1.zip     https://ci.appveyor.com/api/projects/yihui/tinytex/artifacts/TinyTeX-1.zip?job=image:%20Visual%20Studio%202019
+/tinytex/TinyTeX-1.tgz     https://ci.appveyor.com/api/projects/yihui/tinytex/artifacts/TinyTeX-1.tgz?job=image:%20macOS
+/tinytex/TinyTeX-1.tar.gz  https://ci.appveyor.com/api/projects/yihui/tinytex/artifacts/TinyTeX-1.tar.gz?job=image:%20Ubuntu
+
+/tinytex/*   https://tinytex.yihui.org/:splat
 
 https://yihui.netlify.com/*  https://yihui.org/:splat  301!
 https://yihui.rbind.io/*     https://yihui.org/:splat  301!

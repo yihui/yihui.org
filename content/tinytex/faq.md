@@ -73,7 +73,7 @@ This list of FAQs explain the technical details of TinyTeX for those who are cur
     First, add two options `--admin --no-path` to the installation script:
 
     ```sh
-    wget -qO- "https://yihui.org/gh/tinytex/tools/install-unx.sh" \
+    wget -qO- "https://yihui.org/tinytex/install-unx.sh" \
       | sh -s - --admin --no-path
     ```
     
