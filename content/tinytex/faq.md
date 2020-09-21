@@ -17,7 +17,7 @@ This list of FAQs explain the technical details of TinyTeX for those who are cur
 
 1. **What is the size of TinyTeX?**
 
-    About 61MB on macOS and Linux (gzipped), and 94MB on Windows (zipped). You may think it is still too big, but please consider that the size of [the BasicTeX installer](https://www.tug.org/mactex/morepackages.html) for macOS is about 80MB, and a [basic MiKTeX installer](https://miktex.org/download) for Windows is about 235MB (I didn't check how big it is when installed).
+    About 61MB on macOS and Linux (gzipped), and 94MB on Windows (zipped). You may think it is still too big, but please consider that the size of [the BasicTeX installer](https://www.tug.org/mactex/morepackages.html) for macOS is about 80MB, and a [basic MiKTeX installer](https://miktex.org/download) for Windows is about 235MB.
 
     TinyTeX's small size can be very helpful if you install it on the cloud (e.g., for software testing purposes on Travis CI). The download and installation should take only a few seconds.
 
@@ -111,7 +111,7 @@ This list of FAQs explain the technical details of TinyTeX for those who are cur
     
     However, the user mode of TeX Live can actually be quite complicated, and unfortunately it is not something that I can help with. A few known caveats:
     
-    - The worst thing is that users cannot install all packages. For TeX Live, some packages are _relocatable_, and some are not. For example, packages containing executables are not relocatable (e.g., the **metafont** package contains the executable `mf`). If users have to use these packages, only the system admin can help. The good news is that the number of such packages is relatively small, so a conservative strategy is to let the sysadmin just pre-install all of them.
+    - The worst thing is that users cannot install all packages. For TeX Live, some packages are _relocatable_, and some are not. For example, packages containing executables are not relocatable (e.g., the **metafont** package contains the executable `mf`). If users have to use these packages, only the system admin can help. The good news is that the number of such packages is relatively small, so a conservative strategy is to let the sysadmin just pre-install all of them. The R function `tinytex:::tl_unrelocatable()` returns the names of all packages that are not relocatable, which is done through the call `tlmgr info --list --data name,relocatable`.
     
     - Some packages may require running [`updmap`](https://www.tug.org/texlive/doc/updmap.html) after installation (e.g., font packages for `pdflatex`). Good news is that users should be able to run `updmap-user`, and bad news is that whenever the system admin runs `updmap-sys`, users may have to run `updmap-user` again (if I understand the documentation correctly). For users, the conservative stragety is to run `updmap-user` again when they run into font problems that didn't exist previously (R users can run `system2('updmap-user')`).
 
