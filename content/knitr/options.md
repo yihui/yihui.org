@@ -451,6 +451,8 @@ Below is a list of chunk options in **knitr** documented in the format
 
 -   `fig.cap`: (`NULL`; character) A figure caption.
 
+-   `fig.alt`: (`NULL`; character) A figure alternative text to be used for HTML alt attribute instead of the default one provided by `fig.cap`.
+
 -   `fig.scap`: (`NULL`; character) A short caption. This option is only
     meaningful to LaTeX output. A short caption is inserted in `\caption[]`, and
     usually displayed in the "List of Figures" of a PDF document.
@@ -627,7 +629,7 @@ Available package options are as follows:
     TeX error occurs. This feature is only for `.Rnw` documents, and implemented
     in RStudio.
 
--   `eval.after`: (`'fig.cap'`; character) A character vector of option names.
+-   `eval.after`: (`c('fig.cap', 'fig.alt)`; character) A character vector of option names.
     These options will be evaluated *after* a chunk has been evaluated, and all
     other options will be evaluated before a chunk. For example, for
     `fig.cap = paste('p-value is', t.test(x)$p.value)`, it will be evaluated
