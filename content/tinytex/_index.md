@@ -114,6 +114,8 @@ Find the package that contains the file with the exact name in the error log abo
 tlmgr install psnfss
 ```
 
+Alternatively, you may just upload the error log to the Github repo [yihui/latex-pass](https://github.com/yihui/latex-pass), which runs `tlmgr search` on the cloud and tells you the names of missing packages.
+
 If you still see error messages that you don't understand, you may update everything:
 
 ```sh
@@ -148,11 +150,13 @@ That is all for an average user. Read [the FAQ page](/tinytex/faq/) if you wish 
 
 ## Motivation
 
-The installation and maintenance of LaTeX have bothered me for several years. Yes, there are MiKTeX, MacTeX, and TeX Live, but the common problems are:
+The motivation behind TinyTeX was from two common problems in installing and maintaining LaTeX distributions:
 
-1. You have to either install a basic version that is relatively small (several hundred MB) but basically doesn't work, because it is very likely that certain frequently used LaTeX packages are missing; or you install the full version that is several GB, but in your whole life, you probably will only use 1% of the packages.
+1. You have to either install a basic version that is relatively small (several hundred MB) but doesn't work, because it is very likely that certain frequently used LaTeX packages are missing; or you install the full version that is several GB, but in your whole life, you probably will only use less than 1% of the packages.
 
-2. The documentation for installation and maintenance is often way too long for beginners. For example, I doubt if anyone has the courage or patience to read [the `tlmgr` manual](https://www.tug.org/texlive/doc/tlmgr.html) (yes, it is very useful, thanks to the TeX Live team).
+2. The documentation for installation and maintenance is often too long for beginners. For example, [the `tlmgr` manual](https://www.tug.org/texlive/doc/tlmgr.html) is comprehensive and very useful, but it is often hard to figure out what to do when running into a LaTeX issue that says a certain `.sty` file is not found.
+
+3. Existing LaTeX distributions often require admin privileges to install or maintain. Either `sudo` or asking IT for help is too much trouble.
 
 Fortunately, there is a nice way out based on TeX Live. TeX Live is great: it is cross-platform (yes, it works on Windows, too), and it _can_ be portable. We just need to make it lightweight, and easier to maintain, so here comes TinyTeX.
 
