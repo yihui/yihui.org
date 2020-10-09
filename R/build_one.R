@@ -30,7 +30,7 @@ local({
     x = blogdown:::append_yaml(
       xfun::read_utf8(a[2]), if (a[3] == 'FALSE') list(from_Rmd = TRUE)
     )
-    xfun::write_utf8(xaringan:::protect_math(x), a[2])
+    xfun::write_utf8(xfun::protect_math(x), a[2])
     Sys.chmod(a[2], '0444')  # read-only (should not edit)
     # keep the animation, and delete all base plots
     r = '[.](gif|mp4)$'

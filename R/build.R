@@ -11,7 +11,7 @@ build_one = function(io, external = FALSE)  {
   if (!blogdown:::require_rebuild(io[2], io[1])) return()
 
   if (local) message('* knitting ', io[1])
-  if (blogdown:::Rscript(shQuote(c('R/build_one.R', io, external))) != 0) {
+  if (xfun::Rscript(shQuote(c('R/build_one.R', io, external))) != 0) {
     unlink(io[2])
     stop('Failed to compile ', io[1], ' to ', io[2])
   }
@@ -23,7 +23,7 @@ files = cbind(as.matrix(files), external = TRUE)
 # Rmd files under the content directory
 rmds = list.files('content', '[.]Rmd$', recursive = TRUE, full.names = TRUE)
 if (length(rmds)) {
-  files = rbind(files, cbind(rmds, blogdown:::with_ext(rmds, '.md'), FALSE))
+  files = rbind(files, cbind(rmds, xfun::with_ext(rmds, '.md'), FALSE))
 }
 
 for (i in seq_len(nrow(files))) {
