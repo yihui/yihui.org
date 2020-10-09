@@ -50,13 +50,6 @@ If an error occurs when compiling a LaTeX to PDF, and the error message is not c
     ```r
     tinytex::reinstall_tinytex()
     ```
-
-1. There is a small chance that TinyTeX is actually broken, and you may try:
-
-    ```r
-    tinytex:::install_prebuilt()
-    ```
-
 1. If neither updating nor reinstalling solves the problem, set the option in R:
 
     ```r
