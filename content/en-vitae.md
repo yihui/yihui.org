@@ -199,7 +199,7 @@ Projects participated:
 
 Most of my slides were generated from R Markdown (especially the ones in recent years). To download the R Markdown source documents, simply replace the extension `.html` with `.Rmd` in the address bar of your web browser.
 
-- Yihui Xie, 2020, _One Minute for One R Markdown Recipe_, satRdays Taiwan ([slides](https://slides.yihui.org/2020-taipei-satrday-rmarkdown.html))
+- Yihui Xie, 2020, _One Minute for One R Markdown Recipe_, satRdays Taiwan ([slides](https://slides.yihui.org/2020-taipei-satrday-rmarkdown.html); [video](https://vimeo.com/469252441))
 - Yihui Xie, 2020, _Literate Programming, R Markdown, and Reproducible Research_, Panel discussion at the Data Science Conference on COVID-19 ([slides](https://bit.ly/covid-down))
 - Yihui Xie, 2020, _Miscellaneous tricks in R Markdown_, a remote talk to the Bear Club in Chinese ([slides](https://slides.yihui.org/2020-bearclub-rmarkdown.html))
 - Yihui Xie, 2020, _One R Markdown Document, Fourteen Demos_, a talk at rstudio::conf(2020), San Francisco, CA ([post](/en/2020/02/rstudio-conf-2020/); [video](https://rstudio.com/resources/rstudioconf-2020/one-r-markdown-document-fourteen-demos/))
