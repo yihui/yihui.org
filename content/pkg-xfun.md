@@ -2,7 +2,7 @@
 title: An Introduction to xfun
 subtitle: A Collection of Miscellaneous Functions
 author: "Yihui Xie"
-date: "2020-05-21"
+date: "2020-10-27"
 slug: xfun
 githubEditURL: https://github.com/yihui/xfun/edit/master/vignettes/xfun.Rmd
 output:
@@ -22,7 +22,7 @@ This page shows examples of a subset of functions in this package. For a full li
 
 ## No more partial matching for lists!
 
-I have been bitten many times by partial matching in lists, e.g., when I want `x$a` but the element `a` does not exist in the list `x`, it returns the value `x$abc` if `abc` exists in `x`. This is [very annoying to me](https://twitter.com/xieyihui/status/782462926862954496) which is why I created strict lists. A strict list is a list for which the partial matching of the `$` operator is disabled. The functions `xfun::strict_list()` and `xfun::as_strict_list()` are the equivalents to `base::list()` and `base::as.list()` respectively which always return as strict list, e.g.,
+I have been bitten many times by partial matching in lists, e.g., when I want `x$a` but the element `a` does not exist in the list `x`, it returns the value `x$abc` if `abc` exists in `x`. This is [very annoying to me](https://twitter.com/xieyihui/status/782462926862954496), which is why I created strict lists. A strict list is a list for which the partial matching of the `$` operator is disabled. The functions `xfun::strict_list()` and `xfun::as_strict_list()` are the equivalents to `base::list()` and `base::as.list()` respectively which always return as strict list, e.g.,
 
 
 ```r
@@ -137,7 +137,7 @@ xfun::file_string(f)
 ```
 
 ```
-YEAR: 2018
+YEAR: 2018-2020
 COPYRIGHT HOLDER: Yihui Xie
 ```
 
@@ -146,7 +146,34 @@ as.character(xfun::file_string(f))  # essentially a character string
 ```
 
 ```
-[1] "YEAR: 2018\nCOPYRIGHT HOLDER: Yihui Xie"
+[1] "YEAR: 2018-2020\nCOPYRIGHT HOLDER: Yihui Xie"
+```
+
+## Get the data URI of a file
+
+Files can be encoded into base64 strings via `base64_uri()`. This is a common technique to embed arbitrary files in HTML documents (which is [what `xfun::embed_file()` does](https://bookdown.org/yihui/rmarkdown-cookbook/embed-file.html) and it is based on `base64_uri()`).
+
+
+```r
+f = system.file("LICENSE", package = "xfun")
+xfun::base64_uri(f)
+```
+
+```
+## [1] "data:text/plain;base64,WUVBUjogMjAxOC0yMDIwCkNPUFlSSUdIVCBIT0xERVI6IFlpaHVpIFhpZQo="
+```
+
+## Match strings and do substitutions
+
+After typing the code `x = grep(pattern, x, value = TRUE); gsub(pattern, '\\1', x)` many times, I combined them into a single function `xfun::grep_sub()`.
+
+
+```r
+xfun::grep_sub("a([b]+)c", "a\\U\\1c", c("abc", "abbbc", "addc", "123"), perl = TRUE)
+```
+
+```
+## [1] "aBc"   "aBBBc"
 ```
 
 ## Search and replace strings in files
@@ -170,6 +197,25 @@ woRld
 ```
 
 The function `gsub_dir()` is very flexible: you can limit the list of files by MIME types, or extensions. For example, if you want to do substitution in text files, you may use `gsub_dir(..., mimetype = '^text/')`.
+
+The function `process_file()` is a more general way to process files. Basically it reads a file, process the content with a function that you pass to it, and writes back the text, e.g.,
+
+
+```r
+process_file(f, function(x) {
+  rep(x, 3)  # repeat the content 3 times
+})
+file_string(f)
+```
+
+```
+hello
+woRld
+hello
+woRld
+hello
+woRld
+```
 
 **WARNING**: Before using these functions, make sure that you have backed up your files, or version control your files. The files will be modified in-place. If you do not back up or use version control, there is no chance to regret.
 
@@ -219,6 +265,23 @@ with_ext(p, "html")
 ```
 ## [1] "abc.html"         "def123.html"      "path/to/foo.html"
 ```
+
+## Find files (in a project) without the pain of thinking about absolute/relative paths
+
+The function `proj_root()` was inspired by the **rprojroot** package, and tries to find the root directory of a project. Currently it only supports R package projects and RStudio projects by default. It is much less sophisticated than **rprojroot**.
+
+The function `from_root()` was inspired by `here::here()`, but returns a relative path (relative to the project's root directory found by `proj_root()`) instead of an absolute path. For example, `xfun::from_root('data', 'cars.csv')` in a code chunk of `docs/foo.Rmd` will return `../data/cars.csv` when `docs/` and `data/` directories are under the root directory of a project.
+
+```
+root/
+  |-- data/
+  |   |-- cars.csv
+  |
+  |-- docs/
+      |-- foo.Rmd
+```
+
+If file paths are too much pain for you to think about, you can just pass an incomplete path to the function `magic_path()`, and it will try to find the actual path recursively under subdirectories of a root directory. For example, you may only provide a base filename, and `magic_path()` will look for this file under subdirectories and return the actual path if it is found. By default, it returns a relative path, which is relative to the current working directory. With the above example, `xfun::magic_path('cars.csv')` in a code chunk of `docs/foo.Rmd` will return `../data/cars.csv`, if `cars.csv` is a unique filename in the project. You can freely move it to any folders of this project, and `magic_path()` will still find it. If you are not using a project to manage files, `magic_path()` will look for the file under subdirectories of the current working directory.
 
 ## Types of operating systems
 
@@ -440,15 +503,15 @@ xfun::session_info(c("xfun", "rmarkdown", "knitr", "tinytex"), dependencies = FA
 ```
 
 ```
-## R version 4.0.0 (2020-04-24)
+## R version 4.0.3 (2020-10-10)
 ## Platform: x86_64-apple-darwin17.0 (64-bit)
-## Running under: macOS Catalina 10.15.4
+## Running under: macOS Catalina 10.15.7
 ## 
 ## Locale: en_US.UTF-8 / en_US.UTF-8 / en_US.UTF-8 / C / en_US.UTF-8 / en_US.UTF-8
 ## 
 ## Package version:
-##   knitr_1.28.6    rmarkdown_2.1.2 tinytex_0.23    xfun_0.14.1    
+##   knitr_1.30.2   rmarkdown_2.5  tinytex_0.26.6 xfun_0.18.8   
 ## 
-## Pandoc version: 2.9.2.1
+## Pandoc version: 2.11.0.2
 ```
 
