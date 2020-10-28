@@ -70,5 +70,6 @@ P.S. A list of issues solved simply by updating packages:
 - [include_graphics() does not work](https://github.com/yihui/tinytex/issues/183)
 - [The extension SearchPanes does not exist](https://stackoverflow.com/q/60607052/559676)
 - [rmarkdown removes ~/.TinyTex on errors with latex rendering](https://github.com/rstudio/rmarkdown/issues/1811)
-- ['with_temp_loop' is not an exported object from 'namespace:later'](https://github.com/rstudio/pagedown/issues/178)
+- [`with_temp_loop` is not an exported object from 'namespace:later'](https://github.com/rstudio/pagedown/issues/178)
 - [Caching does not work with R-devel when cache path contains special characters (R-4.0.0)](https://github.com/yihui/knitr/issues/1840)
+- [Error `blogdown::serve_site` academic template](https://stackoverflow.com/q/64544976/559676)
