@@ -10,5 +10,5 @@ options(
   blogdown.subdir_fun = function(x) {
     if (xfun::is_ascii(x)) 'en' else getOption('blogdown.subdir')
   },
-  blogdown.subdir = 'cn', blogdown.hugo.version = '0.25.1'
+  blogdown.subdir = 'cn'
 )
