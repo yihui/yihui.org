@@ -4,7 +4,7 @@ date: '2018-06-20'
 slug: wysiwyg-r-markdown
 ---
 
-**2020-12-14 更新**：好了，不用折腾了。[RStudio 可视化已经横空出世](https://rstudio.github.io/visual-markdown-editing/)。请忽略本文。
+**2020-12-14 更新**：好了，不用折腾了。[RStudio 可视化编辑器已经横空出世](https://rstudio.github.io/visual-markdown-editing/)。请忽略下文。
 
 ---
 
