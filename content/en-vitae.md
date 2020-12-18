@@ -199,7 +199,7 @@ Projects participated:
 
 Most of my slides were generated from R Markdown (especially the ones in recent years). To download the R Markdown source documents, simply replace the extension `.html` with `.Rmd` in the address bar of your web browser.
 
-- Yihui Xie, 2020, _A fool's random walk of 18 years (reflections on the past 18 years of my life and career)_, Renmin University of China ([slides](https://slides.yihui.org/2020-random-walk.html))
+- Yihui Xie, 2020, _A fool's random walk of 18 years (reflections on the past 18 years of my life and career)_, Renmin University of China ([slides](https://slides.yihui.org/2020-random-walk.html); [video](https://vimeo.com/492610094))
 - Yihui Xie, 2020, _One Minute for One R Markdown Recipe_, satRdays Taiwan ([slides](https://slides.yihui.org/2020-taipei-satrday-rmarkdown.html); [video](https://vimeo.com/469252441))
 - Yihui Xie, 2020, _Literate Programming, R Markdown, and Reproducible Research_, Panel discussion at the Data Science Conference on COVID-19 ([slides](https://bit.ly/covid-down))
 - Yihui Xie, 2020, _Miscellaneous tricks in R Markdown_, a remote talk to the Bear Club in Chinese ([slides](https://slides.yihui.org/2020-bearclub-rmarkdown.html))
