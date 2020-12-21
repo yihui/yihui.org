@@ -32,7 +32,7 @@ For developers, you may also want TeXinfo (for `R CMD check`) and XQuartz (for R
 ```r
 brew install texinfo
 brew tap homebrew/cask
-brew cask install xquartz
+brew install --cask xquartz
 ```
 
 ## The missing CRAN repository
