@@ -7,7 +7,7 @@ slug: hooks
 show_toc: true
 ---
 
-The object `knit_hooks` in the **knitr** package is used to set hooks; the basic usage is `knit_hooks$set(param = FUN)` (see [objects](../objects) for details) where `param` is the name of a chunk option (can be arbitrary), and `FUN` is a function. There are two types of hooks: chunk hooks and output hooks. Hook functions may have different forms, depending what they are designed to do.
+The object `knit_hooks` in the **knitr** package is used to set hooks; the basic usage is `knit_hooks$set(param = FUN)` (see [objects](../objects/) for details) where `param` is the name of a chunk option (can be arbitrary), and `FUN` is a function. There are two types of hooks: chunk hooks and output hooks. Hook functions may have different forms, depending what they are designed to do.
 
 ## Chunk hooks
 
@@ -23,7 +23,7 @@ foo_hook = function(before, options, envir) {
 }
 ```
 
-When **knitr** is processing the document, `foo_hook(before = TRUE)` will be called before a code chunk is executed (unless the chunk is cached or set not to be evaluated), and `foo_hook(before = FALSE)` is called after a chunk; the argument `options` is a list of [options](options) in the current chunk (e.g. `options$label` is the label of the current chunk), and `envir` is the environment in which the code chunk is evaluated. The latter two arguments can be optionally used in a chunk hook. For example, if we set a hook for the `small_mar` option as:
+When **knitr** is processing the document, `foo_hook(before = TRUE)` will be called before a code chunk is executed (unless the chunk is cached or set not to be evaluated), and `foo_hook(before = FALSE)` is called after a chunk; the argument `options` is a list of [options](../options/) in the current chunk (e.g. `options$label` is the label of the current chunk), and `envir` is the environment in which the code chunk is evaluated. The latter two arguments can be optionally used in a chunk hook. For example, if we set a hook for the `small_mar` option as:
 
 ```r 
 knit_hooks$set(small_mar = function(before, options, envir) {
