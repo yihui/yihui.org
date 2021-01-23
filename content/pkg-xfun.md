@@ -2,7 +2,7 @@
 title: An Introduction to xfun
 subtitle: A Collection of Miscellaneous Functions
 author: "Yihui Xie"
-date: "2020-10-27"
+date: "2021-01-06"
 slug: xfun
 githubEditURL: https://github.com/yihui/xfun/edit/master/vignettes/xfun.Rmd
 output:
@@ -22,7 +22,7 @@ This page shows examples of a subset of functions in this package. For a full li
 
 ## No more partial matching for lists!
 
-I have been bitten many times by partial matching in lists, e.g., when I want `x$a` but the element `a` does not exist in the list `x`, it returns the value `x$abc` if `abc` exists in `x`. This is [very annoying to me](https://twitter.com/xieyihui/status/782462926862954496), which is why I created strict lists. A strict list is a list for which the partial matching of the `$` operator is disabled. The functions `xfun::strict_list()` and `xfun::as_strict_list()` are the equivalents to `base::list()` and `base::as.list()` respectively which always return as strict list, e.g.,
+I have been bitten many times by partial matching in lists, e.g., when I want `x$a` but the element `a` does not exist in the list `x`, it returns the value `x$abc` if `abc` exists in `x`. A strict list is a list for which the partial matching of the `$` operator is disabled. The functions `xfun::strict_list()` and `xfun::as_strict_list()` are the equivalents to `base::list()` and `base::as.list()` respectively which always return as strict list, e.g.,
 
 
 ```r
@@ -505,13 +505,13 @@ xfun::session_info(c("xfun", "rmarkdown", "knitr", "tinytex"), dependencies = FA
 ```
 ## R version 4.0.3 (2020-10-10)
 ## Platform: x86_64-apple-darwin17.0 (64-bit)
-## Running under: macOS Catalina 10.15.7
+## Running under: macOS Big Sur 10.16
 ## 
 ## Locale: en_US.UTF-8 / en_US.UTF-8 / en_US.UTF-8 / C / en_US.UTF-8 / en_US.UTF-8
 ## 
 ## Package version:
-##   knitr_1.30.2   rmarkdown_2.5  tinytex_0.26.6 xfun_0.18.8   
+##   knitr_1.30.3  rmarkdown_2.6 tinytex_0.28  xfun_0.20    
 ## 
-## Pandoc version: 2.11.0.2
+## Pandoc version: 2.11.3.2
 ```
 
