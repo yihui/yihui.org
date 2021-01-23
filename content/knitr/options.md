@@ -245,9 +245,9 @@ Below is a list of chunk options in **knitr** documented in the format
     example, for the chunk below, `indent` is a character string of two spaces:
 
     ```` markdown
-      ```{r}
-      rnorm(10)
-      ```
+    ```{r}
+    rnorm(10)
+    ```
     ````
 
 ### Cache
@@ -451,7 +451,9 @@ Below is a list of chunk options in **knitr** documented in the format
 
 -   `fig.cap`: (`NULL`; character) A figure caption.
 
--   `fig.alt`: (`NULL`; character) A figure alternative text to be used for HTML alt attribute instead of the default one provided by `fig.cap`.
+-   `fig.alt`: (`NULL`; character) The alternative text to be used in the `alt`
+    attribute of the `<img>` tags of figures in HTML output. By default, the
+    chunk option `fig.cap` will be used as the alternative text if provided.
 
 -   `fig.scap`: (`NULL`; character) A short caption. This option is only
     meaningful to LaTeX output. A short caption is inserted in `\caption[]`, and
@@ -629,11 +631,12 @@ Available package options are as follows:
     TeX error occurs. This feature is only for `.Rnw` documents, and implemented
     in RStudio.
 
--   `eval.after`: (`c('fig.cap', 'fig.alt)`; character) A character vector of option names.
-    These options will be evaluated *after* a chunk has been evaluated, and all
-    other options will be evaluated before a chunk. For example, for
-    `fig.cap = paste('p-value is', t.test(x)$p.value)`, it will be evaluated
-    after the chunk according to the value of `x` if `eval.after = 'fig.cap'`.
+-   `eval.after`: (`c('fig.cap', 'fig.alt')`; character) A character vector of
+    option names. These options will be evaluated *after* a chunk has been
+    evaluated, and all other options will be evaluated before a chunk. For
+    example, for `fig.cap = paste('p-value is', t.test(x)$p.value)`, it will be
+    evaluated after the chunk according to the value of `x` if
+    `eval.after = 'fig.cap'`.
 
 -   `global.par`: (`FALSE`; logical) If `TRUE`, the `par()` settings from the
     previous code chunk will be preserved and applied to the next code chunk (of
