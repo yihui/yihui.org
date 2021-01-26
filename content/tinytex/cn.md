@@ -12,13 +12,27 @@ TinyTeX 假设你不惧怕或反感使用命令行，但其实需要的命令行
 TinyTeX 的安装和维护对 R 用户来说最简单，两行 R 代码加上两到六分钟的等待时间：
 
 ```r
-remotes::install_github('yihui/tinytex')
+install.packages('tinytex')
 tinytex::install_tinytex()
 ```
 
 安装 TinyTeX 之前建议卸载系统中已有的 LaTeX 套件，如 TeX Live、MiKTeX、MacTeX 等。一个系统中最好不要有两个 LaTeX 套件同时存在，否则可能会产生冲突。
 
 对其它用户，请参阅[首页](/tinytex/)上的脚本安装方式，通常就是打开命令行窗口，运行一行命令即可。由于是从网络下载安装 TinyTeX，所以具体等待时间取决于网速。Unix 系统应该不会超过两分钟，Windows 系统可能需要五分钟左右（如果杀毒软件弹出警告，请允许修改）。
+
+### 中国大陆地区用户
+
+因为默认的 [CTAN 镜像](https://ctan.org/mirrors/mirmon)往往太慢了，所以建议在安装完 TinyTeX 之后设置国内的 CTAN 镜像，以方便将来更新或安装 LaTeX 包。比如清华镜像：
+
+```r
+tinytex::tlmgr_repo('http://mirrors.tuna.tsinghua.edu.cn/CTAN/')
+```
+
+如果 TinyTeX 本身的下载安装就很慢，或在 R 里面下载不完整，那么可以用浏览器或其它下载工具直接下载：<https://github.com/yihui/tinytex-releases/releases> 然后把下载的文件路径传给安装函数，比如：
+
+```r
+tinytex:::install_prebuilt('~/Downloads/TinyTeX-v2021.01.zip')
+```
 
 ## 维护
 
