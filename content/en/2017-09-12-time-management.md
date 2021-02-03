@@ -34,4 +34,6 @@ As a procrastinator, I have read a lot of articles and posts on time management 
 
 - Ben Brostoff: [Strategies for long projects](http://benbrostoff.github.io/2019/09/28/long-projects.html)
 
+- [The Eisenhower Matrix](https://todoist.com/productivity-methods/eisenhower-matrix)
+
 To be continued...
