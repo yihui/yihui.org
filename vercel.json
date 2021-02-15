@@ -62,14 +62,17 @@
       "destination": "/js/center-img.js"
     },
     {
+      "permanent": false,
       "source": "/tinytex/(.*).zip",
       "destination": "https://ci.appveyor.com/api/projects/yihui/tinytex/artifacts/$1.zip?job=image:%20Visual%20Studio%202019"
     },
     {
+      "permanent": false,
       "source": "/tinytex/(.*).tgz",
       "destination": "https://ci.appveyor.com/api/projects/yihui/tinytex/artifacts/$1.tgz?job=image:%20macOS"
     },
     {
+      "permanent": false,
       "source": "/tinytex/(.*).tar.gz",
       "destination": "https://ci.appveyor.com/api/projects/yihui/tinytex/artifacts/$1.tar.gz?job=image:%20Ubuntu"
     },
