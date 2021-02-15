@@ -1,0 +1,105 @@
+{
+  "build": {
+    "env": {
+      "HUGO_VERSION": "0.25.1"
+    }
+  },
+  "github": {
+    "silent": true
+  },
+  "trailingSlash": true,
+  "redirects": [
+    {
+      "source": "/slides/(.*)",
+      "destination": "https://slides.yihui.org/$1"
+    },
+    {
+      "source": "/([^/]+)/feed/",
+      "destination": "/$1/index.xml"
+    },
+    {
+      "source": "/([^/]+)/comments/feed/",
+      "destination": "https://yihui.disqus.com/latest.rss"
+    },
+    {
+      "source": "/cv/",
+      "destination": "/en/vitae/"
+    },
+    {
+      "source": "/xran/(.*)",
+      "destination": "https://xran.yihui.org/$1"
+    },
+    {
+      "source": "/tinytex/.tlmgr",
+      "destination": "/tinytex/"
+    },
+    {
+      "source": "/r/(.*)/index.htm",
+      "destination": "https://r.yihui.org/$1"
+    },
+    {
+      "source": "/r/(.*)",
+      "destination": "https://r.yihui.org/$1"
+    },
+    {
+      "source": "/gh/tinytex/tools/(.*)",
+      "destination": "https://tinytex.yihui.org/$1"
+    },
+    {
+      "source": "/gh/(.*)",
+      "destination": "https://github.com/yihui/$1"
+    },
+    {
+      "source": "/knitr-jekyll/(.*)",
+      "destination": "https://jekyll.yihui.org/$1"
+    },
+    {
+      "source": "/recharts/(.*)",
+      "destination": "https://recharts.yihui.org/$1"
+    },
+    {
+      "source": "/media/js/center-images.js",
+      "destination": "/js/center-img.js"
+    },
+    {
+      "source": "/tinytex/(.*).zip",
+      "destination": "https://ci.appveyor.com/api/projects/yihui/tinytex/artifacts/$1.zip?job=image:%20Visual%20Studio%202019"
+    },
+    {
+      "source": "/tinytex/(.*).tgz",
+      "destination": "https://ci.appveyor.com/api/projects/yihui/tinytex/artifacts/$1.tgz?job=image:%20macOS"
+    },
+    {
+      "source": "/tinytex/(.*).tar.gz",
+      "destination": "https://ci.appveyor.com/api/projects/yihui/tinytex/artifacts/$1.tar.gz?job=image:%20Ubuntu"
+    },
+    {
+      "source": "/tinytex/(.*)",
+      "destination": "https://tinytex.yihui.org/$1"
+    },
+    {
+      "source": "/cn/2018/10/pod/",
+      "destination": "/cn/2018/10/pot/"
+    },
+    {
+      "source": "/cn/2018/09/index-zero/",
+      "destination": "/cn/2018/09/inbox-zero/"
+    },
+    {
+      "source": "/([^/]+)/guestbook.php",
+      "destination": "/$1/about/"
+    },
+    {
+      "source": "/en/2007/10/jokes-in-statistics/",
+      "destination": "/en/2007/10/jokes-in-statistics-a-talk-to-be-given-in-cueb/"
+    },
+    {
+      "source": "/cv/images/stat_in_med_yihui.pdf",
+      "destination": "https://github.com/downloads/yihui/yihui.github.com/Medicine-2007-Yihui-Xie.pdf"
+    },
+    {
+      "source": "/cv/images/Visualization_R_Paper_Yihui.pdf",
+      "destination": "https://github.com/downloads/yihui/yihui.github.com/R-visualization-paper-2007-Yihui-Xie.pdf"
+    }
+  ]
+}
