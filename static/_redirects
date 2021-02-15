@@ -1,37 +1,7 @@
-/slides/*     https://slides.yihui.org/:splat
-/cn/feed/     /cn/index.xml
-/en/feed/     /en/index.xml
-/en/comments/feed/   https://yihui.disqus.com/latest.rss
-/cn/comments/feed/   https://yihui.disqus.com/latest.rss
-/cv/          /en/vitae/
-/xran/*       https://xran.yihui.org/:splat
-/tinytex/.tlmgr   /tinytex/
-/r/*/index.htm    https://r.yihui.org/:splat
-/r/*              https://r.yihui.org/:splat
-/gh/tinytex/tools/*          https://tinytex.yihui.org/:splat
-/gh/*                        https://github.com/yihui/:splat
-/knitr-jekyll/*              https://jekyll.yihui.org/:splat
-/recharts/*                  https://recharts.yihui.org/:splat
-/media/js/center-images.js   /js/center-img.js
-
-/tinytex/TinyTeX.zip     https://ci.appveyor.com/api/projects/yihui/tinytex/artifacts/TinyTeX.zip?job=image:%20Visual%20Studio%202019
-/tinytex/TinyTeX.tgz     https://ci.appveyor.com/api/projects/yihui/tinytex/artifacts/TinyTeX.tgz?job=image:%20macOS
-/tinytex/TinyTeX.tar.gz  https://ci.appveyor.com/api/projects/yihui/tinytex/artifacts/TinyTeX.tar.gz?job=image:%20Ubuntu
-/tinytex/TinyTeX-0.zip     https://ci.appveyor.com/api/projects/yihui/tinytex/artifacts/TinyTeX-0.zip?job=image:%20Visual%20Studio%202019
-/tinytex/TinyTeX-0.tgz     https://ci.appveyor.com/api/projects/yihui/tinytex/artifacts/TinyTeX-0.tgz?job=image:%20macOS
-/tinytex/TinyTeX-0.tar.gz  https://ci.appveyor.com/api/projects/yihui/tinytex/artifacts/TinyTeX-0.tar.gz?job=image:%20Ubuntu
-/tinytex/TinyTeX-1.zip     https://ci.appveyor.com/api/projects/yihui/tinytex/artifacts/TinyTeX-1.zip?job=image:%20Visual%20Studio%202019
-/tinytex/TinyTeX-1.tgz     https://ci.appveyor.com/api/projects/yihui/tinytex/artifacts/TinyTeX-1.tgz?job=image:%20macOS
-/tinytex/TinyTeX-1.tar.gz  https://ci.appveyor.com/api/projects/yihui/tinytex/artifacts/TinyTeX-1.tar.gz?job=image:%20Ubuntu
-/tinytex/installer-unix.tar.gz  https://ci.appveyor.com/api/projects/yihui/tinytex/artifacts/installer-unix.tar.gz?job=image:%20Ubuntu
-
-/tinytex/*   https://tinytex.yihui.org/:splat
-
 https://yihui.netlify.com/*  https://yihui.org/:splat  301!
 https://yihui.rbind.io/*     https://yihui.org/:splat  301!
 https://yihui.name/*         https://yihui.org/:splat  301!
 https://www.yihui.name/*     https://yihui.org/:splat  301!
-
 https://r.yihui.name/*          https://r.yihui.org/:splat          301!
 https://t.yihui.name/*          https://t.yihui.org/:splat          301!
 https://animation.yihui.name/*  https://animation.yihui.org/:splat  301!
@@ -49,11 +19,3 @@ https://recharts.yihui.name/*   https://recharts.yihui.org/:splat   301!
 https://travis-bin.yihui.name/*            https://travis-bin.yihui.org/:splat        301!
 https://blogdown-static.yihui.name/*       https://blogdown-static.yihui.org/:splat   301!
 https://travis-blogdown.yihui.name/*       https://travis-blogdown.yihui.org/:splat   301!
-
-/cn/2018/10/pod/             /cn/2018/10/pot/
-/cn/2018/09/index-zero/      /cn/2018/09/inbox-zero/
-/cn/guestbook.php            /cn/about/
-/en/guestbook.php            /en/about/
-/en/2007/10/jokes-in-statistics/  /en/2007/10/jokes-in-statistics-a-talk-to-be-given-in-cueb/
-/cv/images/stat_in_med_yihui.pdf  https://github.com/downloads/yihui/yihui.github.com/Medicine-2007-Yihui-Xie.pdf
-/cv/images/Visualization_R_Paper_Yihui.pdf  https://github.com/downloads/yihui/yihui.github.com/R-visualization-paper-2007-Yihui-Xie.pdf
