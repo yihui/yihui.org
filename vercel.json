@@ -62,22 +62,22 @@
       "destination": "/js/center-img.js"
     },
     {
-      "permanent": false,
+      "statusCode": 301,
       "source": "/tinytex/(.*).zip",
       "destination": "https://ci.appveyor.com/api/projects/yihui/tinytex/artifacts/$1.zip?job=image:%20Visual%20Studio%202019"
     },
     {
-      "permanent": false,
+      "statusCode": 301,
       "source": "/tinytex/(.*).tgz",
       "destination": "https://ci.appveyor.com/api/projects/yihui/tinytex/artifacts/$1.tgz?job=image:%20macOS"
     },
     {
-      "permanent": false,
+      "statusCode": 301,
       "source": "/tinytex/(.*).tar.gz",
       "destination": "https://ci.appveyor.com/api/projects/yihui/tinytex/artifacts/$1.tar.gz?job=image:%20Ubuntu"
     },
     {
-      "permanent": false,
+      "statusCode": 301,
       "source": "/tinytex/(.+)\\.(sh|bat|txt|profile)",
       "destination": "https://tinytex.yihui.org/$1.$2"
     },
