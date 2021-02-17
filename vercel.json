@@ -78,7 +78,7 @@
     },
     {
       "permanent": false,
-      "source": "/tinytex/(.+)\\\\.(sh|bat|txt|profile)",
+      "source": "/tinytex/(.+)\\.(sh|bat|txt|profile)",
       "destination": "https://tinytex.yihui.org/$1.$2"
     },
     {
