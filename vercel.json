@@ -77,7 +77,8 @@
       "destination": "https://ci.appveyor.com/api/projects/yihui/tinytex/artifacts/$1.tar.gz?job=image:%20Ubuntu"
     },
     {
-      "source": "/tinytex/([^/]+)[.](sh|bat|txt|profile)",
+      "permanent": false,
+      "source": "/tinytex/([^/.]+)\\\\.(sh|bat|txt|profile)",
       "destination": "https://tinytex.yihui.org/$1.$2"
     },
     {
