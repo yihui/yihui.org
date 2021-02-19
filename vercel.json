@@ -42,10 +42,12 @@
       "destination": "https://r.yihui.org/$1"
     },
     {
+      "statusCode": 301,
       "source": "/gh/tinytex/tools/(.*)",
       "destination": "https://tinytex.yihui.org/$1"
     },
     {
+      "statusCode": 301,
       "source": "/gh/(.*)",
       "destination": "https://github.com/yihui/$1"
     },
