@@ -82,7 +82,7 @@
     rads.forEach(function(el) { el.addEventListener('change', inputSave); });
     var b = false, l = function(scroll) {
       if (b) return;
-      a.querySelector('.tabs').style.display = 'flex';
+      a.querySelector('.tabs').style.display = '';
       loadScript();
       b = true;
       if (scroll) t.scrollIntoView();

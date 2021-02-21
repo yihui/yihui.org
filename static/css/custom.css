@@ -130,9 +130,9 @@ img[src$="#border"] {
   order: 99;
 }
 .panel p { font-weight: bold; }
-.input:checked + .label + .panel, .comment-full .panel:not(:last-of-type) { display: block; }
+.input:checked + .label + .panel, .comment-full .tabs, .comment-full .panel:not(:last-of-type) { display: block; }
 .comment-full .panel { order: inherit; }
-.comment-full .label { width: 100%; }
+.comment-full .label { width: 100%; display: block; }
 
 @media screen and (max-width: 960px) {
   h1, h2, h3, h4, h5, h6 {
