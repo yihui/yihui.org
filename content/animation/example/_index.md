@@ -2,7 +2,7 @@
 title: Examples
 subtitle: A gallery of animations for statistics
 date: 2017-03-29
-layout: example
+slug: animation/examples
 list_pages: true
 order_by: title
 ---

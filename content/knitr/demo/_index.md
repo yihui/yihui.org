@@ -2,7 +2,7 @@
 title: Examples
 subtitle: Source and output of demos
 date: '2017-02-03'
-layout: example
+slug: knitr/demos
 list_pages: true
 ---
 
