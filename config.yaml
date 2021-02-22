@@ -10,8 +10,8 @@ footnotereturnlinkcontents: "↩"
 rssLimit: 100
 
 permalinks:
-  cn: "/cn/:year/:month/:slug/"
-  en: "/en/:year/:month/:slug/"
+  cn: "/:sections/:year/:month/:slug/"
+  en: "/:sections/:year/:month/:slug/"
 
 menu:
   main:
