@@ -1,7 +1,7 @@
 (function() {
   var s = document.currentScript;
   if (!s) return alert('抱歉，本程序不支持您的古董浏览器，请尝试使用 Chrome/Firefox/Edge 等现代浏览器');
-  s.insertAdjacentHTML('afterend', '<style type="text/css">' +
+  document.querySelector('.arith') || s.insertAdjacentHTML('afterend', '<style type="text/css">' +
     '.arith{border:none}.arith tr:nth-child(even){background:none;}' +
     '.arith.correct *{color:forestgreen;}.arith.wrong *{color:orangered;}' +
     '.arith thead{font-size:3em;text-align:center;}#number-ans{width:4em;padding:.1em;}' +
