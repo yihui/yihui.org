@@ -73,7 +73,7 @@ menu:
       url: "/knitr/hooks/"
       weight: 3
     - name: "Examples"
-      url: "/knitr/demos/"
+      url: "/knitr/demo/"
       weight: 4
     - name: "FAQ"
       url: "/knitr/faq/"
@@ -90,7 +90,7 @@ menu:
       url: "/animation/"
       weight: 1
     - name: "Examples"
-      url: "/animation/examples/"
+      url: "/animation/example/"
       weight: 2
     - name: "Export"
       url: "/animation/export/"

@@ -84,6 +84,10 @@
       "destination": "https://tinytex.yihui.org/$1.$2"
     },
     {
+      "source": "/(knitr/demo|animation/example)s/",
+      "destination": "/$1/"
+    },
+    {
       "source": "/cn/2018/10/pod/",
       "destination": "/cn/2018/10/pot/"
     },
