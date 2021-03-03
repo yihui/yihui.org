@@ -18,7 +18,7 @@
       {{ with or (or .Params.author (index $.Site.Params.author .Section)) "" }}<author>{{.}}</author>{{end}}
       <guid>{{ .Permalink }}</guid>
       <description>
-        {{ (replaceRE "[^[:print:]]" "" .Content) | html }}
+        {{ (replace .Content "" "") | html }}
         {{ if eq .Section "en" }}
         {{ (printf "<script>location.href='%s';</script>" .Permalink) | html }}
         {{ end }}
