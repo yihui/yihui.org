@@ -18,10 +18,12 @@
       {{ with or (or .Params.author (index $.Site.Params.author .Section)) "" }}<author>{{.}}</author>{{end}}
       <guid>{{ .Permalink }}</guid>
       <description>
-        {{ (replace .Content "" "") | html }}
+        {{ `<![CDATA[` | safeHTML }}
+        {{ replaceRE "\v" "" .Content | safeHTML }}
         {{ if eq .Section "en" }}
-        {{ (printf "<script>location.href='%s';</script>" .Permalink) | html }}
+        {{ (printf "<script>location.href='%s';</script>" .Permalink) | safeHTML }}
         {{ end }}
+        {{ `]]>` | safeHTML }}
       </description>
     </item>
     {{ end }}
