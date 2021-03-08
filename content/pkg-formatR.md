@@ -2,7 +2,7 @@
 title: formatR
 subtitle: Format R code automatically
 author: Yihui Xie
-date: "2020-09-13"
+date: "2021-03-07"
 show_toc: true
 slug: formatr
 githubEditURL: https://github.com/yihui/formatR/edit/master/vignettes/formatR.Rmd
@@ -17,20 +17,21 @@ vignette: >
 <script type="text/javascript">
 // redirect from CRAN to my personal website
 if (location.protocol === 'https:' && location.href.match('yihui.org') === null)
-  location.href = 'https://yihui.org/formatR';
+  location.href = 'https://yihui.org/formatr';
 </script>
 
 
 
 # 1. Installation
 
-You can install **formatR** from [CRAN](https://cran.r-project.org/package=formatR), or [XRAN](https://xran.yihui.org) if you want to test the latest development version:
+You can install **formatR** from [CRAN](https://cran.r-project.org/package=formatR), or https://yihui.r-universe.dev if you want to test the latest development version:
 
 
 ```r
 install.packages("formatR", repos = "http://cran.rstudio.com")
-#' to install the development version, run
-#' install.packages('formatR', repos = 'https://xran.yihui.org')
+# or development version
+options(repos = c(yihui = "https://yihui.r-universe.dev", CRAN = "https://cloud.r-project.org"))
+install.packages("formatR")
 ```
 
 Or check out the [Github repository](https://github.com/yihui/formatR) and install from source if you know what this means. This page is always based on the development version.
@@ -42,9 +43,9 @@ sessionInfo()
 ```
 
 ```
-## R version 4.0.2 (2020-06-22)
+## R version 4.0.3 (2020-10-10)
 ## Platform: x86_64-apple-darwin17.0 (64-bit)
-## Running under: macOS Catalina 10.15.6
+## Running under: macOS Big Sur 10.16
 ## 
 ## Matrix products: default
 ## BLAS:   /Library/Frameworks/R.framework/Versions/4.0/Resources/lib/libRblas.dylib
@@ -58,11 +59,11 @@ sessionInfo()
 ## [7] base     
 ## 
 ## other attached packages:
-## [1] formatR_1.7
+## [1] formatR_1.7.1
 ## 
 ## loaded via a namespace (and not attached):
-## [1] compiler_4.0.2 magrittr_1.5   tools_4.0.2    stringi_1.5.3 
-## [5] knitr_1.29.5   stringr_1.4.0  xfun_0.17.1    evaluate_0.14
+## [1] compiler_4.0.3 magrittr_2.0.1 tools_4.0.3    stringi_1.5.3 
+## [5] knitr_1.31.5   stringr_1.4.0  xfun_0.21.1    evaluate_0.14
 ```
 
 # 2. Reformat R code

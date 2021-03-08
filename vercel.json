@@ -88,6 +88,14 @@
       "destination": "/$1/"
     },
     {
+      "source": "/formatR/",
+      "destination": "/formatr/"
+    },
+    {
+      "source": "/Rd2roxygen/",
+      "destination": "/rd2roxygen/"
+    },
+    {
       "source": "/cn/2018/10/pod/",
       "destination": "/cn/2018/10/pot/"
     },

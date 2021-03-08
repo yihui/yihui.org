@@ -2,8 +2,8 @@
 title: Rd2roxygen
 subtitle: Convert Rd to roxygen documentation
 author: "Yihui Xie"
-date: '2019-11-14'
-slug: Rd2roxygen
+date: '2021-03-07'
+slug: rd2roxygen
 show_toc: true
 githubEditURL: https://github.com/yihui/Rd2roxygen/edit/master/vignettes/Rd2roxygen.Rmd
 output:
@@ -105,16 +105,14 @@ str(info <- parse_file(rd.file))
 ```
 
 ```
-List of 9
- $ title   : chr "Parse the input Rd file and save the roxygen documentation into a file."
- $ usage   : chr "parse_and_save(path, file, usage=FALSE)"
- $ desc    : chr "Parse the input Rd file and save the roxygen documentation into a file."
- $ section : chr(0) 
- $ value   : chr "a character vector if \\code{file} is not specified, or write the vector\ninto a file"
- $ author  : chr "Hadley Wickham; modified by Yihui Xie <\\url{http://yihui.org}>"
- $ name    : chr "parse_and_save"
- $ keywords: list()
- $ params  : chr [1:3] "path the path of the Rd file" "file the path to save the roxygen documentation" "usage logical: whether to include the usage section in the output"
+List of 7
+ $ title : chr "Parse the input Rd file and save the roxygen documentation into a file."
+ $ usage : chr "parse_and_save(path, file, usage=FALSE)"
+ $ desc  : chr "Parse the input Rd file and save the roxygen documentation into a file."
+ $ value : chr "a character vector if \\code{file} is not specified, or write the vector\ninto a file"
+ $ author: chr "Hadley Wickham; modified by Yihui Xie <\\url{http://yihui.org}>"
+ $ name  : chr "parse_and_save"
+ $ params: chr [1:3] "path the path of the Rd file" "file the path to save the roxygen documentation" "usage logical: whether to include the usage section in the output"
 ```
 
 ```r
@@ -167,7 +165,7 @@ rab = function(pkg, build = TRUE, install = FALSE, check = FALSE,
 }
 ```
 
-Note this functionality depends on the package [**formatR**](https://yihui.org/formatR), and
+Note this functionality depends on the package [**formatR**](https://yihui.org/formatR/), and
 sometimes it might not be possible to reformat the code, e.g. the
 `\dontrun{}` command in Rd can contain arbitrary texts, which means there
 could be illegal R expressions and **formatR** will be unable to format the
@@ -177,7 +175,7 @@ will be printed on screen.
 # About this vignette
 
 This vignette was built using the vignette engine `knitr::rmarkdown`
-in the [**knitr**](https://yihui.org/knitr) package. You can find the source
+in the [**knitr**](https://yihui.org/knitr/) package. You can find the source
 in the [Rd2roxygen
 repository](https://github.com/yihui/Rd2roxygen/tree/master/vignettes) on
 Github, or
