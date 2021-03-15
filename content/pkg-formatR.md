@@ -2,7 +2,7 @@
 title: formatR
 subtitle: Format R code automatically
 author: Yihui Xie
-date: "2021-03-07"
+date: "2021-03-15"
 show_toc: true
 slug: formatr
 githubEditURL: https://github.com/yihui/formatR/edit/master/vignettes/formatR.Rmd
@@ -59,11 +59,11 @@ sessionInfo()
 ## [7] base     
 ## 
 ## other attached packages:
-## [1] formatR_1.7.1
+## [1] formatR_1.8.1
 ## 
 ## loaded via a namespace (and not attached):
 ## [1] compiler_4.0.3 magrittr_2.0.1 tools_4.0.3    stringi_1.5.3 
-## [5] knitr_1.31.5   stringr_1.4.0  xfun_0.21.1    evaluate_0.14
+## [5] knitr_1.31     stringr_1.4.0  xfun_0.22      evaluate_0.14
 ```
 
 # 2. Reformat R code
@@ -352,7 +352,21 @@ I recommend you to use `<-` or `=` consistently. What is more important is consi
 
 ## The pipe operator `%>%`
 
-Although `tidy_source()` won't ruin your code that contains the pipes, you won't be happy with it: your line breaks after the pipes won't be preserved. See [#54](https://github.com/yihui/formatR/issues/54).
+Since **formatR** 1.9, code lines contains operators `%>%`, `%T%`, `%$%`, and/or `%<>%` will be automatically wrapped after these operators. For example,
+
+
+```r
+mtcars %>% subset(am == 0) %>% lm(mpg~hp, data=.)
+```
+
+will be reformatted to:
+
+
+```r
+mtcars %>%
+    subset(am == 0) %>%
+    lm(mpg ~ hp, data = .)
+```
 
 # 7. How does `tidy_source()` actually work?
 
