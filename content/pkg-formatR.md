@@ -17,7 +17,7 @@ vignette: >
 <script type="text/javascript">
 // redirect from CRAN to my personal website
 if (location.protocol === 'https:' && location.href.match('yihui.org') === null)
-  location.href = 'https://yihui.org/formatr';
+  location.href = 'https://yihui.org/formatr/';
 </script>
 
 
@@ -59,7 +59,7 @@ sessionInfo()
 ## [7] base     
 ## 
 ## other attached packages:
-## [1] formatR_1.8.1
+## [1] formatR_1.8.2
 ## 
 ## loaded via a namespace (and not attached):
 ## [1] compiler_4.0.3 magrittr_2.0.1 tools_4.0.3    stringi_1.5.3 
@@ -245,6 +245,24 @@ if (TRUE) {
 }
 ```
 
+## The pipe operator `%>%`
+
+Since **formatR** 1.9, code lines contains operators `%>%`, `%T%`, `%$%`, and/or `%<>%` will be automatically wrapped after these operators. For example,
+
+
+```r
+mtcars %>% subset(am == 0) %>% lm(mpg~hp, data=.)
+```
+
+will be reformatted to:
+
+
+```r
+mtcars %>%
+    subset(am == 0) %>%
+    lm(mpg ~ hp, data = .)
+```
+
 ## Move left braces `{` to new lines
 
 
@@ -349,24 +367,6 @@ We can also use the right arrow `->` for assignment, e.g. `1:10 -> x`. I believe
 ```
 
 I recommend you to use `<-` or `=` consistently. What is more important is consistency. I always use `=` because it causes me no confusion (I do not believe it is ever possible for people to interpret `fun(a = 1)` as assigning `1` to a variable `a` instead of passing an argument value) and `<-` is more dangerous because it works everywhere (you might have unconsciously created a new variable `a` in `fun(a <- 1)`; see [an example here](https://stat.ethz.ch/pipermail/r-devel/2011-December/062786.html)). The only disadvantage is that most R people use `<-` so it may be difficult to collaborate with other people.
-
-## The pipe operator `%>%`
-
-Since **formatR** 1.9, code lines contains operators `%>%`, `%T%`, `%$%`, and/or `%<>%` will be automatically wrapped after these operators. For example,
-
-
-```r
-mtcars %>% subset(am == 0) %>% lm(mpg~hp, data=.)
-```
-
-will be reformatted to:
-
-
-```r
-mtcars %>%
-    subset(am == 0) %>%
-    lm(mpg ~ hp, data = .)
-```
 
 # 7. How does `tidy_source()` actually work?
 
