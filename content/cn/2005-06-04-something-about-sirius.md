@@ -4,7 +4,7 @@ date: '2005-06-04'
 slug: something-about-sirius
 ---
 
-Historically, many cultures have attached special significance to Sirius. Sirius was worshipped in the valley of the Nile long before Rome was founded, and many ancient Egyptian temples were constructed oriented so that light from the star could penetrate to their inner altars. The Egyptians based their calendar on the heliacal rising of Sirius, which occurred just before the annual flooding of the Nile and the Summer solstice. In Greek mythology, Orion's dog became Sirius. The Greeks also associated Sirius with the heat of summer: the name Sirius is derived from Seirios meaning "the scorcher". This also explains the phrase "dog days of summer".
+Historically, many cultures have attached special significance to Sirius. Sirius was worshiped in the valley of the Nile long before Rome was founded, and many ancient Egyptian temples were constructed oriented so that light from the star could penetrate to their inner altars. The Egyptians based their calendar on the heliacal rising of Sirius, which occurred just before the annual flooding of the Nile and the Summer solstice. In Greek mythology, Orion's dog became Sirius. The Greeks also associated Sirius with the heat of summer: the name Sirius is derived from Seirios meaning "the scorcher". This also explains the phrase "dog days of summer".
 
 There are a few unsolved mysteries regarding Sirius.
 
@@ -21,4 +21,4 @@ A third mystery is a suggestion that the Dogon tribe of Africa knew about unseen
 > 老夫聊发少年狂，左牵黄，又擎苍，锦帽貂裘，千骑卷平岗。为报倾城随太守，亲射虎，看孙郎。  
 > 酒酣胸胆尚开张；鬓微霜，又何妨。持节云中，何日遣冯唐？会挽雕弓如满月，西北望，射天狼。
 
-差差说我要是写英文将会失去大批读者，大家也表灰心，我不是存心写英文的；只是搜索时发现英文资料比较多，于是写英文了；另外，大家看看古希腊神坛的建筑跟天狼星的关系，还是很有意思的，当成一片阅读理解看看吧：）
+差差说我要是写英文将会失去大批读者，大家也表灰心，我不是存心写英文的；只是搜索时发现英文资料比较多，于是写英文了；另外，大家看看古希腊神坛的建筑跟天狼星的关系，还是很有意思的，当成一篇阅读理解看看吧：）
