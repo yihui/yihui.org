@@ -2,7 +2,7 @@
 title: formatR
 subtitle: Format R code automatically
 author: Yihui Xie
-date: "2021-03-15"
+date: "2021-03-18"
 show_toc: true
 slug: formatr
 githubEditURL: https://github.com/yihui/formatR/edit/master/vignettes/formatR.Rmd
@@ -14,17 +14,16 @@ vignette: >
   %\VignetteIndexEntry{An Introduction to formatR}
 ---
 
-<script type="text/javascript">
-// redirect from CRAN to my personal website
-if (location.protocol === 'https:' && location.href.match('yihui.org') === null)
-  location.href = 'https://yihui.org/formatr/';
-</script>
+
 
 
 
 # 1. Installation
 
-You can install **formatR** from [CRAN](https://cran.r-project.org/package=formatR), or https://yihui.r-universe.dev if you want to test the latest development version:
+You can install **formatR** from
+[CRAN](https://cran.r-project.org/package=formatR), or
+<https://yihui.r-universe.dev> if you want to test the latest development
+version:
 
 
 ```r
@@ -34,7 +33,9 @@ options(repos = c(yihui = "https://yihui.r-universe.dev", CRAN = "https://cloud.
 install.packages("formatR")
 ```
 
-Or check out the [Github repository](https://github.com/yihui/formatR) and install from source if you know what this means. This page is always based on the development version.
+Or check out the [Github repository](https://github.com/yihui/formatR) and
+install from source if you know what this means. This page is always based on
+the development version.
 
 
 ```r
@@ -63,20 +64,24 @@ sessionInfo()
 ## 
 ## loaded via a namespace (and not attached):
 ## [1] compiler_4.0.3 magrittr_2.0.1 tools_4.0.3    stringi_1.5.3 
-## [5] knitr_1.31     stringr_1.4.0  xfun_0.22      evaluate_0.14
+## [5] knitr_1.31     stringr_1.4.0  xfun_0.22.1    evaluate_0.14
 ```
 
 # 2. Reformat R code
 
-The **formatR** package was designed to reformat R code to improve readability; the main workhorse is the function `tidy_source()`. Features include:
+The **formatR** package was designed to reformat R code to improve readability;
+the main workhorse is the function `tidy_source()`. Features include:
 
-- long lines of code and comments are reorganized into appropriately shorter ones
-- spaces and indent are added where necessary
-- comments are preserved in most cases
-- the number of spaces to indent the code (i.e. tab width) can be specified (default is 4)
-- an `else` statement in a separate line without the leading `}` will be moved one line back
-- `=` as an assignment operator can be replaced with `<-`
-- the left brace `{` can be moved to a new line
+-   long lines of code and comments are reorganized into appropriately shorter
+    ones
+-   spaces and indent are added where necessary
+-   comments are preserved in most cases
+-   the number of spaces to indent the code (i.e. tab width) can be specified
+    (default is 4)
+-   an `else` statement in a separate line without the leading `}` will be moved
+    one line back
+-   `=` as an assignment operator can be replaced with `<-`
+-   the left brace `{` can be moved to a new line
 
 Below is an example of what `tidy_source()` can do. The source code is:
 
@@ -99,7 +104,8 @@ lm(y~x1+x2, data=data.frame(y=rnorm(100),x1=rnorm(100),x2=rnorm(100)))  ### a li
 ## here is a long long long long long long long long long long long long long comment that may be wrapped
 ```
 
-We can copy the above code to clipboard, and type `tidy_source(width.cutoff = 50)` to get:
+We can copy the above code to clipboard, and type
+`tidy_source(width.cutoff = 50)` to get:
 
 
 ```r
@@ -128,8 +134,11 @@ lm(y ~ x1 + x2, data = data.frame(y = rnorm(100), x1 = rnorm(100),
 
 Two applications of `tidy_source()`:
 
-- `tidy_dir()` can reformat all R scripts under a directory
-- `usage()` can reformat the usage of a function, e.g. compare `usage()` with the default output of `args()`:
+-   `tidy_dir()` can reformat all R scripts under a directory
+
+-   `usage()` can reformat the usage of a function, e.g. compare `usage()` with
+    the default output of `args()`:
+
     
     ```r
     library(formatR)
@@ -152,22 +161,37 @@ Two applications of `tidy_source()`:
 
 # 3. The Graphical User Interface
 
-If the **shiny** packages has been installed, the function `tidy_app()` can launch a Shiny app to reformat R code like this ([live demo](https://yihui.shinyapps.io/formatR/)):
+If the **shiny** packages has been installed, the function `tidy_app()` can
+launch a Shiny app to reformat R code like this ([live
+demo](https://yihui.shinyapps.io/formatR/)):
 
-```r
+``` {.r}
 formatR::tidy_app()
 ```
 
-[![R source code before tidying](https://db.yihui.org/imgur/lUgtEAb.png)](https://yihui.shinyapps.io/formatR/)
+
+
+[![R source code before
+tidying](https://db.yihui.org/imgur/lUgtEAb.png)](https://yihui.shinyapps.io/formatR/)
 
 After hitting the `Tidy` button:
 
-[![R source code after tidying](https://db.yihui.org/imgur/TBZm0B8.png)](https://yihui.shinyapps.io/formatR/)
+[![R source code after
+tidying](https://db.yihui.org/imgur/TBZm0B8.png)](https://yihui.shinyapps.io/formatR/)
+
 
 
 # 4. Evaluate the code and mask output in comments
 
-It is often a pain when trying to copy R code from other people's code which has been run in R and the prompt characters (usually `> `) are attached in the beginning of code, because we have to remove all the prompts `> ` and `+ ` manually before we are able to run the code. However, it will be convenient for the reader to understand the code if the output of the code can be attached. This motivates the function `tidy_eval()`, which uses `tidy_source()` to reformat the source code, evaluates the code in chunks, and attaches the output of each chunk as comments which will not actually break the original source code. Here is an example:
+It is often a pain when trying to copy R code from other people's code which has
+been run in R and the prompt characters (usually `>`) are attached in the
+beginning of code, because we have to remove all the prompts `>` and `+`
+manually before we are able to run the code. However, it will be convenient for
+the reader to understand the code if the output of the code can be attached.
+This motivates the function `tidy_eval()`, which uses `tidy_source()` to
+reformat the source code, evaluates the code in chunks, and attaches the output
+of each chunk as comments which will not actually break the original source
+code. Here is an example:
 
 
 ```r
@@ -189,7 +213,8 @@ matrix(rnorm(10), 5)
 ## [5,]  0.12929 -0.4457
 ```
 
-The default source of the code is from clipboard like `tidy_source()`, so we can copy our code to clipboard, and simply run this in R:
+The default source of the code is from clipboard like `tidy_source()`, so we can
+copy our code to clipboard, and simply run this in R:
 
 
 ```r
@@ -200,7 +225,9 @@ tidy_eval()
 
 # 5. Showcase
 
-We continue the example code in Section 2, using different arguments in `tidy_source()` such as `arrow`, `blank`, `indent`, `brace.newline` and `comment`, etc.
+We continue the example code in Section 2, using different arguments in
+`tidy_source()` such as `arrow`, `blank`, `indent`, `brace.newline` and
+`comment`, etc.
 
 ## Replace `=` with `<-`
 
@@ -247,7 +274,8 @@ if (TRUE) {
 
 ## The pipe operator `%>%`
 
-Since **formatR** 1.9, code lines contains operators `%>%`, `%T%`, `%$%`, and/or `%<>%` will be automatically wrapped after these operators. For example,
+Since **formatR** 1.9, code lines contains operators `%>%`, `%T%`, `%$%`, and/or
+`%<>%` will be automatically wrapped after these operators. For example,
 
 
 ```r
@@ -307,11 +335,15 @@ lm(y ~ x1 + x2, data = data.frame(y = rnorm(100), x1 = rnorm(100),
 
 # 6. Further notes
 
-The tricks used in this packages are very dirty. There might be dangers in using the functions in **formatR**. Please read the next section carefully to know exactly how comments are preserved. The best strategy to avoid failure is to put comments in complete lines or after _complete_ R expressions. Below are some known cases in which `tidy_source()` fails.
+The tricks used in this packages are very dirty. There might be dangers in using
+the functions in **formatR**. Please read the next section carefully to know
+exactly how comments are preserved. The best strategy to avoid failure is to put
+comments in complete lines or after *complete* R expressions. Below are some
+known cases in which `tidy_source()` fails.
 
 ## In-line comments after an incomplete expression or ;
 
-```r
+``` {.r}
 1 + 2 + ## comments after an incomplete line
     3 + 4
 x <- ## this is not a complete expression
@@ -319,7 +351,9 @@ x <- ## this is not a complete expression
 x <- 1; # you should not use ; here!
 ```
 
-Code with comments after incomplete R expression cannot be reformatted by **formatR**. By the way, `tidy_source()` will move comments after `{` to the next line, e.g.,
+Code with comments after incomplete R expression cannot be reformatted by
+**formatR**. By the way, `tidy_source()` will move comments after `{` to the
+next line, e.g.,
 
 
 ```r
@@ -338,39 +372,58 @@ if (TRUE) {
 
 ## Inappropriate blank lines
 
-Blank lines are often used to separate complete chunks of R code, and arbitrary blank lines may cause failures in `tidy_source()` as well when the argument `blank = TRUE`, e.g.
+Blank lines are often used to separate complete chunks of R code, and arbitrary
+blank lines may cause failures in `tidy_source()` as well when the argument
+`blank = TRUE`, e.g.
 
-```r
+``` {.r}
 if (TRUE)
 
 {'this is a BAD style of R programming!'} else 'failure!'
 ```
 
-There should not be a blank line after the `if` statement. Of course `blank = FALSE` will not fail in this case.
+There should not be a blank line after the `if` statement. Of course
+`blank = FALSE` will not fail in this case.
 
 ## `?` with comments
 
-We can use the question mark (`?`) to view the help page, but **formatR** package is unable to correctly format the code using `?` with comments, e.g.
+We can use the question mark (`?`) to view the help page, but **formatR**
+package is unable to correctly format the code using `?` with comments, e.g.
 
-```r
+``` {.r}
 ?sd  # help on sd()
 ```
 
-In this case, it is recommended to use the function `help()` instead of the short-hand version `?`.
+In this case, it is recommended to use the function `help()` instead of the
+short-hand version `?`.
 
 ## `->` with comments
 
-We can also use the right arrow `->` for assignment, e.g. `1:10 -> x`. I believe this flexibility is worthless, and it is amazing that a language has three assignment operators: `<-`, `=` and `->` (whereas almost all other languages uses `=` for assignment). Bad news for **formatR** is that it is unable to format code using both `->` and comments in a line, e.g.
+We can also use the right arrow `->` for assignment, e.g. `1:10 -> x`. I believe
+this flexibility is worthless, and it is amazing that a language has three
+assignment operators: `<-`, `=` and `->` (whereas almost all other languages
+uses `=` for assignment). Bad news for **formatR** is that it is unable to
+format code using both `->` and comments in a line, e.g.
 
-```r
+``` {.r}
 1:10 -> x  # assignment with right arrow
 ```
 
-I recommend you to use `<-` or `=` consistently. What is more important is consistency. I always use `=` because it causes me no confusion (I do not believe it is ever possible for people to interpret `fun(a = 1)` as assigning `1` to a variable `a` instead of passing an argument value) and `<-` is more dangerous because it works everywhere (you might have unconsciously created a new variable `a` in `fun(a <- 1)`; see [an example here](https://stat.ethz.ch/pipermail/r-devel/2011-December/062786.html)). The only disadvantage is that most R people use `<-` so it may be difficult to collaborate with other people.
+I recommend you to use `<-` or `=` consistently. What is more important is
+consistency. I always use `=` because it causes me no confusion (I do not
+believe it is ever possible for people to interpret `fun(a = 1)` as assigning
+`1` to a variable `a` instead of passing an argument value) and `<-` is more
+dangerous because it works everywhere (you might have unconsciously created a
+new variable `a` in `fun(a <- 1)`; see [an example
+here](https://stat.ethz.ch/pipermail/r-devel/2011-December/062786.html)). The
+only disadvantage is that most R people use `<-` so it may be difficult to
+collaborate with other people.
 
 # 7. How does `tidy_source()` actually work?
 
-In a nutshell, `tidy_source(text = code)` is basically `deparse(parse(text = code))`, but actually it is more complicated only because of one thing: `deparse()` drops comments, e.g.,
+In a nutshell, `tidy_source(text = code)` is basically
+`deparse(parse(text = code))`, but actually it is more complicated only because
+of one thing: `deparse()` drops comments, e.g.,
 
 
 ```r
@@ -381,52 +434,66 @@ deparse(parse(text = "1+2-3*4/5 # a comment"))
 ## [1] "expression(1 + 2 - 3 * 4/5)"
 ```
 
-The method to preserve comments is to protect them as strings in R expressions. For example, there is a single line of comments in the source code:
+The method to preserve comments is to protect them as strings in R expressions.
+For example, there is a single line of comments in the source code:
 
-```r
+``` {.r}
   # asdf
 ```
 
 It will be first masked as
 
-```r
+``` {.r}
 invisible(".IDENTIFIER1  # asdf.IDENTIFIER2")
 ```
 
-which is a legal R expression, so `base::parse()` can deal with it and will no longer remove the disguised comments.  In the end the identifiers will be removed to restore the original comments, i.e. the strings `invisible(".IDENTIFIER1` and `.IDENTIFIER2")` are replaced with empty strings.
+which is a legal R expression, so `base::parse()` can deal with it and will no
+longer remove the disguised comments. In the end the identifiers will be removed
+to restore the original comments, i.e. the strings `invisible(".IDENTIFIER1` and
+`.IDENTIFIER2")` are replaced with empty strings.
 
-Inline comments are handled differently: two spaces will be added before the hash symbol `#`, e.g.
+Inline comments are handled differently: two spaces will be added before the
+hash symbol `#`, e.g.
 
-```r
+``` {.r}
 1+1#  comments
 ```
 
 will become
 
-```r
+``` {.r}
 1+1  #  comments
 ```
 
-Inline comments are first disguised as a weird operation with its preceding R code, which is essentially meaningless but syntactically correct!  For example,
+Inline comments are first disguised as a weird operation with its preceding R
+code, which is essentially meaningless but syntactically correct! For example,
 
-```r
-1+1 %InLiNe_IdEnTiFiEr% "#  comments"
+``` {.r}
+1+1 %\b% "#  comments"
 ```
 
-then `base::parse()` will deal with this expression; again, the disguised comments will not be removed. In the end, inline comments will be freed as well (remove the operator `%InLiNe_IdEnTiFiEr%` and surrounding double quotes).
+then `base::parse()` will deal with this expression; again, the disguised
+comments will not be removed. In the end, inline comments will be freed as well
+(remove the operator `%\b%` and surrounding double quotes).
 
-All these special treatments to comments are due to the fact that `base::parse()` and `base::deparse()` can tidy the R code at the price of dropping all the comments.
+All these special treatments to comments are due to the fact that
+`base::parse()` and `base::deparse()` can tidy the R code at the price of
+dropping all the comments.
 
 # 8. Global options
 
 There are global options which can override some arguments in `tidy_source()`:
 
-| argument        | global option                      | default |
-|-----------------|------------------------------------|---------|
-| `comment`       | `options('formatR.comment')`       | `TRUE`  |
-| `blank`         | `options('formatR.blank')`         | `TRUE`  |
-| `arrow`         | `options('formatR.arrow')`         | `FALSE` |
-| `indent`        | `options('formatR.indent')`        | `4`     |
-| `brace.newline` | `options('formatR.brace.newline')` | `FALSE` |
+| argument        | global option                      | default            |
+|-----------------|------------------------------------|--------------------|
+| `comment`       | `options('formatR.comment')`       | `TRUE`             |
+| `blank`         | `options('formatR.blank')`         | `TRUE`             |
+| `arrow`         | `options('formatR.arrow')`         | `FALSE`            |
+| `indent`        | `options('formatR.indent')`        | `4`                |
+| `wrap`          | `options('formatR.wrap')`          | `TRUE`             |
+| `width.cutoff`  | `options('formatR.width')`         | `options('width')` |
+| `brace.newline` | `options('formatR.brace.newline')` | `FALSE`            |
 
-Also note that single lines of long comments will be wrapped into shorter ones automatically, but roxygen comments will not be wrapped (i.e., comments that begin with `#'`).
+Also note that single lines of long comments will be wrapped into shorter ones
+automatically when `wrap = TRUE`, but roxygen comments will not be wrapped
+(i.e., comments that begin with `#'`).
