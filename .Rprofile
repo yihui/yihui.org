@@ -1,7 +1,8 @@
 if (file.exists('~/.Rprofile')) sys.source('~/.Rprofile', envir = environment())
 
 options(
-  servr.port = 4321L, blogdown.method = 'custom', blogdown.author = '',
+  servr.port = 4321L, servr.host = '0.0.0.0',
+  blogdown.method = 'custom', blogdown.author = '',
   digits = 4, formatR.indent = 2, blogdown.yaml.empty = FALSE,
   blogdown.rename_file = TRUE, blogdown.new_bundle = FALSE,
   blogdown.title_case = function(x) {
