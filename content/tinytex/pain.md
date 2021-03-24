@@ -185,3 +185,9 @@ Below are stories and experiences contributed by other users:
 > [...] R Markdown + library(tinytex) basically unlock all of the power of LaTeX without any of the headaches.
 
 > --- [Aaron R. Williams](https://twitter.com/awunderground/status/1234665396654837761)
+
+<!-- -->
+
+> A nice, ultra light, LaTeX distribution, I used TinyTeX on my chromebook for a while.
+
+> --- [@onebellboy](https://twitter.com/onebellboy/status/1374345267256905729)
