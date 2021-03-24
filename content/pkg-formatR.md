@@ -2,7 +2,7 @@
 title: formatR
 subtitle: Format R code automatically
 author: Yihui Xie
-date: "2021-03-18"
+date: "2021-03-24"
 show_toc: true
 slug: formatr
 githubEditURL: https://github.com/yihui/formatR/edit/master/vignettes/formatR.Rmd
@@ -60,7 +60,7 @@ sessionInfo()
 ## [7] base     
 ## 
 ## other attached packages:
-## [1] formatR_1.8.2
+## [1] formatR_1.8.4
 ## 
 ## loaded via a namespace (and not attached):
 ## [1] compiler_4.0.3 magrittr_2.0.1 tools_4.0.3    stringi_1.5.3 
@@ -172,12 +172,12 @@ formatR::tidy_app()
 
 
 [![R source code before
-tidying](https://db.yihui.org/imgur/lUgtEAb.png)](https://yihui.shinyapps.io/formatR/)
+reformatting](https://db.yihui.org/imgur/lUgtEAb.png)](https://yihui.shinyapps.io/formatR/)
 
-After hitting the `Tidy` button:
+After hitting the `Format` button:
 
 [![R source code after
-tidying](https://db.yihui.org/imgur/TBZm0B8.png)](https://yihui.shinyapps.io/formatR/)
+reformatting](https://db.yihui.org/imgur/TBZm0B8.png)](https://yihui.shinyapps.io/formatR/)
 
 
 
