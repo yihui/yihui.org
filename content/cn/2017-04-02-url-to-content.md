@@ -4,6 +4,10 @@ date: '2017-04-02'
 slug: url-to-content
 ---
 
+2021-03-26 更新：我本人已经从下文中提到的 Netlify 迁移到 Vercel 上，[原因见此](https://d.cosx.org/d/421538/81)。下文提到的 Migadu 邮箱服务现在也已经没有了免费版。
+
+---
+
 最近一年好像流行“真相竟然是这样”或者“啥啥竟然咋咋”的句式。从来不拒绝恶俗的我也在标题里跟个风。
 
 ![真相竟然是这样](https://slides.yihui.org/gif/elevator.gif)
@@ -18,7 +22,7 @@ slug: url-to-content
 
 继续上面的例子，大概也就是这样：
 
-> `https://yihui.org/cn/` → `yihui.org` → `albert.ns.cloudflare.com`（域名服务器）→查到 CNAME 记录 `yihui.netlify.com` → 继续查到 CNAME 对应的 IP 地址 104.130.69.120  →找到服务器→服务器一看，哦，这个域名在我这里有收录，稍等，我把这个域名对应的文件夹下的 `cn/index.html` 文件返回给你→浏览器得到 HTML 文件并渲染出来
+> `https://yihui.org/cn/` → `yihui.org` → `albert.ns.cloudflare.com`（域名服务器）→查到 CNAME 记录 `yihui.vercel.app` → 继续查到 CNAME 对应的 IP 地址 76.76.21.21  →找到服务器→服务器一看，哦，这个域名在我这里有收录，稍等，我把这个域名对应的文件夹下的 `cn/index.html` 文件返回给你→浏览器得到 HTML 文件并渲染出来
 
 我当初入网站坑的时候，CNAME 记录还不太流行，通常域名都是设置 A 记录，也就是纯 IP 地址。现今 CNAME 也不是那么冷门了，例如 Github 就率先用了这个办法在 Github Pages 中支持用户自定义域名，大致说来就是 Github 会免费分配给你一个它的子域名，形如 `*.github.io`，你可以把你自己的域名设置一个别名记录，指向这个子域名，比如 `animation.yihui.org` 指向 `yihui.github.io`，由于 Github 有[我的记录](https://github.com/yihui/animation.yihui.org/blob/gh-pages/CNAME)，当用户访问 `animation.yihui.org` 时，Github 知道该把哪个网页返回给用户。CNAME 跟 A 记录比起来最大的优势就是 CNAME 是活的（一个域名指向另一个域名），而 A 记录是死的 IP 地址，CNAME 指向的域名可以随意搬家，而用户不需要去修改记录。用码农的话说，一个是传引用，一个是传值。
 
@@ -32,7 +36,7 @@ Netlify 把网站发布简化到了极致，你甚至可以直接拖拽一个编
 
 如果你用了 Netlify，其实就没什么必要用 Cloudflare 了，因为后者的功能前者基本上都已经提供了，所以你没必要在域名注册商那里修改域名服务器。目前据我的了解，只有两项功能后者有前者的免费服务里没有：
 
-1. 压缩 HTML/JS/CSS 文件。Cloudflare 可以免费压缩这些文件以节省带宽，其实基本上也就是把你的 HTML 源代码里的无意义空行空格删掉。这个功能在 Netlify 上属于收费功能。
+1. ~~压缩 HTML/JS/CSS 文件。Cloudflare 可以免费压缩这些文件以节省带宽，其实基本上也就是把你的 HTML 源代码里的无意义空行空格删掉。这个功能在 Netlify 上属于收费功能。~~ 更新：这个功能在 Netlify 上已经存在且免费。
 
 1. 加密邮箱地址。Cloudflare 可以自动把页面上的邮箱地址用 JavaScript 代码加密，这样垃圾广告商就不能直接搜索到邮箱了，但人眼仍然可以看见正确的邮箱地址。
 
