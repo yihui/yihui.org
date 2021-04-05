@@ -108,6 +108,10 @@
       "destination": "/cn/kids/2019/11/tale/"
     },
     {
+      "source": "/cn/MSG-Yihui.pdf",
+      "destination": "https://bookdown.org/xiangyun/msg/"
+    },
+    {
       "source": "/([^/]+)/guestbook.php",
       "destination": "/$1/about/"
     },
