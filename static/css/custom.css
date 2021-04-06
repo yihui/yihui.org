@@ -129,7 +129,7 @@ img[src$="#border"] {
   width: 100%;
   order: 99;
 }
-.panel p { font-weight: bold; }
+.panel .title { font-weight: bold; }
 .input:checked + .label + .panel, .comment-full .tabs, .comment-full .panel:not(:last-of-type) { display: block; }
 .comment-full .panel { order: inherit; }
 .comment-full .label { width: 100%; display: block; }
