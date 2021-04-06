@@ -6,6 +6,35 @@
   <div class="panel">
     <div id="disqus_thread"></div>
     <script data-src="//{{ .Site.DisqusShortname }}.disqus.com/embed.js" async></script>
+    <script>
+    var disqus_config = (function() {
+      var disqusURL
+      {{ with .Site.Params.disqusURL }}
+        = "{{ . }}" +{{ if eq $.Kind "404" }} "/404.html" {{ else }} location.pathname{{ end }}
+      {{ end }}
+      ;
+      var cfg = function() {
+        this.page.url = disqusURL;
+      };
+      cfg.DisqusJSInit = function() {
+        var dsqjs = new DisqusJS({
+          shortname: "{{ .Site.DisqusShortname }}",
+          siteName: "{{ .Site.Title }}",
+          identifier: undefined,
+          url: disqusURL,
+          api: "https://yihui.org/disqus/",
+          apikey: [
+            '7KUjj8dWYWdg36SwnKhiZmfiBcRrwlCDudkFZHAkfFJKBerk9IAPnnuo45Kkm22W',
+            'XrSwjw0Vm57x9oStOytHMBVpXkGBivU2ohEV1loqEEFmJ8Ulefxuz1lw9zDeYFN8',
+            'Hqkwx8JsVo5YOtkx0Oqc75oWIUG0n1PR9AgsrSJID4sEpkUKDgEyIhoObeoF1miW'
+          ],
+          admin: 'yihui',
+          adminLabel: 'Yihui Xie'
+        });
+      };
+      return cfg;
+    })();
+    </script>
   </div>
   <input name="tabs" type="radio" id="tab-2" class="input"/>
   <label for="tab-2" class="label">Utterances</label>
@@ -25,11 +54,6 @@
   </div>
   </div>
   <script>
-  var disqus_config = function () {
-  {{ with .Site.Params.disqusURL }}
-    this.page.url = "{{ . }}" +{{ if eq $.Kind "404" }} "/404.html" {{ else }} location.pathname{{ end }};
-  {{ end }}
-  };
   (function(d) {
     var inIFrame = function() {
       var iframe = true;
@@ -88,11 +112,25 @@
       if (scroll) t.scrollIntoView();
     }
     s.onerror = function(e) {
-      t.innerText = 'Sorry, but you cannot make comments because Disqus failed to load for some reason. It is known to be blocked in certain regions. If you are sure it is not blocked in your region, please refresh the page. Alternatively, you can comment with Utterances. 您可能需要翻墙发表 Disqus 评论；若没有梯子，不妨尝试使用 Github 登录 Utterances 评论。';
-      t.style.border = '1px dashed';
-      t.style.padding = '.5em';
-      t.style.background = 'lightyellow';
-      selectTab2();
+      // try to load Disqus in the read-only mode
+      var s2 = d.createElement('script');
+      s2.src = "//cdn.jsdelivr.net/gh/yihui/DisqusJS@patch-1/src/disqus.min.js";
+      t.appendChild(s2);
+      try { localStorage.setItem('dsqjs_mode', 'dsqjs'); } catch (e) {}
+      s2.onload = function(e) {
+        var s3 = d.createElement('link');
+        s3.rel = 'stylesheet';
+        s3.href = '//cdn.jsdelivr.net/npm/disqusjs@1.3/dist/disqusjs.css';
+        d.head.appendChild(s3);
+        disqus_config.DisqusJSInit();
+      };
+      s2.onerror = function(e) {
+        t.innerText = 'Sorry, but you cannot make comments because Disqus failed to load for some reason. It is known to be blocked in certain regions. If you are sure it is not blocked in your region, please refresh the page. Alternatively, you can comment with Utterances. 您可能需要翻墙发表 Disqus 评论；若没有梯子，不妨尝试使用 Github 登录 Utterances 评论。';
+        t.style.border = '1px dashed';
+        t.style.padding = '.5em';
+        t.style.background = 'lightyellow';
+        selectTab2();
+      };
     };
     // show comments when the hash means to jump to a comment
     if (location.hash.match(/^#comment-[0-9]+$/)) return l(true);
