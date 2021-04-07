@@ -22,7 +22,7 @@
           siteName: "{{ .Site.Title }}",
           identifier: undefined,
           url: disqusURL,
-          // api: "https://yihui.org/disqus/",
+          api: "https://yihui.org/disqus/",
           apikey: [
             '7KUjj8dWYWdg36SwnKhiZmfiBcRrwlCDudkFZHAkfFJKBerk9IAPnnuo45Kkm22W',
             'XrSwjw0Vm57x9oStOytHMBVpXkGBivU2ohEV1loqEEFmJ8Ulefxuz1lw9zDeYFN8',
@@ -114,13 +114,13 @@
     s.onerror = function(e) {
       // try to load Disqus in the read-only mode
       var s2 = d.createElement('script');
-      s2.src = "//cdn.jsdelivr.net/gh/yihui/DisqusJS@patch-1/src/disqus.min.js";
+      s2.src = "//cdn.jsdelivr.net/gh/yihui/DisqusJS@1.3.3/src/disqus.min.js";
       t.appendChild(s2);
       try { localStorage.setItem('dsqjs_mode', 'dsqjs'); } catch (e) {}
       s2.onload = function(e) {
         var s3 = d.createElement('link');
         s3.rel = 'stylesheet';
-        s3.href = '//cdn.jsdelivr.net/npm/disqusjs@1.3/dist/disqusjs.css';
+        s3.href = '//cdn.jsdelivr.net/gh/yihui/DisqusJS@1.3.3/src/disqusjs.min.css';
         d.head.appendChild(s3);
         disqus_config.DisqusJSInit();
       };
