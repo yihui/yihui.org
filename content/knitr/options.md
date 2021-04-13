@@ -550,7 +550,11 @@ for examples).
 
 -   `ref.label`: (`NULL`; character) A character vector of labels of the chunks
     from which the code of the current chunk is inherited (see the demo for
-    [chunk references](../demo/reference/)).
+    [chunk references](../demo/reference/)). If the vector is wrapped in `I()`
+    and the chunk option `opts.label` is not set, it means that the current
+    chunk will also inherit the chunk options (in addition to the code) of the
+    referenced chunks. See the chunk option `opts.label` for more information on
+    inheriting chunk options.
 
 ### Child documents
 
@@ -584,9 +588,24 @@ for examples).
 
 ### Option templates
 
--   `opts.label`: (`NULL`; character) The label of options set in
-    `knitr::opts_template` (see `?knitr::opts_template`). This option can save
-    some typing effort for sets of frequently used chunk options.
+-   `opts.label`: (`NULL`; character) This option provides a mechanism to
+    inherit chunk options from either the option template `knitr::opts_template`
+    (see `?knitr::opts_template`) or other code chunks. It takes a character
+    vector of labels. For each label in the vector, **knitr** will first try to
+    find chunk options set in `knitr::opts_template` with this label, and if
+    found, apply these chunk options to the current chunk. Then try to find
+    another code chunk with this label (called the "referenced code chunk") in
+    the document, and if found, also apply its chunk options to the current
+    chunk.
+
+    The precedence of chunk options is: local chunk options \> referenced code
+    chunk options \> `knitr::opts_template` \> `knitr::opts_chunk`.
+
+    The special value `opts.label = TRUE` means `opts.label = ref.label`, i.e.,
+    to inherit chunk options from chunks referenced by the `ref.label` option.
+    See the example \#121 in [the knitr-examples
+    repository](https://github.com/yihui/knitr-examples) for demos of various
+    usage of `ref.label` and `opts.label`.
 
 ### Extracting source code
 
