@@ -566,7 +566,8 @@ for examples).
 -   `engine`: (`'R'`; character) The language name of the code chunk. Possible
     values can be found in `names(knitr::knit_engines$get())`, e.g., `python`,
     `sql`, `julia`, `bash`, and `c`, etc. The object `knitr::knit_engines` can
-    be used to set up engines for other languages.
+    be used to set up engines for other languages. The [demo page](../demo/engines/)
+    contains examples of different engines.
 
 -   `engine.path`: (`NULL`; character) The path to the executable of the
     `engine`. This option makes it possible to use alternative executables in
