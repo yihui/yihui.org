@@ -566,7 +566,8 @@ for examples).
 -   `engine`: (`'R'`; character) The language name of the code chunk. Possible
     values can be found in `names(knitr::knit_engines$get())`, e.g., `python`,
     `sql`, `julia`, `bash`, and `c`, etc. The object `knitr::knit_engines` can
-    be used to set up engines for other languages.
+    be used to set up engines for other languages. The [demo page](../demo/engines/)
+    contains examples of different engines.
 
 -   `engine.path`: (`NULL`; character) The path to the executable of the
     `engine`. This option makes it possible to use alternative executables in
@@ -585,6 +586,41 @@ for examples).
     ```
 
     The names of the list correspond to the names of the engines.
+    
+-   `engine.opts`: (`NULL`; character) Additional arguments passed to the
+    engines. At the chunk level, the option can be specified as a string or a list of options. 
+    
+    ````markdown
+    ```{bash, engine.opts='-l'}
+    echo $PATH
+    ```
+    
+    ```{cat, engine.opts = list(file = "my_custom.css")}
+    h2 {
+      color: blue;
+    }
+    ```
+    ````
+    
+    At the global level, it could be a list of strings named by engines. Like
+    `engine.path`, this is useful to template arguments via
+    `knitr::opts_chunk$set()`.
+    
+    ```r
+    knitr::opts_chunk$set(engine.opts = list(
+      perl = '-Mstrict -Mwarnings',
+      bash = '-o errexit'
+    ))
+    ```
+    
+    Each engine as its own use of `engine.opts` and defines specific options.
+    One should consult the documentation of each engine. Some examples are in
+    the R Markdown Cookbook for the [`cat`
+    engine](https://bookdown.org/yihui/rmarkdown-cookbook/eng-cat.html) and the
+    [`sass`/`scss`
+    engine](https://bookdown.org/yihui/rmarkdown-cookbook/eng-sass.html).
+    
+
 
 ### Option templates
 
