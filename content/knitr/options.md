@@ -588,11 +588,17 @@ for examples).
     The names of the list correspond to the names of the engines.
     
 -   `engine.opts`: (`NULL`; character) Additional arguments passed to the
-    engines. At the chunk level, the option can be specified as a string, a list. 
+    engines. At the chunk level, the option can be specified as a string or a list of options. 
     
     ````markdown
     ```{bash, engine.opts='-l'}
     echo $PATH
+    ```
+    
+    ```{cat, engine.opts = list(file = "my_custom.css")}
+    h2 {
+      color: blue;
+    }
     ```
     ````
     
