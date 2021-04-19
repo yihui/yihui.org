@@ -585,6 +585,35 @@ for examples).
     ```
 
     The names of the list correspond to the names of the engines.
+    
+-   `engine.opts`: (`NULL`; character) Additional arguments passed to the
+    engines. At the chunk level, the option can be specified as a string, a list. 
+    
+    ````markdown
+    ```{bash, engine.opts='-l'}
+    echo $PATH
+    ```
+    ````
+    
+    At the global level, it could be a list of strings named by engines. Like
+    `engine.path`, this is useful to template arguments via
+    `knitr::opts_chunk$set()`.
+    
+    ```r
+    knitr::opts_chunk$set(engine.opts = list(
+      perl = '-Mstrict -Mwarnings',
+      bash = '-o errexit'
+    ))
+    ```
+    
+    Each engine as its own use of `engine.opts` and defines specific options.
+    One should consult the documentation of each engine. Some examples are in
+    the R Markdown Cookbook for the [`cat`
+    engine](https://bookdown.org/yihui/rmarkdown-cookbook/eng-cat.html) and the
+    [`sass`/`scss`
+    engine](https://bookdown.org/yihui/rmarkdown-cookbook/eng-sass.html).
+    
+
 
 ### Option templates
 
