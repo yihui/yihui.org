@@ -191,3 +191,9 @@ Below are stories and experiences contributed by other users:
 > A nice, ultra light, LaTeX distribution, I used TinyTeX on my chromebook for a while.
 
 > --- [@onebellboy](https://twitter.com/onebellboy/status/1374345267256905729)
+
+<!-- -->
+
+> But also LaTeX took 6 hours to download and now I'm struggling to set the path variable for it so maybe I'll just give up for today and try tomorrow.
+
+> --- [jade eden](https://twitter.com/JadeMasterMath/status/1384672233499643905)
