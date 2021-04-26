@@ -74,3 +74,5 @@ P.S. A list of issues solved simply by updating packages:
 - [Caching does not work with R-devel when cache path contains special characters (R-4.0.0)](https://github.com/yihui/knitr/issues/1840)
 - [Error `blogdown::serve_site` academic template](https://stackoverflow.com/q/64544976/559676)
 - [object `is_R_CMD_check` not found ](https://community.rstudio.com/t/94995)
+- [Booktabs in kable](https://github.com/yihui/knitr/issues/1989)
+- [Cannot Render Files](https://github.com/rstudio/rmarkdown/issues/2030)
