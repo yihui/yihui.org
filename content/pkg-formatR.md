@@ -2,7 +2,7 @@
 title: formatR
 subtitle: Format R code automatically
 author: Yihui Xie
-date: "2021-03-24"
+date: "2021-04-22"
 show_toc: true
 slug: formatr
 githubEditURL: https://github.com/yihui/formatR/edit/master/vignettes/formatR.Rmd
@@ -21,9 +21,8 @@ vignette: >
 # 1. Installation
 
 You can install **formatR** from
-[CRAN](https://cran.r-project.org/package=formatR), or
-<https://yihui.r-universe.dev> if you want to test the latest development
-version:
+[CRAN](https://cran.r-project.org/package=formatR), or yihui.r-universe.dev if
+you want to test the latest development version:
 
 
 ```r
@@ -44,7 +43,7 @@ sessionInfo()
 ```
 
 ```
-## R version 4.0.3 (2020-10-10)
+## R version 4.0.5 (2021-03-31)
 ## Platform: x86_64-apple-darwin17.0 (64-bit)
 ## Running under: macOS Big Sur 10.16
 ## 
@@ -60,11 +59,11 @@ sessionInfo()
 ## [7] base     
 ## 
 ## other attached packages:
-## [1] formatR_1.8.4
+## [1] formatR_1.9
 ## 
 ## loaded via a namespace (and not attached):
-## [1] compiler_4.0.3 magrittr_2.0.1 tools_4.0.3    stringi_1.5.3 
-## [5] knitr_1.31     stringr_1.4.0  xfun_0.22.1    evaluate_0.14
+## [1] compiler_4.0.5 magrittr_2.0.1 tools_4.0.5    stringi_1.5.3 
+## [5] knitr_1.32     stringr_1.4.0  xfun_0.22.2    evaluate_0.14
 ```
 
 # 2. Reformat R code
