@@ -255,3 +255,18 @@ This list of FAQs explain the technical details of TinyTeX for those who are cur
     I'm not going to answer this question for Linux users. For macOS users, `Command + Space` to launch the Spotlight Search, and type `Terminal`. The first result should be `Terminal.app`. That is it. For Windows users, click the `Start` menu, select `Run`, and type `cmd`.
     
     If you are an [RStudio](https://www.rstudio.com) user, it can be easier. RStudio (>= v1.1) has [built-in support for terminals](https://blog.rstudio.com/2017/08/11/rstudio-v1-1-preview-terminal/), and you can open a terminal right inside RStudio.
+
+1. **How to completely remove all the official versions of TeX Live?**
+
+    For Linux users:
+    
+    ```sh
+    # check where TeX Live was installed
+    kpsewhich -var-value=TEXMFROOT
+    # remove symlinks
+    sudo tlmgr path remove
+    # or use this, change the path of tlmgr accordingly
+    sudo /usr/local/texlive/2021/bin/x86_64-linux/tlmgr path remove
+    # remove TeX Live
+    sudo rm -rI /usr/local/texlive
+    ```
