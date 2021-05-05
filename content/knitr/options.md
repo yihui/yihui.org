@@ -715,6 +715,10 @@ Available package options are as follows:
     LaTeX packages **color** and **graphicx**, respectively. These options are
     only for `.Rnw` documents.
 
+-   `latex.tilde` (`NULL`): The LaTeX command for the tilde character in
+    highlighted output of `.Rnw` documents (see [the issue
+    \#1992](https://github.com/yihui/knitr/issues/1992) for examples).
+
 -   `out.format`: (`NULL`; character) Possible values are `latex`, `sweave`,
     `html`, `markdown`, and `jekyll`. It will be automatically determined based
     on the input file, and this option will affect the set of hooks to be set
