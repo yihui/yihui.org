@@ -108,6 +108,10 @@
       "destination": "/cn/kids/2019/11/tale/"
     },
     {
+      "source": "/cn/2008/11/bayesian-and-frequentist-talk-from-george-cassella/",
+      "destination": "/cn/2008/11/bayesian-and-frequentist-talk-from-george-casella/"
+    },
+    {
       "source": "/cn/MSG-Yihui.pdf",
       "destination": "https://bookdown.org/xiangyun/msg/"
     },
