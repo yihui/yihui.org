@@ -2,7 +2,7 @@
 title: An Introduction to xfun
 subtitle: A Collection of Miscellaneous Functions
 author: "Yihui Xie"
-date: "2021-01-06"
+date: "2021-05-18"
 slug: xfun
 githubEditURL: https://github.com/yihui/xfun/edit/master/vignettes/xfun.Rmd
 output:
@@ -137,7 +137,7 @@ xfun::file_string(f)
 ```
 
 ```
-YEAR: 2018-2020
+YEAR: 2018-2021
 COPYRIGHT HOLDER: Yihui Xie
 ```
 
@@ -146,7 +146,7 @@ as.character(xfun::file_string(f))  # essentially a character string
 ```
 
 ```
-[1] "YEAR: 2018-2020\nCOPYRIGHT HOLDER: Yihui Xie"
+[1] "YEAR: 2018-2021\nCOPYRIGHT HOLDER: Yihui Xie"
 ```
 
 ## Get the data URI of a file
@@ -160,7 +160,7 @@ xfun::base64_uri(f)
 ```
 
 ```
-## [1] "data:text/plain;base64,WUVBUjogMjAxOC0yMDIwCkNPUFlSSUdIVCBIT0xERVI6IFlpaHVpIFhpZQo="
+## [1] "data:text/plain;base64,WUVBUjogMjAxOC0yMDIxCkNPUFlSSUdIVCBIT0xERVI6IFlpaHVpIFhpZQo="
 ```
 
 ## Match strings and do substitutions
@@ -503,15 +503,15 @@ xfun::session_info(c("xfun", "rmarkdown", "knitr", "tinytex"), dependencies = FA
 ```
 
 ```
-## R version 4.0.3 (2020-10-10)
+## R version 4.0.5 (2021-03-31)
 ## Platform: x86_64-apple-darwin17.0 (64-bit)
 ## Running under: macOS Big Sur 10.16
 ## 
 ## Locale: en_US.UTF-8 / en_US.UTF-8 / en_US.UTF-8 / C / en_US.UTF-8 / en_US.UTF-8
 ## 
 ## Package version:
-##   knitr_1.30.3  rmarkdown_2.6 tinytex_0.28  xfun_0.20    
+##   knitr_1.33.4    rmarkdown_2.8.3 tinytex_0.31.5  xfun_0.23      
 ## 
-## Pandoc version: 2.11.3.2
+## Pandoc version: 2.11.4
 ```
 
