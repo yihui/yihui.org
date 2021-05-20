@@ -85,12 +85,12 @@
     },
     {
       "statusCode": 301,
-      "source": "/tinytex/bin/macos/tinytex",
+      "source": "/tinytex/bin/macos/tinytex(.*)",
       "destination": "https://ci.appveyor.com/api/projects/yihui/tinytex/artifacts/tinytex?job=image:%20macOS"
     },
     {
       "statusCode": 301,
-      "source": "/tinytex/bin/linux/tinytex",
+      "source": "/tinytex/bin/linux/tinytex(.*)",
       "destination": "https://ci.appveyor.com/api/projects/yihui/tinytex/artifacts/tinytex?job=image:%20Ubuntu"
     },
     {
