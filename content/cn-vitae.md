@@ -50,8 +50,8 @@ Email：xie@yihui.org；主页：<https://yihui.org>；现居住于美国内布�
 
 ### 实习
 
-1. 2012 夏季，[AT&T 实验室](http://research.att.com)，Florham，新泽西（指导：[Simon Urbanek](http://urbanek.info)）
-1. 2013 夏季，[Fred Hutchinson 癌症研究中心](http://www.fhcrc.org)（指导：[Raphael Gottardo](http://www.rglab.org)）
+1. 2012 夏季，AT&T 实验室，Florham，新泽西（指导：Simon Urbanek）
+1. 2013 夏季，Fred Hutchinson 癌症研究中心（指导：Raphael Gottardo）
 
 ### 网站建设与管理
 
@@ -60,9 +60,9 @@ Email：xie@yihui.org；主页：<https://yihui.org>；现居住于美国内布�
 #### 建设网站
 
 - 统计学讨论与研究网站“统计之都”：<https://cosx.org>
-- R Views 博客技术支持：<http://rviews.rstudio.com>
-- 中国人民大学统计学院网站：<http://stat.ruc.edu.cn>
-- 教育部重点研究基地，应用统计科学研究中心：<http://www.applstats.org>
+- R Views 博客技术支持：<https://rviews.rstudio.com>
+- 中国人民大学统计学院网站：<https://stat.ruc.edu.cn>
+- 教育部重点研究基地，应用统计科学研究中心
 - 中国人民大学风险管理与精算研究中心、中国人民大学数据挖掘中心等
 - 远大前程协会（中国人民大学学生社团）
 
@@ -82,8 +82,8 @@ Email：xie@yihui.org；主页：<https://yihui.org>；现居住于美国内布�
 - [第三届中国R语言会议（北京）](https://cosx.org/chinar/chinar-2010/)，2010 年 6 月 14 日 ~ 15 日
 - [第二届中国R语言会议（北京）](https://cosx.org/chinar/chinar-2009/)，2009 年 12 月 5 日 ~ 6 日
 - [第二届“创新推动经济发展的微观实证”国际学术研讨会](http://stat.ruc.edu.cn/cn/54222.html)，2008 年 4 月 21 日 ~ 23 日
-- [第 2 届“计量模型与中国·澳大利亚自由贸易区发展国际研讨会”](http://www.applstats.org/news/detail.asp?id=21)，2006 年 4 月 18 日 ~ 19 日
-- [第 15 届投入产出国际会议](http://www.applstats.org/io/index.htm)，2005 年 6 月 27 日 ~ 7 月 1 日
+- 第 2 届“计量模型与中国·澳大利亚自由贸易区发展国际研讨会”，2006 年 4 月 18 日 ~ 19 日
+- 第 15 届投入产出国际会议，2005 年 6 月 27 日 ~ 7 月 1 日
 - [2006年数据挖掘与商业智能研讨会](http://stat.ruc.edu.cn/cn/21777.html)，2006 年 4 月 2 日
 - [2006 年统计学国际论坛](http://stat.ruc.edu.cn/cn/notice/21904.html)，2006 年 6 月 10 日 ~ 11 日
 

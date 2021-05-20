@@ -104,12 +104,14 @@ Since late 2016, I started the [**blogdown**](https://github.com/rstudio/blogdow
 
 I spent the first half of 2018 on writing the book "[R Markdown: The Definitive Guide](https://bookdown.org/yihui/rmarkdown)" (published in July), and the last few months on the R package [**pagedown**](https://github.com/rstudio/pagedown).
 
-I was not very productive in 2019. I often felt drown in Github issues and Stack Overflow questions. There was too much maintainence work for me to do for my R packages. I planned to write the [R Markdown Cookbook](https://bookdown.org/yihui/rmarkdown-cookbook), but didn't finish it until the summer of 2020.
+I was not very productive in 2019. I often felt drown in Github issues and Stack Overflow questions. There was too much maintainence work for me to do for my R packages. I planned to write the [R Markdown Cookbook](https://bookdown.org/yihui/rmarkdown-cookbook), but didn't finish it until the summer of 2020. After that, I started to pay the huge amount of tech debt accumulated due to the hard time of COVID and the writing of the aforementioned book. I revamped the **blogdown** package in the second half of 2020.
+
+Since the September of 2019, I had been more and more overwhelmed by the workload. 2020 had been quite a traumatic year to me (perhaps to everyone else, too). Fortunately, the tech debt started to appear manageable at the end of the first half of 2021.
 
 ### Internship
 
-1. Summer 2012, [AT&T Labs Research](http://research.att.com), Florham, NJ (mentor: [Simon Urbanek](http://urbanek.info))
-1. Summer 2013, [Fred Hutchinson Cancer Research Center](http://www.fhcrc.org) (mentor: [Raphael Gottardo](http://www.rglab.org))
+1. Summer 2012, [AT&T Labs Research](http://research.att.com), Florham, NJ (mentor: [Simon Urbanek](https://urbanek.info))
+1. Summer 2013, [Fred Hutchinson Cancer Research Center](https://www.fredhutch.org) (mentor: [Raphael Gottardo](https://research.fredhutch.org/gottardo/))
 
 ### Website Management
 
@@ -117,8 +119,8 @@ Sept 2003 - Present
 
 I created and maintained web pages for:
 
-- [The School of Statistics](http://stat.ruc.edu.cn), Renmin University of China (Sept 2003 - Jun 2009)
-- [The Center for Applied Statistics](http://www.applstats.org), Renmin University of China (Apr 2004 - Jun 2009)
+- [The School of Statistics](https://stat.ruc.edu.cn), Renmin University of China (Sept 2003 - Jun 2009)
+- The Center for Applied Statistics, Renmin University of China (Apr 2004 - Jun 2009)
 - The Center for Risk Management and Actuarial Studies (Jun 2004 - Apr 2006); Data Mining Center of Renmin University of China (Jul 2004 - Apr 2006), etc
 - The "Great Expectation Society", a student society in Renmin University (Mar 2005 - Jul 2006)
 
@@ -149,7 +151,7 @@ I helped organize these conferences:
 - the 3rd Chinese R [conference](https://cosx.org/chinar/chinar-2010/) (Beijing), Jun 12~13, 2010
 - the 2nd Chinese R [conference](https://cosx.org/chinar/chinar-2009/) (Beijing & Shanghai), December 2009
 - Second [Conference](http://www.merit.unu.edu/MEIDE/) on Micro Evidence on Innovation in Developing Economies, April 22 ~ 23, 2008 (an international conference; I was also the Chair for the last session on April 22)
-- the 2nd [Conference](http://www.applstats.org/english/io/index.htm) on Australia-China Free Trade Agreement (ACFTA): Econometric Modeling and Policy in Trade, Investment and Economic Integration, April 17th ~ 18th, 2006
+- the 2nd Conference on Australia-China Free Trade Agreement (ACFTA): Econometric Modeling and Policy in Trade, Investment and Economic Integration, April 17th ~ 18th, 2006
 - the 15th International [Conference](http://stat.ruc.edu.cn/en/21940.html) on Input-Output Techniques, June 27th ~ July 1st, 2005
 - the Data Mining and Business Intelligence Conference 2006
 - the International Statistics [Forum](http://stat.ruc.edu.cn/en/22120.html) 2006
