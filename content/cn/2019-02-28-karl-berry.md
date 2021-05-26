@@ -12,4 +12,4 @@ slug: karl-berry
 
 老师傅请我给 TUGboat 写篇文章介绍一下 TinyTeX，还说这是 *nix 系统上他唯一知道的能自动安装缺失 LaTeX 包的 LaTeX 发行版（我有点不太相信，难道号称跨平台的 MiKTeX 在 *nix 上不能自动安装吗）。嘿嘿嘿嘿，过奖过奖。我这就给您写文章，只不过我不写纯 LaTeX 已经好几年，反斜杠已经打不利索，所以还是[用 Markdown 写吧](https://github.com/yihui/tinytex/tree/master/TUGboat)。
 
-这个跑这么快的故事跑了一年到此算是[落幕了](http://tug.org/TUGboat/Contents/contents40-1.html)。
+这个跑这么快的故事跑了一年到此算是[落幕了](https://tug.org/TUGboat/Contents/contents40-1.html)。
