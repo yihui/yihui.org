@@ -2,7 +2,7 @@
 title: formatR
 subtitle: Format R code automatically
 author: Yihui Xie
-date: "2021-04-22"
+date: "2021-05-27"
 show_toc: true
 slug: formatr
 githubEditURL: https://github.com/yihui/formatR/edit/master/vignettes/formatR.Rmd
@@ -43,13 +43,13 @@ sessionInfo()
 ```
 
 ```
-## R version 4.0.5 (2021-03-31)
+## R version 4.1.0 (2021-05-18)
 ## Platform: x86_64-apple-darwin17.0 (64-bit)
 ## Running under: macOS Big Sur 10.16
 ## 
 ## Matrix products: default
-## BLAS:   /Library/Frameworks/R.framework/Versions/4.0/Resources/lib/libRblas.dylib
-## LAPACK: /Library/Frameworks/R.framework/Versions/4.0/Resources/lib/libRlapack.dylib
+## BLAS:   /Library/Frameworks/R.framework/Versions/4.1/Resources/lib/libRblas.dylib
+## LAPACK: /Library/Frameworks/R.framework/Versions/4.1/Resources/lib/libRlapack.dylib
 ## 
 ## locale:
 ## [1] en_US.UTF-8/en_US.UTF-8/en_US.UTF-8/C/en_US.UTF-8/en_US.UTF-8
@@ -59,11 +59,11 @@ sessionInfo()
 ## [7] base     
 ## 
 ## other attached packages:
-## [1] formatR_1.9
+## [1] formatR_1.10.2
 ## 
 ## loaded via a namespace (and not attached):
-## [1] compiler_4.0.5 magrittr_2.0.1 tools_4.0.5    stringi_1.5.3 
-## [5] knitr_1.32     stringr_1.4.0  xfun_0.22.2    evaluate_0.14
+## [1] compiler_4.1.0 magrittr_2.0.1 tools_4.1.0    stringi_1.6.2 
+## [5] knitr_1.33     stringr_1.4.0  xfun_0.23      evaluate_0.14
 ```
 
 # 2. Reformat R code
@@ -71,16 +71,20 @@ sessionInfo()
 The **formatR** package was designed to reformat R code to improve readability;
 the main workhorse is the function `tidy_source()`. Features include:
 
--   long lines of code and comments are reorganized into appropriately shorter
-    ones
--   spaces and indent are added where necessary
--   comments are preserved in most cases
--   the number of spaces to indent the code (i.e. tab width) can be specified
-    (default is 4)
--   an `else` statement in a separate line without the leading `}` will be moved
-    one line back
--   `=` as an assignment operator can be replaced with `<-`
--   the left brace `{` can be moved to a new line
+-   Long lines of code and comments are reorganized into appropriately shorter
+    ones;
+-   Spaces and indentation are added where necessary;
+-   Comments are preserved in most cases;
+-   The number of spaces to indent the code (i.e., tab width) can be specified
+    (default is 4);
+-   An `else` statement on a separate line without the leading `}` will be moved
+    one line back;
+-   `=` as an assignment operator can be replaced with `<-`;
+-   The left brace `{` can be moved to a new line;
+-   Arguments of a function call can start on a new line after the function name
+    when they cannot fit on one line;
+-   Lines can be wrapped after pipes (both magrittr pipes such as `%>%` and R's
+    native pipe `|>` are supported).
 
 Below is an example of what `tidy_source()` can do. The source code is:
 
@@ -99,7 +103,7 @@ x=2;print('Oh no... ask the right bracket to go away!')}
 2+2+2    # only 'single quotes' are allowed in comments
 
 lm(y~x1+x2, data=data.frame(y=rnorm(100),x1=rnorm(100),x2=rnorm(100)))  ### a linear model
-1+1+1+1+1+1+1+1+1+1+1+1+1+1+1+1+1+1+1+1+1+1+1  # comment after a long line
+1+1+1+1+1+1+1+1+1+1+1+1+1+1+1+1+1+1+1+1+1  # comment after a long line
 ## here is a long long long long long long long long long long long long long comment that may be wrapped
 ```
 
@@ -122,13 +126,13 @@ if (TRUE) {
 1 * 3  # one space before this comment will become two!
 2 + 2 + 2  # only 'single quotes' are allowed in comments
 
-lm(y ~ x1 + x2, data = data.frame(y = rnorm(100), x1 = rnorm(100), 
+lm(y ~ x1 + x2, data = data.frame(y = rnorm(100), x1 = rnorm(100),
     x2 = rnorm(100)))  ### a linear model
-1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 
-    1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1  # comment after a long line
-## here is a long long long long long long long long
-## long long long long long comment that may be
-## wrapped
+1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 +
+    1 + 1 + 1 + 1 + 1 + 1 + 1 + 1  # comment after a long line
+## here is a long long long long long long long
+## long long long long long long comment that may
+## be wrapped
 ```
 
 Two applications of `tidy_source()`:
@@ -271,10 +275,30 @@ if (TRUE) {
 }
 ```
 
-## The pipe operator `%>%`
+## Start function arguments on a new line
 
-Since **formatR** 1.9, code lines contains operators `%>%`, `%T%`, `%$%`, and/or
-`%<>%` will be automatically wrapped after these operators. For example,
+With `args.newline = TRUE`, the example code below
+
+
+```r
+shiny::updateSelectizeInput(session, "foo", label = "New Label", selected = c("A",
+    "B"), choices = LETTERS, server = TRUE)
+```
+
+will be reformatted to:
+
+
+```r
+shiny::updateSelectizeInput(
+    session, "foo", label = "New Label", selected = c("A", "B"),
+    choices = LETTERS, server = TRUE
+)
+```
+
+## The pipe operators `%>%` and `|>`
+
+Since **formatR** 1.9, code lines contains operators `|>`, `%>%`, `%T%`, `%$%`,
+and/or `%<>%` will be automatically wrapped after these operators. For example,
 
 
 ```r
@@ -308,8 +332,8 @@ if (TRUE)
 
 
 ```r
-1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 
-    1 + 1 + 1 + 1 + 1  # comment after a long line
+1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 +
+    1 + 1 + 1  # comment after a long line
 ## here is a long long long long long long long long long long long long long comment that may be wrapped
 ```
 
@@ -326,10 +350,10 @@ if (TRUE) {
 }
 1 * 3
 2 + 2 + 2
-lm(y ~ x1 + x2, data = data.frame(y = rnorm(100), x1 = rnorm(100), 
+lm(y ~ x1 + x2, data = data.frame(y = rnorm(100), x1 = rnorm(100),
     x2 = rnorm(100)))
-1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 
-    1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1
+1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 +
+    1 + 1 + 1 + 1 + 1 + 1 + 1 + 1
 ```
 
 # 6. Further notes
@@ -340,7 +364,7 @@ exactly how comments are preserved. The best strategy to avoid failure is to put
 comments in complete lines or after *complete* R expressions. Below are some
 known cases in which `tidy_source()` fails.
 
-## In-line comments after an incomplete expression or ;
+## Inline comments after an incomplete expression or ;
 
 ``` {.r}
 1 + 2 + ## comments after an incomplete line
@@ -395,28 +419,6 @@ package is unable to correctly format the code using `?` with comments, e.g.
 
 In this case, it is recommended to use the function `help()` instead of the
 short-hand version `?`.
-
-## `->` with comments
-
-We can also use the right arrow `->` for assignment, e.g. `1:10 -> x`. I believe
-this flexibility is worthless, and it is amazing that a language has three
-assignment operators: `<-`, `=` and `->` (whereas almost all other languages
-uses `=` for assignment). Bad news for **formatR** is that it is unable to
-format code using both `->` and comments in a line, e.g.
-
-``` {.r}
-1:10 -> x  # assignment with right arrow
-```
-
-I recommend you to use `<-` or `=` consistently. What is more important is
-consistency. I always use `=` because it causes me no confusion (I do not
-believe it is ever possible for people to interpret `fun(a = 1)` as assigning
-`1` to a variable `a` instead of passing an argument value) and `<-` is more
-dangerous because it works everywhere (you might have unconsciously created a
-new variable `a` in `fun(a <- 1)`; see [an example
-here](https://stat.ethz.ch/pipermail/r-devel/2011-December/062786.html)). The
-only disadvantage is that most R people use `<-` so it may be difficult to
-collaborate with other people.
 
 # 7. How does `tidy_source()` actually work?
 
