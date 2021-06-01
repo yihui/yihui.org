@@ -17,13 +17,13 @@ I'll save this for another blog post in the future, but it is so important that
 I [repeat it
 everywhere](https://twitter.com/xieyihui/status/1397321215694540801) this year.
 If you still experience any major pain with **blogdown** (e.g., the Hugo version
-pain) but `blogdown::check_site()` does not help you fix it, I will be happy to
-write you a check.
+pain) and `blogdown::check_site()` does not help you fix it, I will be happy to
+write you a check. Seriously.
 
 ## Knit on Save, and Save on Knit---What do they mean?
 
 When you edit an R Markdown post in a **blogdown** site project, "Knit on Save"
-means blogdown will automatically (re)compiles your post as soon as you save the
+means blogdown will automatically (re)compile your post as soon as you save the
 post, and "Save on Knit" means your R Markdown post is saved (and also knitted)
 as soon as you click on the Knit button in RStudio.
 
