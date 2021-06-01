@@ -2,7 +2,7 @@
 title: formatR
 subtitle: Format R code automatically
 author: Yihui Xie
-date: "2021-05-27"
+date: "2021-05-31"
 show_toc: true
 slug: formatr
 githubEditURL: https://github.com/yihui/formatR/edit/master/vignettes/formatR.Rmd
@@ -59,7 +59,7 @@ sessionInfo()
 ## [7] base     
 ## 
 ## other attached packages:
-## [1] formatR_1.10.2
+## [1] formatR_1.10.5
 ## 
 ## loaded via a namespace (and not attached):
 ## [1] compiler_4.1.0 magrittr_2.0.1 tools_4.1.0    stringi_1.6.2 
@@ -494,6 +494,7 @@ There are global options which can override some arguments in `tidy_source()`:
 | `wrap`          | `options('formatR.wrap')`          | `TRUE`             |
 | `width.cutoff`  | `options('formatR.width')`         | `options('width')` |
 | `brace.newline` | `options('formatR.brace.newline')` | `FALSE`            |
+| `args.newline`  | `options('formatR.args.newline')`  | `FALSE`            |
 
 Also note that single lines of long comments will be wrapped into shorter ones
 automatically when `wrap = TRUE`, but roxygen comments will not be wrapped
