@@ -85,7 +85,7 @@ Kara's talk showed an inspiring and detailed example of how to fix a bug in a fa
 
 ## Jared Lander's annual feature requests
 
-I meet Jared Lander roughly annually. Each time he would make certain requests to me. For example, the **bookdown** package was an response to his request in 2014 when we met at the Strata conference. This year he wanted self-contained **xaringan** slides. This is a tricky issue because Markdown is not processed through Pandoc, but I'll see what I can do. The next request was a talk at the [New York R conference](https://www.rstats.nyc). I absolutely love this conference, but I'm still waiting for my two little kids to grow (I cannot offer them six meals a day to let them grow twice as fast). If any R Markdown ninja volunteers to go, I'll be happy to help create a Yihui-style talk.
+I meet Jared Lander roughly annually. Each time he would make certain requests to me. For example, the **bookdown** package was an response to his request in 2014 when we met at the Strata conference. This year he wanted [self-contained **xaringan** slides](/en/2021/06/self-contained-xaringan/). This is a tricky issue because Markdown is not processed through Pandoc, but I'll see [what I can do](https://github.com/yihui/xaringan/issues/3#issuecomment-626397137). The next request was a talk at the [New York R conference](https://www.rstats.nyc). I absolutely love this conference, but I'm still waiting for my two little kids to grow (I cannot offer them six meals a day to let them grow twice as fast). If any R Markdown ninja volunteers to go, I'll be happy to help create a Yihui-style talk.
 
 ## A random idea: turn your Dropbox folder into a public website through **plumber** and **rdrop2**
 
