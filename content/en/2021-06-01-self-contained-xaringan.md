@@ -86,7 +86,8 @@ telling you that the self-contained mode has been temporarily turned off when
 you live preview slides with `self_contained: true`.
 
 To get fully self-contained slides, you have to click the Knit button in RStudio
-to compile the Rmd document, or equivalently, use `rmarkdown::render()`.
+to compile the Rmd document, or equivalently, call the function
+`rmarkdown::render()`.
 
 ## Conclusion
 

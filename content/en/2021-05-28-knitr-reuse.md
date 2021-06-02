@@ -152,7 +152,7 @@ With all these methods, it should be more flexible to author and program a
 **knitr** document. They also manifest the spirit of Literate Programming
 (LP)---you should be able to program a document. [This aspect of
 LP](/en/2018/09/notebook-war/#literate-programming-for-real-for-software-development)
-is not commonly seen in tools that claim to base on LP.
+is not commonly seen in tools that claim to be based on LP.
 
 Anyway, LP aside, the above methods can certainly help you stick more tightly to
 the DRY principle. Once again, I'd like to thank Atsushi for the contribution.
