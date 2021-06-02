@@ -119,7 +119,12 @@ that* it is `ref.label`, not `opts.label`) and pass a chunk label wrapped in
 
 That means both the content and options of `chunk-a` will be applied to
 `chunk-b`. Without the `I()` trick, only the code content of `chunk-a` will be
-applied to `chunk-b`.
+applied to `chunk-b`. If you feel `I()` is [black
+magic](https://twitter.com/espinielli/status/1399796691151339520), you can use
+`opts.label = TRUE` instead---`ref.label = I('foo')` is just a shortcut of
+`ref.label = 'foo'` and `opts.label = TRUE` (`opts.label = TRUE` means
+inheriting chunk options). The marker `I()` often indicates that the value is
+"special."
 
 With `ref.label`, you can still add more local options to a chunk header. For
 example, we can define the alt text for the figure via the `fig.alt` option:
