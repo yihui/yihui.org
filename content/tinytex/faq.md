@@ -252,6 +252,6 @@ This list of FAQs explain the technical details of TinyTeX for those who are cur
 
 1. **How to open a command window (terminal) to execute the commands you mentioned?**
 
-    I'm not going to answer this question for Linux users. For macOS users, `Command + Space` to launch the Spotlight Search, and type `Terminal`. The first result should be `Terminal.app`. That is it. For Windows users, click the `Start` menu, select `Run`, and type `cmd`.
+    I'm not going to answer this question for Linux users. For macOS users, `Command + Space` to launch the Spotlight Search, and type `Terminal`. The first result should be `Terminal.app`. That is it. For Windows users, right-click the Windows icon in the taskbar and choose `Windows PowerShell`.
     
     If you are an [RStudio](https://www.rstudio.com) user, it can be easier. RStudio (>= v1.1) has [built-in support for terminals](https://blog.rstudio.com/2017/08/11/rstudio-v1-1-preview-terminal/), and you can open a terminal right inside RStudio.
