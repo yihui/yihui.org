@@ -29,7 +29,8 @@ it would be [**bookdown**](/en/2018/08/bookdown-crc/), and more importantly, the
 free and open books written with **bookdown**. I'm really glad that John managed
 to convince Chapman & Hall of allowing the online versions of books to be free.
 I also love the random emails from John telling me that they just had another
-book written in **bookdown**.
+book written in **bookdown** ([for
+example](https://twitter.com/JulianFaraway/status/1300838745801986048)).
 
 I asked John if he'd like to write something about his splendid career. He
 mentioned that someone else once asked him to list ten of his favorite books,
