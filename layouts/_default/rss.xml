@@ -19,7 +19,7 @@
       <guid>{{ .Permalink }}</guid>
       <description>
         {{ `<![CDATA[` | safeHTML }}
-        {{ replaceRE "\v" "" .Content | safeHTML }}
+        {{ (index (split (replaceRE "\v" "" .Content) "<!--# ON_HOLD -->") 0) | safeHTML }}
         {{ if eq .Section "en" }}
         {{ (printf "<script>location.href='%s';</script>" .Permalink) | safeHTML }}
         {{ end }}
