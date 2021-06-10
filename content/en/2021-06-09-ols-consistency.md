@@ -41,16 +41,14 @@ conclude the same thing by estimating `$\beta$` from the equation
 correlated:
 
 ``` r
-beta_est = function(N = 10000) {
-  x = runif(N)
-  e = .0014 * x
-  y = 2 * x + e  # i.e., y = 2.0014x
-  lm(y ~ x)
-}
+x = runif(10000)
+e = .0014 * x
+y = 2 * x + e  # i.e., y = 2.0014x
+lm(y ~ x)
 ```
 
-Apparently it would be silly, even if we get the same estimated value (2.0014),
-to conclude that consistency still exists when Corr(X, ε) = 1.
+Apparently it would not be sensible, even if we get the same estimated value
+(2.0014), to conclude that consistency still exists when Corr(X, ε) = 1.
 
 ## N needs to increase to illustrate consistency
 
