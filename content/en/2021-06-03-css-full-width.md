@@ -18,7 +18,8 @@ allow plots to overhang the body text in R
 Markdown](https://stackoverflow.com/q/67630290/559676). You may see my answer
 there for details. The key is that you set the width of the plot to be wider
 than its container, and move it to the left for a proper distance so that it can
-be centered on the page, which corresponds to the two lines of CSS:
+be centered on the page, which corresponds to the [two
+lines](https://twitter.com/xieyihui/status/1070927818920472577) of CSS:
 
 ``` css
  width: 100vw;
