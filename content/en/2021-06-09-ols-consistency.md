@@ -116,6 +116,8 @@ Xie](/en/2017/06/on-formality/)). My intuition is that
 `$y \approx 2x + a\sqrt{x} + c$`, where `$a$` is a small constant. I will
 appreciate it if anyone could give a rigorous explanation.
 
+---
+
 **Update on 2021/06/10**: [Nick has given an
 explanation](https://twitter.com/nickchk/status/1403185713659539456), which is
 quite obvious in hindsight. `X` and `e` are actually correlated in the above
