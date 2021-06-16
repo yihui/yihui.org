@@ -44,6 +44,11 @@ time](https://github.com/rstudio/rmarkdown/issues/2158#issuecomment-854176451) I
 found a problem caused by the lack of blank lines ("look, your wisdom shined
 again").
 
+BTW, if you use the RStudio [Visual Markdown
+Editor](https://rstudio.github.io/visual-markdown-editing/), you will not run
+into this problem. The visual editor will guarantee that blank lines will be
+inserted where appropriate.
+
 ## An anecdote
 
 The first time when I read Shannon's post, I told her a story. At the [2019
