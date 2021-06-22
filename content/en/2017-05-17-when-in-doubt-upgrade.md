@@ -76,3 +76,4 @@ P.S. A list of issues solved simply by updating packages:
 - [object `is_R_CMD_check` not found ](https://community.rstudio.com/t/94995)
 - [Booktabs in kable](https://github.com/yihui/knitr/issues/1989)
 - [Cannot Render Files](https://github.com/rstudio/rmarkdown/issues/2030)
+- [Rmarkdown doesn't knit the specified document but renders the copernicus.docx file](https://github.com/rstudio/bookdown/issues/1152#issuecomment-862675150)
