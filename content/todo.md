@@ -11,6 +11,7 @@ At the moment, I have **144** emails in my inbox to be dealt with (the earliest 
 
 ## TODO
 
+1. Use fuse.js in bookdown: https://github.com/rstudio/bookdown/pull/1183
 1. Revert inline CSS to `<style>`: https://github.com/rstudio/bookdown/issues/1170
 1. Questions to be answered:
     - https://stackoverflow.com/q/67853909/559676 Why is the image not rendered?
@@ -32,6 +33,7 @@ At the moment, I have **144** emails in my inbox to be dealt with (the earliest 
 1. Replace sundown with **commonmark** in **markdown**: https://github.com/yihui/knitr/issues/1329
 1. Optimize images automatically in blogdown
 1. Fix relative paths in Hugo's RSS feeds: https://github.com/rstudio/blogdown/issues/384
+1. Scrollama with blogdown/distill: https://github.com/yihui/rolldown/issues/14
 1. Watch https://resources.rstudio.com/resources/rstudioglobal-2021/
 1. A possible book: Presentation Ninja (xaringan, ioslides, slidy, revealjs, PowerPoint, beamer, shower, etc).
 1. A possible book about pagedown and CSS.
@@ -40,6 +42,8 @@ At the moment, I have **144** emails in my inbox to be dealt with (the earliest 
 
 This section is cleaned up from time to time.
 
+1. Don't disable vtangle if .Rout.save exists https://github.com/yihui/knitr/pull/2018
+1. xaringan themes: https://github.com/yihui/xaringan/pull/322 https://github.com/yihui/xaringan/pull/323
 1. https://github.com/yihui/xfun/releases/tag/v0.24
 1. https://github.com/rstudio/rmarkdown/releases/tag/v2.9
 1. https://github.com/yihui/tinytex/pull/315 Convert LaTeX warnings to individual R warnings to be emitted immediately.
@@ -53,6 +57,7 @@ This section is cleaned up from time to time.
 
 1. Support HTML widgets in **pagedown**: https://github.com/rstudio/pagedown/pull/87
 1. A Hugo theme based paged.js? https://www.pagedjs.org
+1. A Hugo layout for cards? https://apreshill.github.io/postcard/about.html
 1. A possible book on small successes. https://www.tiffanymatthe.com/not-extraordinary <!-- https://docs.google.com/document/d/1of3Q0ufUGLQ5ZYoF939qFzBR6rW5XoNhPtVJwoHoGEk/edit# -->
 1. Google doc to Markdown? <!-- Then we can even blog with Google doc -->
 1. Read Miles's introduction to **drake** and include it in the R Markdown Cookbook: https://milesmcbain.xyz/the-drake-post/ (Update: Will said **targets** would be the new **drake**, so no need to introduce **drake**)
@@ -72,6 +77,7 @@ If anyone is interested in any of the items below, please feel free to let me kn
 1. BibTeX references showing up twice in **bookdown**: https://github.com/rstudio/bookdown/issues/751
 1. Make TinyTeX more portable: https://github.com/yihui/tinytex/issues/133
 1. `xfun::numbers_to_words()` for numbers with decimal places: https://github.com/yihui/xfun/issues/18
+1. Live code in xaringan: https://github.com/yihui/xaringan/issues/206 The implementation is not totally clear to me, but I imagine users can double click on a code block on a slide to edit the code, and the edit can be sent back to the RStudio IDE or executed.
 
 ## Blog
 
