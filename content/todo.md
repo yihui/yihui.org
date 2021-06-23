@@ -3,15 +3,18 @@ title: Yihui's TODO List
 slug: todo
 ---
 
-Since 2019, I have felt too much burden in my work, which has seriously affected my productivity and ability to focus. To give a merciless evaluation of how much work I may need to do and set priorities appropriately, I decided to throw all of my TODO items onto this page, which will be updated on a daily basis. Another goal is to let other people know the possible things that I need help with. You may also have a better idea about when you can expect a reply if you [contact me by email](/en/about/#contact-me) for non-urgent matters or questions, according to my current status below.
+This page contains my TODO items, which I try to update every day. I guess I will never be able to finish all the work, so I will appreciate your help with any of the items on this page (fixing bugs, answering questions, or implementing features). Please feel free to let me know if you want to work on anything, and I will be happy to assist you.
+
+Looking at these items, you may make a better decision on whether to ask questions on a public forum before [emailing me](/en/about/#contact-me), according to my current status below. Please feel free to email me anyway if you do not need a prompt response, and please forgive my slow response.
 
 ## Status
 
-At the moment, I have **144** emails in my inbox to be dealt with (the earliest that I have not replied to was from _Nov 21, 2018_), **41** unread Github issues/PRs, and about **110** tabs open in my browser.
+At the moment, I have **141** emails in my inbox to be dealt with (the earliest that I have not replied to was from _Nov 21, 2018_), **17** unread Github issues/PRs, and about **23** tabs open in my browser.
+
+I will be on vacation from June 26 to July 13, 2021.
 
 ## TODO
 
-1. Use fuse.js in bookdown: https://github.com/rstudio/bookdown/pull/1183
 1. Revert inline CSS to `<style>`: https://github.com/rstudio/bookdown/issues/1170
 1. Questions to be answered:
     - https://stackoverflow.com/q/67853909/559676 Why is the image not rendered?
@@ -29,6 +32,7 @@ At the moment, I have **144** emails in my inbox to be dealt with (the earliest 
     - https://www.datalorax.com/post/new-website-theme/ Choosing themes.
     - https://www.garrickadenbuie.com/blog/add-a-generated-table-of-contents-anywhere-in-rmarkdown/ TOC
     - https://themockup.blog/posts/2020-08-01-building-a-blog-with-distill/ https://werk.statt.codes/post/2021-02-24-hellodistill/ Learn more about distill.
+    - https://education.rstudio.com/blog/2021/02/distill-it-down/
 1. Max's [SO question on highlighting inline code](https://stackoverflow.com/q/62629755/559676), which should be solvable via [**highr**](https://github.com/yihui/highr).
 1. Replace sundown with **commonmark** in **markdown**: https://github.com/yihui/knitr/issues/1329
 1. Optimize images automatically in blogdown
@@ -42,6 +46,9 @@ At the moment, I have **144** emails in my inbox to be dealt with (the earliest 
 
 This section is cleaned up from time to time.
 
+1. https://github.com/rstudio/pagedown/releases/tag/v0.15
+1. https://github.com/yihui/xaringan/releases/tag/v0.22
+1. Support fuse.js as the search engine for `bookdown::gitbook`: https://github.com/rstudio/bookdown/pull/1183
 1. Don't disable vtangle if .Rout.save exists https://github.com/yihui/knitr/pull/2018
 1. xaringan themes: https://github.com/yihui/xaringan/pull/322 https://github.com/yihui/xaringan/pull/323
 1. https://github.com/yihui/xfun/releases/tag/v0.24
