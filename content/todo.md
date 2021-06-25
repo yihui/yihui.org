@@ -9,7 +9,7 @@ Looking at these items, you may make a better decision on whether to ask questio
 
 ## Status
 
-At the moment, I have **141** emails in my inbox to be dealt with (the earliest that I have not replied to was from _Nov 21, 2018_), **17** unread Github issues/PRs, and about **23** tabs open in my browser.
+At the moment, I have **143** emails in my inbox to be dealt with (the earliest that I have not replied to was from _Nov 21, 2018_), **10** unread Github issues/PRs, and about **23** tabs open in my browser.
 
 I will be on vacation from June 26 to July 13, 2021.
 
@@ -46,6 +46,8 @@ I will be on vacation from June 26 to July 13, 2021.
 
 This section is cleaned up from time to time.
 
+1. xaringan useR theme fixes: https://github.com/yihui/xaringan/pull/328
+1. https://github.com/rstudio/rticles/releases/tag/v0.20
 1. https://github.com/rstudio/pagedown/releases/tag/v0.15
 1. https://github.com/yihui/xaringan/releases/tag/v0.22
 1. Support fuse.js as the search engine for `bookdown::gitbook`: https://github.com/rstudio/bookdown/pull/1183
