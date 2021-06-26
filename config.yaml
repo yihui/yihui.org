@@ -40,9 +40,12 @@ menu:
     - name: "Vitae"
       url: "/en/vitae/"
       weight: 4
+    - name: "TODO"
+      url: "/todo/"
+      weight: 5
     - name: "中文"
       url: "/cn/"
-      weight: 5
+      weight: 6
   cn:
     - name: "首页"
       url: "/"
@@ -59,9 +62,12 @@ menu:
     - name: "菜谱"
       url: "/cn/recipe/"
       weight: 5
+    - name: "事务"
+      url: "/todo/"
+      weight: 7
     - name: "English"
       url: "/en/"
-      weight: 6
+      weight: 8
   knitr:
     - name: "Home"
       url: "/knitr/"

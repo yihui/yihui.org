@@ -9,12 +9,13 @@ Looking at these items, you may make a better decision on whether to ask questio
 
 ## Status
 
-At the moment, I have **143** emails in my inbox to be dealt with (the earliest that I have not replied to was from _Nov 21, 2018_), **10** unread Github issues/PRs, and about **23** tabs open in my browser.
+At the moment, I have **140** emails in my inbox to be dealt with (the earliest that I have not replied to was from _Nov 21, 2018_), **10** unread Github issues/PRs, and about **23** tabs open in my browser.
 
-I will be on vacation from June 26 to July 13, 2021.
+I'm on vacation from June 26 to July 13, 2021.
 
 ## TODO
 
+1. A talk in the "My first useR" session at useR 2021 on July 4th, tentatively titled "My journey in writing books and blogging about R".
 1. Revert inline CSS to `<style>`: https://github.com/rstudio/bookdown/issues/1170
 1. Questions to be answered:
     - https://stackoverflow.com/q/67853909/559676 Why is the image not rendered?
@@ -46,6 +47,7 @@ I will be on vacation from June 26 to July 13, 2021.
 
 This section is cleaned up from time to time.
 
+1. Write out tinytex regexes to json: https://yihui.org/tinytex/regex.tar.gz
 1. xaringan useR theme fixes: https://github.com/yihui/xaringan/pull/328
 1. https://github.com/rstudio/rticles/releases/tag/v0.20
 1. https://github.com/rstudio/pagedown/releases/tag/v0.15
