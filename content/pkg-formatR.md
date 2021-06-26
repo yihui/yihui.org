@@ -2,7 +2,7 @@
 title: formatR
 subtitle: Format R code automatically
 author: Yihui Xie
-date: "2021-05-31"
+date: "2021-06-26"
 show_toc: true
 slug: formatr
 githubEditURL: https://github.com/yihui/formatR/edit/master/vignettes/formatR.Rmd
@@ -59,7 +59,7 @@ sessionInfo()
 ## [7] base     
 ## 
 ## other attached packages:
-## [1] formatR_1.10.5
+## [1] formatR_1.11
 ## 
 ## loaded via a namespace (and not attached):
 ## [1] compiler_4.1.0 magrittr_2.0.1 tools_4.1.0    stringi_1.6.2 
@@ -165,8 +165,8 @@ Two applications of `tidy_source()`:
 # 3. The Graphical User Interface
 
 If the **shiny** packages has been installed, the function `tidy_app()` can
-launch a Shiny app to reformat R code like this ([live
-demo](https://yihui.shinyapps.io/formatR/)):
+launch a Shiny app to reformat R code like this (live demo at
+`https://yihui.shinyapps.io/formatR/`):
 
 ``` {.r}
 formatR::tidy_app()
