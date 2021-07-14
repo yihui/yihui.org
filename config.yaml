@@ -40,7 +40,7 @@ menu:
     - name: "Vitae"
       url: "/en/vitae/"
       weight: 4
-    - name: "TODO"
+    - name: "Todo"
       url: "/todo/"
       weight: 5
     - name: "中文"
@@ -62,6 +62,9 @@ menu:
     - name: "菜谱"
       url: "/cn/recipe/"
       weight: 5
+    - name: "孩童"
+      url: "/cn/kids/"
+      weight: 6
     - name: "事务"
       url: "/todo/"
       weight: 7
@@ -137,7 +140,7 @@ menu:
 
 params:
   description: "Personal website of Yihui Xie; 谢益辉的个人网站"
-  footer: "&copy; [Yihui Xie](/) 2005 - 2020"
+  footer: "&copy; [Yihui Xie](/) 2005 - 2021"
   disqusURL: "https://yihui.org"
   customJS:
     - "js/fix-toc.js"

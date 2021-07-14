@@ -15,6 +15,9 @@ I'm on vacation from June 26 to July 13, 2021.
 
 ## TODO
 
+1. https://github.com/yihui/crandalf/pull/18
+1. https://github.com/rbind/apreshill/issues/44#issuecomment-873312747
+1. https://twitter.com/tijoalca/status/1412265759867387904
 1. A talk in the "My first useR" session at useR 2021 on July 4th, tentatively titled "My journey in writing books and blogging about R".
 1. Revert inline CSS to `<style>`: https://github.com/rstudio/bookdown/issues/1170
 1. Questions to be answered:
@@ -42,6 +45,10 @@ I'm on vacation from June 26 to July 13, 2021.
 1. Watch https://resources.rstudio.com/resources/rstudioglobal-2021/
 1. A possible book: Presentation Ninja (xaringan, ioslides, slidy, revealjs, PowerPoint, beamer, shower, etc).
 1. A possible book about pagedown and CSS.
+1. Reply to https://github.com/yihui/rmarkdown-cookbook/issues/215#issuecomment-633148829
+1. Digest https://github.com/rstudio/distill/issues/152.
+1. Look into this problem: https://stackoverflow.com/q/60014350/559676. Sounds like a bug introduced by a certain version of bookdown.
+1. Review https://github.com/rstudio/DT/pull/836
 
 ## Done
 
@@ -106,6 +113,7 @@ If anyone is interested in any of the items below, please feel free to let me kn
 
 ## 私人事项
 
+1. 通读 https://yihanxu.github.io/archive/
 1. 一堆未读推特消息，从 2020/07/01 开始：<https://t.yihui.org>
 1. 这位大人对 knitr 钻研似乎颇深，是个人才，也许可以拉来做点什么事：<https://stackoverflow.com/users/2706569/cl>
 1. 家教有关的阅读
@@ -132,6 +140,21 @@ If anyone is interested in any of the items below, please feel free to let me kn
 1. https://github.com/seankross/postcards
 1. https://github.com/etiennebacher/docsifier
 1. https://twitter.com/Warreningshot/status/1379664918450905089 blogdown 复古主题？
+
+## 日程安排
+
+| 时间 | 事项                                             |
+|------|--------------------------------------------------|
+| 周一 | 朝九晚五；下午核查团队工作进度 |
+| 周二 | 朝九晚五 |
+| 周三 | 朝九晚五 |
+| 周四 | 朝九晚五 |
+| 周五 | 下午非紧急邮件、COS + SO 论坛、Disqus 后台；微博；推特 |
+| 周六 |  |
+| 周日 | 晚上看 Feedly |
+
+另外，每天下班前一小时：查阅 Github 事项、安排第二天工作。晚 11 点后回复微信。
+
 
 <script>
 document.querySelectorAll('.main a').forEach(function(el) {

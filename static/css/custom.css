@@ -41,6 +41,9 @@ body {
 code {
   hyphens: none;
 }
+a {
+  border-bottom: 1px dashed;
+}
 iframe, twitterwidget, video {
   max-width: 100%;
   display: block;
