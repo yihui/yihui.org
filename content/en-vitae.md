@@ -201,6 +201,7 @@ Projects participated:
 
 Most of my slides were generated from R Markdown (especially the ones in recent years). To download the R Markdown source documents, simply replace the extension `.html` with `.Rmd` in the address bar of your web browser.
 
+- Yihui Xie, 2021, _My journey in writing books and blogging about R_, useR! 2021 ([slides](https://slides.yihui.org/2021-useR-journey.html))
 - Yihui Xie, 2021, _An introduction to TinyTeX_, [TeX Hour](https://jfine2358.github.io/contact/) organized by Jonathan Fine
 - Yihui Xie, 2021, _The fun of cooking_, DahShu ([slides](https://slides.yihui.org/2021-dahshu-kitchen.html); [video](https://youtu.be/JoFroYuajlE))
 - Yihui Xie, 2020, _A fool's random walk of 18 years (reflections on the past 18 years of my life and career)_, Renmin University of China ([slides](https://slides.yihui.org/2020-random-walk.html); [video](https://vimeo.com/492610094))
