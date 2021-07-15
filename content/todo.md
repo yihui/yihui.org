@@ -9,16 +9,14 @@ Looking at these items, you may make a better decision on whether to ask questio
 
 ## Status
 
-At the moment, I have **140** emails in my inbox to be dealt with (the earliest that I have not replied to was from _Nov 21, 2018_), **10** unread Github issues/PRs, and about **23** tabs open in my browser.
+At the moment, I have **144** emails in my inbox to be dealt with (the earliest that I have not replied to was from _Nov 21, 2018_), **100** unread Github issues/PRs, and about **10** tabs open in my browser.
 
-I'm on vacation from June 26 to July 13, 2021.
+I just came back from vacation on July 14, 2021. I'm catching up on Github issues and emails.
 
 ## TODO
 
-1. https://github.com/yihui/crandalf/pull/18
-1. https://github.com/rbind/apreshill/issues/44#issuecomment-873312747
+1. https://github.com/rbind/apreshill/issues/44#issuecomment-873312747 https://github.com/rstudio/blogdown/issues/638
 1. https://twitter.com/tijoalca/status/1412265759867387904
-1. A talk in the "My first useR" session at useR 2021 on July 4th, tentatively titled "My journey in writing books and blogging about R".
 1. Revert inline CSS to `<style>`: https://github.com/rstudio/bookdown/issues/1170
 1. Questions to be answered:
     - https://stackoverflow.com/q/67853909/559676 Why is the image not rendered?
@@ -54,22 +52,8 @@ I'm on vacation from June 26 to July 13, 2021.
 
 This section is cleaned up from time to time.
 
+1. A talk in the "My first useR" session at useR 2021 on July 4th, tentatively titled "My journey in writing books and blogging about R".
 1. Write out tinytex regexes to json: https://yihui.org/tinytex/regex.tar.gz
-1. xaringan useR theme fixes: https://github.com/yihui/xaringan/pull/328
-1. https://github.com/rstudio/rticles/releases/tag/v0.20
-1. https://github.com/rstudio/pagedown/releases/tag/v0.15
-1. https://github.com/yihui/xaringan/releases/tag/v0.22
-1. Support fuse.js as the search engine for `bookdown::gitbook`: https://github.com/rstudio/bookdown/pull/1183
-1. Don't disable vtangle if .Rout.save exists https://github.com/yihui/knitr/pull/2018
-1. xaringan themes: https://github.com/yihui/xaringan/pull/322 https://github.com/yihui/xaringan/pull/323
-1. https://github.com/yihui/xfun/releases/tag/v0.24
-1. https://github.com/rstudio/rmarkdown/releases/tag/v2.9
-1. https://github.com/yihui/tinytex/pull/315 Convert LaTeX warnings to individual R warnings to be emitted immediately.
-1. https://stackoverflow.com/q/67977033/559676 Why the shortcode `blogdown/postref` didn't work.
-1. Emit a message instead of warning when building Rmd vignettes without Pandoc: https://github.com/rstudio/rmarkdown/issues/2165
-1. knitr `include_url()` error in RStudio: https://github.com/yihui/knitr/pull/2015
-1. a note about custom blocks in bookdown: https://github.com/rstudio/bookdown/pull/1174
-1. document the new syntax of bookdown theorem/proof environments: https://github.com/rstudio/bookdown/pull/1173
 
 ## Backlog
 
