@@ -9,13 +9,13 @@ Looking at these items, you may make a better decision on whether to ask questio
 
 ## Status
 
-At the moment, I have **144** emails in my inbox to be dealt with (the earliest that I have not replied to was from _Nov 21, 2018_), **100** unread Github issues/PRs, and about **10** tabs open in my browser.
+At the moment, I have **147** emails in my inbox to be dealt with (the earliest that I have not replied to was from _Nov 21, 2018_), **50** unread Github issues/PRs, and about **10** tabs open in my browser.
 
 I just came back from vacation on July 14, 2021. I'm catching up on Github issues and emails.
 
 ## TODO
 
-1. https://github.com/rbind/apreshill/issues/44#issuecomment-873312747 https://github.com/rstudio/blogdown/issues/638
+1. https://github.com/rstudio/rmarkdown/issues/2187
 1. https://twitter.com/tijoalca/status/1412265759867387904
 1. Revert inline CSS to `<style>`: https://github.com/rstudio/bookdown/issues/1170
 1. Questions to be answered:
@@ -52,6 +52,7 @@ I just came back from vacation on July 14, 2021. I'm catching up on Github issue
 
 This section is cleaned up from time to time.
 
+1. Hugo academic theme is broken again: https://github.com/rbind/apreshill/issues/44#issuecomment-873312747 https://github.com/rstudio/blogdown/issues/638
 1. A talk in the "My first useR" session at useR 2021 on July 4th, tentatively titled "My journey in writing books and blogging about R".
 1. Write out tinytex regexes to json: https://yihui.org/tinytex/regex.tar.gz
 
