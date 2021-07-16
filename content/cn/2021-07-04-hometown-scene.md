@@ -21,7 +21,7 @@ slug: hometown-scene
 正月从大舅家扛回树苗种樱桃  
 初夏初见花褪残红樱桃小<!--# 花褪残红青杏小 -->  
 看完雀跃上学水杉道  
-一路豌豆叭果布谷鸟  
+一路豌豆叭果布谷鸟<!--# 如此这般：https://www.bilibili.com/video/BV1ZA411g7tU -->  
 湿鞋穿过露草<!--# https://yihui.org/cn/2021/06/awaken-to-summer/ -->  
 惊的青蛙、眠的流萤、舞的芭茅<!--# https://yihui.org/cn/2019/08/silvergrass/ -->
 
@@ -54,7 +54,7 @@ slug: hometown-scene
 屋檐坠落的雨晶珠链追缠着阳沟里泛来泛去的水泡<!--# 冰心《笑》泛来泛去；梁弘志《请跟我来》水晶珠链 -->
 
 暑假里照例去姑妈家嬉闹  
-姑父夜夜打地铺将哥四个当苕镐<!--# 背景：https://yihui.org/cn/2019/04/xing-zhou/ -->  
+姑爹夜夜打地铺将哥四个当苕镐<!--# 背景：https://yihui.org/cn/2019/04/xing-zhou/ -->  
 一直镐到初中毕业我们已成大苗  
 那一夜云淡月皓  
 曾柔思念着小宝<!--# 99 年《鹿鼎记》：https://yihui.org/cn/2020/07/birthday-memories/ -->  
