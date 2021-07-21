@@ -9,18 +9,19 @@ Looking at these items, you may make a better decision on whether to ask questio
 
 ## Status
 
-At the moment, I have **146** emails in my inbox to be dealt with (the earliest that I have not replied to was from _Nov 21, 2018_), **51** unread Github issues/PRs, and about **20** tabs open in my browser.
+At the moment, I have **146** emails in my inbox to be dealt with (the earliest that I have not replied to was from _Nov 21, 2018_), **31** unread Github issues/PRs, and about **20** tabs open in my browser.
 
 I just came back from vacation on July 14, 2021. I'm catching up on Github issues and emails.
 
 ## TODO
 
-1. https://twitter.com/tijoalca/status/1412265759867387904
+1. Release blogdown to CRAN: https://github.com/rstudio/blogdown/issues
 1. Revert inline CSS to `<style>`: https://github.com/rstudio/bookdown/issues/1170
 1. Questions to be answered:
     - https://stackoverflow.com/q/67853909/559676 Why is the image not rendered?
     - https://community.rstudio.com/t/106550 Why shortcode doesn't work in `.Rmd -> .html`
     - https://community.rstudio.com/t/106243 How to read a chunk from an external Rmd? Perhaps I need to export the parser from **knitr**, although there is a **parsermd** package, which I haven't taken a close look yet
+1. blogdown book PRs: https://github.com/rstudio/blogdown/pull/619 https://github.com/rstudio/blogdown/pull/620 https://github.com/rstudio/blogdown/pull/623 
 1. Read and probably respond to a few posts related to blogdown:
     - https://solomonkurz.netlify.app/post/2021-05-03-blogdown-updates-prompted-a-website-overhaul-these-are-my-notes/ Overhaul a blogdown site
     - https://www.jumpingrivers.com/blog/moving-to-hugo-tips-tricks-optimisation/ Hugo tips and tricks
@@ -38,6 +39,7 @@ I just came back from vacation on July 14, 2021. I'm catching up on Github issue
 1. Replace sundown with **commonmark** in **markdown**: https://github.com/yihui/knitr/issues/1329
 1. Optimize images automatically in blogdown
 1. Fix relative paths in Hugo's RSS feeds: https://github.com/rstudio/blogdown/issues/384
+1. hugo-prose: https://github.com/yihui/hugo-prose/pull/41
 1. Scrollama with blogdown/distill: https://github.com/yihui/rolldown/issues/14
 1. Watch https://resources.rstudio.com/resources/rstudioglobal-2021/
 1. A possible book: Presentation Ninja (xaringan, ioslides, slidy, revealjs, PowerPoint, beamer, shower, etc).
@@ -51,6 +53,8 @@ I just came back from vacation on July 14, 2021. I'm catching up on Github issue
 
 This section is cleaned up from time to time.
 
+1. https://github.com/rstudio/bookdown/pull/1035
+1. https://github.com/yihui/tinytex/pull/318
 1. https://github.com/rstudio/rmarkdown/issues/2187
 1. bookdown 404 https://github.com/rstudio/bookdown/pull/1035
 1. keep the first URL only in citation https://github.com/yihui/knitr/issues/2028
