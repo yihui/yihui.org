@@ -6,7 +6,7 @@ slug: when-in-doubt-upgrade
 
 I have said this many times in several Github issues and it is also the very first [FAQ](/knitr/faq/) of **knitr**. It is a little exaggerative and certainly not a universal rule, but it helps a lot if you could try to upgrade everything before you report a software issue. It is even more helpful if you could also install the development version of the software and see if the problem has gone. Although it sounds like a joke, [@ThePracticalDev](https://twitter.com/ThePracticalDev/) actually has a very good point:
 
-[![](https://pbs.twimg.com/media/Cf7eHZ1W4AEeZJA.jpg)](https://twitter.com/ThePracticalDev/status/720257210161311744/)
+[![Changing stuff and seeing what happens](https://pbs.twimg.com/media/Cf7eHZ1W4AEeZJA.jpg)](https://twitter.com/ThePracticalDev/status/720257210161311744/)
 
 You may replace "Changing Stuff" with "Upgrading Stuff" above.
 
