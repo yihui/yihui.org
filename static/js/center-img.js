@@ -7,14 +7,15 @@
       // center an image if it is the only element of its parent
       if (parent.childNodes.length === 1) {
         // if there is a link on image, check grandparent
-        if (parent.nodeName === 'A') {
+        var parentA = parent.nodeName === 'A';
+        if (parentA) {
           parent = parent.parentElement;
           if (parent.childNodes.length != 1) continue;
           parent.firstChild.style.border = 'none';
         }
         if (parent.nodeName === 'P') {
           parent.style.textAlign = 'center';
-          if (tagName === 'img') {
+          if (!parentA && tagName === 'img') {
             parent.innerHTML = '<a href="' + tag.src + '" style="border: none;">' +
               tag.outerHTML + '</a>';
           }
