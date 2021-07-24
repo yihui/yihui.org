@@ -9,13 +9,12 @@ Looking at these items, you may make a better decision on whether to ask questio
 
 ## Status
 
-At the moment, I have **146** emails in my inbox to be dealt with (the earliest that I have not replied to was from _Nov 21, 2018_), **31** unread Github issues/PRs, and about **20** tabs open in my browser.
+At the moment, I have **150** emails in my inbox to be dealt with (the earliest that I have not replied to was from _Nov 21, 2018_), **15** unread Github issues/PRs, and about **20** tabs open in my browser.
 
 I just came back from vacation on July 14, 2021. I'm catching up on Github issues and emails.
 
 ## TODO
 
-1. Release blogdown to CRAN: https://github.com/rstudio/blogdown/issues
 1. Revert inline CSS to `<style>`: https://github.com/rstudio/bookdown/issues/1170
 1. Questions to be answered:
     - https://stackoverflow.com/q/67853909/559676 Why is the image not rendered?
@@ -53,6 +52,11 @@ I just came back from vacation on July 14, 2021. I'm catching up on Github issue
 
 This section is cleaned up from time to time.
 
+1. Release blogdown to CRAN: https://github.com/rstudio/blogdown/releases/tag/v1.4
+1. review https://github.com/rstudio/bookdown/pull/1201
+1. install arm hugo: https://github.com/rstudio/blogdown/issues/636
+1. clean *_files dirs: https://github.com/rstudio/blogdown/issues/632
+1. https://github.com/rstudio/rmarkdown/pull/2190
 1. https://github.com/rstudio/bookdown/pull/1035
 1. https://github.com/yihui/tinytex/pull/318
 1. https://github.com/rstudio/rmarkdown/issues/2187
@@ -123,6 +127,7 @@ If anyone is interested in any of the items below, please feel free to let me kn
 1. ggplot 灰色背景：https://stats.stackexchange.com/q/25220/10946 https://twitter.com/WilliamsNeuro/status/1318419069968658432
 1. 为 XD 和邻居架设网站
 1. 用 `IntersectionObserver` 而不是 `scroll` 事件检测评论区是否滚到了当前视图下： https://blog.skk.moe/post/prevent-disqus-from-slowing-your-site/
+1. [洛宁蒸肉](https://mp.weixin.qq.com/s/6UGYqfXzvBjBa8xJYPhGFQ)：五花肉、粉丝、玉米面、葱姜蒜、酱油、蚝油、盐。
 
 ## 随机事项
 
