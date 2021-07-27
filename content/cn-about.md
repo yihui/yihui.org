@@ -73,7 +73,7 @@ slug: "cn/about"
 
 姓名拼音排序：
 
-- [陈丽云](http://www.loyhome.com)：山东大学，经济学，网站控，useR
+- [陈丽云](http://www.loyhome.com)：经济学，网站控，useR，旅游，自驾飞机
 - [高涛](https://joegaotao.github.io)：统计，机器学习，唇红齿白
 - [胡江堂](http://jiangtanghu.com/cn/)：北大软件学院，经济学，SAS程序员，一肚子墨水，一手好字
 - [黄晨成](https://liam0205.me)：码农，TeX 专家
@@ -81,11 +81,14 @@ slug: "cn/about"
 - [李昕垚](http://www.xinyao.pub)：useR，经济，金融，文学，历史
 - [廖永賦](https://yongfu.name)：对 R Markdown 的介绍写得比我还好
 - [刘思喆](http://www.bjt.name)：人大，useR，数据挖掘
+- [逄金吉](https://jinjipang.com)：艺术就是爆炸
 - [邱怡轩](http://yixuan.cos.name/)：人大，useR，GNU，统计，过细之人
 - [谭显英](https://shrektan.com)：useR，金融，靠谱厮
 - [肖楠](https://nanx.me)：中南大学，useR，技术控
 - [徐依含](https://yihanxu.github.io)：能言善辩，爱追问，爱读书
+- [颜林林](https://yanlinlin.cn)：老站长，程序员，useR，GNU，生物
 - [杨洵默](https://tcya.xyz)：脑力深邃
+- [叶寻](https://cyrusyip.org)：正念，学习，游戏
 - [殷腾飞](http://www.tengfei.name/)：ISU，生物，统计
 - [俞丽佳](https://yulijia.net)：生物信息、码农、靠谱厮
 - [于淼](https://yufree.cn)：环境科学，useR，思考者
@@ -96,7 +99,6 @@ slug: "cn/about"
 - [陈钢](http://www.gossipcoder.com/)：中南大学，useR，生物信息学，译者
 - [范建宁](http://blog.cos.name/fan)：川大人大，量化投资，useR，许三多
 - [魏太云](http://blog.cos.name/taiyun)：中南大学/人大，useR，可视化，数学建模，文绉绉
-- [颜林林](http://yanlinlin82.vicp.net/blog/)：useR，GNU，生物
 -->
 
 ### 统计
@@ -106,6 +108,6 @@ slug: "cn/about"
 ### 软件
 
 - [R 语言](https://www.r-project.org)：自由的统计计算和图形软件
-- [pandoc](https://pandoc.org)：强大的文档转换工具，极客必备杀器，以防愣头客户索要 Word 版本
-- [LyX](https://www.lyx.org)：让 LaTeX 死忠死忠去吧，反正我讨厌阅读 TeX 源代码
+- [Pandoc](https://pandoc.org)：强大的文档转换工具，极客必备杀器，以防愣头客户索要 Word 版本
+- [LyX](https://www.lyx.org)：最厉害的 LaTeX 可视化编辑器
 - [Hugo](https://gohugo.io)：静态网站生成器
