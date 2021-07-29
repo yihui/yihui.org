@@ -9,12 +9,13 @@ Looking at these items, you may make a better decision on whether to ask questio
 
 ## Status
 
-At the moment, I have **150** emails in my inbox to be dealt with (the earliest that I have not replied to was from _Nov 21, 2018_), **15** unread Github issues/PRs, and about **20** tabs open in my browser.
+At the moment, I have **152** emails in my inbox to be dealt with (the earliest that I have not replied to was from _Nov 21, 2018_), **25** unread Github issues/PRs, and about **30** tabs open in my browser.
 
 I just came back from vacation on July 14, 2021. I'm catching up on Github issues and emails.
 
 ## TODO
 
+1. Update jQuery in bookdown: https://github.com/rstudio/bookdown/issues/1118 https://github.com/rstudio/bookdown/pull/882 https://github.com/rstudio/bookdown/pull/693
 1. Revert inline CSS to `<style>`: https://github.com/rstudio/bookdown/issues/1170
 1. Questions to be answered:
     - https://stackoverflow.com/q/67853909/559676 Why is the image not rendered?
@@ -52,6 +53,9 @@ I just came back from vacation on July 14, 2021. I'm catching up on Github issue
 
 This section is cleaned up from time to time.
 
+1. Syntax highlighting of `|>`: https://github.com/rstudio/bookdown/issues/1157
+1. `targets` engine in knitr: https://github.com/yihui/knitr/pull/2031
+1. Delete the duplicated `config/` dir: https://github.com/rstudio/blogdown/issues/644
 1. Release blogdown to CRAN: https://github.com/rstudio/blogdown/releases/tag/v1.4
 1. review https://github.com/rstudio/bookdown/pull/1201
 1. install arm hugo: https://github.com/rstudio/blogdown/issues/636
