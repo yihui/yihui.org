@@ -273,6 +273,7 @@ Email：xie@yihui.org；主页：<https://yihui.org>；现居住于美国内布�
 
 ### 书籍
 
+1. 赵鹏，谢益辉，黄湘云（2021），《[现代统计图形](https://bookdown.org/xiangyun/msg/)》，[人民邮电出版社](https://www.ituring.com.cn/book/2951)，书号 978-7-115-56690-4
 1. Yihui Xie, Christophe Dervieux, Emily Riederer (2020). [_R Markdown Cookbook_](https://bookdown.org/yihui/rmarkdown-cookbook). Chapman & Hall/[CRC](https://www.routledge.com/p/book/9780367563837). ISBN 9780367563837.
 1. Yihui Xie, J. J. Allaire, Garrett Grolemund (2018). [_R Markdown: The Definitive Guide_](https://bookdown.org/yihui/rmarkdown). Chapman & Hall/[CRC](https://www.crcpress.com/p/book/9781138359338). ISBN 9781138359338.
 1. Yihui Xie, Amber Thomas, Alison Presmanes Hill (2017). [_blogdown: Creating Websites with R Markdown_](https://bookdown.org/yihui/blogdown). [Chapman & Hall/CRC](https://www.crcpress.com/p/book/9780815363729). ISBN 9780815363729.

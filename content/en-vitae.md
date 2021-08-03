@@ -71,10 +71,10 @@ Papers:
 
 ### In Chinese
 
-Books under development:
+Books:
 
-1. [R Ninja](https://bookdown.org/yihui/r-ninja)
-1. [Modern Statistical Graphics](https://github.com/yihui/MSG)
+1. Peng Zhao, Yihui Xie, Xiangyun Huang (2021). [_Modern Statistical Graphics_](https://bookdown.org/xiangyun/msg/). [Posts & Telecom Press Co., Ltd.](https://www.ituring.com.cn/book/2951) ISBN 9787115566904.
+1. [R Ninja](https://bookdown.org/yihui/r-ninja) (under development)
 
 Papers:
 
