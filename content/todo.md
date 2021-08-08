@@ -9,13 +9,13 @@ Looking at these items, you may make a better decision on whether to ask questio
 
 ## Status
 
-At the moment, I have **152** emails in my inbox to be dealt with (the earliest that I have not replied to was from _Nov 21, 2018_), **25** unread Github issues/PRs, and about **30** tabs open in my browser.
+At the moment, I have **153** emails in my inbox to be dealt with (the earliest that I have not replied to was from _Nov 21, 2018_), **18** unread Github issues/PRs, and about **40** tabs open in my browser.
 
 I just came back from vacation on July 14, 2021. I'm catching up on Github issues and emails.
 
 ## TODO
 
-1. Update jQuery in bookdown: https://github.com/rstudio/bookdown/issues/1118 https://github.com/rstudio/bookdown/pull/882 https://github.com/rstudio/bookdown/pull/693
+1. bookdown book PRs
 1. Revert inline CSS to `<style>`: https://github.com/rstudio/bookdown/issues/1170
 1. Questions to be answered:
     - https://stackoverflow.com/q/67853909/559676 Why is the image not rendered?
@@ -53,21 +53,11 @@ I just came back from vacation on July 14, 2021. I'm catching up on Github issue
 
 This section is cleaned up from time to time.
 
+1. Release rmarkdown, tinytex, xfun
+1. Upgraded jQuery in DT
+1. Update jQuery in bookdown: https://github.com/rstudio/bookdown/issues/1118 https://github.com/rstudio/bookdown/pull/882 https://github.com/rstudio/bookdown/pull/693
 1. Syntax highlighting of `|>`: https://github.com/rstudio/bookdown/issues/1157
-1. `targets` engine in knitr: https://github.com/yihui/knitr/pull/2031
-1. Delete the duplicated `config/` dir: https://github.com/rstudio/blogdown/issues/644
 1. Release blogdown to CRAN: https://github.com/rstudio/blogdown/releases/tag/v1.4
-1. review https://github.com/rstudio/bookdown/pull/1201
-1. install arm hugo: https://github.com/rstudio/blogdown/issues/636
-1. clean *_files dirs: https://github.com/rstudio/blogdown/issues/632
-1. https://github.com/rstudio/rmarkdown/pull/2190
-1. https://github.com/rstudio/bookdown/pull/1035
-1. https://github.com/yihui/tinytex/pull/318
-1. https://github.com/rstudio/rmarkdown/issues/2187
-1. bookdown 404 https://github.com/rstudio/bookdown/pull/1035
-1. keep the first URL only in citation https://github.com/yihui/knitr/issues/2028
-1. Hugo academic theme is broken again: https://github.com/rbind/apreshill/issues/44#issuecomment-873312747 https://github.com/rstudio/blogdown/issues/638
-1. A talk in the "My first useR" session at useR 2021 on July 4th, tentatively titled "My journey in writing books and blogging about R".
 1. Write out tinytex regexes to json: https://yihui.org/tinytex/regex.tar.gz
 
 ## Backlog
@@ -112,6 +102,7 @@ If anyone is interested in any of the items below, please feel free to let me kn
 
 ## 私人事项
 
+1. 价值投资 https://mp.weixin.qq.com/s/4ayRJVUXVyb2lx-HZf42ug
 1. 通读 https://yihanxu.github.io/archive/
 1. 一堆未读推特消息，从 2020/07/01 开始：<https://t.yihui.org>
 1. 这位大人对 knitr 钻研似乎颇深，是个人才，也许可以拉来做点什么事：<https://stackoverflow.com/users/2706569/cl>
