@@ -9,18 +9,22 @@ Looking at these items, you may make a better decision on whether to ask questio
 
 ## Status
 
-At the moment, I have **153** emails in my inbox to be dealt with (the earliest that I have not replied to was from _Nov 21, 2018_), **18** unread Github issues/PRs, and about **40** tabs open in my browser.
-
-I just came back from vacation on July 14, 2021. I'm catching up on Github issues and emails.
+At the moment, I have **154** emails in my inbox to be dealt with (the earliest that I have not replied to was from _Nov 21, 2018_), **0** unread Github issues/PRs, and about **30** tabs open in my browser.
 
 ## TODO
 
-1. bookdown book PRs
+1. Sequential numbering of references https://github.com/rstudio/bookdown/issues/948
+1. Duplicated figure labels https://github.com/rstudio/bookdown/issues/1223
 1. Revert inline CSS to `<style>`: https://github.com/rstudio/bookdown/issues/1170
+1. Release bookdown to CRAN
+1. Release knitr
+    - https://github.com/yihui/knitr/pull/1898
+    - https://github.com/yihui/knitr/pull/2020
 1. Questions to be answered:
     - https://stackoverflow.com/q/67853909/559676 Why is the image not rendered?
     - https://community.rstudio.com/t/106550 Why shortcode doesn't work in `.Rmd -> .html`
     - https://community.rstudio.com/t/106243 How to read a chunk from an external Rmd? Perhaps I need to export the parser from **knitr**, although there is a **parsermd** package, which I haven't taken a close look yet
+1. xaringan doesn't refresh with changes in css: https://github.com/yihui/xaringan/issues/301
 1. blogdown book PRs: https://github.com/rstudio/blogdown/pull/619 https://github.com/rstudio/blogdown/pull/620 https://github.com/rstudio/blogdown/pull/623 
 1. Read and probably respond to a few posts related to blogdown:
     - https://solomonkurz.netlify.app/post/2021-05-03-blogdown-updates-prompted-a-website-overhaul-these-are-my-notes/ Overhaul a blogdown site
@@ -53,11 +57,11 @@ I just came back from vacation on July 14, 2021. I'm catching up on Github issue
 
 This section is cleaned up from time to time.
 
+1. bookdown book PRs
+1. TinyTeX is no longer successfully built on appveyor: https://github.com/yihui/tinytex/issues/321 https://github.com/yihui/tinytex/issues/320
 1. Release rmarkdown, tinytex, xfun
 1. Upgraded jQuery in DT
 1. Update jQuery in bookdown: https://github.com/rstudio/bookdown/issues/1118 https://github.com/rstudio/bookdown/pull/882 https://github.com/rstudio/bookdown/pull/693
-1. Syntax highlighting of `|>`: https://github.com/rstudio/bookdown/issues/1157
-1. Release blogdown to CRAN: https://github.com/rstudio/blogdown/releases/tag/v1.4
 1. Write out tinytex regexes to json: https://yihui.org/tinytex/regex.tar.gz
 
 ## Backlog
