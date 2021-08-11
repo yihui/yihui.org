@@ -70,3 +70,9 @@ slug: git-commands
     # 如果确定都可以删掉，那么
     git clean -f -x
     ```
+
+- [清理本地已删除但远端还存在的分支记录](https://stackoverflow.com/a/3184742/559676)：
+
+    ```bash
+    git remote prune origin
+    ```
