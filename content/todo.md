@@ -9,17 +9,16 @@ Looking at these items, you may make a better decision on whether to ask questio
 
 ## Status
 
-At the moment, I have **154** emails in my inbox to be dealt with (the earliest that I have not replied to was from _Nov 21, 2018_), **0** unread Github issues/PRs, and about **30** tabs open in my browser.
+At the moment, I have **154** emails in my inbox to be dealt with (the earliest that I have not replied to was from _Nov 21, 2018_), **4** unread Github issues/PRs, and about **50** tabs open in my browser.
 
 ## TODO
 
-1. Sequential numbering of references https://github.com/rstudio/bookdown/issues/948
-1. Duplicated figure labels https://github.com/rstudio/bookdown/issues/1223
-1. Revert inline CSS to `<style>`: https://github.com/rstudio/bookdown/issues/1170
-1. Release bookdown to CRAN
+1. https://github.com/yihui/xaringan/issues/331
 1. Release knitr
     - https://github.com/yihui/knitr/pull/1898
     - https://github.com/yihui/knitr/pull/2020
+    - new syntax `#|` for chunk options
+1. https://github.com/rstudio/pagedown/issues/236 https://github.com/rstudio/pagedown/issues/235
 1. Questions to be answered:
     - https://stackoverflow.com/q/67853909/559676 Why is the image not rendered?
     - https://community.rstudio.com/t/106550 Why shortcode doesn't work in `.Rmd -> .html`
@@ -50,13 +49,21 @@ At the moment, I have **154** emails in my inbox to be dealt with (the earliest 
 1. A possible book about pagedown and CSS.
 1. Reply to https://github.com/yihui/rmarkdown-cookbook/issues/215#issuecomment-633148829
 1. Digest https://github.com/rstudio/distill/issues/152.
-1. Look into this problem: https://stackoverflow.com/q/60014350/559676. Sounds like a bug introduced by a certain version of bookdown.
 1. Review https://github.com/rstudio/DT/pull/836
 
 ## Done
 
 This section is cleaned up from time to time.
 
+1. Pandoc 2.14.1 issues on CRAN
+1. Vercel: https://github.com/rstudio/blogdown/issues/648
+1. fuse options https://stackoverflow.com/q/68784830/559676
+1. Release bookdown to CRAN
+1. Revert the fix for https://github.com/rstudio/bookdown/issues/1223
+1. bookdown .html filenames allow for non-alphanumeric characters now: https://github.com/rstudio/bookdown/issues/605 https://github.com/rstudio/bookdown/issues/902 https://github.com/rstudio/bookdown/issues/1000 https://stackoverflow.com/q/60014350/559676
+1. Sequential numbering of references https://github.com/rstudio/bookdown/issues/948
+1. Duplicated figure labels https://github.com/rstudio/bookdown/issues/1223
+1. Revert inline CSS to `<style>`: https://github.com/rstudio/bookdown/issues/1170
 1. bookdown book PRs
 1. TinyTeX is no longer successfully built on appveyor: https://github.com/yihui/tinytex/issues/321 https://github.com/yihui/tinytex/issues/320
 1. Release rmarkdown, tinytex, xfun
@@ -127,6 +134,7 @@ If anyone is interested in any of the items below, please feel free to let me kn
 1. 为 XD 和邻居架设网站
 1. 用 `IntersectionObserver` 而不是 `scroll` 事件检测评论区是否滚到了当前视图下： https://blog.skk.moe/post/prevent-disqus-from-slowing-your-site/
 1. [洛宁蒸肉](https://mp.weixin.qq.com/s/6UGYqfXzvBjBa8xJYPhGFQ)：五花肉、粉丝、玉米面、葱姜蒜、酱油、蚝油、盐。
+1. 毛笔字：https://www.zgbk.com/dzb/jy/sfxx/
 
 ## 随机事项
 
