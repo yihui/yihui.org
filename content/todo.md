@@ -9,17 +9,18 @@ Looking at these items, you may make a better decision on whether to ask questio
 
 ## Status
 
-At the moment, I have **154** emails in my inbox to be dealt with (the earliest that I have not replied to was from _Nov 21, 2018_), **4** unread Github issues/PRs, and about **50** tabs open in my browser.
+At the moment, I have **155** emails in my inbox to be dealt with (the earliest that I have not replied to was from _Nov 21, 2018_), **0** unread Github issues/PRs, and about **50** tabs open in my browser.
 
 ## TODO
 
+1. https://github.com/rstudio/bookdown/issues/1238
 1. https://github.com/yihui/xaringan/issues/331
 1. Release knitr
     - https://github.com/yihui/knitr/pull/1898
     - https://github.com/yihui/knitr/pull/2020
     - new syntax `#|` for chunk options
-1. https://github.com/rstudio/pagedown/issues/236 https://github.com/rstudio/pagedown/issues/235
 1. Questions to be answered:
+    - https://stackoverflow.com/q/68792824/559676 https://github.com/yihui/knitr/issues/2037 relative links in blogdown
     - https://stackoverflow.com/q/67853909/559676 Why is the image not rendered?
     - https://community.rstudio.com/t/106550 Why shortcode doesn't work in `.Rmd -> .html`
     - https://community.rstudio.com/t/106243 How to read a chunk from an external Rmd? Perhaps I need to export the parser from **knitr**, although there is a **parsermd** package, which I haven't taken a close look yet
@@ -96,6 +97,7 @@ If anyone is interested in any of the items below, please feel free to let me kn
 1. Make TinyTeX more portable: https://github.com/yihui/tinytex/issues/133
 1. `xfun::numbers_to_words()` for numbers with decimal places: https://github.com/yihui/xfun/issues/18
 1. Live code in xaringan: https://github.com/yihui/xaringan/issues/206 The implementation is not totally clear to me, but I imagine users can double click on a code block on a slide to edit the code, and the edit can be sent back to the RStudio IDE or executed.
+1. https://github.com/rstudio/pagedown/issues/236 `chrome_print()` stops working after a few hundred times
 
 ## Blog
 
@@ -113,7 +115,10 @@ If anyone is interested in any of the items below, please feel free to let me kn
 
 ## 私人事项
 
+1. Lemonade 涉嫌欺骗 INSURANCE COMPANY GIVES SOUR AI PROMISES https://mindmatters.ai/2021/08/insurance-company-gives-sour-ai-promises/
+1. 从字体的差异发现学术造假 Evidence of Fraud in an Influential Field Experiment About Dishonesty https://datacolada.org/98
 1. 价值投资 https://mp.weixin.qq.com/s/4ayRJVUXVyb2lx-HZf42ug
+1. Git 邮件列表中关于主分支重命名的讨论 https://lore.kernel.org/git/CAOAHyQwyXC1Z3v7BZAC+Bq6JBaM7FvBenA-1fcqeDV==apdWDg@mail.gmail.com/t/#u
 1. 通读 https://yihanxu.github.io/archive/
 1. 一堆未读推特消息，从 2020/07/01 开始：<https://t.yihui.org>
 1. 这位大人对 knitr 钻研似乎颇深，是个人才，也许可以拉来做点什么事：<https://stackoverflow.com/users/2706569/cl>
