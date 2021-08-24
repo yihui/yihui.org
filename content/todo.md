@@ -56,6 +56,8 @@ At the moment, I have **155** emails in my inbox to be dealt with (the earliest 
 
 This section is cleaned up from time to time.
 
+1. gitbook slowness when self-contained https://github.com/rstudio/bookdown/issues/1236
+1. DT editing cells with textareas and number inputs https://github.com/rstudio/DT/pull/860
 1. Pandoc 2.14.1 issues on CRAN
 1. Vercel: https://github.com/rstudio/blogdown/issues/648
 1. fuse options https://stackoverflow.com/q/68784830/559676
