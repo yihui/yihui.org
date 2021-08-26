@@ -13,8 +13,6 @@ At the moment, I have **155** emails in my inbox to be dealt with (the earliest 
 
 ## TODO
 
-1. https://github.com/rstudio/bookdown/issues/1238
-1. https://github.com/yihui/xaringan/issues/331
 1. Release knitr
     - https://github.com/yihui/knitr/pull/1898
     - https://github.com/yihui/knitr/pull/2020
@@ -56,22 +54,14 @@ At the moment, I have **155** emails in my inbox to be dealt with (the earliest 
 
 This section is cleaned up from time to time.
 
+1. Relative css paths in parent dirs https://github.com/yihui/xaringan/issues/331
+1. Archetype doesn't work in "New Post" addin https://stackoverflow.com/q/68879106/559676
+1. Removed pirates https://github.com/rstudio/rmarkdown/pull/2204
+1. gitbook's search config bug https://github.com/rstudio/bookdown/issues/1238
 1. gitbook slowness when self-contained https://github.com/rstudio/bookdown/issues/1236
 1. DT editing cells with textareas and number inputs https://github.com/rstudio/DT/pull/860
 1. Pandoc 2.14.1 issues on CRAN
 1. Vercel: https://github.com/rstudio/blogdown/issues/648
-1. fuse options https://stackoverflow.com/q/68784830/559676
-1. Release bookdown to CRAN
-1. Revert the fix for https://github.com/rstudio/bookdown/issues/1223
-1. bookdown .html filenames allow for non-alphanumeric characters now: https://github.com/rstudio/bookdown/issues/605 https://github.com/rstudio/bookdown/issues/902 https://github.com/rstudio/bookdown/issues/1000 https://stackoverflow.com/q/60014350/559676
-1. Sequential numbering of references https://github.com/rstudio/bookdown/issues/948
-1. Duplicated figure labels https://github.com/rstudio/bookdown/issues/1223
-1. Revert inline CSS to `<style>`: https://github.com/rstudio/bookdown/issues/1170
-1. bookdown book PRs
-1. TinyTeX is no longer successfully built on appveyor: https://github.com/yihui/tinytex/issues/321 https://github.com/yihui/tinytex/issues/320
-1. Release rmarkdown, tinytex, xfun
-1. Upgraded jQuery in DT
-1. Update jQuery in bookdown: https://github.com/rstudio/bookdown/issues/1118 https://github.com/rstudio/bookdown/pull/882 https://github.com/rstudio/bookdown/pull/693
 1. Write out tinytex regexes to json: https://yihui.org/tinytex/regex.tar.gz
 
 ## Backlog
