@@ -279,9 +279,12 @@ Below is a list of chunk options in **knitr** documented in the format
     are not created from the current chunk. This option is mainly for
     `autodep = TRUE` to work more precisely---a chunk `B` depends on chunk `A`
     when any of `B`'s global variables are `A`'s local variables. In case the
-    automatic detection of global variables in a chunk fails, you may manually
-    specify the names of global variables via this option (see
-    [\#1403](https://github.com/yihui/knitr/issues/1403) for an example).
+    automatic detection of global variables (i.e., when `cache.globals = NULL`
+    or `TRUE`) in a chunk fails, you may manually specify the names of global
+    variables via this option (see
+    [\#1403](https://github.com/yihui/knitr/issues/1403) for an example). In
+    addition, `cache.globals = FALSE` means detecting all variables in a code
+    chunk, no matter if they are global or local variables.
 
 -   `cache.lazy`: (`TRUE`; logical) Whether to `lazyLoad()` or directly `load()`
     objects. For very large objects, lazyloading may not work, so
