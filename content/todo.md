@@ -9,7 +9,7 @@ Looking at these items, you may make a better decision on whether to ask questio
 
 ## Status
 
-At the moment, I have **155** emails in my inbox to be dealt with (the earliest that I have not replied to was from _Nov 21, 2018_), **0** unread Github issues/PRs, and about **50** tabs open in my browser.
+At the moment, I have **133** emails in my inbox to be dealt with (the earliest that I have not replied to was from _Nov 21, 2018_), **0** unread Github issues/PRs, and about **50** tabs open in my browser.
 
 ## TODO
 
@@ -41,11 +41,12 @@ At the moment, I have **155** emails in my inbox to be dealt with (the earliest 
 1. Replace sundown with **commonmark** in **markdown**: https://github.com/yihui/knitr/issues/1329
 1. Optimize images automatically in blogdown
 1. Fix relative paths in Hugo's RSS feeds: https://github.com/rstudio/blogdown/issues/384
-1. hugo-prose: https://github.com/yihui/hugo-prose/pull/41
+1. hugo-prose: https://github.com/yihui/hugo-prose/pull/41 and reply to Jared's meetup invite.
 1. Scrollama with blogdown/distill: https://github.com/yihui/rolldown/issues/14
 1. Watch https://resources.rstudio.com/resources/rstudioglobal-2021/
 1. A possible book: Presentation Ninja (xaringan, ioslides, slidy, revealjs, PowerPoint, beamer, shower, etc).
-1. A possible book about pagedown and CSS.
+1. A possible book about pagedown and CSS (reply to Lara at C&H).
+1. A 3rd edition of the knitr book? I'll need a helper.
 1. Reply to https://github.com/yihui/rmarkdown-cookbook/issues/215#issuecomment-633148829
 1. Digest https://github.com/rstudio/distill/issues/152.
 1. Review https://github.com/rstudio/DT/pull/836
@@ -54,6 +55,7 @@ At the moment, I have **155** emails in my inbox to be dealt with (the earliest 
 
 This section is cleaned up from time to time.
 
+1. `dvisvgm` options in tikz engine: https://github.com/yihui/knitr/issues/2038
 1. Relative css paths in parent dirs https://github.com/yihui/xaringan/issues/331
 1. Archetype doesn't work in "New Post" addin https://stackoverflow.com/q/68879106/559676
 1. Removed pirates https://github.com/rstudio/rmarkdown/pull/2204
