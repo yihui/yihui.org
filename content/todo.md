@@ -13,6 +13,7 @@ At the moment, I have **133** emails in my inbox to be dealt with (the earliest 
 
 ## TODO
 
+1. Release DT, bookdown, blogdown, rticles
 1. Release knitr
     - https://github.com/yihui/knitr/pull/1898
     - https://github.com/yihui/knitr/pull/2020
@@ -55,6 +56,7 @@ At the moment, I have **133** emails in my inbox to be dealt with (the earliest 
 
 This section is cleaned up from time to time.
 
+1. include time in `date` in `blogdown::new_post()` https://github.com/rstudio/blogdown/issues/625
 1. `dvisvgm` options in tikz engine: https://github.com/yihui/knitr/issues/2038
 1. Relative css paths in parent dirs https://github.com/yihui/xaringan/issues/331
 1. Archetype doesn't work in "New Post" addin https://stackoverflow.com/q/68879106/559676
