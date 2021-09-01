@@ -18,11 +18,9 @@ Email: xie@yihui.org; Homepage: <https://yihui.org>; Twitter [@xieyihui](https:/
 
 ## Brief Biography
 
-Yihui Xie is a software engineer at [RStudio](https://www.rstudio.com). He earned his PhD from the Department of Statistics, Iowa State University. He is interested in interactive statistical graphics and statistical computing. As an active R user, he has authored several R packages, such as **knitr**, **bookdown**, **blogdown**, **xaringan**, **animation**, **DT**, **tinytex**, **tufte**, **formatR**, **fun**, **mime**, **highr**, **servr**, and **Rd2roxygen**, among which the **animation** package won the 2009 John M. Chambers Statistical Software Award (ASA). He also co-authored a few other R packages, including **shiny**, **rmarkdown**, and **leaflet**. He has published a number of books, including "Dynamic Documents with R and knitr", "bookdown: Authoring Books and Technical Documents with R Markdown", "blogdown: Creating Websites with R Markdown", and "R Markdown: The Definitive Guide".
+[Yihui Xie](https://en.wikipedia.org/wiki/Yihui_Xie) is a software engineer at [RStudio](https://www.rstudio.com). He earned his PhD from the Department of Statistics, Iowa State University. He is interested in interactive statistical graphics and statistical computing. As an active R user, he has authored several R packages, such as **knitr**, **bookdown**, **blogdown**, **xaringan**, **animation**, **DT**, **tinytex**, **pagedown**, **tufte**, **formatR**, **fun**, **servr**, and **Rd2roxygen**, among which the **animation** package won the 2009 John M. Chambers Statistical Software Award (ASA). He also co-authored a few other R packages, including **shiny**, **rmarkdown**, **rticles**, and **leaflet**. He has published a number of books, including "Dynamic Documents with R and knitr", "bookdown: Authoring Books and Technical Documents with R Markdown", "blogdown: Creating Websites with R Markdown", "R Markdown: The Definitive Guide", and "R Markdown Cookbook."
 
 In 2006, he founded the Capital of Statistics (<https://cosx.org>), which has grown into a large online community on statistics in China. He initiated the Chinese R conference in 2008, and has been involved in organizing R conferences in China since then. During his PhD training at Iowa State University, he won the Vince Sposito Statistical Computing Award (2011) and the Snedecor Award (2012) in the Department of Statistics.
-
-Another brief biography can be found on [Wikipedia](https://en.wikipedia.org/wiki/Yihui_Xie).
 
 ## Research Interests
 
@@ -31,7 +29,7 @@ Reproducible research; statistical computing; statistical graphics; data visuali
 ## Education Background
 
 - 2009 ~ 2013, PhD in Statistics, Department of Statistics, Iowa State University
-- 2006 ~ 2009, Master of Statistics, School of Statistics, Renmin University of China
+- 2006 ~ 2009, Master of Economics, School of Statistics, Renmin University of China
 - 2002 ~ 2006, Bachelor of Economics, School of Statistics, Renmin University of China
 
 ## Honors & Awards
