@@ -199,6 +199,7 @@ Projects participated:
 
 Most of my slides were generated from R Markdown (especially the ones in recent years). To download the R Markdown source documents, simply replace the extension `.html` with `.Rmd` in the address bar of your web browser.
 
+- Yihui Xie, 2021, _A Brief History of R Markdown_, the 3rd [Brazilian R-Day](http://rday.leg.ufpr.br/) ([slides](https://slides.yihui.org/2021-Brazilian-R-Day.html))
 - Yihui Xie, 2021, _My journey in writing books and blogging about R_, useR! 2021 ([slides](https://slides.yihui.org/2021-useR-journey.html))
 - Yihui Xie, 2021, _An introduction to TinyTeX_, [TeX Hour](https://jfine2358.github.io/contact/) organized by Jonathan Fine
 - Yihui Xie, 2021, _The fun of cooking_, DahShu ([slides](https://slides.yihui.org/2021-dahshu-kitchen.html); [video](https://youtu.be/JoFroYuajlE))
