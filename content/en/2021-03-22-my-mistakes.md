@@ -12,10 +12,9 @@ mine that you remember, I will truly appreciate it if you could remind me in the
 comments (or email me).
 
 1.  I had a wrong and outdated belief in BibTeX, which was corrected by Nick
-    Bart in the [bookdown PR
-    \#772](https://github.com/rstudio/bookdown/pull/772). He first pointed out
-    my mistakes in the issue
-    [\#754](https://github.com/rstudio/bookdown/issues/754). In particular, he
+    Bart in the [bookdown PR](https://github.com/rstudio/bookdown/pull/772). He
+    first pointed out my mistakes in the issue
+    [#754](https://github.com/rstudio/bookdown/issues/754). In particular, he
     thought that my assessment of `pandoc-citeproc` was both "factually
     inaccurate and needlessly disparaging". I admit my ignorance and really
     appreciate Nick's correction.
@@ -36,8 +35,8 @@ comments (or email me).
     would read its documentation to figure out that they would also need to
     install `ghostscript`, but it turned out that my assumption was not
     appropriate. The problem of the missing `ghostscript` has confused multiple
-    users. Five years after the [**knitr** issue
-    \#954](https://github.com/yihui/knitr/issues/954) was reported, I finally
+    users. Five years after the [**knitr**
+    issue](https://github.com/yihui/knitr/issues/954) was reported, I finally
     realized that this problem was too difficult for average users to debug, so
     I made changes in **knitr** and **rmarkdown** to disable this feature by
     default when `ghostscript` is not available.
@@ -172,10 +171,10 @@ comments (or email me).
     to send a file in the request, I tried `curl::curl_upload()`, but this
     function does not support setting headers directly. It was quite
     straightforward to add the support, so I sent the PR
-    [jeroen/curl\#243](https://github.com/jeroen/curl/pull/243). Then Jeroen
-    told me I could just use the `httpheader` argument, which is equivalent to
-    using `handle_setheaders()`. I was glad to learn this simple solution, but
-    when I tried it, it did not work.
+    [jeroen/curl#243](https://github.com/jeroen/curl/pull/243). Then Jeroen told
+    me I could just use the `httpheader` argument, which is equivalent to using
+    `handle_setheaders()`. I was glad to learn this simple solution, but when I
+    tried it, it did not work.
 
     I tried to make a minimal reprex but was not able to reproduce the problem
     in simpler cases. After a couple of hours of investigation, it turned out
@@ -214,11 +213,10 @@ comments (or email me).
 
 7.  I clearly knew from the very beginning of the **blogdown** development that
     users would hate the fact that they could not [click on the Knit button to
-    compile a
-    post](/en/2021/05/blogdown-knit-save/https://blog.rstudio.com/2021/01/18/blogdown-v1.0/#workflows).
-    That was due to a technical limitation that I thought was impossible to
-    conquer, after a communication with a colleague. After another communication
-    three years later (because it was such a painful problem), I realized that I
+    compile a post](/en/2021/05/blogdown-knit-save/). That was due to a
+    technical limitation that I thought was impossible to conquer, after a
+    communication with a colleague. After another communication three years
+    later (because it was such a painful problem), I realized that I
     misunderstood the limitation and overestimated the difficulty to remove it.
     By that time, I had suffered a lot from it as the developer, and so did
     **blogdown** users.
