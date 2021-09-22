@@ -9,14 +9,20 @@ Looking at these items, you may make a better decision on whether to ask questio
 
 ## Status
 
-At the moment, I have **139** emails in my inbox to be dealt with (the earliest that I have not replied to was from _Nov 21, 2018_), **0** unread Github issues/PRs, and about **70** tabs open in my browser.
+At the moment, I have
+**142**
+emails in my inbox to be dealt with (the earliest that I have not replied to was from _Nov 21, 2018_),
+**0**
+unread Github issues/PRs, and about
+**90**
+tabs open in my browser.
 
 ## TODO
 
-1. Give a talk on the Brazilian R-Day
-1. xfun tests https://github.com/yihui/xfun/pull/56
-1. Release rticles
-1. new syntax `#|` for chunk options in knitr
+1. new syntax `#|` for chunk options in knitr https://twitter.com/xieyihui/status/1423477751793717248
+1. change strip.white=FALSE by default when collapse=TRUE: https://github.com/yihui/knitr/pull/2048
+1. automatically install hyphen packages: https://github.com/yihui/tinytex/issues/322
+1. distill/R Journal meeting
 1. Questions to be answered:
     - https://stackoverflow.com/q/68792824/559676 https://github.com/yihui/knitr/issues/2037 relative links in blogdown
     - https://stackoverflow.com/q/67853909/559676 Why is the image not rendered?
@@ -55,7 +61,9 @@ At the moment, I have **139** emails in my inbox to be dealt with (the earliest 
 
 This section is cleaned up from time to time.
 
-1. Release knitr, DT, bookdown, blogdown
+1. xfun tests https://github.com/yihui/xfun/pull/56
+1. Give a talk on the Brazilian R-Day
+1. Release rticles, knitr, DT, bookdown, blogdown
 1. include time in `date` in `blogdown::new_post()` https://github.com/rstudio/blogdown/issues/625
 1. `dvisvgm` options in tikz engine: https://github.com/yihui/knitr/issues/2038
 1. Relative css paths in parent dirs https://github.com/yihui/xaringan/issues/331
