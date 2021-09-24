@@ -10,7 +10,7 @@ Looking at these items, you may make a better decision on whether to ask questio
 ## Status
 
 At the moment, I have
-**142**
+**145**
 emails in my inbox to be dealt with (the earliest that I have not replied to was from _Nov 21, 2018_),
 **0**
 unread Github issues/PRs, and about
@@ -19,8 +19,9 @@ tabs open in my browser.
 
 ## TODO
 
-1. new syntax `#|` for chunk options in knitr https://twitter.com/xieyihui/status/1423477751793717248
-1. change strip.white=FALSE by default when collapse=TRUE: https://github.com/yihui/knitr/pull/2048
+1. https://github.com/yihui/knitr/pull/2047
+1. syntax for verbatim code chunks https://github.com/yihui/knitr/issues/2040
+1. see if I'm able to maintain the apero theme: https://github.com/hugo-apero
 1. automatically install hyphen packages: https://github.com/yihui/tinytex/issues/322
 1. distill/R Journal meeting
 1. Questions to be answered:
@@ -61,19 +62,8 @@ tabs open in my browser.
 
 This section is cleaned up from time to time.
 
-1. xfun tests https://github.com/yihui/xfun/pull/56
-1. Give a talk on the Brazilian R-Day
-1. Release rticles, knitr, DT, bookdown, blogdown
-1. include time in `date` in `blogdown::new_post()` https://github.com/rstudio/blogdown/issues/625
-1. `dvisvgm` options in tikz engine: https://github.com/yihui/knitr/issues/2038
-1. Relative css paths in parent dirs https://github.com/yihui/xaringan/issues/331
-1. Archetype doesn't work in "New Post" addin https://stackoverflow.com/q/68879106/559676
-1. Removed pirates https://github.com/rstudio/rmarkdown/pull/2204
-1. gitbook's search config bug https://github.com/rstudio/bookdown/issues/1238
-1. gitbook slowness when self-contained https://github.com/rstudio/bookdown/issues/1236
-1. DT editing cells with textareas and number inputs https://github.com/rstudio/DT/pull/860
-1. Pandoc 2.14.1 issues on CRAN
-1. Vercel: https://github.com/rstudio/blogdown/issues/648
+1. new syntax `#|` for chunk options in knitr https://twitter.com/xieyihui/status/1423477751793717248
+1. change strip.white=FALSE by default when collapse=TRUE: https://github.com/yihui/knitr/pull/2048
 1. Write out tinytex regexes to json: https://yihui.org/tinytex/regex.tar.gz
 
 ## Backlog
