@@ -79,6 +79,36 @@ Below are a few more tips about chunk options:
     -   You can write arbitrarily complicated expressions as long as they are
         valid R code.
 
+Alternatively, you can write chunk options in the body of a code chunk after
+`#|`, e.g.,
+
+```` md
+```{r}
+#| my-chunk, echo = FALSE, fig.width = 10,
+#| fig.cap = "This is a long long
+#|   long long caption."
+
+plot(cars)
+```
+````
+
+The blank line between the options and code is optional. This syntax allows for
+hard-wrapping the options. You can break the options onto as many lines as you
+wish. If the same option is provided in both the chunk body and in the chunk
+header (inside ```` ```{} ````), the former will override the latter. You can
+also use the YAML syntax to write options inside a chunk in the form
+`tag: value`. Normally you have to provide only one option per line, e.g.,
+
+```` md
+```{r}
+#| echo: false
+#| fig.width: 10
+```
+````
+
+If you choose to use the YAML syntax, the option values must be valid YAML
+values instead of raw R expressions.
+
 Below is a list of chunk options in **knitr** documented in the format
 "`option`: (`default value`; type of value)".
 
@@ -214,7 +244,7 @@ Below is a list of chunk options in **knitr** documented in the format
     that adding prompts can make it difficult for readers to copy R code from
     the output, so `prompt = FALSE` may be a better choice. This option may not
     work well when the chunk option `engine` is not `R`
-    ([\#1274](https://github.com/yihui/knitr/issues/1274)).
+    ([#1274](https://github.com/yihui/knitr/issues/1274)).
 
 -   `comment`: (`'##'`; character) The prefix to be added before each line of
     the text output. By default, the text output is commented out by `##`, so if
@@ -282,14 +312,14 @@ Below is a list of chunk options in **knitr** documented in the format
     automatic detection of global variables (i.e., when `cache.globals = NULL`
     or `TRUE`) in a chunk fails, you may manually specify the names of global
     variables via this option (see
-    [\#1403](https://github.com/yihui/knitr/issues/1403) for an example). In
+    [#1403](https://github.com/yihui/knitr/issues/1403) for an example). In
     addition, `cache.globals = FALSE` means detecting all variables in a code
     chunk, no matter if they are global or local variables.
 
 -   `cache.lazy`: (`TRUE`; logical) Whether to `lazyLoad()` or directly `load()`
     objects. For very large objects, lazyloading may not work, so
     `cache.lazy = FALSE` may be desirable (see
-    [\#572](https://github.com/yihui/knitr/issues/572)).
+    [#572](https://github.com/yihui/knitr/issues/572)).
 
 -   `cache.comments`: (`NULL`; logical) If `FALSE`, changing comments in R code
     chunks will not invalidate the cache database.
@@ -299,7 +329,7 @@ Below is a list of chunk options in **knitr** documented in the format
     to conditionally invalidate the cache, e.g.,
     `cache.rebuild = !file.exists("some-file")` can rebuild the chunk when
     `some-file` does not exist (see
-    [\#238](https://github.com/yihui/knitr/issues/238)).
+    [#238](https://github.com/yihui/knitr/issues/238)).
 
 -   `dependson`: (`NULL`; character or numeric) A character vector of chunk
     labels to specify which other chunks this chunk depends on. This option
@@ -636,12 +666,12 @@ for examples).
     the document, and if found, also apply its chunk options to the current
     chunk.
 
-    The precedence of chunk options is: local chunk options \> referenced code
-    chunk options \> `knitr::opts_template` \> `knitr::opts_chunk`.
+    The precedence of chunk options is: local chunk options > referenced code
+    chunk options > `knitr::opts_template` > `knitr::opts_chunk`.
 
     The special value `opts.label = TRUE` means `opts.label = ref.label`, i.e.,
     to inherit chunk options from chunks referenced by the `ref.label` option.
-    See the example \#121 in [the knitr-examples
+    See the example #121 in [the knitr-examples
     repository](https://github.com/yihui/knitr-examples) for demos of various
     usage of `ref.label` and `opts.label`.
 
@@ -720,7 +750,7 @@ Available package options are as follows:
 
 -   `latex.tilde` (`NULL`): The LaTeX command for the tilde character in
     highlighted output of `.Rnw` documents (see [the issue
-    \#1992](https://github.com/yihui/knitr/issues/1992) for examples).
+    #1992](https://github.com/yihui/knitr/issues/1992) for examples).
 
 -   `out.format`: (`NULL`; character) Possible values are `latex`, `sweave`,
     `html`, `markdown`, and `jekyll`. It will be automatically determined based
