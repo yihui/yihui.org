@@ -19,6 +19,7 @@ tabs open in my browser.
 
 ## TODO
 
+1. figure out how many CRAN packages are currently using malformed code chunks (unbalanced chunk delimiters) in R Markdown vignettes
 1. syntax for verbatim code chunks https://github.com/yihui/knitr/issues/2040
 1. see if I'm able to maintain the apero theme: https://github.com/hugo-apero
 1. automatically install hyphen packages: https://github.com/yihui/tinytex/issues/322
@@ -56,7 +57,6 @@ tabs open in my browser.
 1. A 3rd edition of the knitr book? I'll need a helper.
 1. Reply to https://github.com/yihui/rmarkdown-cookbook/issues/215#issuecomment-633148829
 1. Digest https://github.com/rstudio/distill/issues/152.
-1. Review https://github.com/rstudio/DT/pull/836
 
 ## Done
 
