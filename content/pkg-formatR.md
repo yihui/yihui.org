@@ -2,7 +2,7 @@
 title: formatR
 subtitle: Format R code automatically
 author: Yihui Xie
-date: "2021-06-26"
+date: "2021-10-01"
 show_toc: true
 slug: formatr
 githubEditURL: https://github.com/yihui/formatR/edit/master/vignettes/formatR.Rmd
@@ -43,12 +43,12 @@ sessionInfo()
 ```
 
 ```
-## R version 4.1.0 (2021-05-18)
+## R version 4.1.1 (2021-08-10)
 ## Platform: x86_64-apple-darwin17.0 (64-bit)
 ## Running under: macOS Big Sur 10.16
 ## 
 ## Matrix products: default
-## BLAS:   /Library/Frameworks/R.framework/Versions/4.1/Resources/lib/libRblas.dylib
+## BLAS:   /Library/Frameworks/R.framework/Versions/4.1/Resources/lib/libRblas.0.dylib
 ## LAPACK: /Library/Frameworks/R.framework/Versions/4.1/Resources/lib/libRlapack.dylib
 ## 
 ## locale:
@@ -62,8 +62,8 @@ sessionInfo()
 ## [1] formatR_1.11
 ## 
 ## loaded via a namespace (and not attached):
-## [1] compiler_4.1.0 magrittr_2.0.1 tools_4.1.0    stringi_1.6.2 
-## [5] knitr_1.33     stringr_1.4.0  xfun_0.23      evaluate_0.14
+## [1] compiler_4.1.1 magrittr_2.0.1 tools_4.1.1    stringi_1.7.4 
+## [5] knitr_1.35.2   stringr_1.4.0  xfun_0.26      evaluate_0.14
 ```
 
 # 2. Reformat R code
@@ -168,7 +168,7 @@ If the **shiny** packages has been installed, the function `tidy_app()` can
 launch a Shiny app to reformat R code like this (live demo at
 `https://yihui.shinyapps.io/formatR/`):
 
-``` {.r}
+``` r
 formatR::tidy_app()
 ```
 
@@ -366,7 +366,7 @@ known cases in which `tidy_source()` fails.
 
 ## Inline comments after an incomplete expression or ;
 
-``` {.r}
+``` r
 1 + 2 + ## comments after an incomplete line
     3 + 4
 x <- ## this is not a complete expression
@@ -399,7 +399,7 @@ Blank lines are often used to separate complete chunks of R code, and arbitrary
 blank lines may cause failures in `tidy_source()` as well when the argument
 `blank = TRUE`, e.g.
 
-``` {.r}
+``` r
 if (TRUE)
 
 {'this is a BAD style of R programming!'} else 'failure!'
@@ -413,7 +413,7 @@ There should not be a blank line after the `if` statement. Of course
 We can use the question mark (`?`) to view the help page, but **formatR**
 package is unable to correctly format the code using `?` with comments, e.g.
 
-``` {.r}
+``` r
 ?sd  # help on sd()
 ```
 
@@ -438,13 +438,13 @@ deparse(parse(text = "1+2-3*4/5 # a comment"))
 The method to preserve comments is to protect them as strings in R expressions.
 For example, there is a single line of comments in the source code:
 
-``` {.r}
+``` r
   # asdf
 ```
 
 It will be first masked as
 
-``` {.r}
+``` r
 invisible(".IDENTIFIER1  # asdf.IDENTIFIER2")
 ```
 
@@ -456,20 +456,20 @@ to restore the original comments, i.e. the strings `invisible(".IDENTIFIER1` and
 Inline comments are handled differently: two spaces will be added before the
 hash symbol `#`, e.g.
 
-``` {.r}
+``` r
 1+1#  comments
 ```
 
 will become
 
-``` {.r}
+``` r
 1+1  #  comments
 ```
 
 Inline comments are first disguised as a weird operation with its preceding R
 code, which is essentially meaningless but syntactically correct! For example,
 
-``` {.r}
+``` r
 1+1 %\b% "#  comments"
 ```
 
