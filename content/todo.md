@@ -10,20 +10,20 @@ Looking at these items, you may make a better decision on whether to ask questio
 ## Status
 
 At the moment, I have
-**145**
+**156**
 emails in my inbox to be dealt with (the earliest that I have not replied to was from _Nov 21, 2018_),
 **0**
 unread Github issues/PRs, and about
-**90**
+**80**
 tabs open in my browser.
 
 ## TODO
 
-1. https://github.com/yihui/knitr/pull/2047
 1. syntax for verbatim code chunks https://github.com/yihui/knitr/issues/2040
 1. see if I'm able to maintain the apero theme: https://github.com/hugo-apero
 1. automatically install hyphen packages: https://github.com/yihui/tinytex/issues/322
 1. distill/R Journal meeting
+1. clean up knitr code in quarto: https://github.com/quarto-dev/quarto-cli/pull/115
 1. Questions to be answered:
     - https://stackoverflow.com/q/68792824/559676 https://github.com/yihui/knitr/issues/2037 relative links in blogdown
     - https://stackoverflow.com/q/67853909/559676 Why is the image not rendered?
@@ -62,6 +62,12 @@ tabs open in my browser.
 
 This section is cleaned up from time to time.
 
+1. update TinyTeX in choco https://github.com/yihui/tinytex/issues/328 https://github.com/yihui/tinytex-releases/pull/20
+1. https://github.com/davidski/evaluator/pull/57
+1. https://github.com/rstudio/rmarkdown/pull/2227
+1. vignette regression in R 3.4 https://github.com/yihui/knitr/issues/2052
+1. customize blogdown subdir https://github.com/rstudio/blogdown/pull/656
+1. https://github.com/yihui/knitr/pull/2047
 1. new syntax `#|` for chunk options in knitr https://twitter.com/xieyihui/status/1423477751793717248
 1. change strip.white=FALSE by default when collapse=TRUE: https://github.com/yihui/knitr/pull/2048
 1. Write out tinytex regexes to json: https://yihui.org/tinytex/regex.tar.gz
@@ -95,6 +101,8 @@ If anyone is interested in any of the items below, please feel free to let me kn
 
 ## Blog
 
+1. Both TinyTeX and Hugo can be bundled with projects: https://twitter.com/bearloga/status/1440342267949060103
+1. blogdown vs distill https://twitter.com/PipingHotData/status/1376106167865384963 https://blog.rstudio.com/2021/09/23/curating-for-wearerladies-on-twitter/
 1. What does it mean to be generous? https://github.com/ropensci/targets/issues/503 I don't think I'm generous in this case.
 1. https://statmodeling.stat.columbia.edu/2021/05/23/thinking-fast-slow-and-not-at-all-system-3-jumps-the-shark/ https://twitter.com/kjhealy/status/1394729017631285252 Sounds like this new book has got quite a bit of controversy, but I haven't read it.
 
