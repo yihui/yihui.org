@@ -10,16 +10,15 @@ Looking at these items, you may make a better decision on whether to ask questio
 ## Status
 
 At the moment, I have
-**156**
+**160**
 emails in my inbox to be dealt with (the earliest that I have not replied to was from _Nov 21, 2018_),
 **0**
 unread Github issues/PRs, and about
-**80**
+**100**
 tabs open in my browser.
 
 ## TODO
 
-1. figure out how many CRAN packages are currently using malformed code chunks (unbalanced chunk delimiters) in R Markdown vignettes
 1. syntax for verbatim code chunks https://github.com/yihui/knitr/issues/2040
 1. see if I'm able to maintain the apero theme: https://github.com/hugo-apero
 1. automatically install hyphen packages: https://github.com/yihui/tinytex/issues/322
@@ -62,14 +61,6 @@ tabs open in my browser.
 
 This section is cleaned up from time to time.
 
-1. update TinyTeX in choco https://github.com/yihui/tinytex/issues/328 https://github.com/yihui/tinytex-releases/pull/20
-1. https://github.com/davidski/evaluator/pull/57
-1. https://github.com/rstudio/rmarkdown/pull/2227
-1. vignette regression in R 3.4 https://github.com/yihui/knitr/issues/2052
-1. customize blogdown subdir https://github.com/rstudio/blogdown/pull/656
-1. https://github.com/yihui/knitr/pull/2047
-1. new syntax `#|` for chunk options in knitr https://twitter.com/xieyihui/status/1423477751793717248
-1. change strip.white=FALSE by default when collapse=TRUE: https://github.com/yihui/knitr/pull/2048
 1. Write out tinytex regexes to json: https://yihui.org/tinytex/regex.tar.gz
 
 ## Backlog
