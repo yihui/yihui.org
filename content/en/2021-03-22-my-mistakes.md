@@ -227,4 +227,30 @@ comments (or email me).
     > involve trying harder to communicate), instead of trying to provide a
     > non-intuitive workaround.
 
+8.  [I made a change in **knitr**](/en/2021/10/unbalanced-delimiters/) that
+    should have been made right in the beginning ten years ago. In hindsight, it
+    is obvious that I should require the backticks in chunk delimiters to match,
+    but this requirement had not existed in the ten years. I thought few people
+    would have unbalanced chunk delimiters in their R Markdown documents, but [I
+    was wrong](https://github.com/yihui/knitr/issues/2057) and there were all
+    sorts of unbalanced delimiters in the wild. I made two mistakes here: 1) I
+    made the change too quickly, and ended up patching **knitr** on CRAN
+    immediately on the next day; 2) I did not work hard enough on the error
+    message---originally when the chunk delimiters are not balanced, users will
+    run into an obscure error:
+
+        Error in parse(text = x, srcfile = src) : 
+          attempt to use zero-length variable name
+
+    I bet no one understands this error. Later I made the error message much
+    clearer, telling users exactly which lines in the R Markdown document
+    contain unbalanced chunk delimiters.
+
+    Lessons learned:
+
+    > Be more patient with testing reverse dependencies of a package. The
+    > breakage does not happen often, but when it happens and I fail to realize
+    > it in advance, I'd be in a great hurry to put out the fire. Work harder to
+    > avoid obscure error messages.
+
 To be continued...
