@@ -261,7 +261,7 @@ delimiters.
 ## Deprecating unbalanced code chunks
 
 At this point, I'm trying to signal a warning if unbalanced chunk delimiters are
-detected, but they still wok fine. In the case of `R CMD check` not running on
+detected, but they still work fine. In the case of `R CMD check` not running on
 CRAN, I will throw an error instead, so package authors can fix this problem
 before they submit to CRAN. I hope this strategy is acceptable to users and
 package developers. If not, please feel free to let me know.
