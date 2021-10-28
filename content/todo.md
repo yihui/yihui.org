@@ -10,19 +10,19 @@ Looking at these items, you may make a better decision on whether to ask questio
 ## Status
 
 At the moment, I have
-**160**
+**158**
 emails in my inbox to be dealt with (the earliest that I have not replied to was from _Nov 21, 2018_),
-**0**
+**20**
 unread Github issues/PRs, and about
 **100**
 tabs open in my browser.
 
 ## TODO
 
+1. publish daily build of TinyTeX to Github release and make the download links stable
 1. syntax for verbatim code chunks https://github.com/yihui/knitr/issues/2040
 1. see if I'm able to maintain the apero theme: https://github.com/hugo-apero
 1. automatically install hyphen packages: https://github.com/yihui/tinytex/issues/322
-1. distill/R Journal meeting
 1. clean up knitr code in quarto: https://github.com/quarto-dev/quarto-cli/pull/115
 1. Questions to be answered:
     - https://stackoverflow.com/q/68792824/559676 https://github.com/yihui/knitr/issues/2037 relative links in blogdown
