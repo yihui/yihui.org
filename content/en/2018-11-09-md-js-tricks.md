@@ -6,9 +6,11 @@ slug: md-js-tricks
 
 Just because Markdown is so simple (well, "[simple](/en/2018/11/hard-markdown/)"), there will definitely be useful features missing. I want to share some of my relatively simple JS tricks to fill the gaps. Please note that I'm only talking about the HTML output, and the Markdown flavor can be arbitrary (it doesn't have to be Pandoc's Markdown). In fact, all tricks below are general-purpose and will work on any web pages, no matter if the pages are generated from Markdown or not. 
 
+If you are interested in the JavaScript source code, you may find all scripts in the Github repo [yihui/misc.js](https://github.com/yihui/misc.js).
+
 ## How to work with MathJax
 
-The MathJax support in most Markdown flavors is missing. The only exception is Pandoc's Markdown. If you use R Markdown (which is based on Pandoc), you can ignore this trick. I have explained my trick of making MathJax work with any flavors of Markdown in detail [in a previous post](/en/2018/07/latex-math-markdown/). The relevant JS code is in [math-code.js](https://github.com/rbind/yihui/blob/master/static/js/math-code.js) on my website. This is the most complicated trick in this post, although it is only 20 lines of code.
+The MathJax support in most Markdown flavors is missing. The only exception is Pandoc's Markdown. If you use R Markdown (which is based on Pandoc), you can ignore this trick. I have explained my trick of making MathJax work with any flavors of Markdown in detail [in a previous post](/en/2018/07/latex-math-markdown/). The relevant JS code is in [math-code.js](https://github.com/yihui/misc.js/blob/main/js/math-code.js) on my website. This is the most complicated trick in this post, although it is only 20 lines of code.
 
 ## How to make links open in new tabs (i.e., `target="_blank"`)
 
@@ -47,7 +49,7 @@ Images on the web often have an `alt` attribute, which stands for "alternate tex
 
 Since this attribute is invisible to users with the normal vision, it actually also has a problem. Sometimes you don't know what exactly the author tries to express just by looking at an image. You may have a better idea by reading the text. You could right click on the image, "Inspect Element", and look at the `<img>` tag in the source, but that's a bit hassle and not everyone knows how the use the Developer Tools of modern web browsers.
 
-My trick is to add the `title` attribute to `<img>` (if not already specified), whose value is identical to the `alt` text. The `title` attribute will give you a tooltip, which you can read as you mouseover the image. XKCD is a typical example. The code [alt-title.js](https://github.com/rbind/yihui/blob/master/static/js/alt-title.js) is simple enough:
+My trick is to add the `title` attribute to `<img>` (if not already specified), whose value is identical to the `alt` text. The `title` attribute will give you a tooltip, which you can read as you mouseover the image. XKCD is a typical example. The code [alt-title.js](https://github.com/yihui/misc.js/blob/main/js/alt-title.js) is simple enough:
 
 ```js
 (function() {
@@ -67,7 +69,7 @@ Note that with Pandoc's Markdown, you can generate figure captions, so the toolt
 
 ## How to center images in paragraphs
 
-When an image (`<img>`) is the only child element of a paragraph (`<p>`), chances are you want to center it. Except with Pandoc's Markdown, you cannot really align images with Markdown syntax. I have written a JS script [center-img.js](https://github.com/rbind/yihui/blob/master/static/js/center-img.js) to automatically center images on web pages. It is slightly tricky because I considered both of these cases:
+When an image (`<img>`) is the only child element of a paragraph (`<p>`), chances are you want to center it. Except with Pandoc's Markdown, you cannot really align images with Markdown syntax. I have written a JS script [center-img.js](https://github.com/yihui/misc.js/blob/main/js/center-img.js) to automatically center images on web pages. It is slightly tricky because I considered both of these cases:
 
 ```html
 <!-- Markdown: ![](...) -->
@@ -88,7 +90,7 @@ I have also considered centering `<embed>` and `<object>`, although these elemen
 
 If you need to use quotes in Markdown, everything will be left-aligned by default, but you may want the footer (the source of the quote or the person who said the words) to be right-aligned.
 
-My trick, [right-quote.js](https://github.com/rbind/yihui/blob/master/static/js/right-quote.js), is to check the last paragraph of a quote. If it starts with the em-dash (---), I'll apply the CSS style `text-aligh: right;` to it. Here  is an example:
+My trick, [right-quote.js](https://github.com/yihui/misc.js/blob/main/js/right-quote.js), is to check the last paragraph of a quote. If it starts with the em-dash (---), I'll apply the CSS style `text-aligh: right;` to it. Here  is an example:
 
 
 ```md
