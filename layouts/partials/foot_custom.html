@@ -23,9 +23,8 @@ document.addEventListener('keyup', function(e) {
 
 {{ partial "disqus.html" . }}
 
-{{ range .Site.Params.customJS }}
-<script async src="{{ . | relURL }}"></script>
-{{ end }}
+{{ partial "custom_js.html" (apply .Site.Params.customJS "print" "utils/" ".") }}
+{{ partial "custom_js.html" .Params.customJS }}
 
 {{ if and (not .Params.disable_mathjax) (or (in (string .Content) "\\") (in (string .Content) "$")) }}
 <script async src="//mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML"></script>
