@@ -42,6 +42,10 @@
       "destination": "https://r.yihui.org/$1"
     },
     {
+      "source": "/js/(.*)",
+      "destination": "https://cdn.jsdelivr.net/npm/@xiee/utils/js/$1"
+    },
+    {
       "statusCode": 301,
       "source": "/gh/tinytex/tools/(.*)",
       "destination": "https://tinytex.yihui.org/$1"
