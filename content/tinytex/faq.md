@@ -1,6 +1,8 @@
 ---
 title: Frequently (?) Asked Questions
 date: '2017-12-02'
+customCSS: ['utils/faq.css']
+customJS: ['utils/faq.js']
 ---
 
 This list of FAQs explain the technical details of TinyTeX for those who are curious, and alternative ways to install and use TinyTeX for those who are not sysadmins of their computers.
