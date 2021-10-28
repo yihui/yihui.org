@@ -1,5 +1,5 @@
 {{ with . }}
-{{ if (fileExists "static/hardlink" )}}
+{{ if (where (readDir "static") "Name" "hardlink") }}
 {{ range . }}
 <script src="{{ (print "hardlink/js/" (replaceRE "^.*/" "" .)) | relURL }}" type="module"></script>
 {{ end }}
