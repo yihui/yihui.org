@@ -4,6 +4,6 @@
 <link rel="stylesheet" href="{{ (print "hardlink/css/" (replaceRE "^.*/" "" .)) | relURL }}" />
 {{ end }}
 {{ else }}
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/combine/{{ delimit (apply . "replaceRE" "^([^/]+)/(.+)\\.js$" "npm/@xiee/$1/css/$2.min.css" ".") "," }}"></link>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/combine/{{ delimit (apply . "replaceRE" "^([^/]+)/(.+)\\.css$" "npm/@xiee/$1/css/$2.min.css" ".") "," }}"></link>
 {{ end }}
 {{ end }}
