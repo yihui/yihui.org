@@ -61,7 +61,7 @@ My trick is to add the `title` attribute to `<img>` (if not already specified), 
 
 An example:
 
-![Trying to figure out the possible reasons why my girlfriend is angry](https://db.yihui.org/images/thick-book.jpg)
+![Xiao He chasing Han Xin under the moon](https://db.yihui.org/images/zhui-hanxin.jpg)
 
 Note that with Pandoc's Markdown, you can generate figure captions, so the tooltips may not be necessary. With other Markdown flavors, `![text](url)` is often translated to `<img src="url" alt="text" />`.
 
