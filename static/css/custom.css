@@ -61,6 +61,10 @@ table {
 pre .nohighlight {
   background-color: transparent;
 }
+pre:hover {
+  white-space: pre-wrap;
+  word-break: break-all;
+}
 .hljs-comment {
   font-style: inherit;
 }
