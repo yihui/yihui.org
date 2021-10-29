@@ -196,6 +196,8 @@ blackfriday:
     fractions: false
 
 markup:
+  highlight:
+    codeFences: false
   goldmark:
     renderer:
       unsafe: true
