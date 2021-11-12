@@ -6,3 +6,4 @@ public
 static/figures
 static/hardlink
 blogdown
+.hugo_build.lock
