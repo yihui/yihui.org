@@ -46,9 +46,9 @@ I have mentioned and briefly explained the solution in the **blogdown** book, to
 My JavaScript solution is available at https://yihui.org/js/math-code.js. It is not very long (about 20 lines). After loading this script, you can include MathJax (even _asynchronously_):
 
 ```html
-<script src="//yihui.org/js/math-code.js"></script>
+<script src="//yihui.org/js/math-code.js" defer></script>
 <!-- Just one possible MathJax CDN below. You may use others. -->
-<script async
+<script defer
   src="//mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML">
 </script>
 ```
