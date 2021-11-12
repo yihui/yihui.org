@@ -201,3 +201,7 @@ markup:
   goldmark:
     renderer:
       unsafe: true
+    parser:
+      autoHeadingIDType: blackfriday
+  tableOfContents:
+    startLevel: 1
