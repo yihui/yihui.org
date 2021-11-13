@@ -30,6 +30,7 @@ for i in js/*.js; do
   terser $i --compress --mangle --source-map --output ${i%.js}.min.js
 done
 
+cd ..
 # Netlify uses $CONTEXT and Vercel uses $VERCEL_ENV
 if [ "${VERCEL_ENV:-$CONTEXT}" = "production" ]; then
   hugo -F
