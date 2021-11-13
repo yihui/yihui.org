@@ -30,6 +30,12 @@ for i in js/*.js; do
   terser $i --compress --mangle --source-map --output ${i%.js}.min.js
 done
 
+# do not index the site on Netlify (only index the one built on Vercel)
+if [ $NETLIFY = "true" ]; then
+  echo 'User-agent: *
+Disallow: /' > robots.txt
+fi
+
 cd ..
 # Netlify uses $CONTEXT and Vercel uses $VERCEL_ENV
 if [ "${VERCEL_ENV:-$CONTEXT}" = "production" ]; then
