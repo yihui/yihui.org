@@ -1,9 +1,15 @@
 {{ with . }}
 {{ if (where (readDir "static") "Name" "hardlink") }}
 {{ range . }}
-<link rel="stylesheet" href="{{ (print "hardlink/css/" (replaceRE "^.*/" "" .)) | relURL }}" />
+<link rel="stylesheet" href="{{ (replaceRE "^.*/" "hardlink/css/" .) | relURL }}" />
+{{ end }}
+{{ else }}
+{{ if (where (readDir "static/js") "Name" "faq.min.js") }}
+{{ range . }}
+<link rel="stylesheet" href="{{ (replaceRE "^.*/" "css/" .) | relURL }}" />
 {{ end }}
 {{ else }}
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/combine/{{ delimit (apply . "replaceRE" "^([^/]+)/(.+)\\.css$" "npm/@xiee/$1/css/$2.min.css" ".") "," }}"></link>
+{{ end }}
 {{ end }}
 {{ end }}

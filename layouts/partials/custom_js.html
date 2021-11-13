@@ -1,9 +1,15 @@
 {{ with . }}
 {{ if (where (readDir "static") "Name" "hardlink") }}
 {{ range . }}
-<script src="{{ (print "hardlink/js/" (replaceRE "^.*/" "" .)) | relURL }}" type="module"></script>
+<script src="{{ (replaceRE "^.*/" "hardlink/js/" .) | relURL }}" type="module"></script>
+{{ end }}
+{{ else }}
+{{ if (where (readDir "static/js") "Name" "faq.min.js") }}
+{{ range . }}
+<script src="{{ (replaceRE "^.*/" "js/" .) | relURL }}" defer></script>
 {{ end }}
 {{ else }}
 <script async src="https://cdn.jsdelivr.net/combine/{{ delimit (apply . "replaceRE" "^([^/]+)/(.+)\\.js$" "npm/@xiee/$1/js/$2.min.js" ".") "," }}"></script>
+{{ end }}
 {{ end }}
 {{ end }}
