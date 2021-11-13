@@ -6,7 +6,7 @@
 {{ else }}
 {{ if (where (readDir "static/js") "Name" "faq.min.js") }}
 {{ range . }}
-<link rel="stylesheet" href="{{ (replaceRE "^.*/" "css/" .) | relURL }}" />
+<link rel="stylesheet" href="{{ (replaceRE "^.*/(.+?)\\.css$" "css/$1.min.css" .) | relURL }}" />
 {{ end }}
 {{ else }}
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/combine/{{ delimit (apply . "replaceRE" "^([^/]+)/(.+)\\.css$" "npm/@xiee/$1/css/$2.min.css" ".") "," }}"></link>
