@@ -2,7 +2,7 @@
 title: An Introduction to xfun
 subtitle: A Collection of Miscellaneous Functions
 author: "Yihui Xie"
-date: "2021-05-18"
+date: "2021-11-12"
 slug: xfun
 githubEditURL: https://github.com/yihui/xfun/edit/master/vignettes/xfun.Rmd
 output:
@@ -503,15 +503,15 @@ xfun::session_info(c("xfun", "rmarkdown", "knitr", "tinytex"), dependencies = FA
 ```
 
 ```
-## R version 4.0.5 (2021-03-31)
+## R version 4.1.1 (2021-08-10)
 ## Platform: x86_64-apple-darwin17.0 (64-bit)
 ## Running under: macOS Big Sur 10.16
 ## 
 ## Locale: en_US.UTF-8 / en_US.UTF-8 / en_US.UTF-8 / C / en_US.UTF-8 / en_US.UTF-8
 ## 
 ## Package version:
-##   knitr_1.33.4    rmarkdown_2.8.3 tinytex_0.31.5  xfun_0.23      
+##   knitr_1.36.7   rmarkdown_2.11 tinytex_0.35.2 xfun_0.28.4   
 ## 
-## Pandoc version: 2.11.4
+## Pandoc version: 2.14.2
 ```
 
