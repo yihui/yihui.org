@@ -7,7 +7,16 @@ customCSS: ["utils/circled-numbers.css"]
 ---
 
 <style type="text/css">
-h2 { text-align: left; }
+h2 {
+  text-align: left;
+  border-top: 1px dashed;
+  padding-top: 1em;
+  margin: 1.5em 0 1em;
+}
+#TableOfContents ~ h1 {
+  background: #f8f8f8;
+  margin: 2em 0 1em;
+}
 </style>
 
 收集一些简化版的菜谱在此，主要是为了方便自己看各种原料的用量及基本步骤，具体做法参见菜名上的链接，我并不严格按菜谱行事。按拼音排序。
