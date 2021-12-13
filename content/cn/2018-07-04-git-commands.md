@@ -44,6 +44,15 @@ slug: git-commands
     git rm -rf .
     ```
 
+- 删除标签：
+
+    ```bash
+    # 本地删除
+    git tag -d tagname
+    # 远端删除
+    git push --delete origin tagname
+    ```
+
 - [重命名标签](http://stackoverflow.com/q/1028649/559676)：
 
     ```bash
