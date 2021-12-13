@@ -581,6 +581,10 @@ for examples).
     current chunk. For example, `code = readLines('test.R')` will use the
     content of the file `test.R` as the code for the current chunk.
 
+-   `file`: (`NULL`; character) If provided, it will override the `code` option
+    by reading the chunk content from external files. A chunk option
+    `file = "test.R"` is equivalent to `code = xfun::read_all("test.R")`.
+
 -   `ref.label`: (`NULL`; character) A character vector of labels of the chunks
     from which the code of the current chunk is inherited (see the demo for
     [chunk references](../demo/reference/)). If the vector is wrapped in `I()`
