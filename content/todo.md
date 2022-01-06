@@ -10,19 +10,16 @@ Looking at these items, you may make a better decision on whether to ask questio
 ## Status
 
 At the moment, I have
-**158**
+**166**
 emails in my inbox to be dealt with (the earliest that I have not replied to was from _Nov 21, 2018_),
-**20**
+**21**
 unread Github issues/PRs, and about
-**100**
+**40**
 tabs open in my browser.
 
 ## TODO
 
-1. publish daily build of TinyTeX to Github release and make the download links stable
-1. syntax for verbatim code chunks https://github.com/yihui/knitr/issues/2040
 1. see if I'm able to maintain the apero theme: https://github.com/hugo-apero
-1. automatically install hyphen packages: https://github.com/yihui/tinytex/issues/322
 1. clean up knitr code in quarto: https://github.com/quarto-dev/quarto-cli/pull/115
 1. Questions to be answered:
     - https://stackoverflow.com/q/68792824/559676 https://github.com/yihui/knitr/issues/2037 relative links in blogdown
@@ -108,21 +105,12 @@ If anyone is interested in any of the items below, please feel free to let me kn
 
 ## 私人事项
 
-1. Lemonade 涉嫌欺骗 INSURANCE COMPANY GIVES SOUR AI PROMISES https://mindmatters.ai/2021/08/insurance-company-gives-sour-ai-promises/
-1. 从字体的差异发现学术造假 Evidence of Fraud in an Influential Field Experiment About Dishonesty https://datacolada.org/98
-1. 价值投资 https://mp.weixin.qq.com/s/4ayRJVUXVyb2lx-HZf42ug
-1. Git 邮件列表中关于主分支重命名的讨论 https://lore.kernel.org/git/CAOAHyQwyXC1Z3v7BZAC+Bq6JBaM7FvBenA-1fcqeDV==apdWDg@mail.gmail.com/t/#u
-1. 通读 https://yihanxu.github.io/archive/
-1. 一堆未读推特消息，从 2020/07/01 开始：<https://t.yihui.org>
 1. 这位大人对 knitr 钻研似乎颇深，是个人才，也许可以拉来做点什么事：<https://stackoverflow.com/users/2706569/cl>
 1. 家教有关的阅读
     - https://twitter.com/Idzie/status/1247946036733190145
     - https://www.thecut.com/2020/03/unschooling-your-kids-during-coronavirus-quarantine.html
     - https://qz.com/1828551/parents-who-didnt-choose-to-homeschool-this-is-an-opportunity/
-1. https://josebrowne.com/on-coding-ego-and-attention/
-1. https://fortelabs.co/blog/how-to-take-smart-notes
 1. https://www.samuelthomasdavies.com/book-summaries/business/deep-work/
-1. https://highexistence.com/5-reasons-modern-life-depression/
 1. 黑客与画家 http://idlewords.com/2005/04/dabblers_and_blowhards.htm
 1. [教养的迷思](https://book.douban.com/subject/26612510/) https://mp.weixin.qq.com/s/4XmMuUV2XbM-UMD4GJGUMQ
 1. [家庭、私有制和国家的起源](https://www.marxists.org/chinese/engels/marxist.org-chinese-engels-1884-3.htm) https://en.wikipedia.org/wiki/The_Origin_of_the_Family,_Private_Property_and_the_State
@@ -132,7 +120,7 @@ If anyone is interested in any of the items below, please feel free to let me kn
 1. 为 XD 和邻居架设网站
 1. 用 `IntersectionObserver` 而不是 `scroll` 事件检测评论区是否滚到了当前视图下： https://blog.skk.moe/post/prevent-disqus-from-slowing-your-site/
 1. [洛宁蒸肉](https://mp.weixin.qq.com/s/6UGYqfXzvBjBa8xJYPhGFQ)：五花肉、粉丝、玉米面、葱姜蒜、酱油、蚝油、盐。
-1. 毛笔字：https://www.zgbk.com/dzb/jy/sfxx/
+1. 毛笔字：<https://www.zgbk.com/dzb/jy/sfxx/>
 
 ## 随机事项
 
