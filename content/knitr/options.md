@@ -262,6 +262,10 @@ Below is a list of chunk options in **knitr** documented in the format
 -   `attr.source`: (`NULL`; character) Attributes for source code blocks.
     Similar to the `attr.*` options for output such as `attr.output`.
 
+-   `lang`: (`NULL`; character) The language name of a code chunk. By default,
+    the language name is the engine name, e.g., `r`. This option is primarily
+    for syntax highlighting of Markdown-based output documents.
+
 -   `size`: (`'normalsize'`; character) Font size of the chunk output from
     `.Rnw` documents. See [this
     page](https://www.overleaf.com/learn/latex/Font_sizes,_families,_and_styles)
@@ -752,9 +756,9 @@ Available package options are as follows:
     LaTeX packages **color** and **graphicx**, respectively. These options are
     only for `.Rnw` documents.
 
--   `latex.tilde` (`NULL`): The LaTeX command for the tilde character in
-    highlighted output of `.Rnw` documents (see [the issue
-    #1992](https://github.com/yihui/knitr/issues/1992) for examples).
+-   `latex.tilde` (`NULL`; character): The LaTeX command string for the tilde
+    character in the syntax highlighted chunk output from `.Rnw` documents (see
+    [the issue #1992](https://github.com/yihui/knitr/issues/1992) for examples).
 
 -   `out.format`: (`NULL`; character) Possible values are `latex`, `sweave`,
     `html`, `markdown`, and `jekyll`. It will be automatically determined based
