@@ -112,6 +112,8 @@ Find the package that contains the file with the exact name in the error log abo
 
 ```sh
 tlmgr install psnfss
+# if the package contains executables (e.g., dvisvgm), run
+tlmgr path add 
 ```
 
 Alternatively, you may just upload the error log to the Github repo [yihui/latex-pass](https://github.com/yihui/latex-pass), which runs `tlmgr search` on the cloud and tells you the names of missing packages.
