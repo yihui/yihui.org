@@ -9,16 +9,20 @@ Looking at these items, you may make a better decision on whether to ask questio
 
 ## Status
 
+I'm currently on vacation (2022/01/29 - 02/13).
+
 At the moment, I have
-**166**
+**182**
 emails in my inbox to be dealt with (the earliest that I have not replied to was from _Nov 21, 2018_),
-**21**
+**34**
 unread Github issues/PRs, and about
-**40**
+**50**
 tabs open in my browser.
 
 ## TODO
 
+1. new syntax for verbatim inline R expression: https://github.com/rstudio/rmarkdown/issues/1652
+1. release evaluate: https://github.com/r-lib/evaluate
 1. see if I'm able to maintain the apero theme: https://github.com/hugo-apero
 1. clean up knitr code in quarto: https://github.com/quarto-dev/quarto-cli/pull/115
 1. Questions to be answered:
