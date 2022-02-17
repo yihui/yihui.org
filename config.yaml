@@ -140,7 +140,7 @@ menu:
 
 params:
   description: "Personal website of Yihui Xie; 谢益辉的个人网站"
-  footer: "&copy; [Yihui Xie](/) 2001 - 2021"
+  footer: "&copy; [Yihui Xie](/) 2001 - {Year}"
   disqusURL: "https://yihui.org"
   customJS:
     - "fix-toc.js"
