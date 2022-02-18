@@ -31,7 +31,7 @@ for i in js/*.js; do
 done
 
 # do not index the site on Netlify (only index the one built on Vercel)
-if [ $NETLIFY = "true" ]; then
+if [ "$NETLIFY" = "true" ]; then
   echo 'User-agent: *
 Disallow: /' > robots.txt
 fi
