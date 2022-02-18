@@ -9,18 +9,18 @@ Looking at these items, you may make a better decision on whether to ask questio
 
 ## Status
 
-I'm currently on vacation (2022/01/29 - 02/13).
-
 At the moment, I have
-**182**
+**191**
 emails in my inbox to be dealt with (the earliest that I have not replied to was from _Nov 21, 2018_),
-**34**
+**60**
 unread Github issues/PRs, and about
-**50**
+**100**
 tabs open in my browser.
 
 ## TODO
 
+1. submit a talk to useR! before March 1
+1. [submit a talk to rstudio::conf](https://docs.google.com/forms/d/e/1FAIpQLSernyhlWUXuR4qbY-onqemst0-6ecuq7UE9C3WQ02_ZHHhuIw/viewform) before March 14
 1. new syntax for verbatim inline R expression: https://github.com/rstudio/rmarkdown/issues/1652
 1. release evaluate: https://github.com/r-lib/evaluate
 1. see if I'm able to maintain the apero theme: https://github.com/hugo-apero
