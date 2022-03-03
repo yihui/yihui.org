@@ -140,6 +140,19 @@ img[src$="#border"] {
 .input:checked + .label + .panel, .comment-full .tabs, .comment-full .panel:not(:last-of-type) { display: block; }
 .comment-full .panel { order: inherit; }
 .comment-full .label { width: 100%; display: block; }
+.hash-note {
+  background: lightyellow;
+  font-size: .9em;
+  color: #666;
+}
+.hash-note a { color: inherit; }
+span.hash-note::before { content: "　# "; }
+.hide-notes .hash-note { display: none; }
+.toggle-notes {
+  cursor: pointer;
+  border-top: 4px double #999;
+  margin-bottom: 47px;
+}
 
 @media screen and (max-width: 960px) {
   h1, h2, h3, h4, h5, h6 {

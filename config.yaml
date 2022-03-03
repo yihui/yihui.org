@@ -152,6 +152,7 @@ params:
     - "external-link.js"
     - "alt-title.js"
     - "header-link.js"
+    - "hash-notes.js"
   githubContentURL: "https://github.com/rbind/yihui/edit/master/content/"
   twitterImage: "/images/logo.png"
 

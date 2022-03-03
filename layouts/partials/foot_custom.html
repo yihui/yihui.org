@@ -26,6 +26,10 @@ document.addEventListener('keyup', function(e) {
 {{ partial "custom_js.html" (apply .Site.Params.customJS "print" "utils/" ".") }}
 {{ partial "custom_js.html" .Params.customJS }}
 
+{{ if .IsPage }}
+<script defer src="/js/toggle-notes.js"></script>
+{{ end }}
+
 {{ if and (not .Params.disable_mathjax) (or (in (string .Content) "\\") (in (string .Content) "$")) }}
 <script async src="//mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML"></script>
 {{ end }}
