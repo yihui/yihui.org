@@ -674,8 +674,8 @@ for examples).
     the document, and if found, also apply its chunk options to the current
     chunk.
 
-    The precedence of chunk options is: local chunk options > referenced code
-    chunk options > `knitr::opts_template` > `knitr::opts_chunk`.
+    The precedence of chunk options is: local chunk options \> referenced code
+    chunk options \> `knitr::opts_template` \> `knitr::opts_chunk`.
 
     The special value `opts.label = TRUE` means `opts.label = ref.label`, i.e.,
     to inherit chunk options from chunks referenced by the `ref.label` option.
