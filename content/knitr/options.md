@@ -727,9 +727,9 @@ Available package options are as follows:
     TeX error occurs. This feature is only for `.Rnw` documents, and implemented
     in RStudio.
 
--   `eval.after`: (`c('fig.cap', 'fig.alt')`; character) A character vector of
-    option names. These options will be evaluated *after* a chunk has been
-    evaluated, and all other options will be evaluated before a chunk. For
+-   `eval.after`: (`c('fig.cap', 'fig.scap', 'fig.alt')`; character) A character
+    vector of option names. These options will be evaluated *after* a chunk has
+    been evaluated, and all other options will be evaluated before a chunk. For
     example, for `fig.cap = paste('p-value is', t.test(x)$p.value)`, it will be
     evaluated after the chunk according to the value of `x` if
     `eval.after = 'fig.cap'`.
