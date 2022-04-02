@@ -10,20 +10,18 @@ Looking at these items, you may make a better decision on whether to ask questio
 ## Status
 
 At the moment, I have
-**191**
+**200**
 emails in my inbox to be dealt with (the earliest that I have not replied to was from _Nov 21, 2018_),
-**60**
+**0**
 unread Github issues/PRs, and about
-**100**
+**80**
 tabs open in my browser.
 
 ## TODO
 
-1. submit a talk to useR! before March 1
-1. [submit a talk to rstudio::conf](https://docs.google.com/forms/d/e/1FAIpQLSernyhlWUXuR4qbY-onqemst0-6ecuq7UE9C3WQ02_ZHHhuIw/viewform) before March 14
 1. new syntax for verbatim inline R expression: https://github.com/rstudio/rmarkdown/issues/1652
-1. release evaluate: https://github.com/r-lib/evaluate
 1. see if I'm able to maintain the apero theme: https://github.com/hugo-apero
+1. support custom output formats in blogdown: https://github.com/rstudio/blogdown/issues/289
 1. clean up knitr code in quarto: https://github.com/quarto-dev/quarto-cli/pull/115
 1. Questions to be answered:
     - https://stackoverflow.com/q/68792824/559676 https://github.com/yihui/knitr/issues/2037 relative links in blogdown
@@ -66,6 +64,7 @@ This section is cleaned up from time to time.
 
 ## Backlog
 
+1. litedown (for package vignettes) https://github.com/rstats-gsod/gsod2022/issues/5
 1. Support HTML widgets in **pagedown**: https://github.com/rstudio/pagedown/pull/87
 1. A Hugo theme based paged.js? https://www.pagedjs.org
 1. A Hugo layout for cards? https://apreshill.github.io/postcard/about.html
@@ -78,6 +77,7 @@ This section is cleaned up from time to time.
 
 If anyone is interested in any of the items below, please feel free to let me know. I'd be happy to explain more, or do a video chat with you.
 
+1. Land the **xaringan** slide page in RStudio Viewer corresponding to the cursor position in RStudio IDE: https://github.com/yihui/xaringan/issues/336
 1. How can users build and install their own version of TinyTeX? Short answer: install [`TinyTeX-0`](https://github.com/yihui/tinytex-releases), use `tlmgr` to install the packages they need, zip the TinyTeX installation directory, and publish it somewhere (e.g., Github Releases, or AppVeyor artifacts). To install this custom version of TinyTeX, I'll need to provide an environment variable to customize the URL in my installation scripts (e.g., not hard-coding yihui.org or github.com/yihui/tinytex-releases in [install-bin-unix.sh](https://github.com/yihui/tinytex/blob/master/tools/install-bin-unix.sh)), so they can be reused by others. 
 1. Introduce the easier way to start a **bookdown** project using the RStudio IDE in the book: https://github.com/rstudio/bookdown/issues/225
 1. Build **rggobi** on r-universe.dev: https://github.com/ggobi/rggobi/issues/7
