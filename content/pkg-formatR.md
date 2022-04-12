@@ -2,7 +2,7 @@
 title: formatR
 subtitle: Format R code automatically
 author: Yihui Xie
-date: "2021-10-01"
+date: "2022-04-11"
 show_toc: true
 slug: formatr
 githubEditURL: https://github.com/yihui/formatR/edit/master/vignettes/formatR.Rmd
@@ -43,9 +43,9 @@ sessionInfo()
 ```
 
 ```
-## R version 4.1.1 (2021-08-10)
+## R version 4.1.3 (2022-03-10)
 ## Platform: x86_64-apple-darwin17.0 (64-bit)
-## Running under: macOS Big Sur 10.16
+## Running under: macOS Big Sur/Monterey 10.16
 ## 
 ## Matrix products: default
 ## BLAS:   /Library/Frameworks/R.framework/Versions/4.1/Resources/lib/libRblas.0.dylib
@@ -59,11 +59,11 @@ sessionInfo()
 ## [7] base     
 ## 
 ## other attached packages:
-## [1] formatR_1.11
+## [1] formatR_1.12
 ## 
 ## loaded via a namespace (and not attached):
-## [1] compiler_4.1.1 magrittr_2.0.1 tools_4.1.1    stringi_1.7.4 
-## [5] knitr_1.35.2   stringr_1.4.0  xfun_0.26      evaluate_0.14
+## [1] compiler_4.1.3 magrittr_2.0.3 tools_4.1.3    stringi_1.7.6 
+## [5] knitr_1.38.2   stringr_1.4.0  xfun_0.30.2    evaluate_0.15
 ```
 
 # 2. Reformat R code
@@ -79,7 +79,8 @@ the main workhorse is the function `tidy_source()`. Features include:
     (default is 4);
 -   An `else` statement on a separate line without the leading `}` will be moved
     one line back;
--   `=` as an assignment operator can be replaced with `<-`;
+-   `=` as an assignment operator can be substituted with `<-`;
+-   `%>%` can be substituted with `|>`;
 -   The left brace `{` can be moved to a new line;
 -   Arguments of a function call can start on a new line after the function name
     when they cannot fit on one line;
@@ -232,7 +233,7 @@ We continue the example code in Section 2, using different arguments in
 `tidy_source()` such as `arrow`, `blank`, `indent`, `brace.newline` and
 `comment`, etc.
 
-## Replace `=` with `<-`
+## Substitute `=` with `<-`
 
 
 ```r
@@ -342,6 +343,7 @@ if (TRUE)
 
 ```r
 1 + 1
+
 if (TRUE) {
     x = 1
 } else {
@@ -350,6 +352,7 @@ if (TRUE) {
 }
 1 * 3
 2 + 2 + 2
+
 lm(y ~ x1 + x2, data = data.frame(y = rnorm(100), x1 = rnorm(100),
     x2 = rnorm(100)))
 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 +
@@ -451,7 +454,7 @@ invisible(".IDENTIFIER1  # asdf.IDENTIFIER2")
 which is a legal R expression, so `base::parse()` can deal with it and will no
 longer remove the disguised comments. In the end the identifiers will be removed
 to restore the original comments, i.e. the strings `invisible(".IDENTIFIER1` and
-`.IDENTIFIER2")` are replaced with empty strings.
+`.IDENTIFIER2")` are substituted with empty strings.
 
 Inline comments are handled differently: two spaces will be added before the
 hash symbol `#`, e.g.
@@ -490,6 +493,7 @@ There are global options which can override some arguments in `tidy_source()`:
 | `comment`       | `options('formatR.comment')`       | `TRUE`             |
 | `blank`         | `options('formatR.blank')`         | `TRUE`             |
 | `arrow`         | `options('formatR.arrow')`         | `FALSE`            |
+| `pipe`          | `options('formatR.pipe')`          | `FALSE`            |
 | `indent`        | `options('formatR.indent')`        | `4`                |
 | `wrap`          | `options('formatR.wrap')`          | `TRUE`             |
 | `width.cutoff`  | `options('formatR.width')`         | `options('width')` |
