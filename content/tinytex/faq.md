@@ -154,6 +154,22 @@ This list of FAQs explain the technical details of TinyTeX for those who are cur
         
         You only need to do this once. If you installed TinyTeX using the approach in FAQ 5, you need `sudo` to run `tlmgr path add`.
 
+1. **Can I change the directory where tinytex places symlinks to executables?**
+
+   Yes, simply set `tlmgr`'s [`sys_bin` option](https://www.tug.org/texlive/doc/tlmgr.html#option) to the desired path. To set it to `~/.local/bin`, the default user binary directory proposed by the [XDG Base Directory Specification](https://specifications.freedesktop.org/basedir-spec/basedir-spec-latest.html), for example, use:
+   
+   ```sh
+   tlmgr option sys_bin ~/.local/bin
+   ```
+   
+   Or if you're an R user, the same command could be run via package tinytex:
+   
+   ```r
+   tinytex::tlmgr(c("option", "sys_bin", path.expand("~/.local/bin")))
+   ```
+
+   Note that the new path must be on your system's `PATH` in order for the symlinks to work properly.
+
 1. **How can I use TinyTeX on a USB drive or other portable devices?**
 
     As I said, TinyTeX is a portable version of TeX Live, so you can simply copy it to a portable device. The only thing you need to do after you plug the device to another computer is run the command `tlmgr path add`. Again, you need the full path to `tlmgr` in your portable device (see the the previous FAQ). After you run this command and restart the application, you should be able to run `tlmgr` without its full path.
