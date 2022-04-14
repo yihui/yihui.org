@@ -10,7 +10,7 @@ Looking at these items, you may make a better decision on whether to ask questio
 ## Status
 
 At the moment, I have
-**200**
+**195**
 emails in my inbox to be dealt with (the earliest that I have not replied to was from _Nov 21, 2018_),
 **0**
 unread Github issues/PRs, and about
@@ -19,6 +19,9 @@ tabs open in my browser.
 
 ## TODO
 
+My "official" TODO list is available [on Github](https://github.com/orgs/rstudio/projects/53/views/1). Below are some random items.
+
+1. blogdown book PRs: https://github.com/rstudio/blogdown/pull/619 https://github.com/rstudio/blogdown/pull/620 https://github.com/rstudio/blogdown/pull/623 
 1. new syntax for verbatim inline R expression: https://github.com/rstudio/rmarkdown/issues/1652
 1. see if I'm able to maintain the apero theme: https://github.com/hugo-apero
 1. support custom output formats in blogdown: https://github.com/rstudio/blogdown/issues/289
@@ -29,7 +32,6 @@ tabs open in my browser.
     - https://community.rstudio.com/t/106550 Why shortcode doesn't work in `.Rmd -> .html`
     - https://community.rstudio.com/t/106243 How to read a chunk from an external Rmd? Perhaps I need to export the parser from **knitr**, although there is a **parsermd** package, which I haven't taken a close look yet
 1. xaringan doesn't refresh with changes in css: https://github.com/yihui/xaringan/issues/301
-1. blogdown book PRs: https://github.com/rstudio/blogdown/pull/619 https://github.com/rstudio/blogdown/pull/620 https://github.com/rstudio/blogdown/pull/623 
 1. Read and probably respond to a few posts related to blogdown:
     - https://solomonkurz.netlify.app/post/2021-05-03-blogdown-updates-prompted-a-website-overhaul-these-are-my-notes/ Overhaul a blogdown site
     - https://www.jumpingrivers.com/blog/moving-to-hugo-tips-tricks-optimisation/ Hugo tips and tricks
