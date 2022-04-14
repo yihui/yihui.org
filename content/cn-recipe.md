@@ -591,6 +591,13 @@ broth）、生抽、盐，煮。分两次勾芡。撒青蒜末（或葱花）、
 
 # S
 
+## [三奶蛋糕](https://www.xiachufang.com/recipe/100015548/)
+
+英文名 Tres Leche
+Cake，名字有点吓人，幸好是三种奶不是两种。就是[普通蛋糕](#%E6%88%9A%E9%A3%8E%E8%9B%8B%E7%B3%95)底，戳洞灌进三种奶：淡奶（evaporated
+milk）、炼乳（sweetened condensed
+milk）、奶油（half-and-half）。冷藏，等蛋糕吸收奶。
+
 ## [臊子](https://www.xiachufang.com/recipe/1084514/)
 
 小火炒肉末、豆瓣酱、姜末、五香粉（依次入锅）。也可以加甜面酱、老抽、辣椒面。视口味调整。
@@ -696,6 +703,16 @@ broth）、生抽、盐，煮。分两次勾芡。撒青蒜末（或葱花）、
 蛋黄两个、糖 60 克、玉米油 80-120 克，拌匀。加低筋面粉 170 克，小苏打 2
 克，泡打粉 3
 克，拌匀。也可加淀粉、起酥油。揉匀后分小团，压扁，摁一些黑芝麻。烤。
+
+## [提拉米苏](https://www.xiachufang.com/recipe/104321001/)
+
+杀菌生鸡蛋（pasteurized eggs） 4 个加糖 50
+克加几勺酒（朗姆酒、白兰地、伏特加皆可）加马斯卡彭奶酪（Mascarpone
+Cheese）一小盒（250
+克或更多），搅拌机打发（搅匀即可，不必要求太高）。盘子底下铺一层蘸浓咖啡的饼干（不一定非得手指饼干），倒上一半打发的蛋乳液，再铺一层咖啡饼干、倒另一半。表层撒上可可粉。冷藏。
+
+若不喜生鸡蛋，[可用](https://www.xiaohongshu.com/discovery/item/5ee07ff900000000010005a0)
+200 克淡奶油（Whipping Cream）代替鸡蛋，同时减糖至 35 克。不喜酒也可以不放酒。
 
 ## [甜甜圈](https://www.xiachufang.com/recipe/103807613/)
 
