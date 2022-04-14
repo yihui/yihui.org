@@ -46,7 +46,7 @@ TinyTeX assumes that you are not afraid of using the command line. If you are, p
 
 The binary packages of TinyTeX are released on the monthly basis to the Github repo https://github.com/yihui/tinytex-releases.
 
-For Linux users, TinyTeX will be installed to `$HOME/.TinyTeX` and symlinks of executables (such as `pdflatex`) are created under `$HOME/bin`, which should be on the `PATH` environment variable:^[If not, you know how to add it to `PATH`, just because you are a Linux user! Note that you can change the directory where TinyTeX (or the underlying `tlmgr` utility respectively) places symlinks of executables via setting [`tlmgr`'s `sys_bin` option](https://www.tug.org/texlive/doc/tlmgr.html#option). See [FAQ 9](https://yihui.org/tinytex/faq/#faq-9) for details.]
+For Linux users, TinyTeX will be installed to `$HOME/.TinyTeX` and symlinks of executables (such as `pdflatex`) are created under `$HOME/bin` (or `$HOME/.local/bin` if it exists), which should be on the `PATH` environment variable:^[If not, you know how to add it to `PATH`, just because you are a Linux user! Note that you can change the directory where TinyTeX (or the underlying `tlmgr` utility respectively) places symlinks of executables via setting `tlmgr`'s `sys_bin` option. See [issue #365](https://github.com/yihui/tinytex/issues/365) for details.]
 
 ```sh
 wget -qO- "https://yihui.org/tinytex/install-bin-unix.sh" | sh
