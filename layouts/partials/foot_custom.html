@@ -27,7 +27,7 @@ document.addEventListener('keyup', function(e) {
 {{ partial "custom_js.html" .Params.customJS }}
 
 {{ if .IsPage }}
-<script defer src="/js/toggle-notes.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@xiee/utils/js/toggle-notes.min.js" defer></script>
 {{ end }}
 
 {{ if and (not .Params.disable_mathjax) (or (in (string .Content) "\\") (in (string .Content) "$")) }}
