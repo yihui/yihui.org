@@ -21,6 +21,14 @@ body {
   hyphens: auto;
   border-left: none;
 }
+.archive > ul > li {
+  display: inline-block;
+  margin-right: 1em;
+}
+.archive > ul > li > span, .hash-note {
+  color: #666;
+  font-size: .9em;
+}
 .menu li:not([class]) a, a:hover, .copyright a {
   border-bottom: none;
 }
@@ -140,11 +148,7 @@ img[src$="#border"] {
 .input:checked + .label + .panel, .comment-full .tabs, .comment-full .panel:not(:last-of-type) { display: block; }
 .comment-full .panel { order: inherit; }
 .comment-full .label { width: 100%; display: block; }
-.hash-note {
-  background: lightyellow;
-  font-size: .9em;
-  color: #666;
-}
+.hash-note { background: lightyellow; }
 .hash-note a { color: inherit; }
 span.hash-note::before { content: "　# "; }
 .hide-notes .hash-note { display: none; }
