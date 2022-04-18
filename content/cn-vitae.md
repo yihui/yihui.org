@@ -123,6 +123,7 @@ Email：xie@yihui.org；主页：<https://yihui.org>；现居住于美国内布�
 
 以下多数幻灯片都是基于 R Markdown 文档输出的 HTML 网页格式（尤其是近年来的幻灯片）；若需要查看 R Markdown 源文档，只需要在浏览器地址栏中将 `.html` 扩展名替换为 `.Rmd` 即可下载相应的 R Markdown 文档。
 
+- 谢益辉，2022，_Creating three types of websites with blogdown_，迈阿密大学统计系报告（[幻灯片](https://slides.yihui.org/2022-Miami-U.html)）
 - 谢益辉，2021，R Markdown 简史，第三届[巴西 R 会议](http://rday.leg.ufpr.br/)（[幻灯片](https://slides.yihui.org/2021-Brazilian-R-Day.html)）
 - 谢益辉，2021，_My journey in writing books and blogging about R_，useR! 2021（[幻灯片](https://slides.yihui.org/2021-useR-journey.html)）
 - 谢益辉，2021，TinyTeX 简介，[TeX Hour](https://jfine2358.github.io/contact/)
