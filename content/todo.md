@@ -10,18 +10,17 @@ Looking at these items, you may make a better decision on whether to ask questio
 ## Status
 
 At the moment, I have
-**195**
+**136**
 emails in my inbox to be dealt with (the earliest that I have not replied to was from _Nov 21, 2018_),
 **0**
 unread Github issues/PRs, and about
-**80**
+**120**
 tabs open in my browser.
 
 ## TODO
 
 My "official" TODO list is available [on Github](https://github.com/orgs/rstudio/projects/53/views/1). Below are some random items.
 
-1. blogdown book PRs: https://github.com/rstudio/blogdown/pull/619 https://github.com/rstudio/blogdown/pull/620 https://github.com/rstudio/blogdown/pull/623 
 1. new syntax for verbatim inline R expression: https://github.com/rstudio/rmarkdown/issues/1652
 1. see if I'm able to maintain the apero theme: https://github.com/hugo-apero
 1. support custom output formats in blogdown: https://github.com/rstudio/blogdown/issues/289
@@ -95,6 +94,8 @@ If anyone is interested in any of the items below, please feel free to let me kn
 
 ## Blog
 
+1. `formatR::tidy_pipe()`
+1. Quarto vs R Markdown
 1. Both TinyTeX and Hugo can be bundled with projects: https://twitter.com/bearloga/status/1440342267949060103
 1. blogdown vs distill https://twitter.com/PipingHotData/status/1376106167865384963 https://blog.rstudio.com/2021/09/23/curating-for-wearerladies-on-twitter/
 1. What does it mean to be generous? https://github.com/ropensci/targets/issues/503 I don't think I'm generous in this case.
