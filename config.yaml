@@ -149,10 +149,10 @@ params:
     - "no-highlight.js"
     - "fix-footnote.js"
     - "math-code.js"
+    - "hash-notes.js"
     - "external-link.js"
     - "alt-title.js"
     - "header-link.js"
-    - "hash-notes.js"
   githubContentURL: "https://github.com/rbind/yihui/edit/master/content/"
   twitterImage: "/images/logo.png"
 
