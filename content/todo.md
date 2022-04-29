@@ -94,8 +94,6 @@ If anyone is interested in any of the items below, please feel free to let me kn
 
 ## Blog
 
-1. `formatR::tidy_pipe()`
-1. Quarto vs R Markdown
 1. Both TinyTeX and Hugo can be bundled with projects: https://twitter.com/bearloga/status/1440342267949060103
 1. blogdown vs distill https://twitter.com/PipingHotData/status/1376106167865384963 https://blog.rstudio.com/2021/09/23/curating-for-wearerladies-on-twitter/
 1. What does it mean to be generous? https://github.com/ropensci/targets/issues/503 I don't think I'm generous in this case.
