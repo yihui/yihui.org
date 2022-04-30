@@ -69,8 +69,7 @@ That is, we tend to spend too much time on setting up a blog or learning or
 teaching how to set up one, instead of choosing one tool, sitting down, and
 writing for 10 years. My journey before Hugo was quite long, too (I had used
 several PHP-based frameworks and Jekyll), and I think I have settled down since
-
-1.  
+2017.
 
 [![Blogging vs. blog setups](https://rakhim.org/images/honestly-undefined/blogging.jpg)](https://rakhim.org/honestly-undefined/19/)
 
