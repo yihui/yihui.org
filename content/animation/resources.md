@@ -12,5 +12,7 @@ Here we list some additional resources related to the **animation** package. If 
 - [SWFTools](http://www.swftools.org/): a collection of utilities for working with Adobe Flash files (SWF files)
 - [**animate**](https://www.ctan.org/pkg/animate): an interface to create portable, JavaScript driven PDF animations from sets of (vector) graphics or rasterized image files or from inline (vector) graphics
 - R packages
+    - the R package [**av**](https://docs.ropensci.org/av/) (bindings to FFmpeg)
+    - the R package [**gifski**](https://github.com/r-rust/gifski) (bindings to [gifski](https://gif.ski/))
     - the R package [**magick**](https://cran.rstudio.com/package=magick) (bindings to ImageMagick)
     - [**gganimate**](https://github.com/dgrtwo/gganimate): Create easy animations with **ggplot2**
