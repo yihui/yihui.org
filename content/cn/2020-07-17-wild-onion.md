@@ -12,6 +12,6 @@ slug: wild-onion
 
 为了找美国何处有野韭菜，我几乎花了一整晚的时间研究。首先就是要搞清楚野韭菜的学名叫什么，这个问题花了我大部分时间。最直接的翻译当然就是“wild chive”，然而我搜了半天，发现彼“野韭菜”非此“野韭菜”，而是一种俗称“熊葱”、一样可食的植物。一直找到大半夜，看了好多图片之后，我才弄明白，原来我们说的野韭菜实际上是“野葱”（wild onion）。上面的叶子像韭菜，但下面有个小葱头。
 
-![野韭菜（野葱）](https://images.squarespace-cdn.com/content/v1/544721fce4b065964dbc566b/1551816210534-FKOY681AMW75S1IJDWYF/ke17ZwdGBToddI8pDm48kDHPSfPanjkWqhH6pl6g5ph7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0mwONMR1ELp49Lyc52iWr5dNb1QJw9casjKdtTg1_-y4jz4ptJBmI9gQmbjSQnNGng/mxtcnl7qxbt01.jpg?format=1500w)
+![野韭菜（野葱）](https://user-images.githubusercontent.com/163582/167424946-42c86433-e8b7-436e-bced-979750e8c496.jpeg)
 
 那野葱上哪儿能弄到呢？我只找到[一篇文章](https://www.foragesf.com/blog/2019/3/5/wild-onions-natures-delectable-answer-to-scallions)介绍在旧金山湾区如何寻找它，而在我们这中部大农村，似乎并不容易寻得；就算知道附近哪里有，像我这种植物盲，可能也会相逢不相识。罢了，看来得继续等待机缘了。
