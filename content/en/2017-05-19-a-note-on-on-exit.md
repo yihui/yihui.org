@@ -36,4 +36,4 @@ I don't have the capability to understand the [source code in C](https://github.
 
 BTW, I don't know the rationale for the default `add = FALSE` in `on.exit()`, but I have not used `add = FALSE` for a single time, so I feel `add = TRUE` might be a better default. When I want to do something on exit, I almost surely mean do it _in addition to_ the things that I assigned to `on.exit()` before, instead of cleaning up all previous tasks and only doing this one (`add = FALSE`).
 
-> **Update on 2018/01/17**: Half a year later, [I was bitten by the same problem](https://github.com/yihui/tinytex/issues/12) again in the **tinytex** package. Never, ever, do `on.exit(add = TRUE, expr)`.
+> **Update on 2018/01/17**: Half a year later, [I was bitten by the same problem](https://github.com/rstudio/tinytex/issues/12) again in the **tinytex** package. Never, ever, do `on.exit(add = TRUE, expr)`.

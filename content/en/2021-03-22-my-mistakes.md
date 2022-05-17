@@ -91,7 +91,7 @@ comments (or email me).
     popularity).
 
     Similarly, [my wording was also too
-    aggressive](https://github.com/yihui/tinytex/commit/2714e926) about TeX Live
+    aggressive](https://github.com/rstudio/tinytex/commit/2714e926) about TeX Live
     when promoting TinyTeX from 2017. Thankfully, Karl Berry and Norbert
     Preining have been forgiving to me, and Karl even invited me to write an
     article about TinyTeX [in the
@@ -108,7 +108,7 @@ comments (or email me).
 
 5.  In 2017, after supporting **tinytex** in the R Markdown ecosystem, I started
     to think about [using **tinytex** for Rnw
-    documents](https://github.com/yihui/tinytex/issues/10) when users click on
+    documents](https://github.com/rstudio/tinytex/issues/10) when users click on
     the Knit button in RStudio. Rnw documents could already take advantage of
     **tinytex** if they are compiled via `knitr::knit2pdf('test.Rnw')`, i.e.,
     `knitr::knit2pdf()` will call `tinytex::latexmk()` to compile the

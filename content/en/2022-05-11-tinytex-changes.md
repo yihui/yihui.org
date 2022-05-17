@@ -48,7 +48,7 @@ If you want to check if this change affects you, you may install the dev version
 of **tinytex** now:
 
 ``` r
-remotes::install_github('yihui/tinytex')
+remotes::install_github('rstudio/tinytex')
 ```
 
 And see what happens to `tinytex::install_tinytex()`.
@@ -73,6 +73,6 @@ redirect the old links to the new ones, including links to the precompiled
 TinyTeX binaries in Github Releases. Anyway, I want to announce this in advance
 so that you can be better prepared. If you run into any problems with installing
 TinyTeX next week, please do us a favor [file a
-report](https://github.com/yihui/tinytex/issues) immediately. Thanks!
+report](https://github.com/rstudio/tinytex/issues) immediately. Thanks!
 
 [![TinyTeX logo](/images/logo-tinytex.png)](/tinytex/)

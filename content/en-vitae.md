@@ -361,7 +361,7 @@ I'm the creator and main author of:
 - [animation](https://github.com/yihui/animation): a gallery of animations in statistics and utilities to create animations
 - [testit](https://github.com/yihui/testit): a simple package for testing R packages
 - [formatR](https://github.com/yihui/formatR): format R code automatically
-- [tinytex](https://github.com/yihui/tinytex): helper functions to install a small version of TeX Live named TinyTeX, and compile LaTeX documents
+- [tinytex](https://github.com/rstudio/tinytex): helper functions to install a small version of TeX Live named TinyTeX, and compile LaTeX documents
 - [DT](https://github.com/rstudio/DT): a wrapper of the JavaScript library DataTables
 - [mime](https://github.com/yihui/mime): map filenames to MIME types
 - [highr](https://github.com/yihui/highr): syntax highlighting for R source code

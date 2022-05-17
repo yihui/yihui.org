@@ -69,23 +69,8 @@
     },
     {
       "statusCode": 301,
-      "source": "/tinytex/appveyor/(.*).zip",
-      "destination": "https://ci.appveyor.com/api/projects/yihui/tinytex/artifacts/$1.zip?job=image:%20Visual%20Studio%202019"
-    },
-    {
-      "statusCode": 301,
-      "source": "/tinytex/appveyor/(.*).tgz",
-      "destination": "https://ci.appveyor.com/api/projects/yihui/tinytex/artifacts/$1.tgz?job=image:%20macOS"
-    },
-    {
-      "statusCode": 301,
-      "source": "/tinytex/appveyor/(.*).tar.gz",
-      "destination": "https://ci.appveyor.com/api/projects/yihui/tinytex/artifacts/$1.tar.gz?job=image:%20Ubuntu"
-    },
-    {
-      "statusCode": 301,
       "source": "/tinytex/(.*)\\.(zip|tgz|tar\\.gz)",
-      "destination": "https://github.com/yihui/tinytex-releases/releases/download/daily/$1.$2"
+      "destination": "https://github.com/rstudio/tinytex-releases/releases/download/daily/$1.$2"
     },
     {
       "statusCode": 301,

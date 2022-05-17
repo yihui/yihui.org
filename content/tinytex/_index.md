@@ -34,7 +34,7 @@ To compile a LaTeX document to PDF, call one of these functions (depending on th
 tinytex::pdflatex('test.tex')
 ```
 
-That is all an average R user needs to know. If you are a developer, you may want to install [some more packages](https://github.com/yihui/tinytex/blob/master/tools/pkgs-yihui.txt) via `tinytex:::install_yihui_pkgs()`. This function installs packages that I need for building PDF vignettes of many CRAN packages, and may save you some time for searching for them [by yourself](https://github.com/yihui/tinytex/issues/135).
+That is all an average R user needs to know. If you are a developer, you may want to install [some more packages](https://github.com/rstudio/tinytex/blob/master/tools/pkgs-yihui.txt) via `tinytex:::install_yihui_pkgs()`. This function installs packages that I need for building PDF vignettes of many CRAN packages, and may save you some time for searching for them [by yourself](https://github.com/rstudio/tinytex/issues/135).
 
 If you do not use R, you need to know one more thing: the `tlmgr` command.
 
@@ -44,15 +44,15 @@ TinyTeX assumes that you are not afraid of using the command line. If you are, p
 
 ### Installation
 
-The binary packages of TinyTeX are released on the monthly basis to the Github repo https://github.com/yihui/tinytex-releases.
+The binary packages of TinyTeX are released on the monthly basis to the Github repo https://github.com/rstudio/tinytex-releases.
 
-For Linux users, TinyTeX will be installed to `$HOME/.TinyTeX` and symlinks of executables (such as `pdflatex`) are created under `$HOME/bin` (or `$HOME/.local/bin` if it exists), which should be on the `PATH` environment variable:^[If not, you know how to add it to `PATH`, just because you are a Linux user! Note that you can change the directory where TinyTeX (or the underlying `tlmgr` utility respectively) places symlinks of executables via setting `tlmgr`'s `sys_bin` option. See [issue #365](https://github.com/yihui/tinytex/issues/365) for details.]
+For Linux users, TinyTeX will be installed to `$HOME/.TinyTeX` and symlinks of executables (such as `pdflatex`) are created under `$HOME/bin` (or `$HOME/.local/bin` if it exists), which should be on the `PATH` environment variable:^[If not, you know how to add it to `PATH`, just because you are a Linux user! Note that you can change the directory where TinyTeX (or the underlying `tlmgr` utility respectively) places symlinks of executables via setting `tlmgr`'s `sys_bin` option. See [issue #365](https://github.com/rstudio/tinytex/issues/365) for details.]
 
 ```sh
 wget -qO- "https://yihui.org/tinytex/install-bin-unix.sh" | sh
 ```
 
-For macOS users, if you do not have write permission to `/usr/local/bin`, you may want to run this for TeX Live executables to be symlinked to `/usr/local/bin` ([why?](https://github.com/yihui/tinytex/issues/188)):
+For macOS users, if you do not have write permission to `/usr/local/bin`, you may want to run this for TeX Live executables to be symlinked to `/usr/local/bin` ([why?](https://github.com/rstudio/tinytex/issues/188)):
 
 ```sh
 sudo chown -R $(whoami) /usr/local/bin
@@ -66,7 +66,7 @@ curl -sL "https://yihui.org/tinytex/install-bin-unix.sh" | sh
 
 For Windows users, save the batch file [install-bin-windows.bat](https://yihui.org/tinytex/install-bin-windows.bat) (open this link and press `Ctrl + S`), and double click it.^[Your anti-virus software might warn against certain `*.dll` files, and you may want to trust these files. However, I'm not a Windows expert, so I'll leave the decision to yourself.] Please note that it requires PowerShell ([at least version 3.0](https://docs.microsoft.com/en-us/powershell/scripting/setup/starting-windows-powershell-on-earlier-versions-of-windows)). If your Windows version is too low and does not have PowerShell, follow [this article](https://docs.microsoft.com/en-us/powershell/scripting/setup/starting-windows-powershell-on-earlier-versions-of-windows) to install it. The installation directory is `%APPDATA%/TinyTeX`, where `APPDATA` is an environment variable that typically points to the path `C:\Users\Your Name\AppData\Roaming`.^[Click the Start menu, Run, type `cmd` to open a command window, and type `echo %APPDATA%` to figure out the actual path if you are curious.]
 
-Alternatively, Windows users can use Chocolatey or Scoop to install TinyTeX. Please see the Github repo [tinytex-releases](https://github.com/yihui/tinytex-releases) for instructions.
+Alternatively, Windows users can use Chocolatey or Scoop to install TinyTeX. Please see the Github repo [tinytex-releases](https://github.com/rstudio/tinytex-releases) for instructions.
 
 To uninstall TinyTeX, simply delete the folder from your file manager/browser, or use command line:
 

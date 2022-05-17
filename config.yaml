@@ -132,7 +132,7 @@ menu:
       weight: 5
     - name: "Github repo"
       pre: "github"
-      url: "https://github.com/yihui/tinytex"
+      url: "https://github.com/rstudio/tinytex"
       weight: 6
     - name: "Yihui Xie"
       url: "/"

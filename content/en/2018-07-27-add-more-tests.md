@@ -12,7 +12,7 @@ Now I have identifed three packages that seriously lack testing (I have also ope
 
 - **blogdown**: https://github.com/rstudio/blogdown/issues/318
 
-- **tinytex**: https://github.com/yihui/tinytex/issues/59
+- **tinytex**: https://github.com/rstudio/tinytex/issues/59
 
 I hope someone could help me with them. Personally I use a tiny package named **testit** for testing: https://github.com/yihui/testit (I guess most other people use **testthat** but I don't find its sophistication appealing to me). If you use RStudio, you may run the tests via `Ctrl/Cmd + Shift + T`, which essentially runs R scripts under the `tests/` directory.
 

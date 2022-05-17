@@ -28,7 +28,7 @@ tinytex::install_tinytex()
 tinytex::tlmgr_repo('http://mirrors.tuna.tsinghua.edu.cn/CTAN/')
 ```
 
-如果 TinyTeX 本身的下载安装就很慢，或在 R 里面下载不完整，那么可以用浏览器或其它下载工具直接下载：<https://github.com/yihui/tinytex-releases/releases> 然后把下载的文件路径传给安装函数，比如：
+如果 TinyTeX 本身的下载安装就很慢，或在 R 里面下载不完整，那么可以用浏览器或其它下载工具直接下载：<https://github.com/rstudio/tinytex-releases/releases> 然后把下载的文件路径传给安装函数，比如：
 
 ```r
 tinytex:::install_prebuilt('~/Downloads/TinyTeX-v2021.01.zip')

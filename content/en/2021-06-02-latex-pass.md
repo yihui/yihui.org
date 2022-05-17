@@ -21,7 +21,7 @@ when he ran into a LaTeX error, which may look familiar to some of you:
 
     !  ==> Fatal error occurred, no output PDF file produced!
 
-If you use both the R package [**tinytex**](https://github.com/yihui/tinytex)
+If you use both the R package [**tinytex**](https://github.com/rstudio/tinytex)
 and the LaTeX distribution [TinyTeX](https://yihui.org/tinytex/), it should be
 nearly impossible to run into this type of error, because **tinytex** will try
 to automatically install the missing LaTeX package (unless there is something

@@ -15,7 +15,7 @@ This list of FAQs explain the technical details of TinyTeX for those who are cur
 
 1. **Do you provide prebuilt binaries of TinyTeX?**
 
-    Yes, we have started to provide prebuilt binary packages for TinyTeX since September 2020, which can be found in the Github repo [`yihui/tinytex-releases`](https://github.com/yihui/tinytex-releases). This was made possible after two TeX Live developers explained the TeX Live license to me, which sounded complicated to me previously and made me hesitate to redistribute TeX Live as a binary package. After I knew it was okay to do so, I built the binaries on AppVeyor and released them to Github Releases.
+    Yes, we have started to provide prebuilt binary packages for TinyTeX since September 2020, which can be found in the Github repo [`rstudio/tinytex-releases`](https://github.com/rstudio/tinytex-releases). This was made possible after two TeX Live developers explained the TeX Live license to me, which sounded complicated to me previously and made me hesitate to redistribute TeX Live as a binary package. After I knew it was okay to do so, I built the binaries on AppVeyor and released them to Github Releases.
 
 1. **What is the size of TinyTeX?**
 
@@ -40,9 +40,9 @@ This list of FAQs explain the technical details of TinyTeX for those who are cur
 
 1. **How is TinyTeX created? How do you reduce the size of the gigantic TeX Live?**
 
-    The best way to understand TinyTeX is to read the article "[TinyTeX: A lightweight, cross-platform, and easy-to-maintain LaTeX distribution based on TeX Live](https://tug.org/TUGboat/Contents/contents40-1.html)" in TUGBoat. Alternatively, you can [read the source](https://github.com/yihui/tinytex/) under the `tools` directory. Basically, TinyTeX automates the TeX Live installation using a profile file named [tinytex.profile](https://github.com/yihui/tinytex/blob/master/tools/tinytex.profile) (`./install-tl -profile=tinytex.profile`), which only specifies the `infraonly` scheme to be installed first. With this scheme, you cannot really compile any LaTeX documents, but it contains the most important utility `tlmgr` (TeX Live Manager). At this point, the total size is less than 1MB (on *nix).
+    The best way to understand TinyTeX is to read the article "[TinyTeX: A lightweight, cross-platform, and easy-to-maintain LaTeX distribution based on TeX Live](https://tug.org/TUGboat/Contents/contents40-1.html)" in TUGBoat. Alternatively, you can [read the source](https://github.com/rstudio/tinytex/) under the `tools` directory. Basically, TinyTeX automates the TeX Live installation using a profile file named [tinytex.profile](https://github.com/rstudio/tinytex/blob/master/tools/tinytex.profile) (`./install-tl -profile=tinytex.profile`), which only specifies the `infraonly` scheme to be installed first. With this scheme, you cannot really compile any LaTeX documents, but it contains the most important utility `tlmgr` (TeX Live Manager). At this point, the total size is less than 1MB (on *nix).
 
-    Then I use `tlmgr` to install a few more commonly used packages (defined in [pkgs-custom.txt](https://github.com/yihui/tinytex/blob/master/tools/pkgs-custom.txt)). With these packages, you should be able to compile most R Markdown documents to PDF. The total size becomes about 61MB.
+    Then I use `tlmgr` to install a few more commonly used packages (defined in [pkgs-custom.txt](https://github.com/rstudio/tinytex/blob/master/tools/pkgs-custom.txt)). With these packages, you should be able to compile most R Markdown documents to PDF. The total size becomes about 61MB.
 
     The fact that I only included a small number of LaTeX packages in TinyTeX is one of the two reasons why TinyTeX is relatively small in size. The other reason is that I excluded the source files and documentation of packages. In `tinytex.profile`, you can see these two options:
 
@@ -55,7 +55,7 @@ This list of FAQs explain the technical details of TinyTeX for those who are cur
 
     Why do I exclude the documentations? Tell me honestly: how many times have you found a solution via [StackExchange](https://tex.stackexchange.com), and how many times have you tried to read the package documentation? Even with the full documentation installed, you probably don't even know where to find these documentation files on your computer. The documentation files take a lot of disk space, and I believe they are rarely read by an average user, so they are not included. The address bar of your web browser is the most convenient documentation: type and search.
 
-    If you do want to obtain the source and documentation of packages, you may find them [on CTAN](https://ctan.org). Alternatively, you can reinstall the source and documentation of a package with the command `tlmgr installl --reinstall --with-doc --with-src <PKG>` (thanks to [the tip from Norbert Preining](https://github.com/yihui/tinytex/pull/236#issuecomment-690789472)).
+    If you do want to obtain the source and documentation of packages, you may find them [on CTAN](https://ctan.org). Alternatively, you can reinstall the source and documentation of a package with the command `tlmgr installl --reinstall --with-doc --with-src <PKG>` (thanks to [the tip from Norbert Preining](https://github.com/rstudio/tinytex/pull/236#issuecomment-690789472)).
 
     The other major factor that affects the size of TeX Live is the font packages, which are usually much bigger than other LaTeX packages, but we cannot really do much about it, unless you do not use `pdflatex`, in which case you may further reduce the size of this small TeX Live distribution.
 
@@ -76,7 +76,7 @@ This list of FAQs explain the technical details of TinyTeX for those who are cur
     sudo ~/.TinyTeX/bin/*/tlmgr path add
     ```
 
-    [Some systems](https://github.com/yihui/tinytex/issues/37) may set the permission of `~/.TinyTeX` to `700` by default, which means other users cannot really use TinyTeX (no permission to read, write, or execute anything in this directory). You may consider changing the owner or group of this directory using `chown`, and also granting write permission (plus execute permission on the subdirectory `bin`), e.g.,
+    [Some systems](https://github.com/rstudio/tinytex/issues/37) may set the permission of `~/.TinyTeX` to `700` by default, which means other users cannot really use TinyTeX (no permission to read, write, or execute anything in this directory). You may consider changing the owner or group of this directory using `chown`, and also granting write permission (plus execute permission on the subdirectory `bin`), e.g.,
 
     ```sh
     chown -R root:staff ~/.TinyTeX
