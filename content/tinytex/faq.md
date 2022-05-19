@@ -15,28 +15,23 @@ This list of FAQs explain the technical details of TinyTeX for those who are cur
 
 1. **Do you provide prebuilt binaries of TinyTeX?**
 
-    Yes, we have started to provide prebuilt binary packages for TinyTeX since September 2020, which can be found in the Github repo [`rstudio/tinytex-releases`](https://github.com/rstudio/tinytex-releases). This was made possible after two TeX Live developers explained the TeX Live license to me, which sounded complicated to me previously and made me hesitate to redistribute TeX Live as a binary package. After I knew it was okay to do so, I built the binaries on AppVeyor and released them to Github Releases.
+    Yes, we have started to provide prebuilt binary packages for TinyTeX since September 2020, which can be found in the Github repo [`rstudio/tinytex-releases`](https://github.com/rstudio/tinytex-releases). This was made possible after two TeX Live developers explained the TeX Live license to me, which sounded complicated to me previously and made me hesitate to redistribute TeX Live as a binary package. After I knew it was okay to do so, I built the binaries and released them to Github Releases.
 
 1. **What is the size of TinyTeX?**
 
-    About 61MB on macOS and Linux (gzipped), and 94MB on Windows (zipped). You may think it is still too big, but please consider that the size of [the BasicTeX installer](https://www.tug.org/mactex/morepackages.html) for macOS is about 80MB, and a [basic MiKTeX installer](https://miktex.org/download) for Windows is about 235MB.
+    About 84MB on macOS and 66MB on Linux (gzipped), and 99MB on Windows (zipped). You may think it is still too big, but please consider that the size of [the BasicTeX installer](https://www.tug.org/mactex/morepackages.html) for macOS is about 80MB, and a [basic MiKTeX installer](https://miktex.org/download) for Windows is about 235MB.
 
-    TinyTeX's small size can be very helpful if you install it on the cloud (e.g., for software testing purposes on Travis CI). The download and installation should take only a few seconds.
+    TinyTeX's small size can be very helpful if you install it on the cloud (e.g., for software testing purposes with Github Actions). The download and installation should take only a few seconds.
 
     Of course, the size of TinyTeX will grow as you install more LaTeX packages. You can certainly go to the extreme to install all packages (to avoid the possible need for figuring out which packages are missing). To do that, either run
 
     ```r
-    tinytex::tlmgr_install('scheme-full')
+    tinytex::install_tinytex(bundle = 'TinyTeX-2')
     ```
 
-    in R, or equivalently, the command line:
+    in R, or if you use the [Shell/Batch script](../#installation) to install TinyTeX, set the environment varialbe `TINYTEX_INSTALLER=TinyTeX` before you run the script.
 
-    ```sh
-    tlmgr install scheme-full
-    tlmgr path add
-    ```
-
-    This may take quite a while since it needs to download and install several Gigabytes of packages.
+    This may take quite a while since it needs to download and install about 2 GB of packages.
 
 1. **How is TinyTeX created? How do you reduce the size of the gigantic TeX Live?**
 
