@@ -29,7 +29,7 @@ This list of FAQs explain the technical details of TinyTeX for those who are cur
     tinytex::install_tinytex(bundle = 'TinyTeX-2')
     ```
 
-    in R, or if you use the [Shell/Batch script](../#installation) to install TinyTeX, set the environment varialbe `TINYTEX_INSTALLER=TinyTeX` before you run the script.
+    in R, or if you use the [Shell/Batch script](../#installation) to install TinyTeX, set the environment varialbe `TINYTEX_INSTALLER=TinyTeX-2` before you run the script.
 
     This may take quite a while since it needs to download and install about 2 GB of packages.
 
