@@ -21,7 +21,7 @@ em { font-style: inherit; }
 1. 陈红《古老的故事》《这一次我是真的留下来陪你》
 1. 陈慧琳《记事本》《心不设防》
 1. 陈洁仪《心动》
-1. 陈力《枉凝眉》《葬花吟》
+1. 陈力《红豆曲》《枉凝眉》《葬花吟》
 1. 陈琳《爱就爱了》《你的柔情我永远不懂》
 1. 陈明《快乐老家》《我要找到你》
 1. 陈明韶《风！告诉我》
@@ -162,7 +162,7 @@ em { font-style: inherit; }
 1. 王中平《向天要一点爱》
 1. 伍佰《爱你一万年》《浪人情歌》《挪威的森林》《让水倒流》
 1. 5566《好久不见》
-1. 巫启贤《红尘来去一场梦》《太傻》《想着你的感觉》
+1. 巫启贤《红尘来去一场梦》《思念谁》《太傻》《想着你的感觉》
 1. 伍思凯《特別的爱给特別的你》
 1. 五月天《倔强》《温柔》《知足》
 1. 希莉娜依《归去来》
@@ -188,7 +188,7 @@ em { font-style: inherit; }
 1. 叶蓓《白衣飘飘的年代》
 1. 叶凡《秋来秋去》《如梦尘烟》《相思》
 1. 叶欢《放我的真心在你的手心》
-1. 叶倩文《曾经心痛》《明月心》《潇洒走一回》《真心真意过一生》
+1. 叶倩文《爱的可能》《曾经心痛》《明月心》《我的爱对你说》《潇洒走一回》《真心真意过一生》
 1. 银霞《结》《你那好冷的小手》《西风的故乡》
 1. 殷正洋《凡尘》
 1. 游鸿明《白色恋人》《下沙》《一天一万年》
@@ -242,6 +242,7 @@ em { font-style: inherit; }
 1. 吴雨霏《[生命树](https://www.feitsui.com/zh-hans/lyrics/668)》《[吴哥窟](https://www.feitsui.com/zh-hans/lyrics/805)》
 1. 谢安琪《[年度之歌](https://www.feitsui.com/zh-hans/lyrics/74)》《[喜帖街](https://www.feitsui.com/zh-hans/lyrics/294)》
 1. 杨千嬅《[再见二丁目](https://www.feitsui.com/zh-hans/lyrics/11)》
+1. 叶倩文《[焚心以火](https://www.feitsui.com/zh-hans/lyrics/1924)》
 1. 张国荣《[沉默是金](https://www.feitsui.com/zh-hans/lyrics/669)》《[倩女幽魂](https://www.feitsui.com/zh-hans/lyrics/267)》
 1. 张学友《[忘情冷雨夜](https://www.feitsui.com/zh-hans/lyrics/4231)》
 1. 周华健《[难念的经](https://www.feitsui.com/zh-hans/lyrics/816)》《[神话情话](https://www.feitsui.com/zh-hans/lyrics/816)》
