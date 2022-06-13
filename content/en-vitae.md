@@ -199,6 +199,7 @@ Projects participated:
 
 Most of my slides were generated from R Markdown (especially the ones in recent years). To download the R Markdown source documents, simply replace the extension `.html` with `.Rmd` in the address bar of your web browser.
 
+- Yihui Xie, 2022, _A brief history of R Markdown_, Alumni conference at the School of Statistics, Renmin University of China ([slides in Chinese](https://slides.yihui.org/2022-RUC-rmarkdown.html))
 - Yihui Xie, 2022, _Creating three types of websites with blogdown_, Department of Statistics, Miami University ([slides](https://slides.yihui.org/2022-Miami-U.html))
 - Yihui Xie, 2021, _A Brief History of R Markdown_, the 3rd [Brazilian R-Day](http://rday.leg.ufpr.br/) ([slides](https://slides.yihui.org/2021-Brazilian-R-Day.html))
 - Yihui Xie, 2021, _My journey in writing books and blogging about R_, useR! 2021 ([slides](https://slides.yihui.org/2021-useR-journey.html))
