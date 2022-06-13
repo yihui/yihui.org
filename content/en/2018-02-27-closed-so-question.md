@@ -15,3 +15,11 @@ Yesterday I saw a question about **blogdown** [on Stack Overflow](https://stacko
 1. It was not a great question. I only have a single criterion for not so great questions: if the answer can be found on the first page of a Google search, it is not a great question. Here you go: http://lmgtfy.com/?q=hugo+rss+full+content. The direct answer is currently in [the second result](https://discourse.gohugo.io/t/8368), and the fundamental answer is in [the first result](https://gohugo.io/templates/rss/).
 
 I still don't understand the benefit of closing questions on Stack Overflow. If you close a question, no one can answer it (you'll have to wait for five people to vote to re-open it), even if it is a valid question. If you don't close it in such a hurry, what will be the bad consequences?
+
+---
+
+**Update on 2022-05-27**: Four years later, I want to rant about Stack Overflow moderators deleting valid answers like [in this post](https://stackoverflow.com/q/72400889/559676). The moderator has not answered a single `r` or `knitr` question before, but brutally deleted an answer from the OP.
+
+![A Stack Overflow deleted a valid answer](https://user-images.githubusercontent.com/163582/170794778-a07d3d16-4832-4004-906b-f8b186c56c3f.png)
+
+Is it a perfect answer? No. Could it be the good start of a great answer? Yes. What's the point of deleting it in such a hurry when the moderator doesn't appear to have the relevant knowledge about the post?
