@@ -29,14 +29,16 @@ This FAQ is compiled from the [issues](https://github.com/yihui/knitr/issues) an
     - No, it is not because the box is too narrow (the box uses the current line width); it is because your output is too wide. Use a smaller `width` option to avoid text output exceeding the page margin, e.g. `options(width = 60)` (see [example 038](https://github.com/yihui/knitr-examples/blob/master/038-output-width.Rnw)).
 
 1. How can I write a literal / verbatim code chunk? i.e., write a code chunk that is not parsed (which can be useful for tutorials).
-    - You need to destroy the chunk header, e.g., add an empty string before or after the chunk header like ```` ```{r}`r ''` ```` ([#443](https://github.com/yihui/knitr/issues/443)), or add a [zero-width space](http://en.wikipedia.org/wiki/Zero-width_space) into the chunk header; see [example 065](https://github.com/yihui/knitr-examples).
+    - For code chunks, you can use the `verbatim` engine, e.g.,
     
-        ````
-        ```{r, eval=TRUE}`r ''`
+        `````
+        ````{verbatim}
+        ```{r, eval=TRUE}
         1 + 1
         ```
         ````
-    - For inline R code, you may use the function `knitr::inline_expr()` (available in knitr >= v1.8). If you are writing an R Markdown document, you can use a trick: break the line _right after_ `` `r `` (no spaces after it), and wrap the whole inline expression in a pair of double backticks, e.g.,
+        `````
+    - For inline R code, you may use the function `knitr::inline_expr()`. If you are writing an R Markdown document, you can use a trick: break the line _right after_ `` `r `` (no spaces after it), and wrap the whole inline expression in a pair of double backticks, e.g.,
 
         ```
         This will show a verbatim inline R expression `` `r
