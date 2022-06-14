@@ -3,18 +3,17 @@ title: Frequently Asked Questions
 date: '2017-02-17'
 ---
 
-This FAQ is compiled from the [issues](https://github.com/yihui/knitr/issues) and messages I received from blog posts and emails, etc. Personally I'm not big fan of FAQ's, and I believe sometimes FAQ's are nearly bugs. Software package authors should think why users ask some questions so frequently (it is unlikely that users are always stupid). At least I'm not patient enough to read, say, 128 FAQ's one by one, so I won't let you do it, either.
+This FAQ is compiled from the [issues](https://github.com/yihui/knitr/issues) and messages I received from blog posts and emails, etc. Personally I'm not big fan of FAQ's, and I believe sometimes FAQ's are nearly bugs, so I wish to keep the list short.
 
 1. **knitr** does not work...
-    - Please first update all your R packages (use `update.packages()`) and probably R itself ([what is the current R version?](https://cran.rstudio.com)), then see if it works; if not, please file an [issue](https://github.com/yihui/knitr/issues) to me with a minimal reproducible example and the output of `library(knitr); sessionInfo()`.
+    - Please first update all your R packages (use `update.packages()`) and probably R itself ([what is the current R version?](https://cran.rstudio.com)), then see if it works; if not, please file an [issue](https://github.com/yihui/knitr/issues) to me with a minimal reproducible example and the output of `xfun::session_info('knitr')`.
 
 1. What is the best place to ask questions when the package website is not helpful?
     - Depending what you want to ask, you may use these tools (I keep track of the first two more frequently):
         - (Recommended) [Stack Overflow](http://stackoverflow.com/questions/tagged/knitr): general questions (more experts and quicker answers there). Don't forget to use both the tags `r` and `knitr`.
         - [Github issues](https://github.com/yihui/knitr/issues): bug reports and feature requests only.
-        - [knitr mailing list](https://groups.google.com/group/knitr) or [R-help](http://www.r-project.org/mail.html) list: general questions and feedback via email in public.
         - Private emails [are not recommended](/en/2017/08/so-gh-email/) unless there are really private issues.
-        - Twitter ([@xieyihui](http://twitter.com/xieyihui)) if you really believe it is a simple question.
+        - Twitter ([@xieyihui](https://twitter.com/xieyihui)) if you really believe it is a simple question.
 
 1. What is the best editor for writing **knitr** source documents?
     - For beginners, perhaps [RStudio](https://www.rstudio.com); **knitr** is also supported in [LyX](/knitr/demo/lyx/), [Emacs/ESS](http://ess.r-project.org/), WinEdt, Tinn-R and a variety of [editors](/knitr/demo/editors/).
@@ -46,10 +45,6 @@ This FAQ is compiled from the [issues](https://github.com/yihui/knitr/issues) an
         ```
 
         See [this post](/en/2017/11/knitr-verbatim-code-chunk/) for explanations if you are curious.
-
-1. What can I do for you?
-    - You can donate to me if you want ([paypal](https://paypal.me/YihuiXie)), [tweet](https://twitter.com/xieyihui) funny GIF animations to me, or fork the **knitr** repository on Github and contribute code.
-    - Cite the package and the [knitr book](http://amzn.com/1498716962); see `citation('knitr')` in R.
 
 1. How can I submit a documentation fix or other minor changes?
     - To fix anything in the R package: navigate to the file within the [repository](https://github.com/yihui/knitr); click the Edit button on the top-right toolbar; make the necessary changes; add a descriptive commit summary, click on **Propose file change**, and submit the pull request.
