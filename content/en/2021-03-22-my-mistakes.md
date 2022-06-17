@@ -91,8 +91,8 @@ comments (or email me).
     popularity).
 
     Similarly, [my wording was also too
-    aggressive](https://github.com/rstudio/tinytex/commit/2714e926) about TeX Live
-    when promoting TinyTeX from 2017. Thankfully, Karl Berry and Norbert
+    aggressive](https://github.com/rstudio/tinytex/commit/2714e926) about TeX
+    Live when promoting TinyTeX from 2017. Thankfully, Karl Berry and Norbert
     Preining have been forgiving to me, and Karl even invited me to write an
     article about TinyTeX [in the
     TUGBoat](https://tug.org/TUGboat/Contents/contents40-1.html)!

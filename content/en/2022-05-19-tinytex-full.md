@@ -30,8 +30,8 @@ currently a little less than two Gigabytes when compressed and contains over
 4000 packages. To install it via R:
 
 ``` r
-# currently requires the dev version of tinytex
-remotes::install_github('rstudio/tinytex')
+# requires a version tinytex >= 0.40
+install.packages('tinytex')
 
 # increase the download timeout to 2 hours just in case the
 # default 1 hour is not enough (you can further increase it)
