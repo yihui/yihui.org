@@ -29,7 +29,7 @@ em { font-style: inherit; }
 1. 陈倩倩《婴儿》
 1. 陈瑞《白狐》
 1. 陈升《北京一夜》
-1. 陈淑桦《滚滚红尘》《梦醒时分》《*如愿以偿*》《问》
+1. 陈淑桦《滚滚红尘》《梦醒时分》《*如愿以偿*》《问》《笑红尘》
 1. 陈小春《独家记忆》《没那种命》
 1. 陈奕迅《爱情转移》《好久不见》《K 歌之王》《十年》
 1. 刀郎《爱是你我》《手心里的温柔》《西海情歌》
@@ -42,6 +42,7 @@ em { font-style: inherit; }
 1. 范琳琳《不要逼我说话》
 1. 范玮琪《最初的梦想》
 1. 范晓萱《雪人》
+1. 方文琳《困砂》
 1. 飞儿乐团《千年之恋》《我们的爱》
 1. 费玉清《一剪梅》
 1. 凤飞飞《盗日英雄传》《追梦人》
@@ -82,9 +83,11 @@ em { font-style: inherit; }
 1. 李碧华《海上花》《聚也依依，散也依依》《心雨》
 1. 李度《习惯自己》
 1. 李慧珍《爱死了昨天》《穿过风 穿过云》《在等待》
+1. 李佳薇《煎熬》
 1. 李茂山《游子吟》
 1. 李娜《好人一生平安》《康定情歌》《青藏高原》《小路》
 1. 李琼《山路十八弯》
+1. 李荣浩《麻雀》
 1. 李寿全《张三的歌》
 1. 李殊《感动今生无法改变的你》《人间情多》《烟雨唱扬州》《原谅我过去不懂》
 1. 李晓东《关于理想的课堂作文》
@@ -133,7 +136,7 @@ em { font-style: inherit; }
 1. 沈庆《青春》《岁月》《*野火*》
 1. 石村《一肩挑起千古情》
 1. 施孝荣《拜访春天》《归人沙城》《走过的路》
-1. 水木年华《蝴蝶花》《启程》《一生有你》《在他乡》《中学时代》
+1. 水木年华《蝴蝶花》《启程》《完美世界》《一生有你》《在他乡》《中学时代》
 1. 四个女生《心愿》
 1. 斯琴高丽《犯错》《*情如花*》
 1. 苏慧伦《被动》《哭过的天空》《Lemon Tree》《恋恋真言》《秋天的海》
@@ -172,7 +175,7 @@ em { font-style: inherit; }
 1. 谢安琪《欢送会》
 1. 谢春花《借我》
 1. 谢东《笑脸》
-1. 谢霆锋《谢谢你的爱 1999》《要我怎么忘了他》
+1. 谢霆锋《谢谢你的爱 1999》《要我怎么忘了他》《因为爱所以爱》
 1. 辛晓琪《俩俩相忘》《味道》
 1. 信乐团《离歌》
 1. 徐怀钰《分飞》《踏浪》《友情卡片》《*雨伞*》
@@ -225,6 +228,7 @@ em { font-style: inherit; }
 1. 周治平《那一场风花雪月的事》
 1. 朱铭捷《曾经最美》
 1. 卓秀琴《偶然》
+1. 祖海《我家在中国》
 
 ## 粤语
 
@@ -259,6 +263,7 @@ em { font-style: inherit; }
 1. Drowning
 1. Don't cry
 1. Don't cry for me Argentina
+1. Everything I do I do it for you
 1. Everything will flow
 1. Falling into you
 1. Heal the world
@@ -267,7 +272,9 @@ em { font-style: inherit; }
 1. Imagine
 1. Immortality
 1. Lemon tree
+1. May it be
 1. My heart will go on
+1. My love (Westlife)
 1. Never grow old
 1. Promises don't come easy
 1. Rhythm of the rain
@@ -288,6 +295,7 @@ em { font-style: inherit; }
 1. This masquerade
 1. Unchained melody
 1. Vincent
+1. Where do I begin
 1. Without you
 1. Yellow
 1. Yesterday once more
