@@ -520,8 +520,12 @@ Below is a list of chunk options in **knitr** documented in the format
 -   `fig.sep`: (`NULL`; character) A character vector of separators to be
     inserted among subfigures. When `fig.ncol` is specified, `fig.sep` defaults
     to a character vector of which every N-th element is `\newline` (where `N`
-    is the number of columns), e.g., `fig.ncol = 2` means
-    `fig.sep = c('', '', '\\newline', '', '', '\\newline', '', ...)`.
+    is the number of columns), e.g., `fig.ncol = 3` means
+    `fig.sep = c('', '', '\\newline', '', '', '\\newline', '', ...)`. The *i*-th
+    separator is added after the *i*-th subfigure, except when the length of
+    `fig.sep` is greater than the number of subfigures, in which case the first
+    `fig.sep` element is added before the first subfigure, and the (*i+1*)-th
+    element is added after the *i*-th subfigure.
 
 -   `fig.process`: (`NULL`; function) A function to post-process figure files.
     It should take the path of a figure file, and return the (new) path of the
