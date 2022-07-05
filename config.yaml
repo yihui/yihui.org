@@ -150,6 +150,7 @@ params:
     - "fix-footnote.js"
     - "math-code.js"
     - "hash-notes.js"
+    - "toggle-notes.js"
     - "external-link.js"
     - "alt-title.js"
     - "header-link.js"
