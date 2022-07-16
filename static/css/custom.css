@@ -153,7 +153,6 @@ img[src$="#border"] {
 span.hash-note::before { content: "　# "; }
 .hide-notes .hash-note { display: none; }
 .toggle-notes {
-  cursor: pointer;
   border-top: 4px double #999;
   margin-bottom: 47px;
 }
