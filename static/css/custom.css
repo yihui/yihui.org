@@ -151,7 +151,7 @@ img[src$="#border"] {
 .hash-note { background: lightyellow; }
 .hash-note a { color: inherit; }
 span.hash-note::before { content: "　# "; }
-.hide-notes .hash-note { display: none; }
+.hide-notes .hash-note, .unlist { display: none !important; }
 .toggle-notes {
   border-top: 4px double #999;
   margin-bottom: 47px;

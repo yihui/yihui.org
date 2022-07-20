@@ -18,7 +18,7 @@
   {{ range .Pages.GroupByDate "01" }}
   <ul>
   {{ range .Pages }}
-  <li>
+  <li{{ with .Params.page_class }} class="{{ . }}"{{ end }}>
     <span>{{ .Date.Format "2006-01-02" }}</span>
     <a href="{{ .RelPermalink }}">{{ .Title }}</a>
   </li>
