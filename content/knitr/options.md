@@ -500,9 +500,9 @@ Below is a list of chunk options in **knitr** documented in the format
 -   `fig.lp`: (`'fig:'`; character) A label prefix for the figure label to be
     inserted in `\label{}`. The actual label is made by concatenating this
     prefix and the chunk label, e.g., the figure label for
-    ```` ```{r, foo-plot} ```` will be `fig:foo-plot` by default. Note that
-    the insertion of `\label{}` depends on the chunk being rendered as LaTeX.
-    see [this issue](https://github.com/rstudio/rmarkdown/issues/2391).
+    ```` ```{r, foo-plot} ```` will be `fig:foo-plot` by default. Note that the
+    insertion of `\label{}` depends on the chunk being rendered as LaTeX (see
+    [this issue](https://github.com/rstudio/rmarkdown/issues/2391)).
 
 -   `fig.pos`: (`''`; character) A character string for the figure position
     arrangement to be used in `\begin{figure}[]`.
