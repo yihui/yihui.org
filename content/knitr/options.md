@@ -92,12 +92,14 @@ plot(cars)
 ```
 ````
 
-The blank line between the options and code is optional. This syntax allows for
-hard-wrapping the options. You can break the options onto as many lines as you
-wish. If the same option is provided in both the chunk body and in the chunk
-header (inside ```` ```{} ````), the former will override the latter. You can
-also use the YAML syntax to write options inside a chunk in the form
-`tag: value`. Normally you have to provide only one option per line, e.g.,
+For this syntax, chunk options must be written on *continuous* lines (i.e., all
+lines must start with the special comment prefix such as `⁠#|⁠`) at the beginning
+of the chunk body. The blank line between the options and code is optional. This
+syntax allows for hard-wrapping the options. You can break the options onto as
+many lines as you wish. If the same option is provided in both the chunk body
+and in the chunk header (inside ```` ```{} ````), the former will override the
+latter. You can also use the YAML syntax to write options inside a chunk in the
+form `tag: value`. Normally you have to provide only one option per line, e.g.,
 
 ```` md
 ```{r}
