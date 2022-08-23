@@ -77,7 +77,7 @@ slug: "cn/about"
 - [高涛](https://joegaotao.github.io)：统计，机器学习，唇红齿白
 - [胡江堂](http://jiangtanghu.com/cn/)：北大软件学院，经济学，SAS程序员，一肚子墨水，一手好字
 - [黄晨成](https://liam0205.me)：码农，TeX 专家
-- [李代江](https://www.dlilab.com/)：生态，useR
+- [李代江](https://www.dlilab.com)：生态，useR
 - [李昕垚](http://www.xinyao.pub)：useR，经济，金融，文学，历史
 - [廖永賦](https://yongfu.name)：对 R Markdown 的介绍写得比我还好
 - [刘思喆](http://www.bjt.name)：人大，useR，数据挖掘
