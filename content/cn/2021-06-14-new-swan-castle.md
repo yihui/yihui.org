@@ -59,4 +59,4 @@ slug: new-swan-castle
 去了的，他不稀罕  
 没去的，至此，也不再念
 
-<!--# 写这首诗的起因一：https://yuanfan.vercel.app/posts/qq-carry/ 起因二：https://yuanfan.vercel.app/posts/some-thought-on-history/ 表达的道理很简单，不过过程有点意思，所以试写一篇 -->
+<!--# 写这首诗的起因一：https://yuanfan.rbind.io/posts/qq-carry/ 起因二：https://yuanfan.rbind.io/posts/some-thought-on-history/ 表达的道理很简单，不过过程有点意思，所以试写一篇 -->

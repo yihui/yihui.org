@@ -92,7 +92,7 @@ slug: "cn/about"
 - [殷腾飞](http://www.tengfei.name/)：ISU，生物，统计
 - [俞丽佳](https://yulijia.net)：生物信息、码农、靠谱厮
 - [于淼](https://yufree.cn)：环境科学，useR，思考者
-- [袁凡](https://yuanfan.vercel.app)：阿木狗主，小说
+- [袁凡](https://yuanfan.rbind.io)：阿木狗主，小说
 - [张列弛](https://www.liechi.org)：生物，文学
 
 <!--

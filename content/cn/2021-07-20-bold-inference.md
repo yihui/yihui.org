@@ -12,12 +12,12 @@ slug: bold-inference
 灰蛋饭、没味道、蛋壳渣  
 大铁锅、柴火灶、抓脑瓜  
 哈，磕蛋力大、酱油忘放、火太小、狼藉一片  
-唔，新厨实难兼顾灶中火和锅中饭<!--# https://yuanfan.vercel.app/posts/dad-s-cooking/ -->
+唔，新厨实难兼顾灶中火和锅中饭<!--# https://yuanfan.rbind.io/posts/dad-s-cooking/ -->
 
 先生、七届、名夏雨遥  
 指敲、手点、模糊匹配  
 咦，这位朋友的朋友生日恰好和丸子的妈妈同一天  
-啥，原来这位朋友当年并不是在北京把书念<!--# https://yuanfan.vercel.app/posts/laofu-is-thirty-now/ -->
+啥，原来这位朋友当年并不是在北京把书念<!--# https://yuanfan.rbind.io/posts/laofu-is-thirty-now/ -->
 
 逄姓、三点水、小朋友  
 字典、放狗搜、仔细选  
