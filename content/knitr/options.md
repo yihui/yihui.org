@@ -411,11 +411,12 @@ Below is a list of chunk options in **knitr** documented in the format
     and those in **Cairo**, **cairoDevice**, **svglite**, **ragg**, and
     **tikzDevice** are supported, e.g., `pdf`, `png`, `svg`, `jpeg`, `tiff`,
     `cairo_pdf`, `CairoJPEG`, `CairoPNG`, `Cairo_pdf`, `Cairo_png`, `svglite`,
-    `ragg_png`, `tikz`, and so on. See `names(knitr:::auto_exts)` for the full
-    list. Besides these devices, you can also provide a character string that is
-    the name of a function of the form `function(filename, width, height)`. The
-    units for the image size are *always* inches (even for bitmap devices, in
-    which DPI is used to convert between pixels and inches).
+    `gridSVG`, `ragg_png`, `tikz`, and so on. See `names(knitr:::auto_exts)` for
+    the full list. Besides these devices, you can also provide a character
+    string that is the name of a function of the form
+    `function(filename, width, height)`. The units for the image size are
+    *always* inches (even for bitmap devices, in which DPI is used to convert
+    between pixels and inches).
 
     The chunk options `dev`, `fig.ext`, `fig.width`, `fig.height`, and `dpi` can
     be vectors (shorter ones will be recycled), e.g., `dev = c('pdf', 'png')`
