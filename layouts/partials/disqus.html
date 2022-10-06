@@ -6,6 +6,7 @@
   <div class="panel">
     <div id="disqus_thread"></div>
     <script data-src="//{{ .Site.DisqusShortname }}.disqus.com/embed.js" async></script>
+    <a id="disqus_count" style="display: none;"></a>
     <script>
     var disqus_config = (function() {
       var disqusURL
@@ -13,6 +14,7 @@
         = "{{ . }}" +{{ if eq $.Kind "404" }} "/404.html" {{ else }} location.pathname{{ end }}
       {{ end }}
       ;
+      document.getElementById('disqus_count').href = disqusURL + '#disqus_thread';
       var cfg = function() {
         this.page.url = disqusURL;
       };
