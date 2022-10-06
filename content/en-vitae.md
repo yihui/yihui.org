@@ -199,6 +199,8 @@ Projects participated:
 
 Most of my slides were generated from R Markdown (especially the ones in recent years). To download the R Markdown source documents, simply replace the extension `.html` with `.Rmd` in the address bar of your web browser.
 
+- Yihui Xie, 2022, _A graduate student's random walk_, an invited talk at the 75th anniversary of the Department of Statistics, Iowa State University
+- Yihui Xie, 2022, _Highlights of the knitr package from the past two years_, rstudio::conf(2022) ([slides](https://slides.yihui.org/2022-rstudio-conf-knitr.html); [video](https://www.rstudio.com/conference/2022/talks/highlights-of-knitr-package-past/))
 - Yihui Xie, 2022, _Creating a blog (or website) with blogdown that will not be down_, a talk at the useR! conference ([slides](https://slides.yihui.org/2022-useR-blogdown.html); [video](https://vimeo.com/722781853))
 - Yihui Xie, 2022, _A brief history of R Markdown_, Alumni conference at the School of Statistics, Renmin University of China ([slides in Chinese](https://slides.yihui.org/2022-RUC-rmarkdown.html))
 - Yihui Xie, 2022, _Creating three types of websites with blogdown_, Department of Statistics, Miami University ([slides](https://slides.yihui.org/2022-Miami-U.html))
