@@ -507,6 +507,17 @@ Below is a list of chunk options in **knitr** documented in the format
     insertion of `\label{}` depends on the chunk being rendered as LaTeX (see
     [this issue](https://github.com/rstudio/rmarkdown/issues/2391)).
 
+-   `fig.id`: (`NULL`; logical) When `TRUE`, automatic IDs will be assigned to
+    images generated from code chunks in R Markdown, i.e., images will be
+    written in HTML code like `<img id="..." />`. The default ID consists of
+    `fig.lp` (a prefix), `label` (the chunk label), and `fig.cur` (the current
+    figure number in the chunk). Any non-alphanumeric characters in the ID will
+    be substituted with dashes, e.g., `'fig:hello world 1'` will become
+    `'fig-hello-world-1'`. Alternatively, users can provide a function to
+    generate the ID. The function takes the list of the current chunk options as
+    the input and should return a character string, e.g.,
+    `fig.id = function(options) { paste0('img-', options$label, options$fig.cur) }`.
+
 -   `fig.pos`: (`''`; character) A character string for the figure position
     arrangement to be used in `\begin{figure}[]`.
 
