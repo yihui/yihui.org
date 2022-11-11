@@ -116,6 +116,8 @@ tlmgr install psnfss
 tlmgr path add 
 ```
 
+On Windows, you must use `tlmgr.bat install` instead.
+
 Alternatively, you may just upload the error log to the Github repo [yihui/latex-pass](https://github.com/yihui/latex-pass), which runs `tlmgr search` on the cloud and tells you the names of missing packages.
 
 If you still see error messages that you don't understand, you may update everything:
