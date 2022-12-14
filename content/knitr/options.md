@@ -168,12 +168,12 @@ Below is a list of chunk options in **knitr** documented in the format
     Markdown documents.
 
 -   `warning`: (`TRUE`; logical) Whether to preserve warnings (produced by
-    `warning()`) in the output. If `FALSE`, all warnings will be printed in the
-    console instead of the output document. It can also take numeric values as
-    indices to select a subset of warnings to include in the output. Note that
-    these values reference the indices of the warnings themselves (e.g., `3`
-    means "the third warning thrown from this chunk") and not the indices of
-    which expressions are allowed to emit warnings.
+    `warning()`) in the output. If `FALSE`, all warnings will be suppressed. It
+    can also take numeric values as indices to select a subset of warnings to
+    include in the output. Note that these values reference the indices of the
+    warnings themselves (e.g., `3` means "the third warning thrown from this
+    chunk") and not the indices of which expressions are allowed to emit
+    warnings.
 
 -   `error`: (`TRUE`; logical) Whether to preserve errors (from `stop()`). By
     default, the code evaluation will not stop even in case of errors! If we
