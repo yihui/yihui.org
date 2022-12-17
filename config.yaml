@@ -2,7 +2,6 @@ baseurl: "https://yihui.org/"
 languageCode: "en-us"
 title: "Yihui Xie | 谢益辉"
 theme: "hugo-ivy"
-disqusShortname: "yihui"
 ignoreFiles: ["\\.Rmd$", "\\.Rmarkdown$", "_cache$"]
 hasCJKLanguage: true
 enableEmoji: true
@@ -141,8 +140,8 @@ menu:
 params:
   description: "Personal website of Yihui Xie; 谢益辉的个人网站"
   footer: "&copy; [Yihui Xie](/) 2001 - {Year}"
-  disqusURL: "https://yihui.org"
   customJS:
+    - "comment-utils.js"
     - "fix-toc.js"
     - "center-img.js"
     - "right-quote.js"
