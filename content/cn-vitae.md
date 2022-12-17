@@ -46,7 +46,7 @@ Email：xie@yihui.org；主页：<https://yihui.org>；现居住于美国内布�
 
 ### 工作
 
-1. 2013.01 至今，RStudio 软件工程师
+1. 2013.01 至今，Posit 软件工程师
 
 ### 实习
 
