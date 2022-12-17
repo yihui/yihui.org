@@ -7,7 +7,7 @@ My name is Yihui Xie. You can know more about me on the [homepage](/) and my [vi
 
 ## Contact me
 
-You can find me on [GitHub](https://github.com/yihui) (where I'm active almost every day) or Twitter [@xieyihui](http://twitter.com/xieyihui) (I only read Twitter once a week, and usually don't answer questions there). You may subscribe to the RSS feed of [blog posts](../index.xml) or [all comments](https://yihui.disqus.com/latest.rss) to stay tuned. I don't like formality, so it is not necessary to call me "Dr Xie" when you email me or introduce me to your friends. I'm a software engineer, so please don't call me professor.
+You can find me on [GitHub](https://github.com/yihui) (where I'm active almost every day) or Twitter [@xieyihui](http://twitter.com/xieyihui) (I only read Twitter once a week, and usually don't answer questions there). You may subscribe to the RSS feed of [blog posts](../index.xml) or [all comments](https://github.com/yihui/yihui.org/discussions) to stay tuned. I don't like formality, so it is not necessary to call me "Dr Xie" when you email me or introduce me to your friends. I'm a software engineer, so please don't call me professor.
 
 I don't prefer people asking me questions about open-source packages by private emails. It is not practical for me to answer all of them (not even for the packages that I maintain). Emails often make me feel stressful in recent years, and I'm close to the point of [email bankruptcy](https://en.wikipedia.org/wiki/Email_bankruptcy) from time to time. I've reached "Inbox Zero" only once in my life. Usually I have about 100 emails in my inbox to which I haven't been able to reply.
 

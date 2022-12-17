@@ -34,7 +34,7 @@ Jekyll完全推翻了传统网站的维护方式，它直接回到了“原点�
 
 为了找一个中意的模板，我把Jekyll维基上的网站列表扒了几遍，最后找到一个符合我理想中的样式的网站，[作者](http://lhzhang.com)也是极简主义者。这个模板适合日志，但不太适合首页，所以我在[首页](/)用了另一套模板。中文字体使用肖楠介绍过的[冬青黑体](http://www.road2stat.com/cn/tag/hiragino-sans-gb)和微软雅黑，这样苹果和Windows都能看，而我相信Linux用户对中文字体总是有办法的，比如自己调一下文泉驿字体；英文优先使用Google字体中的Galdeano，然后使用其它常见无衬线字体。整个网页使用了一些HTML5标签，所以关于Windows下的IE浏览器我就不用多说了，若版本不够，页面可能会错乱。
 
-日志页面中支持键盘左右方向键或JK键前后导航，这是JavaScript实现的，归功于[Tao Zhang](http://ztpala.com/2012/01/16/jquery-keyboard-navigation/)。文章[RSS订阅](/cn/feed/)依然存在，所有日志的链接也没有变化，只是评论RSS变了，要么订阅[整站评论](http://yihui.disqus.com/latest.rss)，要么订阅单篇文章评论（每个页面的底部）。
+日志页面中支持键盘左右方向键或JK键前后导航，这是JavaScript实现的，归功于[Tao Zhang](http://ztpala.com/2012/01/16/jquery-keyboard-navigation/)。文章[RSS订阅](/cn/feed/)依然存在，所有日志的链接也没有变化，只是评论RSS变了，要么订阅[整站评论](https://github.com/yihui/yihui.org/discussions)，要么订阅单篇文章评论（每个页面的底部）。
 
 一连看几年的文章的感触非常大，就像看一部快速播放的电影，生活在其中一天天过没什么感觉，但呼哧一下看过去，感觉很不一样，我从过去自己的一些评论和文章里总结了我的（至少）四点明显问题：
 

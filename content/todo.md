@@ -123,7 +123,6 @@ If anyone is interested in any of the items below, please feel free to let me kn
 1. Stoicism: https://dailystoic.com/letters-from-a-stoic/ https://www.lettersfromastoic.net/letter-4/
 1. ggplot 灰色背景：https://stats.stackexchange.com/q/25220/10946 https://twitter.com/WilliamsNeuro/status/1318419069968658432
 1. 为 XD 和邻居架设网站
-1. 用 `IntersectionObserver` 而不是 `scroll` 事件检测评论区是否滚到了当前视图下： https://blog.skk.moe/post/prevent-disqus-from-slowing-your-site/
 1. [洛宁蒸肉](https://mp.weixin.qq.com/s/6UGYqfXzvBjBa8xJYPhGFQ)：五花肉、粉丝、玉米面、葱姜蒜、酱油、蚝油、盐。
 1. 毛笔字：<https://www.zgbk.com/dzb/jy/sfxx/>
 
@@ -143,7 +142,7 @@ If anyone is interested in any of the items below, please feel free to let me kn
 | 周二 | 朝九晚五 |
 | 周三 | 朝九晚五 |
 | 周四 | 朝九晚五 |
-| 周五 | 下午非紧急邮件、COS + SO 论坛、Disqus 后台；微博；推特 |
+| 周五 | 下午非紧急邮件、COS + SO 论坛；微博；推特 |
 | 周六 |  |
 | 周日 | 晚上看 Feedly |
 
