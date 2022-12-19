@@ -189,7 +189,7 @@ pull request](https://github.com/utterance/utterances/pull/496) early last year
 but it seemed to be ignored. The problem can lead to comments being loaded under
 the wrong page. Giscus, as a successor of Utterances, provide a very clever
 option to solve this problem: `data-strict="1"` (great job, [Sage
-\@laymonage](https://github.com/giscus/giscus/pull/621)!).
+Abdullah](https://github.com/giscus/giscus/pull/621)!).
 
 Github doesn't provide strict matching in searching discussions, but Giscus's
 clever method has made it possible. In short, when using the strict method,
@@ -280,8 +280,10 @@ the value of `i`. After you know `i` is currently `4`, you restart the loop from
 4 instead of 1:
 
 ``` r
-elements[[i]] = 4
+# convert character to numeric
+elements[[i]] = as.numeric(elements[[i]])
 
+# resume the loop
 for (i in 4:length(elements)) {
   roots[i] = sqrt(elements[[i]])
 }
@@ -291,7 +293,7 @@ This means you don't need to repeat the computation for `i = 1, 2, 3`. When the
 computation is relatively expensive, this can be a big time-saver. I don't
 remember how many times I have done this during the migration of the comments.
 
-## The `while()` loop with `browser()` 
+## The `while()` loop with `browser()`
 
 I can't praise Mitch enough for this:
 
