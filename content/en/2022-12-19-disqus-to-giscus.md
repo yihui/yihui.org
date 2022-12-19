@@ -12,7 +12,7 @@ Xiao's](https://nanx.me/blog/post/migrating-from-disqus-to-utterances/) in
 emotionally and technically hard for me because I had more than 10K comments in
 Disqus, in which I had a lot of memories of the old days!
 
-## The problems that I had for Disqus
+## The problems that I had with migrating Disqus comments
 
 In September this year, I saw that [Rob's
 post](https://robjhyndman.com/hyndsight/disqus2giscus.html) on migrating from
@@ -187,7 +187,7 @@ gh::gh_gql(sprintf('mutation {
 One thing that Utterances bothered me a lot was the fuzzy matching. [I sent a
 pull request](https://github.com/utterance/utterances/pull/496) early last year
 but it seemed to be ignored. The problem can lead to comments being loaded under
-the wrong page. Giscus, as a successor of Utterances, provide a very clever
+the wrong page. Giscus, as a successor of Utterances, provides a very clever
 option to solve this problem: `data-strict="1"` (great job, [Sage
 Abdullah](https://github.com/giscus/giscus/pull/621)!).
 
