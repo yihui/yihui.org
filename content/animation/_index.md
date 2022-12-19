@@ -18,4 +18,4 @@ install.packages('animation')
 # remotes::install_github('yihui/animation')
 ```
 
-Bugs and feature requests can be filed via Github issues in the repo [**yihui/animation**](https://github.com/yihui/animation/issues). You are very welcome to contribute code via pull requests on Github, or help us write [examples](/animation/examples/) on this website. The full source of this website is available on Github in the repo [**rbind/yihui**](https://github.com/rbind/yihui). Please feel free to fork the repo and submit pull requests with your contributions.
+Bugs and feature requests can be filed via Github issues in the repo [**yihui/animation**](https://github.com/yihui/animation/issues). You are very welcome to contribute code via pull requests on Github, or help us write [examples](/animation/examples/) on this website. The full source of this website is available on Github in the repo [**yihui/yihui.org**](https://github.com/yihui/yihui.org). Please feel free to fork the repo and submit pull requests with your contributions.
