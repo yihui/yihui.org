@@ -218,7 +218,7 @@ of `{{ }}`.
 ## Other little things
 
 I had a lot of comments written in Chinese. To re-post them to Github, I added a
-header note in Chinese, and test for (common) Chinese characters I used was:
+header note in Chinese, and the test for (common) Chinese characters I used was:
 
 ``` r
 has_chinese = function(x) {
@@ -230,7 +230,7 @@ To post with a different Github account (e.g., `giscus-bot` in my case), you can
 use the `.token` argument of `gh::gh_gql()`, e.g.,
 
 ``` r
-gh::gh_gql(..., .token = 'ghp_xxxxxx')
+gh::gh_gql(..., .token = if (guest) 'ghp_xxxxxx')
 ```
 
 When converting Disqus's HTML comments to Markdown via Pandoc, I strongly
@@ -246,9 +246,10 @@ rmarkdown::pandoc_convert(
 
 In Rob's script, `to = "markdown"` is not a great choice (e.g., it results in a
 lot of unnecessary escaping), and `gfm` is a much more natural choice for
-Github. The option `--wrap=none` is also critical, because Pandoc will wrap long
-lines by default. Unfortunately, Github treats line breaks in Markdown as hard
-breaks (i.e., `<br/>`).
+Github. The option `--wrap=none` is also critical, because Pandoc will hard-wrap
+long lines by default. Unfortunately, Github treats line breaks in Markdown as
+hard breaks (i.e., `<br/>`). Without the `--wrap=none` option, you may see a lot
+of unexpected line breaks in the comments.
 
 ## The `for` loop
 
