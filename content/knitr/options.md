@@ -408,15 +408,14 @@ Below is a list of chunk options in **knitr** documented in the format
 
 -   `dev`: (`'pdf'` for LaTeX output and `'png'` for HTML/Markdown; character)
     The graphical device to generate plot files. All graphics devices in base R
-    and those in **Cairo**, **cairoDevice**, **svglite**, **ragg**, and
-    **tikzDevice** are supported, e.g., `pdf`, `png`, `svg`, `jpeg`, `tiff`,
-    `cairo_pdf`, `CairoJPEG`, `CairoPNG`, `Cairo_pdf`, `Cairo_png`, `svglite`,
-    `gridSVG`, `ragg_png`, `tikz`, and so on. See `names(knitr:::auto_exts)` for
-    the full list. Besides these devices, you can also provide a character
-    string that is the name of a function of the form
-    `function(filename, width, height)`. The units for the image size are
-    *always* inches (even for bitmap devices, in which DPI is used to convert
-    between pixels and inches).
+    and those in **Cairo**, **svglite**, **ragg**, and **tikzDevice** are
+    supported, e.g., `pdf`, `png`, `svg`, `jpeg`, `tiff`, `cairo_pdf`,
+    `CairoJPEG`, `CairoPNG`, `svglite`, `gridSVG`, `ragg_png`, `tikz`, and so
+    on. See `names(knitr:::auto_exts)` for the full list. Besides these devices,
+    you can also provide a character string that is the name of a function of
+    the form `function(filename, width, height)`. The units for the image size
+    are *always* inches (even for bitmap devices, in which DPI is used to
+    convert between pixels and inches).
 
     The chunk options `dev`, `fig.ext`, `fig.width`, `fig.height`, and `dpi` can
     be vectors (shorter ones will be recycled), e.g., `dev = c('pdf', 'png')`
