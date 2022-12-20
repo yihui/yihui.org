@@ -158,10 +158,9 @@ params:
   twitterImage: "/images/logo.png"
 
   # options for highlight.js (version, additional languages, and theme)
-  highlightjsVersion: "9.12.0"
-  highlightjsCDN: "//cdnjs.cloudflare.com/ajax/libs"
-  highlightjsLang: ["r", "yaml", "tex"]
-  highlightjsTheme: "github"
+  highlightjsVersion: "11.7.0"
+  highlightjsLang: ["latex"]
+  highlightjsTheme: "base16/heetch-light"
 
   logo:
     en:
