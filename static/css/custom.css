@@ -73,11 +73,8 @@ pre:hover {
   white-space: pre-wrap;
   word-break: break-all;
 }
-.hljs-comment {
-  font-style: inherit;
-}
 .hljs {
-  padding: 1em;
+  background: #fcfcfc;
 }
 .home hr {
   margin: 2em auto 1em;
