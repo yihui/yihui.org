@@ -97,7 +97,7 @@ get_discussions = function(owner, repo) {
   has_next = TRUE
   next_cursor = NULL
   info = NULL
-  while (has_next) {
+  while(has_next) {
     next_cursor = if (is.null(next_cursor)) '' else {
       paste0(', after: "', next_cursor, '"')
     }
@@ -293,7 +293,7 @@ This means you don't need to repeat the computation for `i = 1, 2, 3`. When the
 computation is relatively expensive, this can be a big time-saver. I don't
 remember how many times I have done this during the migration of the comments.
 
-## The `while()` loop with `browser()`
+## The `while` loop with `browser()`
 
 I can't praise Mitch enough for this:
 
