@@ -17,7 +17,7 @@ In short, I wish I could help you, but practically I cannot do it privately. I w
 
 ## About this site
 
-This site is created with [**blogdown**](https://github.com/rstudio/blogdown) (base on [Hugo](https://gohugo.io)) and the theme is [hugo-ivy](https://github.com/yihui/hugo-ivy), a Hugo theme that I ported from [Ivy](https://github.com/dmulholland/ivy). The Markdown source files are [hosted on Github](https://github.com/yihui/yihui.org). When you read the blog posts, you can navigate to the previous post by the left-arrow key or next post by right-arrow. Please hit "Edit this page" in the menu if you find any mistakes on the page to propose a correction through Github.
+This site is created with [**blogdown**](https://github.com/rstudio/blogdown) (base on [Hugo](https://gohugo.io)) and the theme is [hugo-ivy](https://github.com/yihui/hugo-ivy), a Hugo theme that I ported from Ivy. The Markdown source files are [hosted on Github](https://github.com/yihui/yihui.org). When you read the blog posts, you can navigate to the previous post by the left-arrow key or next post by right-arrow. Please hit "Edit this page" in the menu if you find any mistakes on the page to propose a correction through Github.
 
 ## Some links
 
