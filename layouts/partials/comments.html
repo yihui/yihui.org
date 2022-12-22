@@ -1,6 +1,6 @@
 {{ if and (not .Params.disable_comments) (or (eq .Kind "404") (and (not .IsHome) .Content)) }}
 <section class="comments">
-<script src="https://giscus.app/client.js"
+<script {{ if $.Site.BuildDrafts }}data-{{ end }}src="https://giscus.app/client.js"
   data-repo="yihui/yihui.org"
   data-repo-id="MDEwOlJlcG9zaXRvcnk4MDc3NDg0NA=="
   data-category="Comments"
