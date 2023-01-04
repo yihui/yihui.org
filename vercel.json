@@ -69,7 +69,7 @@
     },
     {
       "statusCode": 301,
-      "source": "/tinytex/(.*)\\.(zip|tgz|tar\\.gz)",
+      "source": "/tinytex/(.*)\\.(zip|exe|tgz|tar\\.gz)",
       "destination": "https://github.com/rstudio/tinytex-releases/releases/download/daily/$1.$2"
     },
     {
