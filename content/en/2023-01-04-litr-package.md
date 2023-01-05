@@ -27,9 +27,12 @@ extensively when writing a package, you may give
 [**litr**](https://github.com/jacobbien/litr-project) a try.
 
 P.S. While reading **litr**'s documentation, I discovered a person named Matt
-Pharr. I've never heard of him before, but it's funny to know that we had
-similar sentiments about Twitter in 2017 ([his
-post](https://pharr.org/matt/blog/2017/12/29/goodbye-twitter),
+Pharr since Jacob mentioned the Academy award. I've never heard of him before,
+but it's funny to know that we had similar sentiments about Twitter in 2017
+([his post](https://pharr.org/matt/blog/2017/12/29/goodbye-twitter),
 [mine](/en/2017/12/twitter-shaped-us/), and
 [mine](/en/2017/08/twitter-threads-vs-blogging/)).
 
+P.P.S. I remember there was another R package that did the similar thing but my
+google search failed me. Later I learned that it was **fusen**:
+<https://thinkr-open.github.io/fusen/> (nice job, Sébastien Rochette!)
