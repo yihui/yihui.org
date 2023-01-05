@@ -25,3 +25,11 @@ I have said enough about the advantages of this approach on the [**rlp**](/rlp/)
 page, so I'm not repeating here. If you intend to document/explain your code
 extensively when writing a package, you may give
 [**litr**](https://github.com/jacobbien/litr-project) a try.
+
+P.S. While reading **litr**'s documentation, I discovered a person named Matt
+Pharr. I've never heard of him before, but it's funny to know that we had
+similar sentiments about Twitter in 2017 ([his
+post](https://pharr.org/matt/blog/2017/12/29/goodbye-twitter),
+[mine](/en/2017/12/twitter-shaped-us/), and
+[mine](/en/2017/08/twitter-threads-vs-blogging/)).
+
