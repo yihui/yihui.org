@@ -16,7 +16,7 @@ vignette: >
 
 This is an example of writing an R package using the [Literate Programming](http://en.wikipedia.org/wiki/Literate_programming) (LP) technique, implemented through the **knitr** package and Makefile. It only shows you the idea, and I do not mean you must use **knitr**, R Markdown, or Makefile. The full source code of this **rlp** package is available on [<i class="fa fa-github" aria-hidden="true"></i> Github](https://github.com/yihui/rlp). To build this package, you need to install R packages **knitr** and **rmarkdown**. Windows users also need to install [Rtools](http://cran.rstudio.com/bin/windows/Rtools/), which includes the utility `make`. Linux and macOS users should have `make` ready by default.
 
-# Literate Programming
+## Literate Programming
 
 Interestingly, the most popular application of the LP paradigm seems to be documenting software (using a special form of comments) for users instead of "programming" for authors. In other words, we use LP to document the _usage_ of software, instead of documenting the _source code_. See [Doxygen](http://en.wikipedia.org/wiki/Doxygen), [Javadoc](http://en.wikipedia.org/wiki/Javadoc), and [**roxygen2**](http://cran.rstudio.com/package=roxygen2) for examples. There exists one exception, though, in the LaTeX world^[This is not entirely surprising, considering Knuth's original implementation of LP using TeX and Pascal.]. Some LaTeX package authors write both LaTeX code and documentation in a single document, and weave it into a PDF document that contains both the source code and documentation. I'm not a LaTeX expert, and it is probably well-known that I have big headache when looking at a full screen of backslashes, from `\documentclass{}`, `\begin{document}`, `\alpha`, `\beta`, `\texttt{}`, ..., and all the way to `\end{document}`.
 
@@ -27,7 +27,7 @@ I do not find LP for LaTeX appealing, but that does not mean LP itself is not an
 
 Personally I find the first advantage more convincing, although it seems some LP folks just love the second one. For R package development, I guess it will be inconvenient for unit testing if we use the LP idea instead of writing smaller functions, because testing functions is straightforward, but testing code chunks is not. Anyway, I will show both features of LP mentioned above in this document.
 
-# Setup
+## Setup
 
 First, I set a few **knitr** chunk options:
 
@@ -40,7 +40,7 @@ I set `eval = FALSE` because this document mostly serves as the documentation of
 
 In this document, you will see the chunk option `purl = FALSE` occasionally, and that means I want to exclude these code chunks when extracting the R code, but I do want to include them when compiling this document to HTML.
 
-# R Code Chunks
+## R Code Chunks
 
 Now I write some example R code chunks using the R Markdown syntax. Here I define a boring function `add_one()` with an argument `x`, and it simply does `x + 1`:
 
@@ -61,7 +61,7 @@ add_one = function(x) {
 
 Besides the R source code, I also wrote the R documentation using the **roxygen2** syntax. This R code chunk will be extracted and placed under the `R/` directory later. The critical step is how to extract the code chunk. After this step, you will be in a familiar world of `roxygen2::roxygenize()`, or `devtools::build()`, or `R CMD build`, or whatever package building process you like.
 
-# From Rmd to R
+## From Rmd to R
 
 I put this Rmd file under the `vignettes/` directory, and you do not have to use this directory. I'm using it because I will get a nice by-product after `R CMD build`, which is the _package vignette_. I used **rmarkdown** to generate an HTML vignette, which is visually pleasant to read in my eyes.
 
@@ -84,7 +84,7 @@ I defined a function `purl` in the Makefile, which calls the R function `knitr::
 
 You may have realized that this leads to two copies of R code: one copy in Rmd, and one in R. Therefore you need to remind your collaborators (if you have any) that they must not edit the R code under `R/` that is generated from Rmd, but should edit the Rmd source documents instead.^[Or set the R scripts to be read-only, e.g., use `Sys.chmod(mode = '0444')` in R.]
 
-# One Button to Rule Them All
+## One Button to Rule Them All
 
 Now we have three things to do to fully build this package:
 
@@ -108,7 +108,7 @@ Note `Rd2roxygen::rab()` is my own way of building R packages, and you certainly
 -v && make -C rlp && Rscript -e "devtools::install('rlp')"
 ```
 
-# Call Functions in This Package
+## Call Functions in This Package
 
 You can certainly load the package and call the functions in this document, because the package vignettes are compiled _after_ the package is temporarily installed^[If you use **devtools**, please note it does not build vignettes by default, so you have to call `devtools::install(..., build_vignettes = TRUE)`]. For example, I call `add_one()` defined above:
 
@@ -132,7 +132,7 @@ add_one(1:10)
 
 Running live examples and generating output like this may help you explain what your functions actually do, so readers can understand your source code better, otherwise they can only reason about the code in their mind.
 
-# A Less Naive Example
+## A Less Naive Example
 
 Life is certainly not always as simple as `add_one()`. In this section, I give a slightly more advanced example to show how LP can be useful and relevant to developing R packages. Let's consider the maximum likelihood estimation (MLE) for the parameters of the Gamma distribution `\(\Gamma(y; \alpha, \beta)\)`. 
 
@@ -259,7 +259,7 @@ Now you see I can thoroughly explain an R function using LP. I'm not saying this
 
 Apparently LP is more for those who want to understand your source code (including your future self!) than for end-users of your package. For most users, they probably just want to read the help page of the function, in which case they just type the question mark in R, e.g., `?mle_gamma`.
 
-# Chunk References
+## Chunk References
 
 I mentioned before that we could label code chunks and reference them to compose a bigger code chunk. Now I show a simple example of simulating from a bivariate Normal distribution. A bit background:
 
@@ -304,7 +304,7 @@ rbinormal = function(n, m1 = 0, m2 = 0, s1 = 1, s2 = 1, rho = 0) {
 }
 ```
 
-If you are reading the [source R Markdown document](https://github.com/yihui/rlp/edit/master/vignettes/LP-demo1.Rmd), you will see `<<simulate_x>>` and `<<simulate_y>>` instead of the real R code. The token `<<>>` denotes the code chunks defined below with the chunk labels `simulate_x` and `simulate_y`, respectively:
+If you are reading the [source R Markdown document](https://github.com/yihui/rlp/blob/master/vignettes/LP-demo1.Rmd), you will see `<<simulate_x>>` and `<<simulate_y>>` instead of the real R code. The token `<<>>` denotes the code chunks defined below with the chunk labels `simulate_x` and `simulate_y`, respectively:
 
 
 ```r
@@ -338,6 +338,6 @@ points(-1, 3, pch = 19, col = 'red', cex = 3)
 
 In this example, I factored out the code from the main function as two separate code chunks, and explained each later, instead of inserting the explanations in the middle of the function body. Again, the simulation code in this example is computationally inefficient, and it is only for demo purposes^[It is straightforward to make it much more efficient by vectorization, i.e., instead of using `replicate()`, which is basically a loop to generate one random number at a time, you can just generate all `n` random numbers in one step: `x = rnorm(n, m1, s1)`, and `y = rnorm(n, m2cond, s2cond)`.].
 
-# Conclusions
+## Conclusions
 
 This document has demonstrated that LP can be useful for package authors to explain their code in fine detail, which may not be easy to achieve by only using comments in code. Not everyone needs or wants to understand your source code, but clear explanations of your code will benefit both your future self, and more importantly, attract potential collaborators and contributors, hence increase the [bus factor](http://en.wikipedia.org/wiki/Bus_factor) of your software packages, in this era of "[social coding](https://github.com)".
