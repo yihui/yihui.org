@@ -39,8 +39,7 @@ do want messages in the console, please let me know, and I can definitely
 provide an option to do that.
 
 P.S. One motivation behind this change was to make **knitr**'s text progress bar
-cleaner. With the [next version of
-**knitr**](https://github.com/yihui/knitr/blob/master/NEWS.md#changes-in-knitr-version-142),
+cleaner. With the [next version of **knitr**](/en/2023/01/knitr-progress-bar/),
 you will see a *single-line* progress bar, which will not be interrupted by
 messages in code chunks. Currently you can [try out the development
 version](https://github.com/yihui/knitr#installation) of **knitr** (the CRAN
