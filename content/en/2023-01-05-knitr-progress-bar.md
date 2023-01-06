@@ -63,8 +63,16 @@ can enable it explicitly via `options(knitr.package.verbose = TRUE)`.
 If you don't like the default text progress bar, you can use your own favorite
 progress bar by setting the global option `knitr.progress.fun` (in `.Rprofile`).
 For example, you may use `winProgressBar` on Windows, or progress bars in
-**cli** or **progressr**. See [the
+**cli** or
+[**progressr**](https://progressr.futureverse.org/#the-knitr-package). See [the
 documentation](/knitr/options/#global-r-options) for more details.
+
+You can use this new option for any purpose of progress tracking. To quote
+[Henrik](https://twitter.com/henrikbengtsson/status/1611046849217187840):
+
+> It opens the door to use any combination of progress handlers while knitting,
+> e.g. beepr, cli, progress, txtProgressbar, RStudio, notifier, rpushbullet,
+> shiny, ...
 
 With a fresh start of 2023, I hope you will enjoy the fresh progress bar in
 **knitr** and make a lot of progress this year.
