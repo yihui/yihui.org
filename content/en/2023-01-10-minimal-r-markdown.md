@@ -5,7 +5,7 @@ slug: minimal-r-markdown
 ---
 
 The ASA statistical computing section invited me to do a webinar today
-(1:30-2:20pm CST). You can see the abstract on [the registration
+(1:30-2:30pm CST). You can see the abstract on [the registration
 page](https://uconn-cmr.webex.com/weblink/register/r1402166f1b250cd6c20315a6ec1aed62).
 To some degree, it will be an odd talk, because I'm "going backwards" to talk
 about the first generation of R Markdown. I don't expect this talk to benefit a
@@ -15,4 +15,6 @@ half an hour late if you want to come anyway.
 
 I'll update this post after I finish the webinar, which is one more reason why
 you don't want to come to the webinar (you can read this post later without
-missing much information).
+missing much information). The talk will be recorded and available on Youtube
+later.
+
