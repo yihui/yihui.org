@@ -123,6 +123,7 @@ Email：xie@yihui.org；主页：<https://yihui.org>；现居住于美国内布�
 
 以下多数幻灯片都是基于 R Markdown 文档输出的 HTML 网页格式（尤其是近年来的幻灯片）；若需要查看 R Markdown 源文档，只需要在浏览器地址栏中将 `.html` 扩展名替换为 `.Rmd` 即可下载相应的 R Markdown 文档。
 
+- 谢益辉，2023，_An anatomy of R Markdown with minimal applications_，美国统计学会计算与图形分会邀请报告（[幻灯片](https://slides.yihui.org/2023-minimal-r-markdown.html)；[视频](https://youtu.be/fiy32LjgGUE)）
 - 谢益辉，2022，_A graduate student's random walk_，爱荷华州立大学统计系 75 周年系庆报告
 - 谢益辉，2022，_Highlights of the knitr package from the past two years_，RStudio大会报告（[幻灯片](https://slides.yihui.org/2022-rstudio-conf-knitr.html)；[视频](https://www.rstudio.com/conference/2022/talks/highlights-of-knitr-package-past/)）
 - 谢益辉，2022，_Creating a blog (or website) with blogdown that will not be down_，useR! 会议报告（[幻灯片](https://slides.yihui.org/2022-useR-blogdown.html)；[视频](https://vimeo.com/722781853)）

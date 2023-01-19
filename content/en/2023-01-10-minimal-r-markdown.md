@@ -13,8 +13,6 @@ large audience, but I think I have got at least one interesting application in
 the end. The talk will be quite technical (i.e., boring). Please try to come
 half an hour late if you want to come anyway.
 
-I'll update this post after I finish the webinar, which is one more reason why
-you don't want to come to the webinar (you can read this post later without
-missing much information). The talk will be recorded and available on Youtube
-later.
-
+The talk has been recorded and is [available on
+YouTube](https://youtu.be/fiy32LjgGUE). The slides are [available
+here](https://slides.yihui.org/2023-minimal-r-markdown.html).
