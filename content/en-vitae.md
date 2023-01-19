@@ -38,11 +38,13 @@ Reproducible research; statistical computing; statistical graphics; data visuali
 - Honorable Mention Prize, the Applications of R in Business [Competition](http://bit.ly/wx4bFb), 2012
 - [Vince Sposito](http://stat.iastate.edu/graduate-financial-support) Statistical Computing Award, 2011 (Department of Statistics, Iowa State University)
 - John M. Chambers Statistical Software [Award](http://stat-computing.org/awards/jmc/winners.html), ASA, 2009 (for the R package [animation](https://github.com/yihui/animation))
+<!--
 - Excellent graduate scholarship, Renmin University of China, 2007
 - Successful Participant, Mathematical Contest in Modeling (America), 2006 ([paper](https://github.com/downloads/yihui/yihui.github.com/MCM-2006-paper-Yihui-Xie.pdf); [certificate](https://db.yihui.org/imgur/c3soC.jpg "Certificate of Mathematical Contest in Modelling (America)"))
 - Excellent graduate of Renmin University of China, 2006
 - "Excellent Worker in Student Media" of Renmin University of China, 2006 (for hosting the website of statistics discussions in <https://cosx.org>)
 - Scholarship for outstanding learning, Renmin University of China, 2005
+-->
 
 ## Publications
 
@@ -64,8 +66,10 @@ Papers:
 
 1. Yihui Xie, Heike Hofmann, and Xiaoyue Cheng (2014). _Reactive Programming for Interactive Graphics_. Statistical Science, 29(**2**), 201-213. ([PDF](https://bitbucket.org/stat/www/downloads/STS477.pdf))
 1. Yihui Xie (2013). _animation: An R Package for Creating Animations and Demonstrating Statistical Methods_. Journal of Statistical Software, 53(1), 1-27. URL <http://www.jstatsoft.org/v53/i01/>
+<!--
 1. Yihui Xie and Xiaoyue Cheng, 2008. _animation: A Package for Statistical Animations_, R News, 8(**2**). URL: <http://www.r-project.org/doc/Rnews/Rnews_2008-2.pdf>
 1. Yihui Xie, 2007. _Visualization of Data and Statistical Models Using R_, Proceedings of the 3rd Conference on Australia-China Free Trade Agreement (ACFTA): Econometric Modeling and Policy in Trade, Investment and Economic Integration ([PDF](https://github.com/downloads/yihui/yihui.github.com/R-visualization-paper-2007-Yihui-Xie.pdf))
+-->
 
 ### In Chinese
 
@@ -131,11 +135,6 @@ I worked in these web studios:
 - The English web studio of Renmin University of China (for the construction of English website of the university) (Sept 2006 - Jun 2009)
 - The web club of the School of Statistics (as the founder & leader) (Apr 2006 - 2008)
 
-My personal projects:
-
-- **animation**: Animations in Statistics (<https://yihui.org/animation>)
-- **knitr**: Elegant, flexible and fast dynamic report generation with R (<https://yihui.org/knitr>)
-
 ### Conference Organization
 
 Feb 2005 - Present
@@ -153,23 +152,6 @@ I helped organize these conferences:
 - the 15th International [Conference](http://stat.ruc.edu.cn/en/21940.html) on Input-Output Techniques, June 27th ~ July 1st, 2005
 - the Data Mining and Business Intelligence Conference 2006
 - the International Statistics [Forum](http://stat.ruc.edu.cn/en/22120.html) 2006
-
-### Statistical Consulting
-
-May 2005 - Present
-
-I offer statistical consulting by email and I have been answering questions in the [Capital of Statistics](https://cosx.org/cn/) almost every day. I'm particularly interested in these topics:
-
-- data analysis and visualization
-- theoretical problems without measure theory
-- linear models, generalized linear models and nonlinear models
-- R packages that I maintain (other questions on R should be asked on Stack Overflow)
-- statistics in other disciplines (e.g. biology) in which I can also learn something from you
-- real world data mining and machine learning
-- simulation
-- teaching
-
-Typically I ignore any questions on Structural Equation Modeling (SEM) or factor analysis, since I'm not convinced of their usefulness at all. I know little about time series and do not like econometrics. I have little interest in _quantitative_ research in social sciences.
 
 ### Other Work Experience
 
@@ -396,5 +378,5 @@ I have contributed to:
 ### Misc
 
 - The Sweave and knitr modules in [LyX](http://www.lyx.org) (with Jean-Marc Lasgouttes)
-- The Hugo theme [XMin](https://xmin.yihui.org), [XMag](https://xmag.yihui.org), and [Ivy](https://ivy.yihui.org)
+- The Hugo themes [XMin](https://xmin.yihui.org), [XMag](https://xmag.yihui.org), and [Ivy](https://ivy.yihui.org)
 - [TinyTeX](/tinytex/), a small and easy-to-maintain LaTeX distribution based on TeX Live
