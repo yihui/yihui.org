@@ -78,3 +78,4 @@ P.S. A list of issues solved simply by updating packages:
 - [Cannot Render Files](https://github.com/rstudio/rmarkdown/issues/2030)
 - [Rmarkdown doesn't knit the specified document but renders the copernicus.docx file](https://github.com/rstudio/bookdown/issues/1152#issuecomment-862675150)
 - [Error when visualizing](https://github.com/radiant-rstats/radiant/issues/193)
+- [markdownExtensions problem when trying to run a tutorial](https://github.com/rstudio/markdown/issues/98)
