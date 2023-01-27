@@ -7,7 +7,7 @@ slug: quarto-r-markdown
 So you have heard of [Quarto](https://quarto.org), a new tool based on Pandoc
 for technical publishing. When you first see a `.qmd` document (Quarto), it
 looks quite similar to an `.Rmd` document (R Markdown), which can easily confuse
-R Markdown users. Questions can arise naturally: Why inventing a new system? Why
+R Markdown users. Questions can arise naturally: Why invent a new system? Why
 cannot you just add the new features to the existing R Markdown ecosystem? Is R
 Markdown going to be retired? I will share some thoughts in this post. For those
 who prefer reading a shorter official FAQ, please visit [the Quarto
@@ -25,8 +25,8 @@ certain future release of a package in the R Markdown ecosystem that we maintain
 
 ## Should you switch?
 
-Should you switch to Quarto? Not necessarily. If you find R Markdown meet your
-need, you can definitely stay there. It is not imperative to switch. Quarto's
+Should you switch to Quarto? Not necessarily. If you find R Markdown meets your
+needs, you can definitely stay there. It is not imperative to switch. Quarto's
 goal is to cover most features of R Markdown eventually, but it may be
 impossible to become a strict superset of R Markdown. For example, it is by
 design that each Quarto book chapter file is rendered in a new session (i.e.,
@@ -47,7 +47,7 @@ on top of Pandoc.
 
 For slides, I will stay with **xaringan** because it is powerful enough to me
 and I'm a minimalist. Quarto's revealjs presentation is amazingly powerful, but
-most of time all I need on my slides is really just a slide title plus a bullet
+most of the time all I need on my slides is really just a slide title plus a bullet
 list. Actually I'm interested in creating a minimal presentation package that is
 more lightweight and much less powerful than **xaringan**. Yes, [I still
 want](https://bookdown.org/yihui/rmarkdown/xaringan.html) to create a
@@ -89,7 +89,7 @@ to pin your project to an older version of Quarto. This is often hard for other
 software packages because they have other dependencies, which means you will
 have to manage all the dependencies.
 
-## Why inventing a new tool instead of improving R Markdown?
+## Why invent a new tool instead of improving R Markdown?
 
 When seeing a new tool, you may think of this [XKCD](https://xkcd.com/927/)
 cartoon:
@@ -151,14 +151,14 @@ features for authoring and publishing technical content can be made available to
 a larger world outside R. Quarto's heavy investment in Pandoc Lua filters means
 that it is not tied to a specific backend that generates the `.md` (Markdown)
 output file. In case a new tool (oh God, no thanks) like **knitr** and jupyter
-be invented, Quarto can integrate with it, too.[^3]
+is invented, Quarto can integrate with it, too.[^3]
 
 [^3]: Quarto is mainly written in TypeScript, not R or Python.
 
 At this point, I think the benefits for other communities to try Quarto are more
 significant than R users. R Markdown will continue to exist and be maintained
 (bug fixes and relatively small enhancements). I do not think R Markdown users
-need to hurry to the switch. Another thing that may give you some peace of mind
+need to hurry to switch. Another thing that may give you some peace of mind
 is that Quarto can render `.Rmd` documents without any modification, too, so you
 can continue to write `.Rmd` instead of `.qmd`. If you like Quarto's rendering,
 great. If not, the door is still wide open for you to come back.
