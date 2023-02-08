@@ -1,5 +1,5 @@
 ---
-title: Manipulate SVG Plots with Javascript in R Markdown
+title: Manipulate SVG Plots with JavaScript in R Markdown
 date: '2023-02-07'
 slug: manipulate-svg
 ---
@@ -82,4 +82,3 @@ the `mouseout` event, the transform is undone.
 This feature of embedding SVG as XML in HTML output documents was first
 introduced in **knitr** 1.40 (released on Aug 24, 2022). I hope you will find it
 useful and fun. Special thanks to JooYoung for the motivation!
-
