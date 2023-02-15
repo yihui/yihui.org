@@ -5,6 +5,7 @@ theme: "hugo-ivy"
 ignoreFiles: ["\\.Rmd$", "\\.Rmarkdown$", "_cache$"]
 hasCJKLanguage: true
 enableEmoji: true
+enableGitInfo: true
 footnotereturnlinkcontents: "↩"
 rssLimit: 10
 
