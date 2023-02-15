@@ -3,7 +3,7 @@ title: Yihui's TODO List
 slug: todo
 ---
 
-This page contains my TODO items, which I try to update every day. I guess I will never be able to finish all the work, so I will appreciate your help with any of the items on this page (fixing bugs, answering questions, or implementing features). Please feel free to let me know if you want to work on anything, and I will be happy to assist you.
+This page contains some of my TODO items. I guess I will never be able to finish all the work, so I will appreciate your help with any of the items on this page (fixing bugs, answering questions, or implementing features). Please feel free to let me know if you want to work on anything, and I will be happy to assist you.
 
 Looking at these items, you may make a better decision on whether to ask questions on a public forum before [emailing me](/en/about/#contact-me), according to my current status below. Please feel free to email me anyway if you do not need a prompt response, and please forgive my slow response.
 
