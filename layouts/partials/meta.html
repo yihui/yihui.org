@@ -1,9 +1,0 @@
-{{ if not .IsHome }}
-<h1>{{ .Title }}</h1>
-{{ with .Params.subtitle }}<h1><span class="subtitle">{{ . }}</span></h2>{{ end }}
-{{ if .IsPage }}
-<h3>{{ with or (or .Params.author (index .Site.Params.author .Section)) "" }}{{  print . " / " }}{{ end }}
-{{ if .Params.date }}{{ .Date.Format "2006-01-02" }}{{ end }}</h3>
-{{ end }}
-<hr>
-{{ end }}
