@@ -10,11 +10,11 @@ Looking at these items, you may make a better decision on whether to ask questio
 ## Status
 
 At the moment, I have
-**136**
+**92**
 emails in my inbox to be dealt with (the earliest that I have not replied to was from _Nov 21, 2018_),
 **0**
 unread Github issues/PRs, and about
-**120**
+**40**
 tabs open in my browser.
 
 ## TODO
@@ -45,7 +45,6 @@ My "official" TODO list is available [on Github](https://github.com/orgs/rstudio
     - https://themockup.blog/posts/2020-08-01-building-a-blog-with-distill/ https://werk.statt.codes/post/2021-02-24-hellodistill/ Learn more about distill.
     - https://education.rstudio.com/blog/2021/02/distill-it-down/
 1. Max's [SO question on highlighting inline code](https://stackoverflow.com/q/62629755/559676), which should be solvable via [**highr**](https://github.com/yihui/highr).
-1. Replace sundown with **commonmark** in **markdown**: https://github.com/yihui/knitr/issues/1329
 1. Optimize images automatically in blogdown
 1. Fix relative paths in Hugo's RSS feeds: https://github.com/rstudio/blogdown/issues/384
 1. hugo-prose: https://github.com/yihui/hugo-prose/pull/41 and reply to Jared's meetup invite.
@@ -94,6 +93,7 @@ If anyone is interested in any of the items below, please feel free to let me kn
 
 ## Blog
 
+1. Loops in R: https://medium.com/@alwinw/are-r-loops-really-that-slow-1bbf46b21fcb https://yihui.org/en/2010/10/on-the-gory-loops-in-r/
 1. Both TinyTeX and Hugo can be bundled with projects: https://twitter.com/bearloga/status/1440342267949060103
 1. blogdown vs distill https://twitter.com/PipingHotData/status/1376106167865384963 https://blog.rstudio.com/2021/09/23/curating-for-wearerladies-on-twitter/
 1. What does it mean to be generous? https://github.com/ropensci/targets/issues/503 I don't think I'm generous in this case.
@@ -133,6 +133,7 @@ If anyone is interested in any of the items below, please feel free to let me kn
 1. https://github.com/seankross/postcards
 1. https://github.com/etiennebacher/docsifier
 1. https://twitter.com/Warreningshot/status/1379664918450905089 blogdown 复古主题？
+1. https://github.com/commit-intl/micro-down 简版的 Markdown JS 库
 
 ## 日程安排
 
