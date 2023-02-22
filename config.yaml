@@ -164,7 +164,7 @@ params:
   # options for highlight.js (version, additional languages, and theme)
   highlightjsVersion: "11.7.0"
   highlightjsLang: ["latex"]
-  highlightjsTheme: "base16/heetch-light"
+  highlightjsTheme: "xcode"
 
   logo:
     en:
