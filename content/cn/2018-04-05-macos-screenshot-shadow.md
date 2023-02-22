@@ -10,6 +10,6 @@ slug: macos-screenshot-shadow
 defaults write com.apple.screencapture disable-shadow -bool true
 ```
 
-然后顺便发现一个我以前从没注意到的截图方法，也是我一直想找的，就是如何截取当前窗口。在 Windows 年代我知道怎么做，但 macOS 下从没研究过。今天才发现 Cmd + Shift + 4 之后按空格即可。我用的外置键盘，上面有截图键（PrtSc），所以是 Ctrl + PrtSc 然后空格。这下再也不用小心翼翼用鼠标拖拖拖。
+然后顺便发现一个我以前从没注意到的截图方法，也是我一直想找的，就是如何截取当前窗口。在 Windows 年代我知道怎么做，但 macOS 下从没研究过。今天才发现 `Cmd + Shift + 4` 之后按空格即可。我用的外置键盘，上面有截图键（`PrtSc`），所以是 `Ctrl + PrtSc` 然后空格。这下再也不用小心翼翼用鼠标拖拖拖。
 
 之所以说上面的阴影解决方案是部分方案，是因为它只对独立窗口有效，对 RStudio 里的子窗口无效。不过这是 RStudio 的锅，因为 RStudio 整个界面实质上是一个网页浏览器，它弹出来的所谓子窗口都是假窗口，实质上只是一些 `<iframe>` 之类的 HTML 元素，并非系统窗口，而整个 RStudio 是个系统窗口。如果要截 RStudio 子窗口的图，仍然需要鼠标拖框，仔细选择区域，还是很烦人。

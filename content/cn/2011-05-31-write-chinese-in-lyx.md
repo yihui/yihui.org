@@ -10,7 +10,7 @@ slug: write-chinese-in-lyx
 - book (CTeX)
 - report (CTeX)
 
-如果你用模板新建文档（Ctrl+Shift+N），那么将会看到一个模板文件：
+如果你用模板新建文档（`Ctrl + Shift + N`），那么将会看到一个模板文件：
 	
 - ctex.lyx
 

@@ -76,7 +76,7 @@ affected by this change. Basically, I'm hoping to make the chunk delimiters
     ```
 
 It should be unlikely for this change to affect you if you have been using the
-keyboard shortcut `Ctrl (Cmd) + Alt + I` to insert code chunks into R Markdown
+keyboard shortcut `Ctrl / Cmd + Alt + I` to insert code chunks into R Markdown
 in RStudio, and do not indent or quote code chunks. However, if you have been
 manually typing the backticks, chances are you may have extra backticks or
 spaces in the chunk delimiters.

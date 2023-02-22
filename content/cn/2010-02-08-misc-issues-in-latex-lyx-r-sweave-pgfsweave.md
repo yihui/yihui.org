@@ -108,8 +108,8 @@ slug: misc-issues-in-latex-lyx-r-sweave-pgfsweave
 几点附注：
 
 1. 我用UTF-8编码的原因是它比较通用，尤其是这次论坛搬家，要是没有颜林林想出办法解决了从GB2312到UTF-8编码的转换，我真是被编码问题愁死了。打这以后，能用UTF-8一律用UTF-8，管它占用空间大小呢。再者，后面我还想大规模使用GitHub，那网站也是UTF-8的，为了源文件在网站上能正确显示，也必须用UTF-8编码。
-2. CRAN上关于LyX的配置（literate-scrap.inc）被我拿来修改了，主要是更改了Scrap的定义，我很不喜欢原作者关于换行符的定义，必须用Ctrl+Enter，使得老夫在LyX中敲R代码很不爽，而且没法跟别的编辑器互相复制粘贴，现在我可以自由自在地敲R代码了。
-3. Sweave到pdfLaTeX的转换器从`R CMD Sweave $$i`改为了`cp $$r/*.{r,txt,pdf} ./ & R --verbose --no-save --no-restore -q -e "library(pgfSweave); pgfSweave('$$i', compile.tex=FALSE)"`，原因是LyX会把文档复制到一个临时目录下编译，这一点我觉得挺不好的，尤其是写动态文档时，有些数据文件或者R代码需要在文档中使用，但LyX不会把它们全都复制过去，所以R代码运行时会出错，所以我人为加入了复制*.r/*.txt/*.pdf文件到编译的目录中去的命令，然后用命令行的方式执行R，执行的内容是 `library(pgfSweave); pgfSweave('$$i', compile.tex=FALSE)`，这段代码可以用-e参数传给R；设定compile.tex=FALSE的原因是pgfSweave默认会编译LaTeX文档，而我们只需要让它走到生成LaTeX文档那一步就够了。
+2. CRAN上关于LyX的配置（literate-scrap.inc）被我拿来修改了，主要是更改了Scrap的定义，我很不喜欢原作者关于换行符的定义，必须用 `Ctrl + Enter` ，使得老夫在LyX中敲R代码很不爽，而且没法跟别的编辑器互相复制粘贴，现在我可以自由自在地敲R代码了。
+3. Sweave到pdfLaTeX的转换器从`R CMD Sweave $$i`改为了`cp $$r/*.{r,txt,pdf} ./ & R --verbose --no-save --no-restore -q -e "library(pgfSweave); pgfSweave('$$i', compile.tex=FALSE)"`，原因是LyX会把文档复制到一个临时目录下编译，这一点我觉得挺不好的，尤其是写动态文档时，有些数据文件或者R代码需要在文档中使用，但LyX不会把它们全都复制过去，所以R代码运行时会出错，所以我人为加入了复制 `*.r` / `*.txt` / `*.pdf` 文件到编译的目录中去的命令，然后用命令行的方式执行R，执行的内容是 `library(pgfSweave); pgfSweave('$$i', compile.tex=FALSE)`，这段代码可以用-e参数传给R；设定compile.tex=FALSE的原因是pgfSweave默认会编译LaTeX文档，而我们只需要让它走到生成LaTeX文档那一步就够了。
 4. Sweave不支持给每一幅图形设定宽度，只能通过`\setkeys{Gin}{width=}`的方式统一设定文档中所有图形的宽度，这一点也让人很不爽，哪有文档能保证所有图形宽度都一样呢，因此我们让Sweave.sty不要统一设定宽度：`\usepackage[nogin]{Sweave}`；然后在每一段R代码块中分别设定width，这样pgfSweave可以根据这些宽度相应设定图形宽度。这一点也反映在对`literate-scrap.inc`文件的修改上了。
 5. pgfSweave包默认有命令行执行的方式：`R CMD pgfSweave`，但这个方式是基于Rscript的，它在执行的时候并不会等程序真的运行完了才退出，而是一扫而过，该运行的程序还在后台默默运行。这一点会让LyX昏了头，LyX以为Sweave代码已经执行完毕，可以启动`pdflatex`编译了，但事实上tex文档压根儿就还没生成出来。因此我采用了`R -e`的方式，让LyX老老实实等待R运行结束再编译。
 6. 本文的配置对部分客官来说简单，对不常用命令行的客官可能还有好几步路要走，比如把R的bin路径放到系统的PATH环境变量中，以及阅读CRAN上关于LyX+Sweave的配置等等，装LaTeX宏包fancyvrb等（Sweave.sty依赖于它，否则layout在LyX中显示unavailable，尽管Sweave.sty存在）。

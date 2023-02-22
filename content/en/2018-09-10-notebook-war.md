@@ -122,7 +122,7 @@ The main lesson I learned from this part of Joel's slides (#91-102) is that user
 
 On slide #102, I'm curious since Joel doesn't like notebooks, why did he use the notebook format himself to file [the Github issue](https://github.com/chimpler/pyhocon/issues/171)? Did he just file the issue for someone else who passed a notebook to him? I didn't get the point of this slide (maybe I should watch the video recording if it exists somewhere).
 
-Anyway, Jupyter notebooks are not easy to copy and paste because they are not plain text. Well, they are, but they are essentially JSON and feel more like Word (essentially XML) instead of the plain text in the sense of `.txt`. By comparison, R Markdown documents are true plain text (in the sense of `.txt`), so you can easily `Ctrl + C` and `Ctrl + V` (or `Command + C/V`).
+Anyway, Jupyter notebooks are not easy to copy and paste because they are not plain text. Well, they are, but they are essentially JSON and feel more like Word (essentially XML) instead of the plain text in the sense of `.txt`. By comparison, R Markdown documents are true plain text (in the sense of `.txt`), so you can easily `Ctrl + C` and `Ctrl + V` (or `Command + C / V`).
 
 ### 9. Errors will always halt execution
 
@@ -146,7 +146,7 @@ By default (`error = FALSE`), errors will halt the R process.
 
 ### 10. Notebooks make it easy to teach poorly
 
-I feel the problem is more about "the notable Jupyter tutorials are bad" than "notebooks are bad for tutorials". Joel is strongly against the "Ctrl-Enter" type of tutorials. He didn't mention what type of tutorials were good in the slides, but I guess besides the interactive way of running code in notebooks, there are pretty much only two other types of tutorials:
+I feel the problem is more about "the notable Jupyter tutorials are bad" than "notebooks are bad for tutorials". Joel is strongly against the "`Ctrl + Enter`" type of tutorials. He didn't mention what type of tutorials were good in the slides, but I guess besides the interactive way of running code in notebooks, there are pretty much only two other types of tutorials:
 
 1. Code that you can only stare at. A typical example is hardcopies of books. You cannot easily copy code from paper.
 

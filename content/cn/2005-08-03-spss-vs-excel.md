@@ -16,9 +16,9 @@ Excel在公式处理方面就方便多了，只要在一个单元各种输入公
 
 当选中SPSS数据表中同一列的几行单元格之后，若想再一并选中其同行右列或者左列的数据，那就是不可能的了，只能放弃选择，然后重新拿起鼠标拖动选择；所以当你拖着鼠标选了很长一列数据之后不小心放开了鼠标，而又想选择旁边列的数据，这时候就直想撞墙。
 
-而Office的选择方式则是多种多样的，有Shift、Ctrl键的辅助，还可以用Home、End、Page Up、Page Down、Up Arrow、Down Arrow、Left Arrow、Right Arrow这些键来扩展选择，十分方便，上面SPSS的问题就可以用Shift+Left/Right Arrow的办法来解决。
+而Office的选择方式则是多种多样的，有 `Shift`、`Ctrl` 键的辅助，还可以用 `Home`、`End`、`PageUp`、`PageDown`、`Up`、`Down`、`Left`、`Right` 这些键来扩展选择，十分方便，上面SPSS的问题就可以用 `Shift + Left / Right` 的办法来解决。
 
-还有一点我很惊异的是SPSS竟然没有“全选”（Ctrl+A）的功能，太诧异了……我的鼠标从桌上拖到地上去了都还没把数据选完，FT！
+还有一点我很惊异的是SPSS竟然没有“全选”（`Ctrl + A`）的功能，太诧异了……我的鼠标从桌上拖到地上去了都还没把数据选完，FT！
 
 ## 没有查找/替换功能
 
