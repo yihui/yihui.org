@@ -52,6 +52,9 @@ code {
 a {
   border-bottom: 1px dashed;
 }
+p .subtitle {
+  font-size: .9em;
+}
 iframe, twitterwidget, video {
   max-width: 100%;
   display: block;
@@ -157,7 +160,11 @@ span.hash-note::before { content: "　# "; }
     display: none;
   }
 }
-
+@media screen and (max-width: 700px) {
+  .main {
+    padding: 2em 1em;
+  }
+}
 @media print {
   del, footer, .masthead {
     display: none;
