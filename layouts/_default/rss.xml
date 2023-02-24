@@ -20,9 +20,11 @@
       <guid>{{ .Permalink }}</guid>
       <description>
         {{ `<![CDATA[` | safeHTML }}
-        {{ (replaceRE "\v" "" .Content) | safeHTML }}
         {{ if eq .Section "en" }}
+        {{ (replaceRE "\v" "" .Content) | safeHTML }}
         {{ (printf "<script>location.href='%s';</script>" .Permalink) | safeHTML }}
+        {{ else }}
+        {{ .Content | replaceRE `<!--#?(.|\n)*?-->` "" | safeHTML | truncate 100 (print "[...] <" .Permalink ">" | markdownify) | safeHTML }}
         {{ end }}
         {{ `]]>` | safeHTML }}
       </description>
