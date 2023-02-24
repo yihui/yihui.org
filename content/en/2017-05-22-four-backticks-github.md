@@ -4,7 +4,7 @@ date: '2017-05-22'
 slug: four-backticks-github
 ---
 
-It is always the little things... Over the years, I have been totally happy with almost everything about Github, but I have also been waiting for one little thing:^[Actually I have also been waiting for another feature ([commenting in the source file view](https://github.com/isaacs/github/issues/211)), but it does not bother me as much.] I wish we could enclose text that contains N backticks with a pair of N + 1 backticks in Github issues/comments, i.e.,
+It is always the little things... Over the years, I have been totally happy with almost everything about Github, but I have also been waiting for one little thing:[^1] I wish we could enclose text that contains N backticks with a pair of N + 1 backticks in Github issues/comments, i.e.,
 
 `````markdown
 ````
@@ -36,7 +36,7 @@ This is what used to drive me crazy, because you cannot easily indent text in a 
 
 - Bang bang bang bang; then bang bang bang bang; and then bang bang bang bang...
 
-Sometimes I need to write verbatim R code chunks on Github to show other people examples, and sometimes I ask users to provide examples. This four-space thing has annoyed me for a couple of years. You may not think it is big deal, but let me just show you two numbers: the [**knitr**](https://github.com/yihui/knitr) repo has got about 1400 issues over the years, and [**rmarkdown**](https://github.com/rstudio/rmarkdown) has got about 1000. You could try to sit here still and simply count the numbers from 1 to 1000. Then feel my despair of bang bang bang bang once every few days.^[I have edited almost every single issue/comment from users that didn't properly format R code chunks.]
+Sometimes I need to write verbatim R code chunks on Github to show other people examples, and sometimes I ask users to provide examples. This four-space thing has annoyed me for a couple of years. You may not think it is big deal, but let me just show you two numbers: the [**knitr**](https://github.com/yihui/knitr) repo has got about 1400 issues over the years, and [**rmarkdown**](https://github.com/rstudio/rmarkdown) has got about 1000. You could try to sit here still and simply count the numbers from 1 to 1000. Then feel my despair of bang bang bang bang once every few days.[^2]
 
 ![I love technology](https://slides.yihui.org/gif/dump-computer.gif)
 
@@ -48,11 +48,11 @@ I love everything about Markdown except the fact that the Markdown world is so f
 
 So I [revised](https://github.com/yihui/knitr/commit/d7d59633302d35e9d244490112ba94ecbcd8f281#diff-1a1c3dd142f76a5fad803a0c52839881) the Github issue template, and it is much easier to type a pair of four backticks than many four-spaces.
 
-The next time when you post a new issue or comment on Github that contains an R Markdown example, please keep this haiku in mind and show other people something that they can copy and run directly:^[Usually there have been enough straws on the camels' back. Your effort will be appreciated if you could even reduce one single straw.]
+The next time when you post a new issue or comment on Github that contains an R Markdown example, please keep this haiku in mind and show other people something that they can copy and run directly:[^3]
 
 > To include three cool backticks,  
 > 　use a cozy pair of four backticks,  
-> 　　or I will kill you.^[Credits to Joe Cheng, who wrote the haiku "Keep your side-effects, out of reactives, or I will kill you". I don't remember the exact words but I guess I hate poorly formatted Github issues as much as he discourages side-effects in Shiny reactives.]
+> 　　or I will kill you.[^4]
 
 `````markdown
 ````
@@ -67,3 +67,11 @@ Hello world.
 ```
 ````
 `````
+
+[^1]: Actually I have also been waiting for another feature ([commenting in the source file view](https://github.com/isaacs/github/issues/211)), but it does not bother me as much.
+
+[^2]: I have edited almost every single issue/comment from users that didn't properly format R code chunks.
+
+[^3]: Usually there have been enough straws on the camels' back. Your effort will be appreciated if you could even reduce one single straw.
+
+[^4]: Credits to Joe Cheng, who wrote the haiku "Keep your side-effects, out of reactives, or I will kill you". I don't remember the exact words but I guess I hate poorly formatted Github issues as much as he discourages side-effects in Shiny reactives.

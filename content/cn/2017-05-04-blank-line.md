@@ -6,7 +6,7 @@ slug: blank-line
 
 再来说一个我的强迫症症状：我倾向于写[略拥挤的代码](/cn/2017/01/blank-area/)，但读不了拥挤的文字，所以我看 Markdown 源文件时，很怕没有空行的文件。
 
-瞄了一眼边小编^[第三届靠谱厮奖的候选人。]的[合并请求](https://github.com/cosname/cosx.org/pull/538)（源文件[在此](https://raw.githubusercontent.com/tomatoiscoding/cosx.org/993e00001558e01262f92fac5dd17df9bb58c4c0/content/post/Bandit%E7%AE%97%E6%B3%95%E4%B8%8E%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F.md)），本骆驼终于垮了，于是拍拍土爬起来说一下这个空行问题。简单说来就一句话：
+瞄了一眼边小编[^1]的[合并请求](https://github.com/cosname/cosx.org/pull/538)（源文件[在此](https://raw.githubusercontent.com/tomatoiscoding/cosx.org/993e00001558e01262f92fac5dd17df9bb58c4c0/content/post/Bandit%E7%AE%97%E6%B3%95%E4%B8%8E%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F.md)），本骆驼终于垮了，于是拍拍土爬起来说一下这个空行问题。简单说来就一句话：
 
 > 吾真心望尔等写 Markdown 文档时，在**不同类型**元素之间留一个空行。
 
@@ -78,3 +78,5 @@ title: 标题
 然而，事情总是有例外，这也让人有些头疼。在 Markdown 中，如果一行的末尾有两个连续空格，那么它表示这里要强制换行，注意换行不表示新段落。要理解它只能同类比的方式来说：若你是 Word 用户，强制换行表示 `Shift + Enter`；HTML 用户可理解为 `<br/>` 标签；LaTeX 用户可理解为 `\\`。在 Markdown 中用引用语法 `>` 引用诗文时，每一句末尾两个空格就完美了，否则只能用代码块语法，尽管表面看起来好像是对的，但一方面字体和样式不太对，另一方面 HTML 语义也不对。
 
 貌似事情到此也说完了，但其实还没完。关于看不见摸不着的空白字符，还有很多故事。就算是空格，也有好几种空格：普通空格（英文模式下敲空格键）、[硬空格](https://zh.wikipedia.org/wiki/%E4%B8%8D%E6%8D%A2%E8%A1%8C%E7%A9%BA%E6%A0%BC)、[零宽空格](https://zh.wikipedia.org/wiki/%E9%9B%B6%E5%AE%BD%E7%A9%BA%E6%A0%BC)、中文全角空格，等等。前面说的空格都是指普通空格。这些空格各有各的妙用，然而这里纸张太小写不下。
+
+[^1]: 第三届靠谱厮奖的候选人。

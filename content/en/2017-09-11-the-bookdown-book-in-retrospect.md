@@ -26,11 +26,11 @@ rgb2gray = function(x, maxColorValue = 1) {
 }
 ```
 
-Then I added an argument `highlight_bw` to the `bookdown::pdf_book()` format, so that I can easily turn my colored code blocks to grayscale using a single switch.^[On a side note, [Gavin Simpson thought](https://twitter.com/ucfagls/status/867455372843405312) "it (the lightgray background) looks like shit", but personally I'm happy with the background. Perhaps it has something to do with the printers. I'm comfortable as long as the background color is very light.]
+Then I added an argument `highlight_bw` to the `bookdown::pdf_book()` format, so that I can easily turn my colored code blocks to grayscale using a single switch.[^1]
 
 ## Acknowledgments
 
-Although it sounds a little funny, my favorite part in writing a book is to write the section of [acknowledgements](https://bookdown.org/yihui/bookdown/acknowledgments.html). This is the only part in which the authors have complete freedom to say whatever they want to say. I have mentioned this in my company blog post when I [announced **bookdown**](https://blog.rstudio.com/2016/12/02/announcing-bookdown/).^[[...] thank your kids in the preface (without whom you should have finished the book two years earlier)...]
+Although it sounds a little funny, my favorite part in writing a book is to write the section of [acknowledgements](https://bookdown.org/yihui/bookdown/acknowledgments.html). This is the only part in which the authors have complete freedom to say whatever they want to say. I have mentioned this in my company blog post when I [announced **bookdown**](https://blog.rstudio.com/2016/12/02/announcing-bookdown/).[^2]
 
 A month ago, Dean Attali suddenly (and happily) [discovered](https://twitter.com/daattali/status/897336328500674560) that I thanked him in this book. I love leaving surprises here and there, and let people discover them even a year later. I'm not sure if it is specific to the Chinese culture, but the joy of discovering a five-dollar bill in a book that you read long time ago (when you used the bill as the bookmark) is much stronger than getting five dollars directly from your parents. This is why many Chinese kids love reading (just kidding).
 
@@ -52,3 +52,7 @@ I don't really need the royalties to be able to survive, thanks to my current ge
 Writing a book is both fun and pain, but I think it is a very meaningful thing to do. I have tried to encourage many people to write something lengthy instead of spending too much time on social media and writing short sentences.
 
 It is a totally different world.
+
+[^1]: On a side note, [Gavin Simpson thought](https://twitter.com/ucfagls/status/867455372843405312) "it (the lightgray background) looks like shit", but personally I'm happy with the background. Perhaps it has something to do with the printers. I'm comfortable as long as the background color is very light.
+
+[^2]: [...] thank your kids in the preface (without whom you should have finished the book two years earlier)...

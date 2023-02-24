@@ -46,7 +46,7 @@ TinyTeX assumes that you are not afraid of using the command line. If you are, p
 
 The binary packages of TinyTeX are released on the monthly basis to the Github repo https://github.com/rstudio/tinytex-releases.
 
-For Linux users, TinyTeX will be installed to `$HOME/.TinyTeX` and symlinks of executables (such as `pdflatex`) are created under `$HOME/bin` (or `$HOME/.local/bin` if it exists), which should be on the `PATH` environment variable:^[If not, you know how to add it to `PATH`, just because you are a Linux user! Note that you can change the directory where TinyTeX (or the underlying `tlmgr` utility respectively) places symlinks of executables via setting `tlmgr`'s `sys_bin` option. See [issue #365](https://github.com/rstudio/tinytex/issues/365) for details.]
+For Linux users, TinyTeX will be installed to `$HOME/.TinyTeX` and symlinks of executables (such as `pdflatex`) are created under `$HOME/bin` (or `$HOME/.local/bin` if it exists), which should be on the `PATH` environment variable:[^1]
 
 ```sh
 wget -qO- "https://yihui.org/tinytex/install-bin-unix.sh" | sh
@@ -64,7 +64,7 @@ TinyTeX is installed to `~/Library/TinyTeX` on macOS:
 curl -sL "https://yihui.org/tinytex/install-bin-unix.sh" | sh
 ```
 
-For Windows users, save the batch file [install-bin-windows.bat](https://yihui.org/tinytex/install-bin-windows.bat) (open this link and press `Ctrl + S`), and double click it.^[Your anti-virus software might warn against certain `*.dll` files, and you may want to trust these files. However, I'm not a Windows expert, so I'll leave the decision to yourself.] Please note that it requires PowerShell ([at least version 3.0](https://docs.microsoft.com/en-us/powershell/scripting/setup/starting-windows-powershell-on-earlier-versions-of-windows)). If your Windows version is too low and does not have PowerShell, follow [this article](https://docs.microsoft.com/en-us/powershell/scripting/setup/starting-windows-powershell-on-earlier-versions-of-windows) to install it. The installation directory is `%APPDATA%/TinyTeX`, where `APPDATA` is an environment variable that typically points to the path `C:\Users\Your Name\AppData\Roaming`.^[Click the Start menu, Run, type `cmd` to open a command window, and type `echo %APPDATA%` to figure out the actual path if you are curious.]
+For Windows users, save the batch file [install-bin-windows.bat](https://yihui.org/tinytex/install-bin-windows.bat) (open this link and press `Ctrl + S`), and double click it.[^2] Please note that it requires PowerShell ([at least version 3.0](https://docs.microsoft.com/en-us/powershell/scripting/setup/starting-windows-powershell-on-earlier-versions-of-windows)). If your Windows version is too low and does not have PowerShell, follow [this article](https://docs.microsoft.com/en-us/powershell/scripting/setup/starting-windows-powershell-on-earlier-versions-of-windows) to install it. The installation directory is `%APPDATA%/TinyTeX`, where `APPDATA` is an environment variable that typically points to the path `C:\Users\Your Name\AppData\Roaming`.[^3]
 
 Alternatively, Windows users can use Chocolatey or Scoop to install TinyTeX. Please see the Github repo [tinytex-releases](https://github.com/rstudio/tinytex-releases) for instructions.
 
@@ -99,7 +99,7 @@ Type X to quit or <RETURN> to proceed,
 or enter new name. (Default extension: sty)
 ```
 
-It basically indicates a missing LaTeX package. Do not panic. Open a command window, and use the command `tlmgr search --global --file` followed by the filename,^[Add a forward slash before the filename for an exact match. Without the slash, other packages may be matched, e.g., `chemtimes.sty`.] e.g.,
+It basically indicates a missing LaTeX package. Do not panic. Open a command window, and use the command `tlmgr search --global --file` followed by the filename,[^4] e.g.,
 
 ```sh
 $ tlmgr search --global --file "/times.sty"
@@ -167,3 +167,11 @@ Fortunately, there is a nice way out based on TeX Live. TeX Live is great: it is
 I'd like to thank the TeX Live team for the great work, without which TinyTeX wouldn't be possible. I'm particularly grateful that they offered the options to remove source code and documentation from the installation.
 
 I cannot thank [Peng Zhao](http://www.pzhao.org) and [Miao Yu](https://yufree.cn) enough for their extremely careful and patient [testing](https://d.cosx.org/d/419672) as well as the very useful feedback. Several other users also helped test the beta version, including [Carl Boettiger](https://www.carlboettiger.info), [TC](http://tc.rbind.io), [Ce Gao](https://github.com/gaocegege), and [Xiangyun Huang](https://github.com/XiangyunHuang). The hex logo was designed by [Hao Zhu](https://github.com/haozhu233).
+
+[^1]: If not, you know how to add it to `PATH`, just because you are a Linux user! Note that you can change the directory where TinyTeX (or the underlying `tlmgr` utility respectively) places symlinks of executables via setting `tlmgr`'s `sys_bin` option. See [issue #365](https://github.com/rstudio/tinytex/issues/365) for details.
+
+[^2]: Your anti-virus software might warn against certain `*.dll` files, and you may want to trust these files. However, I'm not a Windows expert, so I'll leave the decision to yourself.
+
+[^3]: Click the Start menu, Run, type `cmd` to open a command window, and type `echo %APPDATA%` to figure out the actual path if you are curious.
+
+[^4]: Add a forward slash before the filename for an exact match. Without the slash, other packages may be matched, e.g., `chemtimes.sty`.

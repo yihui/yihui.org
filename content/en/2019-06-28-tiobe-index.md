@@ -19,7 +19,7 @@ It is not that I dislike the TIOBE Index. It is that I hate all sorts of ranking
 
 However, my point is not about blaming TIOBE or any ranking systems. If I'm blaming anyone at all, I'm blaming ourselves for our laziness. We are too lazy to evaluate one thing carefully by ourselves, which gives a great chance to ranking systems: Forget about it, and let me just tell you that X is better than Y (be it a programming language, a university, or a restaurant, etc.). "Better" in what sense? That is the hard question, and we tend to avoid answering it.
 
-Actually I'm not sure if we should blame ourselves for our laziness or just blame this era of decision fatigue. We simply have too many, trivial or not, decisions to make every day. Practically, we don't have the time to do the research by ourselves, so we have to blindly trust the rankings. This feels like a tragedy or curse of our times. In Daniil Granin's book "[This Strange Life](https://www.litmir.me/br/?b=226757&p=1)" (which depicted the life of Lyubishchev), he mentioned a biologist who researched worms for his whole life and said something like this:^[Oddly enough, it is hard to find this book in the English world, so I don't know the original words. I read the Chinese translation about 8 years ago. It was a shockingly fantastic book. If you are interested in time management, I'd highly recommend this book.]
+Actually I'm not sure if we should blame ourselves for our laziness or just blame this era of decision fatigue. We simply have too many, trivial or not, decisions to make every day. Practically, we don't have the time to do the research by ourselves, so we have to blindly trust the rankings. This feels like a tragedy or curse of our times. In Daniil Granin's book "[This Strange Life](https://www.litmir.me/br/?b=226757&p=1)" (which depicted the life of Lyubishchev), he mentioned a biologist who researched worms for his whole life and said something like this:[^1]
 
 > Worms are so long, yet my life is so short!
 
@@ -28,3 +28,5 @@ I doubt if anyone is still able to focus on one thing like a worm for a whole li
 Programming languages are so complicated, yet the index is so simple.
 
 ![I can do any rankings I want.](https://slides.yihui.org/gif/have-permit.gif)
+
+[^1]: Oddly enough, it is hard to find this book in the English world, so I don't know the original words. I read the Chinese translation about 8 years ago. It was a shockingly fantastic book. If you are interested in time management, I'd highly recommend this book.

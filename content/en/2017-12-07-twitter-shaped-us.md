@@ -4,7 +4,7 @@ date: '2017-12-07'
 slug: twitter-shaped-us
 ---
 
-"We become what we behold. We shape our tools and then our tools shape us." --- [John Culkin](https://mcluhangalaxy.wordpress.com/2013/04/01/we-shape-our-tools-and-thereafter-our-tools-shape-us/). I came across this quote earlier this year, and I'd rate it as the most important single piece of thought I learned this year.^[It is just a quote, and I don't know too much about the context. In terms of the most thoughtful book I read (actually reread) this year, I think it is "Poor Charlie's Almanack" (I read the Chinese translation). Charlie Munger's thoughts on psychology are absolutely gems.]
+"We become what we behold. We shape our tools and then our tools shape us." --- [John Culkin](https://mcluhangalaxy.wordpress.com/2013/04/01/we-shape-our-tools-and-thereafter-our-tools-shape-us/). I came across this quote earlier this year, and I'd rate it as the most important single piece of thought I learned this year.[^1]
 
 This morning (actually last night) Karl Broman said on Twitter, "[The tweets are too damn long.](https://twitter.com/kwbroman/status/938669858488713216)" And  Christoffer Flensburg replied:
 
@@ -17,3 +17,5 @@ There are a lot of extremely popular tweets that do not make any practical sense
 It feels quite scary to me when I realized I started to skip tweets longer than only 140 characters. Charlie Munger said some people's brains had become cabbages, and I certainly do not want my brain to become a cabbage.
 
 Actually, Andrew Gelman [has written a post three years ago](http://andrewgelman.com/2014/11/22/blogs-twitter/) on blogs vs Twitter.
+
+[^1]: It is just a quote, and I don't know too much about the context. In terms of the most thoughtful book I read (actually reread) this year, I think it is "Poor Charlie's Almanack" (I read the Chinese translation). Charlie Munger's thoughts on psychology are absolutely gems.

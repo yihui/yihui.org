@@ -14,13 +14,13 @@ There are a few silly rules in some journals that I hate, and I believe they are
 
 I have to remind myself that this is the 21st century. These are actually not a big deal in terms of statistics papers. The more important problem is journals are operated by a very small group of people relative to the large number of authors. The even more important problem is reproducibility, which Roger Peng often mentions in their blog.
 
-# An open-access journal
+## An open-access journal
 
 This journal is electronic like [JSS](http://www.jstatsoft.org/), and you can see everything on the website. For authors, LaTeX is too laborious, so we abandon LaTeX. For website maintainers, HTML is laborious as well, and we abandon HTML as the authoring language.
 
 We turn to [Markdown](http://daringfireball.net/projects/markdown/). Why? It is simple. I hate writing a paper with `\documentclass{}` as my first line -- I want to start with the title directly in plain text, then write my first paragraph in a simple text editor. Who cares about `\title{}`? Similarly, when I write a webpage, I do not like starting with `<html>` as my first six characters.
 
-My own website is built on [Jekyll](https://github.com/mojombo/jekyll)^[Correction: I have switched to [Hugo](https://gohugo.io) now, and it is still based on Markdown.], a blog engine based on Markdown files to build static HTML pages. The first few days of building this website might be hard, but once the design is done, the rest of the job becomes extremely easy. WordPress is good, but it is still too heavy compared to Jekyll. See my [blog source code](https://github.com/yihui/en), and this blog site is hosted on GitHub, which automatically compiles my Markdown files to HTML pages using Jekyll when I submit new posts or changes to the source repository.
+My own website is built on [Jekyll](https://github.com/mojombo/jekyll)[^1], a blog engine based on Markdown files to build static HTML pages. The first few days of building this website might be hard, but once the design is done, the rest of the job becomes extremely easy. WordPress is good, but it is still too heavy compared to Jekyll. See my [blog source code](https://github.com/yihui/en), and this blog site is hosted on GitHub, which automatically compiles my Markdown files to HTML pages using Jekyll when I submit new posts or changes to the source repository.
 
 With a good web designer, this journal website can be set up probably in a week. In the future, neither maintainers nor paper authors need to deal with HTML any more. Paper source code looks like:
 
@@ -44,7 +44,7 @@ Write write and write.
 
 I will explain how we maintain this journal and talk about `plot(1:10)` later.
 
-# Faster submission and review
+## Faster submission and review
 
 I do not see much difference in submitting computer code and papers, so I'd like to use a version control model for papers as well. As I mentioned in my [last blog post](/en/2011/12/how-to-become-an-efficient-and-collaborative-r-programmer/), GIT and GitHub can make this process fast and easy.
 
@@ -62,7 +62,7 @@ You may doubt on the "quality" of public review, but just think about the qualit
 
 The journal can find plenty of good and _active_ reviewers automatically after a while -- they come as a result of _natural selection_; this is better than requesting someone to be a reviewer because it is the "internal force" that drives the public reviewers. In the current journal model, reviewers may feel it is a _job_ to review papers, so incentive is a problem.
 
-# Reproducible papers
+## Reproducible papers
 
 I'm quite interested in reproducible research, and I'm all for reproducible results in papers. Well, if you are a statistician, R and Sweave have probably come into your mind. Sweave is great, and the idea of literate programming is awesome. It is just a shame that great ideas were implemented with a narrow vision. I can understand Sweave was tied to LaTeX, but that is a narrow choice. I feel painful to introduce Sweave to other people because I have to teach them LaTeX first.
 
@@ -93,7 +93,9 @@ If we do everything in web pages, there are yet more possibilities.
 - Want to rate a paper? Yes, hit the "Like" button. We do not only let reviewers of the journal rate papers.
 - Web statistics about a paper? Yes, we have page views and other statistics. We no longer use the number of times that a paper is referenced to evaluate a paper; we see how many times it has been read. People may add references for various reasons (not necessarily related to the paper).
 
-# Summary
+## Summary
 
 We have been in the age of Web 2.0 for a few years, but journals rarely make good use of the "crowd". We build the world on a small group of people. Our good papers are used to fill in the shelves of libraries and collect dust, when bad articles are occupying the web (like my blog posts) and being discussed actively. We make all sorts of rules to tie the hands of authors, and we wait, wait and wait for the anonymous reviewers, like [waiting for Godot](http://en.wikipedia.org/wiki/Waiting_for_Godot).
 
+
+[^1]: Correction: I have switched to [Hugo](https://gohugo.io) now, and it is still based on Markdown.

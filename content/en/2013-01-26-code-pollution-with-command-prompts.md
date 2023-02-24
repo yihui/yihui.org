@@ -6,7 +6,7 @@ slug: code-pollution-with-command-prompts
 
 This is not the first time I have ranted about [command prompts](http://en.wikipedia.org/wiki/Command-line_interface#Command_prompt), but I cannot help ranting about them whenever I see them in source code. In short, a piece of source code with command prompts is like a bag of cooked shrimps sold in grocery stores -- it does not make sense, and an otherwise good thing is ruined. I like cooking raw shrimps (way more tasty).
 
-The command prompt here refers to the characters you saw in commands as the prefix, which indicates "I'm ready to take your commands". In a Unix shell, it is often `$`. In R, it is `> ` by default. A shell example from the [GTK web page](https://live.gnome.org/GTK%2B/OSX/Building):^[Update on Dec 8, 2017: Wow wow wow! I just checked it again, and they have updated the code and removed the prompt characters!]
+The command prompt here refers to the characters you saw in commands as the prefix, which indicates "I'm ready to take your commands". In a Unix shell, it is often `$`. In R, it is `> ` by default. A shell example from the [GTK web page](https://live.gnome.org/GTK%2B/OSX/Building):[^1]
 
 ```bash 
 $ jhbuild bootstrap
@@ -51,3 +51,5 @@ I'm aware of the column selection mode in some editors. I just do not understand
 - Some may argue that we see prompt characters in the console / shell / REPL by default. Readers may be confused if we are not consistent. To me, this argument is like after I have seen your picture in a frame once, every time you should carry a frame with you (consistently), otherwise I won't be able to recognize you.
 
 So, please stop code pollution, and post usable code.
+
+[^1]: Update on Dec 8, 2017: Wow wow wow! I just checked it again, and they have updated the code and removed the prompt characters!

@@ -4,7 +4,7 @@ date: '2018-07-27'
 slug: quietly-struggling
 ---
 
-Recently I was kind of amused by two instances of quiet yet long-time struggles with software. Struggles are not inherently amusing,^[Not sure if there is an equivalent version in the western culture, but we sometimes joke in Chinese: "What made you so unhappy? Come on! Tell us, to make us happy." Again, this is only a joke. We are not really that evil.] but when you discover that you are not the only one struggling with a problem, [you may feel relieved](https://twitter.com/darokun/status/1062618033078915078) and even amused (phew, I'm probably not totally an idiot).
+Recently I was kind of amused by two instances of quiet yet long-time struggles with software. Struggles are not inherently amusing,[^1] but when you discover that you are not the only one struggling with a problem, [you may feel relieved](https://twitter.com/darokun/status/1062618033078915078) and even amused (phew, I'm probably not totally an idiot).
 
 ## rJava
 
@@ -43,3 +43,5 @@ So I wanted to create a simple bubble chart after seeing [the beautiful official
 Is there anything we can learn from these two examples? One obvious lesson is that it can be very normal for one to struggle with something, even if one is an expert in other areas. Another lesson is that you may soothe other users if you share your secret struggles.
 
 While I was writing this post, an idea came to my mind: How about editing a contributed book on all our failed attempts or struggles in installing/using software packages? I think it can be valuable because it will show the average users' perspectives. From the perspective of software authors, everything may be obvious and easy, and they may not even be able to imagine the possible ways in which users can fail. One challenge for this book, however, is to avoid turning it into a book of complaints.
+
+[^1]: Not sure if there is an equivalent version in the western culture, but we sometimes joke in Chinese: "What made you so unhappy? Come on! Tell us, to make us happy." Again, this is only a joke. We are not really that evil.

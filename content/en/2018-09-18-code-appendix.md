@@ -51,7 +51,7 @@ In Alex's method, `path/to/file.Rmd` doesn't have to be hard-coded, and can actu
 
 Although Alex's method definitely works, it is not very efficient, because every time you compile the document, **knitr** has to parse the document twice (once for `knitr::knit()` and once for `knitr::purl()`).
 
-Among the replies to Alex's original tweet, the very cool hacker^[I wish I had time to write the "cool hacker" series of posts about those awesome R users.], Lucy D'Agostino McGowan, [pointed out the efficient way](https://twitter.com/LucyStats/status/1039178545715662848):
+Among the replies to Alex's original tweet, the very cool hacker[^1], Lucy D'Agostino McGowan, [pointed out the efficient way](https://twitter.com/LucyStats/status/1039178545715662848):
 
 ````md
 ```{r ref.label=knitr::all_labels(), echo = T, eval = F}
@@ -80,8 +80,12 @@ Clever! You got it.
 
 ## But calling a single function doesn't sound like _programming_...
 
-Some people may say that the taste of programming in "literate programming" seems to be too light. Don't judge code by its length. Simplicity is definitely a merit. However, if your task is complicated enough, you can certainly program a **knitr** document in any way you like. The sky is your limit when you can program something.^[Practically, your toddler's mood is your limit. The sky doesn't matter at all.]
+Some people may say that the taste of programming in "literate programming" seems to be too light. Don't judge code by its length. Simplicity is definitely a merit. However, if your task is complicated enough, you can certainly program a **knitr** document in any way you like. The sky is your limit when you can program something.[^2]
 
 [Here is a slightly advanced example](https://stackoverflow.com/q/40735727/559676), in which you can extract certain attributes of code chunks, and print them in the end of a document. For example, you can create an appendix with the names of all theorems in your document.
 
 The fact that **knitr**'s code chunk options are evaluated like function arguments (meaning that you can write arbitrary R code in chunk options) and **knitr** gives you a hook system (`knitr::knit_hooks`) to manipulate pretty much everything means infinite possibilities to those who want to customize and program **knitr** documents. There was only one thing upon which I hesitated when deciding whether I should give users the access. That is `knitr:::knit_code`. Here the triple-colon is obviously a danger sign. When you can even modify the content of a code chunk, I have no idea what can happen. Evil or creative? I'll leave it to you to think about.
+
+[^1]: I wish I had time to write the "cool hacker" series of posts about those awesome R users.
+
+[^2]: Practically, your toddler's mood is your limit. The sky doesn't matter at all.

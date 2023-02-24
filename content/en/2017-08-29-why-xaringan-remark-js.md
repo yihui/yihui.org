@@ -7,7 +7,7 @@ slug: why-xaringan-remark-js
 
 Last year I wrote an R package with a weird name "[**xaringan**](https://github.com/yihui/xaringan)". Although I have documented it, I have never explained why I preferred the underlying HTML5 presentation framework remark.js over other frameworks like dzslides, ioslides, Slidy, or reveal.js.
 
-I started playing with HTML5 slides [in 2011](/en/2012/04/fancy-html5-slides-with-knitr-and-pandoc/), and rarely went back to LaTeX beamer ever since.^[Yes, I started with PowerPoint, like most people did. Then my brain was washed by LaTeX just like many people in academia.] To be honest, I was never truly happy with any of the Markdown-based slide generation tools until I saw remark.js. Prior to that, my personal favorite HTML5 presentation was still my [very first one](https://slides.yihui.org/2011-r-dev-lessons.html) based on a library named [keydown](http://infews.github.io/keydown/).^[I like the old version of keydown more than the current new version.] I loved it primarily because of the possibility of using fullscreen background images, which I think is critical to presentations. Fortunately, background images are dead easy with remark.js, and I found its feature set was just the right size for me: not too small, or too big.
+I started playing with HTML5 slides [in 2011](/en/2012/04/fancy-html5-slides-with-knitr-and-pandoc/), and rarely went back to LaTeX beamer ever since.[^1] To be honest, I was never truly happy with any of the Markdown-based slide generation tools until I saw remark.js. Prior to that, my personal favorite HTML5 presentation was still my [very first one](https://slides.yihui.org/2011-r-dev-lessons.html) based on a library named [keydown](http://infews.github.io/keydown/).[^2] I loved it primarily because of the possibility of using fullscreen background images, which I think is critical to presentations. Fortunately, background images are dead easy with remark.js, and I found its feature set was just the right size for me: not too small, or too big.
 
 ## Why I love remark.js
 
@@ -78,7 +78,7 @@ Of course, you can easily change font styles of your text in slides via CSS, too
 
 ## Why not reveal.js / ioslides / Slidy
 
-It is mostly personal preferences, and I'm not saying these libraries are not great for everyone. If you love them, stick with them.^[Similarly, I don't want to convince everyone of using Markdown instead of LaTeX. There are people who are really comfortable with LaTeX, which is totally fine.]
+It is mostly personal preferences, and I'm not saying these libraries are not great for everyone. If you love them, stick with them.[^3]
 
 To me, reveal.js is too complicated and shiny. It has way more features than what I need. Oh, the slide transition styles (even 3D rotations?)... I used reveal.js for a couple of my talks, and I found it was very easy to forget vertical slides. The Markdown support is kind of awkward in my eyes. JJ has written an R package [**revealjs**](https://github.com/rstudio/revealjs), which made it much more natural to write slides with \(R) Markdown. In short, reveal.js is too good to me.
 
@@ -105,3 +105,9 @@ I have seen a few blog posts about **xaringan** in the past, but unfortunately I
     > [...] Not having all of the bells and whistles that keynote and powerpoint do forces you to present your work simply, and I think that when you do this properly, it is very powerful.
 
     Exactly. Less is more.
+
+[^1]: Yes, I started with PowerPoint, like most people did. Then my brain was washed by LaTeX just like many people in academia.
+
+[^2]: I like the old version of keydown more than the current new version.
+
+[^3]: Similarly, I don't want to convince everyone of using Markdown instead of LaTeX. There are people who are really comfortable with LaTeX, which is totally fine.

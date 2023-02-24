@@ -75,9 +75,9 @@ The basic idea of **knitr**'s idea is that if you did not modify a code chunk (e
 
 That sounds about correct, right?
 
-I have heard unhappy users curse **knitr**'s caching. Some thought it was too sensitive, and some thought it was dumb. For example, when you add a space in an R comment in your code chunk, should **knitr** invalidate the cache? Modifying a comment certainly won't affect the computing at all (but the text output may change if you show the code in the output via `echo = TRUE`), but the MD5 hash will change.^[Actually you can use the chunk option `cache.comments = FALSE` to prevent cache invalidation when only comments were changed in a code chunk. This can be useful when `echo = FALSE`.]
+I have heard unhappy users curse **knitr**'s caching. Some thought it was too sensitive, and some thought it was dumb. For example, when you add a space in an R comment in your code chunk, should **knitr** invalidate the cache? Modifying a comment certainly won't affect the computing at all (but the text output may change if you show the code in the output via `echo = TRUE`), but the MD5 hash will change.[^1]
 
-Then an example to explain why people thought **knitr**'s caching was dumb: if you read an external CSV file in a code chunk, **knitr** does not know whether you have modified the data file. If you happen to have updated the data file, **knitr** won't re-read it by default if you didn't modify chunk options or the code. The cache key does not depend on the external file. In this case, you have to explicitly associate the cache with the external file, e.g.,^[You could also use `file.mtime()` instead of `tools::md5sum()` if you want the cache to depend on the modification time of the CSV file.]
+Then an example to explain why people thought **knitr**'s caching was dumb: if you read an external CSV file in a code chunk, **knitr** does not know whether you have modified the data file. If you happen to have updated the data file, **knitr** won't re-read it by default if you didn't modify chunk options or the code. The cache key does not depend on the external file. In this case, you have to explicitly associate the cache with the external file, e.g.,[^2]
 
 ````md
 ```{r import-data, cache=TRUE, cache.extra=tools::md5sum('my-precious.csv')}
@@ -113,3 +113,7 @@ if (file.exists('results.rds')) {
 ```
 
 In this case, you clearly understand how your caching works. The one and only way to invalidate the cache is to delete `results.rds`, which is no longer hard at all. If you prefer this mechanism, [you may consider using `xfun::cache_rds()`](https://bookdown.org/yihui/rmarkdown-cookbook/cache-rds.html).
+
+[^1]: Actually you can use the chunk option `cache.comments = FALSE` to prevent cache invalidation when only comments were changed in a code chunk. This can be useful when `echo = FALSE`.
+
+[^2]: You could also use `file.mtime()` instead of `tools::md5sum()` if you want the cache to depend on the modification time of the CSV file.

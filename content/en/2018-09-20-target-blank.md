@@ -22,7 +22,7 @@ As I expected, there will be people who hate links that always open in new tabs,
 
 > Please don't decide for the user. If I want to open a link in a new tab, my browser makes it easy to do so, and if I want to go back to your document, I use the back button.
 
-Without `target="_blank"`, readers can actually make the decision by themselves. If they do want the link to be opened in a new tab, they can right-click on the link and use the context menu "Open Link in New Tab", or hold a key while (left-)clicking the link (e.g., on macOS, hold `Command`). This is no big deal^[It might be tricky or impossible on mobile devices where you don't have a physical keyboard, though.]. If you force a link to be opened in a new tab, you may offend readers who would rather hit the Back button instead of closing a new tab when they want to leave the new tab.
+Without `target="_blank"`, readers can actually make the decision by themselves. If they do want the link to be opened in a new tab, they can right-click on the link and use the context menu "Open Link in New Tab", or hold a key while (left-)clicking the link (e.g., on macOS, hold `Command`). This is no big deal[^1]. If you force a link to be opened in a new tab, you may offend readers who would rather hit the Back button instead of closing a new tab when they want to leave the new tab.
 
 The benefit of opening a link in a new tab is that _the state of the current page can be preserved_ while you read the page in the new tab. This is not something that the Back button can absolutely guarantee. Many of you may have been warned when you make payments online that you should not use the Back button (because you may end up paying twice). What happens when you hit the Back button is not necessarily just to bring you back to the previous page.
 
@@ -53,7 +53,7 @@ To fully understand the code above, you have to understand URLs. You may think U
 
 ![I'm just going to shoot myself](https://slides.yihui.org/gif/shoot-myself.gif)
 
-Long story short, when I add links to my web pages, I omit the protocol and domain in the URLs^[This makes the URLs more portable: when I change my domain name or protocol, I don't need to update these URLs.] if they are internal links to pages that are still on my website (under `https://yihui.org/`), e.g.,
+Long story short, when I add links to my web pages, I omit the protocol and domain in the URLs[^2] if they are internal links to pages that are still on my website (under `https://yihui.org/`), e.g.,
 
 ```md
 [the knitr website](/knitr/)
@@ -72,3 +72,7 @@ This way, I know that URLs starting with `https://` are supposed to be external 
 I presented a way to make links open in new tabs without requiring the author of the web page to hard-code the `target="_blank"` attribute in links, and at the same time, without annoying readers too much (hopefully). The fundamental assumption of this approach is: a different tab == a different context == a different website. Is this a reasonable assumption for everyone? Of course, I'm not 100% sure.
 
 Good software is never about coding alone. It is about coding plus psychology (thinking one step further to minimize the annoyance). Even trivially small problems are worth thinking.
+
+[^1]: It might be tricky or impossible on mobile devices where you don't have a physical keyboard, though.
+
+[^2]: This makes the URLs more portable: when I change my domain name or protocol, I don't need to update these URLs.

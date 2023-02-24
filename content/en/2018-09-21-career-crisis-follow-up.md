@@ -5,7 +5,7 @@ date: '2018-09-21'
 slug: career-crisis-follow-up
 ---
 
-In the post "[My Early Career Crisis](/en/2018/02/career-crisis/)" earlier this year, I promised that I'd write a follow-up post to talk about my thoughts and advice for managers and fresh PhDs. This is the major "debt" I owe you before I can focus on my next project. I thought I'd better pay it off now, so I can have something new to talk about at rstudio::conf 2019.^[Again, this is the "[talk-driven development](/en/2018/03/talk-driven-development/)".]
+In the post "[My Early Career Crisis](/en/2018/02/career-crisis/)" earlier this year, I promised that I'd write a follow-up post to talk about my thoughts and advice for managers and fresh PhDs. This is the major "debt" I owe you before I can focus on my next project. I thought I'd better pay it off now, so I can have something new to talk about at rstudio::conf 2019.[^1]
 
 ## The Statue of Responsibility
 
@@ -27,11 +27,11 @@ Responsibility may be accompanied by anxiety, which is extremely poisonous. If y
 
 ## Why talents fail: easily burned by strong passion and too many choices
 
-[Ouyang Xiu](https://en.wikipedia.org/wiki/Ouyang_Xiu), a famous Chinese essayist of the Song dynasty one thousand years ago, once lamented that "智勇多困于所溺" (those clever and brave are often trapped by what fascinates them).^[From "[五代史伶官传序](https://zh.wikisource.org/zh-hans/%E4%BA%94%E4%BB%A3%E5%8F%B2%E4%BC%B6%E5%AE%98%E5%82%B3%E5%BA%8F)".] This resonated well with me, although I don't consider myself clever but I do consider myself brave.
+[Ouyang Xiu](https://en.wikipedia.org/wiki/Ouyang_Xiu), a famous Chinese essayist of the Song dynasty one thousand years ago, once lamented that "智勇多困于所溺" (those clever and brave are often trapped by what fascinates them).[^2] This resonated well with me, although I don't consider myself clever but I do consider myself brave.
 
 There are two dangers in being a talent. One is that failures seem harder to endure, especially after you have poured a lot of enthusiasm but suddenly fall flat. The other is that you may have many more choices than others when thinking about what to do, so you only pick what you will enjoy. Both enthusiasm and your favorite choices can trap you.
 
-A month after I wrote my crisis post, [Romain François wrote his version](https://purrple.cat/blog/2018/03/22/i-m-not-looking-for-a-job/), titled "I'm (not) looking for a job". This post has stayed in my browser for six months till today,^[As you can see from [the screenshot](https://github.com/yihui/xaringan/pull/165#pullrequestreview-155533735) I took a couple of days ago. Look for the cat icon.] because I saw we had so much in common. Well, I have to admit that I always did all pages of my exams, and Romain didn't bother to open the second page of his physics exam. Both of us fell in love with programming and were not interested in statistics theories but passed the exams with flying colors anyway. Both of us tended to overcommit ourselves, not knowing how to say no. Both of us created websites for statistical graphics galleries, and those websites died. Both of us had given training courses that we had no idea about, and prepared that the night before. Both of us were structureless and lost from time to time.
+A month after I wrote my crisis post, [Romain François wrote his version](https://purrple.cat/blog/2018/03/22/i-m-not-looking-for-a-job/), titled "I'm (not) looking for a job". This post has stayed in my browser for six months till today,[^3] because I saw we had so much in common. Well, I have to admit that I always did all pages of my exams, and Romain didn't bother to open the second page of his physics exam. Both of us fell in love with programming and were not interested in statistics theories but passed the exams with flying colors anyway. Both of us tended to overcommit ourselves, not knowing how to say no. Both of us created websites for statistical graphics galleries, and those websites died. Both of us had given training courses that we had no idea about, and prepared that the night before. Both of us were structureless and lost from time to time.
 
 To some extent, we were punished by our cleverness and passion. Here are some of my advice to those clever, brave, and passionate graduate students:
 
@@ -47,7 +47,7 @@ To some extent, we were punished by our cleverness and passion. Here are some of
     
     > "Perhaps the most valuable result of all education is the ability to make yourself do the thing you have to do, when it ought to be done, whether you like
 it or not. It is the first lesson that ought to be learned and however early a man's training begins, it is probably the last lesson that he learns thoroughly."
-
+    >
     > --- Thomas Henry Huxley
 
 For managers and advisors, the most important task is to guide these talents. Keep teaching them to say no, focus, and structure their lives. Let them feel the joy of accomplishments and remember it. Cal Newport's book "[Deep Work](http://calnewport.com/books/deep-work/)" has been very useful to me. I think talents suffer more from distractions because they have both inner distractions (such as the strong desire to work on random side projects) and outer distractions (such as people reaching out to them for help).
@@ -69,3 +69,9 @@ It turned out that once I was able to fix the internal cause, the impact of the 
 In this follow-up post, first I emphasized that with great freedom comes great responsibility. Remember this when you enjoy the freedom. Then I talked about the blind spots and weakness of talents. Prioritize things that lead to your promised deliverable. Lastly, I encourage you to speak out for your vulnerable self. You may be surprised by other people's willingness to help you.
 
 In the end, I want to sincerely thank all those who shared thoughts with me and encouraged me after I published that blog post. With so much power gained, I successfully finished and published the R Markdown book this year. Recently I just started working on an exciting new project, which will be an important step toward one of my life goals. Spoiler: it will be an R package named **\*\*\*\*down** [as usual](https://twitter.com/dataandme/status/1008803120967749635).
+
+[^1]: Again, this is the "[talk-driven development](/en/2018/03/talk-driven-development/)".
+
+[^2]: From "[五代史伶官传序](https://zh.wikisource.org/zh-hans/%E4%BA%94%E4%BB%A3%E5%8F%B2%E4%BC%B6%E5%AE%98%E5%82%B3%E5%BA%8F)".
+
+[^3]: As you can see from [the screenshot](https://github.com/yihui/xaringan/pull/165#pullrequestreview-155533735) I took a couple of days ago. Look for the cat icon.

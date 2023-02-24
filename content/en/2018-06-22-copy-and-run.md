@@ -11,7 +11,7 @@ When you ask questions or file bug reports, you want to get answers and solution
 
 That is why you should provide a fully reproducible example whenever possible, instead of describing all the steps to create such an example.
 
-I have seen this kind of issues many times in the past, and finally decided to write this post after I saw [yihui/knitr#1562](https://github.com/yihui/knitr/issues/1562) yesterday.^[And [rstudio/blogdown#337](https://github.com/rstudio/blogdown/issues/337) is another example a couple of months later.] Think about the work I had to do for this issue:
+I have seen this kind of issues many times in the past, and finally decided to write this post after I saw [yihui/knitr#1562](https://github.com/yihui/knitr/issues/1562) yesterday.[^1] Think about the work I had to do for this issue:
 
 - For step 1, I had to copy it to an Rmd document in my RStudio session.
 
@@ -28,3 +28,5 @@ In terms of the structure, this is actually a pretty good bug report. It stated 
 I asked for a full reproducible example, and finally realized that I should be looking at the two elements "title" and "title2" in the TOC. Within five seconds, I was able to reproducible the problem after I copied and ran the full example.
 
 BTW, when you discover bugs about something that you can _see_ on your screen, screenshots can be highly useful. They can be strong evidence of bugs. Although it is not really what I think in my head, but when you file a bug report, you may imagine that the developer would deny it if you don't show enough evidence. If you provide a relatively simple reproducible example and attach screenshots, there will be no way for me to escape but acknowledge the problem, which means a much higher chance to fix it.
+
+[^1]: And [rstudio/blogdown#337](https://github.com/rstudio/blogdown/issues/337) is another example a couple of months later.

@@ -5,7 +5,7 @@ date: '2017-08-24'
 slug: so-gh-email
 ---
 
-Everyone understands the importance of [an uninterrupted block of time](http://heeris.id.au/2013/this-is-why-you-shouldnt-interrupt-a-programmer/), especially to programmers. To me, the #1 source of distraction is emails.^[I can handle social media well. I limit my time on Twitter to be 10 minutes per day. I pretty much don't use Facebook or other social media websites or apps at all.] When I really need to get some serious work done, I have to close the Gmail tab in my browser, otherwise I cannot help looking at new emails, even though I still have other emails that I have not replied. I think I reached the goal "Inbox Zero" once a couple of years ago, and usually I have about 40 emails left in my inbox.
+Everyone understands the importance of [an uninterrupted block of time](http://heeris.id.au/2013/this-is-why-you-shouldnt-interrupt-a-programmer/), especially to programmers. To me, the #1 source of distraction is emails.[^1] When I really need to get some serious work done, I have to close the Gmail tab in my browser, otherwise I cannot help looking at new emails, even though I still have other emails that I have not replied. I think I reached the goal "Inbox Zero" once a couple of years ago, and usually I have about 40 emails left in my inbox.
 
 ## TL;DR
 
@@ -50,3 +50,5 @@ So it is not that I don't want to help you when I don't reply emails. It is just
 Just to give you an idea about how much time and effort I spend on questions: there have been more than [4400 questions](https://stackoverflow.com/questions/tagged/knitr) on Stack Overflow about **knitr**, which is only one of the over 20 R packages that I maintain (**knitr** is probably the most popular one, though). I certainly cannot answer all of them, but I can assure you that I have at least read _every single one of them_. There have been about [2000 Github issues](https://github.com/yihui/knitr/issues) in the **knitr** repo, and I have also read them all. Usually I spend more time on a Github issue than a Stack Overflow post. Sometimes it may take a whole day or even longer to fix a certain issue or implement a new feature. I have got numerous inspirations from Github issues and Stack Overflow questions, which is also why I still actively spend time on them. For that, I thank those who filed these issues and asked the questions.
 
 I don't want to disappoint you when your emails or Github issues seem to be unattended. Please consider asking questions in the public first, so that I won't be buried in emails and have time for exciting new projects. I think this applies to other developers, too.
+
+[^1]: I can handle social media well. I limit my time on Twitter to be 10 minutes per day. I pretty much don't use Facebook or other social media websites or apps at all.

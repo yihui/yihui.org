@@ -18,6 +18,8 @@ The grand master of base R, Karl Broman, recently came up with an ingenious idea
 
 1. Too late to join the modern ways of "marketing". If you are going to promote a software package today, the first thing you do is probably not writing a journal paper, and waiting for a year or two for it to be accepted and distributed world-wide. You may first put it on Github (instead of a personal SVN repo that nobody knows), build a website for it (with demos!), and advertise on the social media network.
 
-    I guess MANET might only exist on 3.5-inch floppy disks now (if it still exists at all).^[This is not true, but the point is that it is difficult to find.] What about GGobi? It was eventually [put on Github](https://github.com/ggobi/ggobi), but... only 12 stars, and 3 forks at this moment. That is not a good sign. The core developers are either busy or low-key (e.g., who is Michael Lawrence?). While I generally like low-key people, I believe marketing is necessary (just not to abuse it).
+    I guess MANET might only exist on 3.5-inch floppy disks now (if it still exists at all).[^1] What about GGobi? It was eventually [put on Github](https://github.com/ggobi/ggobi), but... only 12 stars, and 3 forks at this moment. That is not a good sign. The core developers are either busy or low-key (e.g., who is Michael Lawrence?). While I generally like low-key people, I believe marketing is necessary (just not to abuse it).
 
 I don't have more time on this topic, but I think an interactive statistical graphics system that uses R as the back-end and web browser (JavaScript-based) as the front-end is a promising way to move forward. It could be based on Shiny, or use a similar infrastructure as Shiny. Someday I'll come back to this area again, to put some old wine in shiny (or Shiny) new bottles.
+
+[^1]: This is not true, but the point is that it is difficult to find.

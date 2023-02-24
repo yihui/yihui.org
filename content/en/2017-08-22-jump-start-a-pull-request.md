@@ -1,10 +1,10 @@
 ---
-title: Jump-start A Pull Request
+title: Jump-start a Pull Request
 date: '2017-08-22'
 slug: jump-start-a-pull-request
 ---
 
-Pull requests (PRs) is my favorite thing about Github.^[Well, I really do not appreciate the name "pull request". It is highly confusing from the perspective of contributors. GitLab has done it correctly: [**merge** request](https://docs.gitlab.com/ee/user/project/merge_requests/)!] I have created and merged numerous PRs over the years. If you are new to PRs and contributing to other people's packages, I strongly recommend you to read the following materials:
+Pull requests (PRs) is my favorite thing about Github.[^1] I have created and merged numerous PRs over the years. If you are new to PRs and contributing to other people's packages, I strongly recommend you to read the following materials:
 
 - The presentation "[Collaborative Coding](http://cwick.co.nz/talks/collab-code-user17/)" by Charlotte Wickham
 - The blog post "[Contributing Code to the Tidyverse](http://www.jimhester.com/2017/08/08/contributing/)" by Jim Hester
@@ -18,3 +18,5 @@ A more recent and better example is [gohugoio/hugo#3825](https://github.com/gohu
 So you do not really always have to understand a language or codebase to make a contribution. Some problems are small enough to be fixed with only a couple of lines of code, and you can probably do it by yourself before the busy core developers have the bandwidth to process your issues.
 
 Again, please read Charlotte's presentation and Jim's post before making your first PR.
+
+[^1]: Well, I really do not appreciate the name "pull request". It is highly confusing from the perspective of contributors. GitLab has done it correctly: [**merge** request](https://docs.gitlab.com/ee/user/project/merge_requests/)!

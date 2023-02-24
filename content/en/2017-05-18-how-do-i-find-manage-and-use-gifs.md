@@ -10,17 +10,17 @@ First things first. I tend to pronounce "GIF" with the _soft_ G, but I feel ther
 
 ## Where do I find GIFs?
 
-Twitter is my primary source. I don't follow a lot of people on Twitter since I don't want to spend much time on social media,^[I use a Chrome extension named "StayFocusd" and limit my Twitter reading time to be 10 mins every day.] and I follow two accounts [@AmazingGlFS](https://twitter.com/AmazingGlFS) and [@ThingsWork](https://twitter.com/ThingsWork). Of course, many people often tweet with GIFs every day, and I will collect a few funny ones occasionally.
+Twitter is my primary source. I don't follow a lot of people on Twitter since I don't want to spend much time on social media,[^1] and I follow two accounts [@AmazingGlFS](https://twitter.com/AmazingGlFS) and [@ThingsWork](https://twitter.com/ThingsWork). Of course, many people often tweet with GIFs every day, and I will collect a few funny ones occasionally.
 
 I used to collect GIFs from WeChat, too, but recently I found WeChat disabled downloading images from the articles published there. I was disappointed but that is okay. I don't collect GIFs frequently anyway.
 
-When I see a funny GIF on Twitter, I copy the URL of the tweet and paste to [ezgif.com](https://ezgif.com/optimize) to convert the MP4 video^[Twitter used to let us post GIFs directly but last year it started to convert GIF to MP4 for technical reasons.] to GIF and optimize it a little bit.
+When I see a funny GIF on Twitter, I copy the URL of the tweet and paste to [ezgif.com](https://ezgif.com/optimize) to convert the MP4 video[^2] to GIF and optimize it a little bit.
 
 [Giphy](https://giphy.com) has tons of GIFs but I rarely actively look for GIFs there. I often save a GIF from a context, such as in a Tweet. The context will give me more inspiration.
 
 ## How do I manage GIFs?
 
-I don't have a clever method to manage my GIFs. I simply store them in a Dropbox folder. All my slides, which you can find in my [CV](/en/vitae), are hosted in Dropbox via [Updog](https://updog.co)^[Updog used to be cheap. When I became a Pro member, it only cost my $5 in total for lifetime membership. Now it is a little bit expensive. GIFs are static files, so you have many other choices to host them, although maybe not as convenient as Updog. Or you can use the free plan of Updog only to serve your GIFs but not HTML slides.] and I have assigned a subdomain slides.yihui.org to serve these (HTML) slides as well as the GIFs. For example, https://slides.yihui.org/gif/goose-smile.gif actually points to a GIF file in my Dropbox folder.
+I don't have a clever method to manage my GIFs. I simply store them in a Dropbox folder. All my slides, which you can find in my [CV](/en/vitae), are hosted in Dropbox via [Updog](https://updog.co)[^3] and I have assigned a subdomain slides.yihui.org to serve these (HTML) slides as well as the GIFs. For example, https://slides.yihui.org/gif/goose-smile.gif actually points to a GIF file in my Dropbox folder.
 
 I don't have a huge amount of GIFs in this folder (less than 100), so I don't need a clever method for indexing or searching. I can remember most of them in my mind. The filenames are typically very short, like [happy-elmo.gif](https://slides.yihui.org/gif/happy-elmo.gif) and [mad-panda.gif](https://slides.yihui.org/gif/mad-panda.gif).
 
@@ -42,7 +42,7 @@ Even though I'm fairly familiar with the GIFs I collected, sometimes I could be 
 
 ## Can you share the full collection of your GIFs?
 
-No.^[On one hand, I don't own these GIFs and I didn't create them. On the other, I want you to think more carefully when deciding whether you want to download a GIF. You won't value them if you are suddenly given 100 GIFs that I carefully collected over the years.]
+No.[^4]
 
 ## Amusing ourselves to death
 
@@ -53,3 +53,11 @@ Recently my bed reading time has been spent on the book "[Amusing Ourselves to D
 I have been trying to amuse the audience but I certainly do not want to amuse you to death (good intention [does not necessarily](https://slides.yihui.org/gif/save-him.gif) lead to good results). I hope you can laugh and remember, instead of laughing then forgetting (like what was described as the effect of TV in the book).
 
 GIF is an effective way to get people's attention, but I guess we will need some time to think and check [what is actually left](https://slides.yihui.org/gif/you-get-nothing.gif) after the laughter. I'll truly appreciate it if you have ever attended any of my talks, but want to leave me some negative comments on my presentation style.
+
+[^1]: I use a Chrome extension named "StayFocusd" and limit my Twitter reading time to be 10 mins every day.
+
+[^2]: Twitter used to let us post GIFs directly but last year it started to convert GIF to MP4 for technical reasons.
+
+[^3]: Updog used to be cheap. When I became a Pro member, it only cost my $5 in total for lifetime membership. Now it is a little bit expensive. GIFs are static files, so you have many other choices to host them, although maybe not as convenient as Updog. Or you can use the free plan of Updog only to serve your GIFs but not HTML slides.
+
+[^4]: On one hand, I don't own these GIFs and I didn't create them. On the other, I want you to think more carefully when deciding whether you want to download a GIF. You won't value them if you are suddenly given 100 GIFs that I carefully collected over the years.
