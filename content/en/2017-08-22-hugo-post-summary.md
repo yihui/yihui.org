@@ -45,4 +45,4 @@ I happily came up with this approach when I was designing the [Hugo XMag](https:
 
 [^1]: I broke the 4th line into several shorter lines for readability. You should not actually break this line in Hugo.
 
-[^2]: Why `$.Scratch`? Because you cannot do things like `{{ if cond }}{{ foo := 1 }}{{ else }}{{ foo := 2 }}{{ end }}` in Hugo due to variable scoping issues.
+[^2]: Why [`$.Scratch`](https://gohugo.io/functions/scratch/)? Because you cannot do things like `{{ if cond }}{{ foo := 1 }}{{ else }}{{ foo := 2 }}{{ end }}` in Hugo due to variable scoping issues.
