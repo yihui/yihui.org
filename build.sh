@@ -11,7 +11,7 @@ fi
 cd ..
 # Netlify uses $CONTEXT and Vercel uses $VERCEL_ENV
 if [ "${VERCEL_ENV:-$CONTEXT}" = "production" ]; then
-  hugo -F
+  hugo -F --enableGitInfo
 else
-  hugo -F -D -b ${VERCEL_URL:-$DEPLOY_PRIME_URL}
+  hugo -F -D -b ${VERCEL_URL:-$DEPLOY_PRIME_URL} --enableGitInfo
 fi
