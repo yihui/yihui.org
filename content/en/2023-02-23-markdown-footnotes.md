@@ -51,7 +51,7 @@ for (f in files) {
 
 Basically, it reads a `.md` (or `.Rmd`) file, detects all footnotes of the form
 `^[text]` in the text, replaces them with `[^n]` (where `n` is the footnote
-number), append new footnotes `[^n]: text` to the text, and write out to the
+number), appends new footnotes `[^n]: text` to the text, and writes out to the
 original file. Since my files are under version control, I can manually inspect
 the GIT changes to confirm the script did what I expected.
 
