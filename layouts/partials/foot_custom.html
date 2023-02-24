@@ -7,7 +7,9 @@
 
 {{ partial "comments.html" . }}
 
+{{ if not .IsHome }}
 {{ partial "custom_js.html" (apply .Site.Params.customJS "print" "utils/" ".") }}
+{{ end }}
 {{ partial "custom_js.html" .Params.customJS }}
 
 {{ if and (not .Params.disable_mathjax) (or (in (string .Content) "\\") (in (string .Content) "$")) }}
