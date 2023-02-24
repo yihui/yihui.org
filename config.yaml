@@ -6,7 +6,6 @@ ignoreFiles: ["\\.Rmd$", "\\.Rmarkdown$", "_cache$"]
 hasCJKLanguage: true
 enableEmoji: true
 footnotereturnlinkcontents: "↩"
-rssLimit: 5
 
 permalinks:
   cn: "/:sections/:year/:month/:slug/"
