@@ -13,6 +13,7 @@ fi
 if [ "$VERCEL" = "1" ]; then
   rm -rf *
   git clone --recursive -b $VERCEL_GIT_COMMIT_REF https://github.com/$VERCEL_GIT_REPO_OWNER/$VERCEL_GIT_REPO_SLUG.git .
+  git config advice.detachedHead false
   git checkout $VERCEL_GIT_COMMIT_SHA
 fi
 
