@@ -2,12 +2,12 @@
 {{ $section := default .Section ($.Scratch.Get "section") }}
 <li class="menu-extra"></li>
 {{ with .Site.Params.githubContentURL }}
-{{ $.Scratch.Set "filePath" $.File.Path }}
+{{ $filePath := $.File.Path }}
 {{ if $.Params.from_Rmd }}
-{{ $.Scratch.Set "filePath" (replaceRE "[.]md$" ".Rmd" $.File.Path) }}
-{{ $.Scratch.Set "filePath" (replace ($.Scratch.Get "filePath") "\\" "/") }}
+{{ $filePath = (replaceRE "[.]md$" ".Rmd" $.File.Path) }}
+{{ $filePath = (replace $filePath "\\" "/") }}
 {{ end }}
-<li><a href="{{ or $.Params.githubEditURL  (print .  ($.Scratch.Get "filePath")) }}" target="_blank">{{ default "Edit this page" (index $.Site.Params.lang.edit $section) }}</a></li>
+<li><a href="{{ or $.Params.githubEditURL  (print .  $filePath) }}" target="_blank">{{ default "Edit this page" (index $.Site.Params.lang.edit $section) }}</a></li>
 {{ end }}
 {{ with .Section }}
 <li><a href="/{{ . }}/index.xml" type="application/rss+xml" title="RSS feed">{{ default "Subscribe" (index $.Site.Params.lang.subscribe $section) }}</a></li>
