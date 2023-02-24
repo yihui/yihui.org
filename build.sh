@@ -1,4 +1,5 @@
 #!/bin/sh
+shopt -s dotglob
 
 # do not index the site on Netlify (only index the one built on Vercel)
 if [ "$NETLIFY" = "true" ]; then
@@ -10,7 +11,7 @@ fi
 
 # Vercel only does a shallow clone, which loses git info
 if [ "$VERCEL" = "1" ]; then
-  rm -rf .* *
+  rm -rf *
   git clone --recursive -b $VERCEL_GIT_COMMIT_REF https://github.com/$VERCEL_GIT_REPO_OWNER/$VERCEL_GIT_REPO_SLUG.git .
   git checkout $VERCEL_GIT_COMMIT_SHA
 fi
