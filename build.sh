@@ -1,14 +1,20 @@
 #!/bin/sh
 
-cd static
-
 # do not index the site on Netlify (only index the one built on Vercel)
 if [ "$NETLIFY" = "true" ]; then
+  cd static
   echo 'User-agent: *
 Disallow: /' > robots.txt
+  cd ..
 fi
 
-cd ..
+# Vercel only does a shallow clone, which loses git info
+if [ "$VERCEL" = "1" ]; then
+  rm -rf .* *
+  git clone --recursive -b $VERCEL_GIT_COMMIT_REF https://github.com/$VERCEL_GIT_REPO_OWNER/$VERCEL_GIT_REPO_SLUG.git .
+  git checkout $VERCEL_GIT_COMMIT_SHA
+fi
+
 # Netlify uses $CONTEXT and Vercel uses $VERCEL_ENV
 if [ "${VERCEL_ENV:-$CONTEXT}" = "production" ]; then
   hugo -F --enableGitInfo
