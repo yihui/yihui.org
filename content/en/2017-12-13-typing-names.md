@@ -9,7 +9,7 @@ Everyone knows that naming is hard (the other hard thing is cache invalidation).
 
 I have had difficulties with typing a few software package names, and the two most impressive ones are "TeX Live" and "ReporteRs".
 
-For TeX Live, I really wished there were not a space between "TeX" and "Live", i.e., "TeXLive" instead of "TeX Live". The three uppercase letters, T, X, and L, are enough trouble. With an extra space, what you have to do is: press `Shift + t`, release `Shift`, press `e`, press `Shift + t`, release `Shift`, hit the `Space` bar, press `Shift + l`, then finish up `ive`. You see that you hold and release the `Shift` key several times. Without the space, you can type `XL` without releasing `Shift`, which makes it a little easier to type.
+For TeX Live, I really wished there were not a space between "TeX" and "Live", i.e., "TeXLive" instead of "TeX Live". The three uppercase letters, T, X, and L, are enough trouble. With an extra space, what you have to do is: press `Shift + t`, release `Shift`, press <kbd>e</kbd>, press `Shift + t`, release `Shift`, hit the `Space` bar, press `Shift + l`, then finish up <kbd>ive</kbd>. You see that you hold and release the `Shift` key several times. Without the space, you can type <kbd>XL</kbd> without releasing `Shift`, which makes it a little easier to type.
 
 Same thing for "ReporteRs". Oh my, the second `R`... It kills me every time. What makes it worse is that there is a lowercase `s` after `R`, so you have to _very quickly_ release `Shift` before typing `s`. I'm so glad that David named the next generation of ReporteRs as "[officer](https://cran.r-project.org/package=officer)".
 
