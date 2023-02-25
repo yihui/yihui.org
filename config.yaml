@@ -193,10 +193,6 @@ params:
     subscribe:
       cn: "订阅"
 
-blackfriday:
-    extensionsmask: ["noIntraEmphasis"]
-    fractions: false
-
 markup:
   highlight:
     codeFences: false
