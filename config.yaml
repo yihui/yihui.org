@@ -145,6 +145,7 @@ params:
     - "center-img.js"
     - "right-quote.js"
     - "no-highlight.js"
+    - "fix-footnote.js"
     - "math-code.js"
     - "hash-notes.js"
     - "toggle-notes.js"
