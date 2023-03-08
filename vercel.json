@@ -27,7 +27,7 @@
     },
     {
       "source": "/xran/(.*)",
-      "destination": "https://xran.yihui.org/$1"
+      "destination": "https://yihui.r-universe.dev/$1"
     },
     {
       "source": "/tinytex/.tlmgr",
