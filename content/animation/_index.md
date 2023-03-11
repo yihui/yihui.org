@@ -6,7 +6,7 @@ date: 2017-02-04
 
 This is an R package to create and export animations to a variety of formats
 (HTML/JS, GIF, Video, PDF), and it also serves as a gallery of animations
-related to statistics and computing. A detailed introduction can be found in the
+related to statistics and computing. A detailed introduction can be found in
 this paper:[^1]
 
 [^1]: Please note that it was written in 2011, and some functions may have been
