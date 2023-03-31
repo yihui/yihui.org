@@ -239,8 +239,10 @@ comments (or email me).
     message---originally when the chunk delimiters are not balanced, users will
     run into an obscure error:
 
-        Error in parse(text = x, srcfile = src) : 
-          attempt to use zero-length variable name
+    ```         
+    Error in parse(text = x, srcfile = src) : 
+      attempt to use zero-length variable name
+    ```
 
     I bet no one understands this error. Later I made the error message much
     clearer, telling users exactly which lines in the R Markdown document
