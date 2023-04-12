@@ -3,7 +3,7 @@ title: How to Pretend Typing Super Fast in RStudio
 subtitle: A blog post written during my presentation at rstudio::conf 2018
 date: '2018-02-02'
 slug: typing-fast
-disable_mathjax: true
+disable_math: true
 ---
 
 Right now I'm giving a talk at the RStudio Conference in San Diego. In my talk, I told the audience that I was going to write a blog post at the podium during my presentation. I only had 20 minutes in total for my presentation. Apparently it was impossible to type out a nontrivial post. But I want to show them my workflow of writing and publishing blog posts, so I cheated using the **rstudioapi** package to automatically "type" the post in RStudio for me.

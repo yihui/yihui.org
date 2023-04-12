@@ -12,6 +12,6 @@
 {{ end }}
 {{ partial "custom_js.html" .Params.customJS }}
 
-{{ if and (not .Params.disable_mathjax) (or (in (string .Content) "\\") (in (string .Content) "$")) }}
+{{ if and (not .Params.disable_math) (or (in (string .Content) "\\") (in (string .Content) "$")) }}
 <script async src="//mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML"></script>
 {{ end }}
