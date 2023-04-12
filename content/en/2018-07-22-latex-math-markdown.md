@@ -68,13 +68,15 @@ c & d
 Output (you can see the output on this page because I used the JavaScript code above):
 
 > Hi `$z = x + y$`.
-
+>
 > `$$a^2 + b^2 = c^2$$`
-
+>
 > `$$\begin{vmatrix}a & b\\
 c & d
 \end{vmatrix}=ad-bc$$`
 
 This is the best solution I could come up with to support LaTeX math expressions in Markdown if the Markdown renderer does not have native support for them like Pandoc.[^1] If you are able to use Pandoc, I still suggest that you use Pandoc instead of my hack, because it is targeted only at HTML output.
+
+Note that this trick also works for KaTeX.
 
 [^1]: I used this trick in the **xaringan** package to support LaTeX math, because the Markdown renderer **remark.js** does not support LaTeX math.

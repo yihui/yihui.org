@@ -8,9 +8,9 @@ Just because Markdown is so simple (well, "[simple](/en/2018/11/hard-markdown/)"
 
 If you are interested in the JavaScript source code, you may find all scripts in the Github repo [yihui/misc.js](https://github.com/yihui/misc.js).
 
-## How to work with MathJax
+## How to work with LaTeX math expressions
 
-The MathJax support in most Markdown flavors is missing. The only exception is Pandoc's Markdown. If you use R Markdown (which is based on Pandoc), you can ignore this trick. I have explained my trick of making MathJax work with any flavors of Markdown in detail [in a previous post](/en/2018/07/latex-math-markdown/). The relevant JS code is in [math-code.js](https://github.com/yihui/misc.js/blob/main/js/math-code.js) on my website. This is the most complicated trick in this post, although it is only 20 lines of code.
+The math support in most Markdown flavors is missing. The only exception is Pandoc's Markdown. If you use R Markdown (which is based on Pandoc), you can ignore this trick. I have explained my trick of making MathJax and KaTeX work with any flavors of Markdown in detail [in a previous post](/en/2018/07/latex-math-markdown/). The relevant JS code is in [math-code.js](https://github.com/yihui/misc.js/blob/main/js/math-code.js) on my website. This is the most complicated trick in this post, although it is only 20 lines of code.
 
 ## How to make links open in new tabs (i.e., `target="_blank"`)
 
