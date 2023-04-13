@@ -144,7 +144,6 @@ params:
     - "fix-toc.js"
     - "center-img.js"
     - "right-quote.js"
-    - "no-highlight.js"
     - "fix-footnote.js"
     - "math-code.js"
     - "hash-notes.js"
@@ -158,11 +157,6 @@ params:
     - "key-buttons.css"
   githubContentURL: "https://github.com/yihui/yihui.org/edit/master/content/"
   twitterImage: "/images/logo.png"
-
-  # options for highlight.js (version, additional languages, and theme)
-  highlightjsVersion: "11.7.0"
-  highlightjsLang: ["latex"]
-  highlightjsTheme: "xcode"
 
   logo:
     en:

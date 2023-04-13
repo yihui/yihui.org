@@ -1,0 +1,5 @@
+{{ if and (not .Params.disable_highlight) (in (string .Content) "</pre>") }}
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/rstudio/markdown/inst/resources/prism-xcode.css">
+<script src="https://cdn.jsdelivr.net/npm/prismjs/components/prism-core.min.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/prismjs/plugins/autoloader/prism-autoloader.min.js" defer></script>
+{{ end }}
