@@ -11,9 +11,9 @@ You can find me on [GitHub](https://github.com/yihui) (where I'm active almost e
 
 I don't prefer people asking me questions about open-source packages by private emails. It is not practical for me to answer all of them (not even for the packages that I maintain). Emails often make me feel stressful in recent years, and I'm close to the point of [email bankruptcy](https://en.wikipedia.org/wiki/Email_bankruptcy) from time to time. I've reached "Inbox Zero" only once in my life. Usually I have about 100 emails in my inbox to which I haven't been able to reply.
 
-Please don't get me wrong---I do like questions, but I prefer seeing questions about open-source packages (like R) posted on Stack Overflow or RStudio Community, instead of in my inbox. Please feel free to email me the link to your question if nobody has answered you after a few days. Knowledge should be open to the public whenever possible, and I'd like to use emails only for _private_ conversations (more explanations in [this post](/en/2017/08/so-gh-email/)).
+Please don't get me wrong---I do like questions, but I prefer seeing questions about open-source packages (like R) posted on [Stack Overflow](https://stackoverflow.com) or [Posit Community](https://community.rstudio.com), instead of in my inbox. For any reason, if you have to ask me directly, please post to my public [Github Discussions](https://github.com/yihui/yihui.org/discussions) (you can ask me anything there if it doesn't involve privacy). Please feel free to email me the link to your public question if nobody has answered it after a few days. Knowledge should be open to the public whenever possible, and I'd like to use emails only for _private_ conversations (more explanations in [this post](/en/2017/08/so-gh-email/)).
 
-In short, I wish I could help you, but practically I cannot do it privately. I will truly appreciate it if you could use public resources before trying private emails or messages. You may also consider posting to my public [Github Discussions](https://github.com/yihui/yihui.org/discussions) (you can ask me anything there if it doesn't involve privacy).
+In short, I wish I could help you, but practically I cannot do it privately. I will truly appreciate it if you could use public resources before trying private emails or messages.
 
 ## About this site
 
