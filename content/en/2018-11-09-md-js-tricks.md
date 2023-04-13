@@ -96,7 +96,7 @@ My trick, [right-quote.js](https://github.com/yihui/misc.js/blob/main/js/right-q
 ```md
 > UNIX was not designed to stop its users from doing stupid things,
 > as that would also stop them from doing clever things.
-
+>
 > --- Doug Gwyn
 ```
 
@@ -104,7 +104,7 @@ Output:
 
 > UNIX was not designed to stop its users from doing stupid things,
 > as that would also stop them from doing clever things.
-
+>
 > --- Doug Gwyn
 
 I'm not a JavaScript expert. My code above may be naive and inefficient. I have found JavaScript a lot of fun to play with, even only with selectors like `document.getElementsByTagName()` or `document.querySelectorAll()` and simple for-loops. I used to think I couldn't live without fancy libraries like jQuery, but later realized vanilla JavaScript could actually do a lot of things. I hope these tricks could be useful to web amateurs like me.

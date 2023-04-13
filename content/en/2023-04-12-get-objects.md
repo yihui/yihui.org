@@ -72,7 +72,7 @@ knitr::kable(mtcars_list)
 ```
 
 That's much more elegant and simpler than first creating several global objects
-(which can pollutes the global environment), then retrieving them via `get()`
+(which can pollute the global environment), then retrieving them via `get()`
 (which can bite you if you are not careful enough about its `envir`, `mode`, and
 `inherits` arguments), and finally printing them one by one.
 
