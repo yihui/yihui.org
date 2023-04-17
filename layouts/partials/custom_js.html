@@ -4,6 +4,6 @@
 <script src="{{ (replaceRE "^.*/" "hardlink/js/" .) | relURL }}" type="module"></script>
 {{ end }}
 {{ else }}
-<script async src="https://cdn.jsdelivr.net/combine/{{ delimit (apply . "replaceRE" "^([^/]+)/(.+)\\.js$" "npm/@xiee/$1/js/$2.min.js" ".") "," }}"></script>
+<script src="https://cdn.jsdelivr.net/combine/{{ delimit (apply . "replaceRE" "^([^/]+)/(.+)\\.js$" "npm/@xiee/$1/js/$2.min.js" ".") "," }}" defer></script>
 {{ end }}
 {{ end }}
