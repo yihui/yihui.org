@@ -80,6 +80,7 @@ P.S. A list of issues solved simply by updating packages:
 - [Error when visualizing](https://github.com/radiant-rstats/radiant/issues/193)
 - [markdownExtensions problem when trying to run a tutorial](https://github.com/rstudio/markdown/issues/98)
 - [Error in xfun::normalize_path when knit RMarkdown to HTML](https://github.com/yihui/xfun/issues/79)
+- [DT::formatRound(-1) throws error with only one column and rownames=F](https://github.com/rstudio/DT/issues/1056)
 
 [^1]: I guess the vast majority of R users always install and use a single version of R.
 
