@@ -38,12 +38,15 @@ menu:
     - name: "Vitae"
       url: "/en/vitae/"
       weight: 4
+    - name: "Ask me"
+      url: "https://github.com/yihui/yihui.org/discussions"
+      weight: 5
     - name: "Todo"
       url: "/todo/"
-      weight: 5
+      weight: 6
     - name: "中文"
       url: "/cn/"
-      weight: 6
+      weight: 7
   cn:
     - name: "首页"
       url: "/"
@@ -57,18 +60,21 @@ menu:
     - name: "简历"
       url: "/cn/vitae/"
       weight: 4
+    - name: "提问"
+      url: "https://github.com/yihui/yihui.org/discussions"
+      weight: 5
     - name: "菜谱"
       url: "/cn/recipe/"
-      weight: 5
+      weight: 6
     - name: "孩童"
       url: "/cn/kids/"
-      weight: 6
+      weight: 7
     - name: "事务"
       url: "/todo/"
-      weight: 7
+      weight: 8
     - name: "English"
       url: "/en/"
-      weight: 8
+      weight: 9
   knitr:
     - name: "Home"
       url: "/knitr/"
