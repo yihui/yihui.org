@@ -879,6 +879,9 @@ that affect the behavior of **knitr**:
     }
     ```
 
+-   `knitr.progress.linenums`: (`FALSE`; logical) Whether to show line numbers
+    in the progress bar. By default, only chunk labels are shown.
+
 -   `knitr.progress.output`: (`""`; character or connection) For the default
     text progress bar in **knitr**, this option can be used to specify the
     output target of the progress bar. By default, the progress is written to
