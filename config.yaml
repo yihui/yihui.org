@@ -1,5 +1,5 @@
 baseurl: "https://yihui.org/"
-languageCode: "en-us"
+languageCode: "en-US"
 title: "Yihui Xie | 谢益辉"
 theme: "hugo-ivy"
 ignoreFiles: ["\\.Rmd$", "\\.Rmarkdown$", "_cache$"]
