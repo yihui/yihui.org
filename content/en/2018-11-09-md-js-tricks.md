@@ -21,15 +21,10 @@ Most Markdown renderers translate `[text](url)` to `<a href="url">text</a>`, whi
 When a page has mutiple sections, it can be very helpful to generate an anchor link for each section heading, because we can send other people the links to specific sections. Basically, we just need to add an `<a>` tag inside a heading with the attribute `href` pointing to the ID of the heading:
 
 ```js
-(function() {
-  var h, hs = document.querySelectorAll('h1, h2, h3');
-  for (var i = 0; i < hs.length; i++) {
-    h = hs[i];
-    if (h.id === '') continue;
-    h.innerHTML += ' <span class="anchor"><a href="#' + h.id +
-      '">#</a></span>';
-  }
-})();
+document.querySelectorAll('h1, h2, h3').forEach(h => {
+  if (h.id) h.innerHTML +=
+    ` <span class="anchor"><a href="#${h.id}">#</a></span>`;
+});
 ```
 
 You can hide the anchor links by default, and show them only when the mouse is over a heading:
@@ -52,13 +47,9 @@ Since this attribute is invisible to users with the normal vision, it actually a
 My trick is to add the `title` attribute to `<img>` (if not already specified), whose value is identical to the `alt` text. The `title` attribute will give you a tooltip, which you can read as you mouseover the image. XKCD is a typical example. The code [alt-title.js](https://github.com/yihui/misc.js/blob/main/js/alt-title.js) is simple enough:
 
 ```js
-(function() {
-  var img, imgs = document.getElementsByTagName('img');
-  for (var i = 0; i < imgs.length; i++) {
-    img = imgs[i];
-    if (!img.title) img.title = img.alt;
-  }
-})();
+[...document.getElementsByTagName('img')].forEach(el => {
+  if (!el.title) el.title = el.alt;
+});
 ```
 
 An example:
