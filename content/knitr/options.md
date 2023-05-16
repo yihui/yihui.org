@@ -836,6 +836,9 @@ that affect the behavior of **knitr**:
     filename extension when including a plot file path in `\includegraphics{}`
     for LaTeX output.
 
+-   `knitr.progress.simple`: (`NULL`; logical) Whether to show the (text) bar in
+    the progress output.
+
 -   `knitr.progress.fun`: (`knitr:::txt_pb`; function) A function of the form
     `function(total, labels) {}`. This function should take arguments `total`
     (the total number of chunks) and `labels` (the vector of chunk labels),
