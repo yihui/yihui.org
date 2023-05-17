@@ -19,7 +19,7 @@ style `<kbd>` as buttons. You can import the JS and CSS with:
 
 ``` html
 <script src="https://cdn.jsdelivr.net/npm/@xiee/utils/js/key-buttons.min.js" defer></script>
-<link href="https://cdn.jsdelivr.net/npm/@xiee/utils/css/key-buttons.min.css" rel="stylesheet"></link>
+<link href="https://cdn.jsdelivr.net/npm/@xiee/utils/css/key-buttons.min.css" rel="stylesheet">
 ```
 
 ## Demos
