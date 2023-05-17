@@ -316,7 +316,7 @@ Email：xie@yihui.org；主页：<https://yihui.org>；现居住于美国内布�
 
 ### 网络文章
 
-统计之都文章参见[这里](https://cosx.org/author/yihui/)。
+统计之都文章参见[这里](https://cosx.org/members#yihui)。
 
 ## 软件包
 
