@@ -157,7 +157,7 @@ params:
     - "post-nav.js"
     - "external-link.js"
     - "alt-title.js"
-    - "header-link.js"
+    - "heading-anchor.js"
     - "key-buttons.js"
   customCSS:
     - "key-buttons.css"
