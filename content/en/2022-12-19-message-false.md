@@ -35,8 +35,8 @@ suppressPackageStartupMessages(library(dplyr))
 ````
 
 I'm not sure if there are any users who actually prefer the old behavior. If you
-do want messages in the console, please let me know, and I can definitely
-provide an option to do that.
+do want messages in the console, please set the chunk option `message = NA`
+(similarly, `warning = NA` for warnings).
 
 P.S. One motivation behind this change was to make **knitr**'s text progress bar
 cleaner. With the [next version of **knitr**](/en/2023/01/knitr-progress-bar/),
