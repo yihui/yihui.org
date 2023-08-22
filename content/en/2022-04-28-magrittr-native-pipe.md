@@ -22,8 +22,8 @@ will see `%>%`'s are converted to `|>`:
   const pre = document.currentScript.previousElementSibling;
   if (pre.tagName === 'PRE') setInterval(function() {
     const el = pre.firstElementChild;
-    const f = / %>%\n/.test(el.innerText);
-    el.innerText = el.innerText.replace(f ? / %>%\n/g : / \|>\n/g, f ? ' |>\n' : ' %>%\n');
+    const f = />%&gt;%</.test(el.innerHTML);
+    el.innerHTML = el.innerHTML.replace(f ? />%&gt;%</g : />\|&gt;</g, f ? '>|&gt;<' : '>%&gt;%<');
   }, 2000);
 })();
 </script>
@@ -53,16 +53,18 @@ hood](https://github.com/yihui/formatR/blob/942bff28/R/tidy.R#L293-L311):
 
 1.  Use `getParseData(parse(text = code))` to get the data about the code.
 
-        > formatR:::parse_data(
-            "'%>%' %>% c('->', '|>') %>% paste(collapse = ' ')"
-          )
+    ```         
+    > formatR:::parse_data(
+        "'%>%' %>% c('->', '|>') %>% paste(collapse = ' ')"
+      )
 
-           line1 col1 line2 col2 id                 token      text
-        1      1    1     1    5  1             STR_CONST     '%>%'
-        2      1    7     1    9  2               SPECIAL       %>%
-        4      1   11     1   11  4  SYMBOL_FUNCTION_CALL         c
-        5      1   12     1   12  5                   '('         (
-        ....
+       line1 col1 line2 col2 id                 token      text
+    1      1    1     1    5  1             STR_CONST     '%>%'
+    2      1    7     1    9  2               SPECIAL       %>%
+    4      1   11     1   11  4  SYMBOL_FUNCTION_CALL         c
+    5      1   12     1   12  5                   '('         (
+    ....
+    ```
 
 2.  Find the symbols `%>%` in the data, and their row/column indices.
 
