@@ -5,7 +5,7 @@ disable_math: true
 disable_highlight: true
 ---
 
-I'm a software engineer [working](/todo/) at [Posit, PBC](https://posit.co).
+I'm a software engineer working at [Posit, PBC](https://posit.co).
 I earned my PhD from the Department of Statistics, Iowa State University. My
 [thesis](https://lib.dr.iastate.edu/etd/13518/) was _Dynamic
 [Graphics](https://github.com/ggobi/cranvas) and [Reporting](/knitr/) for Statistics_, advised
