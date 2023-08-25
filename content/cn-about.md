@@ -83,8 +83,9 @@ slug: "cn/about"
 - [廖永賦](https://yongfu.name)：对 R Markdown 的介绍写得比我还好
 - [刘思喆](http://www.bjt.name)：人大，useR，数据挖掘
 - [逄金吉](https://jinjipang.com)：艺术就是爆炸
-- [邱怡轩](http://yixuan.cos.name/)：人大，useR，GNU，统计，过细之人
+- [邱怡轩](https://yixuan.blog)：人大，useR，GNU，统计，过细之人
 - [谭显英](https://shrektan.com)：useR，金融，靠谱厮
+- [唐洁](https://tang-jay.github.io)：零基础四天建站，奋进的新老师
 - [肖楠](https://nanx.me)：中南大学，useR，技术控
 - [徐依含](https://yihanxu.github.io)：能言善辩，爱追问，爱读书
 - [颜林林](https://yanlinlin.cn)：老站长，程序员，useR，GNU，生物
