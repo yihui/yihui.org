@@ -119,11 +119,11 @@
     },
     {
       "source": "/cv/images/stat_in_med_yihui.pdf",
-      "destination": "https://github.com/downloads/yihui/yihui.github.com/Medicine-2007-Yihui-Xie.pdf"
+      "destination": "https://db.yihui.org/docs/Medicine-2007-Yihui-Xie.pdf"
     },
     {
       "source": "/cv/images/Visualization_R_Paper_Yihui.pdf",
-      "destination": "https://github.com/downloads/yihui/yihui.github.com/R-visualization-paper-2007-Yihui-Xie.pdf"
+      "destination": "https://db.yihui.org/docs/R-visualization-paper-2007-Yihui-Xie.pdf"
     }
   ]
 }

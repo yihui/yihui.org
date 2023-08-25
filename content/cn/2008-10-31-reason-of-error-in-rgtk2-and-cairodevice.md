@@ -14,11 +14,8 @@ slug: reason-of-error-in-rgtk2-and-cairodevice
 
 以下两图是对[前面提到过的CANDLE数据](/cn/2008/10/birthday-present-to-felix-andrews/)的playwith展示：
 
-
 ![](https://db.yihui.org/imgur/8I7Jh.png)
 
 ![](https://db.yihui.org/imgur/NnGgZ.png)
-
-[数据下载链接](https://github.com/downloads/yihui/yihui.github.com/felix-candle.dat.bz2)
 
 以上数据来自手工鼠标点击记录的坐标以及若干随机数。

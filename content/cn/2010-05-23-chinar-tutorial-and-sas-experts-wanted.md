@@ -6,7 +6,7 @@ slug: chinar-tutorial-and-sas-experts-wanted
 
 先说培训。若一切顺利，我们将在6月14日进行第三届中国R语言会议的会前培训，暂定由刘思喆和我来讲。本次培训计划上下午各3小时，培训费用=R的费用（即：free as in beer）。我的计划如下：
 
-下载：[幻灯片《现代统计图形》](https://github.com/downloads/yihui/yihui.github.com/ChinaR-MSG-2010-Yihui-Xie.pdf)
+下载：[幻灯片《现代统计图形》](https://db.yihui.org/docs/ChinaR-MSG-2010-Yihui-Xie.pdf)
 
 培训时间：2010年6月14日下午2:00至5:00
 

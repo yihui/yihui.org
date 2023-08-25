@@ -4,7 +4,7 @@ date: '2011-12-01'
 slug: knitr-elegant-flexible-and-fast-dynamic-report-generation-with-r
 ---
 
-The world has changed. You can feel it on [GitHub](https://github.com/yihui/knitr). You can smell it on Google+. The **knitr** package, inspired by Sweave, has features that you have been longing for, and features that you might have never imagined. Thumb through [the PDF manual](https://github.com/downloads/yihui/knitr/knitr-manual.pdf) to see some of them.
+The world has changed. You can feel it on [GitHub](https://github.com/yihui/knitr). You can smell it on Google+. The **knitr** package, inspired by Sweave, has features that you have been longing for, and features that you might have never imagined. Thumb through [the PDF manual](https://github.com/yihui/knitr/releases/download/doc/knitr-manual.pdf) to see some of them.
 
 Currently this package is still a beta version, so I'm looking for feedback from early birds on:
 
