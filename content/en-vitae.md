@@ -14,7 +14,7 @@ Address: 560 S 183rd Ave, Elkhorn, NE 68022
 -->
 </p>
 
-Email: xie@yihui.org; Homepage: <https://yihui.org>; Twitter [@xieyihui](https://twitter.com/xieyihui).
+Email: xie@yihui.org; Homepage: <https://yihui.org>; Mastodon [@yihui@mastodon.social](https://mastodon.social/@yihui); Twitter [@xieyihui](https://twitter.com/xieyihui).
 
 ## Brief Biography
 
