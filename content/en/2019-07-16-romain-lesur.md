@@ -15,15 +15,15 @@ Anyway, I happened to be thinking of something similar around that time, because
 One week later, I emailed Romain:
 
 > On Thu, Sep 13, 2018 at 8:34 AM Yihui Xie \<???@gmail.com> wrote:
-
+>
 > > Hi Romain,
-
+> >
 > > I have been looking at [your **weasydoc** package](https://github.com/RLesur/weasydoc) and thanks again for bringing Paged.js to my attention. I have been very excited, and am still learning more about it. I have to say you opened a new door through which I feel I'll be able to fulfill [one of my life dreams](/en/2018/07/in-html-i-trust/).
-
+> >
 > > I'm going to devote some serious time in this, and I hope we can collaborate on it (unless you have finished all the work :).
-
+> >
 > > Regards,  
-Yihui
+> > Yihui
 
 ## What made Romain a great collaborator of mine
 
