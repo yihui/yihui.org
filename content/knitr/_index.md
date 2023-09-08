@@ -145,6 +145,7 @@ from many early beta testers. This package was initiated based on the design of
 ## FOAS
 
 <img src="https://db.yihui.org/imgur/XmT6L3F.png" style="float:right;margin-left:1em" width=150 />
+
 **knitr** is proudly affiliated with the [Foundation for Open Access
 Statistics](http://www.foastat.org/) (FOAS). FOAS is a nonprofit public benefit
 corporation with a worldwide mission to promote free software, open access
