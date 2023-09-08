@@ -57,6 +57,9 @@ blockquote {
 ol, ul {
   padding: 0 0 0 20px;
 }
+code[class="fullwidth"] {
+  background: none;
+}
 .comments {
   margin-top: 1em;
 }
