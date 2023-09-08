@@ -77,10 +77,6 @@ ol, ul {
 .hash-note a { color: inherit; }
 span.hash-note::before { content: "　# "; }
 .hide-notes .hash-note, .unlist { display: none !important; }
-.toggle-notes {
-  border-top: 4px double #999;
-  margin-bottom: 47px;
-}
 
 @media print {
   del, footer, .nav-top {
