@@ -1,5 +1,6 @@
 {{ if not .IsHome }}
 {{ $section := default .Section ($.Scratch.Get "section") }}
+{{ if .File }}
 {{ with .Site.Params.githubContentURL }}
 {{ $filePath := $.File.Path }}
 {{ if $.Params.from_Rmd }}
@@ -7,6 +8,7 @@
 {{ $filePath = (replace $filePath "\\" "/") }}
 {{ end }}
 <a href="{{ or $.Params.githubEditURL  (print .  $filePath) }}" target="_blank">{{ default "Edit this page" (index $.Site.Params.lang.edit $section) }}</a>
+{{ end }}
 {{ end }}
 {{ with .Section }}
 <a href="/{{ . }}/index.xml" type="application/rss+xml" title="RSS feed">{{ default "Subscribe" (index $.Site.Params.lang.subscribe $section) }}</a>
