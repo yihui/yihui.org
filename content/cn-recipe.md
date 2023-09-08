@@ -13,6 +13,9 @@ h2 {
   padding-top: 1em;
   margin: 1.5em 0 1em;
 }
+.single .main h2 {
+  border-bottom: none;
+}
 #TableOfContents ~ h1 {
   background: #f8f8f8;
   margin: 2em 0 1em;

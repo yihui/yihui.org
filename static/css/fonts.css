@@ -10,3 +10,6 @@ code {
 pre, code {
   font-size: .95em;
 }
+.cn em, .cn .title {
+  font-style: normal;
+}

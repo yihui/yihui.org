@@ -1,0 +1,4 @@
+{{ if not .IsHome }}
+{{ partial "custom_js.html" (apply .Site.Params.customJS "print" "utils/" ".") }}
+{{ end }}
+{{ partial "custom_js.html" .Params.customJS }}

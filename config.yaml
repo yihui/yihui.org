@@ -1,7 +1,7 @@
 baseurl: "https://yihui.org/"
 languageCode: "en-US"
 title: "Yihui Xie | 谢益辉"
-theme: "hugo-ivy"
+theme: "hugo-paged"
 ignoreFiles: ["\\.Rmd$", "\\.Rmarkdown$", "_cache$"]
 hasCJKLanguage: true
 enableEmoji: true
@@ -38,7 +38,7 @@ menu:
     - name: "Vitae"
       url: "/en/vitae/"
       weight: 4
-    - name: "Ask me"
+    - name: "Q&A"
       url: "https://github.com/yihui/yihui.org/discussions"
       weight: 5
     - name: "Todo"
@@ -91,7 +91,7 @@ menu:
     - name: "FAQ"
       url: "/knitr/faq/"
       weight: 5
-    - name: "Github repo"
+    - name: "Github"
       pre: "github"
       url: "https://github.com/yihui/knitr"
       weight: 6
@@ -111,7 +111,7 @@ menu:
     - name: "Resources"
       url: "/animation/resources/"
       weight: 4
-    - name: "Github repo"
+    - name: "Github"
       pre: "github"
       url: "https://github.com/yihui/animation"
       weight: 5
@@ -122,7 +122,7 @@ menu:
     - name: "Home"
       url: "/tinytex/"
       weight: 1
-    - name: "FAQs"
+    - name: "FAQ"
       url: "/tinytex/faq/"
       weight: 2
     - name: "R package"
@@ -134,7 +134,7 @@ menu:
     - name: "中文文档"
       url: "/tinytex/cn/"
       weight: 5
-    - name: "Github repo"
+    - name: "Github"
       pre: "github"
       url: "https://github.com/rstudio/tinytex"
       weight: 6
@@ -148,7 +148,6 @@ params:
   customJS:
     - "comment-utils.js"
     - "fix-toc.js"
-    - "center-img.js"
     - "right-quote.js"
     - "fix-footnote.js"
     - "math-code.js"
@@ -169,17 +168,14 @@ params:
       img: "/images/logo.png"
       url: "/"
       alt: "Yihui Xie"
-      tag: ""
     knitr:
       img: "/knitr/images/knit-logo.png"
       url: "/knitr/"
       alt: "knitr logo"
-      tag: "knitr: elegant, flexible, and fast dynamic report generation with R"
     tinytex:
       img: "/images/logo-tinytex.png"
       url: "/tinytex/"
       alt: "tinytex logo"
-      tag: "TinyTeX: A lightweight and easy-to-maintain LaTeX distribution"
 
   author:
     en: "Yihui Xie"
@@ -193,6 +189,8 @@ params:
       cn: "版权"
     subscribe:
       cn: "订阅"
+    top:
+      cn: "登顶"
 
 markup:
   highlight:

@@ -1,16 +1,16 @@
-{{ if and (not .IsHome) .Content }}
+{{ if not .IsHome }}
 {{ $section := default .Section ($.Scratch.Get "section") }}
-<li class="menu-extra"></li>
 {{ with .Site.Params.githubContentURL }}
 {{ $filePath := $.File.Path }}
 {{ if $.Params.from_Rmd }}
 {{ $filePath = (replaceRE "[.]md$" ".Rmd" $.File.Path) }}
 {{ $filePath = (replace $filePath "\\" "/") }}
 {{ end }}
-<li><a href="{{ or $.Params.githubEditURL  (print .  $filePath) }}" target="_blank">{{ default "Edit this page" (index $.Site.Params.lang.edit $section) }}</a></li>
+<a href="{{ or $.Params.githubEditURL  (print .  $filePath) }}" target="_blank">{{ default "Edit this page" (index $.Site.Params.lang.edit $section) }}</a>
 {{ end }}
 {{ with .Section }}
-<li><a href="/{{ . }}/index.xml" type="application/rss+xml" title="RSS feed">{{ default "Subscribe" (index $.Site.Params.lang.subscribe $section) }}</a></li>
+<a href="/{{ . }}/index.xml" type="application/rss+xml" title="RSS feed">{{ default "Subscribe" (index $.Site.Params.lang.subscribe $section) }}</a>
 {{ end }}
-<li><a href="http://creativecommons.org/licenses/by-nc-sa/4.0/" title="Attribution-NonCommercial-ShareAlike 4.0 International">{{ default "License" (index $.Site.Params.lang.license $section) }}</a></li>
+<a href="http://creativecommons.org/licenses/by-nc-sa/4.0/" title="Attribution-NonCommercial-ShareAlike 4.0 International">{{ default "License" (index $.Site.Params.lang.license $section) }}</a>
+<a href="#">{{ default "Back to top" (index $.Site.Params.lang.top $section) }}</a>
 {{ end }}

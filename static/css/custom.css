@@ -1,92 +1,64 @@
-@media screen and (min-width: 961px) {
-  .masthead {
-    position: sticky;
-    top: 0;
-    min-height: 100vh;
-    border-right: 3px solid #ddd;
-    background: #fafafa;
-    width: 200px;
-    padding: 2em 1em;
-  }
-  .main {
-    margin-left: calc(50% - 250px);
-  }
-}
-body {
-  width: auto;
-  padding: 0;
-}
 .main {
-  padding: 2em 40px;
-  hyphens: auto;
-  border-left: none;
+  line-height: 1.75;
+}
+.archive {
+  max-width: none;
+  width: initial;
 }
 .archive > ul > li {
   display: inline-block;
   margin-right: 1em;
 }
-.archive > ul > li > span, .hash-note {
+.main h2 {
+  line-height: 1.25;
+}
+.main h1, .main h2 {
+  text-align: center;
+  margin: 2em 0 1em;
+}
+.archive > h2 {
+  text-align: initial;
+}
+.main > ul > li > span:first-child, .main > p > span:first-child, .main > p .subtitle, .hash-note {
   color: #666;
   font-size: .9em;
 }
-.menu li:not([class]) a, a:hover, .copyright a {
+.menu li:not([class]) a, .copyright a {
   border-bottom: none;
 }
-.menu-extra {
-  list-style: circle;
-}
-.en .main header ~ p:first-of-type::first-line {
+.en .main > p:first-of-type::first-line {
   font-variant: small-caps;
   letter-spacing: .05em;
   font-size: 1.1em;
 }
-.en .main header ~ p:first-of-type::first-letter {
+.en .main > p:first-of-type::first-letter {
   font-size: 3em;
   padding: .1em .1em 0 0;
   float: left;
   line-height: 1em;
-}
-code {
-  hyphens: none;
-}
-a {
-  border-bottom: 1px dashed;
-}
-p .subtitle {
-  font-size: .9em;
-}
-iframe, twitterwidget, video {
-  max-width: 100%;
-  display: block;
-  margin: auto;
+  font-family: cursive;
 }
 #TableOfContents {
   background-color: #f8f8f8;
   padding: .5em;
 }
-table {
-  min-width: 50%;
-  max-width: 100%;
-  margin: auto;
+blockquote {
+  margin: 1em 0;
+  padding: 0 2em;
 }
-:not(pre) > code, code[class] { background-color: #fcfcfc; }
-code.language-undefined, pre > code:not([class]) {
-  background-color: inherit;
-  border: 1px solid #eee;
+.single blockquote {
+  background: none;
+  border-left-width: 3px;
+  padding: 0 2em;
 }
-pre:hover {
-  white-space: pre-wrap;
-  word-break: break-all;
+.home blockquote, .cn blockquote:not(:hover) {
+  border-left-color: transparent;
 }
-.home hr {
-  margin: 2em auto 1em;
+ol, ul {
+  padding: 0 0 0 20px;
 }
-.masthead img {
-  max-width: 80px;
-}
-img[src$="#border"] {
-  border: 1px solid #ddd;
-  box-shadow: 5px 5px 5px #eee;
+.comments {
+  margin-top: 1em;
 }
 .cn del {
   background-color: #444;
@@ -94,9 +66,6 @@ img[src$="#border"] {
 .cn del:hover {
   background-color: inherit;
   text-decoration: inherit;
-}
-.home blockquote, .cn blockquote:not(:hover) {
-  border-left-color: transparent;
 }
 .anchor {
   display: none;
@@ -113,67 +82,8 @@ span.hash-note::before { content: "　# "; }
   margin-bottom: 47px;
 }
 
-@media screen and (max-width: 960px) {
-  h1, h2, h3, h4, h5, h6 {
-    margin: 2em auto 1.5em auto;
-  }
-  .title h2, .title h3 {
-    margin: 1.5em auto;
-  }
-  .main .title h1 {
-    margin: 1em auto 0 auto;
-  }
-  .title hr {
-    margin: 2em auto;
-  }
-  .masthead {
-    padding: 1em;
-  }
-  .masthead .menu {
-    max-width: inherit;
-  }
-  .masthead h1 {
-    margin-bottom: 10px;
-  }
-  .masthead .menu ul {
-    text-align: center;
-  }
-  .masthead .menu a {
-    display: inline-block;
-    padding: 5px 10px;
-    background: #444;
-    color: #fff;
-    border-radius: 5px;
-  }
-  .masthead .menu .active a {
-    background: none;
-    border: 1px solid #444;
-    color: #000;
-  }
-  .masthead .menu li, .masthead .menu li:first-child {
-    border: none;
-    display: inline-block;
-    margin-top: 5px;
-  }
-  .masthead .menu .menu-extra {
-    display: none;
-  }
-}
-@media screen and (max-width: 700px) {
-  .main {
-    padding: 2em 1em;
-  }
-}
 @media print {
-  del, footer, .masthead {
+  del, footer, .nav-top {
     display: none;
-  }
-  body {
-    max-width: 700px;
-  }
-  .main {
-    margin-left: 0;
-    border-left: none;
-    padding-left: 10px;
   }
 }

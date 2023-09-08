@@ -1,5 +1,0 @@
-{{ $section := $.Scratch.Get "section" }}
-{{ with default .Site.Params.logo.en (index .Site.Params.logo $section) }}
-<h1><a href="{{ relURL .url }}"><img src="{{ relURL .img }}" alt="{{ .alt }}" /></a></h1>
-{{ with .tag }}<p class="tagline">{{ . }}</p>{{ end }}
-{{ end }}

@@ -1,0 +1,6 @@
+{{ if .Section }}
+<nav class="post-nav fullwidth">
+  <span>{{ with .PrevInSection }}&larr; <a href="{{ .RelPermalink }}">{{ .Title }}</a>{{ end }}</span>
+  <span>{{ with .NextInSection }}<a href="{{ .RelPermalink }}">{{ .Title }} &rarr;</a>{{ end }}</span>
+</nav>
+{{ end }}
