@@ -148,6 +148,7 @@ params:
   customJS:
     - "comment-utils.js"
     - "fix-toc.js"
+    - "fullwidth.js"
     - "right-quote.js"
     - "fix-footnote.js"
     - "math-code.js"

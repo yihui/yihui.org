@@ -37,12 +37,6 @@ readers or aggregators):
   width: calc(100vw - 1em);
   margin-left: calc(50% - 50vw + .5em);
 }
-@media screen and (min-width: 961px) {
-  .fullwidth-example {
-    width: calc(100vw - 214px);
-    margin-left: calc(50% - 50vw + 106px);
-  }
-}
 </style>
 
 <img src="https://prose.yihui.org/post/2020/11/10/r-markdown-demo/index_files/figure-html/sunspots-1.svg" alt="A full-width figure example." class="fullwidth-example" />

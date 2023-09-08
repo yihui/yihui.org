@@ -78,6 +78,14 @@ ol, ul {
 span.hash-note::before { content: "　# "; }
 .hide-notes .hash-note, .unlist { display: none !important; }
 
+@media only screen and (min-width: 992px) {
+  .main > pre, .main > table {
+    width: auto;
+    max-width: none;
+    margin-left: auto;
+  }
+}
+
 @media print {
   del, footer, .nav-top {
     display: none;

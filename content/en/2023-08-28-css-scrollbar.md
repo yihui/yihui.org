@@ -57,7 +57,7 @@ hover over the code block to see the horizontal scrollbar disappear.
 
 ``` css
 code {
-  font-family: 'DejaVu Sans Mono', 'Droid Sans Mono', 'Lucida Console', Consolas, Monaco, monospace;
+  font-family: 'DejaVu Sans Mono', 'Droid Sans Mono', 'Lucida Console', Consolas, Courier, 'Courier New', Monaco, monospace;
 }
 .draft {
   background: repeating-linear-gradient(135deg, white, white 30px, #ddd 32px, #ddd 32px);
