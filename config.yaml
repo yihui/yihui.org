@@ -72,7 +72,7 @@ menu:
     - name: "事务"
       url: "/todo/"
       weight: 8
-    - name: "English"
+    - name: "EN"
       url: "/en/"
       weight: 9
   knitr:
