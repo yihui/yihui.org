@@ -17,6 +17,11 @@
   text-align: center;
   margin: 2em 0 1em;
 }
+.main > blockquote:first-child {
+  border-left-color: yellow;
+  background-color: lightyellow;
+  font-size: .9em;
+}
 .archive > h2 {
   text-align: initial;
 }
