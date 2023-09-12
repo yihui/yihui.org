@@ -151,7 +151,6 @@ params:
     - "fullwidth.js"
     - "right-quote.js"
     - "fix-footnote.js"
-    - "math-code.js"
     - "hash-notes.js"
     - "toggle-notes.js"
     - "post-nav.js"
