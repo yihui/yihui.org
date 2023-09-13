@@ -146,8 +146,8 @@ params:
   description: "Personal website of Yihui Xie; 谢益辉的个人网站"
   footer: "&copy; [Yihui Xie](/) 2001 - {Year}"
   customJS:
-    - "comment-utils.js"
     - "fix-toc.js"
+    - "comment-utils.js"
     - "fullwidth.js"
     - "right-quote.js"
     - "fix-footnote.js"
