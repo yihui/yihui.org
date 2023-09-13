@@ -25,9 +25,12 @@
 .archive > h2 {
   text-align: initial;
 }
-.main > ul > li > span:first-child, .main > p > span:first-child, .main > p .subtitle, .hash-note {
+.main > ul > li > span:first-child, .main > p > span:first-child, .main > p .subtitle, .hash-note, .post-nav {
   color: #666;
   font-size: .9em;
+}
+.cn .post-nav {
+  font-size: initial;
 }
 .menu li:not([class]) a, .copyright a {
   border-bottom: none;
