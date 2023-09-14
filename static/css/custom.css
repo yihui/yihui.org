@@ -90,6 +90,14 @@ span.hash-note::before { content: "　# "; }
   .cn #TableOfContents {
     columns: 2;
   }
+  .nav-next {
+    border-right: 1px solid;
+    padding-right: 1em;
+  }
+  .nav-prev {
+    border-left: 1px solid;
+    padding-left: 1em;
+  }
 }
 
 @media only screen and (min-width: 992px) {
