@@ -28,22 +28,21 @@ should be `4 * min(nrow(test), ani.options('nmax'))` at last.
 library(animation)
 ## a binary classification problem
 ani.options(interval = 1, nmax = 10)
-x = matrix(c(rnorm(80, mean = -1), rnorm(80, mean = 1)), ncol = 2, 
-  byrow = TRUE)
+x = matrix(c(rnorm(80, mean = -1), rnorm(80, mean = 1)), ncol = 2, byrow = TRUE)
 y = matrix(rnorm(20, mean = 0, sd = 1.2), ncol = 2)
-knn.ani(train = x, test = y, cl = rep(c("first class", "second class"), 
-  each = 40), k = 30)
+knn.ani(train = x, test = y, cl = rep(c("first class", "second class"), each = 40),
+  k = 30)
 ```
 
 <video controls loop autoplay><source src="https://assets.yihui.org/figures/animation/example/knn-ani/demo-a.mp4" /><p>plot of chunk demo-a</p></video>
  
 
 ```r
-x = matrix(c(rnorm(30, mean = -2), rnorm(30, mean = 2), rnorm(30, 
-  mean = 0)), ncol = 2, byrow = TRUE)
+x = matrix(c(rnorm(30, mean = -2), rnorm(30, mean = 2), rnorm(30, mean = 0)), ncol = 2,
+  byrow = TRUE)
 y = matrix(rnorm(20, sd = 2), ncol = 2)
-knn.ani(train = x, test = y, cl = rep(c("first", "second", "third"), 
-  each = 15), k = 25, cl.pch = c(2, 3, 19), dist.lty = 3)
+knn.ani(train = x, test = y, cl = rep(c("first", "second", "third"), each = 15),
+  k = 25, cl.pch = c(2, 3, 19), dist.lty = 3)
 ```
 
 <video controls loop autoplay><source src="https://assets.yihui.org/figures/animation/example/knn-ani/demo-b.mp4" /><p>plot of chunk demo-b</p></video>

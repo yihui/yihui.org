@@ -35,8 +35,7 @@ for (i in 1:n) {
   ani.record()  # record the current frame
 }
 
-## now we can replay it, with an appropriate pause between
-## frames
+## now we can replay it, with an appropriate pause between frames
 oopts = ani.options(interval = 0.5)
 ani.replay()
 

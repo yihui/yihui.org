@@ -39,8 +39,7 @@ par(op)
  
 
 ```r
-## other distributions: Chi-square with df = 5 (mean = df, var
-## = 2*df)
+## other distributions: Chi-square with df = 5 (mean = df, var = 2*df)
 f = function(n) rchisq(n, 5)
 clt.ani(FUN = f, mean = 5, sd = sqrt(2 * 5))
 ```

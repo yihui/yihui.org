@@ -46,8 +46,7 @@ xx$root  # solution
 
 ```r
 ## take a long long journey
-newton.method(function(x) 5 * x^3 - 7 * x^2 - 40 * x + 100, 7.15, 
-  c(-6.2, 7.1))
+newton.method(function(x) 5 * x^3 - 7 * x^2 - 40 * x + 100, 7.15, c(-6.2, 7.1))
 ```
 
 <video controls loop autoplay><source src="https://assets.yihui.org/figures/animation/example/newton-method/demo-b.mp4" /><p>plot of chunk demo-b</p></video>

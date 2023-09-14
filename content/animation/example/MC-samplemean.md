@@ -49,8 +49,7 @@ integrate(function(x) x - x^2, 0, 1)
 
 ```r
 ## when adj.x = FALSE, use semi-transparent colors
-MC.samplemean(adj.x = FALSE, col.rect = c(rgb(0, 0, 0, 0.3), 
-  rgb(1, 0, 0)), border = NA)
+MC.samplemean(adj.x = FALSE, col.rect = c(rgb(0, 0, 0, 0.3), rgb(1, 0, 0)), border = NA)
 ```
 
 ```r

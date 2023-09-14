@@ -53,4 +53,5 @@ barplot(freq$bottom, space = 0)  # bottom layers
 
 <video controls loop autoplay><source src="https://assets.yihui.org/figures/animation/example/quincunx2/demo-a.mp4" /><p>plot of chunk demo-a</p></video>
 
+
 [^1]: Darwin, Galton and the Statistical Enlightenment, http://onlinelibrary.wiley.com/doi/10.1111/j.1467-985X.2010.00643.x/full 

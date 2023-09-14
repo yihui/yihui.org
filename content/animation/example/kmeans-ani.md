@@ -33,8 +33,8 @@ kmeans.ani()
 
 ```r
 ## the kmeans() example; very fast to converge!
-x = rbind(matrix(rnorm(100, sd = 0.3), ncol = 2), matrix(rnorm(100, 
-  mean = 1, sd = 0.3), ncol = 2))
+x = rbind(matrix(rnorm(100, sd = 0.3), ncol = 2), matrix(rnorm(100, mean = 1, sd = 0.3),
+  ncol = 2))
 colnames(x) = c("x", "y")
 kmeans.ani(x, centers = 2)
 ```

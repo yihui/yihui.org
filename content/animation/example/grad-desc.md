@@ -57,20 +57,18 @@ xx$persp(col = "lightblue", theta = 30, phi = 30)
 
 
 ```r
-## need to provide the gradient when deriv() cannot handle the
-## function
+## need to provide the gradient when deriv() cannot handle the function
 grad.desc(FUN = function(x1, x2) {
   x0 = cos(x2)
   x1^2 + x0
 }, gr = function(x1, x2) {
   c(2 * x1, -sin(x2))
-}, rg = c(-3, -1, 3, 5), init = c(-3, 0.5), main = expression(x[1]^2 + 
-  cos(x[2])))
+}, rg = c(-3, -1, 3, 5), init = c(-3, 0.5), main = expression(x[1]^2 + cos(x[2])))
 ```
 
 ```
-## Warning in grad.desc(FUN = function(x1, x2) {: Maximum
-## number of iterations reached!
+## Warning in grad.desc(FUN = function(x1, x2) {: Maximum number of iterations
+## reached!
 ```
 
 <video controls loop autoplay><source src="https://assets.yihui.org/figures/animation/example/grad-desc/demo-c.mp4" /><p>plot of chunk demo-c</p></video>
@@ -79,10 +77,8 @@ grad.desc(FUN = function(x1, x2) {
 ```r
 ## or a even more complicated function
 ani.options(interval = 0, nmax = 200)
-f2 = function(x, y) sin(1/2 * x^2 - 1/4 * y^2 + 3) * cos(2 * 
-  x + 1 - exp(y))
-xx = grad.desc(f2, c(-2, -2, 2, 2), c(-1, 0.5), gamma = 0.1, 
-  tol = 1e-04)
+f2 = function(x, y) sin(1/2 * x^2 - 1/4 * y^2 + 3) * cos(2 * x + 1 - exp(y))
+xx = grad.desc(f2, c(-2, -2, 2, 2), c(-1, 0.5), gamma = 0.1, tol = 1e-04)
 ```
 
 <video controls loop autoplay><source src="https://assets.yihui.org/figures/animation/example/grad-desc/demo-d.mp4" /><p>plot of chunk demo-d</p></video>

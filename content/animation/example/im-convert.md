@@ -19,8 +19,7 @@ library(animation)
 owd = setwd(tempdir())
 ani.options(interval = 0.05, nmax = 20)
 png("bm%03d.png")
-brownian.motion(pch = 21, cex = 5, col = "red", bg = "yellow", 
-  main = "Demonstration of Brownian Motion")
+brownian.motion(pch = 21, cex = 5, col = "red", bg = "yellow", main = "Demonstration of Brownian Motion")
 dev.off()
 
 ## filenames with a wildcard *

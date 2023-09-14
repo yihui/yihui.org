@@ -19,8 +19,7 @@ library(animation)
 ## moving window along a sin curve
 ani.options(interval = 0.1, nmax = 50)
 par(mar = c(2, 3, 1, 0.5), mgp = c(1.5, 0.5, 0))
-mwar.ani(lty.rect = 3, pch = 21, col = "red", bg = "yellow", 
-  type = "o")
+mwar.ani(lty.rect = 3, pch = 21, col = "red", bg = "yellow", type = "o")
 ```
 
 <video controls loop autoplay><source src="https://assets.yihui.org/figures/animation/example/mwar-ani/demo-a.mp4" /><p>plot of chunk demo-a</p></video>

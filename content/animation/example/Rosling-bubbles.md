@@ -31,8 +31,7 @@ of this matrix.
 library(animation)
 ani.options(interval = 0.2, nmax = 50)
 
-## use default arguments (random numbers); you may try to find
-## the real data
+## use default arguments (random numbers); you may try to find the real data
 par(mar = c(4, 4, 0.2, 0.2))
 Rosling.bubbles()
 ```
@@ -43,8 +42,7 @@ Rosling.bubbles()
 
 ```r
 ## rectangles
-Rosling.bubbles(type = "rectangles", data = matrix(abs(rnorm(50 * 
-  10 * 2)), ncol = 2))
+Rosling.bubbles(type = "rectangles", data = matrix(abs(rnorm(50 * 10 * 2)), ncol = 2))
 ```
 
 <video controls loop autoplay><source src="https://assets.yihui.org/figures/animation/example/Rosling-bubbles/demo-b.mp4" /><p>plot of chunk demo-b</p></video>

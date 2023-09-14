@@ -12,8 +12,8 @@ Barplots of the stock prices of Vanke Co. Ltd on 2009/11/27
 ```r
 library(animation)
 tab.price = table(vanke1127$price)
-plot(as.numeric(names(tab.price)), as.numeric(tab.price), type = "h", 
-  xlab = "price", ylab = "frequency")
+plot(as.numeric(names(tab.price)), as.numeric(tab.price), type = "h", xlab = "price",
+  ylab = "frequency")
 ```
 
 ```r

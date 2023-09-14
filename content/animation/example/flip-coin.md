@@ -33,8 +33,8 @@ This animation has provided a simulation of flipping coins which might be helpfu
 library(animation)
 ani.options(interval = 0.2, nmax = 100)
 ## a coin would stand on the table?? just kidding :)
-flip.coin(faces = c("Head", "Stand", "Tail"), type = "n", prob = c(0.45, 
-  0.1, 0.45), col = c(1, 2, 4))
+flip.coin(faces = c("Head", "Stand", "Tail"), type = "n", prob = c(0.45, 0.1, 0.45),
+  col = c(1, 2, 4))
 ```
 
 <video controls loop autoplay><source src="https://assets.yihui.org/figures/animation/example/flip-coin/demo-a.mp4" /><p>plot of chunk demo-a</p></video>
