@@ -1,10 +1,19 @@
 ---
 title: "歌单"
 slug: "cn/sing"
+show_toc: false
 ---
 
 <style type="text/css">
-em { font-style: inherit; }
+@media (min-width: 768px) {
+  .main {
+    width: 100%;
+  }
+  .main > ol {
+    columns: 2;
+    column-gap: 4em;
+  }
+}
 </style>
 
 为了避免每次 K 歌时临时抱佛脚去拼命回忆喜欢或能唱的歌，特创建一份歌单在此，供自己点歌时参考。楷体或黑体代表一首歌的副歌部分不太熟悉，可能会变成独孤求带。
