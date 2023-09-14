@@ -5,7 +5,7 @@ slug: markdown-or-latex
 ---
 
 > What happens if you ask for too much power from Markdown?
-
+> 
 > ![Duck bites](https://db.yihui.org/imgur/vGwGF7s.gif)
 
 R Markdown is one of the document formats that **knitr** supports, and it is

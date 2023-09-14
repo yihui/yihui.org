@@ -35,161 +35,161 @@ On this page, I'll let other users share their stories of installing and managin
 Below are stories and experiences contributed by other users:
 
 > Removed TeX Live from my system (openSUSE): 1.5gb. Installed TinyTeX + the dependencies to compile my thesis: 150mb!!!! This is great!
-
+> 
 > --- [Bruno Rodrigues](https://twitter.com/brodriguesco/status/942162790587957248)
 
 <!-- -->
 
 > Really liking the simplicity of tinytex package. Easy to get up and running to knit PDFs. No need for slow LaTeX install.
-
+> 
 > --- [Daley Mikalson](https://twitter.com/lingwhatics/status/941766989424537602)
 
 <!-- -->
 
 > A tiny LaTeX distribution easy to install from RStudio or on Travis CI is just what we needed!
-
+> 
 > --- [Philippe Grosjean](https://twitter.com/PhilGrosjean/status/941241878309232640)
 
 <!-- -->
 
 > Seriously one of my only holdups teaching LaTeX in Rmarkdown (still taught it anyway) is now solved.
-
+> 
 > --- [ Tyson Barrett](https://twitter.com/healthandstats/status/941169151749406720)
 
 <!-- -->
 
 > Tried TinyTeX with rmarkdown and both English and Chinese rendering. The most smooth experience ever using LaTeX!
-
+> 
 > --- [Kun Ren](https://twitter.com/renkun_ken/status/941352666730455041)
 
 <!-- -->
 
 > TinyTeX is awesome, if it had existed before I would have saved hours of my life spent dealing with LaTeX packages and failed R Markdown knits...
-
+> 
 > --- [Antonio Vazquez Brust](https://github.com/rstudio/bookdown/issues/292#issuecomment-356480809)
 
 <!-- -->
 
 > Many people don't realize that Texlive on some Linux systems (say you need a rstudio server) doesn't come with the TeX package manager. If the package you need is not in their system, you are basically screwed as you can't even install it. TinyTeX solves this problem and makes everything sweet and easy. Also, after using it for more than a month, I found the  messages of tinytex are very helpful, comparing with basically NULL in texlive. 
-
+> 
 > --- [Hao Zhu](https://community.rstudio.com/t/texlive-distribution-on-centos-for-rstudio-server-and-connect/2916)
 
 <!-- -->
 
 > I'm a novice with R and I found the entire process of installing rmarkdown, knitr, MiKTeX, and pandoc and then reconciling all their directories very difficult. [...] The 3-4 hour detour into MiKTeX etc and how to produce PDFs was a frustration experience to say the least. (Up and running with TinyTeX five minutes later...)
-
+> 
 > --- Justin Shapiro
 
 <!-- -->
 
 > If you work in a locked down windows corporate enviroment and spent countless hours with MiKTeX or portable MiKTeX, you'll want to buy @xieyihui lunch.
-
+> 
 > --- [Thomas Speidel](https://twitter.com/ThomasSpeidel/status/957856056108920835)
 
 <!-- -->
 
 > Too bad, this computer had a good month of TeX-free.
-
+> 
 > --- [Romain François](https://twitter.com/romain_francois/status/979022989634174976)
 
 <!-- -->
 
 > I'd been avoiding installing LaTeX on my macOS and Windows machines b/c it's always such a hassle. Just learned about about TinyTeX today and easily got setup on both machines.
-
+> 
 > --- [John Blischak](https://twitter.com/jdblischak/status/974066342780461056)
 
 <!-- -->
 
 > Like 2 hours later, I'm not sure I want to know, but there *must* be a faster way of updating all my TeX packages than the ftp in TeX Live Utility...
-
+> 
 > --- [Mara Averick](https://twitter.com/dataandme/status/994531189217259521)
 
 <!-- -->
 
 > Installing a complete version of MiKTeX is a freaking nightmare though. Don't know if it's my internet connection or what but I just can't get it all installed in one go. I finally just did the basic install and am selecting batches of pkgs at a time to add.
-
+> 
 > [...] I just installed this (TinyTeX) and it was SO EASY and I'm kind of upset that I didn't know about it before. Gonna be shouting this one [from the rooftops](https://twitter.com/swmpkim/status/1014546819085369344).
-
+> 
 > --- [Kim Cressman](https://twitter.com/swmpkim/status/1014514680088399874)
 
 <!-- -->
 
 > Siri, how much of my life have I spent [installing TeX distributions](https://twitter.com/djnavarro/status/1112674242523361281)?
-
+> 
 > I have discovered that the tinytex package has handy tools for analysing the .log files, which solved my problems for me. That is, after I wasted half an hour trying to install MiKTeX for no good reason
-
+> 
 > --- [Danielle Navarro](https://twitter.com/djnavarro/status/1112687238196822016)
 
 <!-- -->
 
 > I used tinytex to upgrade TeX Live and install a package and it ... worked. @xieyihui may have ended some of my LaTeX torment.
-
+> 
 > --- [PirateGrunt](https://twitter.com/FanninQED/status/1146857305285242880)
 
 <!-- -->
 
 > literally took me longer to remove all traces of MacTeX than to install TinyTeX and all the packages needed to build my thesis, and i saved about 10gb of disk space.
-
+> 
 > --- [Tim Hosgood](https://twitter.com/tjohnhos/status/1175575859748638720)
 
 <!-- -->
 
 > I've always had a problem knitting to pdf with windows.  I followed instruction for tinytex and it works great now!
-
+> 
 > --- [Dilsher Dhillon](https://twitter.com/TexanDhillon/status/1183831526485712897)
 
 <!-- -->
 
 > Learning to write a LaTeX manuscript  in R Markdown and was having problems loading new packages: tlmgr wasn't updating the packages. So, found the "tinytex" package that fixed everything.
-
+> 
 > --- [Akash](https://twitter.com/dynamic_choice/status/1203389695419224064)
 
 <!-- -->
 
 > Just had to reinstall texlive on my Mac and once again, @xieyihui's tinytex package saves the day with tinytex::reinstall_tinytex().
-
+> 
 > --- [Zhian N Kamvar](https://twitter.com/ZKamvar/status/1202525888031657984)
 
 <!-- -->
 
 > Having just for fun installed R on my new Raspberry pi 4, I thought to myself now it would be nice to have latex, but really, all of texlive, probably not, so this was exactly what was needed. It installed for me immediately and "just worked."
-
+> 
 > --- [Roger Koenker](/tinytex/#comment-4720783918)
 
 <!-- -->
 
 > I've always had problems knitting to pdf on Windows until I came across tinytex package.
-
+> 
 > --- [Dilsher Dhillon](https://twitter.com/dhillon_stats/status/1214204113359179779)
 
 <!-- -->
 
 > [...] uninstall MacTeX and install TinyTeX was the ticket! It FINALLY knit to pdf!!!!
-
+> 
 > --- [Tiffany Timbers](https://twitter.com/TiffanyTimbers/status/1214344978769403905)
 
 <!-- -->
 
 > [...] Why install 3GB of languages you don't know when all you want are beautiful tables?
-
+> 
 > --- [Roman Link](https://twitter.com/RomanMLink/status/1227496566157524992)
 
 <!-- -->
 
 > [...] Have you tried {tinytex}? It installs only what you need from LaTeX so you can knit to pdf! Changed my life!
-
+> 
 > --- [Kim Cressman](https://twitter.com/swmpkim/status/1234517924028784640)
 
 <!-- -->
 
 > [...] R Markdown + library(tinytex) basically unlock all of the power of LaTeX without any of the headaches.
-
+> 
 > --- [Aaron R. Williams](https://twitter.com/awunderground/status/1234665396654837761)
 
 <!-- -->
 
 > A nice, ultra light, LaTeX distribution, I used TinyTeX on my chromebook for a while.
-
+> 
 > --- [@onebellboy](https://twitter.com/onebellboy/status/1374345267256905729)
 
 <!-- -->

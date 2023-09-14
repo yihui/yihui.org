@@ -48,7 +48,7 @@ Many people feel nervous on the stage. I'm rarely nervous there, but I do feel a
 At the useR! 2014 conference in LA, I told Kevin Ushey that the more people in the room, the more comfortable I would be to give my talk. He was surprised. To some degree, this is similar to "one death is a tragedy, and a million deaths is a statistic." When there are only a few people listening to your talk, you may feel the stare. When there are a thousand people in the audience, it really doesn't matter how an individual reacts to your talk, so you should just shift your focus from the audience to your talk. And your talk may not be as important as you thought...
 
 > One of the symptoms of an approaching nervous breakdown is the belief that one's work is terribly important.
-
+> 
 > --- Bertrand Russell
 
 [![The room for my pagedown talk. Photo credit: Renata Gerecke on Twitter.](https://user-images.githubusercontent.com/163582/51764240-4c612c80-209a-11e9-9c92-ba35c4f0d802.jpg)](https://twitter.com/renatagerecke/status/1086305574696964098)

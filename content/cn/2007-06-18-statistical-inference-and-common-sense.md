@@ -5,7 +5,7 @@ slug: statistical-inference-and-common-sense
 ---
 
 > "It is proven that the celebration of birthdays is healthy. Statistics show that those people who celebrate the most birthdays become the oldest." 
-
+> 
 > --- From [GARY C. RAMSEYER'S FIRST INTERNET GALLERY OF STATISTICS JOKES](http://www.ilstu.edu/~gcramsey/Fisher.html) 
 
 Some people may be astonished by such foolish inferences, but this is just what we do sometimes. And here's another less humorous joke: 

@@ -7,9 +7,9 @@ slug: indian-email
 今年早些时候轩哥在感叹找工作需要为自己打广告而感到羞愧的时候，我批评了他的这种心理。该为自己打广告就得打，我的论点是，如果像轩哥这么厉害的人都不包装自己找个好工作，那将来地球真的就要被那些什么本事都没有、只会用嘴遁的人占领了。换句话说，轩哥要是因为在意自己的“清白”而找不到一个好工作，就是对不起这个世界。我随手举了一个例子，看三哥们是怎么联系我的，由此大概也可见为什么在美帝三哥崛起迅速，而低调的华人似乎总是没地位。这是一份我的常见的 LinkedIn 站内信：
 
 > Hello,
-
+> 
 > I hope you are doing well! I am passionate data scientist. I have 1+ year of research experience as Data scientist. I have 7+ years of experience in IT. I would be so appreciative if you review my profile and let me know if there is any opportunity for me as I am looking for Job.
-
+> 
 > Regards  
 ...
 
@@ -19,7 +19,7 @@ slug: indian-email
 
 > Hello sir,  
 > Iam XX from India i want to  learn programming, just i know concepts of c language but  i need help of you to make me learn programming skills. I dnot want to go any other institutes to learn languages. You are best programmer U can teach me programming so that i can gain more knowledge about programming. I think u are the most busy person in world but i want to learn programming help me i Dont have any other option iam like a kid just teach me programming concepts so that i can grow and become adult in programming concepts, i have completed post graduate in CSE and i dnot have skills can u explain me via Skype or any other video conference that enough just spend half hour on me on a day so that i can learn a lot. Day by Day iam getting depressed because i dont have job and i dont have skills. i can see only one person to help in programming that is you. Just help me sir all my hopes on you.
-
+> 
 > Thank you sir
 
 首先是 "Hello sir" 一看就是群发，连个姓名称呼都没有。"Iam" 中间不空格，这样的邮件我能看到这里可以说已经是仁至义尽了。考虑到人家也许真的是穷困潦倒来求助的，忍着一堆语法问题以及缺失标点符号换不过气来继续看完。一贯的南亚半岛浮夸风以及伸手党风：“你是棒棒哒，我是矬矬哒，麻烦你每天花半个小时帮我学习编程吧，你是我唯一的希望！”

@@ -144,7 +144,7 @@ tinytex::reinstall_tinytex()
 If you see a message like below, don't panic. Just wait for a couple of months and prepare for reinstalling TinyTeX.
 
 > TeX Live 2018 is frozen forever and will no longer be updated.  This happens in preparation for a new release.
-
+> 
 > If you're interested in helping to pretest the new release (when pretests are available), please read https://tug.org/texlive/pretest.html. Otherwise, just wait, and the new release will be ready in due time.
 
 

@@ -12,9 +12,9 @@ slug: on-writing
 “水面风来”这四个字一下子让我有穿脑的感觉。作为农村娃，这种水面风来的情景实在太多了，于是会自动脑补小时候的大小池塘沟渠、钓鱼摸虾、采莲捞菱。虽说翻书时是端坐茅房，也顿感一股清新之气。在写这篇日志的时候，随手放狗搜了一下，发现这个是有来历的：
 
 > 清夜吟
-
+> 
 > 邵雍（宋）
-
+>
 > 月到天心处，风来水面时。  
 > 一般清意味，料得少人知。
 
@@ -23,9 +23,9 @@ slug: on-writing
 回到标题，断雁叫西风。这首词是太云在谈COS管理的引用的（客官们大约震惊了，谈组织管理怎么会引这个，但这就是咱主公的风格），我读到“江阔云低断雁叫西风”时又涌起那种穿脑的感觉，这是何等逼真的描写。
 
 > 虞美人·听雨
-
+> 
 > 蒋捷（南宋）
-
+>
 > 少年听雨歌楼上，红烛昏罗帐。壮年听雨客舟中，江阔云低断雁叫西风。  
 > 而今听雨僧庐下，鬓已星星也。悲欢离合总无情，一任阶前点滴到天明。
 
@@ -52,7 +52,7 @@ slug: on-writing
 再说说英文的写作。几年前一次我读到一则关于写作的建议，但忘记了出处，只记得大概意思。后来系里有人转发了“[大数据的八个（不，是九个）问题](http://www.nytimes.com/2014/04/07/opinion/eight-no-nine-problems-with-big-data.html)”，我在嘲讽这篇文章的同时搭车问了问系里有没有人知道那则建议的作者，终于有好心的同学帮我回忆起了作者和来源：
 
 > In writing. Don't use adjectives which merely tell us how you want us to feel about the thing you are describing. I mean, instead of telling us a thing was "terrible," describe it so that we'll be terrified. Don't say it was "delightful"; make us say "delightful" when we've read the description. You see, all those words (horrifying, wonderful, hideous, exquisite) are only like saying to your readers, "Please will you do my job for me."
-
+> 
 > ---  C.S. Lewis, Letter to Joan Lancaster, 26 June 1956
 
 我觉得这是对真正意义上的写作最好的建议：不要说某天你乐嗨就完事了，而是把让你乐嗨的事情写出来，让读者自动跟着你乐嗨；你要是光说“啊，我乐嗨了”，意思就是对读者说“请你一定要乐嗨哟”。这条建议读起来容易，做起来难。我们写论文，总忍不住给自己的货上加几个正面形容词，什么"A Novel Method/Approach"啊"A Flexible Framework"啊，某种程度上这是心虚的表现，就像拿掉了形容词之后自己的方法/模型就会变得生冷无力了一样。

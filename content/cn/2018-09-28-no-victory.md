@@ -7,24 +7,24 @@ slug: no-victory
 去年我提到芒格常引用的那句《[未必要有希望才能坚持](/cn/2017/12/need-not-hope-to-persevere/)》，今天偶尔翻到一首诗，看到最后一句时，暗想这两个相隔三四百年的人说的话竟然如此相似。以下[据说是陈宁的译作](http://blog.sina.com.cn/s/blog_6bbb74860102w30b.html)（我是第一次听说作者里尔克和译者陈宁）：
 
 > 只要你曾经看见一次，  
-看见命运怎样进入诗行，  
-一去不回，  
-怎样在其中变成画像，  
-仅仅是画像，  
-仅仅是一个先祖，  
-你偶尔瞻仰时画框里的让你觉得  
-既像你又不像你的一个先祖——  
-你也就会一直隐忍。
-
+> 看见命运怎样进入诗行，  
+> 一去不回，  
+> 怎样在其中变成画像，  
+> 仅仅是画像，  
+> 仅仅是一个先祖，  
+> 你偶尔瞻仰时画框里的让你觉得  
+> 既像你又不像你的一个先祖——  
+> 你也就会一直隐忍。
+> 
 > 思考那并不存在的事，  
-不过是小题大做，  
-不过是一个比喻式的责备的一个假象，  
-对你无所中伤。  
-发生的事，  
-就这样领先于我们的料想，  
-因此我们从未追赶上它，  
-从未获知它本真的形貌。
-
+> 不过是小题大做，  
+> 不过是一个比喻式的责备的一个假象，  
+> 对你无所中伤。  
+> 发生的事，  
+> 就这样领先于我们的料想，  
+> 因此我们从未追赶上它，  
+> 从未获知它本真的形貌。
+> 
 > 不要羞惭，  
 当坚持到终点的那些死者与你擦肩而过的时候，  
 （终点意味着什么？）同他们用眼色交谈吧，  
@@ -38,20 +38,20 @@ slug: no-victory
 我看东西有个习惯，就是每次看到翻译过来的文字如果心有所动，那么就会去找一下原文，但限于我只懂英文一门外语，所以有些原文不是英文的我也只能找来[英文翻译](http://www.artofeurope.com/rilke/ril8.htm)对照看看（上面的原文为德文）：
 
 > Had you once  
-perceived how fate may pass into a verse  
-and not come back, how, once in, it turns image,  
-nothing but image, but an ancestor,  
-who sometimes, when you watch him in his frame,  
-seems to be like you and again not like you: -  
-you would have persevered.
-
+> perceived how fate may pass into a verse  
+> and not come back, how, once in, it turns image,  
+> nothing but image, but an ancestor,  
+> who sometimes, when you watch him in his frame,  
+> seems to be like you and again not like you: -  
+> you would have persevered.
+> 
 > But this is petty,  
-thinking of what was not. And some appearance  
-of undeserved reproach in these comparings.  
-Whatever happens has had such a start  
-of our supposing that we never catch it,  
-never experience what it really looked like.
-
+> thinking of what was not. And some appearance  
+> of undeserved reproach in these comparings.  
+> Whatever happens has had such a start  
+> of our supposing that we never catch it,  
+> never experience what it really looked like.
+> 
 > Don't be ashamed, when the dead brush against you,  
 those other dead, who held out to the end.  
 (What, after all, does end mean?) Exchange glances  

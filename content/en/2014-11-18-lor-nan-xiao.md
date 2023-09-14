@@ -5,7 +5,7 @@ slug: lor-nan-xiao
 ---
 
 > I hope my letter could boost this guy up like:
-
+> 
 > ![](https://db.yihui.org/imgur/kmzQife.gif)
 
 I'm not sure if I'm a good observer, but time and time again I feel some people are undervalued, or they were not given better opportunities to show their value. Not surprisingly, I know quite a few such people in the Chinese R/stats community, mainly because of the website [Capital of Statistics](https://cosx.org) (COS) that I founded a number of years ago.

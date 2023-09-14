@@ -48,8 +48,7 @@ anova(fit1, fit2)
 ## 1     97 155                              
 ## 2     96  88  1      66.6 72.6 2.2e-13 ***
 ## ---
-## Signif. codes:  
-## 0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+## Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
 ```
 
 这里因为我们设计的真实模型就是两部分直线斜率和截距在0.5前后都不同，所以这里F检验高度显著，说明加上截距限制条件不合理。道理很简单：除非简约模型和全模型没有显著差异，我们只能认为全模型相对“好”一些。
@@ -59,8 +58,7 @@ anova(fit1, fit2)
 
 ```r
 fit3 = loess(y ~ x, span = 0.2)
-fit4 = loess(y ~ 1 + x + I(x > 0.5) + I((x - 0.5) * (x > 0.5)), 
-  span = 1, degree = 1)
+fit4 = loess(y ~ 1 + x + I(x > 0.5) + I((x - 0.5) * (x > 0.5)), span = 1, degree = 1)
 par(mar = c(4, 4, 0, 0), family = "serif", mgp = c(2, 1, 0))
 plot(x, y, pch = 20, col = "darkgray")
 lines(x, fitted(fit3), lwd = 2, col = 2)

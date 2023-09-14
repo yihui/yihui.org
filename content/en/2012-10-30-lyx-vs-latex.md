@@ -17,13 +17,13 @@ And this is Emacs:
 The difference is obvious. I find it difficult to understand why there are so many people who enjoy reading LaTeX code, which makes my eyes bleed. My experience of promoting LyX was often unsuccessful, and I feel some people were born to hate GUI. [Paul Thompson](https://stat.ethz.ch/pipermail/ess-help/2012-August/008109.html), the last person in that discussion thread, wrote these final comments:
 
 > There is no such thing as LaTeX without `\`
-
+> 
 > Sorry, folks, but that whole idea is whack. Totally whack. It's like onions without tears. Onions have good qualities, but there is a cost. LaTeX has good qualities. The cost is `\`.
-
+> 
 > If you want formatting without `\`, use Word. You don't see a single `\` but you don't see anything of any value.
-
+> 
 > The whole POINT of a markup language is to see the markup. If you don't want to see the markup, use a WYSIWYG editor like Word.
-
+> 
 > Editors which do LaTeX hiding the markup are just another WYSIWYG 3rd order approximation.
 
 Frankly speaking, I agree with none of the above comments. LaTeX is excellent, but that does not mean I must read the backslashes for the rest of my life. LyX has done a wonderful job of hiding `\` while giving us full power of LaTeX. If there is anything that cannot be done with GUI in LyX, we always have the ERT (Evil Red Text), i.e. we can input raw LaTeX code in LyX (`Ctrl + L`). LyX gives us a human-readable interface to LaTeX without sacrificing anything. The whole point of a markup language is not to read the source. If we are to see anything, we see the output. For example, we read a web page instead of its HTML code.

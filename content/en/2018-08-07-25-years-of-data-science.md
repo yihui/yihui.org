@@ -10,14 +10,14 @@ slug: 25-years-of-data-science
 ---
 
 > _When I was a child  
-I caught a fleeting glimpse  
-Out of the corner of my eye  
-I turned to look but it was gone  
-I cannot put my finger on it now  
-The child is grown  
-The dream is gone  
-I have become comfortably numb_
-
+> I caught a fleeting glimpse  
+> Out of the corner of my eye  
+> I turned to look but it was gone  
+> I cannot put my finger on it now  
+> The child is grown  
+> The dream is gone  
+> I have become comfortably numb_
+> 
 > --- "Comfortably Numb" by Pink Floyd (1979)
 
 ## Introduction

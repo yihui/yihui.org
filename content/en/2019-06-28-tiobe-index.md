@@ -10,7 +10,7 @@ Python users must be happy to see this month's [TIOBE Index](https://www.tiobe.c
 The main reason I don't like this index is that the effort behind the index seems to be fairly cheap, because it is  based on a few automated queries to search engines and the formula (with somewhat arbitrary weights) to calculate the index is very questionable when you consider what it actually indicates v.s. what this index claims to be (from their web page):
 
 > It is important to note that the TIOBE index is not about the best programming language or the language in which most lines of code have been written.
-
+> 
 > The index can be used to check whether your programming skills are still up to date or to make a strategic decision about what programming language should be adopted when starting to build a new software system.
 
 Basically it says that you should follow whatever programming languages that most other people have searched for in search engines. No wonder the current US president was elected. Speaking of media and search engine coverage, he was definitely the winner.

@@ -5,7 +5,7 @@ slug: enjoyable-reproducible-research
 ---
 
 > Note: this is a contributed article for the [ICSA Bulletin](http://www.icsa.org/bulletin/) and the basic idea can be summarized in this picture.
-
+> 
 > ![No LaTeX tricks please](https://db.yihui.org/imgur/jrwbX.jpg)
 
 It is hard to convince people to think about reproducible research (RR). There are two parts of difficulties: (1) tools used to be for experts only and (2) it is still common practice to copy and paste. For some statisticians, RR is almost equivalent to Sweave (R + LaTeX). I love LaTeX, but LaTeX is still hell to many people. I had an experience of teaching Sweave in a stat-computing class at Iowa State University, and I can tell you their horrible faces after I taught them LaTeX in the first half of the class. I will never do that again.

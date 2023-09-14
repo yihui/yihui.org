@@ -31,18 +31,18 @@ Change my sorrow
 You can select it, and click the addin, which will generate the expected output below:
 
 > Like Barley Bending  
-　by Sara Teasdale
-
+> 　by Sara Teasdale
+> 
 > Like barley bending  
-　In low fields by the sea,  
-Singing in hard wind  
-　Ceaselessly;
-
+> 　In low fields by the sea,  
+> Singing in hard wind  
+> 　Ceaselessly;
+> 
 > Like barley bending  
-　And rising again,  
-So would I, unbroken,  
-　Rise from pain;
-
+> 　And rising again,  
+> So would I, unbroken,  
+> 　Rise from pain;
+> 
 > So would I softly,  
 　Day long, night long,  
 Change my sorrow  

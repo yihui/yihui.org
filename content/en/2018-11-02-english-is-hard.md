@@ -59,7 +59,7 @@ Only ugly languages become popular. Python is the one exception. -- Donald Knuth
 -->
 
 > If we were to wake up some morning and find that everyone was the same race, creed and color, we would find some other cause for prejudice by noon.
-
+> 
 > --- George Aiken
 
 In the end, to those who are still interested in language wars and believe languages and software are an essential part of your identities, I'd highly recommend a novel, [_And Quiet Flows the Don_](https://en.wikipedia.org/wiki/And_Quiet_Flows_the_Don), to help you get rid of your identities. It is an epic novel and took me quite a few months to finish in 2014. Among all the novels I have read, this one has had the biggest impact on my view of the world. Who are your real enemies? What have you been fighting for? A dream, or a label?

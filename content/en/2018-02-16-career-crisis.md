@@ -54,25 +54,25 @@ To analyze my personality, I need to start from my elementary school. I have alm
 A couple of weeks ago when I checked in at the front desk of the hotel to attend rstudio::conf, the conversation was like this (which is a typical one of mine):
 
 > "Check in, please." (Handing over my ID and credit card at the same time. I knew she would need my credit card for incidentals. I just wanted to save her a question.)
-
+> 
 > "Okay... You stay here for three nights and check out on Feb 4th, right?"
-
+> 
 > "Yes."
-
+> 
 > "Your room was booked by your company, and your personal credit card will only be charged for incidentals."
-
+> 
 > "Okay."
-
+> 
 > "Do you need maps of the hotel and the city?"
-
+> 
 > "No."
-
+> 
 > "Do you have any questions?"
-
+> 
 > "No."
-
+> 
 > "Okay. Your room number is XXXX, and follow this way to the elevator."
-
+> 
 > "Thank you!" (Phew! Ran off.)
 
 I'm a little afraid of one-to-one conversations on non-technical topics. I often feel the other person is expecting me to say more, looking me in the eye, but I don't have anything more to say, which leads to awkward silence. That is probably why I often avoid eye contact when talking to people.

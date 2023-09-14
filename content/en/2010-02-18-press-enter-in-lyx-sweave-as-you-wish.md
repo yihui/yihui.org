@@ -5,7 +5,7 @@ slug: press-enter-in-lyx-sweave-as-you-wish
 ---
 
 > Note: this post is seriously out-of-date, and you should ignore it completely. See the [Sweave manual](https://github.com/downloads/yihui/lyx/sweave.pdf) for instructions with latest versions of LyX.
-
+> 
 > You have been warned above.
 
 For a long time I've been wondering why we are not able to use Enter in the LyX Scrap environment which was set up by Gregor Gorjanc for Sweave. Two weeks ago, I (finally!) could not help asking Gregor about this issue, as I'm using ``LyX + Sweave'' more and more in my daily work. He explained it here: [LyX-Sweave: mandatory use of control+enter in code chunks](http://ggorjan.blogspot.com/2009/07/lyx-sweave-mandatory-use-of.html)

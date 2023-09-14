@@ -8,11 +8,11 @@ slug: interesting-r-fortunes
 
 
 > If you imagine that this pen is Trellis, then Lattice is not this pen.
-
+> 
 > -- Paul Murrell (on the difference of Lattice (which eventually was called grid) and Trellis)
-
+> 
 > DSC 2001, Wien (March 2001)
-
+>
 > 'They' did write documentation that told you that Perl was needed, but 'they' can't read it for you.
 > 
 > -- Brian D. Ripley

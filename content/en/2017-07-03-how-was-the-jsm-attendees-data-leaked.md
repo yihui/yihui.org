@@ -7,7 +7,7 @@ slug: leaked-jsm-attendees-data
 I have received multiple emails trying to sell the JSM 2017 attendees data to me in the past few weeks. For example:
 
 > Edwin Lee \<edwin.lee@tradeshow-list.com\>
-
+> 
 > Hi,
  
 > Would you be interested in  JSM Joint Statistical Meetings 2017 Attendees List?

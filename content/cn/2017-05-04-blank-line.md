@@ -9,7 +9,7 @@ slug: blank-line
 瞄了一眼边小编[^1]的[合并请求](https://github.com/cosname/cosx.org/pull/538)（源文件[在此](https://raw.githubusercontent.com/tomatoiscoding/cosx.org/993e00001558e01262f92fac5dd17df9bb58c4c0/content/post/Bandit%E7%AE%97%E6%B3%95%E4%B8%8E%E6%8E%A8%E8%8D%90%E7%B3%BB%E7%BB%9F.md)），本骆驼终于垮了，于是拍拍土爬起来说一下这个空行问题。简单说来就一句话：
 
 > 吾真心望尔等写 Markdown 文档时，在**不同类型**元素之间留一个空行。
-
+> 
 > 拉面。
 
 比如 YAML 元数据与正文之间留一个空行，小节标题与下面的段落之间留一个空行，大图片与段落之间留一个空行，列表项与引用块之间留一个空行，等等。凡是上一个元素和下一个元素类型不同时，都留一个空行。

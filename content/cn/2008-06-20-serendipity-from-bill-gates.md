@@ -7,12 +7,12 @@ slug: serendipity-from-bill-gates
 刚才从一个朋友那儿收到一封很有意思的邮件，标题是巨长一串“FW: Fw : Fw : Fw : Fw : Fw : Fw : ?转发:……”，打开来一看，原来是告诉我天上掉钱了，让赶紧打开口袋接着：
 
 > Don't Know True Or False, Just Have a Try
-請不要管它是真還是假，試一下！　如下文章的意思是：（水平有限，可能翻譯得不是很正確，班門弄斧了！）
-Dear Friends,
-Please do not take this for a junk letter. Bill Gates is sharing his fortune. If you ignore this you will repent later. Microsoft and AOL are now the largest Internet companies and in an effort to make sure that Internet Explorer remains the most widely used program, Microsoft and AOL are running an e-mail beta test.
-親愛的朋友們，
-請不要把此郵件當作是垃圾郵件。比爾.蓋茨正在施捨他的財富。如果你無視此封郵件稍後你將會追悔莫及.Microsoft and AOL 是現今最大的因特網公司並致力於確保因特網Windows資源管理器依然是使用最廣的程序，Microsoft and AOL 正在進行E-mail第二個階段的測試。
-
+> 請不要管它是真還是假，試一下！　如下文章的意思是：（水平有限，可能翻譯得不是很正確，班門弄斧了！）
+> Dear Friends,
+> Please do not take this for a junk letter. Bill Gates is sharing his fortune. If you ignore this you will repent later. Microsoft and AOL are now the largest Internet companies and in an effort to make sure that Internet Explorer remains the most widely used program, Microsoft and AOL are running an e-mail beta test.
+> 親愛的朋友們，
+> 請不要把此郵件當作是垃圾郵件。比爾.蓋茨正在施捨他的財富。如果你無視此封郵件稍後你將會追悔莫及.Microsoft and AOL 是現今最大的因特網公司並致力於確保因特網Windows資源管理器依然是使用最廣的程序，Microsoft and AOL 正在進行E-mail第二個階段的測試。
+> 
 > When you forward this e-mail to friends, Microsoft can and will track it (if you are a Microsoft Windows user) for a two week time period.
 噹你把此e-mail轉送給你的朋友時，微軟將跟在兩周內蹤它（如果你是Microsoft Windows 的使用者）。
 For every person that you forward this e-mail to, Microsoft will pay you $245.00, for every person that you sent it to that forwards it on, Microsoft will pay you $243.00 and for every third person that receives it, you will be paid $241.00. Within two week! s, Microsoft will contact you for your address and then send you a cheque.
