@@ -17,7 +17,7 @@
   text-align: center;
   margin: 2em 0 1em;
 }
-.main > blockquote:first-child {
+.main > blockquote:first-child, #TableOfContents + blockquote {
   border-left-color: yellow;
   background-color: lightyellow;
   font-size: .9em;
@@ -46,10 +46,6 @@
   float: left;
   line-height: 1em;
   font-family: cursive;
-}
-#TableOfContents {
-  background-color: #f8f8f8;
-  padding: .5em;
 }
 blockquote {
   margin: 1em 0;
@@ -90,6 +86,12 @@ code[class="fullwidth"] {
 span.hash-note::before { content: "　# "; }
 .hide-notes .hash-note, .unlist { display: none !important; }
 
+@media only screen and (min-width: 768px) {
+  .cn #TableOfContents {
+    columns: 2;
+  }
+}
+
 @media only screen and (min-width: 992px) {
   .main > pre, table {
     width: auto;
@@ -99,7 +101,7 @@ span.hash-note::before { content: "　# "; }
 }
 
 @media print {
-  del, footer, .nav-top {
+  del, footer, .nav-top, #TableOfContents {
     display: none;
   }
 }
