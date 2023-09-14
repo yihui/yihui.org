@@ -1,6 +1,6 @@
 ---
 title: An Interview of Me by JP and Sarah
-subtitle: Chat about My R Journey, Hobbies, and the R Community
+subtitle: Chatting about My R Journey, Hobbies, and the R Community
 date: '2023-09-12'
 slug: jp-sarah-interview
 ---
