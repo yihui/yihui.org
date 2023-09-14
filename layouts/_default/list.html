@@ -1,14 +1,14 @@
 {{ define "page-list" }}
 {{ if (or .Params.list_pages (not .Content)) }}
 {{ if .Params.list_pages }}
-  {{ range .Pages.ByParam (or .Params.order_by "date" ) }}
+  {{ range .RegularPages.ByParam (or .Params.order_by "date" ) }}
   <p>
     <span>{{ .Date.Format "2006-01-02" }}</span>
     <a href="{{ .RelPermalink }}">{{ .Title | markdownify }} {{ with .Params.subtitle }}<span class='subtitle'> &middot; {{ . | markdownify }} </span>{{ end }}</a>
   </p>
   {{ end }}
 {{ else }}
-  {{ range .Pages.GroupByDate "2006" }}
+  {{ range .RegularPages.GroupByDate "2006" }}
   <h2>{{ .Key }}</h2>
   {{ range .Pages.GroupByDate "01" }}
   <ul>
