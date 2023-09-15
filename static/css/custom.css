@@ -32,9 +32,6 @@
 .cn .post-nav {
   font-size: initial;
 }
-.menu li:not([class]) a, .copyright a {
-  border-bottom: none;
-}
 .en .main > p:first-of-type::first-line {
   font-variant: small-caps;
   letter-spacing: .05em;
