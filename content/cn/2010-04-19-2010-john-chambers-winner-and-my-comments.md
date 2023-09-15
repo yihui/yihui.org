@@ -4,7 +4,7 @@ date: '2010-04-19'
 slug: 2010-john-chambers-winner-and-my-comments
 ---
 
-早上和其他两位评委Simon Urbanek以及Hadley Wickham进行了电话会议，我们将今年的[Chambers奖](http://stat-computing.org/awards/jmc/)授给Michael J. Kane和他的[bigmemory](http://cran.r-project.org/web/packages/bigmemory/index.html)包（剧透了剧透了）。通过看今年提交的参赛作品，我觉得拿下这个奖的困难并没有想象中那么大，国内的客官们努力努力，也是很有希望获奖的（比如我相信精于C++的颜大站长能独立写出bigmemory包的概率大于95%）。此前在COS论坛上呼吁大家踊跃参加，估计大家都觉得这是天方夜谭，明年我以95%的概率不会做评委了，不过这评奖过程给我几点感想可供后来人借鉴：
+早上和其他两位评委Simon Urbanek以及Hadley Wickham进行了电话会议，我们将今年的[Chambers奖](https://community.amstat.org/jointscsg-section/awards/john-m-chambers)授给Michael J. Kane和他的[bigmemory](http://cran.r-project.org/web/packages/bigmemory/index.html)包（剧透了剧透了）。通过看今年提交的参赛作品，我觉得拿下这个奖的困难并没有想象中那么大，国内的客官们努力努力，也是很有希望获奖的（比如我相信精于C++的颜大站长能独立写出bigmemory包的概率大于95%）。此前在COS论坛上呼吁大家踊跃参加，估计大家都觉得这是天方夜谭，明年我以95%的概率不会做评委了，不过这评奖过程给我几点感想可供后来人借鉴：
 
 1. 严格按照主办方的规则行事。主办方的评奖规则中怎么写，我们就对照这一条一条规则检查自己的作品是否都符合了要求。比如Chambers奖的规则描述是：
 
