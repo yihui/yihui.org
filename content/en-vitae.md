@@ -22,7 +22,7 @@ Email: xie@yihui.org; Homepage: <https://yihui.org>; Mastodon [@yihui@mastodon.s
 
 In 2006, he founded the Capital of Statistics (<https://cosx.org>), which has grown into a large online community on statistics in China. He initiated the Chinese R conference in 2008, and has been involved in organizing R conferences in China since then. During his PhD training at Iowa State University, he won the Vince Sposito Statistical Computing Award (2011) and the Snedecor Award (2012) in the Department of Statistics.
 
-## Research Interests
+## Professional Interests
 
 Reproducible research; statistical computing; statistical graphics; data visualization.
 
@@ -37,7 +37,7 @@ Reproducible research; statistical computing; statistical graphics; data visuali
 - [Snedecor Award](http://stat.iastate.edu/graduate-financial-support), 2012 (the most outstanding PhD candidate in the Department of Statistics, Iowa State University)
 - Honorable Mention Prize, the Applications of R in Business [Competition](http://bit.ly/wx4bFb), 2012
 - [Vince Sposito](http://stat.iastate.edu/graduate-financial-support) Statistical Computing Award, 2011 (Department of Statistics, Iowa State University)
-- John M. Chambers Statistical Software [Award](http://stat-computing.org/awards/jmc/winners.html), ASA, 2009 (for the R package [animation](https://github.com/yihui/animation))
+- John M. Chambers Statistical Software [Award](https://community.amstat.org/jointscsg-section/awards/john-m-chambers), ASA, 2009 (for the R package [animation](https://github.com/yihui/animation))
 <!--
 - Excellent graduate scholarship, Renmin University of China, 2007
 - Successful Participant, Mathematical Contest in Modeling (America), 2006 ([paper](https://db.yihui.org/docs/MCM-2006-paper-Yihui-Xie.pdf); [certificate](https://db.yihui.org/imgur/c3soC.jpg "Certificate of Mathematical Contest in Modelling (America)"))
@@ -94,11 +94,10 @@ Besides, I published several articles in the [Capital of Statistics](https://cos
 
 ## Professional Experience
 
-I joined RStudio as a software engineer in 2013, and have been writing software tools for data visualization, reproducible research, and automatic reporting/document generation.
+I joined RStudio (later rebranded to Posit) as a software engineer in 2013, and have been writing software tools for data visualization, reproducible research, and automatic reporting/document generation.
 
-I [worked on](https://github.com/rstudio/shiny/graphs/contributors) Shiny from late 2013 to mid-2015. I added a few new features to Shiny, such as the support for JavaScript libraries [DataTables](https://datatables.net) and [selectize.js](http://selectize.github.io/selectize.js/), and solved the problem with Unicode characters in Shiny apps on Windows.
-
-From late 2014, I started working on the [**DT**](https://github.com/rstudio/DT) package for displaying tables, and **DT** is an interface to the DataTables library in both Shiny apps and R Markdown documents. At about the same time, I worked extensively on the [**leaflet**](https://github.com/rstudio/leaflet) package for interactive maps, to bring it to the HTML widgets framework. My 2015 was primarily spent on these two packages.
+I [worked on](https://github.com/rstudio/shiny/graphs/contributors) Shiny from late 2013 to mid-2015. <!--I added a few new features to Shiny, such as the support for JavaScript libraries [DataTables](https://datatables.net) and [selectize.js](http://selectize.github.io/selectize.js/), and solved the problem with Unicode characters in Shiny apps on Windows.-->
+From late 2014, I started working on the [**DT**](https://github.com/rstudio/DT) package for displaying tables. At about the same time, I worked extensively on the [**leaflet**](https://github.com/rstudio/leaflet) package for interactive maps, to bring it to the HTML widgets framework. My 2015 was primarily spent on these two packages.
 
 In early 2016, I created a new package named [**tufte**](https://github.com/rstudio/tufte), to add the Tufte style to R Markdown documents and support both HTML and PDF output formats. I started the [**bookdown**](https://github.com/rstudio/bookdown) project in late 2015 to make it easier to write books and technical documents with R Markdown, and most of my time in 2016 was spent on this project. I also published a book for the **bookdown** package with Chapman & Hall/CRC in 2016.
 
@@ -106,7 +105,7 @@ Since late 2016, I started the [**blogdown**](https://github.com/rstudio/blogdow
 
 I spent the first half of 2018 on writing the book "[R Markdown: The Definitive Guide](https://bookdown.org/yihui/rmarkdown)" (published in July), and the last few months on the R package [**pagedown**](https://github.com/rstudio/pagedown).
 
-I was not very productive in 2019. I often felt drown in Github issues and Stack Overflow questions. There was too much maintainence work for me to do for my R packages. I planned to write the [R Markdown Cookbook](https://bookdown.org/yihui/rmarkdown-cookbook), but didn't finish it until the summer of 2020. After that, I started to pay the huge amount of tech debt accumulated due to the hard time of COVID and the writing of the aforementioned book. I revamped the **blogdown** package in the second half of 2020.
+I was not very productive in 2019. <!--I often felt drown in Github issues and Stack Overflow questions.--> There was too much maintainence work for me to do for my R packages. I planned to write the [R Markdown Cookbook](https://bookdown.org/yihui/rmarkdown-cookbook), but didn't finish it until the summer of 2020. After that, I started to pay the huge amount of tech debt accumulated due to the hard time of COVID and the writing of the aforementioned book. I revamped the **blogdown** package in the second half of 2020.
 
 Since the September of 2019, I had been more and more overwhelmed by the workload. 2020 had been quite a traumatic year to me (perhaps to everyone else, too). Fortunately, the tech debt started to appear manageable at the end of the first half of 2021.
 
@@ -119,7 +118,7 @@ Since the September of 2019, I had been more and more overwhelmed by the workloa
 
 Sept 2003 - Present
 
-I created and maintained web pages for:
+I created and maintained websites for:
 
 - [The School of Statistics](https://stat.ruc.edu.cn), Renmin University of China (Sept 2003 - Jun 2009)
 - The Center for Applied Statistics, Renmin University of China (Apr 2004 - Jun 2009)
@@ -181,6 +180,8 @@ Projects participated:
 
 Most of my slides were generated from R Markdown (especially the ones in recent years). To download the R Markdown source documents, simply replace the extension `.html` with `.Rmd` in the address bar of your web browser.
 
+- Yihui Xie, 2023, _On the last step of data science: communication_, Huazhong Agricultural University, Wuhan, China ([slides](https://slides.yihui.org/2023-hzau-rmarkdown.html))
+- Yihui Xie, 2023, _Introducing a lightweight version of R Markdown_, an ASA Philly webinar ([slides](https://slides.yihui.org/2023-philly-markdown.html))
 - Yihui Xie, 2023, _An anatomy of R Markdown with minimal applications_, an invited talk to ASA Statistical Computing & Graphics Sections ([slides](https://slides.yihui.org/2023-minimal-r-markdown.html); [video](https://youtu.be/fiy32LjgGUE))
 - Yihui Xie, 2022, _A graduate student's random walk_, an invited talk at the 75th anniversary of the Department of Statistics, Iowa State University
 - Yihui Xie, 2022, _Highlights of the knitr package from the past two years_, rstudio::conf(2022) ([slides](https://slides.yihui.org/2022-rstudio-conf-knitr.html); [video](https://www.rstudio.com/conference/2022/talks/highlights-of-knitr-package-past/))
@@ -378,5 +379,5 @@ I have contributed to:
 ### Misc
 
 - The Sweave and knitr modules in [LyX](http://www.lyx.org) (with Jean-Marc Lasgouttes)
-- The Hugo themes [XMin](https://xmin.yihui.org), [XMag](https://xmag.yihui.org), and [Ivy](https://ivy.yihui.org)
+- The Hugo themes [XMin](https://xmin.yihui.org), [XMag](https://xmag.yihui.org), [Ivy](https://ivy.yihui.org), and [Paged](https://paged.yihui.org)
 - [TinyTeX](/tinytex/), a small and easy-to-maintain LaTeX distribution based on TeX Live

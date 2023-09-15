@@ -25,7 +25,7 @@ Email：xie@yihui.org；主页：<https://yihui.org>；现居住于美国内布�
 - 2012.09 [George W. Snedecor](http://stat.iastate.edu/graduate-financial-support) 奖（杰出博士生），爱荷华州立大学统计系
 - 2012.01 Honorable Mention 奖，R 在商业中的应用[竞赛](http://bit.ly/wx4bFb)
 - 2011.08 [Vince Sposito](http://stat.iastate.edu/graduate-financial-support) 统计计算奖，爱荷华州立大学统计系
-- 2009.04 美国统计学会 [John Chambers 软件奖](http://stat-computing.org/awards/jmc/winners.html)
+- 2009.04 美国统计学会 [John Chambers 软件奖](https://community.amstat.org/jointscsg-section/awards/john-m-chambers)
 - 2007.01 中国人民大学学生媒体先进工作者三等奖
 
 <!--
@@ -123,6 +123,8 @@ Email：xie@yihui.org；主页：<https://yihui.org>；现居住于美国内布�
 
 以下多数幻灯片都是基于 R Markdown 文档输出的 HTML 网页格式（尤其是近年来的幻灯片）；若需要查看 R Markdown 源文档，只需要在浏览器地址栏中将 `.html` 扩展名替换为 `.Rmd` 即可下载相应的 R Markdown 文档。
 
+- 谢益辉，2023，谈谈数据科学的最后一环：沟通，华中农业大学，武汉（[幻灯片](https://slides.yihui.org/2023-hzau-rmarkdown.html)）
+- 谢益辉，2023，_Introducing a lightweight version of R Markdown_，美国统计学会费城分会报告（[幻灯片](https://slides.yihui.org/2023-philly-markdown.html)）
 - 谢益辉，2023，_An anatomy of R Markdown with minimal applications_，美国统计学会计算与图形分会邀请报告（[幻灯片](https://slides.yihui.org/2023-minimal-r-markdown.html)；[视频](https://youtu.be/fiy32LjgGUE)）
 - 谢益辉，2022，_A graduate student's random walk_，爱荷华州立大学统计系 75 周年系庆报告
 - 谢益辉，2022，_Highlights of the knitr package from the past two years_，RStudio大会报告（[幻灯片](https://slides.yihui.org/2022-rstudio-conf-knitr.html)；[视频](https://www.rstudio.com/conference/2022/talks/highlights-of-knitr-package-past/)）
@@ -363,5 +365,5 @@ Email：xie@yihui.org；主页：<https://yihui.org>；现居住于美国内布�
 ### 其它
 
 - LyX 中的 Sweave 和 knitr 模块
-- Hugo 主题 [XMin](https://xmin.yihui.org)、[XMag](https://xmag.yihui.org)、[Ivy](https://ivy.yihui.org)
+- Hugo 主题 [XMin](https://xmin.yihui.org)、[XMag](https://xmag.yihui.org)、[Ivy](https://ivy.yihui.org)、[Paged](https://paged.yihui.org)
 - [TinyTeX](/tinytex/)，精简版的 TeX Live
