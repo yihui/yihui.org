@@ -14,5 +14,6 @@
 <a href="/{{ . }}/index.xml" type="application/rss+xml" title="RSS feed">{{ default "Subscribe" (index $.Site.Params.lang.subscribe $section) }}</a>
 {{ end }}
 <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/" title="Attribution-NonCommercial-ShareAlike 4.0 International">{{ default "License" (index $.Site.Params.lang.license $section) }}</a>
+<a href="{{ relURL "search/" }}">{{ default "Search" (index $.Site.Params.lang.search $section) }}</a>
 <a href="#">{{ default "Back to top" (index $.Site.Params.lang.top $section) }}</a>
 {{ end }}
