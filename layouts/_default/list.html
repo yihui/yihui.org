@@ -21,6 +21,15 @@
   </ul>
   {{ end }}
   {{ end }}
+  <div class="stats">
+    {{- $words := 0 -}}{{- $chars := 0 -}}{{- $runes := 0 -}}
+    {{- range .RegularPages -}}
+    {{- $words = add $words .WordCount -}}
+    {{- $chars = add $chars (split (replace .Plain "\n" "") "" | len) -}}
+    {{- $runes = add $runes (countrunes .Plain) -}}
+    {{- end -}}
+    {{- partial (cond (eq .Section "cn") "stats_cn.html" "stats_en.html") (dict "Years" (.RegularPages.GroupByDate "2006" | len) "Posts" (len .RegularPages | lang.FormatNumberCustom 0) "Words" (lang.FormatNumberCustom 0 $words) "Runes" (lang.FormatNumberCustom 0 $runes) "Chars" (lang.FormatNumberCustom 0 $chars)) -}}
+  </div>
 {{ end }}
 {{ end }}
 {{ end }}

@@ -25,9 +25,12 @@
 .archive > h2 {
   text-align: initial;
 }
-.main > ul > li > span:first-child, .main > p > span:first-child, .main > p .subtitle, .hash-note, .post-nav {
+.main > ul > li > span:first-child, .main > p > span:first-child, .main > p .subtitle, .hash-note, .post-nav, .stats {
   color: #666;
   font-size: .9em;
+}
+.stats {
+  text-align: right;
 }
 .cn .post-nav {
   font-size: initial;
