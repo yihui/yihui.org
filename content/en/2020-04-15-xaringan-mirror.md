@@ -7,7 +7,7 @@ slug: xaringan-mirror
 
 Ted Laderas [just discovered](http://web.archive.org/web/20200413224208/https://twitter.com/tladeras/status/1249827822174007296) a surprising and probably also funny feature of **xaringan** slides: when you press `m` on a slide, the slide will be mirrored.
 
-![The mirrored mode of xaringan/remark.js slides](http://web.archive.org/web/20200413224208im_/https://pbs.twimg.com/media/EVhHV5QU4AA_DVu.png)
+![The mirrored mode of xaringan/remark.js slides](https://web.archive.org/web/20200413224208im_/https://pbs.twimg.com/media/EVhHV5QU4AA_DVu.png)
 
 Ted was certainly not alone, as you can see from [Alison's reply](https://twitter.com/apreshill/status/1249829850946211840). Alison also said:
 
