@@ -20,8 +20,15 @@
       <guid>{{ .Permalink }}</guid>
       <description>
         {{ `<![CDATA[` | safeHTML }}
-        {{ if eq .Section "en" }}
-        {{ (replaceRE "\v" "" .Content) | safeHTML }}
+        {{- if eq .Section "en" -}}
+        {{- $content := (replaceRE "\v" "" .Content) -}}{{- $content2 := slice -}}
+        {{- range $v := (split $content "</p>") -}}
+          {{- range (findRE "\n" $v) -}}
+          {{- $v = replaceRE `(<p>.*)\n` `$1 ` $v -}}
+          {{- end -}}
+          {{- $content2 = append $v $content2 -}}
+        {{- end -}}
+        {{ delimit $content2 "</p>" | safeHTML }}
         {{ (printf "<script>location.href='%s';</script>" .Permalink) | safeHTML }}
         {{ else }}
         {{ .Content | replaceRE `<!--#?(.|\n)*?-->` "" | safeHTML | truncate 100 (print "[...] <" .Permalink ">" | markdownify) | safeHTML }}
