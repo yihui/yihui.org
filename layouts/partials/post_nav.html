@@ -1,6 +1,6 @@
 {{ if .Section }}
 <nav class="post-nav fullwidth kai">
-  <span class="nav-prev">{{ with .PrevInSection }}&larr; <a href="{{ .RelPermalink }}">{{ .Title }}</a>{{ end }}</span>
-  <span class="nav-next">{{ with .NextInSection }}<a href="{{ .RelPermalink }}">{{ .Title }}</a> &rarr;{{ end }}</span>
+  <span class="nav-prev">{{ with .PrevInSection }}&larr; <a href="{{ .RelPermalink }}">{{ .Title | markdownify }}</a>{{ end }}</span>
+  <span class="nav-next">{{ with .NextInSection }}<a href="{{ .RelPermalink }}">{{ .Title | markdownify }}</a> &rarr;{{ end }}</span>
 </nav>
 {{ end }}
