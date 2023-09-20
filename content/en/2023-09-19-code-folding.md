@@ -47,7 +47,14 @@ document.querySelectorAll('pre').forEach(pre => {
 That's it. You can open any web page that contains `<pre>` blocks, paste the
 code into the JavaScript console of your browser (in Developer Tools), and see
 code blocks being folded into `Details` elements, on which you can click to
-unfold.
+unfold.[^1]
+
+[^1]: You may not like details to "snap" on toggle, but prefer a smooth
+    transition. That can be achieved by [more JS
+    code](https://codepen.io/Yihui-Xie/pen/WNLdvVb) (which I forked and tweaked
+    from [Louis Hoebregts's
+    work](https://css-tricks.com/how-to-animate-the-details-element-using-waapi/),
+    but honestly, I do not understand it).
 
 ## Fold source but not output blocks
 
@@ -183,6 +190,7 @@ and created a button with the ID `toggle-all` below:
 }
 summary {
   font-style: italic;
+  cursor: pointer;
   border-bottom: 1px solid var(--border-color);
 }
 details:last-of-type {
