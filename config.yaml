@@ -149,20 +149,10 @@ params:
   description: "Personal website of Yihui Xie; 谢益辉的个人网站"
   footer: "&copy; [Yihui Xie](/) 2001 - {Year}"
   customJS:
-    - "fix-toc.js"
     - "comment-utils.js"
-    - "fullwidth.js"
-    - "right-quote.js"
-    - "fix-footnote.js"
     - "hash-notes.js"
     - "toggle-notes.js"
     - "post-nav.js"
-    - "external-link.js"
-    - "alt-title.js"
-    - "heading-anchor.js"
-    - "key-buttons.js"
-  customCSS:
-    - "key-buttons.css"
   githubContentURL: "https://github.com/yihui/yihui.org/edit/master/content/"
   twitterImage: "/images/logo.png"
 

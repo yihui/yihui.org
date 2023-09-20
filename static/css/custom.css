@@ -75,12 +75,6 @@ code[class="fullwidth"] {
   background-color: inherit;
   text-decoration: inherit;
 }
-.anchor {
-  display: none;
-}
-:hover > .anchor {
-  display: inline;
-}
 .hash-note { background: lightyellow; }
 .hash-note a { color: inherit; }
 span.hash-note::before { content: "　# "; }
