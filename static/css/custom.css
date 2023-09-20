@@ -87,7 +87,7 @@ span.hash-note::before { content: "　# "; }
 .hide-notes .hash-note, .unlist { display: none !important; }
 
 @media only screen and (min-width: 768px) {
-  .main > pre, table {
+  pre, table {
     width: auto;
     max-width: none;
     margin-left: auto;
