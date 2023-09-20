@@ -9,16 +9,12 @@
   {{ end }}
 {{ else }}
   {{ range .RegularPages.GroupByDate "2006" }}
-  <h2>{{ .Key }}</h2>
+<h2>{{ .Key }}</h2>
   {{ range .Pages.GroupByDate "01" }}
-  <ul>
-  {{ range .Pages }}
-  <li{{ with .Params.page_class }} class="{{ . }}"{{ end }}>
-    <span>{{ .Date.Format "2006-01-02" }}</span>
-    <a href="{{ .RelPermalink }}">{{ .Title | markdownify }}</a>
-  </li>
-  {{ end }}
-  </ul>
+<ul>
+  {{- range .Pages -}}
+<li{{ with .Params.page_class }} class="{{ . }}"{{ end }}><span>{{ .Date.Format "2006-01-02" }}</span> <a href="{{ .RelPermalink }}">{{ .Title | markdownify }}</a></li>
+{{ end }}</ul>
   {{ end }}
   {{ end }}
   <div class="stats">
