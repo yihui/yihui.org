@@ -54,7 +54,7 @@ If the HTML code is well-organized as a series of sections (e.g.,
 `<div class="slide">`), I probably would not need to write much JavaScript.
 Eventually I wrote about 140 lines of JS
 ([snap.js](https://github.com/rstudio/markdown/blob/master/inst/resources/snap.js)).
-One third of the code reorganize content into slide pages, e.g., convert
+One third of the code reorganizes content into slide pages, e.g., convert
 
 ``` html
 <h2>First slide</h2>
