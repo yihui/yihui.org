@@ -198,8 +198,7 @@ although I think it should be the last resort---you can already customize many
 things without touching the source. Want the `yolo = TRUE` Karl Broman again? No
 problem (I will leave this exercise to you).
 
-![yolo =
-TRUE](https://github.com/yihui/xaringan/releases/download/v0.0.2/karl-moustache.jpg)
+![yolo = TRUE](https://github.com/yihui/xaringan/releases/download/v0.0.2/karl-moustache.jpg)
 
 So far I have only been bothered by a little problem: I cannot scroll very
 quickly through slides no matter if I use my mouse or arrow keys, and I cannot

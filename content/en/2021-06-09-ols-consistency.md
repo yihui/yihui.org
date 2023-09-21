@@ -14,8 +14,7 @@ Corr(X, ε) = 0 but not independence:
 > uncorrelated with ε, not independent of ε, and I occasionally run a simulation
 > to re-convince myself.
 
-![Nick's
-simulation](https://pbs.twimg.com/media/E3a_NX5VIAAv6mL?format=png&name=small)
+![Nick's simulation](https://pbs.twimg.com/media/E3a_NX5VIAAv6mL?format=png&name=small)
 
 I had no doubt about the conclusion, primarily because I had kindly returned
 most of the things I learned in the linear models class to the instructor after
@@ -96,8 +95,7 @@ text(8000, 1.987, 'Estimate from the simulation
  mentioned in the tweet')
 ```
 
-![Different estimated values of beta as N
-increases](https://user-images.githubusercontent.com/163582/121392349-ea28bf80-c914-11eb-8b3d-44a523ac6a2e.png)
+![Different estimated values of beta as N increases](https://user-images.githubusercontent.com/163582/121392349-ea28bf80-c914-11eb-8b3d-44a523ac6a2e.png)
 
 I have also marked the value 2.0014 in the plot corresponding to the sample size
 10000.

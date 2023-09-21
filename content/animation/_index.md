@@ -16,8 +16,7 @@ this paper:[^1]
     Demonstrating Statistical Methods.* Journal of Statistical Software,
     53(**1**), 1-27. URL <http://www.jstatsoft.org/v53/i01/>.
 
-![The Gradient Descent
-Algorithm](https://assets.yihui.org/figures/animation/example/grad-desc/demo-a.gif)
+![The Gradient Descent Algorithm](https://assets.yihui.org/figures/animation/example/grad-desc/demo-a.gif)
 
 You can install the stable version from
 [CRAN](https://cran.rstudio.com/package=animation), or the development version

@@ -45,6 +45,24 @@ if (!local) {
   for (i in list.files('static', '[.]png$', full.names = TRUE, recursive = TRUE)) {
     system2('optipng', shQuote(i), stderr = FALSE)
   }
+
+  # remove softbreaks in image's alt text since goldmark would eat them:
+  # https://github.com/yuin/goldmark/issues/416
+  unwrap_alt = function(x) {
+    ks = NULL  # lines to be removed
+    for (i in grep('^!\\[[^]]+$', x)) {
+      for (j in seq_len(length(x) - i)) {
+        k = i + j
+        ks = c(ks, k)
+        x[i] = paste(x[i], x[k])
+        if (grepl(']\\(.+)\\s*$', x[k])) break
+      }
+    }
+    if (length(ks)) x[-ks] else x
+  }
+  files = blogdown:::list_rmds(pattern = blogdown:::md_pattern)
+  files = files[file.access(files, 2) == 0]  # writable
+  for (f in files) xfun::process_file(f, unwrap_alt)
 }
 
 if (FALSE) {
