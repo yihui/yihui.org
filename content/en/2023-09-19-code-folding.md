@@ -120,7 +120,7 @@ Once you have learned [CSS
 selectors](https://www.w3schools.com/cssref/css_selectors.php) (which are very
 flexible), you can apply the above idea to fold anything on a web page. All you
 need to do is provide an appropriate selector to `document.querySelectorAll()`.
-For example, if you want fold tables, just use `table` as the selector; or if
+For example, if you want to fold tables, just use `table` as the selector; or if
 you want to fold the comments section `<section class="comments">`, use
 `section.comments`.
 
