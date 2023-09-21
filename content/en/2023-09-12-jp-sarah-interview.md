@@ -160,7 +160,7 @@ fine for you to sit back and watch them shoot.
 > "Man desires a world where good and evil can be clearly distinguished, for he
 > has an innate and irrepressible desire to judge before he understands."
 >
-> --- Milan Kundera, The Art of the Novel
+> ---Milan Kundera, "The Art of the Novel"
 
 Good and bad software tools are often not so clearly distinguished, either. That
 said, I admit that sometimes I have this "irrepressible desire", too.
