@@ -22,9 +22,9 @@ Slides give us a similar experience. If we have an HTML page with multiple
 sections, we could make each section "snap" using this CSS technique. Then this
 continuous page just becomes a series of "slides"!
 
-## Three CSS attributes
+## Three CSS properties
 
-A new HTML5 presentation framework with simply three CSS attributes? That sounds
+A new HTML5 presentation framework with simply three CSS properties? That sounds
 awesome. No one can stop me from working on it.
 
 ``` css
