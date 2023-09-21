@@ -156,10 +156,9 @@ loads `fold-details.js`:
         selector to find an existing parent element for the button, e.g.,
         `data-parent="body"` means to use the document body as the parent of the
         button (in this case, you may want to style the button with CSS
-        `position: absolute;`). The button label can be set via
-        `data-button-label`. The button can be inserted into the parent element
-        by different positions, which can be specified by `data-position`; see
-        [the `insertAdjacentElement()`
+        `position: absolute;`). The button can be inserted into the parent
+        element by different positions, which can be specified by
+        `data-position`; see [the `insertAdjacentElement()`
         method](https://developer.mozilla.org/en-US/docs/Web/API/Element/insertAdjacentElement)
         for possible values (the default is `afterbegin`).
 
@@ -171,15 +170,21 @@ loads `fold-details.js`:
 
     -   By default, no button will be created or used.
 
+-   `data-button-label`: The button label for closing all details, e.g.,
+    `"Hide Details"`.
+
+-   `data-button-label2`: The button label for opening all details. e.g.,
+    `"Show Details"`.
+
 ## An example
 
 I have loaded `fold-details.js` in this post via
 `<script src="path/to/fold-details.js" data-open="true" data-button="#toggle-all">`
 and created a button with the ID `toggle-all` below:
 
-<script src="https://cdn.jsdelivr.net/npm/@xiee/utils/js/fold-details.min.js" data-open="true" data-button="#toggle-all" data-selector="pre>code[class],#TableOfContents~p:nth-last-of-type(3)" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/@xiee/utils/js/fold-details.min.js" data-open="true" data-button="#toggle-all" data-selector="pre>code[class],#TableOfContents~p:nth-last-of-type(3)" data-button-label="Show Details in This Post" data-button-label2="Hide Details in This Post" defer></script>
 
-<p><button id="toggle-all">Toggle Details in This Post</button></p>
+<p><button id="toggle-all">Toggle Details</button></p>
 
 <style type="text/css">
 #toggle-all {
