@@ -49,13 +49,13 @@ Note the additional step of removing the backslashes. Sometimes that could be [t
 
 You may call me inconsiderate, but before I wrote this blog post, I have edited hundreds of Github issues as well as Stack Overflow posts over the years to correct their formatting problems. This three-backtick problem is only one of them. Other common problems include:
 
-1. Do not use verbatim code blocks, e.g., R comments are displayed as section headers because of the `#` character, or YAML metadata looks funny because `---` is interpreted as the second-level section header.
+1. Not using verbatim code blocks, e.g., R comments are displayed as section headers because of the `#` character, or YAML metadata looks funny because `---` is interpreted as the second-level section header.
 
-1. Use the blockquote environment for a verbatim code block, i.e., `>` instead of ```` ``` ````. That is wrong. The Markdown content in the "blockquote" may look funny when it contains special characters, e.g., a line starting with `+` could become a list item. Unless you really intend to quote some words, always use the syntax for verbatim code blocks. If you are not sure if it should be a quote or a code block, use a code block.
+1. Using the blockquote environment for a verbatim code block, i.e., `>` instead of ```` ``` ````. That is wrong. The Markdown content in the "blockquote" may look funny when it contains special characters, e.g., a line starting with `+` could become a list item. Unless you really intend to quote some words, always use the syntax for verbatim code blocks. If you are not sure if it should be a quote or a code block, use a code block.
 
-1. Do not indent the content nested within a list item. I guess many people don't know the four-space rule, either. I wish my eyes were not picky of such formatting issues...
+1. Not indenting the content nested within a list item. I guess many people don't know the four-space rule, either. I wish my eyes were not picky of such formatting issues...
 
-1. Do not put HTML tags in a pair of backticks. Because Github will ignore some HTML tags if you do not show them verbatim, the issue can look highly confusing to me. I remember once someone was talking about the `<meta>` tag, and I had no idea what the issue meant until I hit the edit button to edit his issue.
+1. Not putting HTML tags in a pair of backticks. Because Github will ignore some HTML tags if you do not show them verbatim, the issue can look highly confusing to me. I remember once someone was talking about the `<meta>` tag, and I had no idea what the issue meant until I hit the edit button to edit his issue.
 
 Now I have reached to a point where I feel tired of editing issues to correct the formats. I guess we could blame it on the surprising Markdown syntax, but anyway, now if I see an incorrectly formatted issue, I tend to[^1] keep calm and quietly move on.
 
