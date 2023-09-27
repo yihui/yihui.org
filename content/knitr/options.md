@@ -180,8 +180,13 @@ Below is a list of chunk options in **knitr** documented in the format
     want to stop on errors, we need to set this option to `FALSE`. Note that R
     Markdown has changed this default value to `FALSE`. When the chunk option
     `include = FALSE`, **knitr** will stop on error, because it is easy to
-    overlook potential errors in this case (if you understand this caveat and
-    want to ignore potential errors anyway, you may set `error = 0`).
+    overlook potential errors in this case. If you understand this caveat and
+    want to handle potential errors yourself, you may set `error` to numerical
+    values as they are defined by `evaluate::evaluate()`: `0L` keeps evaluating
+    after errors as if you had pasted the text into a terminal, `1L` stops
+    evaluation after an error but then ends normally (To manually handle errors,
+    you can use the error hook, see the hook section). A value of `2L` makes
+    the knitr call fail on encountering an error.
 
 -   `message`: (`TRUE`; logical) Whether to preserve messages emitted by
     `message()` (similar to the option `warning`).
