@@ -159,7 +159,7 @@ format:
     include-after-body:
       text: |
         <script src="https://cdn.jsdelivr.net/gh/rstudio/markdown@1.8/inst/resources/snap.min.js" defer></script>
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/combine/gh/rstudio/markdown@1.8/inst/resources/default.min.css,gh/rstudio/markdown@1.8/inst/resources/snap.min.css>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/combine/gh/rstudio/markdown@1.8/inst/resources/default.min.css,gh/rstudio/markdown@1.8/inst/resources/snap.min.css">
         <style type="text/css">header{text-align: center;}</style>
 ---
 ```
