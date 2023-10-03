@@ -14,10 +14,10 @@ if ((flagSel && !flagRowSel) || (!flagSel && flagRowSel)) {
 
 好家伙，这是传说中的[圆环套圆环娱乐城](https://zh.wikipedia.org/wiki/%E4%B8%80%E4%B8%AA%E9%A6%92%E5%A4%B4%E5%BC%95%E5%8F%91%E7%9A%84%E8%A1%80%E6%A1%88)咩。每当涉及到两个逻辑变量的比较操作时，我都会在纸上画一个表格，来看清楚到底在比什么。比如上例何时会是 `true`：
 
-\       | flagRowSel | true | false
-:------:|:----------:|:----:|:----:
-**flagSel** | **true**   |  x   |  √
- | **false**  |  √   |  x
+|      | flagRowSel | true | false |
+|:------:|:----------:|:----:|:----:|
+| **flagSel** | **true**   |  x   |  √ |
+| | **false**  |  √   |  x |
 
 这样就很清楚了：当 `flagSel` 和 `flagRowSel` 取值不同时，这个逻辑比较的结果便是 `true`。所以我们就可以把圆环套圆环娱乐城的墙拆了，简化为：
 
