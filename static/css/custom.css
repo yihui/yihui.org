@@ -75,10 +75,19 @@ code[class="fullwidth"] {
   background-color: inherit;
   text-decoration: inherit;
 }
-.hash-note { background: lightyellow; }
+.hash-note, .side { background: lightyellow; }
 .hash-note a { color: inherit; }
 span.hash-note::before { content: "　# "; }
 .hide-notes .hash-note, .unlist { display: none !important; }
+.side { padding: 1em 2em; }
+.side > p:first-child { margin-top: 0; }
+.side > p:last-child { margin-bottom: 0; }
+.bg-number {
+  background: var(--bg-body);
+  filter: invert(1);
+  opacity: .6;
+  padding: .1em;
+}
 
 @media only screen and (min-width: 768px) {
   pre, table {
@@ -100,7 +109,21 @@ span.hash-note::before { content: "　# "; }
 }
 
 @media print {
-  del, footer, .nav-top, #TableOfContents {
+  del, footer, .nav-top, #TableOfContents, .comments {
     display: none;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .has-sidenotes .main, .has-sidenotes .fullwidth {
+    margin-left: 0;
+  }
+  .side-right {
+    float: right;
+    clear: right;
+    background: none;
+    padding: 0 0 1em 0;
+    width: calc(var(--body-width) - var(--text-width) - 2.5rem * 2 - 2rem);
+    margin-right: calc(var(--text-width) + 2.5rem * 2 - var(--body-width));
   }
 }
