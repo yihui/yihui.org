@@ -1,5 +1,4 @@
 {{ if or .IsHome (len (findRE "^/cn/" .RelPermalink)) }}
-<script src="https://cdn.jsdelivr.net/npm/@xiee/utils/js/load-typekit.min.js" defer></script>
 {{ if lt (.Date.Year) 2017 }}
 <script>
 (function(u, c) {
