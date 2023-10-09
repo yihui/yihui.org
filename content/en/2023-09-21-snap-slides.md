@@ -12,11 +12,11 @@ YES](https://cran.r-project.org/web/packages/markdown/vignettes/slides.html))
 
 If you have not heard of it before, [here is a quick
 introduction](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Scroll_Snap/Basic_concepts)
-on MDN to get you started. Basically, it makes it possible for elements to
-"snap" as you scroll over them, which means as soon as you scroll onto an
-element, it will just quickly jump into your view, instead of waiting for you to
-*continuously* scroll over it. If you have used mobile devices to view photos,
-you should be familiar with this user experience.
+on MDN to get you started. Basically, it enables elements to "snap" as you
+scroll over them, which means as soon as you scroll onto an element, it will
+just quickly jump into your view, instead of waiting for you to *continuously*
+scroll over it. If you have used mobile devices to view photos, you should be
+familiar with this user experience.
 
 Slides give us a similar experience. If we have an HTML page with multiple
 sections, we could make each section "snap" using this CSS technique. Then this
