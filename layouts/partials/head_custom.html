@@ -1,16 +1,5 @@
-{{ if or .IsHome (len (findRE "^/cn/" .RelPermalink)) }}
-{{ if lt (.Date.Year) 2017 }}
-<script>
-(function(u, c) {
-  const d = document, t = 'script', o = d.createElement(t), s = d.getElementsByTagName(t)[0];
-  o.src = u;
-  if (c) { o.addEventListener('load', function (e) { c(e); }); }
-  s.parentNode.insertBefore(o, s);
-})('//cdn.jsdelivr.net/npm/pangu@4.0.5/dist/browser/pangu.min.js', function() {
-  pangu.spacingPage();
-});
-</script>
-{{ end }}
+{{ if and (len (findRE "^/cn/" .RelPermalink)) (lt .Date.Year 2017) }}
+<script src="https://cdn.jsdelivr.net/combine/npm/pangu/dist/browser/pangu.min.js,npm/@xiee/utils/js/load-pangu.js" defer></script>
 {{ end }}
 
 {{ partial "custom_css.html" (apply .Site.Params.customCSS "print" "utils/" ".") }}
