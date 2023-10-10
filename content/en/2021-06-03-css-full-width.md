@@ -1,6 +1,6 @@
 ---
 title: Full-width Figures with Two Lines of CSS
-subtitle: "width: 100vw and margin-left: calc(50% - 50vw)"
+subtitle: "`width: 100vw` and `margin-left: calc(50% - 50vw)`"
 date: '2021-06-03'
 slug: css-full-width
 ---
