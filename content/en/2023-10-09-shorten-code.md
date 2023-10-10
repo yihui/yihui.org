@@ -37,7 +37,7 @@ setHook(packageEvent("knitr", "onLoad"),
 
 There is nothing wrong with the code. I'd actually call it professional. For
 example, it carefully checks if the **evaluate** package is installed, finds its
-version number, and set options conditionally.
+version number, and sets options conditionally.
 
 My own coding style is that I prefer using shorter variable names (single
 letters if possible) inside a function if the function is relatively short. I
