@@ -71,14 +71,14 @@ document.querySelectorAll('pre.r');
 That's it. So straightforward.
 
 In retrospect, I'd blame it on [the Internet
-Explorer](https://caniuse.com/?search=querySelectorAll) (IE), especially IE6,
-which I had used for several years. Ironically, I remember how excited I was
-when I first saw IE6 came out: it looked pretty on the pretty Windows XP! Today
-I still think XP was pretty, but IE? IE wasted my life. Again, ironically I
-remember how excited I was when I figured out how to [support file
-uploads](https://github.com/rstudio/shiny/pull/598) for Shiny in IE8/9, but why
-did I have to spend time on that in the first place when all other web browsers
-did not require this special care?
+Explorer](https://caniuse.com/?search=querySelectorAll) (IE) for the lack of
+support, especially IE6, which I had used for several years. Ironically, I
+remember how excited I was when I first saw IE6 came out: it looked pretty on
+the pretty Windows XP! Today I still think XP was pretty, but IE? IE wasted my
+life. Again, ironically I remember how excited I was when I figured out how to
+[support file uploads](https://github.com/rstudio/shiny/pull/598) for Shiny in
+IE8/9, but why did I have to spend time on that in the first place when all
+other web browsers did not require this special care?
 
 Anyway, it is a relief that IE has pretty much died now.
 
