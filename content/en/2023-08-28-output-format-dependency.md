@@ -1,5 +1,5 @@
 ---
-title: 'rmarkdown::output_format_dependency(): An Easier Way to Customize Output Formats for R Markdown'
+title: '`rmarkdown::output_format_dependency()`: An Easier Way to Customize Output Formats for R Markdown'
 date: '2023-08-28'
 slug: output-format-dependency
 ---

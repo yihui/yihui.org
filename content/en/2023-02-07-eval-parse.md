@@ -1,5 +1,5 @@
 ---
-title: You Should Rarely Need eval(parse())
+title: You Should Rarely Need `eval(parse())`
 date: '2023-02-07'
 slug: eval-parse
 ---

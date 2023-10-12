@@ -1,5 +1,5 @@
 ---
-title: Substitute the magrittr Pipe '%>%' with R's Native Pipe Operator '|>'
+title: Substitute the magrittr Pipe `%>%` with R's Native Pipe Operator `|>`
 date: '2022-04-28'
 slug: magrittr-native-pipe
 ---

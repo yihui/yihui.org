@@ -1,5 +1,5 @@
 ---
-title: 'One Little Thing: Spin a Child Script via knitr::spin_child()'
+title: 'One Little Thing: Spin a Child Script via `knitr::spin_child()`'
 date: '2021-06-15'
 slug: spin-child
 ---

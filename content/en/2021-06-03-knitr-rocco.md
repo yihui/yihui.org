@@ -1,5 +1,5 @@
 ---
-title: 'One Little Thing: The Docco Style with knitr::rocco()'
+title: 'One Little Thing: The Docco Style with `knitr::rocco()`'
 subtitle: A two-column HTML layout to show prose and code side by side
 date: '2021-06-03'
 slug: knitr-rocco

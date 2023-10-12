@@ -1,5 +1,5 @@
 ---
-title: Do You Have to get() Objects?
+title: Do You Have to `get()` Objects?
 date: '2023-04-12'
 slug: get-objects
 ---

@@ -1,5 +1,5 @@
 ---
-title: Deprecating xfun::isFALSE()
+title: Deprecating `xfun::isFALSE()`
 date: '2023-02-06'
 slug: xfun-isfalse
 ---
