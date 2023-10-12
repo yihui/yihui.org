@@ -117,8 +117,10 @@ cursor = paste0(strrep(" ", col), "^~~~~~")
 
 ## `append()`: insert elements to a vector
 
-Maëlle has mentioned `append()` in her post. Interestingly, it could be used in
+[Maëlle](https://masalmon.eu/) has mentioned `append()` in her post[^1]. Interestingly, it could be used in
 this pull request, too. Original code:
+
+[^1]: https://masalmon.eu/2023/09/29/three-functions/
 
 ``` r
 split_indexes = seq_along(meta) <= line_index
