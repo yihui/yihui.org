@@ -117,7 +117,7 @@ cursor = paste0(strrep(" ", col), "^~~~~~")
 
 ## `append()`: insert elements to a vector
 
-Maëlle has mentioned `append()` in her post. Interestingly, it could be used in
+Maëlle has mentioned `append()` [in her post](https://masalmon.eu/2023/09/29/three-functions/). Interestingly, it could be used in
 this pull request, too. Original code:
 
 ``` r
