@@ -1,4 +1,4 @@
-.title::before { content: "➶"; }
+h1.title::before { content: "➶"; }
 .main {
   line-height: 1.75;
 }
