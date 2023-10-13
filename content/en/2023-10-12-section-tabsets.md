@@ -1,5 +1,5 @@
 ---
-title: Create Tabsets from HTML Sections via JavaScript and CSS
+title: Create Tabsets from HTML Sections or Bullet Lists via JavaScript and CSS
 date: '2023-10-12'
 slug: section-tabsets
 customJS: [utils/tabsets.js]
@@ -121,7 +121,24 @@ You can keep nesting but I'll stop here.
 
 ### Fourth tab
 
-Enough tabs! Enough!
+Enough tabs? Let me show a tabset created from a bullet list instead of section
+headings:
+
+<div class="tabset"></div>
+
+-   First bullet
+
+    Hi, bullet!
+
+-   Second bullet <!--active-->
+
+    This is the initial active tab.
+
+-   Third bullet
+
+    Bye, bullet!
+
+Okay, I'm done now.
 
 ## Documentation
 
@@ -146,97 +163,128 @@ If you prefer writing Markdown to be rendered to HTML by other tools (e.g., Hugo
 or the R package **markdown**), here is how you create a tabset:
 
 1.  Start with an element with the class `tabset`. This can be any type of
-    element. For example, a heading or an empty `<div>`.
+    element. For example, a heading:
 
     ``` md
     ## Demo tabs {.tabset}
     ```
 
+    or an empty `<div>`:
+
     ``` html
     <div class="tabset"></div>
     ```
 
-2.  Below this element, write a series of sections of any heading level. The
-    first section heading level will be the level of headings to be converted to
-    tabs. For example:
+2.  Below this element, write either a bullet list or a series of sections.
 
-    ``` md
-    ### First tab (level-3)
+    -   If you write a bullet list, the first element of each bullet item will
+        become the tab link, and the rest of elements will become the tab pane,
+        e.g.,
 
-    Some tab content.
+        ``` md
+        * Tab one
 
-    ### Second tab
+          Content of tab one.
 
-    More tab content.
+        * Tab two <!--active-->
 
-    #### A normal heading
+          Content of tab two.
+        ```
 
-    This is a level-4 heading, so it will *not* be
-    converted to a tab.
-    ```
+        I'd recommend this method since it is easier and more natural to create
+        a tabset. However, please make sure to indent the tab pane content
+        properly in the bullet list (using the visual mode to write Markdown in
+        RStudio can help a lot).
 
-    You can set a certain tab to be active initially by adding the class
-    `active` to the heading, e.g.,
+        To specify an initial active tab, add a comment `<!--active-->` to the
+        bullet item.
 
-    ``` md
-    ### Second tab {.active}
-    ```
+    -   If you write sections, the first section heading level will be the level
+        of headings to be converted to tabs, e.g.,
 
-3.  To end a tabset, you can either start a upper-level heading (e.g., level 2
-    for the previous example), or write an HTML comment of the form
-    `<!-- tabset:ID -->`, where `ID` is the ID of the element in Step #1. For
-    example:
+        ``` md
+        ### First tab (level-3)
 
-    ``` md
-    ## My tabs {.tabset}
+        Some tab content.
 
-    ### Tab one
+        ### Second tab
 
-    ### Tab two
+        More tab content.
 
-    ## A new level-2 section
+        #### A normal heading
 
-    The previous tabset will be ended before this section.
-    ```
+        This is a level-4 heading, so it will *not* be
+        converted to a tab.
+        ```
 
-    ``` md
-    ## My tabs {.tabset #my-tabs}
+        You can set a certain tab to be active initially by adding the class
+        `active` to the heading, e.g.,
 
-    ...
+        ``` md
+        ### Second tab {.active}
+        ```
 
-    <!-- tabset:my-tabs -->
+        One downside of using section headings to create a tabset is that the
+        headings may be included in the table of contents of a page, which is
+        why I do not recommend this method, unless you must specify an active
+        tab manually.
 
-    The previous tabset will be ended before this comment.
-    ```
+3.  If you use sections to create a tabset, there are two ways to end the tabset
+    (if you create a tabset with a bullet list, you do not need a special way to
+    end it---it just ends where the list ends):
 
-You can nest tabsets in other tabsets using either Markdown or raw HTML, e.g.,
+    1.  Either start a upper-level heading (e.g., level 2 for the previous
+        example), e.g.,
+
+        ``` md
+        ## My tabs {.tabset}
+
+        ### Tab one
+
+        ### Tab two
+
+        ## A new level-2 section
+
+        The previous tabset will be ended before this section.
+        ```
+
+    2.  or write an HTML comment of the form `<!-- tabset:ID -->`, where `ID` is
+        the ID of the element in Step #1, e.g.,
+
+        ``` md
+        ## My tabs {.tabset #my-tabs}
+
+        ...
+
+        <!-- tabset:my-tabs -->
+
+        The previous tabset will be ended before this comment.
+        ```
+
+You can nest tabsets in other tabsets if you want, e.g.,
 
 ``` md
-## Parent tabs {.tabset}
+<div class="tabset"></div>
 
-### Tab one
+- Tab one
 
-### Tab two
+  Content
 
-#### Child tabs {.tabset #child-tabs}
+- Tab two
 
-##### Child one
+  Content
 
-##### Child two
+  <div class="tabset"></div>
 
-<!-- tabset:child-tabs -->
+    - Child tab one
 
-Another child tabset:
+      Content
 
-<div class="tabset">
-  <div class="tab-link">Tab 1</div>
-  <div class="tab-link">Tab 2</div>
+    - Child tab two
 
-  <div class="tab-pane">Pane 1</div>
-  <div class="tab-pane">Pane 2</div>
-</div>
+      Content
 
-### Tab three
+- Tab three
 ```
 
 I hope you can find this simple tabset implementation useful (it is not tied to
