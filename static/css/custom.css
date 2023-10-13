@@ -62,6 +62,9 @@ blockquote {
 ol, ul {
   padding: 0 0 0 20px;
 }
+ol ol {
+  list-style: lower-roman;
+}
 code[class="fullwidth"] {
   background: none;
 }
