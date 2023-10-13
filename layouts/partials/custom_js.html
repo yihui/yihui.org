@@ -1,6 +1,6 @@
 {{ with . }}
 {{ $local := fileExists "static/hardlink" }}
 {{ range . }}
-<script src="{{ cond $local (relURL (replaceRE `^.*/` `hardlink/js/` .)) (print "https://cdn.jsdelivr.net/npm/@xiee/" (replaceRE `^([^/]+)/(.+)\\.js$` `$1/js/$2.min.js` .)) }}" {{ if $local }}type="module"{{ else }}defer{{ end }}></script>
+<script src="{{ cond $local (relURL (replaceRE `^.*/` `hardlink/js/` .)) (print "https://cdn.jsdelivr.net/npm/@xiee/" (replaceRE `^([^/]+)/(.+)\.js$` `$1/js/$2.min.js` .)) }}" {{ if $local }}type="module"{{ else }}defer{{ end }}></script>
 {{ end }}
 {{ end }}
