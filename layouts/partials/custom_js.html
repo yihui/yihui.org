@@ -1,9 +1,6 @@
 {{ with . }}
-{{ if (where (readDir "static") "Name" "hardlink") }}
+{{ $local := fileExists "static/hardlink" }}
 {{ range . }}
-<script src="{{ (replaceRE "^.*/" "hardlink/js/" .) | relURL }}" type="module"></script>
-{{ end }}
-{{ else }}
-<script src="https://cdn.jsdelivr.net/combine/{{ delimit (apply . "replaceRE" "^([^/]+)/(.+)\\.js$" "npm/@xiee/$1/js/$2.min.js" ".") "," }}" defer></script>
+<script src="{{ cond $local (relURL (replaceRE `^.*/` `hardlink/js/` .)) (print "https://cdn.jsdelivr.net/npm/@xiee/" (replaceRE `^([^/]+)/(.+)\\.js$` `$1/js/$2.min.js` .)) }}" {{ if $local }}type="module"{{ else }}defer{{ end }}></script>
 {{ end }}
 {{ end }}
