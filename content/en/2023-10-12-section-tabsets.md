@@ -2,8 +2,8 @@
 title: Create Tabsets from HTML Sections via JavaScript and CSS
 date: '2023-10-12'
 slug: section-tabsets
-customJS: [js/tabsets.js]
-customCSS: [css/tabsets.css]
+customJS: [utils/tabsets.js]
+customCSS: [utils/tabsets.css]
 ---
 
 As I wrote last month, code folding was the most requested feature in
