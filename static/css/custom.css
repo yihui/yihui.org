@@ -85,10 +85,12 @@ span.hash-note::before { content: "　# "; }
 .side { padding: 1em 2em; }
 .side > p:first-child { margin-top: 0; }
 .side > p:last-child { margin-bottom: 0; }
-.bg-number {
+.bg-number, .note-ref:has(+ .side:hover) {
   background: var(--bg-body);
   filter: invert(1);
   opacity: .6;
+}
+.bg-number {
   padding: .1em;
 }
 
