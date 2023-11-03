@@ -4,9 +4,12 @@ h1.title::before { content: "➶"; }
 }
 .archive {
   max-width: none;
-  width: initial;
+  width: 100%;
 }
 .archive > ul > li {
+  list-style: none;
+}
+.cn .archive > ul > li {
   display: inline-block;
   margin-right: 1em;
 }
