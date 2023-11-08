@@ -25,4 +25,6 @@ A similar platform in the R world is [Bioconductor](http://bioconductor.org/chec
 
 Anyone?
 
-> Update on 04/16/2013: just to clarify, what Bioconductor does is not strictly continuous integration (yet) in the sense that it builds packages daily instead of immediately on changes.
+Update on 2013-04-16
+
+:   Just to clarify, what Bioconductor does is not strictly continuous integration (yet) in the sense that it builds packages daily instead of immediately on changes.

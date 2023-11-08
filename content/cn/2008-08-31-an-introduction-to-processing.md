@@ -6,7 +6,7 @@ slug: an-introduction-to-processing
 
 上次在不莱梅的时候我曾经看见过AT&T的Debby在浏览一个网页，当时我也不知道那个网页是什么，没太在意，只记得她说"the examples are silly"，而前两天我突然发现我知道她当时看的是什么了，那就是Processing！
 
-网址：[http://processing.org/](http://processing.org/)
+网址：<http://processing.org>
 
 刚才本来已经收笔了，突然想起来这件事，不得不记下来，因为我觉得这门语言的设计理念和我做动画的想法非常一致，以后我可以考虑利用它。
 
@@ -16,5 +16,7 @@ Processing语言的作者为Casey Reas和Benjamin Fry（MIT的家伙），他们
 
 不知各位听我罗嗦了半天昏昏欲睡的看官看了这些东西之后是不是也有点战斗欲望呢？
 
-> 2012/03/15更新：四年后我再来看，发现这个项目已经成长为专门的网站了 <http://processingjs.org/> 而且居然有在线IDE！
+2012-03-15 更新
+
+:   四年后我再来看，发现这个项目已经成长为专门的网站了 <http://processingjs.org> 而且居然有在线 IDE！
 

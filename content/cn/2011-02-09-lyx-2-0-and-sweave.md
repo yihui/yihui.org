@@ -4,7 +4,9 @@ date: '2011-02-09'
 slug: lyx-2-0-and-sweave
 ---
 
-> 2013/02/05更新：本文已经严重过期，请不要模仿暗黑招数；参见[这篇日志](/cn/2010/02/misc-issues-in-latex-lyx-r-sweave-pgfsweave/)。
+2013-02-05 更新
+
+:   本文已经严重过期，请不要模仿暗黑招数；参见[这篇日志](/cn/2010/02/misc-issues-in-latex-lyx-r-sweave-pgfsweave/)。
 
 转眼间LyX 2.0已经陆续发布beta 1, 2, 3, 4，希望不要再发beta 5，直接出正式版吧。这回在LyX 2.0中Sweave有了内生支持，不过它自带的Sweave的缺点一大堆，前天上午本来想给LyX报告一下这些事情，结果写着写着，自个儿发现了解决办法，昏死，写了几大段道理，白写了。抄起键盘给2.0写了个Sweave自动配置脚本，仅仅在Ubuntu下测试了一下，貌似还挺好使。勇猛的Linux用户可以自行下载LyX 2.0 beta4源代码包编译安装，然后在R里运行：
 

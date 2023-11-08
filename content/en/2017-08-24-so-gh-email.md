@@ -31,7 +31,9 @@ I have pushed people to Stack Overflow many times in the past, and I'd say most 
 
 This morning I received an email about a **knitr** question. I was very happy that the sender read my email policy before. Actually she posted [the question](https://stackoverflow.com/q/44656046/559676) on Stack Overflow two months ago, and waited till today to email me with the link to the post. I very much appreciate her patience. Again, as a sign of appreciation, I answered the question a few minutes later. It is actually a good question. Had this question come to my inbox first, I'd probably have ignored it.
 
-> **Update on 2017/08/25**: This post reminded [Tim Appelhans](https://twitter.com/TimSalabim3/status/900962571024441345) of a [Stack Overflow question](https://stackoverflow.com/q/17502050/559676) that he posted four years ago. That was an interesting question, and I guess few users would be able to find the answer without reading the **knitr** source code, so I'd be very glad to answer this kind of questions.
+Update on 2017-08-25
+
+:   This post reminded [Tim Appelhans](https://twitter.com/TimSalabim3/status/900962571024441345) of a [Stack Overflow question](https://stackoverflow.com/q/17502050/559676) that he posted four years ago. That was an interesting question, and I guess few users would be able to find the answer without reading the **knitr** source code, so I'd be very glad to answer this kind of questions.
 
 ## Github Issues
 

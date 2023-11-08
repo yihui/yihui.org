@@ -71,13 +71,13 @@ install.packages('knitr', repos = c(
 
 Thanks!
 
---------------------------------------------------------------------------------
+Update on 2023-01-19
 
-**Update on 2023/01/19**: We (mainly [@cderv](https://github.com/cderv)) have
-finished benchmarking and you can [read a report
-here](https://github.com/cderv/knitr/blob/bench-stringr-replace/inst/benchmark/stringr-replace.md).
-Some of our base R functions are faster than **stringr** equivalents, and some
-are slower. Overall I don't have any concerns on the slower functions,
-because 1) some of them are used in processing `.Rnw` documents only, and 2) the
-absolute time of one function call is often less than one millisecond, which
-shouldn't be noticeable even if it is 3 or 4 times slower.
+:   We (mainly [\@cderv](https://github.com/cderv)) have finished benchmarking
+    and you can [read a report
+    here](https://github.com/cderv/knitr/blob/bench-stringr-replace/inst/benchmark/stringr-replace.md).
+    Some of our base R functions are faster than **stringr** equivalents, and
+    some are slower. Overall I don't have any concerns on the slower functions,
+    because 1) some of them are used in processing `.Rnw` documents only, and 2)
+    the absolute time of one function call is often less than one millisecond,
+    which shouldn't be noticeable even if it is 3 or 4 times slower.

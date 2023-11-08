@@ -18,7 +18,9 @@ to explain the answer in greater detail in this post.
 
 ## Show a verbatim code chunk
 
-**Update on 2022-06-16**: Since [**knitr** v1.37](/en/2022/01/knitr-news/), we
+Update on 2022-06-16
+
+:   Since [**knitr** v1.37](/en/2022/01/knitr-news/), we
 have introduced a more natural way to write verbatim code chunks, i.e., using
 the `verbatim` engine. For example:
 

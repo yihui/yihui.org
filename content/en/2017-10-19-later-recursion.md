@@ -37,7 +37,7 @@ I don't want to mislead users who do not read the documentation of **later**, so
 
 Basically this means you cannot expect the task will be executed precisely every N seconds (e.g., N = 10 in the above example), especially when there is another task that has occupied the R console. This is not a deal breaker in my original problem. I don't need the time to be precise.
 
-## (Update on 2018/01/10) Won't this lead to infinite recursion?
+## (Update on 2018-01-10) Won't this lead to infinite recursion?
 
 It didn't occur to me that there seemed to be an infinite recursion until [Miles McBain](https://twitter.com/MilesMcBain/status/950854460628123648) pointed it out, but my colleague [Alan Dipert](https://twitter.com/alandipert/status/950991363771850752) reassured us that the **later** package had the magic of avoiding stack buildup. It was such a surprise to me! Then my colleague [Joe confirmed it](https://twitter.com/jcheng/status/951108928993046528), and attributed it to Simon Urbanek.
 

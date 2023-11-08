@@ -17,4 +17,6 @@ So thanks, Alicia. I started my day in a pleasant morning.
 
 BTW, have I mentioned how awesome [Nick Strayer and Lucy D'Agostino McGowan](http://livefreeordichotomize.com) are?
 
-**Update on 2018-03-02**: [Colin Fay is also awesome!](https://twitter.com/_ColinFay/status/969183208687448064) Thanks!
+Update on 2018-03-02
+
+:   [Colin Fay is also awesome!](https://twitter.com/_ColinFay/status/969183208687448064) Thanks!

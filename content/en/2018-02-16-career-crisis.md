@@ -247,9 +247,9 @@ I want to quote Ray Dalio again to finalize this post. I went through a long per
 
 Thanks, Tareef, JJ, and Joe.
 
----
+Update on 2018-02-17
 
-**Update on 2018-02-17**: After I published this post, I received a lot of feedback in a short period of time, and I truly appreciate all your thoughts, encouragements, and care. I will see if I could summarize them in the future. For now, I just want to clarify it to those who were concerned about my mental health issues: I'm no longer depressed. The years 2016 and 2017 have been fantastic, and I have mostly recovered. Thanks again!
+:   After I published this post, I received a lot of feedback in a short period of time, and I truly appreciate all your thoughts, encouragements, and care. I will see if I could summarize them in the future. For now, I just want to clarify it to those who were concerned about my mental health issues: I'm no longer depressed. The years 2016 and 2017 have been fantastic, and I have mostly recovered. Thanks again!
 
 [^1]: Stephanie was the happiest graduate student in the department. I still miss her laughter as well as Prof Dan Nordman's.
 

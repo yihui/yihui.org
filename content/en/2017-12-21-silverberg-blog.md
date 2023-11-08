@@ -8,4 +8,6 @@ Yesterday I came across a very interesting blog cleverly named "[Alice's Adventu
 
 If any of my readers want to reach out to help, please feel free to. I have no idea if she'd like such an unsolicited offer, though. I can easily offer a free domain `alice.rbind.io` if desired.
 
-> Update on 2018/01/04: She decided to host her blog on [Google sites](https://sites.google.com/site/numberlandadventures/), and you can subscribe to the RSS feed.
+Update on 2018-01-04
+
+:   She decided to host her blog on [Google sites](https://sites.google.com/site/numberlandadventures/), and you can subscribe to the RSS feed.

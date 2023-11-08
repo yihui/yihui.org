@@ -39,4 +39,6 @@ It is sad to see things that exist for historical reasons are so hard to change.
 
 P.S. Although S4 is innocent in this case, this is a minor reason why I never liked S4.
 
-> **Update on 2017/01/06**: [Gabor discovered](https://twitter.com/GaborCsardi/status/949722120375988224) that Luke Tierney [finally made `Rscript` consistent with `R`](https://github.com/wch/r-source/commit/c30ffef956) by default, i.e., **methods** will be attached in a future version of `Rscript`. It seems the long-lasting confusion will be ended in 2018.
+Update on 2017-01-06
+
+:   [Gabor discovered](https://twitter.com/GaborCsardi/status/949722120375988224) that Luke Tierney [finally made `Rscript` consistent with `R`](https://github.com/wch/r-source/commit/c30ffef956) by default, i.e., **methods** will be attached in a future version of `Rscript`. It seems the long-lasting confusion will be ended in 2018.

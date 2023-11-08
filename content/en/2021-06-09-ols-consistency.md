@@ -90,7 +90,7 @@ plot(
 )
 abline(h = 2, lwd = 2)
 points(10000, 2.0014, col = 'red', cex = 2, lwd = 2)
-arrows(10000, 2.0014, 8000, 1.99, )
+arrows(10000, 2.0014, 8000, 1.99)
 text(8000, 1.987, 'Estimate from the simulation
  mentioned in the tweet')
 ```
@@ -98,7 +98,7 @@ text(8000, 1.987, 'Estimate from the simulation
 ![Different estimated values of beta as N increases](https://user-images.githubusercontent.com/163582/121392349-ea28bf80-c914-11eb-8b3d-44a523ac6a2e.png)
 
 I have also marked the value 2.0014 in the plot corresponding to the sample size
-10000.
+10,000.
 
 ## Does it really converge to the true parameter value?
 
@@ -114,22 +114,23 @@ Xie](/en/2017/06/on-formality/)). My intuition is that
 `$y \approx 2x + a\sqrt{x} + c$`, where `$a$` is a small constant. I will
 appreciate it if anyone could give a rigorous explanation.
 
----
+Update on 2021-06-10
 
-**Update on 2021/06/10**: [Nick has given an
-explanation](https://twitter.com/nickchk/status/1403185713659539456), which is
-quite obvious in hindsight. `X` and `e` are actually correlated in the above
-simulation, because `X` contains a linear term `e`, i.e., for
-`X = e + 100e^2 + Z`, `e^2` and `Z` are not correlated with `e`, but `e` itself
-is certainly correlated with `e`. The correct simulation should be done without
-the linear term in `X` (or use `abs(e)`, which is also not correlated with `e`):
+:   [Nick has given an
+    explanation](https://twitter.com/nickchk/status/1403185713659539456), which
+    is quite obvious in hindsight. `X` and `e` are actually correlated in the
+    above simulation, because `X` contains a linear term `e`, i.e., for
+    `X = e + 100e^2 + Z`, `e^2` and `Z` are not correlated with `e`, but `e`
+    itself is certainly correlated with `e`. The correct simulation should be
+    done without the linear term in `X` (or use `abs(e)`, which is also not
+    correlated with `e`):
 
-``` r
-beta_est = function(N = 10) {
-  e = runif(N)
-  x = 100 * (e - .5)^2 + rnorm(N)
-  y = 2 * x + e
-  res = lm.fit(cbind(1, x), y)
-  res$coefficients[2]  # the slope
-}
-```
+    ``` r
+    beta_est = function(N = 10) {
+      e = runif(N)
+      x = 100 * (e - .5)^2 + rnorm(N)
+      y = 2 * x + e
+      res = lm.fit(cbind(1, x), y)
+      res$coefficients[2]  # the slope
+    }
+    ```

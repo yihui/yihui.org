@@ -4,11 +4,13 @@ date: '2023-02-06'
 slug: xfun-isfalse
 ---
 
-> **Update on 2023-09-07**: you probably came to this blog post due to an error
-> related to `xfun::isFALSE()`, and I strongly recommend that you [update all
-> your R packages](/en/2017/05/when-in-doubt-upgrade/):
-> `update.packages(ask = FALSE, checkBuilt = TRUE)` That's because the error is
-> most likely to be from one of your outdated packages.
+Update on 2023-09-07
+
+:   You probably came to this blog post due to an error related to
+    `xfun::isFALSE()`, and I strongly recommend that you [update all your R
+    packages](/en/2017/05/when-in-doubt-upgrade/):
+    `update.packages(ask = FALSE, checkBuilt = TRUE)` That's because the error
+    is most likely to be from one of your outdated packages.
 
 Base R has had the function `isTRUE()` for many years, and I had wished for a
 few years that there were an `isFALSE()`, too. I had used `identical(x, FALSE)`

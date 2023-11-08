@@ -12,6 +12,8 @@ I'd like to provide the Github repo name, and get the summary statistics of _rea
 
 ![Waiting for help](https://slides.yihui.org/gif/questions.gif)
 
-> **Update on 2017/11/16**: Yang has prepared a [Github repo](https://github.com/yiluheihei/github_issues_reactions), and it worked well for me. Thanks, Yang!
+Update on 2017-11-16
+
+:   Yang has prepared a [Github repo](https://github.com/yiluheihei/github_issues_reactions), and it worked well for me. Thanks, Yang!
 
 [^1]: Note I don't mean emoji characters used in text, but reactions only. Currently Github has only provided six possible reactions.

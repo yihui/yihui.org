@@ -5,25 +5,32 @@ date: '2018-01-26'
 slug: install-rgtk2-macos
 ---
 
-> **Update on 2023-05-15**: Please ignore this post, because **RGtk2** has been
-> removed from CRAN. It is impossible to build it anymore.
+Update on 2023-05-15
 
-> **Update on 2018-06-13**: Because this issue has bothered me over and over
-> again, I decided to work on some pre-built binaries of R packages for the
-> Homebrew version of R. If you are using the latest versions of R (from either
-> CRAN or Homebrew Cask) and macOS, you can ignore this post, and just install
-> **RGtk2** with:
->
-> ``` r
-> system('brew install gtk+')
-> install.packages('RGtk2', type = 'binary', repos = 'https://macos.rbind.io')
-> ```
->
-> You no longer need to edit the Homebrew formula as suggested in the post
-> below, which is too complicated, time-consuming, and hard to maintain. BTW, I
-> have experimented with the idea of building binary packages for the Homebrew
-> version of R. See [this post](/en/2018/07/cranextra-macos/) for more
-> information.
+:   Please ignore this post, because **RGtk2** has been removed from CRAN. It is
+    impossible to build it anymore.
+
+<!-- -->
+
+Update on 2018-06-13
+
+:   Because this issue has bothered me over and over again, I decided to work on
+    some pre-built binaries of R packages for the Homebrew version of R. If you
+    are using the latest versions of R (from either CRAN or Homebrew Cask) and
+    macOS, you can ignore this post, and just install **RGtk2** with:
+
+    ``` r
+    system('brew install gtk+')
+    install.packages(
+      'RGtk2', type = 'binary', repos = 'https://macos.rbind.io'
+    )
+    ```
+
+    You no longer need to edit the Homebrew formula as suggested in the post
+    below, which is too complicated, time-consuming, and hard to maintain. BTW,
+    I have experimented with the idea of building binary packages for the
+    Homebrew version of R. See [this post](/en/2018/07/cranextra-macos/) for
+    more information.
 
 While I'm doing my "favorite" thing in R (running `R CMD check` on thousands of
 reverse dependencies), I realized the **RGtk2** package was *just* updated on

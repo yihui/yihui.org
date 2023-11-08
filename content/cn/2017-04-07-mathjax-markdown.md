@@ -100,23 +100,9 @@ Markdown，简单。MathJax，简单。两个搁一块儿，说简单也可以�
 
     然后我发现有些数学公式没被处理掉。数来数去，页面里的 `<code>` 标签数量比上面代码处理的标签数量少一些，最终发现，`codes = document.getElementsByTagName('code')` 这对象竟然是个活的！也就是说，我每删掉一个 `<code>` 标签，它里面都会自动少一个元素（尽管我在循环之前就已经对 `codes` 赋值了）。所以，我每删一个 `<code>` 标签，都**不能**把 `i` 增加 1 。比如删掉了第 9 个标签之后，原本的第 10 个标签就变成第 9 个标签了。只有一个标签没处理的时候，才需要 `i++`。这上哪儿说理去……
 
-    > 2023-09-12 更新：上面的坑可以如此这般更加优雅地填平，也就是用 `[...]` 生成数组然后用 `.forEach()` 方法遍历其中的元素，这样就不需要管下标了。
-    >
-    > ```js
-    > [...document.getElementsByTagName('code')].forEach(code => {  
-    >   if (code.parentNode.tagName === 'PRE' || code.childElementCount > 0) return;  
-    >   let text = code.textContent;  
-    >   if (/^\$[^$]/.test(text) && /[^$]\$$/.test(text)) {  
-    >     text = text.replace(/^\$/, '\\(').replace(/\$$/, '\\)');  
-    >     code.textContent = text;  
-    >   }  
-    >   if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||  
-    >       /^\$(.|\s)+\$$/.test(text) ||  
-    >       /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {  
-    >     code.outerHTML = code.innerHTML;  // remove <code></code>  
-    >   }  
-    > });
-    > ```
+2023-09-12 更新
+
+:   上面的坑可以[如此这般](https://github.com/yihui/misc.js/commit/633fcc8)更加优雅地填平，也就是用 `[...]` 生成数组然后用 `.forEach()` 方法遍历其中的元素，这样就不需要管下标了。
 
 总而言之，这段代码运行完之后数学公式脱离了代码标签，然后就可以异步加载 MathJax 渲染公式了，为自己和广大人民群众省下了好几毫秒的时间！
 

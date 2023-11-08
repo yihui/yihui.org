@@ -14,4 +14,6 @@ This morning I learned another amazing hack from Noam Ross, and the hack was eve
 
 ![Oh my... You hackers are so awesome](https://slides.yihui.org/gif/slow-applaud.gif)
 
-**Update on 2018-08-01**: I discovered [yoni sidi's `<details>` hack](https://twitter.com/yoniceedee/status/1024740274495528960).
+Update on 2018-08-01
+
+:   I discovered [yoni sidi's `<details>` hack](https://twitter.com/yoniceedee/status/1024740274495528960).

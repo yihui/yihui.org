@@ -4,7 +4,9 @@ date: '2017-05-19'
 slug: a-note-on-on-exit
 ---
 
-> **Update on 2020/06/23:** The issue mentioned in this post [has been fixed](https://github.com/wch/r-source/commit/5bd6e3ce) in R 4.0.2, thanks to Martin Maechler.
+Update on 2020-06-23
+
+:   The issue mentioned in this post [has been fixed](https://github.com/wch/r-source/commit/5bd6e3ce) in R 4.0.2, thanks to Martin Maechler.
 
 I have used `on.exit()` for several years, but it was not until the other day that I realized a very weird thing about it: you'd better follow the default positions of its arguments `expr` and `add`, i.e., the first argument has to be `expr` and the second has to be `add`.
 
@@ -36,4 +38,6 @@ I don't have the capability to understand the [source code in C](https://github.
 
 BTW, I don't know the rationale for the default `add = FALSE` in `on.exit()`, but I have not used `add = FALSE` for a single time, so I feel `add = TRUE` might be a better default. When I want to do something on exit, I almost surely mean do it _in addition to_ the things that I assigned to `on.exit()` before, instead of cleaning up all previous tasks and only doing this one (`add = FALSE`).
 
-> **Update on 2018/01/17**: Half a year later, [I was bitten by the same problem](https://github.com/rstudio/tinytex/issues/12) again in the **tinytex** package. Never, ever, do `on.exit(add = TRUE, expr)`.
+Update on 2018-01-17
+
+:   Half a year later, [I was bitten by the same problem](https://github.com/rstudio/tinytex/issues/12) again in the **tinytex** package. Never, ever, do `on.exit(add = TRUE, expr)`.

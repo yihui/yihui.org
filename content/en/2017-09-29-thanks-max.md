@@ -14,4 +14,6 @@ I feel quite stressful in the past few weeks due to something personal and time-
 
 ![force a cat to bathtub](https://slides.yihui.org/gif/drag-cat.gif)
 
-> **Update on 2017/10/01**: I just realized Max had sent [a pull request](https://github.com/davidgohel/ggiraph/pull/75) to fix the issue he reported before I posted an answer on Stack Overflow! That is even better!
+Update on 2017-10-01
+
+:   I just realized Max had sent [a pull request](https://github.com/davidgohel/ggiraph/pull/75) to fix the issue he reported before I posted an answer on Stack Overflow! That is even better!

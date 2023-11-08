@@ -20,10 +20,13 @@ h1.title::before { content: "➶"; }
   text-align: center;
   margin: 2em 0 1em;
 }
-.main > blockquote:first-child, #TableOfContents + blockquote {
-  border-left-color: yellow;
+dl, fieldset {
   background-color: lightyellow;
   font-size: .9em;
+  border-width: 1px;
+}
+dt, legend {
+  font-weight: bold;
 }
 .archive > h2 {
   text-align: initial;
