@@ -201,6 +201,10 @@ Below is a list of chunk options in **knitr** documented in the format
     document, but the code is still evaluated and plot files are generated if
     there are any plots in the chunk, so you can manually insert figures later.
 
+-   `tab.cap`: (`NULL`; character) A caption for `kable()` in the code chunk.
+    For this chunk option to work, one code chunk must have only a single
+    `kable()` call.
+
 -   `strip.white`: (`TRUE`; logical) Whether to remove blank lines in the
     beginning or end of a source code block in the output.
 
