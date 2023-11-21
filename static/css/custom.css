@@ -137,4 +137,7 @@ span.hash-note::before { content: "　# "; }
     width: calc(var(--body-width) - var(--text-width) - 2.5rem * 2 - 2rem);
     margin-right: calc(var(--text-width) + 2.5rem * 2 - var(--body-width));
   }
+  blockquote .side-right {
+    margin-right: calc(var(--text-width) + 2.5rem * 2 - var(--body-width) - 2rem);
+  }
 }
