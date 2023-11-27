@@ -1,5 +1,5 @@
 ---
-title: An Upcoming Change in the TinyTeX Installation Path on Windows
+title: A Change in the TinyTeX Installation Path on Windows
 subtitle: 'Did you run into the error "no appropriate script or program found: fmtutil"?'
 date: '2023-11-17'
 slug: tinytex-path
@@ -21,20 +21,21 @@ went through trial and error, learned a variety of bizarreness of Windows batch
 scripts as well as the Stack Overflow cures, summoned all Chinese students in my
 alma mater to test their own Windows machines and the Windows servers in their
 department, and meditated on the meaning of life for three seconds. Finally I'm
-happy to announce that I have found a fix and applied it to the development
-version of **tinytex** (the R package).
+happy to announce that I have found a fix and applied it to **tinytex** (the R
+package) v0.49.
 
 ## TLDR; The fix
 
 If you have run into the above errors when rendering R Markdown or Quarto or
-LaTeX documents to PDF, you can install the development version of **tinytex**:
+LaTeX documents to PDF, you can install the latest version of **tinytex** [from
+CRAN](https://cran.r-project.org/package=tinytex):
 
 ``` r
-install.packages('tinytex', repos='https://rstudio.r-universe.dev')
+install.packages('tinytex')
 ```
 
 Please remember to restart R after installation. Then make sure
-`packageVersion('tinytex') >= '0.48.4')`.
+`packageVersion('tinytex') >= '0.49')`.
 
 ## The problem
 
@@ -75,8 +76,8 @@ relevant?).
 
 ## The change
 
-With the current development version of **tinytex**, when your `APPDATA` path
-contains spaces or non-ASCII characters:
+With **tinytex** v0.49, when your `APPDATA` path contains spaces or non-ASCII
+characters:
 
 -   If you run `tinytex::install_tinytex()` to install TinyTeX for the first
     time on a computer, it will install TinyTeX to the path defined by the
@@ -114,14 +115,13 @@ set the environment variable `TINYTEX_DIR` (which defaults to `APPDATA` or
 
 ## Quarto users
 
-[I have not checked](https://github.com/quarto-dev/quarto-cli/issues/7620) if
-Quarto is directly impacted by this problem yet, but I'm reasonably sure that if
-it is, moving TinyTeX should fix it. The only issue is that for non-R users,
-there is not an automatic solution like calling an R function, and you will have
-to move it manually (then run `tlmgr path add` and also
+The command `quarto install tinytex` [is also
+impacted](https://github.com/quarto-dev/quarto-cli/issues/7620) by this problem
+on Windows, and I have submitted a similar fix to Quarto. Before it is applied,
+moving TinyTeX by yourself can also fix the problem. The only issue is that for
+non-R users, there is not an automatic solution like calling an R function, and
+you will have to move it manually (then run `tlmgr path add` and also
 `tlmgr postaction install script xetex` if you use XeLaTeX).
 
-I plan to make a CRAN release in the near future since this problem has impacted
-several users. I'd truly appreciate it if Windows users can help me test the
-current development version of **tinytex**. Please let me know if you run into
-any issues. Thanks!
+If any Windows users run into any issues when installing or moving TinyTeX to
+the `ProgramData` folder, please feel free to let me know. Thanks!

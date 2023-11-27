@@ -1,5 +1,5 @@
 ---
-title: Making SearchBuilder Work in the Server Mode in DT (Help Needed)
+title: 'Help Needed: Making SearchBuilder Work in the Server Mode in DT'
 date: '2023-11-21'
 slug: dt-searchbuilder
 ---
