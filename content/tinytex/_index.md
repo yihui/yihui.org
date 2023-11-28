@@ -175,6 +175,6 @@ I cannot thank [Peng Zhao](http://www.pzhao.org) and [Miao Yu](https://yufree.cn
 
 [^2]: Your anti-virus software might warn against certain `*.dll` files, and you may want to trust these files. However, I'm not a Windows expert, so I'll leave the decision to yourself.
 
-[^3]: Click the Start menu, Run, type `cmd` to open a command window, and type `echo %APPDATA%` to figure out the actual path if you are curious.
+[^3]: Click the Start menu, Run, type `cmd` to open a command window, and type `echo %APPDATA%` to know the actual path if you are curious. If `%APPDATA%` contains spaces or non-ASCII characters, [`%ProgramData%` will be used](/en/2023/11/tinytex-path/), which typically points to `C:\ProgramData`.
 
 [^4]: Add a forward slash before the filename for an exact match. Without the slash, other packages may be matched, e.g., `chemtimes.sty`.
