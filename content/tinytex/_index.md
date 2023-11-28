@@ -49,6 +49,9 @@ The binary packages of TinyTeX are released on the monthly basis to the Github r
 For Linux users, TinyTeX will be installed to `$HOME/.TinyTeX` and symlinks of executables (such as `pdflatex`) are created under `$HOME/bin` (or `$HOME/.local/bin` if it exists), which should be on the `PATH` environment variable:[^1]
 
 ```sh
+# make sure perl is properly installed (e.g., apt install -y perl)
+perl -mFile::Find /dev/null
+# then install TinyTeX
 wget -qO- "https://yihui.org/tinytex/install-bin-unix.sh" | sh
 ```
 
