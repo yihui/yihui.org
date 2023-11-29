@@ -1,6 +1,8 @@
 {{ if and (len (findRE "^/cn/" .RelPermalink)) (lt .Date.Year 2017) }}
 <script src="https://cdn.jsdelivr.net/combine/npm/pangu/dist/browser/pangu.min.js,npm/@xiee/utils/js/load-pangu.js" defer></script>
 {{ end }}
-
+{{ if .IsHome }}
+<link rel="me" href="https://mastodon.social/@yihui">
+{{ end }}
 {{ partial "custom_css.html" (apply .Site.Params.customCSS "print" "utils/" ".") }}
 {{ partial "custom_css.html" .Params.customCSS }}
