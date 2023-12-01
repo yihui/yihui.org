@@ -82,6 +82,10 @@
       "destination": "/$1/"
     },
     {
+      "source": "/knitr/(js/docco-resize\\.js)",
+      "destination": "https://cdn.jsdelivr.net/npm/@xiee/utils/$1"
+    },
+    {
       "source": "/formatR/",
       "destination": "/formatr/"
     },
