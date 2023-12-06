@@ -432,8 +432,14 @@ Below is a list of chunk options in **knitr** documented in the format
     convert between pixels and inches).
 
     The chunk options `dev`, `fig.ext`, `fig.width`, `fig.height`, and `dpi` can
-    be vectors (shorter ones will be recycled), e.g., `dev = c('pdf', 'png')`
-    creates a `PDF` and a `PNG` file for the same plot.
+    be vectors (shorter ones will be recycled), and they are vectorized over
+    every single plot in a code chunk to create multiple copies of the same
+    plot. For example, `dev = c('pdf', 'png')` will create a PDF and a PNG file
+    for the same plot. Note that when the plot files to be created have the same
+    extension, you must use the `fig.ext` option to specify different filename
+    suffixes, otherwise latter plot files will overwrite previous ones. For
+    example, when `dev = 'png'` and `fig.width = c(10, 6)`, you can generate two
+    PNG images with different widths with `fig.ext = c('1.png', '2.png')`.
 
 -   `dev.args`: (`NULL`; list) More arguments to be passed to the device, e.g.,
     `dev.args = list(bg = 'yellow', pointsize = 10)` for `dev = 'png'`. This
