@@ -5,8 +5,7 @@
   data-repo-id="MDEwOlJlcG9zaXRvcnk4MDc3NDg0NA=="
   data-category="Comments"
   data-category-id="DIC_kwDOBNCGvM4COkjD"
-  data-mapping="{{ if eq $.Kind "404" }}number{{ else }}pathname{{ end }}"
-  {{ if eq $.Kind "404" }}data-term="949"{{ end }}
+  data-mapping="{{ if eq $.Kind "404" }}number{{ else }}pathname{{ end }}"{{ if eq $.Kind "404" }} data-term="949"{{ end }}
   data-strict="1"
   data-reactions-enabled="1"
   data-emit-metadata="0"
