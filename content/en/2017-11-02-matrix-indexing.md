@@ -1,5 +1,5 @@
 ---
-title: x[matrix(ncol = 2)]
+title: '`x[matrix(ncol = 2)]`'
 subtitle: Do I really know base R?!
 date: '2017-11-02'
 slug: matrix-indexing
@@ -22,7 +22,7 @@ That was both ugly and inefficient. After someone asked me this question again a
 diag(x[i[, 1], i[, 2]])
 ```
 
-The perfect answer is `x[i]`, both elegant and efficient. I learned this from another person's answer to the same question. Then I looked at the help page ``?`[```, and realized it was well-documented:
+The perfect answer is `x[i]`, both elegant and efficient. I learned this from another person's answer to the same question. Then I looked at the help page `` ?`[` ``, and realized it was well-documented:
 
 > When indexing arrays by `[` a single argument `i` can be a matrix with as many columns as there are dimensions of `x`; the result is then a vector with elements corresponding to the sets of indices in each row of `i`.
 
