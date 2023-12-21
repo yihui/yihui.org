@@ -1,6 +1,7 @@
 ---
 title: Search | 搜索
 disable_comments: true
+disable_sidenotes: true
 ---
 
 The search is [performed via fuse.js](/en/2023/09/fuse-search/).[^1] For the search keywords, white spaces act as the `AND` operator, and `|` acts as the `OR` operator. To match an exact phrase, double quote it. For example, `R Markdown` matches articles that contain both `R` and `Markdown`, `R | Markdown` matches articles that contain `R` or `Markdown`, and `"R Markdown"` matches articles that contain the whole phrase `R Markdown`.

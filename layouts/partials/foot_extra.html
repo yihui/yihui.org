@@ -2,6 +2,6 @@
 {{ partial "custom_js.html" (apply .Site.Params.customJS "print" "utils/" ".") }}
 {{ end }}
 {{ partial "custom_js.html" .Params.customJS }}
-{{- if (in .Content `class="footnotes"`) -}}
+{{- if and (in .Content `class="footnotes"`) (not .Params.disable_sidenotes) -}}
 <script src="//cdn.jsdelivr.net/npm/@xiee/utils/js/sidenotes.min.js" defer></script>
 {{ end }}
