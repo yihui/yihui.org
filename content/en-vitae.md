@@ -18,7 +18,7 @@ Email: xie@yihui.org; Homepage: <https://yihui.org>; Mastodon [@yihui@mastodon.s
 
 ## Brief Biography
 
-[Yihui Xie](https://en.wikipedia.org/wiki/Yihui_Xie) is a software engineer at [Posit, PBC](https://posit.co). He earned his PhD from the Department of Statistics, Iowa State University. He is interested in interactive statistical graphics and statistical computing. As an active R user, he has authored several R packages, such as **knitr**, **bookdown**, **blogdown**, **xaringan**, **animation**, **DT**, **tinytex**, **pagedown**, **tufte**, **formatR**, **fun**, **servr**, and **Rd2roxygen**, among which the **animation** package won the 2009 John M. Chambers Statistical Software Award (ASA). He also co-authored a few other R packages, including **shiny**, **rmarkdown**, **rticles**, and **leaflet**. He has published a number of books, including "Dynamic Documents with R and knitr", "bookdown: Authoring Books and Technical Documents with R Markdown", "blogdown: Creating Websites with R Markdown", "R Markdown: The Definitive Guide", and "R Markdown Cookbook."
+[Yihui Xie](https://en.wikipedia.org/wiki/Yihui_Xie) was a senior software engineer at [Posit, PBC](https://posit.co) from 2013 to 2023. He earned his PhD from the Department of Statistics, Iowa State University. He is interested in interactive statistical graphics and statistical computing. As an active R user, he has authored several R packages, such as **knitr**, **bookdown**, **blogdown**, **xaringan**, **animation**, **DT**, **tinytex**, **pagedown**, **tufte**, **formatR**, **fun**, **servr**, and **Rd2roxygen**, among which the **animation** package won the 2009 John M. Chambers Statistical Software Award (ASA). He also co-authored a few other R packages, including **shiny**, **rmarkdown**, **rticles**, and **leaflet**. He has published a number of books, including "Dynamic Documents with R and knitr", "bookdown: Authoring Books and Technical Documents with R Markdown", "blogdown: Creating Websites with R Markdown", "R Markdown: The Definitive Guide", and "R Markdown Cookbook."
 
 In 2006, he founded the Capital of Statistics (<https://cosx.org>), which has grown into a large online community on statistics in China. He initiated the Chinese R conference in 2008, and has been involved in organizing R conferences in China since then. During his PhD training at Iowa State University, he won the Vince Sposito Statistical Computing Award (2011) and the Snedecor Award (2012) in the Department of Statistics.
 
@@ -94,7 +94,7 @@ Besides, I published several articles in the [Capital of Statistics](https://cos
 
 ## Professional Experience
 
-I joined RStudio (later rebranded to Posit) as a software engineer in 2013, and have been writing software tools for data visualization, reproducible research, and automatic reporting/document generation.
+I worked for RStudio (later rebranded to Posit) as a software engineer from 2013 to 2023, and have been writing software tools for data visualization, reproducible research, and automatic reporting/document generation.
 
 I [worked on](https://github.com/rstudio/shiny/graphs/contributors) Shiny from late 2013 to mid-2015. <!--I added a few new features to Shiny, such as the support for JavaScript libraries [DataTables](https://datatables.net) and [selectize.js](http://selectize.github.io/selectize.js/), and solved the problem with Unicode characters in Shiny apps on Windows.-->
 From late 2014, I started working on the [**DT**](https://github.com/rstudio/DT) package for displaying tables. At about the same time, I worked extensively on the [**leaflet**](https://github.com/rstudio/leaflet) package for interactive maps, to bring it to the HTML widgets framework. My 2015 was primarily spent on these two packages.
@@ -108,6 +108,8 @@ I spent the first half of 2018 on writing the book "[R Markdown: The Definitive 
 I was not very productive in 2019. <!--I often felt drown in Github issues and Stack Overflow questions.--> There was too much maintainence work for me to do for my R packages. I planned to write the [R Markdown Cookbook](https://bookdown.org/yihui/rmarkdown-cookbook), but didn't finish it until the summer of 2020. After that, I started to pay the huge amount of tech debt accumulated due to the hard time of COVID and the writing of the aforementioned book. I revamped the **blogdown** package in the second half of 2020.
 
 Since the September of 2019, I had been more and more overwhelmed by the workload. 2020 had been quite a traumatic year to me (perhaps to everyone else, too). Fortunately, the tech debt started to appear manageable at the end of the first half of 2021.
+
+I became a freelancer in 2024.
 
 ### Internship
 
