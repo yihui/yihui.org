@@ -98,7 +98,7 @@ The secret weapon is actually from [the **servr** package](https://github.com/yi
 
 I have seen a few blog posts about **xaringan** in the past, but unfortunately I didn't bookmark them. The only two that I currently have in my browser are:
 
-- [Compose Slides in R with Xaringan Slides](https://www.johnlittle.info/post/slide-template-using-duke-university-color-palette-xaringan/) by John R Little. I was particularly glad that he wrote a CSS stylesheet that reflects the Duke color palette. That was a very good CSS exercise.
+- [Compose Slides in R with Xaringan Slides](https://www.johnlittle.info/post/compose-slides-in-r-with-xaringan-slides/) by John R Little. I was particularly glad that he wrote a CSS stylesheet that reflects the Duke color palette. That was a very good CSS exercise.
 
 - [A guide to awesome slides](http://www.njtierney.com/post/2017/07/31/awesome-slides/) by Nick Tierney. This post was primarily about slide design rules, which are pretty good. Nick said:
 
