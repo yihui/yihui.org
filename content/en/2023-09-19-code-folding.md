@@ -132,7 +132,7 @@ and you can just load it on your page:
 <script src="https://cdn.jsdelivr.net/npm/@xiee/utils/js/fold-details.min.js" defer></script>
 ```
 
-By default, it fold code blocks that have classes, which means if you use
+By default, it folds code blocks that have classes, which means if you use
 **knitr** / R Markdown / Quarto, only source code blocks will be folded. You can
 customize its behavior via the `data-` attributes of the `<script>` tag that
 loads `fold-details.js`:
