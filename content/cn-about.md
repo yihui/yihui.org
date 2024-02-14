@@ -77,7 +77,9 @@ slug: "cn/about"
 - [陈丽云](http://www.loyhome.com)：经济学，网站控，useR，旅游，自驾飞机
 - [高涛](https://joegaotao.github.io)：统计，机器学习，唇红齿白
 - [胡江堂](http://jiangtanghu.com/cn/)：北大软件学院，经济学，SAS程序员，一肚子墨水，一手好字
+- [郝鸿涛](https://hongtaoh.com)：三省吾身八段选手
 - [黄晨成](https://liam0205.me)：码农，TeX 专家
+- [黄湘云](https://xiangyun.rbind.io)：useR，写作，分析，各种工具好手
 - [李代江](https://www.dlilab.com)：生态，useR
 - [李昕垚](http://www.xinyao.pub)：useR，经济，金融，文学，历史
 - [廖永賦](https://yongfu.name)：对 R Markdown 的介绍写得比我还好
@@ -86,6 +88,7 @@ slug: "cn/about"
 - [邱怡轩](https://yixuan.blog)：人大，useR，GNU，统计，过细之人
 - [谭显英](https://shrektan.com)：useR，金融，靠谱厮
 - [唐洁](https://tang-jay.github.io)：零基础四天建站，奋进的新老师
+- [吴诗涛](https://shitao5.org)：阅读，骑车，useR（第一次听说 R 是在政治经济学课上）
 - [肖楠](https://nanx.me)：中南大学，useR，技术控
 - [徐依含](https://yihanxu.github.io)：能言善辩，爱追问，爱读书
 - [颜林林](https://yanlinlin.cn)：老站长，程序员，useR，GNU，生物
