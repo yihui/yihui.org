@@ -12,7 +12,7 @@ slug: image-clipboard
 file('clipboard', mode = 'rb')
 ```
 
-所以此路不通。Windows 下还有个特有的函数 `readClipboard()`，它可以读入二进制数据，问题只是那个数据如果保存为图片还是个谜，可能还得细究 Windows 文档，我可没那个耐心。两种绕弯的路分别是：
+所以此路不通。Windows 下还有个特有的函数 `readClipboard()`，它可以读入二进制数据，问题只是那个数据如何保存为图片还是个谜，可能还得细究 Windows 文档，我可没那个耐心。两种绕弯的路分别是：
 
 1. Windows 下可以通过 **magick** 包（也就是 ImageMagick 移植到 R 包的版本）的函数读取剪贴板的图片：`magick::image_read('clipboard:')`，有了图片数据之后就可以保存到文件了。Linux / macOS 下的 ImageMagick 不支持读取剪贴板，但可以通过外部工具 [`xclip` 将剪贴板中的图片保存为文件](https://unix.stackexchange.com/a/145134)。在 macOS 中可以简单通过 `brew install xclip` 安装它，Ubuntu 下也就是 `apt install xclip`，而且这个软件非常轻量级，所以这个依赖问题不大。问题只是它不够智能，需要先检测剪贴板数据格式（MIME 类型），然后再以指定格式保存文件，这个两步过程的第一步可以通过 `system2('xclip', ..., stdout = TRUE)` 完成（此处有个小坑）。MIME 类型确定后可以通过 R 包 **mime** 反查扩展名。
 
