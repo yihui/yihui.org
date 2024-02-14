@@ -182,6 +182,7 @@ Projects participated:
 
 Most of my slides were generated from R Markdown (especially the ones in recent years). To download the R Markdown source documents, simply replace the extension `.html` with `.Rmd` in the address bar of your web browser.
 
+- Yihui Xie, 2024, _An Introduction to Building Web Applications and Services Using R_, Yale School of Public Health ([slides](https://slides.yihui.org/2024-ysph-r-web.html))
 - Yihui Xie, 2023, _On the last step of data science: communication_, Huazhong Agricultural University, Wuhan, China ([slides](https://slides.yihui.org/2023-hzau-rmarkdown.html))
 - Yihui Xie, 2023, _Introducing a lightweight version of R Markdown_, an ASA Philly webinar ([slides](https://slides.yihui.org/2023-philly-markdown.html))
 - Yihui Xie, 2023, _An anatomy of R Markdown with minimal applications_, an invited talk to ASA Statistical Computing & Graphics Sections ([slides](https://slides.yihui.org/2023-minimal-r-markdown.html); [video](https://youtu.be/fiy32LjgGUE))
