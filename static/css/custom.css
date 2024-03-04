@@ -120,7 +120,7 @@ span.hash-note::before { content: "　# "; }
 }
 
 @media print {
-  del, footer, .nav-top, #TableOfContents, .comments {
+  del, footer, .nav-top, #TableOfContents, .comments, h1.title::before {
     display: none;
   }
 }
