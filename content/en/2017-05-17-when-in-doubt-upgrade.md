@@ -84,6 +84,8 @@ P.S. A list of issues solved simply by updating packages:
 - [The function xfun::isFALSE() will be deprecated in the future](https://github.com/yihui/yihui.org/discussions/1470)
 - [Plots showing `\begin{figure}` and `\caption{"XXX"}` when knitting to pdf](https://stackoverflow.com/q/77457998/559676)
 - [How can I overcome an error in xfun when kniting an Rmarkdown?](https://stackoverflow.com/q/77483367/559676)
+- [Error(s) in re-building vignettes:](https://github.com/yihui/knitr/issues/2327)
+- [R markdown error when knitting any Rmd file](https://stackoverflow.com/q/78028822/559676)
 
 [^1]: I guess the vast majority of R users always install and use a single version of R.
 
