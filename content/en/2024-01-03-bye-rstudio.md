@@ -101,7 +101,19 @@ For now, I have not decided yet whether I want to take a full-time job next or
 just take this chance to become an independent contractor. It depends on the
 opportunities that I can get in the next few months.
 
-I have never asked for financial support from the community before, because I
+Update on 2024-03-19
+
+:   Please ignore the call for help below, and feel free to cancel your monthly
+    sponsorship. I no longer need financial aid. Currently I'm (busy) working
+    for SwissRe as a contractor, and should have enough income this year. For
+    the donations that I have received, I have been passing them to other people
+    and organizations of my choice. If you have suggestions on where I should
+    donate the money, I will be happy to follow your advice. Many thanks to
+    everyone who lent a helping hand to me! Please also feel free to let me know
+    if you need help or know someone else who needs help (e.g., with seeking for
+    job opportunities).
+
+~~I have never asked for financial support from the community before, because I
 have never felt the need (thanks to Posit). Now the situation has become
 different, and I'm a little concerned about the mortgage number in my account.
 For the first time, I'm mentioning my Github sponsorship page in my blog:
@@ -109,7 +121,7 @@ For the first time, I'm mentioning my Github sponsorship page in my blog:
 support me for a few months before I transition into the next stable phase of
 life. I will notify you when I do not need the sponsorship any more so you can
 cancel it if you are on a monthly tier. I will be happy to offer some casual
-help in return just as tiny side jobs. For example:
+help in return just as tiny side jobs.~~ For example:
 
 -   Answer your questions (technical or non-technical);
 
