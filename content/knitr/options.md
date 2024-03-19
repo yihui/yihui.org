@@ -168,12 +168,21 @@ Below is a list of chunk options in **knitr** documented in the format
     Markdown documents.
 
 -   `warning`: (`TRUE`; logical) Whether to preserve warnings (produced by
-    `warning()`) in the output. If `FALSE`, all warnings will be suppressed. It
-    can also take numeric values as indices to select a subset of warnings to
-    include in the output. Note that these values reference the indices of the
-    warnings themselves (e.g., `3` means "the third warning thrown from this
-    chunk") and not the indices of which expressions are allowed to emit
-    warnings.
+    `warning()`) in the output.
+
+    -   If `FALSE`, all warnings will be suppressed.
+
+    -   If `NA`, warnings will not be captured and will be printed to the
+        console by default.
+
+    -   This option can also take numeric values as indices to select a subset
+        of warnings to include in the output. Note that these values reference
+        the indices of the warnings themselves (e.g., `3` means "the third
+        warning thrown from this chunk") and not the indices of which
+        expressions are allowed to emit warnings.
+
+-   `message`: (`TRUE`; logical) Whether to preserve messages emitted by
+    `message()` (similar to the option `warning`).
 
 -   `error`: (`TRUE`; logical) Whether to preserve errors (from `stop()`). By
     default, the code evaluation will not stop even in case of errors! If we
@@ -192,9 +201,6 @@ Below is a list of chunk options in **knitr** documented in the format
         hook](/knitr/hooks/#output-hooks));
 
     -   `2` will signal errors normally (i.e., it will halt R).
-
--   `message`: (`TRUE`; logical) Whether to preserve messages emitted by
-    `message()` (similar to the option `warning`).
 
 -   `include`: (`TRUE`; logical) Whether to include the chunk output in the
     output document. If `FALSE`, nothing will be written into the output
