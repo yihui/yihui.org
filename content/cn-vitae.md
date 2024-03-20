@@ -316,6 +316,7 @@ Email：xie@yihui.org；主页：<https://yihui.org>；现居住于美国内布�
 1. 谢益辉，2010-04-25，统计图形和模拟视角下的模型理论解析（硕士论文；[PDF](https://db.yihui.org/docs/master-thesis-Yihui-Xie.pdf)）
 1. 谢益辉，2008-09-14，论优化方法的可视化及教学（[PDF](https://db.yihui.org/docs/Visual-Operations-Research-Yihui-Xie-2008.pdf)）
 1. 谢益辉，2006-12-04，Spurious Regression: Simulation and Theoretical Analysis（[PDF](https://db.yihui.org/docs/Spurious-Regression-Yihui-Xie-2006.pdf)）
+1. 谢益辉，2006-05-10，结构方程模型的理论、应用以及若干误区（本科毕业论文；[PDF](https://db.yihui.org/docs/SEM-theory-2006-Yihui-Xie.pdf)）
 
 ### 网络文章
 
