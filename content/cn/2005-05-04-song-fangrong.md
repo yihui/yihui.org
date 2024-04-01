@@ -16,4 +16,4 @@ slug: song-fangrong
 
 P.S. [晚会上那些兄弟姐妹们](https://web.archive.org/web/20050205012545/http://www.ycsx.net/sb/news/2002-8/9.htm)，如今都在哪儿呢？
 
-附上一点资料吧：["五四青年奖章"获得者宋芳蓉：洒向群山都是爱](http://politics.people.com.cn/GB/1026/3365334.html)
+附上一点资料吧：["五四青年奖章"获得者宋芳蓉：洒向群山都是爱](https://web.archive.org/web/20050506015925/http://politics.people.com.cn/GB/1026/3365334.html)
