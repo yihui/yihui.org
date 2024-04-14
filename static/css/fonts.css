@@ -17,7 +17,7 @@ body {
   font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, FandolKai, serif;
 }
 code {
-  font-family: Consolas, Courier, 'Courier New', FandolKai, monospace;
+  font-family: Consolas, Courier, 'Lucida Console', 'Courier New', FandolKai, monospace;
 }
 pre, code {
   font-size: .95em;
