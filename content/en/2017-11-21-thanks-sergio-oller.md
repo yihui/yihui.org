@@ -8,6 +8,6 @@ Sergio Oller sent [a pull request](https://github.com/yihui/knitr/pull/1463) to 
 
 ![Let me pass the ball to you.](https://slides.yihui.org/gif/pass-chase.gif)
 
-Again, [saying no is hard](/en/2017/11/on-saying-no/), so you are welcome to close the issues you filed or pull requests you opened on Github if you do not really mind.
+Again, [saying no is hard](/en/2017/11/on-saying-no/), so you are welcome to close the issues you filed or pull requests you opened on GitHub if you do not really mind.
 
 BTW, I also thank Yadong Liu for closing [yihui/knitr#1313](https://github.com/yihui/knitr/pull/1313).

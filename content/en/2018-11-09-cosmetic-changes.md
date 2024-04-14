@@ -4,7 +4,7 @@ date: '2018-11-09'
 slug: cosmetic-changes
 ---
 
-Programmers, including myself, make cosmetic changes in code all the time, such as adding or deleting white spaces or blank lines, or re-wrapping lines, or adding `{ }` to single-line `if` statements. That is usually fine. However, when making changes in other people's code and sending pull requests on Github, I suggest you refrain from introducing cosmetic changes. There are two reasons:
+Programmers, including myself, make cosmetic changes in code all the time, such as adding or deleting white spaces or blank lines, or re-wrapping lines, or adding `{ }` to single-line `if` statements. That is usually fine. However, when making changes in other people's code and sending pull requests on GitHub, I suggest you refrain from introducing cosmetic changes. There are two reasons:
 
 1. Such changes require unnecessary attention of the pull request reviewer. If you don't know if the reviewer is busy or not, always assume he/she is extremely busy, so the best strategy is to bring the really minimal set of changes, and exclude all non-essential changes ([or save them for later](/en/2018/02/bite-sized-pull-requests/)).
 

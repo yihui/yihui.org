@@ -80,10 +80,10 @@ where you can find some examples of tests.
 While I do not like the text comparison approach, it does not mean it is not
 useful. Actually it is extremely useful when testing text document output. It is
 just a little awkward when testing function output. The text comparison approach
-plays an important role in the development of **knitr**: I have a Github
+plays an important role in the development of **knitr**: I have a GitHub
 repository [knitr-examples](https://github.com/yihui/knitr-examples), which
 serves as both an example repo and a testing repo. When I push new commits to
-Github, I use Travis CI to test the package, and there are two parts of the
+GitHub, I use Travis CI to test the package, and there are two parts of the
 tests: one is to run `R CMD check` on the package, which uses **testit** to run
 the test R scripts, and the other is to re-compile all the examples, and do `git
 diff` to see if there are changes. I have more than 100 examples, which should

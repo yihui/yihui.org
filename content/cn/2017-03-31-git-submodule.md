@@ -4,7 +4,7 @@ date: '2017-03-31'
 slug: git-submodule
 ---
 
-我是 2009 年在~~世界上最大的同性交友网站~~ Github 上注册的。我转向 GIT 的根本原因是因为这个网站的界面好看又实用，而不是因为版本控制工具 GIT 比 SVN 好或不好，在那之前我一直蹲守在土得掉渣的 R-Forge 上用 SVN。此后四年里，我基本上一直是在 git 菜鸟状态，日常操作用到的 git 命令非常有限，基本上就是一个库克隆到本地（`git clone`），剩下的就是用图形界面操作了；因为当年在 Ubuntu 底下混，所以用 `git gui`，极少用到命令行 `git add / commit / push / pull` 之类的。我觉得在图形界面里点点点也挺好的。直到现在我仍然是以用 RStudio 的 GIT 界面为主，绝不会手工敲 `git add` 或 `git commit`，我觉得那样既麻烦又容易出错。[^1]
+我是 2009 年在~~世界上最大的同性交友网站~~ GitHub 上注册的。我转向 GIT 的根本原因是因为这个网站的界面好看又实用，而不是因为版本控制工具 GIT 比 SVN 好或不好，在那之前我一直蹲守在土得掉渣的 R-Forge 上用 SVN。此后四年里，我基本上一直是在 git 菜鸟状态，日常操作用到的 git 命令非常有限，基本上就是一个库克隆到本地（`git clone`），剩下的就是用图形界面操作了；因为当年在 Ubuntu 底下混，所以用 `git gui`，极少用到命令行 `git add / commit / push / pull` 之类的。我觉得在图形界面里点点点也挺好的。直到现在我仍然是以用 RStudio 的 GIT 界面为主，绝不会手工敲 `git add` 或 `git commit`，我觉得那样既麻烦又容易出错。[^1]
 
 ![我恨计算机](https://slides.yihui.org/gif/dump-computer.gif)
 
@@ -42,7 +42,7 @@ slug: git-submodule
     
     更新之后主库的 git 差异中会显示新的 SHA 码，把这个差异选中提交即可。
 
-- 如果要向一个库中添加一个新的子模块，可以用 `git submodule add`，例如把我的 Github 账户下的一个库添加到 `themes/hugo-lithium-theme` 文件夹中：
+- 如果要向一个库中添加一个新的子模块，可以用 `git submodule add`，例如把我的 GitHub 账户下的一个库添加到 `themes/hugo-lithium-theme` 文件夹中：
 
     ```bash
     git submodule add \

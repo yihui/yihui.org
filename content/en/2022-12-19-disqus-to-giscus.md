@@ -17,14 +17,14 @@ Disqus, in which I had a lot of memories of the old days!
 In September this year, I saw that [Rob's
 post](https://robjhyndman.com/hyndsight/disqus2giscus.html) on migrating from
 Disqus to Giscus. It seemed that Mitch O'Hara-Wild had fully automated the job
-of extracting Disqus comments and re-posting them to Github Discussions so that
+of extracting Disqus comments and re-posting them to GitHub Discussions so that
 we could use Giscus, which sounded awesome to me, but again, the number of
-Disqus comments on my site was huge. I knew Github has some rate limit, and I
+Disqus comments on my site was huge. I knew GitHub has some rate limit, and I
 had no idea how long it would take to post the 10K comments. In addition, I was
 still hesitating on two other things:
 
 1.  I didn't like the fact that all guest comments must be posted using my own
-    Github account, even though there is a header line in each Github comment
+    GitHub account, even though there is a header line in each GitHub comment
     that says "this comment was originally posted by \[...\] on \[...\]". If the
     readers don't pay close attention, they may feel that I've been talking to
     myself on my own site for 17 years :) More importantly, the original authors
@@ -34,12 +34,12 @@ still hesitating on two other things:
 
 2.  I also felt a little sad that the original timestamp of a comment couldn't
     be preserved but could only be written in a header note. Readers may see a
-    comment which Github says was posted a week ago but was actually posted ten
+    comment which GitHub says was posted a week ago but was actually posted ten
     years ago.
 
 Neither problem has a solution. You can't post a comment on another person's
-behalf on Github, and nor can you modify the timestamp of a comment. However, I
-did come up with a way to remedy #1: I registered a Github account `@giscus-bot`
+behalf on GitHub, and nor can you modify the timestamp of a comment. However, I
+did come up with a way to remedy #1: I registered a GitHub account `@giscus-bot`
 to post guest comments, and used my personal account to post my own comments.
 Then the whole comment thread looks like this ([a real
 example](https://github.com/yihui/yihui.org/discussions/742)):
@@ -61,10 +61,10 @@ Hi Yihui!
 ```
 
 To further remedy #1, I added `@username` in the comments from some friends of
-whom I know both their Github usernames and Disqus names. This means when
+whom I know both their GitHub usernames and Disqus names. This means when
 someone replies to their comments in the future, they will get notified.
-However, this also means that during the migration to Github Discussions, these
-friends could get tons of Github notifications, depending on how many comments
+However, this also means that during the migration to GitHub Discussions, these
+friends could get tons of GitHub notifications, depending on how many comments
 they have left on my site before. I told some of them that the closer our
 friendship is, the more "spam emails" you will get from me this time.
 Afterwards, among the people whom I didn't notify in advance, two told me they
@@ -74,22 +74,22 @@ up well to this pressure test.
 
 I also took this chance to clean up some Disqus comments programmatically. For
 example, Chinese readers love using `~~` to express cuteness, but that coincides
-with the syntax for ~~strikeout~~ in Github's Markdown. I substituted them with
+with the syntax for ~~strikeout~~ in GitHub's Markdown. I substituted them with
 the full-width `～～`. Another example is that Disqus shortens long bare links,
 and I expanded them back.
 
 ## An Utterances problem
 
-I also had some Utterances comments. Migrating them was much easier since Github
-allows us to convert Github Issues (on which Utterances is based) to Github
+I also had some Utterances comments. Migrating them was much easier since GitHub
+allows us to convert GitHub Issues (on which Utterances is based) to GitHub
 Discussions. However, I had another complication on my site: I enabled both
 Utterances and Disqus, and got comments from both systems for the same posts. I
-had to merge these comments. Rob's script was only for creating new Github
+had to merge these comments. Rob's script was only for creating new GitHub
 discussions, so I modified it to check if a discussion exists (migrated from a
-Github issue) and post Disqus comments to existing discussions if possible.
+GitHub issue) and post Disqus comments to existing discussions if possible.
 
 To post to an existing discussion, you need to know its ID. Here is how I
-obtained a data frame of all existing discussions (you need to set up a Github
+obtained a data frame of all existing discussions (you need to set up a GitHub
 token first, e.g., in the environment variable `GITHUB_PAT`):
 
 ``` r
@@ -135,9 +135,9 @@ discussions = get_discussions('yihui', 'yihui.org')
 In Rob's script, I added a check to see if a discussion exists to create new
 discussions only conditionally.
 
-## Deal with character escaping in Github GraphQL
+## Deal with character escaping in GitHub GraphQL
 
-The core technique for posting comments to Github Discussions is
+The core technique for posting comments to GitHub Discussions is
 [GraphQL](https://docs.github.com/en/graphql/guides/using-the-graphql-api-for-discussions).
 I was not familiar with it before but it looked straightforward to learn (at
 least for some simple tasks like querying or updating discussions). Here is an
@@ -191,17 +191,17 @@ the wrong page. Giscus, as a successor of Utterances, provides a very clever
 option to solve this problem: `data-strict="1"` (great job, [Sage
 Abdullah](https://github.com/giscus/giscus/pull/621)!).
 
-Github doesn't provide strict matching in searching discussions, but Giscus's
+GitHub doesn't provide strict matching in searching discussions, but Giscus's
 clever method has made it possible. In short, when using the strict method,
 Giscus searches for a *hash* of the searching term instead of the term directly.
 This has well solved my problem: I prefer using `pathname` of the page URL as
 the searching term, but the `pathname` can be quite fuzzy if you search for it
 directly. Searching for the SHA-1 hash of the `pathname` gives much more
 accurate results, which almost guarantees one-to-one mapping between a web page
-and a Github discussion. No more fuzziness.
+and a GitHub discussion. No more fuzziness.
 
 To enable `data-strict`, I had to append the SHA-1 hashes of the URL `pathname`s
-to Github discussions when creating them. The hash can be computed via
+to GitHub discussions when creating them. The hash can be computed via
 `digest::digest()`:
 
 ``` r
@@ -217,7 +217,7 @@ of `{{ }}`.
 
 ## Other little things
 
-I had a lot of comments written in Chinese. To re-post them to Github, I added a
+I had a lot of comments written in Chinese. To re-post them to GitHub, I added a
 header note in Chinese, and the test for (common) Chinese characters I used was:
 
 ``` r
@@ -226,7 +226,7 @@ has_chinese = function(x) {
 }
 ```
 
-To post with a different Github account (e.g., `giscus-bot` in my case), you can
+To post with a different GitHub account (e.g., `giscus-bot` in my case), you can
 use the `.token` argument of `gh::gh_gql()`, e.g.,
 
 ``` r
@@ -246,8 +246,8 @@ rmarkdown::pandoc_convert(
 
 In Rob's script, `to = "markdown"` is not a great choice (e.g., it results in a
 lot of unnecessary escaping), and `gfm` is a much more natural choice for
-Github. The option `--wrap=none` is also critical, because Pandoc will hard-wrap
-long lines by default. Unfortunately, Github treats line breaks in Markdown as
+GitHub. The option `--wrap=none` is also critical, because Pandoc will hard-wrap
+long lines by default. Unfortunately, GitHub treats line breaks in Markdown as
 hard breaks (i.e., `<br/>`). Without the `--wrap=none` option, you may see a lot
 of unexpected line breaks in the comments.
 
@@ -327,15 +327,15 @@ editor. You won't want to read them. For most people, I think Rob's original
 script would suffice. My situation is just too complicated.
 
 Knowing that I can manipulate (not for evil, of course) comments
-programmatically via Github GraphQL was a strong motivation for me to move the
-comments over to Github. I have already taken advantage of this to batch modify
+programmatically via GitHub GraphQL was a strong motivation for me to move the
+comments over to GitHub. I have already taken advantage of this to batch modify
 the discussion titles (to make them clearer instead of only having a `pathname`
 in them).
 
 In the end, I'm particularly grateful to people who have posted comments on my
 site over these 17 years (you can [view all of them on
-Github](https://github.com/yihui/yihui.org/discussions) if interested). I have
+GitHub](https://github.com/yihui/yihui.org/discussions) if interested). I have
 noticed an obvious decline in the number of comments after social media became
 popular, but I have already made enough long-time friends. Feel free to sign in
-Giscus with your Github account to leave comments at the bottom from now on. See
+Giscus with your GitHub account to leave comments at the bottom from now on. See
 you in the next 17 years!

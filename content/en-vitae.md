@@ -105,7 +105,7 @@ Since late 2016, I started the [**blogdown**](https://github.com/rstudio/blogdow
 
 I spent the first half of 2018 on writing the book "[R Markdown: The Definitive Guide](https://bookdown.org/yihui/rmarkdown)" (published in July), and the last few months on the R package [**pagedown**](https://github.com/rstudio/pagedown).
 
-I was not very productive in 2019. <!--I often felt drown in Github issues and Stack Overflow questions.--> There was too much maintainence work for me to do for my R packages. I planned to write the [R Markdown Cookbook](https://bookdown.org/yihui/rmarkdown-cookbook), but didn't finish it until the summer of 2020. After that, I started to pay the huge amount of tech debt accumulated due to the hard time of COVID and the writing of the aforementioned book. I revamped the **blogdown** package in the second half of 2020.
+I was not very productive in 2019. <!--I often felt drown in GitHub issues and Stack Overflow questions.--> There was too much maintainence work for me to do for my R packages. I planned to write the [R Markdown Cookbook](https://bookdown.org/yihui/rmarkdown-cookbook), but didn't finish it until the summer of 2020. After that, I started to pay the huge amount of tech debt accumulated due to the hard time of COVID and the writing of the aforementioned book. I revamped the **blogdown** package in the second half of 2020.
 
 Since the September of 2019, I had been more and more overwhelmed by the workload. 2020 had been quite a traumatic year to me (perhaps to everyone else, too). Fortunately, the tech debt started to appear manageable at the end of the first half of 2021.
 

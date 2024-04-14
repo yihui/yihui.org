@@ -4,7 +4,7 @@ date: '2017-05-17'
 slug: when-in-doubt-upgrade
 ---
 
-I have said this many times in several Github issues and it is also the very first [FAQ](/knitr/faq/) of **knitr**. It is a little exaggerative and certainly not a universal rule, but it helps a lot if you could try to upgrade everything before you report a software issue. It is even more helpful if you could also install the development version of the software and see if the problem has gone. Although it sounds like a joke, [@ThePracticalDev](https://twitter.com/ThePracticalDev/) actually has a very good point:
+I have said this many times in several GitHub issues and it is also the very first [FAQ](/knitr/faq/) of **knitr**. It is a little exaggerative and certainly not a universal rule, but it helps a lot if you could try to upgrade everything before you report a software issue. It is even more helpful if you could also install the development version of the software and see if the problem has gone. Although it sounds like a joke, [@ThePracticalDev](https://twitter.com/ThePracticalDev/) actually has a very good point:
 
 [![Changing stuff and seeing what happens](https://pbs.twimg.com/media/Cf7eHZ1W4AEeZJA.jpg)](https://twitter.com/ThePracticalDev/status/720257210161311744/)
 
@@ -20,7 +20,7 @@ A few notes from my personal experience just for your reference and also for my 
 
     I always recommend `checkBuilt = TRUE`. It is a conservative choice, which may waste you a few more minutes to reinstall packages that actually still work well under the new version of R, but I prefer safety over time.
 
-- Homebrew: `brew upgrade && brew cleanup`. Homebrew is one of the two most important reasons why I switched from Linux to macOS a few years ago.[^2] It is so awesome and convenient, and is exactly how I expect how system package manager to work: allow the community to help manage packages via Github pull requests. I'm seriously looking forward to Jeroen's project on [building R packages with Homebrew](https://www.r-consortium.org/blog/2017/04/03/q1-2017-isc-grants). This is something I have waited for long, and I think the future of Homebrew R is brighter than the CRAN binaries of R and R packages.
+- Homebrew: `brew upgrade && brew cleanup`. Homebrew is one of the two most important reasons why I switched from Linux to macOS a few years ago.[^2] It is so awesome and convenient, and is exactly how I expect how system package manager to work: allow the community to help manage packages via GitHub pull requests. I'm seriously looking forward to Jeroen's project on [building R packages with Homebrew](https://www.r-consortium.org/blog/2017/04/03/q1-2017-isc-grants). This is something I have waited for long, and I think the future of Homebrew R is brighter than the CRAN binaries of R and R packages.
 
 - LaTeX: I think everybody knows that I dislike everything about LaTeX except the PDF output.[^3] I dislike the installation, maintenance, syntax, and debugging process of LaTeX. Almost everything is painful on every platform.[^4] I'm not going to rant more, but ~~just point out that updating LaTeX (and LaTeX packages) could be trickier than you imagined.~~ [TinyTeX](/tinytex/) has made it much easier compared to other LaTeX distributions: just use the R function `tinytex::tlmgr_update()`, or run the command line `tlmgr update --all --self`.
 

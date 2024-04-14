@@ -73,8 +73,8 @@ hood](https://github.com/yihui/formatR/blob/942bff28/R/tidy.R#L293-L311):
 
 The 3rd step can be a little tricky if you use `substr<-` but I have an idea to
 make it work. Please feel free to open a pull request [on
-Github](https://github.com/yihui/formatR) if you are interested in contributing
-(it is okay if you are unable to figure out everything---we can talk on Github).
+GitHub](https://github.com/yihui/formatR) if you are interested in contributing
+(it is okay if you are unable to figure out everything---we can talk on GitHub).
 Thanks!
 
 ![Endless pipes](https://slides.yihui.org/gif/repeat-smoke.gif)

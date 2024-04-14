@@ -27,7 +27,7 @@ One week later, I emailed Romain:
 
 ## What made Romain a great collaborator of mine
 
-[I have admitted that](/en/2018/02/career-crisis/) I'm a terrible person to collaborate with. Usually I tend to do most of the work on my own, and do not collaborate with other people substantially. I have reviewed and merged many pull requests on Github, but these projects typically have only one absolute owner (me). I think **pagedown** is the first project in which I have communicated with a co-author frequently and haven't made all the decisions only by myself. There are a few reasons why I regarded Romain as a great collaborator to me:
+[I have admitted that](/en/2018/02/career-crisis/) I'm a terrible person to collaborate with. Usually I tend to do most of the work on my own, and do not collaborate with other people substantially. I have reviewed and merged many pull requests on GitHub, but these projects typically have only one absolute owner (me). I think **pagedown** is the first project in which I have communicated with a co-author frequently and haven't made all the decisions only by myself. There are a few reasons why I regarded Romain as a great collaborator to me:
 
 1. His skill set complements mine perfectly. I know R Markdown and HTML Widgets well, and he knows Paged.js and Pandoc Lua filters. Since he joined me in the work of **pagedown**, I lost the motivation to learn more about Paged.js and Pandoc filters. Besides, he read the Chrome Developer Protocol and [single-handedly wrote](https://github.com/rstudio/pagedown/pull/30) the wonderful `pagedown::chrome_print()` function. I confess that this is still a mystery to me, and I'm unable to reach the depth in these technologies as Romain did. He has submitted [many other pull requests](https://github.com/rstudio/pagedown/pulls?q=is%3Apr+author%3ARLesur) to **pagedown**, and I often merged them with awe (e.g., [#16](https://github.com/rstudio/pagedown/pull/16), [#21](https://github.com/rstudio/pagedown/pull/21), [#43](https://github.com/rstudio/pagedown/pull/43), and [#48](https://github.com/rstudio/pagedown/pull/48)). In particular, my jaw dropped when I saw he reinvented the Chapman & Hall/CRC book style and the Journal of Statistical Software style with CSS. Epic magic! That was perfect timing for [my rstudio::conf(2019) talk](https://resources.rstudio.com/rstudio-conf-2019/pagedown-creating-beautiful-pdfs-with-r-markdown-and-css).
 
@@ -41,7 +41,7 @@ Somehow he also established a personal connection with the Paged.js developers, 
 
 ## Romain's other contributions
 
-Besides **pagedown**, I have seen Romain help me in several other Github repositories that I maintain, although I didn't ask him to. To be clear, I do need help, and always do. Below is an incomplete list of Github issues with which Romain has helped recently:
+Besides **pagedown**, I have seen Romain help me in several other GitHub repositories that I maintain, although I didn't ask him to. To be clear, I do need help, and always do. Below is an incomplete list of GitHub issues with which Romain has helped recently:
 
 - [rstudio/bookdown#733](https://github.com/rstudio/bookdown/issues/733) (Margin/div bug when rendering gitbook). Multiple users had confirmed the bug, but I was too busy and lazy to install both Pandoc 2.7.2 and 2.7.3 to test it by myself. Romain did the vast majority of the debugging work, identified the root cause, and made it trivially easy for me to fix the issue.
 
@@ -53,6 +53,6 @@ Romain's first pull request to packages that I maintain was [rstudio/rmarkdown#1
 
 ## Summary
 
-To sum it up, Romain has exactly the skills that I don't have but definitely need, has a creative mind as a hacker, shares the same belief in the web, is able to sense my headache in Github issues, and often actively helps me in a way that really minimizes the work on my shoulders. I know he is [currently on vacation](https://github.com/rstudio/pagedown/issues/120#issuecomment-511243498), and probably won't see this post until three weeks later, but anyway, I want to thank him so much for being such a wonderful collaborator as well as all the help along the way!
+To sum it up, Romain has exactly the skills that I don't have but definitely need, has a creative mind as a hacker, shares the same belief in the web, is able to sense my headache in GitHub issues, and often actively helps me in a way that really minimizes the work on my shoulders. I know he is [currently on vacation](https://github.com/rstudio/pagedown/issues/120#issuecomment-511243498), and probably won't see this post until three weeks later, but anyway, I want to thank him so much for being such a wonderful collaborator as well as all the help along the way!
 
 ![A wonderful collaborator](https://slides.yihui.org/gif/duiyou-4.gif)

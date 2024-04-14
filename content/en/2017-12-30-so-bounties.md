@@ -33,7 +33,7 @@ I hope to avoid the illusion of "reputation" or karma, and I prefer staying in t
 
 [![50 points to attact people to answer the question](https://db.yihui.org/images/so-bounty.png)](https://stackoverflow.com/q/47840392/559676)
 
-The poster asked me the same question [on Github](https://github.com/rstudio/bookdown/issues/499), and I was not very motivated by issues related to the Internet Explorer, so all I could do was offer the bounties on his Stack Overflow question, and hope someone else could figure out a solution.
+The poster asked me the same question [on GitHub](https://github.com/rstudio/bookdown/issues/499), and I was not very motivated by issues related to the Internet Explorer, so all I could do was offer the bounties on his Stack Overflow question, and hope someone else could figure out a solution.
 
 ## Don't forget that there are no pearls without sand
 

@@ -59,7 +59,7 @@ I have been hoping to experiment with this for a couple of years. Finally I fini
 
 This time I just gave up and decided to take a stab at building some binary R packages against the Homebrew version of R, so that I won't need to worry about installing them again in the future. I used the `osx` environment for the first time on Travis, built some packages on Travis, and automatically deployed to https://macos.rbind.io. So far so good, although I have to admit I'm definitely not an expert in compiling packages from source. I just have some bare minimum knowledge.
 
-Currently the scripts for building the packages are in the Github repo [yihui/homebrew-r-packages](https://github.com/yihui/homebrew-r-packages) (I may move it to a certain organization in the future if a wider community shows interest in it). The main script is [build.R](https://github.com/yihui/homebrew-r-packages/blob/master/build.R), which I believe is not too complicated.
+Currently the scripts for building the packages are in the GitHub repo [yihui/homebrew-r-packages](https://github.com/yihui/homebrew-r-packages) (I may move it to a certain organization in the future if a wider community shows interest in it). The main script is [build.R](https://github.com/yihui/homebrew-r-packages/blob/master/build.R), which I believe is not too complicated.
 
 See https://macos.rbind.io for detailed instructions on how to install these pre-built binary packages, as well as things that I need help with. You have been warned that this is only a quick experiment of mine over two days. Trust me: I'm not an expert, I'm not an expert, and I'm not an expert (e.g., OpenMP? What's that?)! I'll be waiting for experts' feedback and help!
 

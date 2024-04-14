@@ -4,7 +4,7 @@ date: '2017-04-14'
 slug: jeff-leek-facts
 ---
 
-> **Note**: What other facts about Jeff Leek do you "know"? Please feel free to click the link "Edit this page" in the navigation menu and submit a pull request on Github, or tweet with the hashtag [#jeffleekfacts](https://twitter.com/hashtag/jeffleekfacts).
+> **Note**: What other facts about Jeff Leek do you "know"? Please feel free to click the link "Edit this page" in the navigation menu and submit a pull request on GitHub, or tweet with the hashtag [#jeffleekfacts](https://twitter.com/hashtag/jeffleekfacts).
 
 I have not written blog posts for quite a while. It is not because I don't have anything to write. On the contrary, I have a huge amount of things that I could have written about, e.g., how I collect and manage GIFs, and some stories behind the publication of the [bookdown book](https://bookdown.org/yihui/bookdown). A lot of things have happened since the last time I wrote a post here. I'll explain them later this year.
 

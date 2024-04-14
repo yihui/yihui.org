@@ -5,7 +5,7 @@ date: '2018-07-11'
 slug: embed-file
 ---
 
-Sometimes it is even hard for myself to believe how long it would take for me to implement a simple feature. Last year, when I saw Steven Fazzio's [**blogdown** feature request](https://github.com/rstudio/blogdown/issues/106) on Github (to embed the Rmd source file in the HTML output so readers can download it), I had an idea how to implement it. I knew it wouldn't be hard.
+Sometimes it is even hard for myself to believe how long it would take for me to implement a simple feature. Last year, when I saw Steven Fazzio's [**blogdown** feature request](https://github.com/rstudio/blogdown/issues/106) on GitHub (to embed the Rmd source file in the HTML output so readers can download it), I had an idea how to implement it. I knew it wouldn't be hard.
 
 Actually two years ago, Noam Ross sent [a pull request](https://github.com/rstudio/rmarkdown/pull/708) to the **rmarkdown** repo, which was related to Steven's request. I felt the implementation could be easier.
 
@@ -49,7 +49,7 @@ Under the hood, `xfun::embed_file()` simply generates a link of the form `<a hre
 
 ## When to use these functions? 
 
-If your project is public, for example, on Github, there is no need to embed files in the HTML output: just give other people the address of the repo. If you are using **blogdown**, [it is also possible](https://github.com/rstudio/blogdown/issues/106) to automatically generate a link on each page pointing to the corresponding source file on Github (e.g., on my website, you can click the link "Edit this page" to edit the source files of most pages). 
+If your project is public, for example, on GitHub, there is no need to embed files in the HTML output: just give other people the address of the repo. If you are using **blogdown**, [it is also possible](https://github.com/rstudio/blogdown/issues/106) to automatically generate a link on each page pointing to the corresponding source file on GitHub (e.g., on my website, you can click the link "Edit this page" to edit the source files of most pages). 
 
 If you project is completely private, you may compress the whole directory as a zip file and send it via email. That is common and fine, but you may not want to manually compress the directory every time you update any files in it. These `embed_*()` functions can automatically read and embed files in your HTML output, so all you need to do is knit the Rmd source document again, and you will only need to email an HTML file.
 

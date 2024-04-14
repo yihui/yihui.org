@@ -53,7 +53,7 @@ a high expectation that they would be implemented.
 ![Feature complete!](https://slides.yihui.org/gif/table-cloth.gif)
 
 P.S. Currently, [the **markdown** repo](https://github.com/rstudio/markdown) is
-the only Github repo that I maintain and has zero open issues. For years, I
+the only GitHub repo that I maintain and has zero open issues. For years, I
 thought [Will
 Landau](https://github.com/ropensci/targets/issues/503#issuecomment-856264236)
 was the only person on earth who could possibly achieve this.

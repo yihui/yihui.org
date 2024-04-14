@@ -61,7 +61,7 @@ today that works for both Markdown and HTML users.
 You can find the source code
 [`tabsets.js`](https://github.com/yihui/misc.js/blob/main/js/tabsets.js) and
 [`tabsets.css`](https://github.com/yihui/misc.js/blob/main/css/tabsets.css) in
-my Github repo `misc.js`. For users, you certainly do not need to read the
+my GitHub repo `misc.js`. For users, you certainly do not need to read the
 source, but can use it directly:
 
 ``` html

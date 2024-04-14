@@ -6,7 +6,7 @@ slug: md-js-tricks
 
 Just because Markdown is so simple (well, "[simple](/en/2018/11/hard-markdown/)"), there will definitely be useful features missing. I want to share some of my relatively simple JS tricks to fill the gaps. Please note that I'm only talking about the HTML output, and the Markdown flavor can be arbitrary (it doesn't have to be Pandoc's Markdown). In fact, all tricks below are general-purpose and will work on any web pages, no matter if the pages are generated from Markdown or not. 
 
-If you are interested in the JavaScript source code, you may find all scripts in the Github repo [yihui/misc.js](https://github.com/yihui/misc.js).
+If you are interested in the JavaScript source code, you may find all scripts in the GitHub repo [yihui/misc.js](https://github.com/yihui/misc.js).
 
 ## How to work with LaTeX math expressions
 

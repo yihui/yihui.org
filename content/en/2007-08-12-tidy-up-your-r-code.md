@@ -8,7 +8,7 @@ Update on 2012/03/04
 
 :   Later the idea was turned into a package
     [**formatR**](http://cran.r-project.org/package=formatR) and many details
-    have been enhanced there. See the [Github
+    have been enhanced there. See the [GitHub
     repo](https://github.com/yihui/formatR) for details.
 
 In the past I used to make use of

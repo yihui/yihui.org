@@ -4,13 +4,13 @@ subtitle: Helper Functions to Manage TinyTeX, and Compile LaTeX Documents
 date: '2017-12-03'
 ---
 
-You can install the **tinytex** package from either CRAN or Github:
+You can install the **tinytex** package from either CRAN or GitHub:
 
 ```r
 # CRAN version
 install.packages('tinytex')
 
-# or the development version on Github
+# or the development version on GitHub
 remotes::install_github('rstudio/tinytex')
 ```
 

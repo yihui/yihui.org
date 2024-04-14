@@ -11,7 +11,7 @@ This FAQ is compiled from the [issues](https://github.com/yihui/knitr/issues) an
 1. What is the best place to ask questions when the package website is not helpful?
     - Depending what you want to ask, you may use these tools (I keep track of the first two more frequently):
         - (Recommended) [Stack Overflow](http://stackoverflow.com/questions/tagged/knitr): general questions (more experts and quicker answers there). Don't forget to use both the tags `r` and `knitr`.
-        - [Github issues](https://github.com/yihui/knitr/issues): bug reports and feature requests only.
+        - [GitHub issues](https://github.com/yihui/knitr/issues): bug reports and feature requests only.
         - Private emails [are not recommended](/en/2017/08/so-gh-email/) unless there are really private issues.
         - Twitter ([@xieyihui](https://twitter.com/xieyihui)) if you really believe it is a simple question.
 
@@ -48,4 +48,4 @@ This FAQ is compiled from the [issues](https://github.com/yihui/knitr/issues) an
 
 1. How can I submit a documentation fix or other minor changes?
     - To fix anything in the R package: navigate to the file within the [repository](https://github.com/yihui/knitr); click the Edit button on the top-right toolbar; make the necessary changes; add a descriptive commit summary, click on **Propose file change**, and submit the pull request.
-    - To fix anything or propose changes on any page of this website, please click on the menu `Edit this page` on the left of the page, and follow the same steps on Github.
+    - To fix anything or propose changes on any page of this website, please click on the menu `Edit this page` on the left of the page, and follow the same steps on GitHub.

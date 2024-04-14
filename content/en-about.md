@@ -35,7 +35,7 @@ Please don't get me wrong---I do like questions, but I prefer seeing questions
 about open-source packages (like R) posted on [Stack
 Overflow](https://stackoverflow.com) or [Posit
 Community](https://community.rstudio.com), instead of in my inbox. For any
-reason, if you have to ask me directly, please post to my public [Github
+reason, if you have to ask me directly, please post to my public [GitHub
 Discussions](https://github.com/yihui/yihui.org/discussions) (you can ask me
 anything there if it doesn't involve privacy). Please feel free to email me the
 link to your public question if nobody has answered it after a few days, and
@@ -53,10 +53,10 @@ This site is created with [**blogdown**](https://github.com/rstudio/blogdown)
 (base on [Hugo](https://gohugo.io)) and the theme is
 [hugo-paged](https://github.com/yihui/hugo-paged), a Hugo theme that I created
 to mimic the paged.js website theme. The Markdown source files are [hosted on
-Github](https://github.com/yihui/yihui.org). When you read the blog posts, you
+GitHub](https://github.com/yihui/yihui.org). When you read the blog posts, you
 can navigate to the previous post by the left-arrow key or next post by
 right-arrow. Please hit "Edit this page" in the bottom menu if you find any
-mistakes on the page to propose a correction through Github.
+mistakes on the page to propose a correction through GitHub.
 
 ## Some links
 

@@ -4,21 +4,21 @@ date: '2013-06-10'
 slug: fix-typo-in-documentation
 ---
 
-> Update (2017/08/16): It is much easier to fix typos on my web pages now. There is a menu item "Edit this page" on each page. You can edit the source of a page if you find any mistakes, and propose a correction through a Github pull request. You don't need to use any command-line tools. You should not follow the instructions in the post below any more (the **knitr** documentation has been moved to a different repo).
+> Update (2017/08/16): It is much easier to fix typos on my web pages now. There is a menu item "Edit this page" on each page. You can edit the source of a page if you find any mistakes, and propose a correction through a GitHub pull request. You don't need to use any command-line tools. You should not follow the instructions in the post below any more (the **knitr** documentation has been moved to a different repo).
 
 So I just got yet yet another
 [comment](/knitr/demo/sweave/#comment-924948061) saying
 "you have a typo in your documentation". While I do appreciate these kind
 reminders, I think it might be a good exercise for those who want to try GIT
-and [Github pull
+and [GitHub pull
 requests](https://help.github.com/articles/using-pull-requests), which make
 it possible for you to contribute to open source and fix obvious problems
 _with no questions being asked_ -- just do it yourself, and send the changes
-to the original author(s) through Github.
+to the original author(s) through GitHub.
 
-![help me with Github pull requests](https://db.yihui.org/imgur/j9NYXiQ.png)
+![help me with GitHub pull requests](https://db.yihui.org/imgur/j9NYXiQ.png)
 
-The official documentation for Github pull requests is a little bit verbose
+The official documentation for GitHub pull requests is a little bit verbose
 for beginners. Basically what you need to do for simple tasks are:
 
 1. click the `Fork` button and clone the repository in your own account;

@@ -61,7 +61,7 @@ will remain stable for years. For example, I'm still using a rather old version
 of Hugo (0.25.1), and it has been working well for five years. The theme does
 not use any fancy or advanced technologies. Hugo's unbeatable speed is also
 important to me because I have thousands of posts on this site. Continuous
-deployment and PR preview with Github/Netlify/Vercel are awesome, mature, and
+deployment and PR preview with GitHub/Netlify/Vercel are awesome, mature, and
 indispensable to me. Other than resisting the recurring urge to tweak CSS or
 even change the theme, there is little I need to do in terms of maintaining the
 site. I found Rakhim's webcomic below in 2020 and it resonated well with me.

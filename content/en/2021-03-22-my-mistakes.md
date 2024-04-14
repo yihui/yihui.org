@@ -121,7 +121,7 @@ comments (or email me).
     this process:
 
     -   I got 17 thumb-ups in my feature request in the rstudio repo on
-        Github---originally I thought few people would care about it, e.g., I
+        GitHub---originally I thought few people would care about it, e.g., I
         did not know that [Nick still uses
         Rnw](https://github.com/rstudio/rstudio/issues/2788#issuecomment-514501986).
 

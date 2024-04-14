@@ -1,15 +1,15 @@
 ---
-title: Github Issue Guide
+title: GitHub Issue Guide
 author: 'Yihui Xie'
 date: '2019-03-04'
 slug: issue
 ---
 
-This is a guide expected to be read before anyone files an issue to a repository that I maintain on Github. Please help me help you.
+This is a guide expected to be read before anyone files an issue to a repository that I maintain on GitHub. Please help me help you.
 
 ## Got a question?
 
-For general questions, please post them on Stack Overflow first: http://stackoverflow.com/questions/ask (typically you want to use at least the tags `r` and relevant R package names such as `knitr`, `rmarkdown`, `blogdown`, and so on). You can also ask in the RStudio Community: https://community.rstudio.com. Please come back to Github only if nobody answers your question there in at least 24 hours, and [let us know the URL](/en/2017/10/cross-posting/) of your post. There are several benefits of asking questions on popular public forums than asking a single developer ([see this post](/en/2017/08/so-gh-email/)).
+For general questions, please post them on Stack Overflow first: http://stackoverflow.com/questions/ask (typically you want to use at least the tags `r` and relevant R package names such as `knitr`, `rmarkdown`, `blogdown`, and so on). You can also ask in the RStudio Community: https://community.rstudio.com. Please come back to GitHub only if nobody answers your question there in at least 24 hours, and [let us know the URL](/en/2017/10/cross-posting/) of your post. There are several benefits of asking questions on popular public forums than asking a single developer ([see this post](/en/2017/08/so-gh-email/)).
 
 If you have asked the question elsewhere, [please mention your cross-posting](/en/2017/10/cross-posting/) in all places where you asked the question. After your question has been answered in one place, please notify people in other places so they won't waste their time.
 
@@ -19,7 +19,7 @@ If an issue has been closed, please refrain from continuing to reply to it. An i
 
 For bug reports, please provide [a minimal, self-contained, and reproducible example](/en/2017/09/the-minimal-reprex-paradox/) by reducing your example as much as possible right before the problem goes away. By doing this, you may be able to figure out what the problem really is before reporting to us.
 
-If your example is a single plain-text file, post the content in the issue (be sure to format it as a verbatim block). If your example contains multiple files, please upload them as a zip file to the Github issue.
+If your example is a single plain-text file, post the content in the issue (be sure to format it as a verbatim block). If your example contains multiple files, please upload them as a zip file to the GitHub issue.
 
 Please always provide `xfun::session_info()`. If the relevant package is not in the session info, you may pass the package name to this function, e.g.,
 

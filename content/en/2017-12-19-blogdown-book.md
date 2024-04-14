@@ -45,7 +45,7 @@ Hugo seems to favor TOML (Tom's Obvious, Minimal Language), although it supports
 
 ## Netlify, I have been waiting for you for years
 
-Many people love Github Pages, include the past me. I still love the idea of pushing Markdown to Github and letting Github automatically render the website. As I became unsatisfied with Jekyll, I started to look for a similar service that supports Hugo natively, and I found Netlify. I couldn't be happier with it. It has solved several critical issues, and the free plan has included so many awesome features. For example, free HTTPS for custom domains, [301/302 redirects](/en/2017/11/301-redirect/), free CDN, and continuous deployment from Github with a static site generator of your choice (including Hugo and Jekyll). Basically it has done pretty much everything correctly in my eyes, and it is simple to use.
+Many people love GitHub Pages, include the past me. I still love the idea of pushing Markdown to GitHub and letting GitHub automatically render the website. As I became unsatisfied with Jekyll, I started to look for a similar service that supports Hugo natively, and I found Netlify. I couldn't be happier with it. It has solved several critical issues, and the free plan has included so many awesome features. For example, free HTTPS for custom domains, [301/302 redirects](/en/2017/11/301-redirect/), free CDN, and continuous deployment from GitHub with a static site generator of your choice (including Hugo and Jekyll). Basically it has done pretty much everything correctly in my eyes, and it is simple to use.
 
 I think many people use Amazon S3 buckets for static websites. I tried S3 a few times, and honestly I feel it is not very friendly to beginners. It exposed too many technical details to users. Actually the whole Amazon AWS console looks complicated to me.
 
@@ -79,7 +79,7 @@ I also recommend you to learn a bit about DNS. You should consider registering y
 
 ## Make a plan! Yes, make, a, plan!
 
-I'm not a person with strong self-discipline, and writing a book is never as simple as "keep writing from the beginning to end". A lot of random things can happen, not to mention the distractions. When you write a book, other things like emails, Github issues, Stack Overflow questions, and social media won't automatically stop and wait for you. They will continue to pour in, making it really, really hard for me to focus. That is how Internet works. I cannot hang a sign on my door saying "Please do not disturb".
+I'm not a person with strong self-discipline, and writing a book is never as simple as "keep writing from the beginning to end". A lot of random things can happen, not to mention the distractions. When you write a book, other things like emails, GitHub issues, Stack Overflow questions, and social media won't automatically stop and wait for you. They will continue to pour in, making it really, really hard for me to focus. That is how Internet works. I cannot hang a sign on my door saying "Please do not disturb".
 
 The most important lesson I learned was to make a plan, and stick firmly to it. I think everyone knows the importance and how to make a plans, but the difference between those who can get things done and those procrastinators is that the former group of people will actually execute the plan. A plan is the minimal tool needed to move you from E (Entrepreneurial) to P (Purposeful); you understand what this means if you have read the book "[The One Thing](https://www.the1thing.com)" (not really a great book in my eyes, but the point "from E to P" is critical).
 
@@ -93,9 +93,9 @@ As I mentioned in the preface, I have never met my co-authors. I discovered them
 
 That is why I care a lot about tutorials about my software packages written by other people. I want to see what my software looks like in their eyes. Do they emphasize the same things as me? Do they recommend the same usage? Do they miss important features that I hope users can find out?
 
-I asked Amber to join me when I saw her patiently explain how to set up GIT and Github, which showed she really cared about beginners. Later, she turned out to be a great tester, too. She didn't know everything about **blogdown**, but she read the manuscript, tested a lot of things I mentioned in it, and gave me very detailed feedback.
+I asked Amber to join me when I saw her patiently explain how to set up GIT and GitHub, which showed she really cared about beginners. Later, she turned out to be a great tester, too. She didn't know everything about **blogdown**, but she read the manuscript, tested a lot of things I mentioned in it, and gave me very detailed feedback.
 
-Amber's tutorial was written very early (before the **blogdown** book existed) and based on Github Pages. Alison's tutorial appeared later when the book was still incomplete, and was based on Netlify. I was impressed by the super clear workflow she introduced. It was exactly what I expected **blogdown** users to follow.
+Amber's tutorial was written very early (before the **blogdown** book existed) and based on GitHub Pages. Alison's tutorial appeared later when the book was still incomplete, and was based on Netlify. I was impressed by the super clear workflow she introduced. It was exactly what I expected **blogdown** users to follow.
 
 I didn't know them before and still haven't met them in person. As an introvert, I don't care if I have met (or will meet) someone or not. I'm more interested in whether I can learn something from another person (in particular, whether the person can clear some of my blind spots).
 

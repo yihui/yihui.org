@@ -79,7 +79,7 @@ They will be converted to arrows (with tooltips, in case arrows are confusing):
 Currently, not all keys are supported. I wrote the script mainly for my own use,
 and only included the keys that I would often use. If you need to support other
 keys, please feel free to let me know in the comments below or [file an issue to
-Github](https://github.com/yihui/misc.js). However, please also note that you
+GitHub](https://github.com/yihui/misc.js). However, please also note that you
 can always use the raw HTML tag `<kbd>` when a certain key is not supported,
 e.g., `<kbd>F</kbd>` will be rendered as <kbd>F</kbd>. Raw HTML is often
 supported in Markdown, so `<kbd>` is a workaround when a pair of backticks

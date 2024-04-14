@@ -22,6 +22,6 @@ foo(
 
 but apparently he noticed my style, respected it, and started the long list of arguments _below_ the left parenthesis `(`. Of course, I'm not saying my style makes sense or advocating my style (it is a weird style!), but it will be such a smooth experience to review PRs like this, since there is zero mental friction (as if the PR were created by myself). He also meticulously corrected [a funny typo](https://github.com/rstudio/blogdown/pull/265#discussion_r170489377) of mine in `NEWS.md` --- apparently my brain was poisoned by the Rd syntax `\code{}`. That was a great extra thing to do in a PR (no questions asked).
 
-P.S. This is what it feels like when opening a PR on Github only to find too many changes in it (cannot bite with a single bite):
+P.S. This is what it feels like when opening a PR on GitHub only to find too many changes in it (cannot bite with a single bite):
 
 ![Reviewing a PR with too many changes](https://slides.yihui.org/gif/dog-fish.gif)

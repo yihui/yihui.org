@@ -8,13 +8,13 @@ My editor John Kimmel told me that many authors showed interest in **bookdown** 
 
 ## The minimal template `bookdown-crc`
 
-While I was working on [the **bookdown** book](https://bookdown.org/yihui/bookdown) in 2016, I created a minimal book example on Github in the repository https://github.com/yihui/bookdown-crc. This repository contains the LaTeX class file `krantz.cls` as well as many LaTeX tricks that I copied and pasted from Stack Overflow (e.g., how to print the page numbers in the correct format---you'll need `\frontmatter`, `\mainmatter`, and `\backmatter`). Hopefully they will save you a lot of time. Basically you can just start writing the content of your book after you clone or download this repository.
+While I was working on [the **bookdown** book](https://bookdown.org/yihui/bookdown) in 2016, I created a minimal book example on GitHub in the repository https://github.com/yihui/bookdown-crc. This repository contains the LaTeX class file `krantz.cls` as well as many LaTeX tricks that I copied and pasted from Stack Overflow (e.g., how to print the page numbers in the correct format---you'll need `\frontmatter`, `\mainmatter`, and `\backmatter`). Hopefully they will save you a lot of time. Basically you can just start writing the content of your book after you clone or download this repository.
 
 ![The front page of the bookdown-crc example](https://user-images.githubusercontent.com/163582/43736420-218f56ec-9983-11e8-8740-ec0a1fce660f.png#border)
 
 ## Get started
 
-The first file you may edit is `index.Rmd`, in which you should change at least the title and author in the YAML metadata. You should update the `github-repo` field if your book source is available on Github, otherwise just delete this field.
+The first file you may edit is `index.Rmd`, in which you should change at least the title and author in the YAML metadata. You should update the `github-repo` field if your book source is available on GitHub, otherwise just delete this field.
 
 The `index.Rmd` is the preface of your book. It usually contains unnumbered sections (the syntax is `{-}` after a section header), such as "Why read this book" and "Acknowledgements".
 

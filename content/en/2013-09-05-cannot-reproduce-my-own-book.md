@@ -22,7 +22,7 @@ Three months later, several things have changed, and I could not reproduce
 the book, but that did not surprise me. I'll explain the details later. Here
 I have extracted the first three chapters, and released the corresponding
 source files in the [knitr-book](https://github.com/yihui/knitr-book)
-repository on Github. You can also find the link to download the PDF there.
+repository on GitHub. You can also find the link to download the PDF there.
 This repository may be useful to those who plan to write a book using R.
 
 What I could not reproduce were not really important. The major change in

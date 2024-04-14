@@ -6,7 +6,7 @@ slug: add-more-tests
 
 The three components of a software package are equally important in my eyes: source code, documentation, and tests. Usually I start working on the source code like most other developers, and I'll finish the R package documentation at the same time. The package documentation is often too dry and not enough for users to learn a package systematically, because the topics in the package documentation are not arranged in a logical manner (only listed alphabetically). So I have also been trying to write books. These things have consumed me a considerable amount of time, so I have been leaving tests behind, even though I hate doing so.
 
-Now I have identifed three packages that seriously lack testing (I have also opened Github issues for them):
+Now I have identifed three packages that seriously lack testing (I have also opened GitHub issues for them):
 
 - **xfun**: https://github.com/yihui/xfun/issues/5
 

@@ -4,7 +4,7 @@ date: '2018-02-07'
 slug: not-bad-documentation
 ---
 
-As usual, I started my morning by going through new Github issues, and I saw [a nicely written issue](https://github.com/yihui/xaringan/issues/110) in the **xaringan** repo. It was a great issue because there was a minimal reproducible example in it. However, I thought the issue should be easy to understand because I had documented the `css` argument on the help page `?xaringan::moon_reader`. So there were two possibilities:
+As usual, I started my morning by going through new GitHub issues, and I saw [a nicely written issue](https://github.com/yihui/xaringan/issues/110) in the **xaringan** repo. It was a great issue because there was a minimal reproducible example in it. However, I thought the issue should be easy to understand because I had documented the `css` argument on the help page `?xaringan::moon_reader`. So there were two possibilities:
 
 1. My documentation was poor.
 

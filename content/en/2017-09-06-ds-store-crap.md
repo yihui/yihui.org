@@ -5,7 +5,7 @@ date: '2017-09-06'
 slug: ds-store-crap
 ---
 
-When browsing repositories on Github or reviewing pull requests, I often frown upon the `.DS_Store` file, the crap that macOS constantly generates under all folders that you have browsed, just like Windows generates the `Thumbs.db` crap. For myself, I have ignored it globally in GIT:
+When browsing repositories on GitHub or reviewing pull requests, I often frown upon the `.DS_Store` file, the crap that macOS constantly generates under all folders that you have browsed, just like Windows generates the `Thumbs.db` crap. For myself, I have ignored it globally in GIT:
 
 ```sh
 $ cat ~/.gitignore_global 

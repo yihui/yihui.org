@@ -2,15 +2,18 @@
 title: Rd2roxygen
 subtitle: Convert Rd to roxygen documentation
 author: "Yihui Xie"
-date: '2021-03-07'
+date: '2024-04-14'
 slug: rd2roxygen
 show_toc: true
 githubEditURL: https://github.com/yihui/Rd2roxygen/edit/master/vignettes/Rd2roxygen.Rmd
 output:
-  knitr:::html_vignette:
-    toc: yes
+  markdown::html_format:
+    meta:
+      css: ["@default", "@prism-xcode"]
+    options:
+      toc: true
 vignette: >
-  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEngine{knitr::knitr}
   %\VignetteIndexEntry{Rd2roxygen: Convert Rd to roxygen documentation and utilities to enhance R documentation}
 ---
 
@@ -76,7 +79,7 @@ job on single Rd files, or just convert the whole package. The latter might
 be more useful for developers who are considering the transition from Rd to
 roxygen.
 
-# Convert a whole package
+## Convert a whole package
 
 The function `Rd2roxygen::Rd2roxygen()` can take a path of a source package, parse all
 the Rd files under the `man` directory, and write the roxygen comments right
@@ -91,7 +94,7 @@ Rd2roxygen::Rd2roxygen("path/to/source/pkg")
 
 Note the path to the package should not be `.`. You are recommended to call this function in the directory that contains the source package.
 
-# Parse a single Rd file
+## Parse a single Rd file
 
 We can parse a single Rd file and create the roxygen comments as well with
 `parse_file()` and `create_roxygen()`, e.g.
@@ -99,7 +102,8 @@ We can parse a single Rd file and create the roxygen comments as well with
 
 ```r
 library(Rd2roxygen)
-## we can specify the roxygen comments prefix (#' by default)
+## we can specify the roxygen comments prefix (#' by
+## default)
 options(roxygen.comment = "##' ")
 str(info <- parse_file(rd.file))
 ```
@@ -134,16 +138,16 @@ cat(create_roxygen(info), sep = "\n")
 ##' @author Hadley Wickham; modified by Yihui Xie <\url{http://yihui.org}>
 ```
 
-# Roxygenize and build a package
+## Roxygenize and build a package
 
 This package also provides a tool `roxygen_and_build()` (or in short `rab()`)
 to help us build the package.
 
 
 ```r
-rab(pkg, build = TRUE, build.opts = "--no-manual", install = FALSE, 
-  install.opts = if (build) "" else "--with-keep.source", check = FALSE, 
-  check.opts = "--as-cran --no-manual", remove.check = TRUE, 
+rab(pkg, build = TRUE, build.opts = "--no-manual", install = FALSE,
+  install.opts = if (build) "" else "--with-keep.source", check = FALSE,
+  check.opts = "--as-cran --no-manual", remove.check = TRUE,
   reformat = TRUE, before = NULL, ...)
 ```
 
@@ -160,7 +164,7 @@ check=FALSE,check.opts='',remove.check=TRUE,reformat=TRUE,...){}
 
 ```r
 ## the reformatted code; note the spaces and indent
-rab = function(pkg, build = TRUE, install = FALSE, check = FALSE, 
+rab = function(pkg, build = TRUE, install = FALSE, check = FALSE,
   check.opts = "", remove.check = TRUE, reformat = TRUE, ...) {
 }
 ```
@@ -172,7 +176,7 @@ could be illegal R expressions and **formatR** will be unable to format the
 code. In this case, the original code will not be reformatted and a message
 will be printed on screen.
 
-# About this vignette
+## About this vignette
 
 This vignette was built using the vignette engine `knitr::rmarkdown`
 in the [**knitr**](https://yihui.org/knitr/) package. You can find the source

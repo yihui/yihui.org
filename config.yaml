@@ -94,7 +94,7 @@ menu:
     - name: "FAQ"
       url: "/knitr/faq/"
       weight: 5
-    - name: "Github"
+    - name: "GitHub"
       pre: "github"
       url: "https://github.com/yihui/knitr"
       weight: 6
@@ -114,7 +114,7 @@ menu:
     - name: "Resources"
       url: "/animation/resources/"
       weight: 4
-    - name: "Github"
+    - name: "GitHub"
       pre: "github"
       url: "https://github.com/yihui/animation"
       weight: 5
@@ -137,7 +137,7 @@ menu:
     - name: "中文文档"
       url: "/tinytex/cn/"
       weight: 5
-    - name: "Github"
+    - name: "GitHub"
       pre: "github"
       url: "https://github.com/rstudio/tinytex"
       weight: 6

@@ -24,7 +24,7 @@ When a user is able to create a minimal reprex, chances are that she is really c
 
 Lastly I want to show a few examples of minimal reproducible examples:
 
-- [Bugs I reported to Pandoc](https://github.com/jgm/pandoc/issues?q=is%3Aissue+author%3Ayihui+is%3Aclosed) on Github. These bugs are often discovered when other users report issues in the **rmarkdown** repo. After I investigate them, I try to minimize the examples to show the problems are only relevant to Pandoc (i.e., **rmarkdown** is innocent). My minimal reprex typically only contains a couple of lines of text.
+- [Bugs I reported to Pandoc](https://github.com/jgm/pandoc/issues?q=is%3Aissue+author%3Ayihui+is%3Aclosed) on GitHub. These bugs are often discovered when other users report issues in the **rmarkdown** repo. After I investigate them, I try to minimize the examples to show the problems are only relevant to Pandoc (i.e., **rmarkdown** is innocent). My minimal reprex typically only contains a couple of lines of text.
 
 - [rstudio/blogdown#197](https://github.com/rstudio/blogdown/issues/197): this is a recent issue, and Justin told me carefully how to reproduce the issue. I like this type of issues, because I don't need to ask more questions: just follow his steps, and I'm able to reproduce the issue. 
 

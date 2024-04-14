@@ -12,7 +12,7 @@ I took a look at the [documentation](http://about.travis-ci.org/docs/), and real
 
 ## R on Travis CI
 
-Now we are essentially system admins, and we can install anything from Ubuntu repositories, so it does not really matter that Travis CI does not support R yet. Below are a few steps to integrate your R package (on Github) into this system:
+Now we are essentially system admins, and we can install anything from Ubuntu repositories, so it does not really matter that Travis CI does not support R yet. Below are a few steps to integrate your R package (on GitHub) into this system:
 
 1. follow the [official guide](http://about.travis-ci.org/docs/user/getting-started/) util you see `.travis.yml`;
 1. copy my [`.travis.yml`](https://github.com/yihui/knitr/blob/master/.travis.yml) for the **knitr** package if you want, or write your own;
@@ -20,7 +20,7 @@ Now we are essentially system admins, and we can install anything from Ubuntu re
     - at the moment I use the RDev PPA by Michael Rutter to install R 3.0.0 since his plan for R 3.0 on CRAN is in May; at that time I'll change this PPA to a CRAN repository
     - since `R CMD check` requires all packages in `Suggests` as well, I install **knitr** using `install.packages(dep = TRUE)` to make sure all relevant packages are installed
     - `make install` and `make check` are wrappers of `R CMD build` and `R CMD check` respectively, defined in the [`Makefile`](https://github.com/yihui/knitr/blob/master/Makefile)
-1. push this `.travis.yml` to Github, and Travis CI will start building your package when a worker is available (normally within a few seconds);
+1. push this `.travis.yml` to GitHub, and Travis CI will start building your package when a worker is available (normally within a few seconds);
 
 By default you will receive email notifications when there are changes in the build. You can also find the guide on the build status image in the documentation as well, e.g. [![Build Status](https://travis-ci.org/yihui/knitr.png)](https://travis-ci.org/yihui/knitr)
 

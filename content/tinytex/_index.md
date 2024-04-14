@@ -44,7 +44,7 @@ TinyTeX assumes that you are not afraid of using the command line. If you are, p
 
 ### Installation
 
-The binary packages of TinyTeX are released on the monthly basis to the Github repo https://github.com/rstudio/tinytex-releases.
+The binary packages of TinyTeX are released on the monthly basis to the GitHub repo https://github.com/rstudio/tinytex-releases.
 
 For Linux users, TinyTeX will be installed to `$HOME/.TinyTeX` and symlinks of executables (such as `pdflatex`) are created under `$HOME/bin` (or `$HOME/.local/bin` if it exists), which should be on the `PATH` environment variable:[^1]
 
@@ -69,7 +69,7 @@ curl -sL "https://yihui.org/tinytex/install-bin-unix.sh" | sh
 
 For Windows users, save the batch file [install-bin-windows.bat](https://yihui.org/tinytex/install-bin-windows.bat) (open this link and press `Ctrl + S`), and double click it.[^2] Please note that it requires PowerShell ([at least version 3.0](https://docs.microsoft.com/en-us/powershell/scripting/setup/starting-windows-powershell-on-earlier-versions-of-windows)). If your Windows version is too low and does not have PowerShell, follow [this article](https://docs.microsoft.com/en-us/powershell/scripting/setup/starting-windows-powershell-on-earlier-versions-of-windows) to install it. The installation directory is `%APPDATA%/TinyTeX`, where `APPDATA` is an environment variable that typically points to the path `C:\Users\Your Name\AppData\Roaming`.[^3]
 
-Alternatively, Windows users can use Chocolatey or Scoop to install TinyTeX. Please see the Github repo [tinytex-releases](https://github.com/rstudio/tinytex-releases) for instructions.
+Alternatively, Windows users can use Chocolatey or Scoop to install TinyTeX. Please see the GitHub repo [tinytex-releases](https://github.com/rstudio/tinytex-releases) for instructions.
 
 To uninstall TinyTeX, simply delete the folder from your file manager/browser, or use command line:
 
@@ -119,7 +119,7 @@ tlmgr install psnfss
 tlmgr path add 
 ```
 
-Alternatively, you may just upload the error log to the Github repo [yihui/latex-pass](https://github.com/yihui/latex-pass), which runs `tlmgr search` on the cloud and tells you the names of missing packages.
+Alternatively, you may just upload the error log to the GitHub repo [yihui/latex-pass](https://github.com/yihui/latex-pass), which runs `tlmgr search` on the cloud and tells you the names of missing packages.
 
 If you still see error messages that you don't understand, you may update everything:
 

@@ -20,7 +20,7 @@ You need to install the [RStudio preview version](http://www.rstudio.org/downloa
 
 ![R markdown interface in RStudio](https://db.yihui.org/imgur/9YlzL.png)
 
-The button `MD` in the toolbar shows a quick reference of the markdown syntax, which I believe you can learn in 3 minutes. To start with, you can use my example on Github: [knitr-slides.Rmd](https://github.com/yihui/knitr/blob/master/inst/examples/knitr-slides.Rmd), or quickly cook up your own by `Ctrl + Shift + I` to insert code chunks.
+The button `MD` in the toolbar shows a quick reference of the markdown syntax, which I believe you can learn in 3 minutes. To start with, you can use my example on GitHub: [knitr-slides.Rmd](https://github.com/yihui/knitr/blob/master/inst/examples/knitr-slides.Rmd), or quickly cook up your own by `Ctrl + Shift + I` to insert code chunks.
 
 You can write headers with `#` and bullet points with `-`. It is both quick to write and easy to remember (and readable too). When you are done, just hit the button `Knit HTML`, and you get a nice HTML page showing you R code and the output. You do not have to learn LaTeX in order to step into the realm of reproducible research. (Did you see the Binomial pmf there?!)
 
@@ -44,7 +44,7 @@ I believe this combination makes reproducible research much more accessible to t
 
 Now I have done pretty much what I planned in the beginning. The next step will be our [GSoC project](http://www.google-melange.com/gsoc/project/google/gsoc2012/cloud_wei/16001), in which we will make the toolchain smoother, and work out better ways for R users to document packages and publish web pages (e.g. blogging like a hacker). If you want to follow our latest changes, you may
 
-- watch the development repository on Github <https://github.com/yihui/knitr>
+- watch the development repository on GitHub <https://github.com/yihui/knitr>
 - or join the Google mailing list <https://groups.google.com/group/knitr>
 
 And final ads: I will be presenting **knitr** at [useR! 2012](http://biostat.mc.vanderbilt.edu/wiki/Main/UseR-2012) with JJ from RStudio. I'm looking forward to meeting more knitters in Nashville :)

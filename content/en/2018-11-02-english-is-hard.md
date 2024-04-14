@@ -11,7 +11,7 @@ Those who know me may think I'm being modest: "Come on, Yihui, you have written 
 
 ## Some of my struggles with English
 
-You see my four books, but you don't know that I used the dictionary for thousands of times. I use the dictionary when writing anything in English, including books, papers, software documentation, blog posts, Github replies, and emails.
+You see my four books, but you don't know that I used the dictionary for thousands of times. I use the dictionary when writing anything in English, including books, papers, software documentation, blog posts, GitHub replies, and emails.
 
 I read books almost every day, but I rarely read books in English. If I hear a good book in English, I'll find its translation in Chinese (e.g., "Poor Charlie's Almanack", "Deep Work", and "Principles"). My English reading speed is too slow, not to mention the trouble of constant pause to look up words in the dictionary. I guess my vocabulary is no larger than a 3rd grader of native English speakers. Even when I read books for toddlers, I often find words that I don't know. In the adult's world, some English words are just so confusing and I can never remember what they mean. Today I just saw [the example of "bi-weekly" vs "biannual"](https://twitter.com/Julie_B92/status/1058330883927797761). There are too many hills for me to die on...
 

@@ -11,7 +11,7 @@ As I was thumbing through the tweets related to the useR! 2018 conference, I not
 
 > Be kind: you don't know the constraints they have.
 
-This reminds me of a metaphor I have had on my mind for a long time: the "invisible baby". I rarely work when my little ones are crawling or running or yelling in my home office, but I did merge Github pull requests a couple of times with my right hand while holding a baby in my left hand. Those who send the pull requests won't see him, but that is one practical constraint I might have occasionally.
+This reminds me of a metaphor I have had on my mind for a long time: the "invisible baby". I rarely work when my little ones are crawling or running or yelling in my home office, but I did merge GitHub pull requests a couple of times with my right hand while holding a baby in my left hand. Those who send the pull requests won't see him, but that is one practical constraint I might have occasionally.
 
 Hopefully you will understand better why I prefer "[bite-sized pull requests](/en/2018/02/bite-sized-pull-requests/)" now. The moment the baby starts to cry, I'll have no choice but leave my computer immediately.
 

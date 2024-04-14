@@ -2,17 +2,21 @@
 title: An Introduction to xfun
 subtitle: A Collection of Miscellaneous Functions
 author: "Yihui Xie"
-date: "2021-11-12"
+date: "2024-04-14"
 slug: xfun
-githubEditURL: https://github.com/yihui/xfun/edit/master/vignettes/xfun.Rmd
+githubEditURL: https://github.com/yihui/xfun/edit/main/vignettes/xfun.Rmd
 output:
-  knitr:::html_vignette:
-    toc: yes
-vignette: >
-  %\VignetteIndexEntry{An Introduction to xfun}
-  %\VignetteEngine{knitr::rmarkdown}
-  %\VignetteEncoding{UTF-8}
+  markdown::html_format:
+    meta:
+      css: ["@default", "@prism-xcode"]
+    options:
+      toc: true
 ---
+
+<!--
+%\VignetteIndexEntry{An Introduction to xfun}
+%\VignetteEngine{knitr::knitr}
+-->
 
 
 
@@ -137,7 +141,7 @@ xfun::file_string(f)
 ```
 
 ```
-YEAR: 2018-2021
+YEAR: 2018-2024
 COPYRIGHT HOLDER: Yihui Xie
 ```
 
@@ -146,7 +150,7 @@ as.character(xfun::file_string(f))  # essentially a character string
 ```
 
 ```
-[1] "YEAR: 2018-2021\nCOPYRIGHT HOLDER: Yihui Xie"
+[1] "YEAR: 2018-2024\nCOPYRIGHT HOLDER: Yihui Xie"
 ```
 
 ## Get the data URI of a file
@@ -160,7 +164,7 @@ xfun::base64_uri(f)
 ```
 
 ```
-## [1] "data:text/plain;base64,WUVBUjogMjAxOC0yMDIxCkNPUFlSSUdIVCBIT0xERVI6IFlpaHVpIFhpZQo="
+## [1] "data:text/plain;base64,WUVBUjogMjAxOC0yMDI0CkNPUFlSSUdIVCBIT0xERVI6IFlpaHVpIFhpZQo="
 ```
 
 ## Match strings and do substitutions
@@ -503,15 +507,18 @@ xfun::session_info(c("xfun", "rmarkdown", "knitr", "tinytex"), dependencies = FA
 ```
 
 ```
-## R version 4.1.1 (2021-08-10)
-## Platform: x86_64-apple-darwin17.0 (64-bit)
-## Running under: macOS Big Sur 10.16
+## R version 4.3.3 (2024-02-29)
+## Platform: aarch64-apple-darwin20 (64-bit)
+## Running under: macOS Sonoma 14.4.1
 ## 
 ## Locale: en_US.UTF-8 / en_US.UTF-8 / en_US.UTF-8 / C / en_US.UTF-8 / en_US.UTF-8
 ## 
 ## Package version:
-##   knitr_1.36.7   rmarkdown_2.11 tinytex_0.35.2 xfun_0.28.4   
+##   knitr_1.46.2   rmarkdown_2.26 tinytex_0.50.1 xfun_0.43.2   
 ## 
-## Pandoc version: 2.14.2
+## Pandoc version: 3.1.1
+## 
+## LaTeX version used: 
+##   TeX Live 2024 (TinyTeX) with tlmgr 2024-03-17
 ```
 

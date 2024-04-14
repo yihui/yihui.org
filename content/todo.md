@@ -1,6 +1,7 @@
 ---
 title: Yihui's TODO List
 slug: todo
+toc_twocolumn: true
 ---
 
 This page contains some of my TODO items. I guess I will never be able to finish all the work, so I will appreciate your help with any of the items on this page (fixing bugs, answering questions, or implementing features). Please feel free to let me know if you want to work on anything, and I will be happy to assist you.
@@ -13,13 +14,13 @@ At the moment, I have
 **92**
 emails in my inbox to be dealt with (the earliest that I have not replied to was from _Nov 21, 2018_),
 **0**
-unread Github issues/PRs, and about
+unread GitHub issues/PRs, and about
 **40**
 tabs open in my browser.
 
 ## TODO
 
-My "official" TODO list is available [on Github](https://github.com/orgs/rstudio/projects/53/views/1). Below are some random items.
+My "official" TODO list is available [on GitHub](https://github.com/orgs/rstudio/projects/53/views/1). Below are some random items.
 
 1. new syntax for verbatim inline R expression: https://github.com/rstudio/rmarkdown/issues/1652
 1. see if I'm able to maintain the apero theme: https://github.com/hugo-apero
@@ -64,9 +65,9 @@ This section is cleaned up from time to time.
 
 ## Backlog
 
+1. https://gumroad.com
 1. litedown (for package vignettes) https://github.com/rstats-gsod/gsod2022/issues/5
 1. Support HTML widgets in **pagedown**: https://github.com/rstudio/pagedown/pull/87
-1. A Hugo theme based paged.js? https://www.pagedjs.org
 1. A Hugo layout for cards? https://apreshill.github.io/postcard/about.html
 1. A possible book on small successes. https://www.tiffanymatthe.com/not-extraordinary <!-- https://docs.google.com/document/d/1of3Q0ufUGLQ5ZYoF939qFzBR6rW5XoNhPtVJwoHoGEk/edit# -->
 1. Google doc to Markdown? <!-- Then we can even blog with Google doc -->
@@ -78,7 +79,7 @@ This section is cleaned up from time to time.
 If anyone is interested in any of the items below, please feel free to let me know. I'd be happy to explain more, or do a video chat with you.
 
 1. Land the **xaringan** slide page in RStudio Viewer corresponding to the cursor position in RStudio IDE: https://github.com/yihui/xaringan/issues/336
-1. How can users build and install their own version of TinyTeX? Short answer: install [`TinyTeX-0`](https://github.com/yihui/tinytex-releases), use `tlmgr` to install the packages they need, zip the TinyTeX installation directory, and publish it somewhere (e.g., Github Releases, or AppVeyor artifacts). To install this custom version of TinyTeX, I'll need to provide an environment variable to customize the URL in my installation scripts (e.g., not hard-coding yihui.org or github.com/yihui/tinytex-releases in [install-bin-unix.sh](https://github.com/yihui/tinytex/blob/master/tools/install-bin-unix.sh)), so they can be reused by others. 
+1. How can users build and install their own version of TinyTeX? Short answer: install [`TinyTeX-0`](https://github.com/yihui/tinytex-releases), use `tlmgr` to install the packages they need, zip the TinyTeX installation directory, and publish it somewhere (e.g., GitHub Releases, or AppVeyor artifacts). To install this custom version of TinyTeX, I'll need to provide an environment variable to customize the URL in my installation scripts (e.g., not hard-coding yihui.org or github.com/yihui/tinytex-releases in [install-bin-unix.sh](https://github.com/yihui/tinytex/blob/master/tools/install-bin-unix.sh)), so they can be reused by others. 
 1. Introduce the easier way to start a **bookdown** project using the RStudio IDE in the book: https://github.com/rstudio/bookdown/issues/225
 1. Build **rggobi** on r-universe.dev: https://github.com/ggobi/rggobi/issues/7
 1. More accessibility/navigation tags in `knitr::kable_html()`: https://github.com/yihui/knitr/issues/1747
@@ -147,7 +148,7 @@ If anyone is interested in any of the items below, please feel free to let me kn
 | 周六 |  |
 | 周日 | 晚上看 Feedly |
 
-另外，每天下班前一小时：查阅 Github 事项、安排第二天工作。晚 11 点后回复微信。
+另外，每天下班前一小时：查阅 GitHub 事项、安排第二天工作。晚 11 点后回复微信。
 
 
 <script>

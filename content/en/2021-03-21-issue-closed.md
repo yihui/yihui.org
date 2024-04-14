@@ -1,11 +1,11 @@
 ---
-title: What Does it Mean When Your Github Issue is Closed, and What Can You Do?
+title: What Does it Mean When Your GitHub Issue is Closed, and What Can You Do?
 date: '2021-03-21'
 slug: issue-closed
 ---
 
-After using Github for a little over a decade, I have encountered a handful of
-people who could become angry after I close their Github issues without
+After using GitHub for a little over a decade, I have encountered a handful of
+people who could become angry after I close their GitHub issues without
 fulfilling their requests. Since I'm more concerned about the people who were
 similarly disappointed but silently walked away, I want to explain in this post
 what I mean when closing an issue, to clarify the potential misunderstandings.
@@ -16,7 +16,7 @@ ones were often far below the minimum requirements, e.g., an issue with no
 content but only a brief title that I don't completely understand, or [an
 issue](https://github.com/rstudio/blogdown/issues/408) asking [a random
 question](https://github.com/rstudio/blogdown/issues/409) that is completely
-irrelevant to the Github repo. Normally I do not even close issues right away
+irrelevant to the GitHub repo. Normally I do not even close issues right away
 that lack minimum reproducible examples, although that requirement is mentioned
 in the issue guide and should be seen when a new issue is opened.
 

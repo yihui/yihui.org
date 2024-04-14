@@ -30,11 +30,11 @@ to visit my family in China, whom I haven't seen for seven years.
 
 Although my employer strongly encourages us to take a break every few months, I
 still don't feel completely comfortable with taking a break, especially a long
-one. I'm too used to Github and email notifications. However, ever since my
+one. I'm too used to GitHub and email notifications. However, ever since my
 colleague [Christophe](https://cderv.rbind.io) joined me in 2020, I have become
-much less concerned about Github issues. He has always done a splendid job
+much less concerned about GitHub issues. He has always done a splendid job
 dealing with those issues. For emails, I'll have difficulty access Google
-services, including Gmail. I'd encourage you to use [Github
+services, including Gmail. I'd encourage you to use [GitHub
 discussions](https://github.com/yihui/yihui.org/discussions) instead, but I can
 only promise to read them in June and can't promise to respond to them (other
 people might help you). You can still email me, but I'm just very slow in

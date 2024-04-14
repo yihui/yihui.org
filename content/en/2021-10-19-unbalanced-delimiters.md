@@ -4,12 +4,12 @@ date: '2021-10-19'
 slug: unbalanced-delimiters
 ---
 
-Life is like a box of Github issues. Hiroaki reported a bug
+Life is like a box of GitHub issues. Hiroaki reported a bug
 ([#1621](https://github.com/yihui/knitr/issues/1621)) in **knitr** in 2018,
 which was finally fixed by Atsushi last month in his PR
 [#2047](https://github.com/yihui/knitr/pull/2047).
 
-> Two issues appeared on Github, and I---  
+> Two issues appeared on GitHub, and I---  
 > I merged the PR that looked obviously correct,  
 > And that has made all the difference.
 
@@ -215,7 +215,7 @@ I found 82 (out of 6500+) in the next few days, and notified their maintainers
 about this upcoming change. You may take a look at [all these unbalanced chunk
 delimiters](https://github.com/yihui/knitr/issues/2057), and I bet all extra
 characters (spaces or backticks) are by accident. For packages that I could
-easily find the source repositories on Github, I have sent pull requests to fix
+easily find the source repositories on GitHub, I have sent pull requests to fix
 the problems. This is definitely not the end, because there are probably
 millions of R Markdown documents in the wild, and some of them may have the same
 problems.

@@ -1,5 +1,5 @@
 ---
-title: Starting a Personal Github Discussion Board
+title: Starting a Personal GitHub Discussion Board
 date: '2022-12-21'
 slug: github-discussion
 ---
@@ -26,7 +26,7 @@ some point. Over the three years, I attended only one in-person conference (in
 September this year).
 
 To encourage people to write to me publicly whenever possible, and assure people
-that I'm not missing, I have created a Github discussion board at
+that I'm not missing, I have created a GitHub discussion board at
 [github.com/yihui/yihui.org](https://github.com/yihui/yihui.org/discussions).
 You are welcome to ask me anything and discuss everything with me there, e.g.,
 cooking, badminton, gardening, books, career, psychology, philosophy, and of

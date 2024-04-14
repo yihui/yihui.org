@@ -4,7 +4,7 @@ date: '2017-03-29'
 slug: resources
 ---
 
-Here we list some additional resources related to the **animation** package. If you have any links to share with us, please feel free to hit the edit button above on the right to revise this page and send a pull request via Github.
+Here we list some additional resources related to the **animation** package. If you have any links to share with us, please feel free to hit the edit button above on the right to revise this page and send a pull request via GitHub.
 
 - [ImageMagick](https://www.imagemagick.org): a comprehensive open-source image processing library
 - [GraphicsMagick](http://www.graphicsmagick.org/): another image processing system

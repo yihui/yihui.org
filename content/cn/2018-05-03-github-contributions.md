@@ -1,14 +1,14 @@
 ---
-title: 码农之 Github 简史
+title: 码农之 GitHub 简史
 date: '2018-05-03'
 slug: github-contributions
 ---
 
-有好事者做了一个 Github 瓷砖在线生成器：<https://github-contributions.now.sh>，可以用一幅瓷砖图表达一个码农的 Github 简史。下面是我自己这些年的瓷砖：
+有好事者做了一个 GitHub 瓷砖在线生成器：<https://github-contributions.now.sh>，可以用一幅瓷砖图表达一个码农的 GitHub 简史。下面是我自己这些年的瓷砖：
 
-![@yihui 在 Github 上的活动汇总](https://db.yihui.org/images/github-yihui-contributions.png)
+![@yihui 在 GitHub 上的活动汇总](https://db.yihui.org/images/github-yihui-contributions.png)
 
-我其实是 2009 年注册的 Github 账号，但图中有 2008 年的活动，那是因为我当年把我的 [animation 包](https://github.com/yihui/animation)从 SVN 迁移到 Github 上，而 SVN 里的提交历史早于 2009 年。迁移过来之后腰不疼了，腿不酸了，写代码也有劲儿了。
+我其实是 2009 年注册的 GitHub 账号，但图中有 2008 年的活动，那是因为我当年把我的 [animation 包](https://github.com/yihui/animation)从 SVN 迁移到 GitHub 上，而 SVN 里的提交历史早于 2009 年。迁移过来之后腰不疼了，腿不酸了，写代码也有劲儿了。
 
 2010 年没写什么代码，刚来美帝，上课为主。到了年底[猛更新了一下](/cn/2010/12/animation-v1-2-0-milestone/) animation 包。
 
@@ -26,8 +26,8 @@ slug: github-contributions
 
 2018 年的上半年留给了一本 [rmarkdown 官方书籍](https://github.com/rstudio/rmarkdown-book)的写作。本来计划了 12 章，我琢磨着一个星期一章，从 [RStudio 大会](/cn/2018/02/ninety-posts/)回来之后用三个月时间写完。后来变成 18 章，只是把原来的一些节升级为章了，所以有些章很短。就在昨天中午，我写完了第 18 章，跟头儿开会的时候觉得可以弹冠相庆了，但下午厂长说最好是再加一章，介绍他这周开始折腾的一种新格式。晚上我再一想，[learnr 这个包](https://github.com/rstudio/learnr)我在书中也没有介绍，最好也加上。于是乎，还得再埋头写两章。
 
-以上便是一幅瓷砖图表达的一个码农的七年简史。需要注意的是，从去年 3 月开始，我启用了 Travis CI 上的一些定期编译任务（cron job），所以有每日自动提交，图中虽然没有灰色块，但实际上并不是我自己的提交导致的 Github 活动，最浅的绿色块基本可以视作灰色块，即无活动记录。
+以上便是一幅瓷砖图表达的一个码农的七年简史。需要注意的是，从去年 3 月开始，我启用了 Travis CI 上的一些定期编译任务（cron job），所以有每日自动提交，图中虽然没有灰色块，但实际上并不是我自己的提交导致的 GitHub 活动，最浅的绿色块基本可以视作灰色块，即无活动记录。
 
 上面是一个初出茅庐的职场人士的记录，作为对比，下面我们可以看看本厂厂长的活动记录。他是一个高度自律的人，他的活动在这些年也相对比较均匀，不像我，到处都是大缺口。唯有 2013 年上半年活动量相对少一些，我不知道发生了什么，但我记得那之后他曾跟我说他已经落后他的计划好几个月，所以他不想分心做别的事，而是要集中精力写代码了。2013 年下半年 RStudio 招来一个做管理的主席，解放了厂长，于是他心无旁骛、乐此不疲地写代码去了。
 
-![@jjallaire 在 Github 上的活动汇总](https://db.yihui.org/images/github-jjallaire-contributions.png)
+![@jjallaire 在 GitHub 上的活动汇总](https://db.yihui.org/images/github-jjallaire-contributions.png)

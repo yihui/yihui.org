@@ -26,7 +26,7 @@ slug: quick-notes
   - 半夜才从城里回到乡下，三次报告其实都是为了最后一次大报告排练的
 - 6月12日~16日，一个人来到田纳西，useR! 2012会议，创了个纪录，给了三场演讲
   - 第一场讲cranvas，之前在休斯顿的报告烂得不堪回首，这次做了个大胆的决定，把幻灯片扔掉，只有代码，上来二话不说就讲第一个例子，就这样一直讲到最后一个例子，没有简介、动机、实现、示例和总结，事实证明这是个无比正确的决定，讲完震惊了Bill Venables长老，老板也非常高兴，兴奋地上来跟我击掌
-  - 第二场讲社交化编程，其实就是讲Github，把SVN痛批一顿，最近半年的确在Github上获益良多
+  - 第二场讲社交化编程，其实就是讲GitHub，把SVN痛批一顿，最近半年的确在GitHub上获益良多
   - 第三场是邀请报告，这次是狗屎运，第一次做邀请报告，也就是和JJ排练了三遍的可重复性研究报告，这次演讲基本达到了效果，电闪雷鸣的观点让很多人都下定决心转向knitr
   - 这三场报告可能是我这些年近五十场报告中讲得最好的，主要是插入笑点最多，恶搞料足，这也是我演讲最看重的元素，不是为了哗众取宠，而是为了让听众集中精神，这是演讲有效的前提；后来大家纷纷问我是不是在电视台有第二职业……这些笑话也震撼了Frank Harrell主席，我跟他说大概是继承我爹吧，回头我看推特，有日本听众这样描述
     > もう一つ言うと、昨日紹介したRでマインスイーパーのあれつくったのもknitrの作者と同じ。この人プレゼンがすごく面白くて会場に爆笑の嵐を起こしてる
@@ -46,9 +46,9 @@ slug: quick-notes
 - 被偷东西一般不是什么好事，但要看是谁来偷了，被高手偷是一种荣幸
   - 我[看见](http://biostat.mc.vanderbilt.edu/wiki/Main/VenablesShortCourse)Bill Venables[偷了](http://biostat.mc.vanderbilt.edu/wiki/pub/Main/UseR-2012/VenablesRQuoVadis.pdf)我在knitr中定义的LaTeX样式
   - Jeroen Ooms在他的OpenCPU中[偷了](http://public.opencpu.org/R/pub/stats/glm/help/html?)我的[CSS](https://github.com/yihui/configuration/blob/master/R.css)
-  - 在Github上fork（谁能给这个词一个翻译？）不算偷，不过被fork也是一种荣幸，knitr的fork队伍中有R大佬Douglas Bates和可重复研究的大佬及cacheSweave作者Roger Peng，目前Github上knitr的fork数量在[R类](https://github.com/languages/R)库中已经超越ggplot2排名第二，这就是社交化编程的体现，去中心化，让有能力的用户自己提交补丁实现他们预期的功能（闭源软件的灭绝只是时间问题）
+  - 在GitHub上fork（谁能给这个词一个翻译？）不算偷，不过被fork也是一种荣幸，knitr的fork队伍中有R大佬Douglas Bates和可重复研究的大佬及cacheSweave作者Roger Peng，目前GitHub上knitr的fork数量在[R类](https://github.com/languages/R)库中已经超越ggplot2排名第二，这就是社交化编程的体现，去中心化，让有能力的用户自己提交补丁实现他们预期的功能（闭源软件的灭绝只是时间问题）
 - GSoC
-  - 太云[入围](http://www.google-melange.com/gsoc/project/google/gsoc2012/cloud_wei/16001)Google编程夏令营，我们要掀起一场革命，看看在社区合作时代，knitr+Github能否取代（至少影响）一些旧式的刊物（如The R Journal）或网站（如R Graph Gallery），这将会是一个非常有意思的探讨
+  - 太云[入围](http://www.google-melange.com/gsoc/project/google/gsoc2012/cloud_wei/16001)Google编程夏令营，我们要掀起一场革命，看看在社区合作时代，knitr+GitHub能否取代（至少影响）一些旧式的刊物（如The R Journal）或网站（如R Graph Gallery），这将会是一个非常有意思的探讨
 - 文债
   - 欠了一屁股文债，每天狂写，可还是有一批虎视眈眈的任务等着
   - 多年没联系的王学枫来电，说整一本高水平的R语言书，我说我的忍者扔那儿又是三个月了
@@ -57,7 +57,7 @@ slug: quick-notes
   - 现代统计图形咬牙重新启动，希望这次在COS一帮人的帮助下能完成第二次排版及修订任务，前面排长队要书稿的可能近期能收到我的回复了，我知道我自刎八十回都不足以谢罪了
 - 其它
   - 阳志平写了一篇非常抬举knitr的[文章](http://www.yangzhiping.com/tech/r-markdown-knitr.html)，这事儿以后再说，关键是我好像在微博上看见ox评论这篇文章了，李舰问是不是天地人大那个ox，我也有此疑问，因为那个牛跟我是老乡，那时候天地人大上的名ID啊，十年前军训时听说楼上班里有个宜昌人，还兴冲冲去找他来着
-  - 在Github上观察了若干强人，其实国内那种“少林寺扫地僧”式的高手还是不少的（如宫雨老师），例如我觉得[lq](https://github.com/lq)就是这样；Github真是一个近距离观察各类神人出招的好地方
+  - 在GitHub上观察了若干强人，其实国内那种“少林寺扫地僧”式的高手还是不少的（如宫雨老师），例如我觉得[lq](https://github.com/lq)就是这样；GitHub真是一个近距离观察各类神人出招的好地方
   - COS论坛因为是一直盯的地方，所以不会有神的感觉，但这两年明显可以看到一批人的进步，比如肖楠已然成为一方大侠，主伟呈在许三多式成长
   - 还是COS论坛，我们该拿坛霸怎么办？坛霸就是屁大点儿事统统都发出来问星人，我个人觉得每周问三五个问题的频率可以接受，但每天都扔出来十来个问题似乎太夸张了，一方面，我们要珍惜志愿者劳动，另一方面，你好歹也要有点自学能力吧，志愿者不是奶妈
   - 在AT&T实习最大的收获可能是shell脚本，各种awk/sed乱入几G的数据，关于shell脚本，举个例子，我住的宿舍无线网络不好，经常掉线，只能重启，我搜了很久终于找到不用重启的办法，就是卸载再加载无线网络模块，于是我写了个无限循环，我叫你掉线，我叫你掉线，……

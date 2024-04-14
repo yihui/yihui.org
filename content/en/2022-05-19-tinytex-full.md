@@ -7,7 +7,7 @@ slug: tinytex-full
 As I mentioned in the [previous
 post](/en/2022/05/tinytex-changes/#migrating-to-the-rstudio-org-on-github), we
 planned to move the tinytex-related repositories from my personal account on
-Github to `rstudio`, which is done now. In this post, I want to mention one
+GitHub to `rstudio`, which is done now. In this post, I want to mention one
 thing that has actually existed for a long time but never been publicly
 mentioned: the full TeX Live bundle, as one of the [variations of
 TinyTeX](https://github.com/rstudio/tinytex-releases/#releases).

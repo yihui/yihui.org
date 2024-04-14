@@ -7,7 +7,7 @@ slug: more-convincing
 
 There was a "fireside chat" at [rstudio::conf](https://www.rstudio.com/conference/) 2018 about R in industry, where Eduardo Ariño de la Rubia said something that resonated well with me. The panel was discussing about how to hire data scientists, and Eduardo shared some of his criteria of choosing candidates. I'm not sure if I paraphrased them correctly below.
 
-- You need to have a Github presence (I'm sure it does not have to be Github, e.g., Gitlab should also be fine). It is hard to imagine that a data scientist does not use version control.
+- You need to have a GitHub presence (I'm sure it does not have to be GitHub, e.g., Gitlab should also be fine). It is hard to imagine that a data scientist does not use version control.
 
 - You must have given talks at local meetups or conferences. Communication is a key part of data science. If someone invites you to give a talk, it is also evidence of the importance of your work.
 

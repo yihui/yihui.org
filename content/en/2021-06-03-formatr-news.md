@@ -117,7 +117,7 @@ shiny::updateSelectizeInput(session, "foo",
 This should not be too hard to implement, but I do not have time now, so I will
 not consider it until perhaps a couple of years later, unless another hacker
 wants to tackle this problem and send a pull request [on
-Github](https://github.com/yihui/formatR/). Alternatively, you can also use the
+GitHub](https://github.com/yihui/formatR/). Alternatively, you can also use the
 [**styler** package](https://cran.r-project.org/package=styler), which has
 already supported this style of argument alignment.
 

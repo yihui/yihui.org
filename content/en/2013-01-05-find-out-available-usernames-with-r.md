@@ -12,7 +12,7 @@ Update on 2013/01/05
     Now I use his elegant `outer()` solution. One can also use
     `expand.grid(letters, letters)`.
 
-Github [decided](https://github.com/blog/1302-goodbye-uploads) to take off their
+GitHub [decided](https://github.com/blog/1302-goodbye-uploads) to take off their
 downloads service, and I was very unhappy with this decision. This means I have
 to migrate several files to other places, and update links accordingly. I saw
 [Bitbucket](https://bitbucket.org/) still provides the service, so I want to
@@ -40,5 +40,5 @@ test_user('https://github.com/')
 ```
 
 As of the time of this blog post, there are no two-letter usernames left on
-Github, but some are still available on Bitbucket, e.g. `by` and `eq`, etc, and
+GitHub, but some are still available on Bitbucket, e.g. `by` and `eq`, etc, and
 the number `4` is also available.

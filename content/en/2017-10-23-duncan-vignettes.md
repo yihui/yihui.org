@@ -16,6 +16,6 @@ Supporting non-Sweave vignettes opened the door wide. It seems we don't really n
 
 ## Appendix: My Bragging Rights
 
-Duncan has submitted [a few pull requests to the **knitr** repo](https://github.com/yihui/knitr/pulls?utf8=%E2%9C%93&q=is%3Apr%20author%3Admurdoch) on Github. When he reported the bug [yihui/knitr#1309](https://github.com/yihui/knitr/issues/1309), I thought to myself if it was possible to get an R Core member to submit a Github pull request (base R is still developed in SVN). I really wanted to show that one did not have to master GIT before one can submit a pull request, because everything can be done through the Github web interface, and no command-line is required. And he made it, and again, and again.
+Duncan has submitted [a few pull requests to the **knitr** repo](https://github.com/yihui/knitr/pulls?utf8=%E2%9C%93&q=is%3Apr%20author%3Admurdoch) on GitHub. When he reported the bug [yihui/knitr#1309](https://github.com/yihui/knitr/issues/1309), I thought to myself if it was possible to get an R Core member to submit a GitHub pull request (base R is still developed in SVN). I really wanted to show that one did not have to master GIT before one can submit a pull request, because everything can be done through the GitHub web interface, and no command-line is required. And he made it, and again, and again.
 
 I guess stepping down from R Core does not mean Duncan is leaving the R community, so I'm looking forward to his continued contributions in the future. Thanks for the great service and contributions over the past many years, Duncan!

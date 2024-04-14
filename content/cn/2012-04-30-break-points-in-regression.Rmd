@@ -65,4 +65,4 @@ qplot(x, y, group = x > .5) + geom_smooth() # 按0.5前后分组
 
 ---
 
-本文是我第一次在博客里尝试 **knitr** 包，点击上面文章标题下方的工具栏上的编辑按钮 <i class="fa fa-pencil-square-o" aria-hidden="true"></i> 查看源文件（需要 Github 账户）。关于 **knitr**，待我下回在COS详细分解（[预览](https://github.com/yihui/r-ninja/blob/master/11-auto-report.md)）；昨天刚提交 0.5 版本到 CRAN，最终实现了我的初步理想：会 R 就会动态生成报告，把 LaTeX 扔一边儿去吧！
+本文是我第一次在博客里尝试 **knitr** 包，点击上面文章标题下方的工具栏上的编辑按钮 <i class="fa fa-pencil-square-o" aria-hidden="true"></i> 查看源文件（需要 GitHub 账户）。关于 **knitr**，待我下回在COS详细分解（[预览](https://github.com/yihui/r-ninja/blob/master/11-auto-report.md)）；昨天刚提交 0.5 版本到 CRAN，最终实现了我的初步理想：会 R 就会动态生成报告，把 LaTeX 扔一边儿去吧！

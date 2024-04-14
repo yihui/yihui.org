@@ -1,11 +1,11 @@
 ---
-title: Once in a Blue Moon, I Reached "Issue Zero" in a Github Repo
+title: Once in a Blue Moon, I Reached "Issue Zero" in a GitHub Repo
 subtitle: The new CRAN release of the rticles package
 date: '2018-07-06'
 slug: issue-zero
 ---
 
-"Inbox Zero" (no emails in the inbox) may never be possible to me again, but today I reached a goal of "Issue Zero" for the Github repo [rstudio/rticles](https://github.com/rstudio/rticles). I have to say this is so rare. In fact, it is the very first time I have been able to close _all_ issues in a Github repo.
+"Inbox Zero" (no emails in the inbox) may never be possible to me again, but today I reached a goal of "Issue Zero" for the GitHub repo [rstudio/rticles](https://github.com/rstudio/rticles). I have to say this is so rare. In fact, it is the very first time I have been able to close _all_ issues in a GitHub repo.
 
 ![no more rticles issues](https://user-images.githubusercontent.com/163582/42387508-1158fcbc-8108-11e8-8e09-7fe979ac1a13.png#border)
 
@@ -13,7 +13,7 @@ slug: issue-zero
 
 Last week [we were reminded](https://github.com/rstudio/rticles/issues/178) of the fact that the **rticles** package had not been updated on CRAN for more than a year. Its original maintainer (JJ) asked me for help, so I spent the last week and this week on the new CRAN release. Initially I only planned to take a look at existing pull requests, which contained new article formats contributed from other users. After reviewing all pull requests, I also looked at the issues. I knew there was an annoying long-standing bug (you could not use `$` in JSS or R Journal articles), which I really hoped to fix, because it has affected multiple users ([#6](https://github.com/rstudio/rticles/issues/6), [#10](https://github.com/rstudio/rticles/issues/10), [#49](https://github.com/rstudio/rticles/issues/49), [#70](https://github.com/rstudio/rticles/issues/70), [#132](https://github.com/rstudio/rticles/issues/132), [#149](https://github.com/rstudio/rticles/issues/149), and [rstudio/rmarkdown#398](https://github.com/rstudio/rmarkdown/issues/398)).
 
-Once I started working on Github issues, I thought it might be good to take advantage of the inertia, which is often hard to obtain. Finally I answered all questions and fixed all bugs reported in these issues. During this process, I realized that [we didn't even support bibliography](https://github.com/rstudio/rticles/issues/71) for The R Journal articles. That was such a shame. How could we have provided such a half-baked product? It revealed the fact that **rticles** maintainers at RStudio didn't really write journal articles with the **rticles** package (i.e., we don't eat our own **rticles** dog food), which means we are probably not the most appropriate people to work on these article formats. We absolutely need more contribution from real authors and LaTeX experts. On the other hand, this also means **rticles** users may have better luck when asking questions in other public forums such as Stack Overflow or RStudio Community instead of Github issues, because we maintainers are not experts of these article formats, and I don't want you to wait for four years for me to answer your question.
+Once I started working on GitHub issues, I thought it might be good to take advantage of the inertia, which is often hard to obtain. Finally I answered all questions and fixed all bugs reported in these issues. During this process, I realized that [we didn't even support bibliography](https://github.com/rstudio/rticles/issues/71) for The R Journal articles. That was such a shame. How could we have provided such a half-baked product? It revealed the fact that **rticles** maintainers at RStudio didn't really write journal articles with the **rticles** package (i.e., we don't eat our own **rticles** dog food), which means we are probably not the most appropriate people to work on these article formats. We absolutely need more contribution from real authors and LaTeX experts. On the other hand, this also means **rticles** users may have better luck when asking questions in other public forums such as Stack Overflow or RStudio Community instead of GitHub issues, because we maintainers are not experts of these article formats, and I don't want you to wait for four years for me to answer your question.
 
 ## No more looking for missing LaTeX packages
 

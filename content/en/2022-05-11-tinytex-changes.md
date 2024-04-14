@@ -56,9 +56,9 @@ And see what happens to `tinytex::install_tinytex()`.
 If you have any feedback on this change, please feel free to let me know.
 Currently, I plan to submit the new version to CRAN next week.
 
-## Migrating to the rstudio org on Github
+## Migrating to the rstudio org on GitHub
 
-We plan to migrate the two Github repositories,
+We plan to migrate the two GitHub repositories,
 <https://github.com/yihui/tinytex> and
 <https://github.com/yihui/tinytex-releases> to the `rstudio` organization next
 week (May 16, 2022). That is, they will become
@@ -68,9 +68,9 @@ the two repositories from my personal account to `rstudio` to make it safer to
 build and install TinyTeX, and also easier to manage future contributions to
 this project.
 
-In theory, this should not affect anyone, because Github will automatically
+In theory, this should not affect anyone, because GitHub will automatically
 redirect the old links to the new ones, including links to the precompiled
-TinyTeX binaries in Github Releases. Anyway, I want to announce this in advance
+TinyTeX binaries in GitHub Releases. Anyway, I want to announce this in advance
 so that you can be better prepared. If you run into any problems with installing
 TinyTeX next week, please do us a favor [file a
 report](https://github.com/rstudio/tinytex/issues) immediately. Thanks!

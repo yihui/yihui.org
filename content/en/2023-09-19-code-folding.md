@@ -7,7 +7,7 @@ slug: code-folding
 
 Do you know what the top requested feature of **blogdown** has been in the past
 six years? [Code folding](https://github.com/rstudio/blogdown/issues/214). I
-have rarely seen 34 upvotes on a Github issue in projects that I maintain.
+have rarely seen 34 upvotes on a GitHub issue in projects that I maintain.
 
 The original request was made in 2017 (thanks, Jasper Slingsby). Two years
 later, when I was thinking about collapsing code blocks for **xaringan** slides,

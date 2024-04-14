@@ -1,11 +1,11 @@
 ---
-title: One (Perhaps Surprising) Reason Why I may Silently Ignore a Github Issue
+title: One (Perhaps Surprising) Reason Why I may Silently Ignore a GitHub Issue
 subtitle: Is it incorrectly formatted?
 date: '2018-05-25'
 slug: github-issue-format
 ---
 
-Sam Tyner [posted an issue](https://github.com/yihui/xaringan/issues/142) to the **xaringan** repo on Github this afternoon. It was a great issue, and I appreciated that she took the time to write such a detailed issue, so I tried to reply the issue as quickly as I could. However, if this issue were posted from someone I don't know, I would be likely to delay the reply significantly (if a reproducible example were not provided, I'd just ignore the issue). I know this sounds unfair to many people, but with only two hands and 24 hours a day, I have no choice but to skip certain issues.
+Sam Tyner [posted an issue](https://github.com/yihui/xaringan/issues/142) to the **xaringan** repo on GitHub this afternoon. It was a great issue, and I appreciated that she took the time to write such a detailed issue, so I tried to reply the issue as quickly as I could. However, if this issue were posted from someone I don't know, I would be likely to delay the reply significantly (if a reproducible example were not provided, I'd just ignore the issue). I know this sounds unfair to many people, but with only two hands and 24 hours a day, I have no choice but to skip certain issues.
 
 What made me hesitate when looking at this issue was the incorrect format of the reproducible example. Here is what it looks like:
 
@@ -39,7 +39,7 @@ summary(x+y)
 ....
 ````
 
-Did you notice the backslashes before three backticks? The reason that Sam put in these backslashes was because she forgot [the four-backtick rule](/en/2017/05/four-backticks-github/), which I had blogged about before, and frequently referenced in my Github replies. The rule is quite simple but many people don't know it:
+Did you notice the backslashes before three backticks? The reason that Sam put in these backslashes was because she forgot [the four-backtick rule](/en/2017/05/four-backticks-github/), which I had blogged about before, and frequently referenced in my GitHub replies. The rule is quite simple but many people don't know it:
 
 > If you want to show N verbatim backticks in the Markdown output, you have to enclose them in at least N+1 backticks.
 
@@ -47,7 +47,7 @@ Without knowing this rule, users will find it hard to post a reproducible exampl
 
 Note the additional step of removing the backslashes. Sometimes that could be [the last straw to break the camel's back](https://en.wikipedia.org/wiki/Straw_that_broke_the_camel%27s_back). If I cannot simply copy an example and run it, I may ignore the issue and move on to the next 30 unread issues.
 
-You may call me inconsiderate, but before I wrote this blog post, I have edited hundreds of Github issues as well as Stack Overflow posts over the years to correct their formatting problems. This three-backtick problem is only one of them. Other common problems include:
+You may call me inconsiderate, but before I wrote this blog post, I have edited hundreds of GitHub issues as well as Stack Overflow posts over the years to correct their formatting problems. This three-backtick problem is only one of them. Other common problems include:
 
 1. Not using verbatim code blocks, e.g., R comments are displayed as section headers because of the `#` character, or YAML metadata looks funny because `---` is interpreted as the second-level section header.
 
@@ -55,10 +55,10 @@ You may call me inconsiderate, but before I wrote this blog post, I have edited 
 
 1. Not indenting the content nested within a list item. I guess many people don't know the four-space rule, either. I wish my eyes were not picky of such formatting issues...
 
-1. Not putting HTML tags in a pair of backticks. Because Github will ignore some HTML tags if you do not show them verbatim, the issue can look highly confusing to me. I remember once someone was talking about the `<meta>` tag, and I had no idea what the issue meant until I hit the edit button to edit his issue.
+1. Not putting HTML tags in a pair of backticks. Because GitHub will ignore some HTML tags if you do not show them verbatim, the issue can look highly confusing to me. I remember once someone was talking about the `<meta>` tag, and I had no idea what the issue meant until I hit the edit button to edit his issue.
 
 Now I have reached to a point where I feel tired of editing issues to correct the formats. I guess we could blame it on the surprising Markdown syntax, but anyway, now if I see an incorrectly formatted issue, I tend to[^1] keep calm and quietly move on.
 
-BTW, if your reproducible example really requires external files, I strongly recommend you to compress all files into a zip archive, and upload it to the Github issue. I have also seen issues in which all files are provided as verbatim text blocks in the issues, with filenames indicated above the blocks. In such cases, what I will have to do is to copy these code blocks and save them as the associated filenames to my disk, then run the example. That is also too much work compared to downloading a zip archive and decompressing it. In short, if it is a single file, show the content in the issue; if the example consists of multiple files, use a zip archive.
+BTW, if your reproducible example really requires external files, I strongly recommend you to compress all files into a zip archive, and upload it to the GitHub issue. I have also seen issues in which all files are provided as verbatim text blocks in the issues, with filenames indicated above the blocks. In such cases, what I will have to do is to copy these code blocks and save them as the associated filenames to my disk, then run the example. That is also too much work compared to downloading a zip archive and decompressing it. In short, if it is a single file, show the content in the issue; if the example consists of multiple files, use a zip archive.
 
 [^1]: Only "tend to". Exceptions usually include: 1) I'm familiar with you; 2) It is clearly a serious bug of my software; 3) You have made substantial effort in other aspects, such as providing a reproducible example and other information.

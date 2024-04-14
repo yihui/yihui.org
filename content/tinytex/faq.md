@@ -15,13 +15,13 @@ This list of FAQs explain the technical details of TinyTeX for those who are cur
 
 1. **Do you provide prebuilt binaries of TinyTeX?**
 
-    Yes, we have started to provide prebuilt binary packages for TinyTeX since September 2020, which can be found in the Github repo [`rstudio/tinytex-releases`](https://github.com/rstudio/tinytex-releases). This was made possible after two TeX Live developers explained the TeX Live license to me, which sounded complicated to me previously and made me hesitate to redistribute TeX Live as a binary package. After I knew it was okay to do so, I built the binaries and released them to Github Releases.
+    Yes, we have started to provide prebuilt binary packages for TinyTeX since September 2020, which can be found in the GitHub repo [`rstudio/tinytex-releases`](https://github.com/rstudio/tinytex-releases). This was made possible after two TeX Live developers explained the TeX Live license to me, which sounded complicated to me previously and made me hesitate to redistribute TeX Live as a binary package. After I knew it was okay to do so, I built the binaries and released them to GitHub Releases.
 
 1. **What is the size of TinyTeX?**
 
     About 84MB on macOS and 66MB on Linux (gzipped), and 99MB on Windows (zipped). You may think it is still too big, but please consider that the size of [the BasicTeX installer](https://www.tug.org/mactex/morepackages.html) for macOS is about 80MB, and a [basic MiKTeX installer](https://miktex.org/download) for Windows is about 235MB.
 
-    TinyTeX's small size can be very helpful if you install it on the cloud (e.g., for software testing purposes with Github Actions). The download and installation should take only a few seconds.
+    TinyTeX's small size can be very helpful if you install it on the cloud (e.g., for software testing purposes with GitHub Actions). The download and installation should take only a few seconds.
 
     Of course, the size of TinyTeX will grow as you install more LaTeX packages. You can certainly go to the extreme to install all packages (to avoid the possible need for figuring out which packages are missing). To do that, either run
 
@@ -229,7 +229,7 @@ This list of FAQs explain the technical details of TinyTeX for those who are cur
     brew install -v yihui/tinytex/tinytex
     ```
 
-    The formula is in the repo [yihui/homebrew-tinytex](https://github.com/yihui/homebrew-tinytex) on Github. If you must use this approach, here are two caveats that you should know:
+    The formula is in the repo [yihui/homebrew-tinytex](https://github.com/yihui/homebrew-tinytex) on GitHub. If you must use this approach, here are two caveats that you should know:
     
     - Homebrew manages the symlinks of TeX Live (via `brew link tinytex`), and they are created under `/usr/local/bin`. You'd better not run `tlmgr path add` afterwards, because this command creates symlinks to the same location. When you install a TeX Live package (via `tlmgr install`) that contains binaries, such as **metafont** (which contains the executable `mf`), you should run:
     

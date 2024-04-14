@@ -22,7 +22,7 @@ and this picture in an email:
 
 The instructor in the above picture ran into me in early 2015 when I was looking for the classroom at UConn to teach my tutorial, and took a selfie with me. I was surprised and touched to see he put this picture on the projector and took another picture with his students a couple of months later. That was very encouraging to me.
 
-I also remember Scott Kostyshak kindly bought me a book as a gift a few years ago, which was the first physical gift I had received for any of my software packages. He discovered the link to my Amazon wish list, which was hidden deeply (which was intentional) somewhere in a Github repo at that time. I removed this link later since I found I didn't really need more gifts. I don't need donations, either.
+I also remember Scott Kostyshak kindly bought me a book as a gift a few years ago, which was the first physical gift I had received for any of my software packages. He discovered the link to my Amazon wish list, which was hidden deeply (which was intentional) somewhere in a GitHub repo at that time. I removed this link later since I found I didn't really need more gifts. I don't need donations, either.
 
 This post is just to show some random memories of me as a software developer that have been motivating me to continue my work. Again, I'm not asking for thank-you notes or gifts or donations whatsoever. A **knitr** hex logo on your baby's blanket can make me happy enough :)
 

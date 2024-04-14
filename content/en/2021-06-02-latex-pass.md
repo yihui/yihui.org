@@ -32,7 +32,7 @@ useful to build a cloud service for general users to upload their LaTeX error
 log to find out which LaTeX package(s) to install, given that I had already done
 the work in **tinytex**.
 
-Then I created [a Github repo called
+Then I created [a GitHub repo called
 **latex-pass**](https://github.com/yihui/latex-pass), which did not take me very
 long. The only thing that took me a little while was to figure out how to write
 comments to pull requests from AppVeyor. Anyway, you can upload an error log, a

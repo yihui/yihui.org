@@ -116,7 +116,7 @@ Update on 2024-03-19
 ~~I have never asked for financial support from the community before, because I
 have never felt the need (thanks to Posit). Now the situation has become
 different, and I'm a little concerned about the mortgage number in my account.
-For the first time, I'm mentioning my Github sponsorship page in my blog:
+For the first time, I'm mentioning my GitHub sponsorship page in my blog:
 <https://github.com/sponsors/yihui>. I will be very grateful if anyone could
 support me for a few months before I transition into the next stable phase of
 life. I will notify you when I do not need the sponsorship any more so you can

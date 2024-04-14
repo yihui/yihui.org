@@ -8,7 +8,7 @@ slug: pursuit-of-likes
 
 跟往常一样，我要说的还是码农圈。近日有蟒蛇社区的人重造出了 `knitr::spin()` 的轮子[昭告天下](https://towardsdatascience.com/introducing-jupytext-9234fdff6c57)，推特上获赞过千。我心说你们终于有人醒悟了，把源代码和输出都塞在一个大 JSON 文件里难道不是一开始就很显然是一个坏主意吗？为何这么痛的领悟来这么晚呢？撇开这个不谈，我读到昭示的末尾，看见一段独孤求赞的话：
 
-![请大家在 Github 和 Medium 上踊跃点赞](https://user-images.githubusercontent.com/163582/45564019-b6c4af00-b814-11e8-8fcd-2f582959a8ef.png#border)
+![请大家在 GitHub 和 Medium 上踊跃点赞](https://user-images.githubusercontent.com/163582/45564019-b6c4af00-b814-11e8-8fcd-2f582959a8ef.png#border)
 
 罢了，毕竟这是作者的第一个有影响的开源项目，明晃晃求赞也可以理解。假以时日，等作者的[器量](/cn/2018/09/bosom/)跟上来之后也许就把这种事情看淡了：赞只是副产品。
 

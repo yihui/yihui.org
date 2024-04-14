@@ -16,11 +16,11 @@ I have never designed a theme before, and I didn't have the confidence to do it.
 
 The hugo-xmin theme was my icebreaker. I'm still not professional, but I'm brave enough to design a theme now. In fact, I have designed three so far: hugo-xmin, hugo-xmag, and hugo-ivy. The theme of [the RStudio blog](https://blog.rstudio.com) is actually based on hugo-xmin, after I heavily extended it. The point is that once you can get a minimal thing to work, you can polish and extend it later, and you will learn every single little thing along the way. That is the power of a minimal example.
 
-## An unusual usage of Github pull requests
+## An unusual usage of GitHub pull requests
 
 I knew for sure that users wouldn't be fully satisfied with this minimal theme, but I made a conscious and firm decision that I wouldn't make this theme more complicated. That said, I also want to show how one could implement a new feature and add to this theme. In other words, I want to give users a minimal fish, but I also want to teach them how to fish. The latter can be more important, since at some point, you have to go on your own and I cannot do everything for you.
 
-I came up with the idea of using Github pull requests. You can find example pull requests at https://github.com/yihui/hugo-xmin/pulls. These pull requests are _not meant to be merged_, but show you the changes to be made if you were to implement a new feature. For example, you can take a look at the tab of diffs of the [pull request #2](https://github.com/yihui/hugo-xmin/pull/2/files), which shows you how you can add the categories and tags info to a post:
+I came up with the idea of using GitHub pull requests. You can find example pull requests at https://github.com/yihui/hugo-xmin/pulls. These pull requests are _not meant to be merged_, but show you the changes to be made if you were to implement a new feature. For example, you can take a look at the tab of diffs of the [pull request #2](https://github.com/yihui/hugo-xmin/pull/2/files), which shows you how you can add the categories and tags info to a post:
 
 ```diff
 diff --git a/layouts/_default/single.html b/layouts/_default/single.html

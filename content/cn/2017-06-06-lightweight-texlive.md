@@ -22,7 +22,7 @@ slug: lightweight-texlive
     
     说到底，这些打包的人不懂我的心：我没兴趣了解 LaTeX 如何工作，我也不喜欢一大坨没用的文件装在我的电脑上，我需要有自由决定安装或卸载任何包，别帮我把一大坨包绑在一起扯不开撕不烂。
 
-- 默认安装包要尽量小，最好在 100M 的数量级，而不是好几个 G。如果用户需要安装包，他可以请求在默认安装包中添加这个包（方便后人），或者自己敲一行命令安装，关键是安装包无论在什么系统下有且仅有一个办法，所以不管用什么系统，用户只需要记住最轻量的步骤，而不必网上到处扒文档。这个默认包的打包过程在 Github 上公开，任何人都可以请求变更，就像史上最成功的软件包管理工具 Homebrew 一样，不要再依赖少数一两个人掌控打包及分发。
+- 默认安装包要尽量小，最好在 100M 的数量级，而不是好几个 G。如果用户需要安装包，他可以请求在默认安装包中添加这个包（方便后人），或者自己敲一行命令安装，关键是安装包无论在什么系统下有且仅有一个办法，所以不管用什么系统，用户只需要记住最轻量的步骤，而不必网上到处扒文档。这个默认包的打包过程在 GitHub 上公开，任何人都可以请求变更，就像史上最成功的软件包管理工具 Homebrew 一样，不要再依赖少数一两个人掌控打包及分发。
 
     其实 LaTeX 的安装之所以巨大，除了包太多之外，还有一个大问题是文档的体积太大。各位摸着良心说，你们这辈子在自己的电脑上打开过几次 LaTeX 的任何包的任何帮助文档？反正我从来都是放狗在网上搜，从来没打开过本地的文档，那些文档放在哪儿我都不太确定。所以，还是那句话，站在开发者角度来说，把文档打包进去合情合理，但在用户角度来说，文档几乎无用，就算普通用户打开了文档，一看满屏幕的反斜杠命令，立马也会嘤咛一声昏过去。我曾经[吐槽](https://twitter.com/xieyihui/status/792031983027101696)说很多 LaTeX 包做的事情很漂亮，但文档实在辣眼睛，要么短小精悍不知所云，[说半天一个例子也没有](http://ctan.sharelatex.com/tex-archive/macros/latex/contrib/threeparttable/threeparttable.pdf)，要么长篇大论贯彻 Knuth 的文学化编程理念：一坨代码加一坨文字解释这坨代码如何工作。我特么操这份心干什么？
     
@@ -32,10 +32,10 @@ slug: lightweight-texlive
 
 我们还是把希望寄托在 TeXLive 上，放弃那 MikTeX 和 MacTeX。姑且叫这个项目 SmallTeX 吧。我去年曾经在 Linux 上试过，完整的 TeXLive 中如果去掉文档和源代码，最终的压缩文件（tar.gz）大小在 1G 左右。我的安装代码[在此](https://gist.github.com/yihui/7ae1144e45063c4957e5c1f6f67039f4)，核心办法就是用一个 texlive.profile 文件实现自动化安装，这也是唯一的自动化安装 TeXLive 的办法。我把它装在用户根目录下，就是 `$HOME/texlive`。这个脚本是安装所有包，如果只想安装一部分包的话，可以挖我的 [ubuntu-bin](https://github.com/yihui/ubuntu-bin) 库，看看里面我如何安装 TeXLive 以及一部分[额外的包](https://github.com/yihui/ubuntu-bin/blob/master/TeXLive.pkgs)，那些额外的包来自我的血泪积累：我在跑 knitr 包的逆向检查时收集的某些 R 包中用到的一些怪异 LaTeX 依赖。相信有了这么些包之后，多数人应该能顺利编译多数 LaTeX 文档了。另外说一句，目前 Travis CI 上的 R 语言支持中的 LaTeX 安装其实就是基于我这项工作的，主要原因就是我提供了一个超小的安装包，几秒钟就可以下载完，而且覆盖了常见的包。
 
-你也可以参考 LaTeX 的官方 Github 库中的 [texlive.sh](https://github.com/latex3/latex3/blob/master/support/texlive.sh) 脚本，它也是类似的办法，有一个 texlive.profile 文件，其中设定了安装最精简的包，然后再装更多的包。
+你也可以参考 LaTeX 的官方 GitHub 库中的 [texlive.sh](https://github.com/latex3/latex3/blob/master/support/texlive.sh) 脚本，它也是类似的办法，有一个 texlive.profile 文件，其中设定了安装最精简的包，然后再装更多的包。
 
-这个 TeXLive 安装包可以通过 Travis 自动编译，然后通过 Github releases 自动发布，就像我的 ubuntu-bin 库所做的一样。注意发布的时候需要删除已有的文件，因为 Github 不支持在 Github releases 中覆盖文件，参见我生平唯一一个 [Python 脚本](https://github.com/yihui/ubuntu-bin/blob/master/delete.py)。
+这个 TeXLive 安装包可以通过 Travis 自动编译，然后通过 GitHub releases 自动发布，就像我的 ubuntu-bin 库所做的一样。注意发布的时候需要删除已有的文件，因为 GitHub 不支持在 GitHub releases 中覆盖文件，参见我生平唯一一个 [Python 脚本](https://github.com/yihui/ubuntu-bin/blob/master/delete.py)。
 
 Travis 支持 Linux 和 macOS，不支持 Windows，不过 Windows 可以通过 AppVeyor 去编。不管什么系统，都要把 bin 路径放入系统的 PATH 变量中。Windows 下这个应该可以用脚本自动完成。\*nix 用户自己在 `~/.bash_profile` 中手工加一下也不是不行，当然也可以用 `sudo tlmgr path add` 自动把那些 LaTeX 的可执行文件以符号链接形式添加到系统的某个 PATH 路径下（`/usr/local/bin` 之类的）。
 
-这个小项目让我来做也许要花三整天时间，主要是我对 Windows 下的 TeXLive 还没有经验。需要的技能：系统脚本语言、Travis/AppVeyor、Github 及其 API。欢迎死磕到底，挑战 LaTeX 世界无聊的（也许是无心的）专制。
+这个小项目让我来做也许要花三整天时间，主要是我对 Windows 下的 TeXLive 还没有经验。需要的技能：系统脚本语言、Travis/AppVeyor、GitHub 及其 API。欢迎死磕到底，挑战 LaTeX 世界无聊的（也许是无心的）专制。

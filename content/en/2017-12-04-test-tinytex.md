@@ -28,4 +28,4 @@ tinytex::install_tinytex()
 
 P.S. I think you will appreciate TinyTeX when you try to uninstall your existing LaTeX distribution: only MiKTeX on Windows is easy to uninstall; for other LaTeX distributions like TeX Live and MacTeX, you may do a Google search and cry a little when you realize what you need to do to completely get rid of them. By comparison, you only need two short commands to uninstall TinyTeX, and it will be completely gone.
 
-P.P.S. When in doubt, please [read the documentation](/tinytex/). If you run into problems that you don't know how to solve, or have any feedback, please feel free to [file Github issues](https://github.com/rstudio/tinytex/issues).
+P.P.S. When in doubt, please [read the documentation](/tinytex/). If you run into problems that you don't know how to solve, or have any feedback, please feel free to [file GitHub issues](https://github.com/rstudio/tinytex/issues).

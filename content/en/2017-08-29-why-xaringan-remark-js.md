@@ -19,7 +19,7 @@ I spent three days during the last Thanksgiving break on developing the prototyp
 
 1. I loved the choice of Google fonts in the example. To me, it seems that the best fonts are always the fonts I have never used by myself.
 
-1. There are painfully many flavors of Markdown in the world, but I really only have belief in two flavors: Pandoc's Markdown, and remark.js'; I feel sad about most other flavors (Github's flavor is fine). I think the author of remark.js has done an excellent job of inventing a reasonable flavor of Markdown that is suitable for slides. For example, I'm always in bad need of `.center[]`, but often have to use the ugly raw HTML like `<div style="text-align: center;"></div>`. With remark.js' Markdown, you can add arbitrary CSS classes to elements using syntax `.className[elements]`, which is very handy compared to `<span class="className"></span>`.
+1. There are painfully many flavors of Markdown in the world, but I really only have belief in two flavors: Pandoc's Markdown, and remark.js'; I feel sad about most other flavors (GitHub's flavor is fine). I think the author of remark.js has done an excellent job of inventing a reasonable flavor of Markdown that is suitable for slides. For example, I'm always in bad need of `.center[]`, but often have to use the ugly raw HTML like `<div style="text-align: center;"></div>`. With remark.js' Markdown, you can add arbitrary CSS classes to elements using syntax `.className[elements]`, which is very handy compared to `<span class="className"></span>`.
 
 1. There are several useful slide properties such as `class`, `background-image`, and `layout`. These are simple to write but can style individual slides in pretty much any way you want if you know a little bit CSS. Even if you don't know CSS, the built-in classes like `class: center, middle` are useful enough.
 
@@ -82,7 +82,7 @@ It is mostly personal preferences, and I'm not saying these libraries are not gr
 
 To me, reveal.js is too complicated and shiny. It has way more features than what I need. Oh, the slide transition styles (even 3D rotations?)... I used reveal.js for a couple of my talks, and I found it was very easy to forget vertical slides. The Markdown support is kind of awkward in my eyes. JJ has written an R package [**revealjs**](https://github.com/rstudio/revealjs), which made it much more natural to write slides with \(R) Markdown. In short, reveal.js is too good to me.
 
-For ioslides and Slidy, they are not very customizable. For example, you can see [Jared's hack](https://www.jaredlander.com/2017/07/fullscreen-background-images-in-ioslides-presentations/) on supporting background images in ioslides. Even though I'm reasonably familiar with JavaScript, I hate the fact that I have to hack like that. Also see [this pull request](https://github.com/rstudio/rmarkdown/pull/687) in the **rmarkdown** repo on Github (hacking at Lua writers for Pandoc). There is not much freedom of customizing CSS, either.
+For ioslides and Slidy, they are not very customizable. For example, you can see [Jared's hack](https://www.jaredlander.com/2017/07/fullscreen-background-images-in-ioslides-presentations/) on supporting background images in ioslides. Even though I'm reasonably familiar with JavaScript, I hate the fact that I have to hack like that. Also see [this pull request](https://github.com/rstudio/rmarkdown/pull/687) in the **rmarkdown** repo on GitHub (hacking at Lua writers for Pandoc). There is not much freedom of customizing CSS, either.
 
 ## A secret tool in xaringan
 

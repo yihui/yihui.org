@@ -4,7 +4,7 @@ date: '2018-03-07'
 slug: second-pull-request
 ---
 
-When considering pull requests on Github, we need to keep in mind that even if someone's first pull request is not 100% perfect, his/her second one could be much better (if he/she is willing to continue the contribution). I have observed this phenomenon several times, and that is one of the reasons why I want to carefully review and help with people's first pull requests. I'm looking at the future, instead of only the current pull request.
+When considering pull requests on GitHub, we need to keep in mind that even if someone's first pull request is not 100% perfect, his/her second one could be much better (if he/she is willing to continue the contribution). I have observed this phenomenon several times, and that is one of the reasons why I want to carefully review and help with people's first pull requests. I'm looking at the future, instead of only the current pull request.
 
 A fresh example is Leonardo Collado-Torres's [recent (and the second) pull request](https://github.com/rstudio/blogdown/pull/272) to the **blogdown** package, in which he brought a very useful RStudio addin that makes it really neat to upload and insert images to your blog posts:
 

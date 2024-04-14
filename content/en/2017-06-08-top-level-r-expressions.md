@@ -6,7 +6,7 @@ slug: top-level-r-expressions
 
 For any developers who have ever written an S3 method for the `print()` function, they probably know what a _top-level_ R expression means, but this is a very confusing concept to non-developers. I have to explain this every now and then, so I decided to write a short post about it.
 
-Yesterday I saw [a Github issue](https://github.com/rstudio/rmarkdown/issues/1069) in the **rmarkdown** repository, and you can see that there are still users confused by the fact that  **ggplot2** plots are not rendered in certain cases. I have seen similar questions perhaps hundreds of times. Such questions have been answered in the R FAQ 7.22 "[Why do lattice/trellis graphics not work?](https://cran.rstudio.com/doc/FAQ/R-FAQ.html#Why-do-lattice_002ftrellis-graphics-not-work_003f)", but the answer didn't explain the root reason in detail.
+Yesterday I saw [a GitHub issue](https://github.com/rstudio/rmarkdown/issues/1069) in the **rmarkdown** repository, and you can see that there are still users confused by the fact that  **ggplot2** plots are not rendered in certain cases. I have seen similar questions perhaps hundreds of times. Such questions have been answered in the R FAQ 7.22 "[Why do lattice/trellis graphics not work?](https://cran.rstudio.com/doc/FAQ/R-FAQ.html#Why-do-lattice_002ftrellis-graphics-not-work_003f)", but the answer didn't explain the root reason in detail.
 
 ![Inferno](https://slides.yihui.org/images/inferno.jpg)
 

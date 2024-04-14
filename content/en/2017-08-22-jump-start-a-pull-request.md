@@ -4,7 +4,7 @@ date: '2017-08-22'
 slug: jump-start-a-pull-request
 ---
 
-Pull requests (PRs) is my favorite thing about Github.[^1] I have created and merged numerous PRs over the years. If you are new to PRs and contributing to other people's packages, I strongly recommend you to read the following materials:
+Pull requests (PRs) is my favorite thing about GitHub.[^1] I have created and merged numerous PRs over the years. If you are new to PRs and contributing to other people's packages, I strongly recommend you to read the following materials:
 
 - The presentation "[Collaborative Coding](http://cwick.co.nz/talks/collab-code-user17/)" by Charlotte Wickham
 - The blog post "[Contributing Code to the Tidyverse](http://www.jimhester.com/2017/08/08/contributing/)" by Jim Hester

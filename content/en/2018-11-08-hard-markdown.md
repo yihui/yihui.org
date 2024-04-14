@@ -9,11 +9,11 @@ Markdown is simple in general. Over the years, however, I have observed two thin
 
 ## 1. How to write verbatim content, especially text that contains three backticks
 
-This is the thing that tortures me weekly, if not daily, because without knowing how to write verbatim text, the Markdown output will be poorly formatted. It is not rare for me to see Github issues like this:
+This is the thing that tortures me weekly, if not daily, because without knowing how to write verbatim text, the Markdown output will be poorly formatted. It is not rare for me to see GitHub issues like this:
 
 ![Users don't know how to write verbatim content](https://user-images.githubusercontent.com/163582/48208438-665f5e80-e338-11e8-9e9c-22e770a7e27e.png)
 
-Despite of the fact that I have explicitly mentioned in the Github issue template how to write verbatim text and I have also given an example, some users still fail to do this correctly. With dozens of other Github issues to deal with, I hope they could forgive me skipping issues like this. I don't mean to blame users like this one. Obviously they have read the issue template---the above user said in the Github issue:
+Despite of the fact that I have explicitly mentioned in the GitHub issue template how to write verbatim text and I have also given an example, some users still fail to do this correctly. With dozens of other GitHub issues to deal with, I hope they could forgive me skipping issues like this. I don't mean to blame users like this one. Obviously they have read the issue template---the above user said in the GitHub issue:
 
 > Hoping I have all the backticks right in this example.
 
@@ -45,13 +45,13 @@ It is just that this Markdown syntax is too hard to understand:
 
 In general, you need at least N+1 backticks to write N backticks verbatim. As an exercise, now you may ask yourself what you should do if your text contains four backticks, or five, or six. Note that instead of using N+1 backticks, you could also [indent the text](/en/2017/05/four-backticks-github/), but it can be tricky to determine how many spaces you need in some cases.
 
-I didn't fully realize how hard this "simple" rule was until I saw R experts like [JD Long failed to provide a reprex in plain text](https://community.rstudio.com/t/13250) a few weeks ago because it contained three backticks. He chose to post a screenshot of the text. I almost jumped off my chair and killed him [when I saw the screenshot](/en/2018/01/screenshots-vs-text/). At that moment, I realized I should give it up, and [accept the fact](/en/2017/10/501st-reminder/) that this is just surprisingly hard for most Markdown users. Okay, I'll just bite the bullet and edit all your poorly formatted Github issues if I have time.
+I didn't fully realize how hard this "simple" rule was until I saw R experts like [JD Long failed to provide a reprex in plain text](https://community.rstudio.com/t/13250) a few weeks ago because it contained three backticks. He chose to post a screenshot of the text. I almost jumped off my chair and killed him [when I saw the screenshot](/en/2018/01/screenshots-vs-text/). At that moment, I realized I should give it up, and [accept the fact](/en/2017/10/501st-reminder/) that this is just surprisingly hard for most Markdown users. Okay, I'll just bite the bullet and edit all your poorly formatted GitHub issues if I have time.
 
 Below is [one more common example](https://github.com/yihui/xaringan/issues/180) of what users do when they don't know how to format text containing three backticks. I could give many, many [more examples](/en/2018/05/github-issue-format/) like this. Again, the point is not to complain about these users, but show how hard it is for users to know the right syntax.
 
 ![Users don't know how to write verbatim text containing three backticks and chose to comment out the text instead](https://user-images.githubusercontent.com/163582/48207715-dbca2f80-e336-11e8-942e-2232cf02585f.png)
 
-BTW, I want to [thank Marcel Schilling](/en/2018/01/thanks-marcel-schilling/) one more time for [helping me reply Github issues](/en/2018/07/help-answer-questions/) (it is so great to have someone in an earlier timezone to help). You have made indirect yet important contributions to my other open source projects.
+BTW, I want to [thank Marcel Schilling](/en/2018/01/thanks-marcel-schilling/) one more time for [helping me reply GitHub issues](/en/2018/07/help-answer-questions/) (it is so great to have someone in an earlier timezone to help). You have made indirect yet important contributions to my other open source projects.
 
 The reason for this issue to occur frequently in the R Markdown world is that R Markdown documents often contain three backticks (for code chunks). They also often contain three dashes intended for the YAML frontmatter, which happens to be the syntax for the second-level section headers, and you certainly don't want this to be displayed as a section header:
 
