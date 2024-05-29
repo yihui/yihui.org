@@ -4,7 +4,7 @@ date: '2017-01-31'
 disable_math: true
 ---
 
-I'm currently a freelancer, and was a software engineer at [Posit,
+I'm currently a freelancer, and was a software engineer at [Posit Software,
 PBC](https://posit.co) (2013-2023). I earned my PhD from the Department of
 Statistics, Iowa State University. My
 [thesis](https://lib.dr.iastate.edu/etd/13518/) was *Dynamic
