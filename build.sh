@@ -23,3 +23,8 @@ if [ "${VERCEL_ENV:-$CONTEXT}" = "production" ]; then
 else
   hugo -F -D -b ${VERCEL_URL:-$DEPLOY_PRIME_URL} --enableGitInfo
 fi
+
+# add litedown documentation
+cd public
+git clone --depth 1 -b gh-pages https://github.com/yihui/litedown litedown
+rm -rf litedown/.git
