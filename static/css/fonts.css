@@ -6,18 +6,19 @@
        url('https://cdn.jsdelivr.net/gh/yihui/cron/fonts/SourceHanSerifCN-Regular-yihui.woff2') format('woff2');
 }
 @font-face {
-  font-family: 'FandolKai';
+  font-family: 'Kai';
   src: local('Kaiti'), local('Kaiti SC'), local('STKaiti'), local('楷体'), local('SimKai'), local('AR PL KaitiM GB'), local('DFKai-SB'), local('FandolKai'),
-       url('https://cdn.jsdelivr.net/gh/yihui/cron/fonts/AR-PL-KaitiM-GB-yihui.woff2') format('woff2');
+       url('https://cdn.jsdelivr.net/gh/yihui/cron/fonts/gkai00mp-yihui.woff2') format('woff2'),
+       url('https://cdn.jsdelivr.net/gh/yihui/cron/fonts/bkai00mp-yihui.woff2') format('woff2');
 }
 body {
   font-family: Palatino, 'Palatino Linotype', 'Palatino LT STD', 'Latin Modern Roman', 'Source Han Serif CN', serif;
 }
 .home blockquote, .cn blockquote, .kai, .cn em, .cn .side, .hash-note, .hide-notes .toggle-notes {
-  font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, FandolKai, serif;
+  font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, Kai, serif;
 }
 code {
-  font-family: Consolas, Courier, 'Lucida Console', 'Courier New', FandolKai, monospace;
+  font-family: Consolas, Courier, 'Lucida Console', 'Courier New', Kai, monospace;
 }
 pre, code {
   font-size: .95em;
