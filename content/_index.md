@@ -4,16 +4,16 @@ date: '2017-01-31'
 disable_math: true
 ---
 
-I'm currently a freelancer, and was a software engineer at [Posit Software,
-PBC](https://posit.co) (2013-2023). I earned my PhD from the Department of
-Statistics, Iowa State University. My
-[thesis](https://lib.dr.iastate.edu/etd/13518/) was *Dynamic
+I'm currently a freelancer, and was a software engineer at Posit Software, PBC
+(2013-2023). I earned my PhD from the Department of Statistics, Iowa State
+University. My [thesis](https://lib.dr.iastate.edu/etd/13518/) was *Dynamic
 [Graphics](https://github.com/ggobi/cranvas) and [Reporting](/knitr/) for
 Statistics*, advised by [Di Cook](https://www.dicook.org) and [Heike
 Hofmann](https://www.stat.iastate.edu/people/heike-hofmann). I have developed a
-few R packages either seriously or for
-[fun](https://cran.rstudio.com/package=fun) (or both), such as [knitr](/knitr/),
-[animation](/animation/), [bookdown](https://bookdown.org),
+series of R packages either seriously or for
+[fun](https://cran.rstudio.com/package=fun) (or both), such as
+[litedown](/litedown/), [knitr](/knitr/), [animation](/animation/),
+[bookdown](https://bookdown.org),
 [blogdown](https://github.com/rstudio/blogdown),
 [pagedown](https://github.com/rstudio/pagedown),
 [xaringan](https://slides.yihui.org/xaringan/), and [tinytex](/tinytex/). I
