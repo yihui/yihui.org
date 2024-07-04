@@ -4,6 +4,17 @@ date: '2010-12-22'
 slug: a-special-graphics-device-in-r-the-null-device
 ---
 
+Update on 2024-07-04
+
+:   Since Mehrad discovered and mentioned this post [on Mastodon](https://mastodon.social/@Mehrad@fosstodon.org/112728074463012723), I want to point out that the null device has been [officially introduced into R](https://cran.r-project.org/doc/manuals/r-release/NEWS.2.html#:~:text=pdf()%20accepts%20file%20%3D%20NULL) since v2.15.0 (2012-03-30), so you can set:
+    ```r 
+    options(device = function(...) {
+      pdf(NULL, ...)
+    })
+    ```
+
+    The `R_GD_nullDevice` was said [to be removed in the future](https://cran.r-project.org/doc/manuals/r-release/NEWS.2.html#:~:text=.Call(%22R_GD_nullDevice%22%2C%20package%20%3D%20%22grDevices%22)%20is%20about%20to%20be%20removed), so you'd better not use it any more.
+
 It is well-known that R has several graphics devices -- either the screen devices (`X11()`, `windows()`, ...) or the off-screen devices (`pdf()`, `png()`, ...). We can query the default graphics device in `options()`:
 
 ```r 
