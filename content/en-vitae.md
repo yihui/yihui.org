@@ -182,6 +182,8 @@ Projects participated:
 
 Most of my slides were generated from R Markdown (especially the ones in recent years). To download the R Markdown source documents, simply replace the extension `.html` with `.Rmd` in the address bar of your web browser.
 
+- Yihui Xie, 2024, _Reimagining Literate Programming and Automated Report Generation_, [Ihaka Lecture Series](https://www.auckland.ac.nz/en/science/about-the-faculty/department-of-statistics/ihaka-lecture-series.html), University of Auckland ([slides](https://slides.yihui.org/2024-ihaka-litedown.html); [video](https://www.youtube.com/live/83XxhMIZkiw))
+- Yihui Xie, 2024, _Reflections on the 12 Years of R Markdown_, the Inaugural Berkeley-Stanford Workshop on Veridical Data Science, UC Berkeley ([slides](https://slides.yihui.org/2024-berkeley-r-markdown.html); [video](https://youtu.be/PiplQeO_qig))
 - Yihui Xie, 2024, _An Introduction to Building Web Applications and Services Using R_, Yale School of Public Health ([slides](https://slides.yihui.org/2024-ysph-r-web.html))
 - Yihui Xie, 2023, _On the last step of data science: communication_, Huazhong Agricultural University, Wuhan, China ([slides](https://slides.yihui.org/2023-hzau-rmarkdown.html))
 - Yihui Xie, 2023, _Introducing a lightweight version of R Markdown_, an ASA Philly webinar ([slides](https://slides.yihui.org/2023-philly-markdown.html))
