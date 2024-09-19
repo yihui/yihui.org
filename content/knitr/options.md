@@ -642,6 +642,9 @@ for examples).
     referenced chunks. See the chunk option `opts.label` for more information on
     inheriting chunk options.
 
+-   `ref.chunk`: (`TRUE`; logical) Whether to resolve in-chunk references of the
+    form `<<label>>`.
+
 ### Child documents
 
 -   `child`: (`NULL`; character) A character vector of paths of child documents
