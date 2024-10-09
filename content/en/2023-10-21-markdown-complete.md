@@ -5,6 +5,12 @@ date: '2023-10-21'
 slug: markdown-complete
 ---
 
+Update on 2014-10-09
+
+:   The **markdown** package has been superseded by [the **litedown**
+    package](https://github.com/yihui/litedown). The former is a strict subset
+    of the latter. Please consider using **litedown** instead.
+
 When we say "R Markdown", we usually refer to the **rmarkdown** package, which
 is based on Pandoc and **knitr**. Prior to the **rmarkdown** package, there
 actually existed an older version of R Markdown, which was based on the
@@ -31,9 +37,9 @@ I removed the C library from **markdown**, and rewrote the package based on
 
 Although I'm a minimalist, **commonmark**'s Markdown features are too limited in
 my eyes. On the other hand, Pandoc's Markdown is too rich to me. What I did in
-the **markdown** package was a compromise. You can read [the introduction
-vignette](https://cran.r-project.org/web/packages/markdown/vignettes/intro.html)
-to learn which features are supported in this package.
+the **markdown** package was a compromise. You can read [this
+chapter](https://yihui.org/litedown/#sec:markdown-syntax) to learn which
+features are supported in this package.
 
 If you prefer reading slides over documentation, I have given a talk in May,
 which was not recorded but you will not miss anything by only reading [the

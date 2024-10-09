@@ -65,7 +65,7 @@ code {
 ```
 
 I came up with this idea when designing the CSS for [a new HTML slide
-format](https://cran.r-project.org/web/packages/markdown/vignettes/slides.html)
+format](https://cran.r-project.org/web/packages/litedown/vignettes/slides.html)
 early this year. The code blocks are not wrapped by default, which can save me
 vertical space on slides (space on slides is often limited). When I really need
 to present the code to the audience, I can move my cursor over it.

@@ -8,7 +8,7 @@ slug: snap-slides
 I do not remember when or how I first encountered the CSS Scroll Snap technique,
 but when I saw it, one thing came to my mind immediately: can we use this
 technique to make slides? (Spoiler: the answer later [was
-YES](https://cran.r-project.org/web/packages/markdown/vignettes/slides.html))
+YES](https://cran.r-project.org/web/packages/litedown/vignettes/slides.html))
 
 If you have not heard of it before, [here is a quick
 introduction](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Scroll_Snap/Basic_concepts)
@@ -38,9 +38,9 @@ html {
 ```
 
 I ended up expanding these 7 lines of CSS into ~100 lines
-([snap.css](https://github.com/rstudio/markdown/blob/master/inst/resources/snap.css))
-to style several other common elements of slides, such as the table of
-contents,[^1] slide titles, page numbers, timers, and special pages.
+([snap.css](https://github.com/yihui/misc.js/blob/main/css/snap.css)) to style
+several other common elements of slides, such as the table of contents,[^1]
+slide titles, page numbers, timers, and special pages.
 
 [^1]: No, usually you do not need an outline page in a talk. Nobody cares about
     it, and it simply wastes everyone's time. But... I promise that I have
@@ -52,9 +52,9 @@ contents,[^1] slide titles, page numbers, timers, and special pages.
 
 If the HTML code is well-organized as a series of sections (e.g.,
 `<div class="slide">`), I probably would not need to write much JavaScript.
-Eventually I wrote about 140 lines of JS
-([snap.js](https://github.com/rstudio/markdown/blob/master/inst/resources/snap.js)).
-One third of the code reorganizes content into slide pages, e.g., convert
+Eventually I wrote about 200 lines of JS
+([snap.js](https://github.com/yihui/misc.js/blob/main/js/snap.js)). One third of
+the code reorganizes content into slide pages, e.g., convert
 
 ``` html
 <h2>First slide</h2>
@@ -92,13 +92,10 @@ If you are lucky (or I was smart enough when writing the JS code), you can turn
 your HTML page into a slideshow after you add the JS and CSS to the page:
 
 ``` html
-<script src="https://cdn.jsdelivr.net/gh/rstudio/markdown@1.8/inst/resources/snap.min.js" defer></script>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/combine/gh/rstudio/markdown@1.8/inst/resources/default.min.css,gh/rstudio/markdown@1.8/inst/resources/snap.min.css">
+<script src="https://cdn.jsdelivr.net/npm/@xiee/utils/js/snap.min.js" defer></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@xiee/utils/css/default.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@xiee/utils/css/snap.min.css">
 ```
-
-I'm using version 1.8 above. You can take a look at [the Git tags
-here](https://github.com/rstudio/markdown/tags) to other versions (the minimal
-is 1.6).
 
 ## Of course, you would rather write slides in Markdown instead of HTML
 
@@ -106,20 +103,19 @@ You may have frowned upon all the HTML/JS/CSS code and jargon above. The good
 news is you can forget about them, and click a button to generate slides from
 Markdown. I will introduce two methods below.
 
-### Using the **markdown** package
+### Using the **litedown** package
 
-You can install the **markdown** package (not **r**markdown). Then create a
-`.md` file (or `.Rmd` if you need to use **knitr** code chunks) with the YAML
-metadata:
+You can install the **litedown** package. Then create a `.md` file (or `.Rmd` if
+you need to execute code chunks) with the YAML metadata:
 
 ``` yaml
 ---
 title: "Snap Slides"
 output:
-  markdown::html_format:
+  litedown::html_format:
     meta:
-      css: [default, slides]
-      js: [slides]
+      css: [default, snap]
+      js: [snap]
 ---
 ```
 
@@ -145,10 +141,9 @@ you do not, you can call `markdown::mark_html()` on the `.md` file, or
 
 ### Using Quarto
 
-The JS/CSS code is not tied to the **markdown** package (although the code is
-hosted in this package). You can definitely use it in Quarto documents. The key
-is to set the option `minimal: true` and include the JS/CSS via
-`include-after-body`:
+The JS/CSS code is not tied to the **litedown** package. You can definitely use
+it in Quarto documents. The key is to set the option `minimal: true` and include
+the JS/CSS via `include-after-body`:
 
 ``` yaml
 ---
@@ -158,8 +153,9 @@ format:
     minimal: true
     include-after-body:
       text: |
-        <script src="https://cdn.jsdelivr.net/gh/rstudio/markdown@1.8/inst/resources/snap.min.js" defer></script>
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/combine/gh/rstudio/markdown@1.8/inst/resources/default.min.css,gh/rstudio/markdown@1.8/inst/resources/snap.min.css">
+        <script src="https://cdn.jsdelivr.net/npm/@xiee/utils/js/snap.min.js" defer></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@xiee/utils/css/default.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@xiee/utils/css/snap.min.css">
         <style type="text/css">header{text-align: center;}</style>
 ---
 ```
@@ -210,6 +206,6 @@ overview mode of slides can help a bit, though.
 
 ## Demo and documentation
 
-The package vignette in the **markdown** package,
-[`vignette('slides', package = 'markdown')`](https://cran.r-project.org/web/packages/markdown/vignettes/slides.html),
+The package vignette in the **litedown** package,
+[`vignette('slides', package = 'litedown')`](https://cran.r-project.org/web/packages/litedown/vignettes/slides.html),
 can serve as both the demo and documentation of this slides framework. Enjoy!
