@@ -38,8 +38,8 @@ I removed the C library from **markdown**, and rewrote the package based on
 Although I'm a minimalist, **commonmark**'s Markdown features are too limited in
 my eyes. On the other hand, Pandoc's Markdown is too rich to me. What I did in
 the **markdown** package was a compromise. You can read [this
-chapter](https://yihui.org/litedown/#sec:markdown-syntax) to learn which
-features are supported in this package.
+chapter](https://yihui.org/litedown/#chp:syntax) to learn which features are
+supported in this package.
 
 If you prefer reading slides over documentation, I have given a talk in May,
 which was not recorded but you will not miss anything by only reading [the
