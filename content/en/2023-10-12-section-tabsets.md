@@ -175,6 +175,13 @@ or the R package **markdown**), here is how you create a tabset:
     <div class="tabset"></div>
     ```
 
+    You can also use a fenced `Div` with the class `tabset`:
+
+    ``` md
+    ::: tabset
+    :::
+    ```
+
 2.  Below this element, write either a bullet list or a series of sections.
 
     -   If you write a bullet list, the first element of each bullet item will
@@ -285,6 +292,33 @@ You can nest tabsets in other tabsets if you want, e.g.,
       Content
 
 - Tab three
+```
+
+If you use bullet lists to create tabsets, you can also put the list items
+inside the `tabset` div, which may be more intuitive, e.g.,
+
+``` md
+:::: tabset
+-   Tab one
+
+    Content
+
+-   Tab two
+
+    Content
+
+    ::: tabset
+    -   Child tab one
+
+        Content
+
+    -   Child tab two
+
+        Content
+    :::
+
+-   Tab three
+::::
 ```
 
 I hope you can find this simple tabset implementation useful (it is not tied to
