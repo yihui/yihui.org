@@ -86,6 +86,8 @@ P.S. A list of issues solved simply by updating packages:
 - [How can I overcome an error in xfun when kniting an Rmarkdown?](https://stackoverflow.com/q/77483367/559676)
 - [Error(s) in re-building vignettes:](https://github.com/yihui/knitr/issues/2327)
 - [R markdown error when knitting any Rmd file](https://stackoverflow.com/q/78028822/559676)
+- [`build_vignettes()` fails when `litedown::html_document` has no options](https://github.com/yihui/litedown/issues/31)
+- [Pagedown无法生成pdf简历了](https://d.cosx.org/d/425361)
 
 [^1]: I guess the vast majority of R users always install and use a single version of R.
 
