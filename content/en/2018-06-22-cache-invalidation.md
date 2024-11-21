@@ -5,7 +5,7 @@ date: '2018-06-22'
 slug: cache-invalidation
 ---
 
-Many people must have heard this quote (by Phil Karlton) many times: _There are only two hard things in Computer Science: cache invalidation and naming thing._ Two days ago, Nick Tierney mentioned it again in his post "[Naming Things](http://www.njtierney.com/post/2018/06/20/naming-things/)". Since he said he was not sure what cache invalidation meant, and I have a tiny bit experience here, I want to write this short post to explain why cache invalidation is hard from my experience.
+Many people must have heard this quote (by Phil Karlton) many times: _There are only two hard things in Computer Science: cache invalidation and naming things._ Two days ago, Nick Tierney mentioned it again in his post "[Naming Things](http://www.njtierney.com/post/2018/06/20/naming-things/)". Since he said he was not sure what cache invalidation meant, and I have a tiny bit experience here, I want to write this short post to explain why cache invalidation is hard from my experience.
 
 ## Why caching?
 
