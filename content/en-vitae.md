@@ -211,7 +211,7 @@ Most of my slides were generated from R Markdown (especially the ones in recent 
 - Yihui Xie, 2019, _R Markdown: a Software Ecosystem for Reproducible Publications_, [JSM](https://ww2.amstat.org/meetings/jsm/2019/onlineprogram/ActivityDetails.cfm?SessionID=218013), Denver, CO ([slides](https://bit.ly/jsm-rmarkdown))
 - Yihui Xie, 2019, _Quick Demos of the R Markdown Ecosystem_, a remote talk for the RaukR Summer School, Visby, Sweden ([slides](https://bit.ly/2019-raukr))
 - Yihui Xie and Romain Lesur, 2019, _pagedown: Creating beautiful PDFs with R Markdown and CSS_, rstudio::conf, Austin, TX ([slides](https://bit.ly/pagedown); [video](https://resources.rstudio.com/rstudio-conf-2019/pagedown-creating-beautiful-pdfs-with-r-markdown-and-css))
-- Yihui Xie, 2018, _Some Lesser Known Features of knitr_, a remote talk for the RaukR Summer School, Visby, Sweden ([slides](https://bit.ly/2018-raukr))
+- Yihui Xie, 2018, _Some Lesser Known Features of knitr_, a remote talk for the RaukR Summer School, Visby, Sweden ([slides](https://slides.yihui.org/2018-knitr-RaukR-Yihui-Xie.html))
 - Yihui Xie, 2018, _Easy Dashboards with R Markdown_, a talk at the Omaha R User Group, Omaha, NE ([slides](https://bit.ly/2018-dashboard))
 - Yihui Xie, 2018, _Creating Websites with R Markdown and blogdown_, a talk at the RStudio Conference 2018, San Diego, CA ([slides](https://bit.ly/2018-blogdown))
 - Yihui Xie, 2017, _An R Markdown Tutorial on bookdown, blogdown, and xaringan_, a 3-hour tutorial in the School of Natural Resources, University of Nebraska-Lincoln ([slides](https://slides.yihui.org/2017-rmarkdown-UNL-Yihui-Xie.html))

@@ -128,7 +128,7 @@ Email：xie@yihui.org；主页：<https://yihui.org>；现居住于美国内布�
 
 - 谢益辉，2024，_Reimagining Literate Programming and Automated Report Generation_，[Ihaka 讲座系列](https://www.auckland.ac.nz/en/science/about-the-faculty/department-of-statistics/ihaka-lecture-series.html)，奥克兰大学（[幻灯片](https://slides.yihui.org/2024-ihaka-litedown.html)；[视频](https://www.youtube.com/live/83XxhMIZkiw)）
 - 谢益辉，2024，_litedown: R Markdown Reimagined_，[SOCEIO 远程报告](https://eventos.urjc.es/110238/detail/i-seminario-soceio-software-y-computacion-en-estadistica-e-investigacion-operativa.html)，西班牙马德里（[幻灯片](https://slides.yihui.org/2024-soceio-litedown.html)）
-- 谢益辉，2024，_Reflections on the 12 Years of R Markdown_，首届伯克利-斯坦福“真实数据科学”联合会议，伯克利大学（[幻灯片](https://slides.yihui.org/2024-berkeley-r-markdown.html)；[视频](https://youtu.be/PiplQeO_qig)）
+- 谢益辉，2024，_Reflections on the 12 Years of R Markdown_，首届伯克利-斯坦福“真实数据科学”联合会议，加州大学伯克利分校（[幻灯片](https://slides.yihui.org/2024-berkeley-r-markdown.html)；[视频](https://youtu.be/PiplQeO_qig)）
 - 谢益辉，2024，_An Introduction to Building Web Applications and Services Using R_，耶鲁公共卫生学院远程报告（[幻灯片](https://slides.yihui.org/2024-ysph-r-web.html)）
 - 谢益辉，2023，谈谈数据科学的最后一环：沟通，华中农业大学，武汉（[幻灯片](https://slides.yihui.org/2023-hzau-rmarkdown.html)）
 - 谢益辉，2023，_Introducing a lightweight version of R Markdown_，美国统计学会费城分会报告（[幻灯片](https://slides.yihui.org/2023-philly-markdown.html)）
@@ -155,7 +155,7 @@ Email：xie@yihui.org；主页：<https://yihui.org>；现居住于美国内布�
 - 谢益辉，2019，_R Markdown: a Software Ecosystem for Reproducible Publications_，[JSM 会议](https://ww2.amstat.org/meetings/jsm/2019/onlineprogram/ActivityDetails.cfm?SessionID=218013)，丹佛，科罗拉多（[幻灯片](https://bit.ly/jsm-rmarkdown)）
 - 谢益辉，2019，_Quick Demos of the R Markdown Ecosystem_，瑞典 RaukR 暑期学校远程报告（[幻灯片](https://bit.ly/2019-raukr)）
 - 谢益辉，2019，_pagedown: Creating beautiful PDFs with R Markdown and CSS_，RStudio 大会，奥斯汀，德州（[幻灯片](https://bit.ly/pagedown)；[视频](https://resources.rstudio.com/rstudio-conf-2019/pagedown-creating-beautiful-pdfs-with-r-markdown-and-css)）
-- 谢益辉，2018，_Some Lesser Known Features of knitr_，瑞典 RaukR 暑期学校远程报告（[幻灯片](https://bit.ly/2018-raukr)）
+- 谢益辉，2018，_Some Lesser Known Features of knitr_，瑞典 RaukR 暑期学校远程报告（[幻灯片](https://slides.yihui.org/2018-knitr-RaukR-Yihui-Xie.html)）
 - 谢益辉，2018，_Easy Dashboards with R Markdown_，奥马哈 R 用户小组报告（[幻灯片](https://bit.ly/2018-dashboard)）
 - 谢益辉，2018，_Creating Websites with R Markdown and blogdown_，RStudio 大会报告，圣地亚哥，加州（[幻灯片](https://bit.ly/2018-blogdown)）
 - 谢益辉，2017，_An R Markdown Tutorial on bookdown, blogdown, and xaringan_，内布拉斯加大学林肯分校自然资源学院讲座（[幻灯片](https://slides.yihui.org/2017-rmarkdown-UNL-Yihui-Xie.html)）
