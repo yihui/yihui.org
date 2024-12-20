@@ -233,8 +233,7 @@ or the R package **markdown**), here is how you create a tabset:
 
         One downside of using section headings to create a tabset is that the
         headings may be included in the table of contents of a page, which is
-        why I do not recommend this method, unless you must specify an active
-        tab manually.
+        why I do not recommend this method.
 
 3.  If you use sections to create a tabset, there are two ways to end the tabset
     (if you create a tabset with a bullet list, you do not need a special way to
