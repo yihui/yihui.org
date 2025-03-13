@@ -25,7 +25,7 @@ Email：xie@yihui.org；主页：<https://yihui.org>；现居住于美国内布�
 ## 获得奖励
 
 - 2012.09 [George W. Snedecor](http://stat.iastate.edu/graduate-financial-support) 奖（杰出博士生），爱荷华州立大学统计系
-- 2012.01 Honorable Mention 奖，R 在商业中的应用[竞赛](http://bit.ly/wx4bFb)
+- 2012.01 Honorable Mention 奖，R 在商业中的应用[竞赛](https://blog.revolutionanalytics.com/2012/01/announcing-the-winners-of-the-applications-of-r-in-business-contest.html)
 - 2011.08 [Vince Sposito](http://stat.iastate.edu/graduate-financial-support) 统计计算奖，爱荷华州立大学统计系
 - 2009.04 美国统计学会 [John Chambers 软件奖](https://community.amstat.org/jointscsg-section/awards/john-m-chambers)
 - 2007.01 中国人民大学学生媒体先进工作者三等奖
@@ -144,20 +144,20 @@ Email：xie@yihui.org；主页：<https://yihui.org>；现居住于美国内布�
 - 谢益辉，2021，厨房记趣，大数报告（[幻灯片](https://slides.yihui.org/2021-dahshu-kitchen.html)；[视频](https://youtu.be/JoFroYuajlE)）
 - 谢益辉，2020，随机漫步十八年的傻瓜，中国人民大学统计学院“统计大讲堂”（[幻灯片](https://slides.yihui.org/2020-random-walk.html)；[视频](https://vimeo.com/492610094)）
 - 谢益辉，2020，R Markdown：一分钟学一道菜，台湾 satRdays 会议（[幻灯片](https://slides.yihui.org/2020-taipei-satrday-rmarkdown.html)；[视频](https://vimeo.com/469252441)）
-- 谢益辉，2020，_Literate Programming, R Markdown, and Reproducible Research_，新冠数据科学会议讨论（[幻灯片](https://bit.ly/covid-down)）
+- 谢益辉，2020，_Literate Programming, R Markdown, and Reproducible Research_，新冠数据科学会议讨论（[幻灯片](https://slides.yihui.org/2020-covid-rmarkdown.html)）
 - 谢益辉，2020，R Markdown 技能杂谈，狗熊会远程报告（[幻灯片](https://slides.yihui.org/2020-bearclub-rmarkdown.html)）
 - 谢益辉，2020，_One R Markdown Document，Fourteen Demos_，RStudio 大会报告，旧金山（[详情](/en/2020/02/rstudio-conf-2020/)；[视频](https://rstudio.com/resources/rstudioconf-2020/one-r-markdown-document-fourteen-demos/)）
-- 谢益辉，2020，_A Bag of R Markdown Tricks_，Genentech 报告，旧金山（[幻灯片](http://bit.ly/genen-down)）
-- 谢益辉，2020，_R Markdown Recipes_，RStudio 大会会前培训课程，旧金山（[幻灯片](http://bit.ly/down-recipes)）
-- 谢益辉，2019，_15 Tips on Making Better Use of R Markdown_，大树在线报告（[幻灯片](https://bit.ly/dahshu-down)；[视频](https://www.youtube.com/watch?v=L5yTrtRdeCI)）
-- 谢益辉，2019，_My failures and perplexities as a former PhD student at Iowa State and later a software engineer at RStudio_，爱荷华州立大学 STAT-ers 邀请报告（[幻灯片](https://bit.ly/isu-talk)）
-- 谢益辉，2019，_The fun with CSS and JavaScript, joined by the simplicity of Markdown_，爱荷华州立大学统计图形小组报告（[幻灯片](https://bit.ly/isu-pagedown)）
-- 谢益辉，2019，_R Markdown: a Software Ecosystem for Reproducible Publications_，[JSM 会议](https://ww2.amstat.org/meetings/jsm/2019/onlineprogram/ActivityDetails.cfm?SessionID=218013)，丹佛，科罗拉多（[幻灯片](https://bit.ly/jsm-rmarkdown)）
-- 谢益辉，2019，_Quick Demos of the R Markdown Ecosystem_，瑞典 RaukR 暑期学校远程报告（[幻灯片](https://bit.ly/2019-raukr)）
-- 谢益辉，2019，_pagedown: Creating beautiful PDFs with R Markdown and CSS_，RStudio 大会，奥斯汀，德州（[幻灯片](https://bit.ly/pagedown)；[视频](https://resources.rstudio.com/rstudio-conf-2019/pagedown-creating-beautiful-pdfs-with-r-markdown-and-css)）
+- 谢益辉，2020，_A Bag of R Markdown Tricks_，Genentech 报告，旧金山（[幻灯片](https://slides.yihui.org/2020-genentech-rmarkdown.html)）
+- 谢益辉，2020，_R Markdown Recipes_，RStudio 大会会前培训课程，旧金山（[幻灯片](https://slides.yihui.org/2020-rstudio-conf-rmarkdown-recipes.html)）
+- 谢益辉，2019，_15 Tips on Making Better Use of R Markdown_，大树在线报告（[幻灯片](https://slides.yihui.org/2019-DahShu-rmarkdown.html)；[视频](https://www.youtube.com/watch?v=L5yTrtRdeCI)）
+- 谢益辉，2019，_My failures and perplexities as a former PhD student at Iowa State and later a software engineer at RStudio_，爱荷华州立大学 STAT-ers 邀请报告（[幻灯片](https://slides.yihui.org/2019-ISU-mental.html)）
+- 谢益辉，2019，_The fun with CSS and JavaScript, joined by the simplicity of Markdown_，爱荷华州立大学统计图形小组报告（[幻灯片](https://slides.yihui.org/2019-ISU-pagedown.html)）
+- 谢益辉，2019，_R Markdown: a Software Ecosystem for Reproducible Publications_，[JSM 会议](https://ww2.amstat.org/meetings/jsm/2019/onlineprogram/ActivityDetails.cfm?SessionID=218013)，丹佛，科罗拉多（[幻灯片](https://slides.yihui.org/2019-JSM-rmarkdown.html)）
+- 谢益辉，2019，_Quick Demos of the R Markdown Ecosystem_，瑞典 RaukR 暑期学校远程报告（[幻灯片](https://slides.yihui.org/2019-rmarkdown-RaukR-Yihui-Xie.html)）
+- 谢益辉，2019，_pagedown: Creating beautiful PDFs with R Markdown and CSS_，RStudio 大会，奥斯汀，德州（[幻灯片](https://slides.yihui.org/2019-rstudio-conf-pagedown.html)；[视频](https://resources.rstudio.com/rstudio-conf-2019/pagedown-creating-beautiful-pdfs-with-r-markdown-and-css)）
 - 谢益辉，2018，_Some Lesser Known Features of knitr_，瑞典 RaukR 暑期学校远程报告（[幻灯片](https://slides.yihui.org/2018-knitr-RaukR-Yihui-Xie.html)）
-- 谢益辉，2018，_Easy Dashboards with R Markdown_，奥马哈 R 用户小组报告（[幻灯片](https://bit.ly/2018-dashboard)）
-- 谢益辉，2018，_Creating Websites with R Markdown and blogdown_，RStudio 大会报告，圣地亚哥，加州（[幻灯片](https://bit.ly/2018-blogdown)）
+- 谢益辉，2018，_Easy Dashboards with R Markdown_，奥马哈 R 用户小组报告（[幻灯片](https://slides.yihui.org/2018-flexdashboard-Omaha-Yihui-Xie.html)）
+- 谢益辉，2018，_Creating Websites with R Markdown and blogdown_，RStudio 大会报告，圣地亚哥，加州（[幻灯片](https://slides.yihui.org/2018-blogdown-rstudio-conf-Yihui-Xie.html)）
 - 谢益辉，2017，_An R Markdown Tutorial on bookdown, blogdown, and xaringan_，内布拉斯加大学林肯分校自然资源学院讲座（[幻灯片](https://slides.yihui.org/2017-rmarkdown-UNL-Yihui-Xie.html)）
 - 谢益辉，2017，用 blogdown 搭建一个静态网站（兼吐槽学术出版传统），北美华人基因组学在线沙龙（[幻灯片](https://slides.yihui.org/2017-blogdown-CGM-Yihui-Xie.html)；[视频](https://www.youtube.com/watch?v=g-UnHlp_IgA)）
 - 谢益辉，2017，_DIY Your Personal Academic Website with blogdown_，内布拉斯加大学林肯分校统计系报告（[幻灯片](https://slides.yihui.org/2017-blogdown-UNL-Yihui-Xie.html)）

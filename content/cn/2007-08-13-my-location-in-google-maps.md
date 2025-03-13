@@ -4,9 +4,7 @@ date: '2007-08-13'
 slug: my-location-in-google-maps
 ---
 
-<div id="map" style="width: 100%; height: 400px"></div>
+<iframe src="https://www.google.com/maps/embed?pb=!1m17!1m8!1m3!1d5287.312256396175!2d116.301967!3d39.969951!3m2!1i1024!2i768!4f13.1!4m6!3e6!4m0!4m3!3m2!1d39.970115!2d116.30201!5e1!3m2!1sen!2sus!4v1741875850243!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
-<script src="https://maps.google.com/maps?file=api&amp;v=2&amp;key=ABQIAAAAtD6iPO97YnS5U_uBnl9rThR4eWQKjiHdHzdupEhI_33gu1WDmxRjcAv_JMsytB5qG4_31-p1gI_OyA"type="text/javascript"></script><script type="text/javascript">if (GBrowserIsCompatible()) {var map = new GMap2(document.getElementById("map"));map.addControl(new GSmallMapControl());map.addControl(new GMapTypeControl());map.setCenter(new GLatLng(39.9705, 116.301827), 16);map.setMapType(G_HYBRID_MAP);function createMarker(point) {var marker = new GMarker(point);GEvent.addListener(marker, "click", function() {marker.openInfoWindowHtml("Hello, I'm here! -____-&#124;&#124;");});return marker;}}var point = new GLatLng(39.9705, 116.301827);map.addOverlay(createMarker(point));</script>
-
-也可以直接到[Google Maps](http://bit.ly/vZUsgd)上查看地图；关于这幅图的生成，可以查看我的网页源代码。
+也可以直接到[Google Maps](https://maps.app.goo.gl/NBiwYtvETWwFWYEZ7)上查看地图；关于这幅图的生成，可以查看我的网页源代码。
 
