@@ -197,7 +197,7 @@ Email：xie@yihui.org；主页：<https://yihui.org>；现居住于美国内布�
     - 10/28，RStudio 网络讲座（[幻灯片](https://github.com/rstudio/webinars/blob/master/13-R-Markdown-Ecosystem)；[视频](https://vimeo.com/143893476)）
 - 谢益辉，2015，_Boosting R Skills and Automating Statistical Reports_，新英格兰地区统计论坛（NESS），康州大学，康涅狄格
 - 谢益辉，2015，用 R 语言编写自动化报告以及交互式应用，58 同城，北京（[幻灯片](http://slides.yihui.org/2015-58-Yihui-Xie.html)）
-- 谢益辉，2015，_HTML Widgets_，洛杉矶 R 用户小组，加州（[幻灯片](http://slides.yihui.org/2015-htmlwidgets-LA-Yihui-Xie.html)；[视频](http://datascience.la/yihui-xie-presents-html-widgets/)）
+- 谢益辉，2015，_HTML Widgets_，洛杉矶 R 用户小组，加州（[幻灯片](http://slides.yihui.org/2015-htmlwidgets-LA-Yihui-Xie.html)；[视频](https://youtu.be/dV4gtARPvu8)）
 - 谢益辉，Dirk Eddelbuettel，2014，[R语言培训班](http://ditraglia.com/RWorkshop/)，宾州大学 Warren 中心，费城，宾夕法尼亚
 - JJ Allaire，谢益辉，2014，基于 Packrat 和 R Markdown 的可重复性 R 报告，[R Day](http://strataconf.com/stratany2014/public/schedule/detail/37037)，纽约 Strata 会议
 - 谢益辉，2014，可重复性研究已死/可重复性研究万岁，JSM 2014，波士顿，马萨诸塞（[幻灯片](http://slides.yihui.org/2014-JSM-knitr-Yihui-Xie.html)）

@@ -253,7 +253,7 @@ Most of my slides were generated from R Markdown (especially the ones in recent 
     - 10/28, RStudio webinar ([slides](https://github.com/rstudio/webinars/blob/master/13-R-Markdown-Ecosystem); [video](https://vimeo.com/143893476))
 - Yihui Xie, 2015, _Boosting R Skills and Automating Statistical Reports_, New England Statistical Symposium, UConn
 - Yihui Xie, 2015, _Automatic reporting and interactive applications with R_, 58.com Inc, Beijing ([slides in Chinese](http://slides.yihui.org/2015-58-Yihui-Xie.html))
-- Yihui Xie, 2015, _HTML Widgets_, LA R User Group ([slides](http://slides.yihui.org/2015-htmlwidgets-LA-Yihui-Xie.html); [video](http://datascience.la/yihui-xie-presents-html-widgets/))
+- Yihui Xie, 2015, _HTML Widgets_, LA R User Group ([slides](http://slides.yihui.org/2015-htmlwidgets-LA-Yihui-Xie.html); [video](https://youtu.be/dV4gtARPvu8))
 - Yihui Xie & Dirk Eddelbuettel, 2014, An [R Workshop](http://ditraglia.com/RWorkshop/) at the Warren Center of UPenn, Philadelphia, PA
 - JJ Allaire & Yihui Xie, 2014, _Reproducible R Reports with Packrat and Rmarkdown_, [R Day](http://strataconf.com/stratany2014/public/schedule/detail/37037) at Strata New York
 - Yihui Xie, 2014, _Reproducible Research Is Dead, Long Live Reproducible Research!_, a talk given at JSM 2014, Boston, MA ([slides](http://slides.yihui.org/2014-JSM-knitr-Yihui-Xie.html))
