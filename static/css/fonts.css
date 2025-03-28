@@ -21,7 +21,7 @@ body {
   font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, 'Kai SC', 'Kai TC', serif;
 }
 code {
-  font-family: Consolas, 'DejaVu Sans Mono', 'Noto Mono', 'HarmonyOS Sans Mono', 'Droid Sans Mono', 'Courier', 'Lucida Console', 'Courier New', monospace, 'Kai SC', 'Kai TC';
+  font-family: Consolas, 'Courier', 'DejaVu Sans Mono', 'Noto Mono', 'HarmonyOS Sans Mono', 'Droid Sans Mono', 'Lucida Console', 'Courier New', monospace, 'Kai SC', 'Kai TC';
 }
 pre, code {
   font-size: .95em;
