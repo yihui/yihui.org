@@ -182,6 +182,8 @@ Projects participated:
 
 Most of my slides were generated from R Markdown (especially the ones in recent years). To download the R Markdown source documents, simply replace the extension `.html` with `.Rmd` in the address bar of your web browser.
 
+- Yihui Xie, 2025, _litedown: A Minimal Re-implementation of the R Markdown Ecosystem_, Department of Statistics, University of Nebraska at Lincoln ([slides](https://slides.yihui.org/2025-unl-litedown.html))
+- Yihui Xie, 2025, _Creating Beautiful PDFs via HTML/CSS/JS_, Nebraska R User Group, University of Nebraska at Lincoln ([slides](https://slides.yihui.org/2025-pages-litedown.html))
 - Yihui Xie, 2024, _Reimagining Literate Programming and Automated Report Generation_, [Ihaka Lecture Series](https://www.auckland.ac.nz/en/science/about-the-faculty/department-of-statistics/ihaka-lecture-series.html), University of Auckland ([slides](https://slides.yihui.org/2024-ihaka-litedown.html); [video](https://www.youtube.com/live/83XxhMIZkiw))
 - Yihui Xie, 2024, _litedown: R Markdown Reimagined_, [SOCEIO seminar](https://eventos.urjc.es/110238/detail/i-seminario-soceio-software-y-computacion-en-estadistica-e-investigacion-operativa.html), Madrid, Spain ([slides](https://slides.yihui.org/2024-soceio-litedown.html))
 - Yihui Xie, 2024, _Reflections on the 12 Years of R Markdown_, the Inaugural Berkeley-Stanford Workshop on Veridical Data Science, UC Berkeley ([slides](https://slides.yihui.org/2024-berkeley-r-markdown.html); [video](https://youtu.be/PiplQeO_qig))
