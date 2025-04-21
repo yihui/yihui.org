@@ -109,7 +109,7 @@ sysadmins of their computers.
     If you do want to obtain the source and documentation of packages, you may
     find them [on CTAN](https://ctan.org). Alternatively, you can reinstall the
     source and documentation of a package with the command
-    `tlmgr installl --reinstall --with-doc --with-src <PKG>` (thanks to [the tip
+    `tlmgr install --reinstall --with-doc --with-src <PKG>` (thanks to [the tip
     from Norbert
     Preining](https://github.com/rstudio/tinytex/pull/236#issuecomment-690789472)).
 
