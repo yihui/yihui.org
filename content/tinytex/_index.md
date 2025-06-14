@@ -76,7 +76,7 @@ To uninstall TinyTeX, simply delete the folder from your file manager/browser, o
 ```sh
 # Linux
 tlmgr path remove
-rm -r "~/.TinyTeX"
+rm -r ~/.TinyTeX
 
 # macOS
 tlmgr path remove
