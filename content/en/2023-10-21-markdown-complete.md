@@ -5,7 +5,7 @@ date: '2023-10-21'
 slug: markdown-complete
 ---
 
-Update on 2014-10-09
+Update on 2024-10-09
 
 :   The **markdown** package has been superseded by [the **litedown**
     package](https://github.com/yihui/litedown). The former is a strict subset
