@@ -5,20 +5,37 @@ h1.title::before { content: "➶"; }
 .archive {
   max-width: none;
   width: 100%;
+  & > ul > li {
+    list-style: none;
+  }
+  & > h2 {
+    text-align: initial;
+  }
 }
-.archive > ul > li {
-  list-style: none;
+.cn {
+  .archive > ul > li {
+    display: inline-block;
+    margin-right: 1em;
+  }
+  .post-nav {
+    font-size: initial;
+  }
+  del {
+    background-color: #444;
+  }
+  del:hover {
+    background-color: inherit;
+    text-decoration: inherit;
+  }
 }
-.cn .archive > ul > li {
-  display: inline-block;
-  margin-right: 1em;
-}
-.main h2 {
-  line-height: 1.25;
-}
-.main h1, .main h2 {
-  text-align: center;
-  margin: 2em 0 1em;
+.main {
+  h2 {
+    line-height: 1.25;
+  }
+  h1, h2 {
+    text-align: center;
+    margin: 2em 0 1em;
+  }
 }
 dl, fieldset {
   background-color: lightyellow;
@@ -28,9 +45,6 @@ dl, fieldset {
 dt, legend {
   font-weight: bold;
 }
-.archive > h2 {
-  text-align: initial;
-}
 .main > ul > li > span:first-child, .main > p > span:first-child, .main > p .subtitle, .hash-note, .post-nav, .stats {
   color: #666;
   font-size: .9em;
@@ -38,20 +52,19 @@ dt, legend {
 .stats {
   text-align: right;
 }
-.cn .post-nav {
-  font-size: initial;
-}
-.en .main > p:first-of-type::first-line {
-  font-variant: small-caps;
-  letter-spacing: .05em;
-  font-size: 1.1em;
-}
-.en .main > p:first-of-type::first-letter {
-  font-size: 3em;
-  padding: .1em .1em 0 0;
-  float: left;
-  line-height: 1em;
-  font-family: cursive;
+.en .main > p:first-of-type {
+  &::first-line {
+    font-variant: small-caps;
+    letter-spacing: .05em;
+    font-size: 1.1em;
+  }
+  &::first-letter {
+    font-size: 3em;
+    padding: .1em .1em 0 0;
+    float: left;
+    line-height: 1em;
+    font-family: cursive;
+  }
 }
 blockquote {
   margin: 1em 0;
@@ -76,13 +89,6 @@ code[class="fullwidth"] {
 }
 .comments {
   margin-top: 1em;
-}
-.cn del {
-  background-color: #444;
-}
-.cn del:hover {
-  background-color: inherit;
-  text-decoration: inherit;
 }
 .hash-note, .side { background: lightyellow; }
 .hash-note a { color: inherit; }
