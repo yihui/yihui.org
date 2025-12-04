@@ -1,5 +1,5 @@
 {{ if and (len (findRE "^/cn/" .RelPermalink)) (lt .Date.Year 2017) }}
-<script src="https://cdn.jsdelivr.net/combine/npm/pangu/dist/browser/pangu.min.js,npm/@xiee/utils/js/load-pangu.js" defer></script>
+<style type="text/css">body { text-autospace: normal; }</style>
 {{ end }}
 {{ if .IsHome }}
 <link rel="me" href="https://mastodon.social/@yihui">
