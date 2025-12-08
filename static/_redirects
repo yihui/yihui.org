@@ -3,6 +3,7 @@ https://yihui.name/*         https://yihui.org/:splat  301!
 https://www.yihui.name/*     https://yihui.org/:splat  301!
 https://r.yihui.name/*          https://r.yihui.org/:splat          301!
 https://t.yihui.name/*          https://t.yihui.org/:splat          301!
+https://git.yihui.org/*         https://pkg.yihui.org/:splat        301!
 https://animation.yihui.name/*  https://animation.yihui.org/:splat  301!
 https://apps.yihui.name/*       https://apps.yihui.org/:splat       301!
 https://assets.yihui.name/*     https://assets.yihui.org/:splat     301!
