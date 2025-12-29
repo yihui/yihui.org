@@ -2,6 +2,15 @@ h1.title::before { content: "➶"; }
 .main {
   line-height: 1.75;
 }
+.main {
+  h2 {
+    line-height: 1.25;
+  }
+  h1, h2 {
+    text-align: center;
+    margin: 2em 0 1em;
+  }
+}
 .archive {
   max-width: none;
   width: 100%;
@@ -26,15 +35,6 @@ h1.title::before { content: "➶"; }
   del:hover {
     background-color: inherit;
     text-decoration: inherit;
-  }
-}
-.main {
-  h2 {
-    line-height: 1.25;
-  }
-  h1, h2 {
-    text-align: center;
-    margin: 2em 0 1em;
   }
 }
 dl, fieldset {
@@ -90,6 +90,7 @@ code[class="fullwidth"] {
 .comments {
   margin-top: 1em;
 }
+audio { width: 100%; }
 .hash-note, .side { background: lightyellow; }
 .hash-note a { color: inherit; }
 span.hash-note::before { content: "　# "; }
@@ -126,8 +127,11 @@ span.hash-note::before { content: "　# "; }
 }
 
 @media print {
-  del, footer, .nav-top, #TableOfContents, .comments, h1.title::before {
+  del, footer, .nav-top, .post-nav, #TableOfContents, .comments, h1.title::before {
     display: none;
+  }
+  .cn .main {
+    text-align: justify;
   }
 }
 
