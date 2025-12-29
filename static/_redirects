@@ -17,6 +17,7 @@ https://ivy.yihui.name/*        https://ivy.yihui.org/:splat        301!
 https://slides.yihui.name/*     https://slides.yihui.org/:splat     301!
 https://jekyll.yihui.name/*     https://jekyll.yihui.org/:splat     301!
 https://recharts.yihui.name/*   https://recharts.yihui.org/:splat   301!
-https://travis-bin.yihui.name/*            https://travis-bin.yihui.org/:splat        301!
+https://travis-bin.yihui.name/texlive-local.deb  https://github.com/rstudio/tinytex-releases/releases/download/daily/texlive-local.deb  301!
+https://travis-bin.yihui.name/*            https://github.com/yihui/travis-bin        301!
 https://blogdown-static.yihui.name/*       https://blogdown-static.yihui.org/:splat   301!
 https://travis-blogdown.yihui.name/*       https://travis-blogdown.yihui.org/:splat   301!
