@@ -16,7 +16,7 @@ show_toc: false
 }
 </style>
 
-为了避免每次 K 歌时临时抱佛脚去拼命回忆喜欢或能唱的歌，特创建一份歌单在此，供自己点歌时参考。楷体或黑体代表一首歌的副歌部分不太熟悉，可能会变成独孤求带。
+为了避免每次 K 歌时临时抱佛脚去拼命回忆喜欢或能唱的歌，特创建一份歌单在此，供自己点歌时参考。歌名上的链接指向我的全民 K 歌页面。
 
 ## 国语
 
@@ -37,7 +37,7 @@ show_toc: false
 1. 陈力《红豆曲》《枉凝眉》《葬花吟》
 1. 陈琳《[爱就爱了](https://kg.qq.com/node/play?s=Xnp8pfyXuVwSZykA)》《[你的柔情我永远不懂](https://kg.qq.com/node/play?s=H-GEGx5HLcHws5gT)》
 1. 陈明《快乐老家》《我要找到你》
-1. 陈明韶《[风！告诉我](https://kg.qq.com/node/play?s=CfaUanbChUh_zbCH)》
+1. 陈明韶《风！告诉我》
 1. 陈明真《感情的包袱》《情债》《为爱笑着流泪》
 1. 陈倩倩《婴儿》
 1. 陈瑞《白狐》
@@ -45,7 +45,7 @@ show_toc: false
 1. 陈淑桦《滚滚红尘》《梦醒时分》《*如愿以偿*》《生生世世》《问》《笑红尘》
 1. 陈小春《独家记忆》《没那种命》
 1. 陈奕迅《爱情转移》《好久不见》《K 歌之王》《十年》
-1. 陈涌海《将进酒》
+1. 陈涌海《[将进酒](https://kg.qq.com/node/play?s=NyeLebnNSsNe5nPT)》
 1. 程响《等你归来》《故事终章》《可能》《人间烟火》《想起了你》
 1. 刀郎《爱是你我》《手心里的温柔》《西海情歌》
 1. 邓丽君《但愿人长久》《假如我是真的》《恰似你的温柔》《我只在乎你》《雪中莲》《又见炊烟》《月亮代表我的心》《在水一方》
@@ -119,7 +119,7 @@ show_toc: false
 1. 李雨儿《雨花石》
 1. 李玉刚《[新贵妃醉酒](https://kg.qq.com/node/play?s=PkJ0JciPq7paYiwL)》
 1. 李宗盛《凡人歌》《鬼迷心窍》
-1. 梁静茹《别人的天长地久》《给未来的自己》《情歌》《如果有一天》《无条件为你》《燕尾蝶》《勇气》
+1. 梁静茹《[别人的天长地久](https://kg.qq.com/node/play?s=xMuFuHoxUqyFhoHJ)》《[给未来的自己](https://kg.qq.com/node/play?s=l6wcw0rl3N24qrBK)》《[可惜不是你](https://kg.qq.com/node/play?s=2tT7TOQ2kzPG5QOZ)》《情歌》《如果有一天》《无条件为你》《燕尾蝶》《勇气》
 1. 梁咏琪《爱的代价》《爱情海》《凹凸》《短发》《关于爱》《神说》《顺时针》《向左走向右走》《新鲜》《*原来爱情这么伤*》《有时候》
 1. 廖岷《流动的青春》《已是盛夏》
 1. 林俊杰《江南》
@@ -205,7 +205,7 @@ show_toc: false
 1. 谢东《笑脸》
 1. 谢霆锋《281 公里》《谢谢你的爱 1999》《要我怎么忘了他》《因为爱所以爱》《只要为你活一天》
 1. 辛晓琪《[俩俩相忘](https://kg.qq.com/node/play?s=5IzSzoH5LHpZmHTZ)》《[味道](https://kg.qq.com/node/play?s=LafNfp9L5923r9es)》
-1. 信《[告别的时代](https://kg.qq.com/node/play?s=Qq3Z312Qk0Vqc2Sy)》《[海阔天空](https://kg.qq.com/node/play?s=vpnYnaevMF_Thea0)》《[火烧的寂寞](https://kg.qq.com/node/play?s=3VQmQ_T3rW9viTHh)》《[假如](https://kg.qq.com/node/play?s=iw6B64PitZzpYPNU)》《[离歌](https://kg.qq.com/node/play?s=Xnp8pfyXu5AzxyPx)》《[千年之恋](https://kg.qq.com/node/play?s=rJk4kBlr3OxeFllz)》《[死了都要爱](https://kg.qq.com/node/play?s=7_A2AVZ7siIYTZ7W)》
+1. 信《[告别的时代](https://kg.qq.com/node/play?s=Qq3Z312Qk0Vqc2Sy)》《[海阔天空](https://kg.qq.com/node/play?s=uSxIxGRuygCSwRz4)》《[火烧的寂寞](https://kg.qq.com/node/play?s=3VQmQ_T3rW9viTHh)》《[假如](https://kg.qq.com/node/play?s=iw6B64PitZzpYPNU)》《[离歌](https://kg.qq.com/node/play?s=jcB6BkWjO8q3yWf-)》《[千年之恋](https://kg.qq.com/node/play?s=rJk4kBlr3OxeFllz)》《[死了都要爱](https://kg.qq.com/node/play?s=3VQmQ_T3lEkX-T5F)》
 1. 熊天平《愚人码头》《雪候鸟》
 1. 徐怀钰《分飞》《踏浪》《心中的遗憾》《友情卡片》《*雨伞*》
 1. 许美静《[边界 1999](https://kg.qq.com/node/play?s=wilslWkw2ht-akja)》《[城里的月光](https://kg.qq.com/node/play?s=fCLeLXYfGQLQbYNb)》《[答案](https://kg.qq.com/node/play?s=OmKVK21OWPmV41R7)》《[荡漾](https://kg.qq.com/node/play?s=MxSzS-dMvsEcDdTv)》《[都是夜归人](https://kg.qq.com/node/play?s=Yb9v9yfYzqFwtfkE)》《风的叹息》《[蔓延](https://kg.qq.com/node/play?s=rJk4kBlr3ZHg3l04)》《[如此](https://kg.qq.com/node/play?s=zF5M5RGzYPfqhGRR)》《[铁窗](https://kg.qq.com/node/play?s=98YnYUL95VI3ILLN)》《[听那星光歌唱](https://kg.qq.com/node/play?s=UeyCy9pUoKVSFpe1)》《[颜色](https://kg.qq.com/node/play?s=1A_g_QO1jimFZOEs)》《[阳光总在风雨后](https://kg.qq.com/node/play?s=REo-ozuRyWNcAuh2)》《[遗憾](https://kg.qq.com/node/play?s=MxSzS-dMvs0b3dK1)》《[影子情人](https://kg.qq.com/node/play?s=Xnp8pfyXuFNoGyPc)》《[远方](https://kg.qq.com/node/play?s=SuM5MhESnccFLE1_)》
@@ -281,7 +281,7 @@ show_toc: false
 1. 何宝生《日落情人》
 1. 李克勤《月半小夜曲》
 1. 梁咏琪《花火》
-1. 林子祥《谁能明白我》《雨点》
+1. 林子祥《[乱世桃花](https://kg.qq.com/node/play?s=W40J0wjW1yJvvjYp)》《谁能明白我》《雨点》
 1. 刘德华《暗里着迷》
 1. 卢冠廷《一生所爱》
 1. 吕方《[地久天长](https://kg.qq.com/node/play?s=nXv9vCNnS5V5jNC4)》
@@ -292,7 +292,7 @@ show_toc: false
 1. 吴雨霏《生命树》《吴哥窟》
 1. 谢安琪《年度之歌》《喜帖街》
 1. 杨千嬅《[再见二丁目](https://kg.qq.com/node/play?s=A17T7qmAcLA57mqH)》
-1. 叶倩文《焚心以火》
+1. 叶倩文《[焚心以火](https://kg.qq.com/node/play?s=-HhRhMI-8VuDnIMM)》
 1. 叶振棠《忘尽心中情》
 1. 袁凤瑛《仙乐处处飘》
 1. 郑伊健《情与义》
