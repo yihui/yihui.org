@@ -52,7 +52,7 @@ For Linux users, TinyTeX will be installed to `$HOME/.TinyTeX` and symlinks of e
 # make sure perl is properly installed (e.g., apt install -y perl)
 perl -mFile::Find /dev/null
 # then install TinyTeX
-wget -qO- "https://yihui.org/tinytex/install-bin-unix.sh" | sh
+wget -qO- "https://tinytex.yihui.org/install-bin-unix.sh" | sh
 ```
 
 For macOS users, if you do not have write permission to `/usr/local/bin`, you may want to run this for TeX Live executables to be symlinked to `/usr/local/bin` ([why?](https://github.com/rstudio/tinytex/issues/188)):
@@ -64,10 +64,10 @@ sudo chown -R $(whoami) /usr/local/bin
 TinyTeX is installed to `~/Library/TinyTeX` on macOS:
 
 ```sh
-curl -sL "https://yihui.org/tinytex/install-bin-unix.sh" | sh
+curl -sL "https://tinytex.yihui.org/install-bin-unix.sh" | sh
 ```
 
-For Windows users, save the batch file [install-bin-windows.bat](https://yihui.org/tinytex/install-bin-windows.bat) (open this link and press `Ctrl + S`), and double click it.[^2] Please note that it requires PowerShell ([at least version 3.0](https://docs.microsoft.com/en-us/powershell/scripting/setup/starting-windows-powershell-on-earlier-versions-of-windows)). If your Windows version is too low and does not have PowerShell, follow [this article](https://docs.microsoft.com/en-us/powershell/scripting/setup/starting-windows-powershell-on-earlier-versions-of-windows) to install it. The installation directory is `%APPDATA%/TinyTeX`, where `APPDATA` is an environment variable that typically points to the path `C:\Users\Your Name\AppData\Roaming`.[^3]
+For Windows users, save the batch file [install-bin-windows.bat](https://tinytex.yihui.org/install-bin-windows.bat) (open this link and press `Ctrl + S`), and double click it.[^2] Please note that it requires PowerShell ([at least version 3.0](https://docs.microsoft.com/en-us/powershell/scripting/setup/starting-windows-powershell-on-earlier-versions-of-windows)). If your Windows version is too low and does not have PowerShell, follow [this article](https://docs.microsoft.com/en-us/powershell/scripting/setup/starting-windows-powershell-on-earlier-versions-of-windows) to install it. The installation directory is `%APPDATA%/TinyTeX`, where `APPDATA` is an environment variable that typically points to the path `C:\Users\Your Name\AppData\Roaming`.[^3]
 
 Alternatively, Windows users can use Chocolatey or Scoop to install TinyTeX. Please see the GitHub repo [tinytex-releases](https://github.com/rstudio/tinytex-releases) for instructions.
 

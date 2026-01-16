@@ -130,7 +130,7 @@ sysadmins of their computers.
     First, add two options `--admin --no-path` to the installation script:
 
     ``` sh
-    wget -qO- "https://yihui.org/tinytex/install-unx.sh" \
+    wget -qO- "https://tinytex.yihui.org/install-unx.sh" \
       | sh -s - --admin --no-path
     ```
 

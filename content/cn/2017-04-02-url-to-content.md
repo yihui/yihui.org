@@ -4,6 +4,12 @@ date: '2017-04-02'
 slug: url-to-content
 ---
 
+2026-01-16 更新
+
+:   我又从 Vercel 跳槽到了 Cloudflare Pages，因为前者的免费套餐访问量不够我用了。
+
+<!-- -->
+
 2021-03-26 更新
 
 :   我本人已经从下文中提到的 Netlify 迁移到 Vercel 上，[原因见此](https://d.cosx.org/d/421538/81)。下文提到的 Migadu 邮箱服务现在也已经没有了免费版。
