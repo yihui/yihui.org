@@ -1,0 +1,56 @@
+# Cloudflare Pages Redirects
+
+/slides/* https://slides.yihui.org/:splat 301
+/:slug/feed/ /:slug/index.xml 301
+/:slug/comments/feed/ https://github.com/yihui/yihui.org/discussions.atom 301
+/:slug/guestbook.php /:slug/about/ 301
+/cv/ /en/vitae/ 301
+/xran/* https://yihui.r-universe.dev/:splat 301
+/r/*/index.htm https://r.yihui.org/:splat 301
+/r/* https://r.yihui.org/:splat 301
+/js/* https://cdn.jsdelivr.net/npm/@xiee/utils/js/:splat 301
+/knitr-jekyll/* https://jekyll.yihui.org/:splat 301
+/recharts/* https://recharts.yihui.org/:splat 301
+/media/js/center-images.js /js/center-img.js 301
+
+/knitr/demos/ /knitr/demo/ 301
+/animation/examples/ /animation/example/ 301
+/knitr/js/docco-resize.js https://cdn.jsdelivr.net/npm/@xiee/utils/js/docco-resize.js 301
+/formatR/ /formatr/ 301
+/Rd2roxygen/ /rd2roxygen/ 301
+
+/cn/2018/10/pod/ /cn/2018/10/pot/ 301
+/cn/2018/09/index-zero/ /cn/2018/09/inbox-zero/ 301
+/cn/tale/ /cn/kids/2019/11/tale/ 301
+/cn/2008/11/bayesian-and-frequentist-talk-from-george-cassella/ /cn/2008/11/bayesian-and-frequentist-talk-from-george-casella/ 301
+/cn/MSG-Yihui.pdf https://bookdown.org/xiangyun/msg/ 301
+/en/2007/10/jokes-in-statistics/ /en/2007/10/jokes-in-statistics-a-talk-to-be-given-in-cueb/ 301
+/cv/images/stat_in_med_yihui.pdf https://db.yihui.org/docs/Medicine-2007-Yihui-Xie.pdf 301
+/cv/images/Visualization_R_Paper_Yihui.pdf https://db.yihui.org/docs/R-visualization-paper-2007-Yihui-Xie.pdf 301
+
+/gh/tinytex/tools/* https://tinytex.yihui.org/:splat 301
+/tinytex/.tlmgr /tinytex/ 301
+
+/tinytex/TinyTeX.zip https://github.com/rstudio/tinytex-releases/releases/download/daily/TinyTeX.zip 301
+/tinytex/TinyTeX.tgz https://github.com/rstudio/tinytex-releases/releases/download/daily/TinyTeX.tgz 301
+/tinytex/TinyTeX.tar.gz https://github.com/rstudio/tinytex-releases/releases/download/daily/TinyTeX.tar.gz 301
+
+/tinytex/TinyTeX-0.zip https://github.com/rstudio/tinytex-releases/releases/download/daily/TinyTeX-0.zip 301
+/tinytex/TinyTeX-0.tgz https://github.com/rstudio/tinytex-releases/releases/download/daily/TinyTeX-0.tgz 301
+/tinytex/TinyTeX-0.tar.gz https://github.com/rstudio/tinytex-releases/releases/download/daily/TinyTeX-0.tar.gz 301
+
+/tinytex/TinyTeX-1.zip https://github.com/rstudio/tinytex-releases/releases/download/daily/TinyTeX-1.zip 301
+/tinytex/TinyTeX-1.tgz https://github.com/rstudio/tinytex-releases/releases/download/daily/TinyTeX-1.tgz 301
+/tinytex/TinyTeX-1.tar.gz https://github.com/rstudio/tinytex-releases/releases/download/daily/TinyTeX-1.tar.gz 301
+
+/tinytex/TinyTeX-2.exe https://github.com/rstudio/tinytex-releases/releases/download/daily/TinyTeX-2.exe 301
+/tinytex/TinyTeX-2.tgz https://github.com/rstudio/tinytex-releases/releases/download/daily/TinyTeX-2.tgz 301
+/tinytex/TinyTeX-2.tar.gz https://github.com/rstudio/tinytex-releases/releases/download/daily/TinyTeX-2.tar.gz 301
+
+/tinytex/install-base.sh https://tinytex.yihui.org/install-base.sh 301
+/tinytex/install-bin-unix.sh https://tinytex.yihui.org/install-bin-unix.sh 301
+/tinytex/install-bin-windows.bat https://tinytex.yihui.org/install-bin-windows.bat 301
+/tinytex/install-unx.sh https://tinytex.yihui.org/install-unx.sh 301
+/tinytex/pkgs-custom.txt https://tinytex.yihui.org/pkgs-custom.txt 301
+/tinytex/pkgs-yihui.txt https://tinytex.yihui.org/pkgs-yihui.txt 301
+/tinytex/tinytex.profile https://tinytex.yihui.org/tinytex.profile 301
