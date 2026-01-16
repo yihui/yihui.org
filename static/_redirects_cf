@@ -1,16 +1,6 @@
 # Cloudflare Pages Redirects
 
-/slides/* https://slides.yihui.org/:splat 301
-/:slug/feed/ /:slug/index.xml 301
-/:slug/comments/feed/ https://github.com/yihui/yihui.org/discussions.atom 301
-/:slug/guestbook.php /:slug/about/ 301
 /cv/ /en/vitae/ 301
-/xran/* https://yihui.r-universe.dev/:splat 301
-/r/*/index.htm https://r.yihui.org/:splat 301
-/r/* https://r.yihui.org/:splat 301
-/js/* https://cdn.jsdelivr.net/npm/@xiee/utils/js/:splat 301
-/knitr-jekyll/* https://jekyll.yihui.org/:splat 301
-/recharts/* https://recharts.yihui.org/:splat 301
 /media/js/center-images.js /js/center-img.js 301
 
 /knitr/demos/ /knitr/demo/ 301
@@ -28,7 +18,6 @@
 /cv/images/stat_in_med_yihui.pdf https://db.yihui.org/docs/Medicine-2007-Yihui-Xie.pdf 301
 /cv/images/Visualization_R_Paper_Yihui.pdf https://db.yihui.org/docs/R-visualization-paper-2007-Yihui-Xie.pdf 301
 
-/gh/tinytex/tools/* https://tinytex.yihui.org/:splat 301
 /tinytex/.tlmgr /tinytex/ 301
 
 /tinytex/TinyTeX.zip https://github.com/rstudio/tinytex-releases/releases/download/daily/TinyTeX.zip 301
@@ -54,3 +43,15 @@
 /tinytex/pkgs-custom.txt https://tinytex.yihui.org/pkgs-custom.txt 301
 /tinytex/pkgs-yihui.txt https://tinytex.yihui.org/pkgs-yihui.txt 301
 /tinytex/tinytex.profile https://tinytex.yihui.org/tinytex.profile 301
+
+/gh/tinytex/tools/* https://tinytex.yihui.org/:splat 301
+/slides/* https://slides.yihui.org/:splat 301
+/:slug/feed/ /:slug/index.xml 301
+/:slug/comments/feed/ https://github.com/yihui/yihui.org/discussions.atom 301
+/:slug/guestbook.php /:slug/about/ 301
+/xran/* https://yihui.r-universe.dev/:splat 301
+/r/*/index.htm https://r.yihui.org/:splat 301
+/r/* https://r.yihui.org/:splat 301
+/js/* https://cdn.jsdelivr.net/npm/@xiee/utils/js/:splat 301
+/knitr-jekyll/* https://jekyll.yihui.org/:splat 301
+/recharts/* https://recharts.yihui.org/:splat 301
