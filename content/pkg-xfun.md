@@ -2,95 +2,97 @@
 title: An Introduction to xfun
 subtitle: A Collection of Miscellaneous Functions
 author: "Yihui Xie"
-date: "2024-04-14"
+date: "2026-01-16"
 slug: xfun
 githubEditURL: https://github.com/yihui/xfun/edit/main/vignettes/xfun.Rmd
 output:
-  markdown::html_format:
+  html:
     meta:
-      css: ["@default", "@prism-xcode"]
+      css: ["@default", "@article"]
+      js: ["@sidenotes"]
     options:
       toc: true
+      number_sections: true
 ---
 
 <!--
 %\VignetteIndexEntry{An Introduction to xfun}
-%\VignetteEngine{knitr::knitr}
+%\VignetteEngine{litedown::vignette}
 -->
 
 
 
 After writing about 20 R packages, I found I had accumulated several utility functions that I used across different packages, so I decided to extract them into a separate package. Previously I had been using the evil triple-colon `:::` to access these internal utility functions. Now with **xfun**, these functions have been exported, and more importantly, documented. It should be better to use them under the sun instead of in the dark.
 
-This page shows examples of a subset of functions in this package. For a full list of functions, see the help page `help(package = 'xfun')`. The source package is available on Github: https://github.com/yihui/xfun.
+This page shows examples of a subset of functions in this package. For a full list of functions, see the help page `help(package = 'xfun')`. The source package is available on GitHub: https://github.com/yihui/xfun.
 
 ## No more partial matching for lists!
 
 I have been bitten many times by partial matching in lists, e.g., when I want `x$a` but the element `a` does not exist in the list `x`, it returns the value `x$abc` if `abc` exists in `x`. A strict list is a list for which the partial matching of the `$` operator is disabled. The functions `xfun::strict_list()` and `xfun::as_strict_list()` are the equivalents to `base::list()` and `base::as.list()` respectively which always return as strict list, e.g.,
 
-
-```r
+``` r
 library(xfun)
 (z = strict_list(aaa = "I am aaa", b = 1:5))
 ```
 
 ```
-## $aaa
-## [1] "I am aaa"
-## 
-## $b
-## [1] 1 2 3 4 5
+#> $aaa
+#> [1] "I am aaa"
+#> 
+#> $b
+#> [1] 1 2 3 4 5
+#> 
 ```
 
-```r
+``` r
 z$a  # NULL (strict matching)
 ```
 
 ```
-## NULL
+#> NULL
 ```
 
-```r
+``` r
 z$aaa  # I am aaa
 ```
 
 ```
-## [1] "I am aaa"
+#> [1] "I am aaa"
 ```
 
-```r
+``` r
 z$b
 ```
 
 ```
-## [1] 1 2 3 4 5
+#> [1] 1 2 3 4 5
 ```
 
-```r
+``` r
 z$c = "you can create a new element"
 
 z2 = unclass(z)  # a normal list
 z2$a  # partial matching
 ```
 
-```
-## Warning in z2$a: partial match of 'a' to 'aaa'
-```
-
-```
-## [1] "I am aaa"
+``` {.plain .warning}
+#> partial match of 'a' to 'aaa'
 ```
 
-```r
+```
+#> [1] "I am aaa"
+```
+
+``` r
 z3 = as_strict_list(z2)  # a strict list again
 z3$a  # NULL (strict matching) again!
 ```
 
 ```
-## NULL
+#> NULL
 ```
 
-Similarly, the default partial matching in `attr()` can be annoying, too. The function `xfun::attr()` is simply a shorthand of `attr(..., exact = TRUE)`.
+Similarly, the default partial matching in `attr()` can be annoying, too. The function `xfun::attr2()` is simply a shorthand of `attr(..., exact = TRUE)`.
 
 I want it, or I do not want. There is no "I probably want".
 
@@ -98,8 +100,7 @@ I want it, or I do not want. There is no "I probably want".
 
 When R prints a character vector, your eyes may be distracted by the indices like `[1]`, double quotes, and escape sequences. To see a character vector in its "raw" form, you can use `cat(..., sep = '\n')`. The function `raw_string()` marks a character vector as "raw", and the corresponding printing function will call `cat(sep = '\n')` to print the character vector to the console.
 
-
-```r
+``` r
 library(xfun)
 raw_string(head(LETTERS))
 ```
@@ -113,15 +114,15 @@ E
 F
 ```
 
-```r
+``` r
 (x = c("a \"b\"", "hello\tworld!"))
 ```
 
 ```
-[1] "a \"b\""       "hello\tworld!"
+#> [1] "a \"b\""       "hello\tworld!"
 ```
 
-```r
+``` r
 raw_string(x)  # this is more likely to be what you want to see
 ```
 
@@ -134,50 +135,47 @@ hello	world!
 
 I have used `paste(readLines('foo'), collapse = '\n')` many times before I decided to write a simple wrapper function `xfun::file_string()`. This function also makes use of `raw_string()`, so you can see the content of a file in the console as a side-effect, e.g.,
 
-
-```r
+``` r
 f = system.file("LICENSE", package = "xfun")
 xfun::file_string(f)
 ```
 
 ```
-YEAR: 2018-2024
+YEAR: 2018-2026
 COPYRIGHT HOLDER: Yihui Xie
 ```
 
-```r
+``` r
 as.character(xfun::file_string(f))  # essentially a character string
 ```
 
 ```
-[1] "YEAR: 2018-2024\nCOPYRIGHT HOLDER: Yihui Xie"
+[1] "YEAR: 2018-2026\nCOPYRIGHT HOLDER: Yihui Xie"
 ```
 
 ## Get the data URI of a file
 
 Files can be encoded into base64 strings via `base64_uri()`. This is a common technique to embed arbitrary files in HTML documents (which is [what `xfun::embed_file()` does](https://bookdown.org/yihui/rmarkdown-cookbook/embed-file.html) and it is based on `base64_uri()`).
 
-
-```r
+``` r
 f = system.file("LICENSE", package = "xfun")
 xfun::base64_uri(f)
 ```
 
 ```
-## [1] "data:text/plain;base64,WUVBUjogMjAxOC0yMDI0CkNPUFlSSUdIVCBIT0xERVI6IFlpaHVpIFhpZQo="
+#> [1] "data:text/plain;base64,WUVBUjogMjAxOC0yMDI2CkNPUFlSSUdIVCBIT0xERVI6IFlpaHVpIFhpZQo="
 ```
 
 ## Match strings and do substitutions
 
 After typing the code `x = grep(pattern, x, value = TRUE); gsub(pattern, '\\1', x)` many times, I combined them into a single function `xfun::grep_sub()`.
 
-
-```r
-xfun::grep_sub("a([b]+)c", "a\\U\\1c", c("abc", "abbbc", "addc", "123"), perl = TRUE)
+``` r
+xfun::grep_sub('a([b]+)c', 'a\\U\\1c', c('abc', 'abbbc', 'addc', '123'), perl = TRUE)
 ```
 
 ```
-## [1] "aBc"   "aBBBc"
+#> [1] "aBc"   "aBBBc"
 ```
 
 ## Search and replace strings in files
@@ -186,8 +184,7 @@ I can never remember how to properly use `grep` or `sed` to search and replace s
 
 All functions are based on `gsub_file()`, which performs searching and replacing in a single file, e.g.,
 
-
-```r
+``` r
 library(xfun)
 f = tempfile()
 writeLines(c("hello", "world"), f)
@@ -204,8 +201,7 @@ The function `gsub_dir()` is very flexible: you can limit the list of files by M
 
 The function `process_file()` is a more general way to process files. Basically it reads a file, process the content with a function that you pass to it, and writes back the text, e.g.,
 
-
-```r
+``` r
 process_file(f, function(x) {
   rep(x, 3)  # repeat the content 3 times
 })
@@ -227,47 +223,46 @@ woRld
 
 Functions `file_ext()` and `sans_ext()` are based on functions in **tools**. The function `with_ext()` adds or replaces extensions of filenames, and it is vectorized.
 
-
-```r
+``` r
 library(xfun)
 p = c("abc.doc", "def123.tex", "path/to/foo.Rmd")
 file_ext(p)
 ```
 
 ```
-## [1] "doc" "tex" "Rmd"
+#> [1] "doc" "tex" "Rmd"
 ```
 
-```r
+``` r
 sans_ext(p)
 ```
 
 ```
-## [1] "abc"         "def123"      "path/to/foo"
+#> [1] "abc"         "def123"      "path/to/foo"
 ```
 
-```r
+``` r
 with_ext(p, ".txt")
 ```
 
 ```
-## [1] "abc.txt"         "def123.txt"      "path/to/foo.txt"
+#> [1] "abc.txt"         "def123.txt"      "path/to/foo.txt"
 ```
 
-```r
+``` r
 with_ext(p, c(".ppt", ".sty", ".Rnw"))
 ```
 
 ```
-## [1] "abc.ppt"         "def123.sty"      "path/to/foo.Rnw"
+#> [1] "abc.ppt"         "def123.sty"      "path/to/foo.Rnw"
 ```
 
-```r
+``` r
 with_ext(p, "html")
 ```
 
 ```
-## [1] "abc.html"         "def123.html"      "path/to/foo.html"
+#> [1] "abc.html"         "def123.html"      "path/to/foo.html"
 ```
 
 ## Find files (in a project) without the pain of thinking about absolute/relative paths
@@ -277,12 +272,12 @@ The function `proj_root()` was inspired by the **rprojroot** package, and tries 
 The function `from_root()` was inspired by `here::here()`, but returns a relative path (relative to the project's root directory found by `proj_root()`) instead of an absolute path. For example, `xfun::from_root('data', 'cars.csv')` in a code chunk of `docs/foo.Rmd` will return `../data/cars.csv` when `docs/` and `data/` directories are under the root directory of a project.
 
 ```
-root/
-  |-- data/
-  |   |-- cars.csv
-  |
-  |-- docs/
-      |-- foo.Rmd
+.
+|-- data
+|   |-- cars.csv
+|
+|-- docs
+    |-- foo.Rmd
 ```
 
 If file paths are too much pain for you to think about, you can just pass an incomplete path to the function `magic_path()`, and it will try to find the actual path recursively under subdirectories of a root directory. For example, you may only provide a base filename, and `magic_path()` will look for this file under subdirectories and return the actual path if it is found. By default, it returns a relative path, which is relative to the current working directory. With the above example, `xfun::magic_path('cars.csv')` in a code chunk of `docs/foo.Rmd` will return `../data/cars.csv`, if `cars.csv` is a unique filename in the project. You can freely move it to any folders of this project, and `magic_path()` will still find it. If you are not using a project to manage files, `magic_path()` will look for the file under subdirectories of the current working directory.
@@ -291,43 +286,41 @@ If file paths are too much pain for you to think about, you can just pass an inc
 
 The series of functions `is_linux()`, `is_macos()`, `is_unix()`, and `is_windows()` test the types of the OS, using the information from `.Platform` and `Sys.info()`, e.g.,
 
-
-```r
+``` r
 xfun::is_macos()
 ```
 
 ```
-## [1] TRUE
+#> [1] TRUE
 ```
 
-```r
+``` r
 xfun::is_unix()
 ```
 
 ```
-## [1] TRUE
+#> [1] TRUE
 ```
 
-```r
+``` r
 xfun::is_linux()
 ```
 
 ```
-## [1] FALSE
+#> [1] FALSE
 ```
 
-```r
+``` r
 xfun::is_windows()
 ```
 
 ```
-## [1] FALSE
+#> [1] FALSE
 ```
 
 ## Loading and attaching packages
 
 Oftentimes I see users attach a series of packages in the beginning of their scripts by repeating `library()` multiple times. This could be easily vectorized, and the function `xfun::pkg_attach()` does this job. For example,
-
 
 ```r
 library(testit)
@@ -338,24 +331,21 @@ library(mime)
 
 is equivalent to
 
-
 ```r
-xfun::pkg_attach(c("testit", "parallel", "tinytex", "mime"))
+xfun::pkg_attach(c('testit', 'parallel', 'tinytex', 'mime'))
 ```
 
 I also see scripts that contain code to install a package if it is not available, e.g.,
 
-
 ```r
-if (!requireNamespace("tinytex")) install.packages("tinytex")
+if (!requireNamespace('tinytex')) install.packages('tinytex')
 library(tinytex)
 ```
 
 This could be done via
 
-
-```r
-xfun::pkg_attach2("tinytex")
+``` r
+xfun::pkg_attach2('tinytex')
 ```
 
 The function `pkg_attach2()` is a shorthand of `pkg_attach(..., install = TRUE)`, which means if a package is not available, install it. This function can also deal with multiple packages.
@@ -370,122 +360,62 @@ Functions `read_utf8()` and `write_utf8()` can be used to read/write files in UT
 
 The function `numbers_to_words()` (or `n2w()` for short) converts numbers to English words.
 
-
-```r
+``` r
 n2w(0, cap = TRUE)
 ```
 
 ```
-## [1] "Zero"
+#> [1] "Zero"
 ```
 
-```r
+``` r
 n2w(seq(0, 121, 11), and = TRUE)
 ```
 
 ```
-##  [1] "zero"                       "eleven"                    
-##  [3] "twenty-two"                 "thirty-three"              
-##  [5] "forty-four"                 "fifty-five"                
-##  [7] "sixty-six"                  "seventy-seven"             
-##  [9] "eighty-eight"               "ninety-nine"               
-## [11] "one hundred and ten"        "one hundred and twenty-one"
+#>  [1] "zero"                       "eleven"                    
+#>  [3] "twenty-two"                 "thirty-three"              
+#>  [5] "forty-four"                 "fifty-five"                
+#>  [7] "sixty-six"                  "seventy-seven"             
+#>  [9] "eighty-eight"               "ninety-nine"               
+#> [11] "one hundred and ten"        "one hundred and twenty-one"
 ```
 
-```r
+``` r
 n2w(1e+06)
 ```
 
 ```
-## [1] "one million"
+#> [1] "one million"
 ```
 
-```r
+``` r
 n2w(1e+11 + 12345678)
 ```
 
 ```
-## [1] "one hundred billion, twelve million, three hundred forty-five thousand, six hundred seventy-eight"
+#> [1] "one hundred billion, twelve million, three hundred forty-five thousand, six hundred seventy-eight"
 ```
 
-```r
+``` r
 n2w(-987654321)
 ```
 
 ```
-## [1] "minus nine hundred eighty-seven million, six hundred fifty-four thousand, three hundred twenty-one"
+#> [1] "minus nine hundred eighty-seven million, six hundred fifty-four thousand, three hundred twenty-one"
 ```
 
-```r
+``` r
 n2w(1e+15 - 1)
 ```
 
 ```
-## [1] "nine hundred ninety-nine trillion, nine hundred ninety-nine billion, nine hundred ninety-nine million, nine hundred ninety-nine thousand, nine hundred ninety-nine"
+#> [1] "nine hundred ninety-nine trillion, nine hundred ninety-nine billion, nine hundred ninety-nine million, nine hundred ninety-nine thousand, nine hundred ninety-nine"
 ```
 
-## Cache an R expression to an RDS file
+## Cache an R expression to disk or in memory
 
-The function `cache_rds()` provides a simple caching mechanism: the first time an expression is passed to it, it saves the result to an RDS file; the next time it will read the RDS file and return the value instead of evaluating the expression again. If you want to invalidate the cache, you can use the argument `rerun = TRUE`.
-
-
-```r
-res = xfun::cache_rds({
-  # pretend the computing here is a time-consuming
-  Sys.sleep(2)
-  1:10
-})
-```
-
-When the function is used in a code chunk in a **knitr** document, the RDS cache file is saved to a path determined by the chunk label (the base filename) and the chunk option `cache.path` (the cache directory), so you do not have to provide the `file` and `dir` arguments of `cache_rds()`.
-
-This caching mechanism is much simpler than **knitr**'s caching. Cache invalidation is often tricky (see [this post](https://yihui.org/en/2018/06/cache-invalidation/)), so this function may be helpful if you want more transparency and control over when to invalidate the cache (for `cache_rds()`, the cache is invalidated when the cache file is deleted, which can be achieved via the argument `rerun = TRUE`).
-
-As documented on the help page of `cache_rds()`, there are two common cases in which you may want to invalidate the cache:
-
-1. The code in the expression has changed, e.g., if you changed the code from `cache_rds({x + 1})` to `cache_rds({x + 2})`, the cache will be automatically invalidated and the expression will be re-evaluated. However, please note that changes in white spaces or comments do not matter. Or generally speaking, as long as the change does not affect the parsed expression, the cache will not be invalidated, e.g., the two expressions below are essentially identical (hence if you have executed `cache_rds()` on the first expression, the second expression will be able to take advantage of the cache):
-
-    ```r
-    res = xfun::cache_rds({
-      Sys.sleep(3  );
-      x=1:10;  # semi-colons won't matter
-      x+1;
-    })
-    
-    res = xfun::cache_rds({
-      Sys.sleep(3)
-      x = 1:10  # a comment
-      x +
-        1  # feel free to make any changes in white spaces
-    })
-    ```
-
-1. The value of a global variable in the expression has changed, e.g., if `y` has changed, you are most likely to want to invalidate the cache and rerun the expression below:
-
-    ```r
-    res = xfun::cache_rds({
-      x = 1:10
-      x + y
-    })
-    ```
-
-    This is because `x` is a local variable in the expression, and `y` is an external global variable (not created locally like `x`). To invalidate the cache when `y` has changed, you may let `cache_rds()` know through the `hash` argument that `y` needs to be considered when deciding if the cache should be invalidated:
-
-    ```r
-    res = xfun::cache_rds({
-      x = 1:10
-      x + y
-    }, hash = list(y))
-    ```
-
-    If you do not want to provide this list of value(s) to the `hash` argument, you may try `hash = "auto"` instead, which asks `cache_rds()` to try to figure out all global variables automatically and use a list of their values as the value for the `hash` argument.
-
-    ```r
-    res = xfun::cache_rds({
-      x = 1:10
-      x + y
-    }, hash = "auto")
-    ```
+Since **xfun** v0.44, you are recommended to use the function [`cache_exec()`](https://pkg.yihui.org/xfun/manual.html#sec:man-cache_exec), which provides a simple yet flexible caching mechanism. See https://yihui.org/litedown/#sec:option-cache for how it works. Previously, `cache_rds()` was mentioned here but it is no longer recommended (see [#100](https://github.com/yihui/xfun/issues/100)).
 
 ## Check reverse dependencies of a package
 
@@ -501,24 +431,21 @@ Since I have never been fully satisfied by the output of `sessionInfo()`, I twea
 
 You can choose to print out the versions of only the packages you specify, e.g.,
 
-
-```r
-xfun::session_info(c("xfun", "rmarkdown", "knitr", "tinytex"), dependencies = FALSE)
+``` r
+xfun::session_info(c('xfun', 'litedown', 'tinytex'), dependencies = FALSE)
 ```
 
 ```
-## R version 4.3.3 (2024-02-29)
-## Platform: aarch64-apple-darwin20 (64-bit)
-## Running under: macOS Sonoma 14.4.1
-## 
-## Locale: en_US.UTF-8 / en_US.UTF-8 / en_US.UTF-8 / C / en_US.UTF-8 / en_US.UTF-8
-## 
-## Package version:
-##   knitr_1.46.2   rmarkdown_2.26 tinytex_0.50.1 xfun_0.43.2   
-## 
-## Pandoc version: 3.1.1
-## 
-## LaTeX version used: 
-##   TeX Live 2024 (TinyTeX) with tlmgr 2024-03-17
+R version 4.5.2 (2025-10-31)
+Platform: aarch64-apple-darwin20
+Running under: macOS Tahoe 26.2
+
+Locale: en_US.UTF-8 / en_US.UTF-8 / en_US.UTF-8 / C / en_US.UTF-8 / en_US.UTF-8
+
+Package version:
+  litedown_0.9 tinytex_0.58 xfun_0.55.3 
+
+LaTeX version used: 
+  TeX Live 2025 (TinyTeX) with tlmgr 2025-11-06
 ```
 

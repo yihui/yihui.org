@@ -2,7 +2,7 @@ options(stringsAsFactors = FALSE)
 cargs = commandArgs(TRUE)
 local = cargs[1] == 'TRUE'
 
-build_one = function(io, external = FALSE)  {
+build_one = function(io, litedown = 0, external = FALSE)  {
   if (!file.exists(io[1])) {
     if (Sys.getenv('USER') == 'yihui') stop('File ', io[1], ' does not exist')
     return()
@@ -11,7 +11,7 @@ build_one = function(io, external = FALSE)  {
   if (!blogdown:::require_rebuild(io[2], io[1])) return()
 
   if (local) message('* knitting ', io[1])
-  if (xfun::Rscript(shQuote(c('R/build_one.R', io, external))) != 0) {
+  if (xfun::Rscript(shQuote(c('R/build_one.R', io, litedown, external))) != 0) {
     unlink(io[2])
     stop('Failed to compile ', io[1], ' to ', io[2])
   }
@@ -23,11 +23,11 @@ files = cbind(as.matrix(files), external = TRUE)
 # Rmd files under the content directory
 rmds = list.files('content', '[.]Rmd$', recursive = TRUE, full.names = TRUE)
 if (length(rmds)) {
-  files = rbind(files, cbind(rmds, xfun::with_ext(rmds, '.md'), FALSE))
+  files = rbind(files, cbind(rmds, xfun::with_ext(rmds, '.md'), 0, FALSE))
 }
 
 for (i in seq_len(nrow(files))) {
-  build_one(unlist(files[i, 1:2]), files[i, 3])
+  build_one(unlist(files[i, 1:2]), files[i, 3], files[, 4])
 }
 
 # add https://assets.yihui.org to image/video URLs /figures/...

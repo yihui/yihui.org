@@ -3,7 +3,6 @@ title: "Write An R Package Using Literate Programming Techniques"
 author: "Yihui Xie"
 date: 2014-12-29
 slug: rlp
-show_toc: yes
 githubEditURL: https://github.com/yihui/rlp/edit/master/vignettes/LP-demo1.Rmd
 output:
   knitr:::html_vignette:
@@ -80,7 +79,7 @@ document.
 First, I set a few **knitr** chunk options:
 
 
-```r
+``` r
 knitr::opts_chunk$set(eval = FALSE, tidy = FALSE)
 ```
 
@@ -104,7 +103,7 @@ define a boring function `add_one()` with an argument `x`, and it simply does
 `x + 1`:
 
 
-```r
+``` r
 #' A cool function
 #' 
 #' Well, not really cool. Just add 1 to x.
@@ -142,7 +141,7 @@ root directory of this package[^3]:
 
 
 
-```makefile
+``` makefile
 purl=Rscript -e "knitr::purl('$(1)', '$(2)', quiet=TRUE, documentation=0)"
 
 rfiles:=$(patsubst vignettes/LP-%.Rmd,R/%-GEN.R,$(wildcard vignettes/LP-*.Rmd))
@@ -227,7 +226,7 @@ installed[^6]. For example, I call `add_one()` defined above:
     `devtools::install(..., build_vignettes = TRUE)`
 
 
-```r
+``` r
 library(rlp)
 add_one(1)
 ```
@@ -236,7 +235,7 @@ add_one(1)
 ## [1] 2
 ```
 
-```r
+``` r
 add_one(1:10)
 ```
 
@@ -259,7 +258,7 @@ I will use the function `optim()` to optimize the log-likelihood function.
 First, I define an R function with arguments `data` and `start`:
 
 
-```r
+``` r
 #' MLE for the Gamma distribution
 #' 
 #' Estimate the parameters (alpha and beta) of the Gamma distribution
@@ -296,7 +295,7 @@ And I define it in R as `loglike()`, where `param` is the parameter vector
 `\([\alpha, \beta]\)`, and `x` is the data vector:
 
 
-```r
+``` r
   loglike = function(param, x) {
     a = param[1]  # alpha (the shape parameter)
     b = param[2]  # beta (the rate parameter)
@@ -317,7 +316,7 @@ Next I optimize the log-likelihood function by passing the initial guesses and
 the data vector to it:
 
 
-```r
+``` r
   opt = optim(start, loglike, x = data, hessian = vcov, control = list(fnscale = -1))
 ```
 
@@ -327,7 +326,7 @@ minimizing `-loglike`, and essentially maximizing `loglike`. I need to make sure
 the optimization has reached convergence:
 
 
-```r
+``` r
   if (opt$convergence != 0) stop('optim() failed to converge')
   res = list(estimate = opt$par)
 ```
@@ -336,7 +335,7 @@ Finally, I give an estimate of the variance-covariance matrix
 `\(Var([\hat{\alpha},\hat{\beta}]')\)` if `vcov = TRUE`:
 
 
-```r
+``` r
   if (vcov) res$vcov = solve(-opt$hessian)
 ```
 
@@ -348,7 +347,7 @@ the observed information matrix, i.e., the negative Hessian matrix returned from
 `optim()`. Note the inverse matrix is computed via `solve()`.
 
 
-```r
+``` r
   res
 }
 ```
@@ -358,7 +357,7 @@ intervals of the parameters since MLE is asymptotically Normal. Now let's try
 the function:
 
 
-```r
+``` r
 set.seed(1228)
 d = rgamma(100, shape = 5, rate = 2)  # simulate some data from Gamma(5, 2)
 r = mle_gamma(d, vcov = TRUE)
@@ -376,7 +375,7 @@ The estimates are not too bad, compared to their true values. I can also give a
 asymptotically Normal:
 
 
-```r
+``` r
 a = r$estimate[1]  # estimate of alpha
 s = sqrt(r$vcov[1, 1])  # standard error of the estimate of alpha
 z = qnorm(1 - 0.05/2)  # 97.5% Normal quantile
@@ -393,7 +392,7 @@ true mean (solid vertical line), and the estimated mean (dashed line):[^7]
 [^7]: The mean of the Gamma distribution is `\(\alpha/\beta\)`.
 
 
-```r
+``` r
 par(mar = c(4, 4, .2, .1))
 hist(d, main = '', col = 'darkgray', border = 'white', freq = FALSE)
 curve(dgamma(x, shape = 5, rate = 2), 0, 6, add = TRUE, lwd = 2)
@@ -434,7 +433,7 @@ from the marginal distribution `\(f(x)\)`, then simulate from `\(f(y|x)\)`. Belo
 final simulation function:
 
 
-```r
+``` r
 #' Sample from a bivariate Normal distribution
 #' 
 #' Simulate x from the marginal f(x), then y from f(y|x), and
@@ -468,7 +467,7 @@ token `<<>>` denotes the code chunks defined below with the chunk labels
 `simulate_x` and `simulate_y`, respectively:
 
 
-```r
+``` r
 x = rnorm(1, m1, s1)  # simulate from the marginal f(x)
 ```
 
@@ -478,7 +477,7 @@ know the conditional distribution of `\(Y|X\)` is:
 `$$Y|X=x \sim \mathcal{N}\left(\mu_{Y}+\frac{\sigma_{Y}}{\sigma_{X}}\rho(x-\mu_{X}),\,(1-\rho^{2})\sigma_{Y}^{2}\right)$$`
 
 
-```r
+``` r
 m2cond = m2 + s2/s1 * rho * (x - m1)  # conditional mean of Y
 s2cond = sqrt(1 - rho^2) * s2  # conditional sd of Y
 y = rnorm(1, m2cond, s2cond)  # simulate from the conditional f(y|x)
@@ -489,7 +488,7 @@ of cutting and pasting the code there. As usual, I can test my function by
 examples:
 
 
-```r
+``` r
 set.seed(1229)
 z = rbinormal(500, m1 = -1, s1 = 5, m2 = 3, s2 = .5, rho = -.7)
 par(mar = c(4, 4, .2, .1))
@@ -518,4 +517,4 @@ using comments in code. Not everyone needs or wants to understand your source
 code, but clear explanations of your code will benefit both your future self,
 and more importantly, attract potential collaborators and contributors, hence
 increase the [bus factor](http://en.wikipedia.org/wiki/Bus_factor) of your
-software packages, in this era of "[social coding](https://github.com)".
+software packages.

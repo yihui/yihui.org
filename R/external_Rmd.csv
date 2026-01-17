@@ -1,6 +1,6 @@
-"input", "output"
-"../printr/vignettes/printr.Rmd", "content/pkg-printr.md"
-"../formatR/vignettes/formatR.Rmd", "content/pkg-formatR.md"
-"../Rd2roxygen/vignettes/Rd2roxygen.Rmd", "content/pkg-Rd2roxygen.md"
-"../rlp/vignettes/LP-demo1.Rmd", "content/pkg-rlp.md"
-"../xfun/vignettes/xfun.Rmd", "content/pkg-xfun.md"
+"input", "output", "litedown"
+"../printr/vignettes/printr.Rmd", "content/pkg-printr.md", 0
+"../formatR/vignettes/formatR.Rmd", "content/pkg-formatR.md", 0
+"../Rd2roxygen/vignettes/Rd2roxygen.Rmd", "content/pkg-Rd2roxygen.md", 1
+"../rlp/vignettes/LP-demo1.Rmd", "content/pkg-rlp.md", 0
+"../xfun/vignettes/xfun.Rmd", "content/pkg-xfun.md", 1

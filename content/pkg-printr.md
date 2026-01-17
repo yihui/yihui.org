@@ -1,9 +1,8 @@
 ---
 title: "An Introduction to the printr Package"
 author: "Yihui Xie"
-date: "2018-09-08"
+date: "2026-01-16"
 slug: printr
-show_toc: yes
 githubEditURL: https://github.com/yihui/printr/edit/master/vignettes/printr.Rmd
 output:
   knitr:::html_vignette:
@@ -20,9 +19,9 @@ The **printr** (read "printer" or "print R") package is a companion package to
 [**knitr**](https://yihui.org/knitr/). Its main purpose is to extend the S3
 generic function `knit_print()` in **knitr**, which is the default value of the
 chunk option `render`, as explained in the vignette
-[knit_print.html](https://cran.r-project.org/web/packages/knitr/vignettes/knit_print.html).
+[knit_print.html](https://cran.r-project.org/package=knitr/vignettes/knit_print.html).
 
-# Overview
+## Overview
 
 To enable the printing methods defined in this package, just `library(printr)` or `loadNamespace('printr')`
 in a code chunk (in the beginning) of your **knitr** document. Then some objects
@@ -52,13 +51,13 @@ and you are welcome to contribute code via pull requests, or file feature
 requests and bug reports via [Github
 issues](https://github.com/yihui/printr/issues).
 
-# Examples
+## Examples
 
 First we take a look at a quick example of printing some R objects in the R
 console:
 
 
-```r
+``` r
 > # R uses plain text representation for data frames/matrices/...
 > head(mtcars)
 ```
@@ -73,7 +72,7 @@ Hornet Sportabout 18.7   8  360 175 3.15 3.440 17.02  0  0    3    2
 Valiant           18.1   6  225 105 2.76 3.460 20.22  1  0    3    1
 ```
 
-```r
+``` r
 > head(iris)
 ```
 
@@ -91,17 +90,17 @@ Then we attach the **printr** package in this R session, and see how things
 change later:
 
 
-```r
+``` r
 library(printr)
 ```
 
-## Matrices/data frames/tables
+### Matrices/data frames/tables
 
 Matrices and data frames are printed as tables using the `kable()` function in
 **knitr**:
 
 
-```r
+``` r
 options(digits = 4)
 set.seed(123)
 x = matrix(rnorm(40), 5)
@@ -118,7 +117,7 @@ x
 |  0.0705| -0.6869|  0.1107|  0.7014| -0.7289| -1.1381|  0.8781| -0.3060|
 |  0.1293| -0.4457| -0.5558| -0.4728| -0.6250|  1.2538|  0.8216| -0.3805|
 
-```r
+``` r
 # with colunm names
 dimnames(x) = list(NULL, head(LETTERS, ncol(x)))
 x
@@ -134,12 +133,14 @@ x
 |  0.0705| -0.6869|  0.1107|  0.7014| -0.7289| -1.1381|  0.8781| -0.3060|
 |  0.1293| -0.4457| -0.5558| -0.4728| -0.6250|  1.2538|  0.8216| -0.3805|
 
-```r
+``` r
 # further customization via kable(), e.g. digits and captions
 knitr::kable(x, digits = 2, caption = "A table produced by printr.")
 ```
 
 
+
+Table: A table produced by printr.
 
 |     A|     B|     C|     D|     E|     F|     G|     H|
 |-----:|-----:|-----:|-----:|-----:|-----:|-----:|-----:|
@@ -149,7 +150,7 @@ knitr::kable(x, digits = 2, caption = "A table produced by printr.")
 |  0.07| -0.69|  0.11|  0.70| -0.73| -1.14|  0.88| -0.31|
 |  0.13| -0.45| -0.56| -0.47| -0.63|  1.25|  0.82| -0.38|
 
-```r
+``` r
 head(mtcars)
 ```
 
@@ -164,7 +165,7 @@ head(mtcars)
 |Hornet Sportabout | 18.7|   8|  360| 175| 3.15| 3.440| 17.02|  0|  0|    3|    2|
 |Valiant           | 18.1|   6|  225| 105| 2.76| 3.460| 20.22|  1|  0|    3|    1|
 
-```r
+``` r
 head(iris, 10)
 ```
 
@@ -188,7 +189,7 @@ printed an `\(n \times m\)` matrix, and tables of higher dimensions are printed 
 data frames with frequencies.
 
 
-```r
+``` r
 x1 = sample(letters[1:3], 1000, TRUE)
 x2 = sample(letters[1:3], 1000, TRUE)
 x3 = sample(letters[1:3], 1000, TRUE)
@@ -199,9 +200,9 @@ table(x1)
 
 |   a|   b|   c|
 |---:|---:|---:|
-| 332| 342| 326|
+| 320| 331| 349|
 
-```r
+``` r
 table(x1, x2)
 ```
 
@@ -209,11 +210,11 @@ table(x1, x2)
 
 |x1/x2 |   a|   b|   c|
 |:-----|---:|---:|---:|
-|a     |  98| 117| 117|
-|b     | 123| 114| 105|
-|c     | 111| 113| 102|
+|a     | 103| 109| 108|
+|b     | 108| 115| 108|
+|c     | 123| 103| 123|
 
-```r
+``` r
 table(x1, x2, x3)
 ```
 
@@ -221,41 +222,41 @@ table(x1, x2, x3)
 
 |x1 |x2 |x3 | Freq|
 |:--|:--|:--|----:|
-|a  |a  |a  |   33|
-|   |   |b  |   35|
-|   |   |c  |   30|
-|   |b  |a  |   45|
-|   |   |b  |   37|
-|   |   |c  |   35|
-|   |c  |a  |   42|
-|   |   |b  |   34|
-|   |   |c  |   41|
-|b  |a  |a  |   44|
-|   |   |b  |   40|
-|   |   |c  |   39|
-|   |b  |a  |   41|
-|   |   |b  |   42|
-|   |   |c  |   31|
-|   |c  |a  |   26|
-|   |   |b  |   35|
-|   |   |c  |   44|
-|c  |a  |a  |   40|
-|   |   |b  |   23|
-|   |   |c  |   48|
-|   |b  |a  |   29|
-|   |   |b  |   43|
-|   |   |c  |   41|
-|   |c  |a  |   37|
+|a  |a  |a  |   41|
 |   |   |b  |   26|
-|   |   |c  |   39|
+|   |   |c  |   36|
+|   |b  |a  |   34|
+|   |   |b  |   31|
+|   |   |c  |   44|
+|   |c  |a  |   34|
+|   |   |b  |   33|
+|   |   |c  |   41|
+|b  |a  |a  |   37|
+|   |   |b  |   36|
+|   |   |c  |   35|
+|   |b  |a  |   40|
+|   |   |b  |   31|
+|   |   |c  |   44|
+|   |c  |a  |   36|
+|   |   |b  |   38|
+|   |   |c  |   34|
+|c  |a  |a  |   31|
+|   |   |b  |   46|
+|   |   |c  |   46|
+|   |b  |a  |   25|
+|   |   |b  |   35|
+|   |   |c  |   43|
+|   |c  |a  |   46|
+|   |   |b  |   46|
+|   |   |c  |   31|
 
-## Search results from `help.search()`
+### Search results from `help.search()`
 
 Here are some examples demonstrating the results of `help.search()`, or you can
 also use `??` to search for a string.
 
 
-```r
+``` r
 ??sunflower
 ```
 
@@ -266,7 +267,7 @@ also use `??` to search for a string.
 |graphics  |sunflowerplot |Produce a Sunflower Scatter Plot                           |
 |grDevices |xyTable       |Multiplicities of (x,y) Points, e.g., for a Sunflower Plot |
 
-```r
+``` r
 help.search('contourplot')
 ```
 
@@ -276,11 +277,12 @@ help.search('contourplot')
 |:--------|:---------------|:---------------------------------------------|
 |raster   |contour         |Contour plot                                  |
 |raster   |filledContour   |Filled contour plot                           |
+|terra    |contour         |Contour plot                                  |
 |graphics |filled.contour  |Level (Contour) Plots                         |
 |lattice  |levelplot       |Level plots and contour plots                 |
 |lattice  |panel.levelplot |Panel Functions for levelplot and contourplot |
 
-```r
+``` r
 help.search('foo', package = 'base')
 ```
 
@@ -290,7 +292,7 @@ help.search('foo', package = 'base')
 |:-------|:---------|:-----------------------------------------------------------------------------|
 |base    |is.things |Explore some properties of R objects and is.FOO() functions. Not for newbies! |
 
-```r
+``` r
 help.search('foooooooo', package = 'utils')
 ```
 
@@ -305,7 +307,7 @@ changed the printing behavior of these results, and readers will get the basic
 idea of these functions when reading the **knitr** output. If they want to run
 these functions by themselves, they can do it in an interactive R session.
 
-## Help pages
+### Help pages
 
 When you want to read the help page of a certain R object, you normally use `?`
 or `help()`, which will launch a separate help page from the R session, and
@@ -313,7 +315,7 @@ require human interaction. Again, we may not desire human interactions in
 **knitr** documents, so the help pages are printed as static documents here.
 
 
-```r
+``` r
 ?coef
 ```
 
@@ -393,7 +395,7 @@ a few sections to display, e.g. we only show the sections `description` and
 `usage` of the `paste()` function:
 
 
-```r
+``` r
 ?paste
 ```
 
@@ -402,56 +404,64 @@ Concatenate Strings
 
 Description:
 
-     Concatenate vectors after converting to character.
+     Concatenate vectors after converting to character.  Concatenation
+     happens in two basically different ways, determined by 'collapse'
+     being a string or not.
 
 Usage:
 
-     paste (..., sep = " ", collapse = NULL)
-     paste0(..., collapse = NULL)
+     paste (..., sep = " ", collapse = NULL, recycle0 = FALSE)
+     paste0(...,            collapse = NULL, recycle0 = FALSE)
 ```
 
-## Vignette/dataset lists
+### Vignette/dataset lists
 
 We can print the lists of vignettes and datasets in packages using `vignette()`
 and `data()`, respectively.
 
 
-```r
+``` r
 vignette(package = "rpart")
 ```
 
 
+
+Table: Vignettes in rpart
 
 |Item      |Title                                      |
 |:---------|:------------------------------------------|
 |longintro |Introduction to Rpart (source, pdf)        |
 |usercode  |User Written Split Functions (source, pdf) |
 
-```r
+``` r
 vignette(package = c("rpart", "knitr"))
 ```
 
 
 
-|Package |Item           |Title                                                                |
-|:-------|:--------------|:--------------------------------------------------------------------|
-|rpart   |longintro      |Introduction to Rpart (source, pdf)                                  |
-|rpart   |usercode       |User Written Split Functions (source, pdf)                           |
-|knitr   |knitr-html     |An R HTML Vignette with knitr (source, html)                         |
-|knitr   |knitr-markdown |An R Markdown Vignette with knitr (source, html)                     |
-|knitr   |knit_print     |Custom Print Methods (source, html)                                  |
-|knitr   |datatables     |Display Tables with the JavaScript Library DataTables (source, html) |
-|knitr   |knitr-refcard  |knitr Reference Card (source, pdf)                                   |
-|knitr   |knitr-intro    |Not an Introduction to knitr (source, html)                          |
-|knitr   |docco-classic  |R Markdown with the Docco Classic Style (source, html)               |
-|knitr   |docco-linear   |R Markdown with the Docco Linear Style (source, html)                |
-|knitr   |knit_expand    |Templating with knit_expand() (source, html)                         |
+Table: Vignettes
 
-```r
+|Package |Item           |Title                                                                       |
+|:-------|:--------------|:---------------------------------------------------------------------------|
+|rpart   |longintro      |Introduction to Rpart (source, pdf)                                         |
+|rpart   |usercode       |User Written Split Functions (source, pdf)                                  |
+|knitr   |knitr-html     |An R HTML Vignette with knitr (source, html)                                |
+|knitr   |knit_print     |Custom Print Methods (source, html)                                         |
+|knitr   |datatables     |Display Tables with the JavaScript Library simple-datatables (source, html) |
+|knitr   |knitr-refcard  |knitr Reference Card (source, html)                                         |
+|knitr   |knitr-intro    |Not an Introduction to knitr (source, html)                                 |
+|knitr   |knitr-markdown |R Markdown Vignettes with litedown (source, html)                           |
+|knitr   |docco-classic  |R Markdown with the Docco Classic Style (source, html)                      |
+|knitr   |docco-linear   |R Markdown with the Docco Linear Style (source, html)                       |
+|knitr   |knit_expand    |Templating with knit_expand() (source, html)                                |
+
+``` r
 data(package = "lattice")
 ```
 
 
+
+Table: Data sets in lattice
 
 |Item                |Title                                                 |
 |:-------------------|:-----------------------------------------------------|
@@ -463,29 +473,32 @@ data(package = "lattice")
 |melanoma            |Melanoma skin cancer incidence                        |
 |singer              |Heights of New York Choral Society singers            |
 
-```r
+``` r
 data(package = c("rpart", "lattice"))
 ```
 
 
 
-|Package |Item                |Title                                                   |
-|:-------|:-------------------|:-------------------------------------------------------|
-|rpart   |car.test.frame      |Automobile Data from 'Consumer Reports' 1990            |
-|rpart   |car90               |Automobile Data from 'Consumer Reports' 1990            |
-|rpart   |cu.summary          |Automobile Data from 'Consumer Reports' 1990            |
-|rpart   |kyphosis            |Data on Children who have had Corrective Spinal Surgery |
-|rpart   |solder              |Soldering of Components on Printed-Circuit Boards       |
-|rpart   |stagec              |Stage C Prostate Cancer                                 |
-|lattice |USMortality         |Mortality Rates in US by Cause and Gender               |
-|lattice |USRegionalMortality |Mortality Rates in US by Cause and Gender               |
-|lattice |barley              |Yield data from a Minnesota barley trial                |
-|lattice |environmental       |Atmospheric environmental conditions in New York City   |
-|lattice |ethanol             |Engine exhaust fumes from burning ethanol               |
-|lattice |melanoma            |Melanoma skin cancer incidence                          |
-|lattice |singer              |Heights of New York Choral Society singers              |
+Table: Data sets
 
-```r
+|Package |Item                    |Title                                                   |
+|:-------|:-----------------------|:-------------------------------------------------------|
+|rpart   |car.test.frame          |Automobile Data from 'Consumer Reports' 1990            |
+|rpart   |car90                   |Automobile Data from 'Consumer Reports' 1990            |
+|rpart   |cu.summary              |Automobile Data from 'Consumer Reports' 1990            |
+|rpart   |kyphosis                |Data on Children who have had Corrective Spinal Surgery |
+|rpart   |solder                  |Soldering of Components on Printed-Circuit Boards       |
+|rpart   |solder.balance (solder) |Soldering of Components on Printed-Circuit Boards       |
+|rpart   |stagec                  |Stage C Prostate Cancer                                 |
+|lattice |USMortality             |Mortality Rates in US by Cause and Gender               |
+|lattice |USRegionalMortality     |Mortality Rates in US by Cause and Gender               |
+|lattice |barley                  |Yield data from a Minnesota barley trial                |
+|lattice |environmental           |Atmospheric environmental conditions in New York City   |
+|lattice |ethanol                 |Engine exhaust fumes from burning ethanol               |
+|lattice |melanoma                |Melanoma skin cancer incidence                          |
+|lattice |singer                  |Heights of New York Choral Society singers              |
+
+``` r
 data(package = "knitr")  # no datasets here
 ```
 
@@ -493,30 +506,30 @@ data(package = "knitr")  # no datasets here
 ## Data sets not found
 ```
 
-```r
+``` r
 browseVignettes(package = "knitr")
 ```
 
 
 
-|Vignette            |Title                                                 |
-|:-------------------|:-----------------------------------------------------|
-|knitr-html.html     |An R HTML Vignette with knitr                         |
-|knitr-markdown.html |An R Markdown Vignette with knitr                     |
-|knit_print.html     |Custom Print Methods                                  |
-|datatables.html     |Display Tables with the JavaScript Library DataTables |
-|knitr-refcard.pdf   |knitr Reference Card                                  |
-|knitr-intro.html    |Not an Introduction to knitr                          |
-|docco-classic.html  |R Markdown with the Docco Classic Style               |
-|docco-linear.html   |R Markdown with the Docco Linear Style                |
-|knit_expand.html    |Templating with knit_expand()                         |
+|Vignette            |Title                                                        |
+|:-------------------|:------------------------------------------------------------|
+|knitr-html.html     |An R HTML Vignette with knitr                                |
+|knit_print.html     |Custom Print Methods                                         |
+|datatables.html     |Display Tables with the JavaScript Library simple-datatables |
+|knitr-refcard.html  |knitr Reference Card                                         |
+|knitr-intro.html    |Not an Introduction to knitr                                 |
+|knitr-markdown.html |R Markdown Vignettes with litedown                           |
+|docco-classic.html  |R Markdown with the Docco Classic Style                      |
+|docco-linear.html   |R Markdown with the Docco Linear Style                       |
+|knit_expand.html    |Templating with knit_expand()                                |
 
-## Package info
+### Package info
 
 A description of a package can be printed via `library(help = 'foo')`:
 
 
-```r
+``` r
 library(help = "printr")
 ```
 
@@ -529,28 +542,34 @@ Package:            printr
 Type:               Package
 Title:              Automatically Print R Objects to Appropriate Formats According to the
                     'knitr' Output Format
-Version:            0.1
-Date:               2017-05-19
-Author:             Yihui Xie
-Maintainer:         Yihui Xie <xie@yihui.name>
+Version:            0.3
+Authors@R:          c( person("Yihui", "Xie", role = c("aut", "cre"), email =
+                    "xie@yihui.name", comment = c(ORCID = "0000-0003-0645-5666")) )
 Description:        Extends the S3 generic function knit_print() in 'knitr' to
                     automatically print some objects using an appropriate format such as
                     Markdown or LaTeX. For example, data frames are automatically printed
                     as tables, and the help() pages can also be rendered in 'knitr'
                     documents.
-Imports:            knitr (>= 1.16)
+Imports:            knitr (>= 1.31)
 Suggests:           tools, rmarkdown
 License:            GPL
 URL:                https://yihui.org/printr/
 BugReports:         https://github.com/yihui/printr/issues
 VignetteBuilder:    knitr
-LazyData:           TRUE
-RoxygenNote:        6.0.1
+RoxygenNote:        7.2.3
+Encoding:           UTF-8
 NeedsCompilation:   no
-Packaged:           2017-05-18 21:08:46 UTC; yihui
+Packaged:           2023-03-08 19:27:23 UTC; yihui
+Author:             Yihui Xie [aut, cre] (<https://orcid.org/0000-0003-0645-5666>)
+Maintainer:         Yihui Xie <xie@yihui.name>
 Repository:         CRAN
-Date/Publication:   2017-05-19 06:24:13 UTC
-Built:              R 3.5.0; ; 2018-04-24 08:43:11 UTC; unix
+Date/Publication:   2023-03-08 19:40:03 UTC
+Built:              R 4.5.0; ; 2025-04-01 14:59:14 UTC; unix
+RemoteType:         standard
+RemotePkgRef:       printr
+RemoteRef:          printr
+RemoteRepos:        https://yihui.r-universe.dev
+RemoteSha:          0.3
 
 Index:
 

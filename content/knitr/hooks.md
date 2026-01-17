@@ -3,7 +3,6 @@ title: Hooks
 subtitle: Customizable functions to run before / after a code chunk, tweak the output,
   and manipulate chunk options
 date: '2017-02-03'
-show_toc: true
 ---
 
 The object `knit_hooks` in the **knitr** package is used to set hooks; the basic

@@ -87,7 +87,7 @@ full list, please see my [vitae](../vitae).
 -   [formatR](/formatr/): Format R code automatically
 -   [knitr](/knitr/): Dynamic report generation with R
 -   [printr](/printr/): Some printing methods for **knitr**
--   [Rd2roxygen](/Rd2roxygen/): Convert Rd to roxygen documentation
+-   [Rd2roxygen](/rd2roxygen/): Convert Rd to roxygen documentation
 -   [rlp](/rlp/): Write an R package using literate programming techniques
 -   [servr](https://github.com/yihui/servr): a simple HTTP server to serve
     static files or dynamic documents

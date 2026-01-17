@@ -3,7 +3,6 @@ title: Options
 subtitle: Chunk options and package options
 date: '2020-06-30'
 slug: options
-show_toc: true
 ---
 
 The **knitr** package provides a lot of chunk options for customizing nearly all

@@ -2,8 +2,7 @@
 title: formatR
 subtitle: Format R code automatically
 author: Yihui Xie
-date: "2022-08-21"
-show_toc: true
+date: "2026-01-16"
 slug: formatr
 githubEditURL: https://github.com/yihui/formatR/edit/master/vignettes/formatR.Rmd
 output:
@@ -14,18 +13,22 @@ vignette: >
   %\VignetteIndexEntry{An Introduction to formatR}
 ---
 
+<script>
+// redirect from CRAN to my personal website
+if (location.protocol === 'https:' && location.href.match('yihui.org') === null)
+  location.href = 'https://yihui.org/formatr/';
+</script>
 
 
 
-
-# 1. Installation
+## 1. Installation
 
 You can install **formatR** from
 [CRAN](https://cran.r-project.org/package=formatR), or yihui.r-universe.dev if
 you want to test the latest development version:
 
 
-```r
+``` r
 install.packages("formatR", repos = "http://cran.rstudio.com")
 # or development version
 options(repos = c(yihui = "https://yihui.r-universe.dev", CRAN = "https://cloud.r-project.org"))
@@ -37,36 +40,16 @@ install from source if you know what this means. This page is always based on
 the development version.
 
 
-```r
+``` r
 library(formatR)
-sessionInfo()
+packageVersion("formatR")
 ```
 
 ```
-## R version 4.2.1 (2022-06-23)
-## Platform: x86_64-apple-darwin17.0 (64-bit)
-## Running under: macOS Big Sur ... 10.16
-## 
-## Matrix products: default
-## BLAS:   /Library/Frameworks/R.framework/Versions/4.2/Resources/lib/libRblas.0.dylib
-## LAPACK: /Library/Frameworks/R.framework/Versions/4.2/Resources/lib/libRlapack.dylib
-## 
-## locale:
-## [1] en_US.UTF-8/en_US.UTF-8/en_US.UTF-8/C/en_US.UTF-8/en_US.UTF-8
-## 
-## attached base packages:
-## [1] stats     graphics  grDevices utils     datasets  methods  
-## [7] base     
-## 
-## other attached packages:
-## [1] formatR_1.12
-## 
-## loaded via a namespace (and not attached):
-## [1] compiler_4.2.1 magrittr_2.0.3 tools_4.2.1    stringi_1.7.8 
-## [5] knitr_1.39.10  stringr_1.4.0  xfun_0.32      evaluate_0.16
+## [1] '1.14.1'
 ```
 
-# 2. Reformat R code
+## 2. Reformat R code
 
 The **formatR** package was designed to reformat R code to improve readability;
 the main workhorse is the function `tidy_source()`. Features include:
@@ -90,7 +73,7 @@ the main workhorse is the function `tidy_source()`. Features include:
 Below is an example of what `tidy_source()` can do. The source code is:
 
 
-```r
+``` r
 ## comments are retained;
 # a comment block will be reflowed if it contains long comments;
 #' roxygen comments will not be wrapped in any case
@@ -112,7 +95,7 @@ We can copy the above code to clipboard, and type
 `tidy_source(width.cutoff = 50)` to get:
 
 
-```r
+``` r
 ## comments are retained; a comment block will be
 ## reflowed if it contains long comments;
 #' roxygen comments will not be wrapped in any case
@@ -144,7 +127,7 @@ Two applications of `tidy_source()`:
     the default output of `args()`:
 
     
-    ```r
+    ``` r
     library(formatR)
     usage(glm, width = 40)  # can set arbitrary width here
     ## glm(formula, family = gaussian, data,
@@ -163,7 +146,7 @@ Two applications of `tidy_source()`:
     ## NULL
     ```
 
-# 3. The Graphical User Interface
+## 3. The Graphical User Interface
 
 If the **shiny** packages has been installed, the function `tidy_app()` can
 launch a Shiny app to reformat R code like this (live demo at
@@ -185,7 +168,7 @@ reformatting](https://db.yihui.org/imgur/TBZm0B8.png)](https://yihui.shinyapps.i
 
 
 
-# 4. Evaluate the code and mask output in comments
+## 4. Evaluate the code and mask output in comments
 
 It is often a pain when trying to copy R code from other people's code which has
 been run in R and the prompt characters (usually `>`) are attached in the
@@ -198,7 +181,7 @@ of each chunk as comments which will not actually break the original source
 code. Here is an example:
 
 
-```r
+``` r
 set.seed(123)
 tidy_eval(text = c("a<-1+1;a  # print the value", "matrix(rnorm(10),5)"))
 ```
@@ -221,13 +204,13 @@ The default source of the code is from clipboard like `tidy_source()`, so we can
 copy our code to clipboard, and simply run this in R:
 
 
-```r
+``` r
 library(formatR)
 tidy_eval()
 # without specifying any arguments, it reads code from clipboard
 ```
 
-# 5. Showcase
+## 5. Showcase
 
 We continue the example code in Section 2, using different arguments in
 `tidy_source()` such as `arrow`, `blank`, `indent`, `brace.newline` and
@@ -236,7 +219,7 @@ We continue the example code in Section 2, using different arguments in
 ## Substitute `=` with `<-`
 
 
-```r
+``` r
 if (TRUE) {
     x <- 1  # inline comments
 } else {
@@ -250,7 +233,7 @@ if (TRUE) {
 Note the 5th line (an empty line) was discarded:
 
 
-```r
+``` r
 ## comments are retained; a comment block will be reflowed if it
 ## contains long comments;
 #' roxygen comments will not be wrapped in any case
@@ -267,7 +250,7 @@ if (TRUE) {
 ## Reindent code (2 spaces instead of 4)
 
 
-```r
+``` r
 if (TRUE) {
   x = 1  # inline comments
 } else {
@@ -281,7 +264,7 @@ if (TRUE) {
 With `args.newline = TRUE`, the example code below
 
 
-```r
+``` r
 shiny::updateSelectizeInput(session, "foo", label = "New Label", selected = c("A",
     "B"), choices = LETTERS, server = TRUE)
 ```
@@ -289,7 +272,7 @@ shiny::updateSelectizeInput(session, "foo", label = "New Label", selected = c("A
 will be reformatted to:
 
 
-```r
+``` r
 shiny::updateSelectizeInput(
     session, "foo", label = "New Label", selected = c("A", "B"),
     choices = LETTERS, server = TRUE
@@ -302,14 +285,14 @@ Since **formatR** 1.9, code lines contains operators `|>`, `%>%`, `%T%`, `%$%`,
 and/or `%<>%` will be automatically wrapped after these operators. For example,
 
 
-```r
+``` r
 mtcars %>% subset(am == 0) %>% lm(mpg~hp, data=.)
 ```
 
 will be reformatted to:
 
 
-```r
+``` r
 mtcars %>%
     subset(am == 0) %>%
     lm(mpg ~ hp, data = .)
@@ -318,7 +301,7 @@ mtcars %>%
 ## Move left braces `{` to new lines
 
 
-```r
+``` r
 if (TRUE)
 {
     x = 1  # inline comments
@@ -332,7 +315,7 @@ if (TRUE)
 ## Do not wrap comments
 
 
-```r
+``` r
 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 + 1 +
     1 + 1 + 1  # comment after a long line
 ## here is a long long long long long long long long long long long long long comment that may be wrapped
@@ -341,7 +324,7 @@ if (TRUE)
 ## Discard comments
 
 
-```r
+``` r
 1 + 1
 
 if (TRUE) {
@@ -359,7 +342,7 @@ lm(y ~ x1 + x2, data = data.frame(y = rnorm(100), x1 = rnorm(100),
     1 + 1 + 1 + 1 + 1 + 1 + 1 + 1
 ```
 
-# 6. Further notes
+## 6. Further notes
 
 The tricks used in this packages are very dirty. There might be dangers in using
 the functions in **formatR**. Please read the next section carefully to know
@@ -382,7 +365,7 @@ Code with comments after incomplete R expression cannot be reformatted by
 next line, e.g.,
 
 
-```r
+``` r
 if (TRUE) {## comments
 }
 ```
@@ -390,7 +373,7 @@ if (TRUE) {## comments
 will become
 
 
-```r
+``` r
 if (TRUE) {
     ## comments
 }
@@ -423,14 +406,14 @@ package is unable to correctly format the code using `?` with comments, e.g.
 In this case, it is recommended to use the function `help()` instead of the
 short-hand version `?`.
 
-# 7. How does `tidy_source()` actually work?
+## 7. How does `tidy_source()` actually work?
 
 In a nutshell, `tidy_source(text = code)` is basically
 `deparse(parse(text = code))`, but actually it is more complicated only because
 of one thing: `deparse()` drops comments, e.g.,
 
 
-```r
+``` r
 deparse(parse(text = "1+2-3*4/5 # a comment"))
 ```
 
@@ -484,7 +467,7 @@ All these special treatments to comments are due to the fact that
 `base::parse()` and `base::deparse()` can tidy the R code at the price of
 dropping all the comments.
 
-# 8. Global options
+## 8. Global options
 
 There are global options which can override some arguments in `tidy_source()`:
 

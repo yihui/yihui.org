@@ -9,7 +9,7 @@ local({
   # for external Rmd, '../../foo/bar/hi.Rmd' -> 'hi'; for internal,
   # content/foo/bar/hi.Rmd -> foo/bar/hi
   d = xfun::sans_ext(
-    if (a[3] == 'TRUE') basename(a[1]) else gsub('^content/', '', a[1])
+    if (a[4] == 'TRUE') basename(a[1]) else gsub('^content/', '', a[1])
   )
   knitr::opts_chunk$set(
     fig.path   = sprintf('figures/%s/', d),
@@ -25,10 +25,11 @@ local({
     base.url = '/', width = 60
   )
   set.seed(20150723)
-  knitr::knit(a[1], a[2], quiet = TRUE, encoding = 'UTF-8', envir = .GlobalEnv)
+  k = if (a[3] == 0) knitr::knit else litedown::fuse
+  k(a[1], a[2], quiet = TRUE, envir = .GlobalEnv)
   if (file.exists(a[2])) {
     x = blogdown:::append_yaml(
-      xfun::read_utf8(a[2]), if (a[3] == 'FALSE') list(from_Rmd = TRUE)
+      xfun::read_utf8(a[2]), if (a[4] == 'FALSE') list(from_Rmd = TRUE)
     )
     xfun::write_utf8(xfun::protect_math(x), a[2])
     Sys.chmod(a[2], '0444')  # read-only (should not edit)

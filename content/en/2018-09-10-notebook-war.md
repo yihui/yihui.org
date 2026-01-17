@@ -3,7 +3,6 @@ title: The First Notebook War
 date: '2018-09-10'
 subtitle: So Joel Grus doesn't like Jupyter notebooks. Here are some of my thoughts on notebooks, IDE, and R Markdown.
 slug: notebook-war
-show_toc: true
 ---
 
 Last week I learned about an interesting JupyterCon talk given by Joel Grus titled "[I Don't Like Notebooks](https://docs.google.com/presentation/d/1n2RlMdmv1p25Xy5thJUhkKGvjtV-dkAIsUXP-AL4ffI/preview#slide=id.g362da58057_0_1)". I'd applaud the open-mindedness of the conference committee to invite Joel to give such a talk to (presumably so many) notebook lovers. I agree with Joel that criticizing a popular tool is not "an unhelpful way to spend time" (see slide #4). I wish there were more criticism to popular tools in the R world, and personally I'd welcome criticism and complaints about my own work.[^1]
