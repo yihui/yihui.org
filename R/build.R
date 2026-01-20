@@ -64,12 +64,3 @@ if (!local) {
   files = files[file.access(files, 2) == 0]  # writable
   for (f in files) xfun::process_file(f, unwrap_alt)
 }
-
-if (FALSE) {
-  checkJS = function(name) {
-    api = sprintf('https://api.bootcdn.cn/libraries/%s.json', name)
-    jsonlite::fromJSON(api)$version
-  }
-  checkJS('highlight.js')
-  checkJS('mathjax')
-}
