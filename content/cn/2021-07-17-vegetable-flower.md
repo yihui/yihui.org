@@ -2,6 +2,7 @@
 title: 蔬菜花
 date: '2021-07-17'
 slug: vegetable-flower
+tags: [诗]
 ---
 
 水陆草木之花  

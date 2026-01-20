@@ -2,6 +2,7 @@
 title: 半透膜
 date: '2022-03-19'
 slug: semipermeable
+tags: [诗]
 ---
 
 钟叔叔从我家门口过  

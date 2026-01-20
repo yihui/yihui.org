@@ -2,6 +2,7 @@
 title: 执
 date: '2022-03-06'
 slug: perseverance
+tags: [诗]
 ---
 
 将棉线一次次穿进针眼<!--# 细致活儿，虽然不算太难 -->  

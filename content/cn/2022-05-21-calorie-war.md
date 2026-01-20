@@ -2,6 +2,7 @@
 title: 卡路里战
 date: '2022-05-21'
 slug: calorie-war
+tags: [诗]
 ---
 
 朋友们  

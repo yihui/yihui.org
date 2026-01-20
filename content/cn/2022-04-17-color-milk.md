@@ -2,6 +2,7 @@
 title: 七彩牛奶
 date: '2022-04-17'
 slug: color-milk
+tags: [诗]
 ---
 
 七彩的色素  

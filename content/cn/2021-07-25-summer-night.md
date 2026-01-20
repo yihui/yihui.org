@@ -2,6 +2,7 @@
 title: 遥远的纳凉
 date: '2021-07-25'
 slug: summer-night
+tags: [诗]
 ---
 
 空调开始吹起来后  

@@ -2,6 +2,7 @@
 title: 老农与雨
 date: '2022-06-12'
 slug: farmer-rain
+tags: [诗]
 ---
 
 夜半三更的窗外  

@@ -2,6 +2,7 @@
 title: 迷惑行为
 date: '2022-05-21'
 slug: puzzle-behavior
+tags: [诗]
 ---
 
 两位宅男　钟叔叔与我  

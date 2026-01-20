@@ -2,6 +2,7 @@
 title: 西江月 · 两两相忘
 date: '2021-09-22'
 slug: detaching
+tags: [诗]
 ---
 
 中秋夜读诗词十余篇，多为老文旧调。惟有一友文中东坡《[西江月](https://baike.baidu.com/item/%E8%A5%BF%E6%B1%9F%E6%9C%88%C2%B7%E4%B8%96%E4%BA%8B%E4%B8%80%E5%9C%BA%E5%A4%A7%E6%A2%A6/2805735)》令余耳目一新，读来为之一震：

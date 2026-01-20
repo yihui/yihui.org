@@ -2,6 +2,7 @@
 title: 橘子的意义
 date: '2021-07-23'
 slug: mandarin-meaning
+tags: [诗]
 ---
 
 橘子的存在　除了被吃外  

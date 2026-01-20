@@ -2,6 +2,7 @@
 title: 一力
 date: '2021-12-26'
 slug: tiny-power
+tags: [诗]
 ---
 
 一滴血滴进茶杯  

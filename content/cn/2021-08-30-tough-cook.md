@@ -2,6 +2,7 @@
 title: 猛厨
 date: '2021-08-30'
 slug: tough-cook
+tags: [诗]
 ---
 
 见到谢老师徒手摘黄瓜  

@@ -2,6 +2,7 @@
 title: 余震
 date: '2021-12-21'
 slug: after-shock
+tags: [诗]
 ---
 
 读一篇字  

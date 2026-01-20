@@ -2,6 +2,7 @@
 title: 花生神
 date: '2021-10-30'
 slug: peanut-god
+tags: [诗]
 ---
 
 想来　已是二十多年不曾  

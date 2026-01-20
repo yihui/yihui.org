@@ -2,6 +2,7 @@
 title: 梦蛇
 date: '2021-12-30'
 slug: snake-dream
+tags: [诗]
 ---
 
 最可怕的噩梦  

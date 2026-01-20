@@ -2,6 +2,7 @@
 title: 雪夜
 date: '2021-12-10'
 slug: snow-night
+tags: [诗]
 ---
 
 雪  

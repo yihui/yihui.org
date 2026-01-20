@@ -2,6 +2,7 @@
 title: 花瓶
 date: '2022-02-20'
 slug: broken-vase
+tags: [诗]
 ---
 
 一个银色的花瓶携着花  

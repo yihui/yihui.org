@@ -2,6 +2,7 @@
 title: 多舛
 date: '2021-12-15'
 slug: serial-disasters
+tags: [诗]
 ---
 
 后院平凡的菜园  

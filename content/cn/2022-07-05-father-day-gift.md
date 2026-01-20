@@ -2,6 +2,7 @@
 title: 父亲节礼物
 date: '2022-07-05'
 slug: father-day-gift
+tags: [诗]
 ---
 
 阿呆在学校  

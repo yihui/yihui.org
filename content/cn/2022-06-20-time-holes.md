@@ -2,6 +2,7 @@
 title: 时间的漏洞
 date: '2022-06-20'
 slug: time-holes
+tags: [诗]
 ---
 
 我寻思  

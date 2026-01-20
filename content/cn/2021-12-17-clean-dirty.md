@@ -2,6 +2,7 @@
 title: 净污
 date: '2021-12-17'
 slug: clean-dirty
+tags: [诗]
 ---
 
 一粒白饭  

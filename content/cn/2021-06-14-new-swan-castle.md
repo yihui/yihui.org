@@ -2,6 +2,7 @@
 title: 新天鹅堡之梦
 date: '2021-06-14'
 slug: new-swan-castle
+tags: [诗]
 ---
 
 阿尔卑斯山脚下的新天鹅堡  

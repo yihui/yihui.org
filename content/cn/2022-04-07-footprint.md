@@ -2,6 +2,7 @@
 title: 足迹
 date: '2022-04-07'
 slug: footprint
+tags: [诗]
 ---
 
 我赤足走在泥沼  

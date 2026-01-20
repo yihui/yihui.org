@@ -2,7 +2,7 @@
 title: 移州
 date: '2022-01-16'
 slug: move-hometown
-page_class: unlist
+tags: [诗]
 ---
 
 自打认识了贵州人袁阿姨  

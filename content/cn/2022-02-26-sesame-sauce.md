@@ -2,6 +2,7 @@
 title: 调芝麻酱
 date: '2022-02-26'
 slug: sesame-sauce
+tags: [诗]
 ---
 
 周六的早晨  

@@ -2,6 +2,7 @@
 title: 摔在哪里
 date: '2021-10-23'
 slug: fall-place
+tags: [诗]
 ---
 
 快九个月大的丸子小公举  

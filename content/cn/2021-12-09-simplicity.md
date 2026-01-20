@@ -2,6 +2,7 @@
 title: 单纯
 date: '2021-12-09'
 slug: simplicity
+tags: [诗]
 ---
 
 如果吃饭只是吃饭，没有综艺  

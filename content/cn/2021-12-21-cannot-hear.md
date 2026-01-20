@@ -2,6 +2,7 @@
 title: 听不见
 date: '2021-12-21'
 slug: cannot-hear
+tags: [诗]
 ---
 
 六十三岁的听不见  

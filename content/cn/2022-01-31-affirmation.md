@@ -2,6 +2,7 @@
 title: 可以
 date: '2022-01-31'
 slug: affirmation
+tags: [诗]
 ---
 
 我问三岁的阿懵  

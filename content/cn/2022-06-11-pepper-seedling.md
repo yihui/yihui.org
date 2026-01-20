@@ -2,6 +2,7 @@
 title: 拔苗
 date: '2022-06-11'
 slug: pepper-seedling
+tags: [诗]
 ---
 
 我曾以为  

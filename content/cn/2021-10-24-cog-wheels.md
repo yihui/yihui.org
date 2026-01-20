@@ -2,6 +2,7 @@
 title: 齿轮
 date: '2021-10-24'
 slug: cog-wheels
+tags: [诗]
 ---
 
 摇了六年的手工面条机  

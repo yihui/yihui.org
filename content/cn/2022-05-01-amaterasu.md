@@ -2,6 +2,7 @@
 title: 天照
 date: '2022-05-01'
 slug: amaterasu
+tags: [诗]
 ---
 
 是谁  

@@ -2,6 +2,7 @@
 title: 伽椰子
 date: '2022-04-20'
 slug: avoidant-disorder
+tags: [诗]
 ---
 
 十四岁的一天  

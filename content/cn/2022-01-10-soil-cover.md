@@ -2,6 +2,7 @@
 title: 盖头
 date: '2022-01-10'
 slug: soil-cover
+tags: [诗]
 ---
 
 春天撒一把豆子  

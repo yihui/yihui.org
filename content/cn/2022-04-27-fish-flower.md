@@ -2,6 +2,7 @@
 title: 咸鱼花
 date: '2022-04-27'
 slug: fish-flower
+tags: [诗]
 ---
 
 我在红楼中做了个梦 <!--# 背景：https://d.cosx.org/d/422725 -->  

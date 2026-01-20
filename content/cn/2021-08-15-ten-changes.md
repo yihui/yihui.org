@@ -2,6 +2,7 @@
 title: 十变
 date: '2021-08-15'
 slug: ten-changes
+tags: [诗]
 ---
 
 朝露暮成霜　　朝露暮成霜  

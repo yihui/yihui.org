@@ -2,6 +2,7 @@
 title: 奶油蒙心
 date: '2021-10-03'
 slug: creamed-mind
+tags: [诗]
 ---
 
 毫无疑问，我的电饭锅蛋糕技术  

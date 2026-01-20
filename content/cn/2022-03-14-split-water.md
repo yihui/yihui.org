@@ -2,6 +2,7 @@
 title: 劈水
 date: '2022-03-14'
 slug: split-water
+tags: [诗]
 ---
 
 查尔科湖边  

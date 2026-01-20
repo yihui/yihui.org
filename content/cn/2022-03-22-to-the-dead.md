@@ -2,6 +2,7 @@
 title: 致陌生的亡魂
 date: '2022-03-22'
 slug: to-the-dead
+tags: [诗]
 ---
 
 八千八百米高空坠下的  

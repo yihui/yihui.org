@@ -2,6 +2,7 @@
 title: 故乡的原风景
 date: '2021-07-04'
 slug: hometown-scene
+tags: [诗]
 ---
 
 水牛呼着耳朵  

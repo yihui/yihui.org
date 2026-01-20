@@ -2,6 +2,7 @@
 title: 粉红大象
 date: '2022-03-05'
 slug: pink-elephant
+tags: [诗]
 ---
 
 丛林里  

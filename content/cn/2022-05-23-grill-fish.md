@@ -2,6 +2,7 @@
 title: 烤鱼
 date: '2022-05-23'
 slug: grill-fish
+tags: [诗]
 ---
 
 一条白斑狗鱼<!--# pike fish -->  

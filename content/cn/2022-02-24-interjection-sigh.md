@@ -2,6 +2,7 @@
 title: 叹词之叹
 date: '2022-02-24'
 slug: interjection-sigh
+tags: [诗]
 ---
 
 唉......  

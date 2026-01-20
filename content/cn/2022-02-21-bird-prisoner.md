@@ -2,6 +2,7 @@
 title: 囚鸟
 date: '2022-02-21'
 slug: bird-prisoner
+tags: [诗]
 ---
 
 那只囚鸟　在四平米的笼中  

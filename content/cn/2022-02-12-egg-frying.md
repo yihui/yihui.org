@@ -2,6 +2,7 @@
 title: 煎蛋
 date: '2022-02-12'
 slug: egg-frying
+tags: [诗]
 ---
 
 油锅里打进一颗蛋  

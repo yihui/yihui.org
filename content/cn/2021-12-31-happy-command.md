@@ -2,6 +2,7 @@
 title: 快乐令
 date: '2021-12-31'
 slug: happy-command
+tags: [诗]
 ---
 
 新的一年马上来临  

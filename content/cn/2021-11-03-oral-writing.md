@@ -2,6 +2,7 @@
 title: 口头写作
 date: '2021-11-03'
 slug: oral-writing
+tags: [诗]
 ---
 
 有人的愁<!--# 有人 == 易安 -->  

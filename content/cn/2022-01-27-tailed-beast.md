@@ -2,6 +2,7 @@
 title: 尾兽
 date: '2022-01-27'
 slug: tailed-beast
+tags: [诗]
 ---
 
 突然意识到  

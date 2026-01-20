@@ -2,6 +2,7 @@
 title: 蘸水
 date: '2022-04-10'
 slug: condiment
+tags: [诗]
 ---
 
 少了杨阿姨的午饭局  

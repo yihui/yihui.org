@@ -2,6 +2,7 @@
 title: 打工魂
 date: '2022-07-04'
 slug: worker-soul
+tags: [诗]
 ---
 
 一冰箱的剩菜饭  

@@ -2,6 +2,7 @@
 title: 月食
 date: '2022-05-15'
 slug: lunar-eclipse
+tags: [诗]
 ---
 
 当月光皎洁之时  

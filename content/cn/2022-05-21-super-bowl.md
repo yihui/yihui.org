@@ -2,6 +2,7 @@
 title: 海碗
 date: '2022-05-21'
 slug: super-bowl
+tags: [诗]
 ---
 
 每次在老黄家吃饭  

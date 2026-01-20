@@ -2,6 +2,7 @@
 title: 双全
 date: '2021-07-29'
 slug: double-realization
+tags: [诗]
 ---
 
 多年念念不忘的葫芦  

@@ -2,6 +2,7 @@
 title: 赖不活
 date: '2022-02-24'
 slug: incapable
+tags: [诗]
 ---
 
 力拔山兮气盖世  

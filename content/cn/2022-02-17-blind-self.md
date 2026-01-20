@@ -2,6 +2,7 @@
 title: 无我之我
 date: '2022-02-17'
 slug: blind-self
+tags: [诗]
 ---
 
 有芙蓉和桃李  

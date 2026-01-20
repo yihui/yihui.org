@@ -2,6 +2,7 @@
 title: 推理莽撞人
 date: '2021-07-20'
 slug: bold-inference
+tags: [诗]
 ---
 
 依依、略略、可爱非常  

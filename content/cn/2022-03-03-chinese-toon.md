@@ -2,6 +2,7 @@
 title: 香椿
 date: '2022-03-03'
 slug: chinese-toon
+tags: [诗]
 ---
 
 秋天　我种下  

@@ -2,6 +2,7 @@
 title: 自欺
 date: '2021-09-21'
 slug: self-deception
+tags: [诗]
 ---
 
 体重秤，是出于健康之心  
