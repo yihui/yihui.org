@@ -11,7 +11,7 @@
   data-emit-metadata="0"
   data-input-position="bottom"
   data-theme="preferred_color_scheme"
-  data-lang="{{ if len (findRE "^/cn/" .RelPermalink) }}zh-CN{{ else }}en{{ end }}"
+  data-lang="{{ cond (eq ($.Scratch.Get "lang") "cn") "zh-CN" "en" }}"
   data-loading="lazy"
   crossorigin="anonymous"
   defer>

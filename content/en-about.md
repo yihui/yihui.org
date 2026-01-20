@@ -8,18 +8,18 @@ My name is Yihui Xie. You can know more about me on the [homepage](/) and my
 with a special focus on R. I often update my old posts (even after years) to
 correct errors and remove outdated information, so please don't take everything
 for granted. All opinions expressed here are my own, and I don't represent
-anyone else such as my employer.
+anyone else.
 
 ## Contact me
 
 You can find me on [GitHub](https://github.com/yihui) (where I'm active almost
-every day) or Twitter [\@xieyihui](http://twitter.com/xieyihui) or Mastodon
-[\@yihui\@mastodon.social](https://mastodon.social/@yihui) (I don't read social
-media often, so please don't expect me to respond quickly or at all on social
-media). You may subscribe to the RSS feed of [blog posts](../index.xml) or watch
-the [comments repository](https://github.com/yihui/yihui.org/discussions) to
-stay tuned. I don't like formality, so it is not necessary to call me "Dr Xie"
-when you email or introduce me. I'm a software engineer, so please don't call me
+every day) or BlueSky [\@yihui.org](https://bsky.app/profile/yihui.org) or
+Twitter [\@xieyihui](http://twitter.com/xieyihui) (I don't read social media
+often, so please don't expect me to respond quickly or at all on social media).
+You may subscribe to the RSS feed of [blog posts](../index.xml) or watch the
+[comments repository](https://github.com/yihui/yihui.org/discussions) to stay
+tuned. I don't like formality, so it is not necessary to call me "Dr Xie" when
+you email or introduce me. I'm a software engineer, so please don't call me
 professor.
 
 I don't prefer people asking me questions about open-source packages by private
@@ -47,6 +47,15 @@ In short, I wish I could help you, but practically I cannot do it privately. I
 will truly appreciate it if you could use public resources before trying private
 emails or messages.
 
+## Donate
+
+I'm currently working as a contractor without a full-time job. I'll truly
+appreciate your donation to support my writing and open-source software
+development! On most pages of this site, you can find a "Donate" button at the
+bottom to support me if you'd like to. Your contribution helps me cope with
+financial uncertainty better, so I can spend more time on producing high-quality
+content and software.
+
 ## About this site
 
 This site is created with [**blogdown**](https://github.com/rstudio/blogdown)
@@ -60,15 +69,24 @@ mistakes on the page to propose a correction through GitHub.
 
 ## Some links
 
-### Statistics
+### Personal sites
 
--   [Xi'an's Og](http://xianblog.wordpress.com/): Bayesian, MCMC, R, ...
--   [Normal Deviate](http://normaldeviate.wordpress.com/): Thoughts on
-    Statistics and Machine Learning
+Below is an incomplete list of personal sites that I'm interested in and still
+udating from time to time. If you'd like your website listed here or get your
+site description revised, please leave a comment below or email me.
+
+-   [Dave Tang](https://davetang.org): computational biology and genomics
+-   [Emily Riederer](https://www.emilyriederer.com): reproducible research and
+    analytical tooling, data management and metric/feature innovation, and
+    causal inference
+-   [I-Kang Ding](https://ikding.github.io): machine learning, data science, and
+    climate change
+-   [Sharon Machlis](https://www.machlis.com): technology and journalism
 
 ### R Language
 
--   [The R Project](http://www.r-project.org/)
+-   [The R Project](http://www.r-project.org)
+-   [The R Journal](https://journal.r-project.org)
 -   [R Weekly](https://rweekly.org)
 
 ## My projects
@@ -86,6 +104,8 @@ full list, please see my [vitae](../vitae).
     DataTables
 -   [formatR](/formatr/): Format R code automatically
 -   [knitr](/knitr/): Dynamic report generation with R
+-   [litedown](/litedown/): a lightweight version of R Markdown without Pandoc
+    or knitr
 -   [printr](/printr/): Some printing methods for **knitr**
 -   [Rd2roxygen](/rd2roxygen/): Convert Rd to roxygen documentation
 -   [rlp](/rlp/): Write an R package using literate programming techniques

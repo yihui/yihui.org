@@ -106,6 +106,28 @@ span.hash-note::before { content: "　# "; }
 .bg-number {
   padding: .1em;
 }
+@keyframes nudge {
+  0%, 100% { transform: translateX(0); }
+  50% { transform: translateX(5px); }
+}
+.donate-section {
+  &:not([open]) {
+    &:not(:hover) {
+      opacity: .3;
+    }
+    &:hover summary {
+      animation: nudge 1s ease-in-out infinite;
+    }
+  }
+  summary {
+    text-align: center;
+    cursor: pointer;
+  }
+  border: 1px solid #ccc;
+  padding: .5em 1em;
+  font-size: .9em;
+  background: floralwhite;
+}
 
 @media only screen and (min-width: 768px) {
   pre, table {
