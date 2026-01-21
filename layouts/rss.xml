@@ -11,7 +11,6 @@
     <lastBuildDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</lastBuildDate>{{ end }}
     <atom:link href="{{.Permalink}}" rel="self" type="application/rss+xml" />
     {{ range (first 10 (where (cond .IsHome .Site .Data).Pages.ByDate.Reverse "Params.date" "!=" nil)) }}
-    {{ if (not (in .Content "<!--# ON_HOLD -->")) }}
     <item>
       <title>{{ .Title }}</title>
       <link>{{ .Permalink }}</link>
@@ -36,7 +35,6 @@
         {{ `]]>` | safeHTML }}
       </description>
     </item>
-    {{ end }}
     {{ end }}
   </channel>
 </rss>
