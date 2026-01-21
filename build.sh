@@ -14,14 +14,12 @@ if [ "$CF_PAGES_BRANCH" = "master" ]; then
   mv static/_redirects_cf static/_redirects
 fi
 
+# add litedown documentation
+git submodule update --remote static/litedown
+
 # for preview, build drafts (-D) and use the baseURL from the CI provider
 if [ "${VERCEL_ENV:-$CONTEXT}" = "production" ] || [ "$CF_PAGES_BRANCH" = "master" ]; then
   hugo -F --enableGitInfo
 else
   hugo -F -D -b "${CF_PAGES_URL:-$DEPLOY_PRIME_URL}" --enableGitInfo
 fi
-
-# add litedown documentation
-cd public
-git clone --depth 1 -b gh-pages https://github.com/yihui/litedown litedown
-rm -rf litedown/.git

@@ -1,3 +1,7 @@
 [submodule "themes/hugo-paged"]
 	path = themes/hugo-paged
 	url = https://github.com/yihui/hugo-paged.git
+[submodule "static/litedown"]
+	path = static/litedown
+	url = https://github.com/yihui/litedown
+	branch = gh-pages

@@ -40,6 +40,9 @@ if (!local && Sys.which('sed') != '') for (i in files[, 2]) {
   Sys.chmod(i, '444')  # lock .md again
 }
 
+# update submodules
+system2('git', c('submodule', 'update', '--remote'))
+
 if (!local) {
   message('Optimizing PNG files under static/')
   for (i in list.files('static', '[.]png$', full.names = TRUE, recursive = TRUE)) {
