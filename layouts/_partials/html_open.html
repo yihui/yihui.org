@@ -1,2 +1,2 @@
-{{- $.Scratch.Set "lang" (cond (len (findRE `\p{Han}` .Title)) "cn" (cond (len (findRE "^/cn/" .RelPermalink)) "cn" "en")) -}}
+{{- $.Scratch.Set "lang" (cond (len (findRE `\p{Han}` .Title)) "cn" (cond (len (findRE "^/cn/" .RelPermalink)) "cn" "")) -}}
 <html lang="{{ cond (eq ($.Scratch.Get "lang") "cn") "zh-CN" .Site.LanguageCode }}">
