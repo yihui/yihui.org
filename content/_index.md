@@ -6,11 +6,10 @@ disable_math: true
 I'm currently a freelancer, and was a software engineer at Posit Software, PBC
 (2013-2023). I earned my PhD from the Department of Statistics, Iowa State
 University. My [thesis](https://lib.dr.iastate.edu/etd/13518/) was *Dynamic
-[Graphics](https://github.com/ggobi/cranvas) and [Reporting](/knitr/) for
-Statistics*, advised by [Di Cook](https://www.dicook.org) and [Heike
-Hofmann](https://www.stat.iastate.edu/people/heike-hofmann). I have developed a
-series of R packages either seriously or for
-[fun](https://cran.rstudio.com/package=fun) (or both), such as
+Graphics and Reporting for Statistics*, advised by [Di
+Cook](https://www.dicook.org) and [Heike Hofmann](https://heike.github.io). I
+have developed a series of R packages either seriously or for
+[fun](https://cloud.r-project.org/package=fun) (or both), such as
 [litedown](/litedown/), [knitr](/knitr/), [animation](/animation/),
 [bookdown](https://bookdown.org),
 [blogdown](https://github.com/rstudio/blogdown),
@@ -18,15 +17,14 @@ series of R packages either seriously or for
 [xaringan](https://slides.yihui.org/xaringan/), and [tinytex](/tinytex/). I
 founded a Chinese website called "[Capital of Statistics](https://cosx.org)" in
 2006, which has grown into a large online community on statistics. I initiated
-the China R conference in 2008. I'm a big fan of
-[GitHub](https://github.com/yihui), [LyX](https://www.lyx.org) and
-[Pandoc](https://pandoc.org). I used to hate IE but no longer care since it has
-almost died. I fall asleep when I see beamer slides, and I yell at people who
-use `\textbf{}` to write `\title{}`. I know I cannot eat code, so I cook almost
-every day to stay away from my computer for two hours.
+the China R conference in 2008. I'm a minimalist in both software development
+and everyday life (I rarely break this principle but I do have *three* kids). I
+know I cannot eat code, so I cook almost every day to stay away from my computer
+for two hours.
 
 这是谢益辉的主页。2013 年底我从 [Ames
 村办大学](https://www.iastate.edu)统计系毕业，终于解决了人生前三十年被问最多的问题："你怎么还没毕业？"目前为自由职业者。我支持开源，喜欢折腾网站和代码，是个高度自我驱动的人。打羽毛球爱勾对角，打乒乓球像太极，网球满场子捡球，篮球容易被撞飞，攀岩一次，腿软。宅，口重、嗜辣、屡教不改。智商中等偏下，对麻将和三国杀有不可逾越的认知障碍，实变函数课上曾被老师叫醒。略好读书与文，对诗词楹联感兴趣，目前较中意的一联是：千秋邈矣独留我；百战归来再读书。最喜欢的一首词是：
 
-> 深情似海，问相逢初度，是何年纪？依约而今还记取，不是前生夙世。放学花前，题诗石上，春水园亭里。逢君一笑，人间无此欢喜。  
+> 深情似海，问相逢初度，是何年纪？依约而今还记取，不是前生夙世。放学花前，题诗石上，春水园亭里。逢君一笑，人间无此欢喜。
+>
 > 无奈苍狗看云，红羊数劫，惘惘休提起。客气渐多真气少，汩没心灵何已。千古声名，百年担负，事事违初意。心头阁住，儿时那种情味。
