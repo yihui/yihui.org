@@ -1,4 +1,5 @@
-https://yihui.netlify.com/*  https://yihui.org/:splat  301!
+https://yihui.netlify.app/*  https://yihui.org/:splat  301!
+https://yihui.rbind.io/*     https://yihui.org/:splat  301!
 https://yihui.name/*         https://yihui.org/:splat  301!
 https://www.yihui.name/*     https://yihui.org/:splat  301!
 https://r.yihui.name/*          https://r.yihui.org/:splat          301!
