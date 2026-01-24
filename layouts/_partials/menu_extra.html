@@ -1,5 +1,5 @@
 {{ if not .IsHome }}
-{{ $section := default .Section ($.Scratch.Get "section") }}
+{{ $section := default .Section (or ($.Scratch.Get "lang") ($.Scratch.Get "section")) }}
 {{ if .File }}
 {{ with .Site.Params.githubContentURL }}
 {{ $filePath := $.File.Path }}

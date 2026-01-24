@@ -6,3 +6,4 @@
 {{ end }}
 {{ partial "custom_css.html" (apply .Site.Params.customCSS "print" "utils/" ".") }}
 {{ partial "custom_css.html" .Params.customCSS }}
+<link rel="stylesheet" href="{{ relURL "/css/letter.css" }}">

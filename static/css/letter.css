@@ -1,0 +1,19 @@
+p:has(em:only-child):has(+ hr):has(~ .karaoke) {
+  position: relative;
+  text-align: right;
+  &::before {
+    content: "✉";
+    font-size: 3em;
+    color: #ccc;
+    position: absolute;
+    left: 0;
+    top: -.6em;
+    z-index: -1;
+  }
+  & + hr {
+    margin: -.5em 0 2em;
+  }
+}
+p.date {
+  text-align: right;
+}

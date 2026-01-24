@@ -128,6 +128,15 @@ span.hash-note::before { content: "　# "; }
   font-size: .9em;
   background: floralwhite;
 }
+.book .main h1 {
+  font-size: 1.8em;
+  background: floralwhite;
+  padding: .4em 0 .2em;
+  border: solid 1px var(--border-color);
+  border-bottom-style: dashed;
+  border-left-width: .3em;
+  border-right-width: .3em;
+}
 
 @media only screen and (min-width: 768px) {
   pre, table {
