@@ -1,0 +1,46 @@
+{{ partial "header.html" . }}
+<div class="article-meta">
+<h1 class="title">{{ .Title | markdownify }}</h1>
+{{ with .Params.subtitle }}<h2 class="subtitle">{{ . | markdownify }}</h2>{{ end }}
+<h3 class="meta-line">
+  <span>{{ partial "meta.html" . }}</span>
+  <span class="term">
+  {{ if (default true .Site.Params.showTaxonomy) }}
+  {{ with .Params.categories }}
+  {{ range first 1 . }}
+  {<a href="{{ relURL (print "categories/" . "/" | urlize) }}" class="term-cat">{{ . }}</a>}
+  {{ end }}
+  {{ end }}
+  {{ with .Params.tags }}
+  {{ $len := sub (len .) 1 }}
+  {{ range $i, $v := . }}
+  <a href="{{ relURL (print "tags/" $v "/" | urlize) }}" class="term-tag">{{ if eq $i 0 }}[{{ end }}{{ $v }}{{ if lt $i $len }},{{ else }}]{{ end }}</a>
+  {{ end }}
+  {{ end }}
+  {{ end }}
+  {{ partial "term_extra.html" . }}
+  </span>
+</h3>
+</div>
+<div class="main">
+{{ with .Content }}
+{{ . }}
+{{ end }}
+{{ $pages := .Site.RegularPages }}
+{{ range .Params.filters }}
+  {{ $v := .val }}
+  {{ if in (slice ">=" "<=") .op }}
+    {{ $v = time.AsTime $v }}
+  {{ end }}
+  {{ $pages = where $pages .key .op $v }}
+{{ end }}
+{{ range (sort $pages "Date" "asc") }}
+<h1>{{ .Title }}</h1>
+{{ .Content }}
+<p class="date">{{ .Date.Format "2006-01-02" }}</p>
+{{ partial "song.html" . }}
+{{ end }}
+{{ partial "post_nav.html" . }}
+{{ partial "main_extra.html" . }}
+</div>
+{{ partial "footer.html" . }}
