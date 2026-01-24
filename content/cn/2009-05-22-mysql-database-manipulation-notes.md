@@ -7,7 +7,7 @@ slug: mysql-database-manipulation-notes
 学习最好的方法莫过于实践，最快的途径莫过于示例，这段时间网站搬家，迫使我不断去看一些SQL操作方法，最终记载于此，以便将来参考。
 
 
-# 1、时间操作
+## 1、时间操作
 
 
 例：将GMT时间更改为GMT+8，可用`INTERVAL`把一段时间加到一个字段上。
@@ -20,7 +20,7 @@ UPDATE `wpcn_posts` SET `post_date` = `post_date_gmt` + INTERVAL 8 HOUR
 本例是为了对付Bo-Blog搬家到WP时大部分时间记录都没有被正确转换到GMT+8时区的问题。
 
 
-# 2、字符查找替换
+## 2、字符查找替换
 
 
 例：将某个图片的错误文件名更改为正确文件名。
@@ -37,7 +37,7 @@ WHERE `comment_content` LIKE '%emot/ok%'
 本例是为了对付Bo-Blog的pig.gif图片文件名被错误替换为ok.gif的问题，用到了`REPLACE`函数和`LIKE`操作符，注意`LIKE`后面的字段用`%%`匹配，而非`*`。
 
 
-# 3、用R帮忙
+## 3、用R帮忙
 
 
 例：批量更新日志的永久链接。
@@ -60,7 +60,7 @@ UPDATE `wpen_posts` SET post_name = 'dare-be-defeated' WHERE ID =2;
 插一句，对于英文日志，永久链接就是把空格替换为-，用正则表达式删掉不是`[:alnum:]`的字符即可。
 
 
-# 4、用`mysqldump`备份数据库
+## 4、用`mysqldump`备份数据库
 
 
 这个命令可以以多种形式备份MySQL数据库，这里举例将数据库备份为`*.sql`的SQL语句脚本：

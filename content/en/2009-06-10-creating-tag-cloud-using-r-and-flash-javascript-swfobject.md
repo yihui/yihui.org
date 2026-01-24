@@ -12,7 +12,7 @@ Tag cloud is a bunch of words drawn in a graph with their sizes proportional to 
 Marc Schwartz mentioned that [Gorjanc Gregor](http://ggorjan.blogspot.com/) has done [some work](http://www.bfro.uni-lj.si/MR/ggorjan/software/R/index.html#tagCloud) years ago using R (in grid graphics). The obstacle of creating tag cloud in R, as Gorjanc wrote, lies in deciding the placement of words, and it would be much easier for other applications such as browsers to arrange the texts. That's true -- there have already been a lot of mature programs to deal with tag cloud. One of them is the `wp-cumulus` plugin for WordPress, which makes use of a Flash object to generate the tag cloud, and it has fantastic 3D rotation effect of the cloud.
 
 
-# 1. Arranging text labels with `pointLabel()`
+## Arranging text labels with `pointLabel()`
 
 Before introducing how to port the plugin into R, I'd like to introduce an R function `pointLabel()` in **maptools** package and it can partially solve the problem of arranging text labels in a plot (using simulated annealing or genetic algorithm). Here is a simulated example:
 
@@ -33,7 +33,7 @@ pointLabel(x, y, w, cex = runif(19, 1, 5))
 
 I was fortunate to get a very neat graph with no labels overlapping, but I don't think this is a good solution, as it doesn't take care of the initial locations of the words. My rough idea about deciding the initial locations is to sample on circles with radii proportional to the frequency, i.e. let x = freq * sin(&theta;) and y = freq * cos(&theta;) where &theta; ~ U(0, 2&pi;). In this case, important words will be placed near the center of the plot.
 
-# 2. Creating tag cloud in a Flash movie using R
+## Creating tag cloud in a Flash movie using R
 
 The problem becomes quite easy with a Flash movie [tagcloud.swf](http://www.roytanck.com/2008/05/19/how-to-repurpose-my-tag-cloud-flash-movie/) and a JavaScript program [swfobject.js](http://blog.deconcept.com/swfobject/). The mechanism, briefly speaking, is that the tag information is passed to the Flash object by JavaScript, and the Flash object will read the variable `tagcloud` where the sizes, colors and hyperlinks of tags are stored. Finally the tags are visualized like rotating cloud.
 
@@ -65,7 +65,7 @@ Additional columns `color` and `hicolor` will be used if they exist (hexadecimal
 6          arrows()            http://yihui.org/en/tag/arrows/     1 31f5fb  19d50d
 ```
 
-# 3. Example
+## Example
 
 Here is an example on visualizing my blog tags.
 
@@ -76,7 +76,7 @@ tagCloud(tagData)
 
 The above code will generate an HTML page. You can adjust the parameters as you wish.
 
-# 4. Other issues
+## Other issues
 
 There is still one more step to answer Tony's original question, namely splitting the speech into single words and computing the frequency. This can be (roughly) done by `strsplit(..., split = " ")` and `table()`.
 
