@@ -538,6 +538,12 @@ point.
     links = links[order(info[, 1] == '', info[, 1])]
     ```
 
+-   WeChat sponsors
+
+    I also received several donations on WeChat, but unfortunately it's not
+    possible to programmatically scrape the names, so I can only say that I
+    really appreciate your generous help via WeChat Pay in 2024!
+
 </div>
 
 Throughout January 2024, I kept getting Github notifications about new sponsors,
@@ -606,7 +612,7 @@ keyboard while you work from home.
 
 Now I think you can forgive me for not having responded to your messages yet.
 
-I only traveled three times in the two years. Once to UC Berckley to give a
+I only traveled three times in the two years. Once to UC Berkeley to give a
 talk, once to visit families in China, and once to New Zealand (for the first
 time) to give the Ihaka lecture. One most memorable moment was when I climbed to
 the top of the
