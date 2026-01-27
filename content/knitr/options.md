@@ -92,7 +92,7 @@ plot(cars)
 ````
 
 For this syntax, chunk options must be written on *continuous* lines (i.e., all
-lines must start with the special comment prefix such as `⁠#|⁠`) at the beginning
+lines must start with the special comment prefix such as `#|`) at the beginning
 of the chunk body. The blank line between the options and code is optional. This
 syntax allows for hard-wrapping the options. You can break the options onto as
 many lines as you wish. If the same option is provided in both the chunk body

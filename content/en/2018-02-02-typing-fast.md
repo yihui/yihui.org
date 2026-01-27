@@ -54,7 +54,7 @@ Update on 2018-03-04
 
 :   The video of the talk is freely available [on the RStudio website](https://www.rstudio.com/resources/videos/create-and-maintain-websites-with-r-markdown-and-blogdown/).
 
-    [![Create and maintain websites with R Markdown and blogdown – RStudio](https://embedwistia-a.akamaihd.net/deliveries/3a89d37534901d8aea63adaa722e644c547345ce.jpg?image_play_button_size=2x&image_crop_resized=960x540&image_play_button=1&image_play_button_color=4287c7e0)](https://www.rstudio.com/resources/videos/create-and-maintain-websites-with-r-markdown-and-blogdown/?wvideo=zvnt290yte)
+    [![Create and maintain websites with R Markdown and blogdown --- RStudio](https://embedwistia-a.akamaihd.net/deliveries/3a89d37534901d8aea63adaa722e644c547345ce.jpg?image_play_button_size=2x&image_crop_resized=960x540&image_play_button=1&image_play_button_color=4287c7e0)](https://www.rstudio.com/resources/videos/create-and-maintain-websites-with-r-markdown-and-blogdown/?wvideo=zvnt290yte)
 
 ## Appendix: Does `yolo: true` work in blogdown?
 

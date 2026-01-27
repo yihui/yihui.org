@@ -24,7 +24,7 @@ slug: feynman-sharingan
 
 费曼是非常有个性的人，擅长忽略别人的看法：我就喜欢物理，我想怎么玩就怎么玩，至于它有什么意义，不是当下我要操心的事。最后，这么一个旋转的盘子，成了打通任督二脉的初始内力。
 
-> I went on to work out equations of wobbles.  Then I thought about how electron orbits start to move in relativity.  Then there's the Dirac Equation in electrodynamics.  And then quantum electrodynamics.  And before I knew it (it was a very short time) I was "playing"—working, really with the same old problem that I loved so much, that I had stopped working on when I went to Los Alamos: my thesis‑type problems; all those old‑fashioned, wonderful things.
+> I went on to work out equations of wobbles.  Then I thought about how electron orbits start to move in relativity.  Then there's the Dirac Equation in electrodynamics.  And then quantum electrodynamics.  And before I knew it (it was a very short time) I was "playing"—working, really with the same old problem that I loved so much, that I had stopped working on when I went to Los Alamos: my thesis-type problems; all those old-fashioned, wonderful things.
 
 本来我看这篇文章是为了查找费曼的下面这句引言的来源，不过误打误撞看到了上面的故事，挺有启发。他是一个少有的为自己活的人，却又有强烈的内驱力。我等普罗众生，既没有他的写轮眼，也没有他那无以伦比的与物理学相连的好奇心，还时时在乎别人的眼光和看法。
 
