@@ -24,10 +24,10 @@ body {
   font-family: 'Yihui CN', Palatino, 'Palatino Linotype', 'Palatino LT STD', 'Latin Modern Roman', serif;
 }
 .home blockquote, .cn blockquote, .kai, .cn em, .cn .side, .hash-note, .hide-notes .toggle-notes {
-  font-family: 'Yihui Kai', 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+  font-family: 'Yihui Kai', 'Palatino Linotype', 'Book Antiqua', Palatino, 'Kai TC', serif;
 }
 code {
-  font-family: 'Yihui Kai', Consolas, Courier, 'Lucida Console', 'Courier New', monospace;
+  font-family: 'Yihui Kai', Consolas, Courier, 'Lucida Console', 'Courier New', 'Kai TC', monospace;
 }
 pre, code {
   font-size: .95em;
