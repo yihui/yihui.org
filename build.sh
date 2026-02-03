@@ -1,7 +1,7 @@
 #!/bin/sh
 
-# add litedown documentation
-git submodule update --remote static/litedown
+# check out latest books (litedown, bookdown, blogdown, etc.)
+git submodule update --remote --merge
 
 if [ "$CF_PAGES_BRANCH" = "master" ]; then
   # Cloudflare Pages only does a shallow clone, which loses git info

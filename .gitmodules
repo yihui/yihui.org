@@ -5,3 +5,19 @@
 	path = static/litedown
 	url = https://github.com/yihui/litedown
 	branch = gh-pages
+[submodule "static/rmarkdown-cookbook"]
+	path = static/rmarkdown-cookbook
+	url = https://github.com/rstudio/rmarkdown-cookbook.git
+	branch = gh-pages
+[submodule "static/bookdown"]
+	path = static/bookdown
+	url = https://github.com/rstudio/bookdown.git
+	branch = gh-pages
+[submodule "static/blogdown"]
+	path = static/blogdown
+	url = https://github.com/rstudio/blogdown.git
+	branch = gh-pages
+[submodule "static/rmarkdown"]
+	path = static/rmarkdown
+	url = https://github.com/rstudio/rmarkdown-book.git
+	branch = gh-pages
