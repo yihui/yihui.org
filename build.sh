@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # check out latest books (litedown, bookdown, blogdown, etc.)
-git submodule update --remote --merge
+git submodule update --remote --init --force --depth 1
 
 if [ "$CF_PAGES_BRANCH" = "master" ]; then
   # Cloudflare Pages only does a shallow clone, which loses git info
