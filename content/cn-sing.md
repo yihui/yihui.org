@@ -119,7 +119,7 @@ show_toc: false
 1. 李雨儿《雨花石》
 1. 李玉刚《[新贵妃醉酒](https://kg.qq.com/node/play?s=PkJ0JciPq7paYiwL)》
 1. 李宗盛《凡人歌》《鬼迷心窍》
-1. 梁静茹《[别人的天长地久](https://kg.qq.com/node/play?s=xMuFuHoxUqyFhoHJ)》《[崇拜](https://kg.qq.com/node/play?s=sBcwcJDsZnAgWD6W)》《[给未来的自己](https://kg.qq.com/node/play?s=l6wcw0rl3N24qrBK)》《[可惜不是你](https://kg.qq.com/node/play?s=2tT7TOQ2kzPG5QOZ)》《情歌》《[如果有一天](https://kg.qq.com/node/play?s=FzIxIEhFCg8KGhGz)》《无条件为你》《燕尾蝶》《[勇气](https://kg.qq.com/node/play?s=wilslWkwQ9mVVkcm)》
+1. 梁静茹《[别人的天长地久](https://kg.qq.com/node/play?s=xMuFuHoxUqyFhoHJ)》《[C\'est La Vie](https://kg.qq.com/node/play?s=qQVKVAtqikBqDtOM)》《[崇拜](https://kg.qq.com/node/play?s=sBcwcJDsZnAgWD6W)》《[第三者](https://kg.qq.com/node/play?s=fCLeLXYfzFapeYP8)》《[给未来的自己](https://kg.qq.com/node/play?s=l6wcw0rl3N24qrBK)》《[孤单北半球](https://kg.qq.com/node/play?s=odRhR5xopvS9axgE)》《[可惜不是你](https://kg.qq.com/node/play?s=2tT7TOQ2kzPG5QOZ)》《[情歌](https://kg.qq.com/node/play?s=uSxIxGRuyIBtgRFP)》《[如果有一天](https://kg.qq.com/node/play?s=FzIxIEhFCg8KGhGz)》《[丝路](https://kg.qq.com/node/play?s=mOZ3ZtAmcWqbjAFk)》《[听不到](https://kg.qq.com/node/play?s=0DWPWlB0_ZXhQBrS)》《[为我好](https://kg.qq.com/node/play?s=7_A2AVZ7D0nBVZZE)》《[无条件为你](https://kg.qq.com/node/play?s=Bsjijr0BK708p0vm)》《[燕尾蝶](https://kg.qq.com/node/play?s=aLCyCv8aIyqwX8pU)》《[勇气](https://kg.qq.com/node/play?s=wilslWkwQ9mVVkcm)》
 1. 梁咏琪《爱的代价》《爱情海》《凹凸》《短发》《关于爱》《神说》《顺时针》《向左走向右走》《新鲜》《*原来爱情这么伤*》《有时候》
 1. 廖岷《流动的青春》《已是盛夏》
 1. 林俊杰《江南》
@@ -152,13 +152,13 @@ show_toc: false
 1. 朴树《白桦林》《那些花儿》《平凡之路》
 1. 齐峰《父亲的草原母亲的河》《我和草原有个约定》
 1. 齐秦《不让我的眼泪陪我过夜》《大约在冬季》《狂流》《狼》《丝路》《往事随风》《无情的雨无情的你》《悬崖》《夜夜夜夜》《自己的沙场》
-1. 齐豫《[C'est La Vie](https://kg.qq.com/node/play?s=GhHdHuzGfW6uDzON)》《飞鸟与鱼》《橄榄树》《你是我所有的回忆》《[Tears-Donde Voy](https://kg.qq.com/node/play?s=1A_g_QO1jYerIO1L)》
+1. 齐豫《[C\'est La Vie](https://kg.qq.com/node/play?s=GhHdHuzGfW6uDzON)》《飞鸟与鱼》《橄榄树》《你是我所有的回忆》《[Tears-Donde Voy](https://kg.qq.com/node/play?s=1A_g_QO1jYerIO1L)》
 1. 裘海正《爱你十分泪七分》《爱我的人和我爱的人》《懂爱的人》《亏欠一生》《像我这样重感情的人》《*一颗心住着两个人*》
 1. 瞿颖《加速度》
 1. 任贤齐《彩虹沙漠》《沧海一声笑》《春天花会开》《匆匆》《飞鸟》《风暴》《好聚好散》《很受伤》《花太香》《活着》《橘子香水》《哭个痛快》《老地方》《流着泪的你的脸》《呢喃》《你愿意我愿意》《任逍遥》《伤心太平洋》《死不了》《天涯》《我是一只小小鸟》《我是一只鱼》《小雪》《心太软》《兄弟》《依靠》《再问一次》《烛光》
 1. 容中尔甲《高原红》《九寨之子》《神奇的九寨》
 1. 容祖儿《爱情复兴》《小小》
-1. 萨顶顶《左手指月》
+1. 萨顶顶《[左手指月](https://kg.qq.com/node/play?s=bY8p8NCbhpK2YCw-)》
 1. 沙宝亮《暗香》
 1. 沈庆《青春》《岁月》《*野火*》
 1. 石村《一肩挑起千古情》
