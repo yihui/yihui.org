@@ -1,10 +1,13 @@
 ---
 title: What I have lived for
+author: Bertrand Russell
 date: '2005-08-29'
 slug: what-i-have-lived-for
 ---
 
-Bertrand Russell lived for the longing for love, the search for knowledge, and unbearable pity for the suffering of mankind.
+Summary
+
+: Bertrand Russell lived for the longing for love, the search for knowledge, and unbearable pity for the suffering of mankind.
 
 Three passions, simple but overwhelmingly strong, have governed my life: the longing for love, the search for knowledge, and unbearable pity for the suffering of mankind. These passions, like great winds, have blown me hither and thither, in a wayward course, over a deep ocean of anguish, reaching to the very verge of despair.
 
