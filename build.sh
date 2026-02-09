@@ -1,5 +1,7 @@
 #!/bin/sh
 
+set -e
+
 # check out latest books (litedown, bookdown, blogdown, etc.)
 git submodule update --remote --init --force --depth 1
 

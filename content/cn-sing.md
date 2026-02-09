@@ -5,6 +5,43 @@ show_toc: false
 ---
 
 <style type="text/css">
+#mplayer {
+  border: 1px solid #ccc;
+  border-radius: 0.5rem;
+  .track-info {
+    padding: .8em 1em .5em;
+    background: #fafafa;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    border-bottom: 1px solid #ccc;
+  }
+  audio {
+    display: block;
+  }
+  .playlist {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5em;
+    font-size: 0.95em;
+    max-height: 20em;
+    overflow-y: auto;
+    margin: 1em 0 .5em 1em;
+    i {
+      flex: 15em;
+      cursor: pointer;
+      padding-left: 1em;
+      text-indent: -1em;
+      &:not(:hover) {
+        font-style: normal;
+      }
+      &.active {
+        background: lightyellow;
+      }
+    }
+  }
+}
 @media (min-width: 768px) {
   .main {
     width: 100%;
@@ -16,7 +53,74 @@ show_toc: false
 }
 </style>
 
-为了避免每次 K 歌时临时抱佛脚去拼命回忆喜欢或能唱的歌，特创建一份歌单在此，供自己点歌时参考。歌名上的链接指向我的全民 K 歌页面。
+<div id="mplayer">
+  <div class="track-info">
+    <strong class="title">选择一首歌</strong>
+    <small class="singer">等待播放...</small>
+  </div>
+  <div class="playlist kai"></div>
+  <audio controls></audio>
+</div>
+
+<script type="module">
+const player = document.getElementById('mplayer'),
+  $ = sel => player.querySelector(sel),
+  audio = $('audio'),
+  title = $('.title'),
+  singer = $('.singer'),
+  links = document.querySelectorAll('a[href^="https://kg.qq.com/node/play?s="]'),
+  extractSinger = (text) => {
+    if (!text || !text.includes('《')) return '';
+    return text.split('《')[0].replace(/^[0-9\.\s]+/, '').trim();
+  };
+
+let version = '';
+try {
+  const res = await fetch('https://data.jsdelivr.com/v1/packages/gh/yihui/songs/resolved?specifier=latest');
+  const data = await res.json();
+  version = data.version || '';
+} catch (e) {}
+
+const playlist = [...links].map((link) => {
+    const id = new URL(link.href).searchParams.get('s');
+    const li = link.closest('li'),
+      liText = li ? li.textContent.trim() : '',
+      singer = extractSinger(liText),
+      title = link.textContent.trim() || (liText.match(/《([^》]+)》/)?.[1] ?? id);
+    return { id, title, singer, src: `https://cdn.jsdelivr.net/gh/yihui/songs${version ? '@' + version : ''}/${id}.m4a` };
+  }),
+  items = [];
+
+playlist.forEach((track, index) => {
+  const item = document.createElement('i');
+  item.textContent = `${index + 1}. ${track.singer ? track.singer + ' · ' : ''}${track.title}`;
+  item.onclick = () => loadTrack(index, true);
+  items.push(item);
+});
+$('.playlist').append(...items);
+
+let current = 0;
+
+function highlight(index) {
+  items.forEach((item, i) => item.classList.toggle('active', i === index));
+}
+
+function loadTrack(index, autoplay) {
+  current = (index + playlist.length) % playlist.length;
+  const track = playlist[current];
+  title.textContent = track.title;
+  singer.textContent = track.singer || '';
+  audio.src = track.src;
+  highlight(current);
+  autoplay ? audio.play().catch(() => {}) : items[current].scrollIntoView();
+}
+
+audio.onended = () => loadTrack(current + 1, true);
+// load a random track and scroll to it
+loadTrack(Math.random() * playlist.length | 0, false);
+</script>
+
+为了避免每次 K 歌时临时抱佛脚去拼命回忆喜欢或能唱的歌，特创建一份歌单在此，供自己点歌时参考。歌名上的链接指向我的全民 K 歌页面。上面是一个简易播放器，列表内是目前为止我录过的全部歌曲；请慎点，要是辣到耳朵概不负责。
 
 ## 国语
 
