@@ -11,10 +11,10 @@ Note
     dependencies.
 
 The number of reverse dependencies of the **knitr** package (and **rmarkdown**)
-reached 10,000 a couple of years ago, about which I have mixed feelings. On the
-one hand, it's great that so many packages depend on **knitr** and
-**rmarkdown**; on the other hand, it means checking reverse dependencies is
-becoming more and more terrifying.
+reached 10,000 a couple of years ago, about which I have mixed feelings. On one
+hand, it's great that so many packages depend on **knitr** and **rmarkdown**; on
+the other hand, it means checking reverse dependencies becomes a more and more
+daunting task.
 
 One problem is, with this many reverse dependencies, CRAN's reverse dependency
 check will almost surely find false positive problems. Every single time I
@@ -38,10 +38,12 @@ Package: NeEDS4BigData
 Check: tests
 New result: ERROR
     Running ‘spelling.R’ [0s/0s]
+....
 ```
 
 It's a huge pain to scan through the logs and find out which packages are really
-broken. I'm sure that some problems are not my fault, like this one:
+broken by me. I'm sure that some problems are not my fault, like this one
+(connectivity issues):
 
 ```         
 Package: tsfeatures
