@@ -617,7 +617,7 @@ talk, once to visit families in China, and once to New Zealand (for the first
 time) to give the Ihaka lecture. One most memorable moment was when I climbed to
 the top of the
 [Maungawhau](https://en.wikipedia.org/wiki/Maungawhau_/_Mount_Eden) (Mt Eden)
-volcano in Auckland (in my flip-flops, as usual). I had known the `vocalno`
+volcano in Auckland (in my flip-flops, as usual). I had known the `volcano`
 dataset in base R for nearly 20 years, and finally I got to see the real volcano
 in person!
 
