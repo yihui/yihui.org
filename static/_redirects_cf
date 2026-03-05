@@ -36,6 +36,11 @@
 /tinytex/TinyTeX-2.tgz https://github.com/rstudio/tinytex-releases/releases/download/daily/TinyTeX-2.tgz 301
 /tinytex/TinyTeX-2.tar.gz https://github.com/rstudio/tinytex-releases/releases/download/daily/TinyTeX-2.tar.gz 301
 
+/tinytex/TinyTeX-arm64.tar.gz https://github.com/rstudio/tinytex-releases/releases/download/daily/TinyTeX-arm64.tar.gz 301
+/tinytex/TinyTeX-0-arm64.tar.gz https://github.com/rstudio/tinytex-releases/releases/download/daily/TinyTeX-0-arm64.tar.gz 301
+/tinytex/TinyTeX-1-arm64.tar.gz https://github.com/rstudio/tinytex-releases/releases/download/daily/TinyTeX-1-arm64.tar.gz 301
+/tinytex/TinyTeX-2-arm64.tar.gz https://github.com/rstudio/tinytex-releases/releases/download/daily/TinyTeX-2-arm64.tar.gz 301
+
 /tinytex/install-base.sh https://tinytex.yihui.org/install-base.sh 301
 /tinytex/install-bin-unix.sh https://tinytex.yihui.org/install-bin-unix.sh 301
 /tinytex/install-bin-windows.bat https://tinytex.yihui.org/install-bin-windows.bat 301
