@@ -124,8 +124,8 @@ loadTrack(Math.random() * playlist.length | 0, false);
 
 ## 国语
 
-1. 阿桑《疯了》《寂寞在唱歌》《温柔的慈悲》《一直很安静》
-1. 巴奈《巴奈流浪记》
+1. 阿桑《疯了》《[寂寞在唱歌](https://kg.qq.com/node/play?s=7_A2AVZ7Dse1iZVe)》《温柔的慈悲》《一直很安静》
+1. 巴奈《[巴奈流浪记](https://kg.qq.com/node/play?s=aLCyCv8aI_Ya18DZ)》
 1. 蔡淳佳《眼里眉间》《未知的以后》
 1. 蔡健雅《记念》
 1. 蔡琴《[不悔](https://kg.qq.com/node/play?s=2tT7TOQ2w4UccQmD)》《[出塞曲](https://kg.qq.com/node/play?s=aLCyCv8a-hkzX8pI)》《[抉择](https://kg.qq.com/node/play?s=D04k46sDZmh54sr5)》《[明天会更好](https://kg.qq.com/node/play?s=D04k46sDZmrdIs9e)》《[你的眼神](https://kg.qq.com/node/play?s=SuM5MhESnvHq0Ehx)》《[秋缠](https://kg.qq.com/node/play?s=doEGEIMdenxuEMMf)》《[油麻菜籽](https://kg.qq.com/node/play?s=doEGEIMde9j7JMoV)》《[最后一夜](https://kg.qq.com/node/play?s=qQVKVAtqPJ9u2tSX)》
@@ -133,7 +133,7 @@ loadTrack(Math.random() * playlist.length | 0, false);
 1. 曹方《比天空还远》《3170》
 1. 常艾菲《刺心》
 1. 车继玲《[最远的你是我最近的爱](https://kg.qq.com/node/play?s=98YnYUL9H9ZVeLp0)》
-1. 陈楚生《有没有人告诉你》
+1. 陈楚生《[有没有人告诉你](https://kg.qq.com/node/play?s=doEGEIMdvluVKM-6)》
 1. 陈冠蒲《好聚好散》《红太阳》《太多》
 1. 陈红《古老的故事》《这一次我是真的留下来陪你》
 1. 陈慧琳《记事本》《心不设防》
@@ -214,7 +214,7 @@ loadTrack(Math.random() * playlist.length | 0, false);
 1. 李茂山《游子吟》
 1. 李娜《好人一生平安》《康定情歌》《青藏高原》《小路》
 1. 李琼《山路十八弯》
-1. 李荣浩《麻雀》
+1. 李荣浩《[麻雀](https://kg.qq.com/node/play?s=aLCyCv8aI_e-m8af)》
 1. 李寿全《张三的歌》
 1. 李殊《[感动今生无法改变的你](https://kg.qq.com/node/play?s=A17T7qmAcLgTPm14)》《[人间情多](https://kg.qq.com/node/play?s=Bsjijr0B_h5RN0lh)》《[烟雨唱扬州](https://kg.qq.com/node/play?s=D04k46sDZzxaGs9B)》《[原谅我过去不懂](https://kg.qq.com/node/play?s=_71t13K_BCX8kKVx)》
 1. 李晓东《关于理想的课堂作文》
@@ -308,7 +308,7 @@ loadTrack(Math.random() * playlist.length | 0, false);
 1. 谢春花《借我》
 1. 谢东《笑脸》
 1. 谢霆锋《281 公里》《谢谢你的爱 1999》《要我怎么忘了他》《因为爱所以爱》《只要为你活一天》
-1. 辛晓琪《[俩俩相忘](https://kg.qq.com/node/play?s=5IzSzoH5LHpZmHTZ)》《[味道](https://kg.qq.com/node/play?s=LafNfp9L5923r9es)》
+1. 辛晓琪《[爱的回答](https://kg.qq.com/node/play?s=3VQmQ_T3l0CnHT52)》《[俩俩相忘](https://kg.qq.com/node/play?s=5IzSzoH5LHpZmHTZ)》《[味道](https://kg.qq.com/node/play?s=LafNfp9L5923r9es)》
 1. 信《[告别的时代](https://kg.qq.com/node/play?s=Qq3Z312Qk0Vqc2Sy)》《[海阔天空](https://kg.qq.com/node/play?s=uSxIxGRuygCSwRz4)》《[火烧的寂寞](https://kg.qq.com/node/play?s=3VQmQ_T3rW9viTHh)》《[假如](https://kg.qq.com/node/play?s=iw6B64PitZzpYPNU)》《[离歌](https://kg.qq.com/node/play?s=jcB6BkWjO8q3yWf-)》《[千年之恋](https://kg.qq.com/node/play?s=rJk4kBlr3OxeFllz)》《[死了都要爱](https://kg.qq.com/node/play?s=3VQmQ_T3lEkX-T5F)》
 1. 熊天平《愚人码头》《雪候鸟》
 1. 徐怀钰《分飞》《踏浪》《心中的遗憾》《友情卡片》《*雨伞*》
@@ -319,7 +319,7 @@ loadTrack(Math.random() * playlist.length | 0, false);
 1. 许哲珮《气球》
 1. 薛之谦《绅士》《演员》
 1. 严艺丹《三寸天堂》
-1. 洋澜一《天际》
+1. 洋澜一《[回忆是解药也是毒方](https://kg.qq.com/node/play?s=doEGEIMdveRX4MTW)》《[天际](https://kg.qq.com/node/play?s=t2g_gmqtPc0txqmz)》
 1. 阳一《回来我的爱》
 1. 杨钰莹《晚霞中的红蜻蜓》《我在春天等你》
 1. 杨子姗《微甜的回忆》
