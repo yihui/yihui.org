@@ -22,7 +22,7 @@ sysadmins of their computers.
     However, this means you will not be able to install or update LaTeX packages
     after the current version of TeX Live is frozen (which happens annually).
 
-2.  **Do you provide prebuilt binaries of TinyTeX?**
+2.  **Do you provide pre-built binaries of TinyTeX?**
 
     Yes, we have started to provide prebuilt binary packages for TinyTeX since
     September 2020, which can be found in the GitHub repo
@@ -34,9 +34,11 @@ sysadmins of their computers.
 
 3.  **What is the size of TinyTeX?**
 
-    About 84MB on macOS and 66MB on Linux (gzipped), and 99MB on Windows
-    (zipped). You may think it is still too big, but please consider that the
-    size of [the BasicTeX
+    It ranges from 50 to 70+MB (zipped) depending on the platform. See the
+    GitHub repo
+    [`rstudio/tinytex-releases`](https://github.com/rstudio/tinytex-releases)
+    for up-to-date file sizes. You may think it is still too big, but please
+    consider that the size of [the BasicTeX
     installer](https://www.tug.org/mactex/morepackages.html) for macOS is about
     80MB, and a [basic MiKTeX installer](https://miktex.org/download) for
     Windows is about 235MB.
@@ -81,7 +83,7 @@ sysadmins of their computers.
     Then I use `tlmgr` to install a few more commonly used packages (defined in
     [pkgs-custom.txt](https://github.com/rstudio/tinytex/blob/master/tools/pkgs-custom.txt)).
     With these packages, you should be able to compile most R Markdown documents
-    to PDF. The total size becomes about 61MB.
+    to PDF. The total size becomes about 50-70MB.
 
     The fact that I only included a small number of LaTeX packages in TinyTeX is
     one of the two reasons why TinyTeX is relatively small in size. The other
@@ -95,16 +97,14 @@ sysadmins of their computers.
 
     Why do I exclude source files? Because they are unlikely to be useful to
     end-users. Would you really read the source code of a LaTeX package?
-    Probably not, unless you are a developer or advanced LaTeX user.
 
-    Why do I exclude the documentations? Tell me honestly: how many times have
-    you found a solution via [StackExchange](https://tex.stackexchange.com), and
-    how many times have you tried to read the package documentation? Even with
-    the full documentation installed, you probably don't even know where to find
-    these documentation files on your computer. The documentation files take a
-    lot of disk space, and I believe they are rarely read by an average user, so
-    they are not included. The address bar of your web browser is the most
-    convenient documentation: type and search.
+    Why do I exclude the documentations? In the pre-AI age, you'd normally go to
+    [StackExchange](https://tex.stackexchange.com) to find solutions to your
+    problems, and now you simply ask AI. Do you really still read the package
+    documentation? Even with the full documentation installed, you probably
+    don't even know where to find these documentation files on your computer.
+    The documentation files take a lot of disk space, and I believe they are
+    rarely read by an average user.
 
     If you do want to obtain the source and documentation of packages, you may
     find them [on CTAN](https://ctan.org). Alternatively, you can reinstall the
@@ -127,20 +127,22 @@ sysadmins of their computers.
 5.  **I'm a Linux system admin. How can I install TinyTeX for all users of a
     system?**
 
-    First, add two options `--admin --no-path` to the installation script:
+    First, add the options `--no-path` to the installation script:
 
     ``` sh
-    wget -qO- "https://tinytex.yihui.org/install-unx.sh" \
-      | sh -s - --admin --no-path
+    wget -qO- "https://tinytex.yihui.org/install-bin-unix.sh" \
+      | sh -s - --no-path
     ```
 
     This will install TinyTeX to `~/.TinyTeX`, and this step does *not* require
-    root privileges. Then you need to add symlinks to `/usr/local/bin` via
-    `sudo`, so that all users of this system can use the TeX Live executables
-    (e.g., `pdflatex`):
+    root privileges. Then you need to add symlinks to a path that exists in
+    `PATH` for all users (e.g., `/usr/local/bin`) via `sudo`, so that all users
+    of this system can use the TeX Live executables (e.g., `pdflatex`):
 
     ``` sh
-    sudo ~/.TinyTeX/bin/*/tlmgr path add
+    cd ~/.TinyTeX/bin/*
+    ./tlmgr option sys_bin /usr/local/bin
+    sudo ./tlmgr path add
     ```
 
     [Some systems](https://github.com/rstudio/tinytex/issues/37) may set the
@@ -249,53 +251,29 @@ sysadmins of their computers.
 
     Personally, I don't like the way that all LaTeX packages are distributed on
     Linux (e.g., Debian) as `texlive-*` packages, and each `texlive-*` package
-    contains several LaTeX packages. That means you must install several other
-    LaTeX packages even if you only need one. Imagine as an R user (or Python,
-    or other languages): if someone pre-builds the more than 10,000 R packages
-    on CRAN as 20 *collections* of packages, what do you feel when you only need
-    the **ggplot2** package but are forced to install all possible packages
-    related to data visualization? Obviously the advantage of providing these
-    collections is that you may not need to install missing packages over and
-    over again, but I'd prefer a lean TeX Live distribution and install packages
-    by myself.
+    contains a large number of LaTeX packages. That means you must install
+    several other LaTeX packages even if you only need one. Imagine as an R user
+    (or Python, or other languages): if someone pre-builds the more than 10,000
+    R packages on CRAN as 20 *collections* of packages, what do you feel when
+    you only need the **ggplot2** package but are forced to install all possible
+    packages related to data visualization? Obviously the advantage of providing
+    these collections is that you may not need to install missing packages over
+    and over again, but I'd prefer a lean TeX Live distribution and install
+    packages by myself.
 
 8.  **Can I change the installation directory?**
-
-    The directory path is hard-coded in the installation script, and you cannot
-    change it from the command line when installing TinyTeX. I chose these
-    directories for Linux, macOS, and Windows because they are hidden by default
-    on these platforms. TeX Live should not need (cry for) your attention in
-    most cases. If you really want to change the directory, there are a few
-    ways:
-
-    -   You can download the installation scripts and modify them by yourself
-        (in the spirit of open source).
 
     -   If you are an R user, you can install the R package **tinytex**, and
         pass a custom directory name to the `dir` argument of
         `tinytex::install_tinytex()`.
 
-    -   Or install TinyTeX first, and move the installation folder to where
-        you'd like it to be (you can even move it to a USB stick). That is
-        because TinyTeX is essentially a *portable* version of TeX Live. The
-        tricky part of this way is to deal with the `PATH` variable. You need to
-        run the command `tlmgr path add`, but `tlmgr` won't be on `PATH` if you
-        have moved the default installation directory, so you have to execute
-        `tlmgr` through its full path, e.g.,
+    -   If you use the [Shell/Batch script](../#installation) to install
+        TinyTeX, set the environment variable `TINYTEX_DIR` to the directory you
+        want before you run the script, e.g.,
 
         ``` sh
-        # assume you moved ~/.TinyTeX on Linux to /opt/tinytex
-        /opt/tinytex/bin/*/tlmgr path add
-
-        # assume you moved ~/Library/TinyTeX on macOS to /opt/tinytex
-        /opt/tinytex/bin/*/tlmgr path add
-
-        # assume you moved %APPDATA%\TinyTeX on Windows to C:\Software\TinyTeX
-        "C:\Software\TinyTeX\bin\win32\tlmgr" path add
+        export TINYTEX_DIR=/path/to/tinytex
         ```
-
-        You only need to do this once. If you installed TinyTeX using the
-        approach in FAQ 5, you need `sudo` to run `tlmgr path add`.
 
 9.  **How can I use TinyTeX on a USB drive or other portable devices?**
 
