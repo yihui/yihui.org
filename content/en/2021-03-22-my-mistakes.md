@@ -255,4 +255,20 @@ comments (or email me).
     > it in advance, I'd be in a great hurry to put out the fire. Work harder to
     > avoid obscure error messages.
 
+9.  When setting up TinyTeX's `PATH` on macOS, I copied an old Homebrew practice
+    of running `chown` on `/usr/local/bin` and placing symlinks there, without
+    realizing that Homebrew had long since moved on to a cleaner approach. The
+    old behavior had real security implications, as
+    [r2evans](https://github.com/r2evans) pointed out in [tinytex issue
+    #463](https://github.com/rstudio/tinytex/issues/463). The fix, shipped in
+    **tinytex** v0.59, was to write TinyTeX's bin path to `/etc/paths.d/TinyTeX`
+    instead. See [the full story](/en/2026/03/tinytex-macos-path/) for details.
+
+    Lessons learned:
+
+    > Do not blindly copy a practice from another project without periodically
+    > checking whether that project has since updated its own approach. Narrow,
+    > targeted changes are almost always preferable to broad, hard-to-reverse
+    > ones.
+
 To be continued...
