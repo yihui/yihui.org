@@ -147,6 +147,8 @@ tlmgr path remove
 And then re-add TinyTeX's path with the new approach:
 
 ``` r
+if (packageVersion('tinytex') < '0.59')
+  install.packages('tinytex')
 tinytex::tlmgr_path('add')
 ```
 
