@@ -98,16 +98,19 @@ Post length should match the subject. There is no target length.
 
 ## 5. Sentence and Paragraph Style
 
--   Sentences vary freely between short punchy ones and longer complex ones. Do
-    not write in uniform sentence length.
--   Short, even one-sentence paragraphs are fine and often used for emphasis or
-    comic timing.
+-   Sentence length varies naturally. Let the content drive the rhythm. Some
+    sentences will be long and complex; others will be short. Do not manufacture
+    short punchy sentences just to vary texture---that quickly feels affected.
+-   Short, even one-sentence paragraphs can work well for genuine emphasis or
+    comic timing, but only when the moment earns it. They are a tool, not a
+    default. Use them sparingly, and do not reach for them in every post.
 -   Rhetorical questions are a common device: pose a question, then immediately
     answer it (or leave it deliberately unanswered to invite thought).
 -   Parenthetical asides `(like this)` are used frequently for quick humor,
-    context, or caveats --- keep them short.
--   Use em-dashes for a stronger interruption or elaboration --- like this ---
-    where a comma feels too weak and a parenthesis feels too formal.
+    context, or caveats---keep them short.
+-   Use em-dashes for a stronger interruption or elaboration---like this---where
+    a comma feels too weak and a parenthesis feels too formal. **No spaces
+    around em-dashes.**
 
 --------------------------------------------------------------------------------
 
@@ -340,7 +343,24 @@ Yihui frequently quotes or references:
 
 --------------------------------------------------------------------------------
 
-## 13. Checklist Before Finalizing Any Post
+## 13. Preserving the User's Manual Revisions
+
+When a draft has already been revised by the user and you are asked to make
+further edits:
+
+-   **Treat the user's edits as ground truth.** Any text the user has changed,
+    added, or deleted since your last draft must be preserved exactly in all
+    subsequent versions.
+-   **Never silently revert a user's revision.** If a new requirement seems to
+    conflict with something the user already edited, keep the user's version and
+    flag the conflict explicitly rather than overwriting it.
+-   **Carry revisions forward across rewrites.** Even if you are doing a
+    substantial rewrite of a section, re-read the current file first and
+    incorporate whatever the user has already changed.
+
+--------------------------------------------------------------------------------
+
+## 14. Checklist Before Finalizing Any Post
 
 -   [ ] Does it start with a concrete trigger (not an abstract intro)?
 -   [ ] Is the voice clearly first-person and personal?
