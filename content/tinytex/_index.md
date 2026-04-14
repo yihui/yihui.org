@@ -64,7 +64,7 @@ If you do not use R, you need to know one more thing: the `tlmgr` command.
 
 TinyTeX assumes that you are not afraid of using the command line. If you are,
 please use other popular LaTeX distributions instead. In fact, there is only one
-single command that you need to know: `tlmgr`. It is probably not too scary.
+single command that you need to know: `tlmgr`.
 
 ### Installation
 
@@ -85,6 +85,8 @@ variable:[^1]
 ``` sh
 # make sure perl is properly installed (e.g., apt install -y perl)
 perl -mFile::Find /dev/null
+# make sure xz is also available
+which xz
 # then install TinyTeX
 wget -qO- "https://tinytex.yihui.org/install-bin-unix.sh" | sh
 ```
