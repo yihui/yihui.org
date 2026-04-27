@@ -4,6 +4,11 @@ date: '2026-04-14'
 slug: tomas-kalibera
 ---
 
+Update on 2026/04/20
+
+:   Here is a tribute written by Professor Jan Vitek, which included much richer
+    information about Tomas: <https://prl-prg.github.io/tomas-kalibera.html>
+
 I hate writing yet another RIP post, but the other day, I learned on
 [Bluesky](https://bsky.app/profile/r-foundation.bsky.social/post/3mjehbdittc2z)
 that Tomas Kalibera had passed away. I don't really know Tomas well, and have
