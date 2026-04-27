@@ -205,26 +205,25 @@ sysadmins of their computers.
     However, the user mode of TeX Live can actually be quite complicated, and
     unfortunately it is not something that I can help with. A few known caveats:
 
-    -   The worst thing is that users cannot install all packages. For TeX Live,
-        some packages are *relocatable*, and some are not. For example, packages
-        containing executables are not relocatable (e.g., the **metafont**
-        package contains the executable `mf`). If users have to use these
-        packages, only the system admin can help. The good news is that the
-        number of such packages is relatively small, so a conservative strategy
-        is to let the sysadmin just pre-install all of them. The R function
-        `tinytex:::tl_unrelocatable()` returns the names of all packages that
-        are not relocatable, which is done through the call
-        `tlmgr info --list --data name,relocatable`.
+    - The worst thing is that users cannot install all packages. For TeX Live,
+      some packages are *relocatable*, and some are not. For example, packages
+      containing executables are not relocatable (e.g., the **metafont** package
+      contains the executable `mf`). If users have to use these packages, only
+      the system admin can help. The good news is that the number of such
+      packages is relatively small, so a conservative strategy is to let the
+      sysadmin just pre-install all of them. The R function
+      `tinytex:::tl_unrelocatable()` returns the names of all packages that are
+      not relocatable, which is done through the call
+      `tlmgr info --list --data name,relocatable`.
 
-    -   Some packages may require running
-        [`updmap`](https://www.tug.org/texlive/doc/updmap.html) after
-        installation (e.g., font packages for `pdflatex`). Good news is that
-        users should be able to run `updmap-user`, and bad news is that whenever
-        the system admin runs `updmap-sys`, users may have to run `updmap-user`
-        again (if I understand the documentation correctly). For users, the
-        conservative stragety is to run `updmap-user` again when they run into
-        font problems that didn't exist previously (R users can run
-        `system2('updmap-user')`).
+    - Some packages may require running
+      [`updmap`](https://www.tug.org/texlive/doc/updmap.html) after installation
+      (e.g., font packages for `pdflatex`). Good news is that users should be
+      able to run `updmap-user`, and bad news is that whenever the system admin
+      runs `updmap-sys`, users may have to run `updmap-user` again (if I
+      understand the documentation correctly). For users, the conservative
+      stragety is to run `updmap-user` again when they run into font problems
+      that didn't exist previously (R users can run `system2('updmap-user')`).
 
 7.  **I'm a Debian/Ubuntu user. How do I prevent TeX Live from being installed
     when installing other packages that depend on TeX Live? I don't want (or
@@ -263,17 +262,17 @@ sysadmins of their computers.
 
 8.  **Can I change the installation directory?**
 
-    -   If you are an R user, you can install the R package **tinytex**, and
-        pass a custom directory name to the `dir` argument of
-        `tinytex::install_tinytex()`.
+    - If you are an R user, you can install the R package **tinytex**, and pass
+      a custom directory name to the `dir` argument of
+      `tinytex::install_tinytex()`.
 
-    -   If you use the [Shell/Batch script](../#installation) to install
-        TinyTeX, set the environment variable `TINYTEX_DIR` to the directory you
-        want before you run the script, e.g.,
+    - If you use the [Shell/Batch script](../#installation) to install TinyTeX,
+      set the environment variable `TINYTEX_DIR` to the directory you want
+      before you run the script, e.g.,
 
-        ``` sh
-        export TINYTEX_DIR=/path/to/tinytex
-        ```
+      ``` sh
+      export TINYTEX_DIR=/path/to/tinytex
+      ```
 
 9.  **How can I use TinyTeX on a USB drive or other portable devices?**
 
@@ -400,30 +399,29 @@ sysadmins of their computers.
     GitHub. If you must use this approach, here are two caveats that you should
     know:
 
-    -   Homebrew manages the symlinks of TeX Live (via `brew link tinytex`), and
-        they are created under `/usr/local/bin`. You'd better not run
-        `tlmgr path add` afterwards, because this command creates symlinks to
-        the same location. When you install a TeX Live package (via
-        `tlmgr install`) that contains binaries, such as **metafont** (which
-        contains the executable `mf`), you should run:
+    - Homebrew manages the symlinks of TeX Live (via `brew link tinytex`), and
+      they are created under `/usr/local/bin`. You'd better not run
+      `tlmgr path add` afterwards, because this command creates symlinks to the
+      same location. When you install a TeX Live package (via `tlmgr install`)
+      that contains binaries, such as **metafont** (which contains the
+      executable `mf`), you should run:
 
-        ``` sh
-        brew postinstall tinytex && brew unlink tinytex && brew link tinytex
-        ```
+      ``` sh
+      brew postinstall tinytex && brew unlink tinytex && brew link tinytex
+      ```
 
-    -   After you update **tinytex** in Homebrew (e.g., via
-        `brew update && brew upgrade`), the LaTeX packages that you previously
-        installed by yourself will no longer be available, and you have to
-        install them again. One solution is to `brew pin tinytex`, so that this
-        formula won't be upgraded in the future (in fact, there should be no
-        need to upgrade it). The other solution is to use the HEAD version of
-        the formula:
+    - After you update **tinytex** in Homebrew (e.g., via
+      `brew update && brew upgrade`), the LaTeX packages that you previously
+      installed by yourself will no longer be available, and you have to install
+      them again. One solution is to `brew pin tinytex`, so that this formula
+      won't be upgraded in the future (in fact, there should be no need to
+      upgrade it). The other solution is to use the HEAD version of the formula:
 
-        ``` sh
-        brew cleanup -s
-        brew remove tinytex
-        brew install -v --HEAD tinytex
-        ```
+      ``` sh
+      brew cleanup -s
+      brew remove tinytex
+      brew install -v --HEAD tinytex
+      ```
 
     If you feel these issues are too complicated (yes they are), just follow the
     simpler way on the [homepage](/tinytex/) to install TinyTeX on macOS.
