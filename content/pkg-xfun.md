@@ -2,7 +2,7 @@
 title: An Introduction to xfun
 subtitle: A Collection of Miscellaneous Functions
 author: "Yihui Xie"
-date: "2026-01-16"
+date: "2026-04-14"
 slug: xfun
 githubEditURL: https://github.com/yihui/xfun/edit/main/vignettes/xfun.Rmd
 output:
@@ -155,7 +155,7 @@ as.character(xfun::file_string(f))  # essentially a character string
 
 ## Get the data URI of a file
 
-Files can be encoded into base64 strings via `base64_uri()`. This is a common technique to embed arbitrary files in HTML documents (which is [what `xfun::embed_file()` does](https://bookdown.org/yihui/rmarkdown-cookbook/embed-file.html) and it is based on `base64_uri()`).
+Files can be encoded into base64 strings via `base64_uri()`. This is a common technique to embed arbitrary files in HTML documents (which is [what `xfun::embed_file()` does](https://yihui.org/rmarkdown-cookbook/embed-file.html) and it is based on `base64_uri()`).
 
 ``` r
 f = system.file("LICENSE", package = "xfun")
@@ -436,16 +436,16 @@ xfun::session_info(c('xfun', 'litedown', 'tinytex'), dependencies = FALSE)
 ```
 
 ```
-R version 4.5.2 (2025-10-31)
+R version 4.5.3 (2026-03-11)
 Platform: aarch64-apple-darwin20
-Running under: macOS Tahoe 26.2
+Running under: macOS Tahoe 26.4
 
 Locale: en_US.UTF-8 / en_US.UTF-8 / en_US.UTF-8 / C / en_US.UTF-8 / en_US.UTF-8
 
 Package version:
-  litedown_0.9 tinytex_0.58 xfun_0.55.3 
+  litedown_0.9.6 tinytex_0.59   xfun_0.57.4   
 
 LaTeX version used: 
-  TeX Live 2025 (TinyTeX) with tlmgr 2025-11-06
+  TeX Live 2026 (TinyTeX) with tlmgr 2026-03-07
 ```
 
