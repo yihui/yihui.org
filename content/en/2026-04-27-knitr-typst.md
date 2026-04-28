@@ -40,9 +40,9 @@ issues](https://github.com/yihui/knitr/issues) to the **knitr** repo on Github.
 
 ## On Typst itself
 
-Typst is genuinely impressive and its speed seems to be unbeatable. I understand
-why so many people in the R community are excited about it. However, for
-**knitr** / **rmarkdown** / Quarto users, I think the bottleneck in dynamic
+Typst is quite impressive and its rendering speed seems to be unbeatable. I
+understand why so many people in the R community are excited about it. However,
+for **knitr** / **rmarkdown** / Quarto users, I think the bottleneck in dynamic
 documents (`.Rtyp`, `.Rmd`, `.qmd`) is almost never the typesetting step---it's
 the computation in code chunks. The speed argument for Typst is compelling for
 pure writing workflows; for data analysis documents, I'm skeptical it matters
@@ -58,18 +58,17 @@ PDF to accomplish: typesetting for reading, sharing, and archiving. You get
 hyperlinks, search, accessibility, reflowable text, responsive layout, and zero
 installation requirements---free, in a browser that everyone already has.
 
-If you genuinely need paginated output that looks like a printed document, it is
-more achievable from HTML than most people realize. I have a small script
+If you really need paginated output that looks like a printed document, it is
+more achievable from HTML than you'd imagine. I have a small script
 [pages.js](https://github.com/yihui/lite.js/blob/main/js/pages.js) that typesets
 a continuous HTML page into individual pages---you can press `P` (or
-`Ctrl/Cmd + P`) on any page at
-[yihui.org/litedown/](https://yihui.org/litedown/) to see the effect. The result
-is not perfect, but it is good enough for many use cases, and you get to keep
-all the benefits of HTML along the way. BTW, I wrote pages.js purely by hand in
-2024 when AI models were not as powerful, and I have to confess that while the
-code is relatively short, it was the most challenging piece of JavaScript I had
-ever written (again, the recursion almost killed me). I guess today's AI can do
-a much better job than me.
+`Ctrl/Cmd + P`) on any page at [yihui.org/litedown/](/litedown/) to see the
+effect. The result is not perfect, but it is good enough for many use cases, and
+you get to keep all the benefits of HTML along the way. BTW, I handcrafted
+pages.js from scratch in 2024 without AI assistance, and I have to confess that
+while the code is relatively short, it was the most challenging piece of
+JavaScript I had ever written (again, the recursion almost killed me). I guess
+today's AI can do a much better job than me.
 
 The accessibility angle is one I keep hearing more about, and rightly so. HTML
 is dramatically better than PDF on this front---screen readers, keyboard
@@ -78,9 +77,16 @@ doing this for decades. LaTeX has finally made some progress here, too (e.g.,
 the [`tagpdf`](https://ctan.org/pkg/tagpdf) package), which is great, but still
 there are so many things that I doubt would ever become possible in LaTeX.
 
-So: Typst support in **knitr** is there if you want it, and I think Typst is a
-great tool. I wouldn't use it myself but I'm happy to serve those who do use it.
-I gave up MS Office around 2009 after becoming a LaTeX fan for a few years. In
+## Bye, LaTeX (and Typst, although we never met)
+
+Typst support in **knitr** is there if you want it, and I think Typst is a great
+tool. I wouldn't use it myself but I'm happy to serve those who do use it. I
+gave up MS Office around 2009 after becoming a LaTeX fan for a few years. In
 2024, I decided that I wouldn't use LaTeX anymore (when I need PDF, I just use
 pages.js to print HTML). I believe HTML still has a lot of potential that I need
-to explore further, and I really look forward to that.
+to explore further, and I really look forward to it.
+
+Again, this doesn't mean I'm abandoning my support for LaTeX. Actually I still
+work quite hard in this regard, as you can tell from some of
+[my](/en/2026/03/tinytex-macos-path/) [previous](/en/2026/03/tinytex-arm64/)
+[posts](/en/2026/03/tinytex-ctan-mirror/) this year.
