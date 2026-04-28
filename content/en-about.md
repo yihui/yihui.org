@@ -75,46 +75,46 @@ Below is an incomplete list of personal sites that I'm interested in and still
 udating from time to time. If you'd like your website listed here or get your
 site description revised, please leave a comment below or email me.
 
--   [Dave Tang](https://davetang.org): computational biology and genomics
--   [Emily Riederer](https://www.emilyriederer.com): reproducible research and
-    analytical tooling, data management and metric/feature innovation, and
-    causal inference
--   [I-Kang Ding](https://ikding.github.io): machine learning, data science, and
-    climate change
--   [Sharon Machlis](https://www.machlis.com): technology and journalism
+- [Dave Tang](https://davetang.org): computational biology and genomics
+- [Emily Riederer](https://www.emilyriederer.com): reproducible research and
+  analytical tooling, data management and metric/feature innovation, and causal
+  inference
+- [I-Kang Ding](https://ikding.github.io): machine learning, data science, and
+  climate change
+- [Sharon Machlis](https://www.machlis.com): technology and journalism
 
 ### R Language
 
--   [The R Project](http://www.r-project.org)
--   [The R Journal](https://journal.r-project.org)
--   [R Weekly](https://rweekly.org)
+- [The R Project](http://www.r-project.org)
+- [The R Journal](https://journal.r-project.org)
+- [R Weekly](https://rweekly.org)
 
 ## My projects
 
 Below is an incomplete list of packages and projects I have worked on. For a
 full list, please see my [vitae](../vitae).
 
--   [animation](/animation/): a gallery of animations in statistics and
-    utilities to create animations
--   [blogdown](https://github.com/rstudio/blogdown): create blogs and websites
-    with R Markdown
--   [bookdown](https://bookdown.org): author books and technical documents with
-    R Markdown
--   [DT](https://github.com/rstudio/DT): a wrapper of the JavaScript library
-    DataTables
--   [formatR](/formatr/): Format R code automatically
--   [knitr](/knitr/): Dynamic report generation with R
--   [litedown](/litedown/): a lightweight version of R Markdown without Pandoc
-    or knitr
--   [printr](/printr/): Some printing methods for **knitr**
--   [Rd2roxygen](/rd2roxygen/): Convert Rd to roxygen documentation
--   [rlp](/rlp/): Write an R package using literate programming techniques
--   [servr](https://github.com/yihui/servr): a simple HTTP server to serve
-    static files or dynamic documents
--   [testit](https://github.com/yihui/testit): a simple package for testing R
-    packages
--   [tinytex](/tinytex/): a lightweight LaTeX distribution based on TeX Live
--   [tufte](https://github.com/rstudio/tufte): Tufte styles for R Markdown
-    documents
--   [xaringan](https://github.com/yihui/xaringan): presentation ninja
--   [xfun](/xfun/): miscellaneous functions
+- [animation](/animation/): a gallery of animations in statistics and utilities
+  to create animations
+- [blogdown](https://github.com/rstudio/blogdown): create blogs and websites
+  with R Markdown
+- [bookdown](https://bookdown.org): author books and technical documents with R
+  Markdown
+- [DT](https://github.com/rstudio/DT): a wrapper of the JavaScript library
+  DataTables
+- [formatR](/formatr/): Format R code automatically
+- [knitr](/knitr/): Dynamic report generation with R
+- [litedown](/litedown/): a lightweight version of R Markdown without Pandoc or
+  knitr
+- [printr](/printr/): Some printing methods for **knitr**
+- [Rd2roxygen](/rd2roxygen/): Convert Rd to roxygen documentation
+- [rlp](/rlp/): Write an R package using literate programming techniques
+- [servr](https://github.com/yihui/servr): a simple HTTP server to serve static
+  files or dynamic documents
+- [testit](https://github.com/yihui/testit): a simple package for testing R
+  packages
+- [tinytex](/tinytex/): a lightweight LaTeX distribution based on TeX Live
+- [tufte](https://github.com/rstudio/tufte): Tufte styles for R Markdown
+  documents
+- [xaringan](https://github.com/yihui/xaringan): presentation ninja
+- [xfun](/xfun/): miscellaneous functions
