@@ -3,6 +3,8 @@ title: 丹佛夜咏
 date: '2023-02-14'
 slug: denver-poem
 page_class: unlist
+sitemap:
+  disable: true
 tags: [小说]
 ---
 

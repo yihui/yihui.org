@@ -2,6 +2,8 @@
 title: 千与千信（一）
 date: '2026-01-21'
 slug: thousand-letters-1
+sitemap:
+  disable: true
 filters:
   - key: "Params.tags"
     op: "intersect"

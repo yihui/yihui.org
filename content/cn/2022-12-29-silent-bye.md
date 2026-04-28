@@ -3,6 +3,8 @@ title: 无声的拜拜
 date: '2022-12-29'
 slug: silent-bye
 page_class: unlist
+sitemap:
+  disable: true
 tags: [小说]
 ---
 

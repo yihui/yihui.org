@@ -3,6 +3,8 @@ title: 丹佛夜雨
 date: '2022-09-19'
 slug: denver-rain
 page_class: unlist
+sitemap:
+  disable: true
 tags: [小说]
 ---
 
