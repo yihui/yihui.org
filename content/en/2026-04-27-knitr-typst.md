@@ -26,6 +26,12 @@ summary(x)
 The mean is `r round(mean(x), 3)`.
 ````
 
+Install the latest development version of **knitr** and restart R:
+
+``` r
+install.packages('knitr', repos = 'https://yihui.r-universe.dev')
+```
+
 Then you run either:
 
 ``` r
