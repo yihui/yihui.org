@@ -48,16 +48,16 @@ have to admit embarrassingly that I never knew before.
 
 So I focused on `tlnet`. Even there, a lot can be thrown away:
 
--   Documentation packages (`.doc.tar.xz`): few people would read them.
--   Source packages (`.source.tar.xz`): useful for developers, not for users.
--   Binaries for obscure platforms: TeX Live ships compiled binaries for about
-    15 platforms. I feel the most useful ones are `x86_64-linux`,
-    `aarch64-linux`, `universal-darwin`, `windows`, `x86_64-linuxmusl`. There
-    are also binaries for `i386-netbsd`, `x86_64-solaris`, `amd64-freebsd`,
-    `x86_64-cygwin`, `x86_64-darwinlegacy`, and friends. Every single package
-    that needs to be compiled (e.g., those containing executables) is compiled
-    15 times, once per platform. When you cut out the platforms that basically
-    nobody is running in 2026, the savings are substantial.
+- Documentation packages (`.doc.tar.xz`): few people would read them.
+- Source packages (`.source.tar.xz`): useful for developers, not for users.
+- Binaries for obscure platforms: TeX Live ships compiled binaries for about 15
+  platforms. I feel the most useful ones are `x86_64-linux`, `aarch64-linux`,
+  `universal-darwin`, `windows`, `x86_64-linuxmusl`. There are also binaries for
+  `i386-netbsd`, `x86_64-solaris`, `amd64-freebsd`, `x86_64-cygwin`,
+  `x86_64-darwinlegacy`, and friends. Every single package that needs to be
+  compiled (e.g., those containing executables) is compiled 15 times, once per
+  platform. When you cut out the platforms that basically nobody is running in
+  2026, the savings are substantial.
 
 After all the filtering, the entire mirror comes to roughly 8,000 files and 2.3
 GB. That is a very manageable size.
@@ -66,7 +66,8 @@ GB. That is a very manageable size.
 
 The mirror lives at
 [https://tlnet.yihui.org](https://tlnet.yihui.org/index.html) and is backed by
-[Cloudflare R2](https://www.cloudflare.com/developer-platform/r2/) with
+[Cloudflare
+Pages](https://www.cloudflare.com/developer-platform/products/pages/) (CP) with
 Cloudflare's CDN in front, so access should be fast regardless of where you are
 in the world---no more lottery on which mirror your `tlmgr` happens to hit.
 
@@ -79,12 +80,18 @@ The sync pipeline is straightforward:
     `rsync://rsync.dante.ctan.org/CTAN/systems/texlive/tlnet/`, applying the
     exclusion rules above, into a local staging directory (cached between runs
     so only the daily delta is transferred).
-3.  Symlinks in the staging directory---TeX Live uses versioned symlinks like
-    `foo.tar.xz -> foo.r12345.tar.xz`---are resolved into plain files, because
-    R2 is an object store and doesn't understand symlinks.
-4.  Changed files are uploaded to R2 with [rclone](https://rclone.org/),
-    followed by a final safety-net sync.
-5.  Directory index pages are regenerated from a template.
+3.  Symlinks in the staging directory (TeX Live uses versioned symlinks like
+    `foo.tar.xz -> foo.r12345.tar.xz`) are resolved into plain files, because CP
+    doesn't understand symlinks.
+4.  Directory index pages are regenerated for you can view files in your
+    browser. That's not necessary to `tlmgr` at all, but just for your
+    convenience.
+5.  All files under 25MB (CP's limit) are published directly to CP, and those
+    over 25MB are uploaded to GitHub releases with proper redirects from
+    `tlnet.yihui.org`, e.g.,
+    [biber.universal-darwin.tar.xz](https://tlnet.yihui.org/archive/biber.universal-darwin.tar.xz).
+    Since GitHub doesn't have this 25MB limit for releases and `tlmgr` works
+    with redirects, this approach should work perfectly.
 
 The whole thing is in the public repo
 [yihui/ctan-tlnet](https://github.com/yihui/ctan-tlnet) if you are curious about
@@ -122,33 +129,32 @@ the same moment.
 
 ## Everything is free
 
-Cloudflare R2 has a nice free tier: 10 GB of storage and 10 million Class B
-(read) operations per month at no cost. With 8,000 files and ~2.3 GB, storage is
-well within the limit. The read operation quota is very unlikely to become a
-concern because it only applies to the `rclone` operations but not users
-accessing the R2 bucket through the domain tlnet.yihui.org. The latter is free
-and unlimited.
+CP is free with a limit of 20,000 files per site, and `tlnet` has about 8000
+files at the moment, which is far below the limit and I don't think we'll reach
+the limit anytime soon. The limit of 25MB per file is circumvented by hosting
+them in GitHub releases and using CP's redirects. The really nice thing about CP
+is that it has no limit on bandwidth.
 
 GitHub Actions provides the compute for the daily sync at no cost as well.
 
 ## A call for help
 
 Here's the thing I'm slightly uneasy about: this whole setup lives under my
-personal Cloudflare account. If I get hit by a bus, the CDN configuration, the
-R2 bucket, and the `tlnet.yihui.org` subdomain may disappear with me someday.
-I've automated everything and my domain `yihui.org` is set to auto-renew, so
-this service shouldn't go away immediately even if I'm gone, but still, it's not
-a good idea to be [that Nebraskan](https://xkcd.com/2347/) in this case. The
-code in [yihui/ctan-tlnet](https://github.com/yihui/ctan-tlnet) is public and
-anyone could reconstruct the setup (you'd need Cloudflare credentials for
-`rclone`, though).
+personal Cloudflare account. If I get hit by a bus, the `tlnet.yihui.org`
+subdomain may disappear with me someday. I've automated everything and my domain
+`yihui.org` is set to auto-renew, so this service shouldn't go away immediately
+even if I'm gone, but still, it's not a good idea to be [that
+Nebraskan](https://xkcd.com/2347/) in this case. The code in
+[yihui/ctan-tlnet](https://github.com/yihui/ctan-tlnet) is public and anyone
+could reconstruct the setup: you'd only need to connect the GitHub repo to
+Cloudflare Pages, and specify the build command to be `./deploy.sh` there.
 
 I'd love for an organization---anyone with a stable institutional presence---to
 take this over. The operational burden is essentially zero: the GitHub Actions
-workflow handles everything automatically, and the Cloudflare costs are
-currently nothing. What I'm asking for is just a more permanent home for the R2
-bucket and the domain, so that it can outlive my involvement without
-interruption.
+workflow handles everything automatically, and the Cloudflare cost is zero. What
+I'm asking for is just a more permanent home for this CP site and the domain, so
+that it can outlive my involvement without interruption. I'm happy to transfer
+this repo to any organization interested in taking it over.
 
 If your organization is interested, or if you have ideas about how to make this
 more robust, please feel free to reach out or open an issue in the
