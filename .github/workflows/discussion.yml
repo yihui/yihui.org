@@ -32,17 +32,15 @@ jobs:
               return;
             }
 
-            const pageUrl = `https://yihui.org${pathname}`;
-
             // Fetch the page and extract the <h1 class="title"> text
-            const response = await fetch(pageUrl);
+            const response = await fetch(linkUrl);
             if (!response.ok) {
-              throw new Error(`Failed to fetch ${pageUrl}: ${response.status} ${response.statusText}`);
+              throw new Error(`Failed to fetch ${linkUrl}: ${response.status} ${response.statusText}`);
             }
             const html = await response.text();
             const match = html.match(/<h1[^>]*class="[^"]*title[^"]*"[^>]*>([\s\S]*?)<\/h1>/i);
             if (!match) {
-              throw new Error(`No <h1 class="title"> found on ${pageUrl}`);
+              throw new Error(`No <h1 class="title"> found on ${linkUrl}`);
             }
             // Replace <code>text</code> with `text`, then strip remaining HTML tags
             const title = match[1]
@@ -50,10 +48,10 @@ jobs:
               .replace(/<[^>]+>/g, '')
               .trim();
             if (!title) {
-              throw new Error(`Empty title found on ${pageUrl}`);
+              throw new Error(`Empty title found on ${linkUrl}`);
             }
 
-            const newTitle = `${title} | ${pathname}`;
+            const newTitle = `${title} | /${pathname}`;
 
             // Remove the first line of the body if it matches "# PATHNAME"
             const firstLinePattern = /^#\s+\S+(\r?\n)?/;
