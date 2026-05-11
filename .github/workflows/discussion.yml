@@ -1,0 +1,60 @@
+name: Discussion Management
+
+on:
+  discussion:
+    types: [created]
+
+jobs:
+  process-giscus-discussion:
+    if: github.event.discussion.user.login == 'giscus[bot]'
+    runs-on: ubuntu-latest
+    permissions:
+      discussions: write
+    steps:
+      - name: Update discussion title and body
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const discussion = context.payload.discussion;
+            const pathname = discussion.title.replace(/^\/|\/$/g, '');
+            const url = `https://yihui.org/${pathname}`;
+
+            // Fetch the page and extract the <h1 class="title"> text
+            const response = await fetch(url);
+            if (!response.ok) {
+              throw new Error(`Failed to fetch ${url}: ${response.status} ${response.statusText}`);
+            }
+            const html = await response.text();
+            const match = html.match(/<h1[^>]*class="[^"]*title[^"]*"[^>]*>([\s\S]*?)<\/h1>/i);
+            if (!match) {
+              throw new Error(`No <h1 class="title"> found on ${url}`);
+            }
+            // Strip any inner HTML tags from the title text
+            const title = match[1].replace(/<[^>]+>/g, '').trim();
+            if (!title) {
+              throw new Error(`Empty title found on ${url}`);
+            }
+
+            const newTitle = `${title} | /${pathname}`;
+
+            // Remove the first line of the body if it matches "# PATHNAME"
+            const body = discussion.body || '';
+            const firstLinePattern = /^#\s+\S+(\r?\n)?/;
+            const newBody = body.replace(firstLinePattern, '');
+
+            // Update the discussion via GraphQL
+            await github.graphql(`
+              mutation($discussionId: ID!, $title: String!, $body: String!) {
+                updateDiscussion(input: {discussionId: $discussionId, title: $title, body: $body}) {
+                  discussion {
+                    id
+                  }
+                }
+              }
+            `, {
+              discussionId: discussion.node_id,
+              title: newTitle,
+              body: newBody,
+            });
+
+            console.log(`Updated discussion title to: ${newTitle}`);
