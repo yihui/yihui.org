@@ -1,0 +1,75 @@
+name: Discussion Management
+
+on:
+  discussion:
+    types: [created]
+
+jobs:
+  process-giscus-discussion:
+    if: github.event.discussion.user.login == 'giscus[bot]'
+    runs-on: ubuntu-latest
+    permissions:
+      discussions: write
+    steps:
+      - name: Update discussion title and body
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const discussion = context.payload.discussion;
+            const body = discussion.body || '';
+
+            // Find the link in the discussion body
+            const linkMatch = body.match(/https?:\/\/[^\s)>\]]+/);
+            if (!linkMatch) {
+              throw new Error('No URL found in discussion body');
+            }
+            const linkUrl = new URL(linkMatch[0]);
+            const pathname = linkUrl.pathname;
+
+            // Only update the title if the discussion title matches the link pathname
+            if (discussion.title !== pathname) {
+              console.log(`Discussion title "${discussion.title}" does not match link pathname "${pathname}"; skipping.`);
+              return;
+            }
+
+            // Fetch the page and extract the <h1 class="title"> text
+            const response = await fetch(linkUrl);
+            if (!response.ok) {
+              throw new Error(`Failed to fetch ${linkUrl}: ${response.status} ${response.statusText}`);
+            }
+            const html = await response.text();
+            const match = html.match(/<h1[^>]*class="[^"]*title[^"]*"[^>]*>([\s\S]*?)<\/h1>/i);
+            if (!match) {
+              throw new Error(`No <h1 class="title"> found on ${linkUrl}`);
+            }
+            // Replace <code>text</code> with `text`, then strip remaining HTML tags
+            const title = match[1]
+              .replace(/<code[^>]*>([\s\S]*?)<\/code>/gi, (_, inner) => '`' + inner.replace(/<[^>]+>/g, '') + '`')
+              .replace(/<[^>]+>/g, '')
+              .trim();
+            if (!title) {
+              throw new Error(`Empty title found on ${linkUrl}`);
+            }
+
+            const newTitle = `${title} | /${pathname}`;
+
+            // Remove the first line of the body if it matches "# PATHNAME"
+            const firstLinePattern = /^#\s+\S+(\r?\n)?/;
+            const newBody = body.replace(firstLinePattern, '');
+
+            // Update the discussion via GraphQL
+            await github.graphql(`
+              mutation($discussionId: ID!, $title: String!, $body: String!) {
+                updateDiscussion(input: {discussionId: $discussionId, title: $title, body: $body}) {
+                  discussion {
+                    id
+                  }
+                }
+              }
+            `, {
+              discussionId: discussion.node_id,
+              title: newTitle,
+              body: newBody,
+            });
+
+            console.log(`Updated discussion title to: ${newTitle}`);
