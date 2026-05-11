@@ -16,29 +16,46 @@ jobs:
         with:
           script: |
             const discussion = context.payload.discussion;
-            const pathname = discussion.title.replace(/^\/|\/$/g, '');
-            const url = `https://yihui.org/${pathname}`;
+            const body = discussion.body || '';
+
+            // Find the link in the discussion body
+            const linkMatch = body.match(/https?:\/\/[^\s)>\]]+/);
+            if (!linkMatch) {
+              throw new Error('No URL found in discussion body');
+            }
+            const linkUrl = new URL(linkMatch[0]);
+            const pathname = linkUrl.pathname;
+
+            // Only update the title if the discussion title matches the link pathname
+            if (discussion.title !== pathname) {
+              console.log(`Discussion title "${discussion.title}" does not match link pathname "${pathname}"; skipping.`);
+              return;
+            }
+
+            const pageUrl = `https://yihui.org${pathname}`;
 
             // Fetch the page and extract the <h1 class="title"> text
-            const response = await fetch(url);
+            const response = await fetch(pageUrl);
             if (!response.ok) {
-              throw new Error(`Failed to fetch ${url}: ${response.status} ${response.statusText}`);
+              throw new Error(`Failed to fetch ${pageUrl}: ${response.status} ${response.statusText}`);
             }
             const html = await response.text();
             const match = html.match(/<h1[^>]*class="[^"]*title[^"]*"[^>]*>([\s\S]*?)<\/h1>/i);
             if (!match) {
-              throw new Error(`No <h1 class="title"> found on ${url}`);
+              throw new Error(`No <h1 class="title"> found on ${pageUrl}`);
             }
-            // Strip any inner HTML tags from the title text
-            const title = match[1].replace(/<[^>]+>/g, '').trim();
+            // Replace <code>text</code> with `text`, then strip remaining HTML tags
+            const title = match[1]
+              .replace(/<code[^>]*>([\s\S]*?)<\/code>/gi, (_, inner) => '`' + inner.replace(/<[^>]+>/g, '') + '`')
+              .replace(/<[^>]+>/g, '')
+              .trim();
             if (!title) {
-              throw new Error(`Empty title found on ${url}`);
+              throw new Error(`Empty title found on ${pageUrl}`);
             }
 
-            const newTitle = `${title} | /${pathname}`;
+            const newTitle = `${title} | ${pathname}`;
 
             // Remove the first line of the body if it matches "# PATHNAME"
-            const body = discussion.body || '';
             const firstLinePattern = /^#\s+\S+(\r?\n)?/;
             const newBody = body.replace(firstLinePattern, '');
 
