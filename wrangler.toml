@@ -1,0 +1,6 @@
+name = "yihui-org"
+pages_build_output_dir = "public"
+compatibility_date = "2025-04-16"
+
+[vars]
+HUGO_VERSION = "0.148.2"

@@ -7,3 +7,4 @@
 /static/hardlink
 /blogdown
 .hugo_build.lock
+.positai
