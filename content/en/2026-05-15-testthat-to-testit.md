@@ -178,6 +178,37 @@ x (LHS) ==>
 <== (RHS) y
 ```
 
+Be cautious about the operator precedence: in R, infix operators like `%==%`
+bind tighter than common arithmetic and logical operators such as `+`, `-`, `*`,
+`/`, `>`, `<`, `==`, `&`, and `|`, etc. When you use the latter operators in a
+`%==%` expression, you need `()` to guarantee precedence, e.g.,
+
+``` r
+(1 + 2 %==% 2 + 1)
+```
+
+is interpreted as
+
+``` r
+(1 + (2 %==% 2) + 1)
+# => (1 + TRUE + 1) => (1 + 1 + 1) => (3) => FAIL
+```
+
+and you must group the LHS and RHS explicitly by `()`:
+
+``` r
+((1 + 2) %==% (2 + 1))
+```
+
+which may look ugly and confusing, so you may want to compute LHS and RHS before
+the `()` test, e.g.,
+
+``` r
+res = 1 + 2
+expected = 2 + 1
+(res %==% expected)
+```
+
 ### Snapshot tests
 
 **testthat** stores snapshots in `tests/testthat/_snaps/`. **testit** uses a
