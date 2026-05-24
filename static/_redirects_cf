@@ -1,8 +1,6 @@
 # Cloudflare Pages Redirects
 
 /cv/ /en/vitae/ 301
-/media/js/center-images.js /js/center-img.js 301
-
 /knitr/demos/ /knitr/demo/ 301
 /animation/examples/ /animation/example/ 301
 /knitr/js/docco-resize.js https://cdn.jsdelivr.net/npm/@xiee/utils/js/docco-resize.js 301
@@ -45,6 +43,13 @@
 /tinytex/tinytex.profile https://tinytex.yihui.org/tinytex.profile 301
 
 /gh/tinytex/tools/* https://tinytex.yihui.org/:splat 301
+
+/bookdown/* https://pkg.yihui.org/bookdown/:splat 301
+/litedown/* https://pkg.yihui.org/litedown/book/:splat 301
+/blogdown/* https://pkg.yihui.org/blogdown/:splat 301
+/rmarkdown/* https://pkg.yihui.org/rmarkdown-book/:splat 301
+/rmarkdown-cookbook/* https://pkg.yihui.org/rmarkdown-cookbook/:splat 301
+
 /slides/* https://slides.yihui.org/:splat 301
 /:slug/feed/ /:slug/index.xml 301
 /:slug/comments/feed/ https://github.com/yihui/yihui.org/discussions.atom 301
