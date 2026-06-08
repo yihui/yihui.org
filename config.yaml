@@ -187,6 +187,9 @@ params:
     top:
       cn: "登顶"
 
+security:
+  allowContent: ['.*']
+
 markup:
   highlight:
     codeFences: false
