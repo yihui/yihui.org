@@ -44,8 +44,9 @@ jobs:
               throw new Error(`No <h1 class="title"> found on ${linkUrl}`);
             }
             // Replace <code>text</code> with `text`, then strip remaining HTML tags
+            const decodeEntities = s => s.replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&amp;/g, '&').replace(/&quot;/g, '"').replace(/&#39;/g, "'");
             const title = match[1]
-              .replace(/<code[^>]*>([\s\S]*?)<\/code>/gi, (_, inner) => '`' + inner.replace(/<[^>]+>/g, '') + '`')
+              .replace(/<code[^>]*>([\s\S]*?)<\/code>/gi, (_, inner) => '`' + decodeEntities(inner.replace(/<[^>]+>/g, '')) + '`')
               .replace(/<[^>]+>/g, '')
               .trim();
             if (!title) {
