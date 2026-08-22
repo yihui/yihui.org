@@ -3,6 +3,8 @@ title: 'The lt Package: Lightweight HTML Tables for R (and Beyond)'
 subtitle: A small grammar of tables, built on a JSON spec and a tiny bit of JavaScript
 date: '2026-07-10'
 slug: lt-package
+customCSS: ["utils/lt.css"]
+customJS: ["utils/lt.js"]
 ---
 
 Recently I have released a new package on CRAN:
@@ -26,6 +28,134 @@ This post is a quick introduction to **lt**; you can learn more details and
 examples on the package site at <https://pkg.yihui.org/lt/>. BTW, to save a few
 kilobytes for the planet, I don't have [a hex
 sticker](/en/2026/02/bye-stickers/) for this package.
+
+<style>.lt-table {
+  .highlight { font-weight: bold; color: #c60; }
+}</style>
+<script>((window.LT=window.LT||{}).q=window.LT.q||[]).push({s:document.currentScript,d:
+{
+  "data": {
+    "Grp": ["Group A", "Group A", "Group B", "Group B"],
+    "Label": ["<a href='#sec:cheatsheet'>lt(): make a table</a>", "lt_indent(): child A", "lt_indent(): child B", "lt_style() + lt_css()"],
+    "Fmt": [1234567.89, -0.51234, Infinity, -Infinity],
+    "Sub": [0, null, 3.14, 2e-04],
+    "Date": [new Date("2024-01-15"), new Date("2024-02-20"), new Date("2024-03-25"), new Date("2024-04-30")],
+    "Align": [1, 22, 333, 4],
+    "Width": ["lt_width()", "sets", "column", "widths"],
+    "Est": ["0.61", "0.79", "0.45", "0.90"],
+    "CI": ["(0.40, 0.82)", "(0.57, 1.01)", "(0.20, 0.70)", "(0.71, 1.14)"]
+  },
+  "ops": [
+    {
+      "type": "merge",
+      "columns": ["Est", "CI"],
+      "pattern": "{1} {2}",
+      "hide": true
+    },
+    {
+      "type": "label",
+      "labels": {
+        "Grp": "lt_group()",
+        "Width": "lt_width()",
+        "Label": "lt_label(old = new, ...)",
+        "Fmt": "lt_format()",
+        "Sub": "lt_sub()",
+        "Date": "lt_date()",
+        "Align": "lt_align()",
+        "Est": "lt_merge()"
+      }
+    },
+    {
+      "type": "align",
+      "columns": ["Align"],
+      "align": "center"
+    },
+    {
+      "type": "width",
+      "widths": {
+        "Width": "9em",
+        "Label": "16em"
+      }
+    },
+    {
+      "type": "fmt_number",
+      "columns": ["Fmt"],
+      "decimals": 1,
+      "big_mark": ","
+    },
+    {
+      "type": "fmt_date",
+      "columns": ["Date"],
+      "options": {
+        "year": "numeric",
+        "month": "short",
+        "day": "numeric",
+        "timeZone": "UTC"
+      }
+    },
+    {
+      "type": "sub",
+      "columns": ["Sub"],
+      "missing": "n/a",
+      "zero": "—",
+      "small": 0.01,
+      "small_text": "< 0.01"
+    },
+    {
+      "type": "indent",
+      "rows": [2, 3],
+      "level": 1
+    },
+    {
+      "type": "style",
+      "columns": ["Label"],
+      "rows": [4],
+      "class": "highlight"
+    }
+  ],
+  "auto_format": false,
+  "row_group": ["Grp"],
+  "header": {
+    "title": "A sample table... lt_header(title = ...)",
+    "subtitle": "lt_header(subtitle = ...)"
+  },
+  "spanners": [
+    {
+      "label": "lt_spanner()",
+      "columns": ["Fmt", "Sub"]
+    }
+  ],
+  "html_cols": ["Label"],
+  "footnotes": [
+    {
+      "text": "This table is rendered with lt. lt_footnote() can add a footnote anywhere.",
+      "location": {
+        "type": "title",
+        "group": "title"
+      }
+    },
+    {
+      "text": ["Wrap text in <code>I()</code> for raw HTML."],
+      "location": {
+        "type": "body",
+        "columns": ["Label"],
+        "rows": [1]
+      }
+    },
+    {
+      "text": ["<code>Alt + Click</code> a table to toggle raw values."],
+      "location": {
+        "type": "body",
+        "columns": ["Fmt"],
+        "rows": [1]
+      }
+    }
+  ],
+  "notes": [
+    "lt_note() — and lt_export() saves this table to HTML/PDF/PNG."
+  ]
+}
+})</script>
 
 ## Why bother?
 
