@@ -125,7 +125,7 @@ you want to fold the comments section `<section class="comments">`, use
 `section.comments`.
 
 I have written the script
-[`fold-details.js`](https://github.com/yihui/misc.js/blob/main/js/fold-details.js)
+[`fold-details.js`](https://github.com/yihui/lite.js/blob/main/js/fold-details.js)
 and you can just load it on your page:
 
 ``` html

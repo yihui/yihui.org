@@ -12,9 +12,9 @@ which is more appropriate semantically, and `<kbd>` can have different visual
 styles with `<code>`.
 
 Yesterday I wrote a short piece of [JavaScript
-code](https://github.com/yihui/misc.js/blob/main/js/key-buttons.js) to convert
+code](https://github.com/yihui/lite.js/blob/main/js/key-buttons.js) to convert
 `<code>Key</code>` to `<kbd>Key</kbd>` on HTML pages, and also a few lines of
-[CSS code](https://github.com/yihui/misc.js/blob/main/css/key-buttons.css) to
+[CSS code](https://github.com/yihui/lite.js/blob/main/css/key-buttons.css) to
 style `<kbd>` as buttons. You can import the JS and CSS with:
 
 ``` html
@@ -79,7 +79,7 @@ They will be converted to arrows (with tooltips, in case arrows are confusing):
 Currently, not all keys are supported. I wrote the script mainly for my own use,
 and only included the keys that I would often use. If you need to support other
 keys, please feel free to let me know in the comments below or [file an issue to
-GitHub](https://github.com/yihui/misc.js). However, please also note that you
+GitHub](https://github.com/yihui/lite.js). However, please also note that you
 can always use the raw HTML tag `<kbd>` when a certain key is not supported,
 e.g., `<kbd>F</kbd>` will be rendered as <kbd>F</kbd>. Raw HTML is often
 supported in Markdown, so `<kbd>` is a workaround when a pair of backticks

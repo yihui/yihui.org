@@ -40,7 +40,7 @@ This will render to the HTML tag `<dl>` (with `<dt>` and `<dd>` inside).
 Next I started to think about styling, and recalled the `<fieldset>` tag that [I
 learned sixteen years ago](/cn/2007/09/notes-on-firefox-ie-and-fieldset/).[^1]
 With [a few lines of
-JavaScript](https://github.com/yihui/misc.js/blob/main/js/dl-fieldset.js), I was
+JavaScript](https://github.com/yihui/lite.js/blob/main/js/dl-fieldset.js), I was
 able to change `<dl>` to `<fieldset>`. Below is a demo:
 
 [^1]: See? This is why you should blog---things you learned, no matter how long

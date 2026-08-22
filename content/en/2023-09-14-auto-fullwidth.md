@@ -8,7 +8,7 @@ I mentioned [a simple CSS trick](/en/2021/06/css-full-width/) to generate
 full-width figures in 2021. I was thinking the other day if I could make
 certainly elements automatic, so I do not need to manually specify them to be
 full-width. Finally, I wrote [some JS
-code](https://github.com/yihui/misc.js/blob/main/js/fullwidth.js) to deal with
+code](https://github.com/yihui/lite.js/blob/main/js/fullwidth.js) to deal with
 three types of elements automatically:
 
 1.  Code blocks (`<pre><code>`).

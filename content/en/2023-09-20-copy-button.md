@@ -77,9 +77,9 @@ common practice).
 ## A general solution
 
 I have written a script
-[`copy-button.js`](https://github.com/yihui/misc.js/blob/main/js/copy-button.js)
+[`copy-button.js`](https://github.com/yihui/lite.js/blob/main/js/copy-button.js)
 and the corresponding CSS
-[`copy-button.css`](https://github.com/yihui/misc.js/blob/main/css/copy-button.css),
+[`copy-button.css`](https://github.com/yihui/lite.js/blob/main/css/copy-button.css),
 which can be used via:
 
 ``` html

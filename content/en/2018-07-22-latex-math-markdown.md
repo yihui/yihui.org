@@ -43,7 +43,7 @@ I have mentioned and briefly explained the solution in the **blogdown** book, to
 
 1. Additionally, convert a pair of single dollars `$ $` to `\( \)`, so that MathJax can understand it without any special configurations.
 
-My JavaScript solution is available at <https://github.com/yihui/misc.js/blob/main/js/math-code.js>. It is not very long (about 20 lines). After loading this script, you can include MathJax (even _asynchronously_):
+My JavaScript solution is available at <https://github.com/yihui/lite.js/blob/main/js/math-code.js>. It is not very long (about 20 lines). After loading this script, you can include MathJax (even _asynchronously_):
 
 ```html
 <script src="//cdn.jsdelivr.net/npm/@xiee/utils/js/math-code.min.js" defer></script>

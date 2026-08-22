@@ -38,7 +38,7 @@ html {
 ```
 
 I ended up expanding these 7 lines of CSS into ~100 lines
-([snap.css](https://github.com/yihui/misc.js/blob/main/css/snap.css)) to style
+([snap.css](https://github.com/yihui/lite.js/blob/main/css/snap.css)) to style
 several other common elements of slides, such as the table of contents,[^1]
 slide titles, page numbers, timers, and special pages.
 
@@ -53,7 +53,7 @@ slide titles, page numbers, timers, and special pages.
 If the HTML code is well-organized as a series of sections (e.g.,
 `<div class="slide">`), I probably would not need to write much JavaScript.
 Eventually I wrote about 200 lines of JS
-([snap.js](https://github.com/yihui/misc.js/blob/main/js/snap.js)). One third of
+([snap.js](https://github.com/yihui/lite.js/blob/main/js/snap.js)). One third of
 the code reorganizes content into slide pages, e.g., convert
 
 ``` html
