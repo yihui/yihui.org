@@ -520,6 +520,19 @@ Below is a list of chunk options in **knitr** documented in the format
     attribute of the `<img>` tags of figures in HTML output. By default, the
     chunk option `fig.cap` will be used as the alternative text if provided.
 
+-   `fig.note`: (`NULL`; character) A note to be placed below the figure,
+    separate from the caption (e.g., a source citation or explanation). For
+    LaTeX output, the note is emitted via `\figurenote{}` inside the figure
+    environment (after `\caption{}`); a default `\figurenote` command
+    (footnotesize italic) is provided so it works without extra setup, and you
+    may override it (e.g., to route through the **floatrow** package's
+    `\floatfoot`). For HTML output, the note is placed in a
+    `<p class="figure-note">` inside the figure `<div>` (a note with no caption
+    still gets a figure div). For Typst output, it is an emphasized small block
+    after `#figure`. Office formats (`docx`/`pptx`) drop the note silently
+    (consistent with `fig.alt`). When there are multiple plots in a chunk, the
+    note is recycled across them.
+
 -   `fig.scap`: (`NULL`; character) A short caption. This option is only
     meaningful to LaTeX output. A short caption is inserted in `\caption[]`, and
     usually displayed in the "List of Figures" of a PDF document.
