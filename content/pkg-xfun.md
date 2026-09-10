@@ -2,7 +2,7 @@
 title: An Introduction to xfun
 subtitle: A Collection of Miscellaneous Functions
 author: "Yihui Xie"
-date: "2026-04-14"
+date: "2026-08-22"
 slug: xfun
 githubEditURL: https://github.com/yihui/xfun/edit/main/vignettes/xfun.Rmd
 output:
@@ -155,7 +155,7 @@ as.character(xfun::file_string(f))  # essentially a character string
 
 ## Get the data URI of a file
 
-Files can be encoded into base64 strings via `base64_uri()`. This is a common technique to embed arbitrary files in HTML documents (which is [what `xfun::embed_file()` does](https://yihui.org/rmarkdown-cookbook/embed-file.html) and it is based on `base64_uri()`).
+Files can be encoded into base64 strings via `base64_uri()`. This is a common technique to embed arbitrary files in HTML documents (which is [what `xfun::embed_file()` does](https://pkg.yihui.org/rmarkdown-cookbook/embed-file.html) and it is based on `base64_uri()`).
 
 ``` r
 f = system.file("LICENSE", package = "xfun")
@@ -415,7 +415,7 @@ n2w(1e+15 - 1)
 
 ## Cache an R expression to disk or in memory
 
-Since **xfun** v0.44, you are recommended to use the function [`cache_exec()`](https://pkg.yihui.org/xfun/manual.html#sec:man-cache_exec), which provides a simple yet flexible caching mechanism. See https://yihui.org/litedown/#sec:option-cache for how it works. Previously, `cache_rds()` was mentioned here but it is no longer recommended (see [#100](https://github.com/yihui/xfun/issues/100)).
+Since **xfun** v0.44, you are recommended to use the function [`cache_exec()`](https://pkg.yihui.org/xfun/manual.html#sec:man-cache_exec), which provides a simple yet flexible caching mechanism. See https://pkg.yihui.org/litedown/book/ for how it works. Previously, `cache_rds()` was mentioned here but it is no longer recommended (see [#100](https://github.com/yihui/xfun/issues/100)).
 
 ## Check reverse dependencies of a package
 
@@ -436,14 +436,14 @@ xfun::session_info(c('xfun', 'litedown', 'tinytex'), dependencies = FALSE)
 ```
 
 ```
-R version 4.5.3 (2026-03-11)
-Platform: aarch64-apple-darwin20
-Running under: macOS Tahoe 26.4
+R version 4.6.1 (2026-06-24)
+Platform: aarch64-apple-darwin23
+Running under: macOS Tahoe 26.6.2
 
 Locale: en_US.UTF-8 / en_US.UTF-8 / en_US.UTF-8 / C / en_US.UTF-8 / en_US.UTF-8
 
 Package version:
-  litedown_0.9.6 tinytex_0.59   xfun_0.57.4   
+  litedown_0.10.2 tinytex_0.60    xfun_0.60.1    
 
 LaTeX version used: 
   TeX Live 2026 (TinyTeX) with tlmgr 2026-03-07
