@@ -533,6 +533,12 @@ Below is a list of chunk options in **knitr** documented in the format
     (consistent with `fig.alt`). When there are multiple plots in a chunk, the
     note is recycled across them.
 
+-   `fig.topcaption`: (`FALSE`; logical) Whether to place the figure caption at
+    the top of the figure (instead of the bottom). This works for HTML and
+    LaTeX/PDF output. For LaTeX, the caption's position depends on where
+    `\caption{}` appears in the figure environment, so `fig.topcaption = TRUE`
+    emits `\caption{}` right after `\begin{figure}`.
+
 -   `fig.scap`: (`NULL`; character) A short caption. This option is only
     meaningful to LaTeX output. A short caption is inserted in `\caption[]`, and
     usually displayed in the "List of Figures" of a PDF document.
