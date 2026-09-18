@@ -761,6 +761,27 @@ for examples).
     [`sass`/`scss`
     engine](https://bookdown.org/yihui/rmarkdown-cookbook/eng-sass.html).
 
+    For shell engines (`bash`, `sh`, `zsh`), a common use of `engine.opts` is to
+    control which startup files the shell loads. The shell is invoked
+    *non-interactively*, so it does not source `~/.bashrc` or `~/.bash_profile`
+    by default (see the [Bash startup files
+    documentation](https://www.gnu.org/software/bash/manual/html_node/Bash-Startup-Files.html)).
+    This is why aliases or environment variables defined in those files are not
+    available in a `bash` chunk. To load them, you can invoke the shell as a
+    login shell with `engine.opts = '--login'` (which sources `~/.bash_profile`),
+    as an interactive shell with `engine.opts = '-i'` (which sources
+    `~/.bashrc`), or point to a specific file with
+    `engine.opts = '--init-file ~/.bashrc -i'`. Alternatively, set the
+    `BASH_ENV` environment variable (see the `engine.env` option below), e.g.,
+    `engine.env = c(BASH_ENV = '~/.bashrc')`.
+
+-   `engine.env`: (`NULL`; character) A named character vector of environment
+    variables (`c(NAME = 'value', ...)`) to be set for the engine's process,
+    passed to the `env` argument of `system2()`. This applies to engines that
+    run an external command (e.g., `bash`, `python`, `sh`). For example,
+    `engine.env = c(BASH_ENV = '~/.bashrc')` makes a `bash` chunk source
+    `~/.bashrc` on startup.
+
 ### Option templates
 
 -   `opts.label`: (`NULL`; character) This option provides a mechanism to
