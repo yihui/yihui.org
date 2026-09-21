@@ -1,5 +1,5 @@
 ---
-title: A Four-Day knitr Issue/PR Triage Sprint
+title: A Four-Day knitr Issue/PR Backlog Sprint
 subtitle: 11 years of tech debt (almost) cleared
 date: '2026-09-20'
 slug: knitr-backlog
@@ -28,7 +28,7 @@ everything mentioned in this post and give me feedback.
 
 ## By the numbers
 
-Over these four days of triage:
+Over these four days of backlog work:
 
 -   123 issues closed
 -   57 pull requests merged
@@ -63,11 +63,10 @@ rmarkdown::paged_table(mtcars)
 
 Jared Lander first asked me for this (not these two lines of code but something
 similar---I recall it was SQL-related) at the New York Strata conference in
-
-1.  I remember thinking it was both a little tricky to implement and a little
-    like "cheating"---showing code you didn't actually run---so I quietly let it
-    sit. It came back as [#2129](https://github.com/yihui/knitr/issues/2129) in
-    2022, I said "okay, let's reconsider," and then... I let it sit again.
+2013. I remember thinking it was both a little tricky to implement and a little
+like "cheating"---showing code you didn't actually run---so I quietly let it
+sit. It came back as [#2129](https://github.com/yihui/knitr/issues/2129) in
+2022, I said "okay, let's reconsider," and then... I let it sit again.
 
 The `eval` option has long accepted a numeric vector to evaluate only certain
 lines, but the lines that were echoed-but-not-evaluated got a `##` comment
@@ -450,8 +449,8 @@ the R Markdown ecosystem. I went back and forth on it, and in the end listed a
 few ways to support the work with, as I said then, zero expectation.
 
 Zero expectation turned out to be the right frame. Since that post I've received
-a total of about 35 US dollars, plus 100 Chinese yuan (roughly 15 dollars), and
-a new GitHub sponsor with \$5/month. These are not numbers that change anything
+a total of 35 US dollars, plus 100 Chinese yuan (roughly 15 dollars), and a new
+GitHub sponsor with \$5/month. These are not numbers that change anything
 financially---but because I truly expected nothing, it is infinitely better than
 my expectation. I sincerely thank the four kind sponsors.
 

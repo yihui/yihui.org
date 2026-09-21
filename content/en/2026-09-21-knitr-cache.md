@@ -7,7 +7,7 @@ slug: knitr-cache
 Note
 
 :   This is one of a few posts on new features from a recent [four-day knitr
-    triage sprint](/en/2026/09/knitr-backlog/); see that post for the full
+    backlog sprint](/en/2026/09/knitr-backlog/); see that post for the full
     details of the sprint.
 
 **knitr**'s chunk cache is one of those features that may have quietly saved you
