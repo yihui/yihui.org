@@ -1,0 +1,42 @@
+name: Reindex Discussions
+
+# GitHub occasionally drops this repo's Discussions search index: discussions
+# still exist and open (repository.discussions returns them, direct URLs work),
+# but search(type:DISCUSSION) returns almost none. The Discussions list page and
+# giscus both read the search index, so they break while direct links keep working.
+#
+# Writing to a discussion re-adds it to the index. This workflow finds discussions
+# missing from the search index and patches each (append a space, then restore the
+# original body) to force a reindex. Net body change is zero.
+
+on:
+  discussion:
+    types: [created]
+  discussion_comment:
+    types: [created]
+  schedule:
+    - cron: '0 */6 * * *'   # safety net; the index can drop at any time
+  workflow_dispatch:
+    inputs:
+      force_all:
+        description: 'Reindex every discussion, not just those missing from search'
+        type: boolean
+        default: false
+
+# Never run two reindex passes at once (they would double-write bodies).
+concurrency:
+  group: reindex-discussions
+  cancel-in-progress: false
+
+jobs:
+  reindex:
+    runs-on: ubuntu-latest
+    permissions:
+      discussions: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/github-script@v7
+        with:
+          script: |
+            const script = require('./.github/scripts/reindex-discussions.js');
+            await script({ github, context });
