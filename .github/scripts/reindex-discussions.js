@@ -35,7 +35,7 @@ module.exports = async ({ github, context }) => {
           repository(owner:$owner,name:$name){
             discussions(first:100, after:$after, orderBy:{field:UPDATED_AT, direction:DESC}){
               pageInfo{ hasNextPage endCursor }
-              nodes{ id number updatedAt }
+              nodes{ id number createdAt updatedAt }
             }
           }
         }`, { owner, name, after });
@@ -46,9 +46,22 @@ module.exports = async ({ github, context }) => {
     return out;
   }
 
-  // Numbers currently present in the (possibly degraded) search index.
-  async function indexedNumbers() {
-    const set = new Set();
+  // Numbers currently present in the (possibly degraded) search index. Search returns
+  // at most 1000 results per query (discussionCount still reports the true total), so
+  // bisect the creation-time range until each slice fits, then paginate each slice.
+  const SEARCH_CAP = 1000;
+  async function searchSlice(from, to, set) {
+    const query = `repo:${owner}/${name} created:${from.toISOString()}..${to.toISOString()}`;
+    const first = await github.graphql(`
+      query($q:String!){ search(type:DISCUSSION, query:$q, first:1){ discussionCount } }`, { q: query });
+    const count = first.search.discussionCount;
+    if (count === 0) return;
+    if (count > SEARCH_CAP && to - from > 1000) {
+      const mid = new Date(Math.floor((from.getTime() + to.getTime()) / 2));
+      await searchSlice(from, mid, set);
+      await searchSlice(new Date(mid.getTime() + 1000), to, set); // ranges are inclusive, 1s resolution
+      return;
+    }
     let after = null;
     do {
       const q = await github.graphql(`
@@ -57,10 +70,16 @@ module.exports = async ({ github, context }) => {
             pageInfo{ hasNextPage endCursor }
             nodes{ ... on Discussion { number } }
           }
-        }`, { q: `repo:${owner}/${name}`, after });
+        }`, { q: query, after });
       for (const n of q.search.nodes) if (n?.number) set.add(n.number);
       after = q.search.pageInfo.hasNextPage ? q.search.pageInfo.endCursor : null;
     } while (after);
+  }
+
+  async function indexedNumbers(all) {
+    const set = new Set();
+    const times = all.map(d => new Date(d.createdAt).getTime());
+    await searchSlice(new Date(Math.min(...times)), new Date(Math.max(...times) + 1000), set);
     return set;
   }
 
@@ -100,7 +119,7 @@ module.exports = async ({ github, context }) => {
   }
 
   const all = await allDiscussions();
-  const indexed = await indexedNumbers();
+  const indexed = await indexedNumbers(all);
   console.log(`total=${all.length} indexed=${indexed.size} forceAll=${forceAll}`);
 
   // Build the work list and patch oldest -> newest, so the newest keeps the latest
