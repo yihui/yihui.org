@@ -8,7 +8,7 @@ slug: snap-slides
 I do not remember when or how I first encountered the CSS Scroll Snap technique,
 but when I saw it, one thing came to my mind immediately: can we use this
 technique to make slides? (Spoiler: the answer later [was
-YES](https://cran.r-project.org/web/packages/litedown/vignettes/slides.html))
+YES](https://pkg.yihui.org/litedown/examples/045-snap-slides.html))
 
 If you have not heard of it before, [here is a quick
 introduction](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Scroll_Snap/Basic_concepts)
@@ -206,6 +206,5 @@ overview mode of slides can help a bit, though.
 
 ## Demo and documentation
 
-The package vignette in the **litedown** package,
-[`vignette('slides', package = 'litedown')`](https://cran.r-project.org/web/packages/litedown/vignettes/slides.html),
-can serve as both the demo and documentation of this slides framework. Enjoy!
+The [slides guide](https://pkg.yihui.org/litedown/examples/045-snap-slides.html)
+in the **litedown** package can serve as both the demo and documentation of this slides framework. Enjoy!
