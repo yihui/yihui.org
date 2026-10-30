@@ -177,7 +177,7 @@ span.hash-note::before { content: "　# "; }
 
 /* paginated pages (pages.js) */
 .pagesjs-page {
-  .cn .main {
+  .cn & .main {
     text-align: justify;
   }
   pre code {
