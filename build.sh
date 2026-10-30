@@ -2,8 +2,22 @@
 
 set -e
 
-# check out latest books (litedown, bookdown, blogdown, etc.)
-git submodule update --remote --init --force --depth 1
+# pin jsdelivr @xiee/utils URLs in themes/ and layouts/ to the latest version
+# (CF only, to keep local checkouts clean); skip if none are unpinned, or if
+# the API stays down
+if [ ! -z "$CF_PAGES" ]; then
+  files=$(grep -rlF '@xiee/utils/' themes layouts || true)
+  if [ -n "$files" ]; then
+    v=$(curl -fsS --retry 5 --retry-delay 2 --retry-all-errors \
+      https://data.jsdelivr.com/v1/packages/npm/@xiee/utils/resolved |
+      sed -n 's/.*"version": *"\([^"]*\)".*/\1/p')
+    if [ -n "$v" ]; then
+      echo "$files" | xargs sed -i "s#@xiee/utils/#@xiee/utils@$v/#g"
+    else
+      echo "warning: failed to get @xiee/utils version; URLs left unpinned" >&2
+    fi
+  fi
+fi
 
 if [ "$CF_PAGES_BRANCH" = "master" ]; then
   # Cloudflare Pages only does a shallow clone, which loses git info
