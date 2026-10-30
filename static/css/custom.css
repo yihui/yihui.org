@@ -185,9 +185,6 @@ span.hash-note::before { content: "　# "; }
 }
 
 /* paginated pages (pages.js) */
-.pagesjs :is(.comments, .donate-section) {
-  display: none;
-}
 .pagesjs-page #TOC {
   background: none;
   columns: auto;
