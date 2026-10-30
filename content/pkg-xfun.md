@@ -2,17 +2,18 @@
 title: An Introduction to xfun
 subtitle: A Collection of Miscellaneous Functions
 author: "Yihui Xie"
-date: "2026-08-22"
+date: "2026-10-29"
 slug: xfun
 githubEditURL: https://github.com/yihui/xfun/edit/main/vignettes/xfun.Rmd
 output:
   html:
     meta:
       css: ["@default", "@article"]
-      js: ["@sidenotes"]
+      js: ["@sidenotes", "@toc-highlight"]
     options:
       toc: true
       number_sections: true
+knit: litedown:::knit
 ---
 
 <!--
@@ -22,30 +23,15 @@ output:
 
 
 
-After writing about 20 R packages, I found I had accumulated several utility functions that I used across different packages, so I decided to extract them into a separate package. Previously I had been using the evil triple-colon `:::` to access these internal utility functions. Now with **xfun**, these functions have been exported, and more importantly, documented. It should be better to use them under the sun instead of in the dark.
+After writing about 20 R packages, I found I had accumulated several utility functions that I used across different packages. This package extracts them so they can be used openly instead of buried as internal helpers. This vignette covers a curated subset; for a full list see `help(package = 'xfun')` or <https://github.com/yihui/xfun>.
 
-This page shows examples of a subset of functions in this package. For a full list of functions, see the help page `help(package = 'xfun')`. The source package is available on GitHub: https://github.com/yihui/xfun.
+## Strict lists: disable partial matching
 
-## No more partial matching for lists!
-
-I have been bitten many times by partial matching in lists, e.g., when I want `x$a` but the element `a` does not exist in the list `x`, it returns the value `x$abc` if `abc` exists in `x`. A strict list is a list for which the partial matching of the `$` operator is disabled. The functions `xfun::strict_list()` and `xfun::as_strict_list()` are the equivalents to `base::list()` and `base::as.list()` respectively which always return as strict list, e.g.,
+R's `$` operator uses partial matching on lists, which can silently return the wrong element. `strict_list()` and `as_strict_list()` disable this:
 
 ``` r
-library(xfun)
-(z = strict_list(aaa = "I am aaa", b = 1:5))
-```
-
-```
-#> $aaa
-#> [1] "I am aaa"
-#> 
-#> $b
-#> [1] 1 2 3 4 5
-#> 
-```
-
-``` r
-z$a  # NULL (strict matching)
+z = strict_list(aaa = "I am aaa", b = 1:5)
+z$a    # NULL — no partial match
 ```
 
 ```
@@ -53,7 +39,7 @@ z$a  # NULL (strict matching)
 ```
 
 ``` r
-z$aaa  # I am aaa
+z$aaa  # correct element
 ```
 
 ```
@@ -61,22 +47,8 @@ z$aaa  # I am aaa
 ```
 
 ``` r
-z$b
-```
-
-```
-#> [1] 1 2 3 4 5
-```
-
-``` r
-z$c = "you can create a new element"
-
-z2 = unclass(z)  # a normal list
-z2$a  # partial matching
-```
-
-``` {.plain .warning}
-#> partial match of 'a' to 'aaa'
+z2 = unclass(z)  # ordinary list
+z2$a   # "I am aaa" — partial match fires!
 ```
 
 ```
@@ -84,60 +56,73 @@ z2$a  # partial matching
 ```
 
 ``` r
-z3 = as_strict_list(z2)  # a strict list again
-z3$a  # NULL (strict matching) again!
+z3 = as_strict_list(z2)
+z3$a   # NULL again
 ```
 
 ```
 #> NULL
 ```
 
-Similarly, the default partial matching in `attr()` can be annoying, too. The function `xfun::attr2()` is simply a shorthand of `attr(..., exact = TRUE)`.
-
-I want it, or I do not want. There is no "I probably want".
-
-## Output character vectors for human eyes
-
-When R prints a character vector, your eyes may be distracted by the indices like `[1]`, double quotes, and escape sequences. To see a character vector in its "raw" form, you can use `cat(..., sep = '\n')`. The function `raw_string()` marks a character vector as "raw", and the corresponding printing function will call `cat(sep = '\n')` to print the character vector to the console.
+The same surprise can happen with `attr()`. `attr2()` is an alias for `attr(exact = TRUE)`:
 
 ``` r
-library(xfun)
-raw_string(head(LETTERS))
+x = structure(list(), foobar = 42)
+base::attr(x, "foo")  # 42 — partial match
 ```
 
 ```
-A
-B
-C
-D
-E
-F
+#> [1] 42
 ```
 
 ``` r
-(x = c("a \"b\"", "hello\tworld!"))
+attr2(x, "foo")       # NULL
 ```
 
 ```
-#> [1] "a \"b\""       "hello\tworld!"
+#> NULL
 ```
 
 ``` r
-raw_string(x)  # this is more likely to be what you want to see
+attr2(x, "foobar")    # 42
 ```
 
 ```
-a "b"
-hello	world!
+#> [1] 42
 ```
 
-## Print the content of a text file
+## Human-readable output
 
-I have used `paste(readLines('foo'), collapse = '\n')` many times before I decided to write a simple wrapper function `xfun::file_string()`. This function also makes use of `raw_string()`, so you can see the content of a file in the console as a side-effect, e.g.,
+### Print a character vector as-is
+
+`raw_string()` suppresses indices, quotes, and escape sequences so you see the actual content:
+
+``` r
+x = c("line one", "say \"hello\"", "tab\there")
+x            # with indices and escapes
+```
+
+```
+#> [1] "line one"      "say \"hello\"" "tab\there"    
+```
+
+``` r
+raw_string(x)  # what the strings actually contain
+```
+
+```
+line one
+say "hello"
+tab	here
+```
+
+### Read a text file into the console
+
+`file_string()` reads a file and returns a single string, printing it cleanly as a side effect:
 
 ``` r
 f = system.file("LICENSE", package = "xfun")
-xfun::file_string(f)
+file_string(f)
 ```
 
 ```
@@ -145,149 +130,178 @@ YEAR: 2018-2026
 COPYRIGHT HOLDER: Yihui Xie
 ```
 
-``` r
-as.character(xfun::file_string(f))  # essentially a character string
-```
+### A better `str()` for nested objects
 
-```
-[1] "YEAR: 2018-2026\nCOPYRIGHT HOLDER: Yihui Xie"
-```
-
-## Get the data URI of a file
-
-Files can be encoded into base64 strings via `base64_uri()`. This is a common technique to embed arbitrary files in HTML documents (which is [what `xfun::embed_file()` does](https://pkg.yihui.org/rmarkdown-cookbook/embed-file.html) and it is based on `base64_uri()`).
+`tree()` draws a tree diagram from `str()` output, replacing `..` depth markers with vertical pipes so parent–child relationships are clearer:
 
 ``` r
-f = system.file("LICENSE", package = "xfun")
-xfun::base64_uri(f)
+fit = lm(dist ~ speed, data = cars)
+tree(fit)
 ```
 
 ```
-#> [1] "data:text/plain;base64,WUVBUjogMjAxOC0yMDI2CkNPUFlSSUdIVCBIT0xERVI6IFlpaHVpIFhpZQo="
+List of 12
+ |-coefficients : Named num [1:2] -17.58 3.93
+ |  - attr(*, "names")= chr [1:2] "(Intercept)" "speed"
+ |-residuals    : Named num [1:50] 3.85 11.85 -5.95 12.05 2.12 ...
+ |  - attr(*, "names")= chr [1:50] "1" "2" "3" "4" ...
+ |-effects      : Named num [1:50] -303.914 145.552 -8.115 9.885 0.194 ...
+ |  - attr(*, "names")= chr [1:50] "(Intercept)" "speed" "" "" ...
+ |-rank         : int 2
+ |-fitted.values: Named num [1:50] -1.85 -1.85 9.95 9.95 13.88 ...
+ |  - attr(*, "names")= chr [1:50] "1" "2" "3" "4" ...
+ |-assign       : int [1:2] 0 1
+ |-qr           :List of 5
+ |  |-qr   : num [1:50, 1:2] -7.071 0.141 0.141 0.141 0.141 ...
+ |  |  - attr(*, "dimnames")=List of 2
+ |  |     |-: chr [1:50] "1" "2" "3" "4" ...
+ |  |     |-: chr [1:2] "(Intercept)" "speed"
+ |  |  - attr(*, "assign")= int [1:2] 0 1
+ |  |-qraux: num [1:2] 1.14 1.27
+ |  |-pivot: int [1:2] 1 2
+ |  |-tol  : num 1e-07
+ |  |-rank : int 2
+ |  - attr(*, "class")= chr "qr"
+ |-df.residual  : int 48
+ |-xlevels      : Named list()
+ |-call         : language lm(formula = dist ~ speed, data = cars)
+ |-terms        :Classes 'terms', 'formula'  language dist ~ speed
+ |     - attr(*, "variables")= language list(dist, speed)
+ |     - attr(*, "factors")= int [1:2, 1] 0 1
+ |        - attr(*, "dimnames")=List of 2
+ |           |-: chr [1:2] "dist" "speed"
+ |           |-: chr "speed"
+ |     - attr(*, "term.labels")= chr "speed"
+ |     - attr(*, "order")= int 1
+ |     - attr(*, "intercept")= int 1
+ |     - attr(*, "response")= int 1
+ |     - attr(*, ".Environment")=<environment: R_GlobalEnv> 
+ |     - attr(*, "predvars")= language list(dist, speed)
+ |     - attr(*, "dataClasses")= Named chr [1:2] "numeric" "numeric"
+ |        - attr(*, "names")= chr [1:2] "dist" "speed"
+ |-model        :'data.frame':	50 obs. of  2 variables:
+    |-dist : num [1:50] 2 10 4 22 16 10 18 26 34 17 ...
+    |-speed: num [1:50] 4 4 7 7 8 9 10 10 10 11 ...
+    - attr(*, "terms")=Classes 'terms', 'formula'  language dist ~ speed
+          - attr(*, "variables")= language list(dist, speed)
+          - attr(*, "factors")= int [1:2, 1] 0 1
+             - attr(*, "dimnames")=List of 2
+                |-: chr [1:2] "dist" "speed"
+                |-: chr "speed"
+          - attr(*, "term.labels")= chr "speed"
+          - attr(*, "order")= int 1
+          - attr(*, "intercept")= int 1
+          - attr(*, "response")= int 1
+          - attr(*, ".Environment")=<environment: R_GlobalEnv> 
+          - attr(*, "predvars")= language list(dist, speed)
+          - attr(*, "dataClasses")= Named chr [1:2] "numeric" "numeric"
+             - attr(*, "names")= chr [1:2] "dist" "speed"
+ - attr(*, "class")= chr "lm"
 ```
 
-## Match strings and do substitutions
+`tabset()` renders a list as interactive Markdown tabsets (requires **litedown**'s tabset support). Each list member becomes a tab; nested lists become nested tabsets. By default each tab shows `str()` output, but you can pass any function:
 
-After typing the code `x = grep(pattern, x, value = TRUE); gsub(pattern, '\\1', x)` many times, I combined them into a single function `xfun::grep_sub()`.
-
-``` r
-xfun::grep_sub('a([b]+)c', 'a\\U\\1c', c('abc', 'abbbc', 'addc', '123'), perl = TRUE)
-```
-
-```
-#> [1] "aBc"   "aBBBc"
-```
-
-## Search and replace strings in files
-
-I can never remember how to properly use `grep` or `sed` to search and replace strings in multiple files. My favorite IDE, RStudio, has not provided this feature yet (you can only search and replace in the currently opened file). Therefore I did a quick and dirty implementation in R, including functions `gsub_files()`, `gsub_dir()`, and `gsub_ext()`, to search and replace strings in multiple files under a directory. Note that the files are assumed to be encoded in UTF-8. If you do not use UTF-8, we cannot be friends. Seriously.
-
-All functions are based on `gsub_file()`, which performs searching and replacing in a single file, e.g.,
-
-``` r
-library(xfun)
-f = tempfile()
-writeLines(c("hello", "world"), f)
-gsub_file(f, "world", "woRld", fixed = TRUE)
-file_string(f)
-```
-
-```
-hello
-woRld
-```
-
-The function `gsub_dir()` is very flexible: you can limit the list of files by MIME types, or extensions. For example, if you want to do substitution in text files, you may use `gsub_dir(..., mimetype = '^text/')`.
-
-The function `process_file()` is a more general way to process files. Basically it reads a file, process the content with a function that you pass to it, and writes back the text, e.g.,
-
-``` r
-process_file(f, function(x) {
-  rep(x, 3)  # repeat the content 3 times
+```r
+tabset(iris)                # one tab per column
+tabset(iris, print)         # print() instead of str()
+tabset(iris, function(x) {
+  if (is.factor(x)) tab_content(join_words(levels(x), before = "`"))
+  else print(summary(x))
 })
-file_string(f)
 ```
 
-```
-hello
-woRld
-hello
-woRld
-hello
-woRld
-```
+### Format byte sizes
 
-**WARNING**: Before using these functions, make sure that you have backed up your files, or version control your files. The files will be modified in-place. If you do not back up or use version control, there is no chance to regret.
-
-## Manipulate filename extensions
-
-Functions `file_ext()` and `sans_ext()` are based on functions in **tools**. The function `with_ext()` adds or replaces extensions of filenames, and it is vectorized.
+`format_bytes()` converts raw byte counts to human-readable strings:
 
 ``` r
-library(xfun)
-p = c("abc.doc", "def123.tex", "path/to/foo.Rmd")
-file_ext(p)
+format_bytes(c(500, 2048, 1.5e6, 3e9))
 ```
 
 ```
-#> [1] "doc" "tex" "Rmd"
+#> [1] "500 bytes" "2 Kb"      "1.4 Mb"    "2.8 Gb"   
+```
+
+## String utilities
+
+### Filter and transform in one step
+
+`grep_sub()` combines `grep(..., value = TRUE)` and `gsub()`. It extracts matching elements and transforms them:
+
+``` r
+grep_sub('(\\w+)@(\\w+)', '\\2/\\1', c('alice@corp', 'bob@org', 'not-an-email'))
+```
+
+```
+#> [1] "corp/alice" "org/bob"   
+```
+
+### Test for blank strings
+
+`is_blank()` returns `TRUE` for empty strings and strings that contain only whitespace:
+
+``` r
+is_blank(c("", "   ", "\t\n", "hello"))
+```
+
+```
+#> [1]  TRUE  TRUE  TRUE FALSE
+```
+
+### Combine words into a natural-language list
+
+`join_words()` builds a phrase from a character vector, adding a conjunction before the last word:
+
+``` r
+join_words(c("apples", "oranges", "pears"))
+```
+
+```
+apples, oranges, and pears
 ```
 
 ``` r
-sans_ext(p)
+join_words(c("R", "Python", "Julia"), and = "or")
 ```
 
 ```
-#> [1] "abc"         "def123"      "path/to/foo"
-```
-
-``` r
-with_ext(p, ".txt")
-```
-
-```
-#> [1] "abc.txt"         "def123.txt"      "path/to/foo.txt"
+R, Python, orJulia
 ```
 
 ``` r
-with_ext(p, c(".ppt", ".sty", ".Rnw"))
+join_words(c("one", "two", "three"), before = "'", after = "'")
 ```
 
 ```
-#> [1] "abc.ppt"         "def123.sty"      "path/to/foo.Rnw"
+'one', 'two', and 'three'
+```
+
+### Generate HTML-safe ID strings
+
+`alnum_id()` replaces non-alphanumeric characters with dashes (and strips HTML tags), which is handy for generating element IDs from arbitrary text:
+
+``` r
+alnum_id(c("Hello world 123!", "a  &b*^c"))
+```
+
+```
+#> [1] "hello-world-123" "a-b-c"          
 ```
 
 ``` r
-with_ext(p, "html")
+alnum_id("<h1>Section <em>1.2</em></h1>")
 ```
 
 ```
-#> [1] "abc.html"         "def123.html"      "path/to/foo.html"
+#> [1] "section-1-2"
 ```
 
-## Find files (in a project) without the pain of thinking about absolute/relative paths
+### Validate R syntax
 
-The function `proj_root()` was inspired by the **rprojroot** package, and tries to find the root directory of a project. Currently it only supports R package projects and RStudio projects by default. It is much less sophisticated than **rprojroot**.
-
-The function `from_root()` was inspired by `here::here()`, but returns a relative path (relative to the project's root directory found by `proj_root()`) instead of an absolute path. For example, `xfun::from_root('data', 'cars.csv')` in a code chunk of `docs/foo.Rmd` will return `../data/cars.csv` when `docs/` and `data/` directories are under the root directory of a project.
-
-```
-.
-|-- data
-|   |-- cars.csv
-|
-|-- docs
-    |-- foo.Rmd
-```
-
-If file paths are too much pain for you to think about, you can just pass an incomplete path to the function `magic_path()`, and it will try to find the actual path recursively under subdirectories of a root directory. For example, you may only provide a base filename, and `magic_path()` will look for this file under subdirectories and return the actual path if it is found. By default, it returns a relative path, which is relative to the current working directory. With the above example, `xfun::magic_path('cars.csv')` in a code chunk of `docs/foo.Rmd` will return `../data/cars.csv`, if `cars.csv` is a unique filename in the project. You can freely move it to any folders of this project, and `magic_path()` will still find it. If you are not using a project to manage files, `magic_path()` will look for the file under subdirectories of the current working directory.
-
-## Types of operating systems
-
-The series of functions `is_linux()`, `is_macos()`, `is_unix()`, and `is_windows()` test the types of the OS, using the information from `.Platform` and `Sys.info()`, e.g.,
+`valid_syntax()` checks whether code can be parsed without running it:
 
 ``` r
-xfun::is_macos()
+valid_syntax("1 + 1")
 ```
 
 ```
@@ -295,15 +309,7 @@ xfun::is_macos()
 ```
 
 ``` r
-xfun::is_unix()
-```
-
-```
-#> [1] TRUE
-```
-
-``` r
-xfun::is_linux()
+valid_syntax("1 +")       # incomplete
 ```
 
 ```
@@ -311,90 +317,66 @@ xfun::is_linux()
 ```
 
 ``` r
-xfun::is_windows()
+valid_syntax("if(T) {1 + 1")  # unclosed brace
 ```
 
 ```
 #> [1] FALSE
 ```
 
-## Loading and attaching packages
+### Split source into complete expressions
 
-Oftentimes I see users attach a series of packages in the beginning of their scripts by repeating `library()` multiple times. This could be easily vectorized, and the function `xfun::pkg_attach()` does this job. For example,
-
-```r
-library(testit)
-library(parallel)
-library(tinytex)
-library(mime)
-```
-
-is equivalent to
-
-```r
-xfun::pkg_attach(c('testit', 'parallel', 'tinytex', 'mime'))
-```
-
-I also see scripts that contain code to install a package if it is not available, e.g.,
-
-```r
-if (!requireNamespace('tinytex')) install.packages('tinytex')
-library(tinytex)
-```
-
-This could be done via
+`split_source()` parses a character vector of R code line by line and groups lines into complete expressions:
 
 ``` r
-xfun::pkg_attach2('tinytex')
-```
-
-The function `pkg_attach2()` is a shorthand of `pkg_attach(..., install = TRUE)`, which means if a package is not available, install it. This function can also deal with multiple packages.
-
-The function `loadable()` tests if a package is loadable.
-
-## Read/write files in UTF-8
-
-Functions `read_utf8()` and `write_utf8()` can be used to read/write files in UTF-8. They are simple wrappers of `readLines()` and `writeLines()`.
-
-## Convert numbers to English words
-
-The function `numbers_to_words()` (or `n2w()` for short) converts numbers to English words.
-
-``` r
-n2w(0, cap = TRUE)
+code = c("# comment", "if (TRUE) {", "  1 + 1", "}", "print('done')")
+split_source(code)
 ```
 
 ```
-#> [1] "Zero"
+#> [[1]]
+#> [1] "# comment"
+#> 
+#> [[2]]
+#> [1] "if (TRUE) {" "  1 + 1"     "}"          
+#> 
+#> [[3]]
+#> [1] "print('done')"
+#> 
 ```
 
 ``` r
-n2w(seq(0, 121, 11), and = TRUE)
+split_source(code, merge_comments = TRUE)
 ```
 
 ```
-#>  [1] "zero"                       "eleven"                    
-#>  [3] "twenty-two"                 "thirty-three"              
-#>  [5] "forty-four"                 "fifty-five"                
-#>  [7] "sixty-six"                  "seventy-seven"             
-#>  [9] "eighty-eight"               "ninety-nine"               
-#> [11] "one hundred and ten"        "one hundred and twenty-one"
+#> [[1]]
+#> [1] "# comment"   "if (TRUE) {" "  1 + 1"     "}"          
+#> 
+#> [[2]]
+#> [1] "print('done')"
+#> 
+```
+
+### Convert numbers to English words
+
+`n2w()` (alias `numbers_to_words()`) is useful for writing reports where you want to spell out numbers:
+
+``` r
+n2w(c(0, 1, 13, 42, 100, 1001), cap = TRUE)
+```
+
+```
+#> [1] "Zero"              "One"               "Thirteen"         
+#> [4] "Forty-two"         "One hundred"       "One thousand, one"
 ```
 
 ``` r
-n2w(1e+06)
+n2w(1e6 + 234567, and = TRUE)
 ```
 
 ```
-#> [1] "one million"
-```
-
-``` r
-n2w(1e+11 + 12345678)
-```
-
-```
-#> [1] "one hundred billion, twelve million, three hundred forty-five thousand, six hundred seventy-eight"
+#> [1] "one million, two hundred and thirty-four thousand, five hundred and sixty-seven"
 ```
 
 ``` r
@@ -405,47 +387,706 @@ n2w(-987654321)
 #> [1] "minus nine hundred eighty-seven million, six hundred fifty-four thousand, three hundred twenty-one"
 ```
 
-``` r
-n2w(1e+15 - 1)
-```
+## HTML helpers
 
-```
-#> [1] "nine hundred ninety-nine trillion, nine hundred ninety-nine billion, nine hundred ninety-nine million, nine hundred ninety-nine thousand, nine hundred ninety-nine"
-```
+### Build HTML tags programmatically
 
-## Cache an R expression to disk or in memory
-
-Since **xfun** v0.44, you are recommended to use the function [`cache_exec()`](https://pkg.yihui.org/xfun/manual.html#sec:man-cache_exec), which provides a simple yet flexible caching mechanism. See https://pkg.yihui.org/litedown/book/ for how it works. Previously, `cache_rds()` was mentioned here but it is no longer recommended (see [#100](https://github.com/yihui/xfun/issues/100)).
-
-## Check reverse dependencies of a package
-
-Running `R CMD check` on the reverse dependencies of **knitr** and **rmarkdown** is my least favorite thing in developing R packages, because the numbers of their reverse dependencies are huge. The function `rev_check()` reflects some of my past experience in this process. I think I have automated it as much as possible, and made it as easy as possible to discover possible new problems introduced by the current version of the package (compared to the CRAN version). Finally I can just sit back and let it run.
-
-## Input a character vector into the RStudio source editor
-
-The function `rstudio_type()` inputs characters in the RStudio source editor as if they were typed by a human. I came up with the idea when preparing my talk for rstudio::conf 2018 ([see this post](https://yihui.org/en/2018/03/blogdown-video-rstudio-conf/) for more details).
-
-## Print session information
-
-Since I have never been fully satisfied by the output of `sessionInfo()`, I tweaked it to make it more useful in my use cases. For example, it is rarely useful to print out the names of base R packages, or information about the matrix products / BLAS / LAPACK. Oftentimes I want additional information in the session information, such as the Pandoc version when **rmarkdown** is used. The function `session_info()` tweaks the output of `sessionInfo()`, and makes it possible for other packages to append information in the output of `session_info()`.
-
-You can choose to print out the versions of only the packages you specify, e.g.,
+`html_tag()` constructs an HTML tag with attributes and content. Content is escaped by default; wrap it in `html_value()` to mark it as already-valid HTML:
 
 ``` r
-xfun::session_info(c('xfun', 'litedown', 'tinytex'), dependencies = FALSE)
+html_tag("a", "R Project", href = "https://www.r-project.org", target = "_blank")
+```
+
+``` {.html .plain}
+<a href="https://www.r-project.org" target="_blank">R Project</a>
+```
+
+``` r
+html_tag("br")
+```
+
+``` {.html .plain}
+<br />
+```
+
+``` r
+html_tag("p", list("Visit ", html_tag("a", "CRAN", href = "https://cran.r-project.org")))
+```
+
+``` {.html .plain}
+<p>Visit 
+<a href="https://cran.r-project.org">CRAN</a></p>
+```
+
+### Escape special characters for HTML
+
+`html_escape()` replaces `&`, `<`, `>` (and optionally `"`, `\r`, `\n` for attributes):
+
+``` r
+html_escape('2 < 3 & "quotes"')
+```
+
+```
+#> [1] "2 &lt; 3 &amp; \"quotes\""
+```
+
+``` r
+html_escape('attr="val"', attr = TRUE)
+```
+
+```
+#> [1] "attr=&quot;val&quot;"
+```
+
+### Strip HTML tags
+
+`strip_html()` removes tags and comments from text:
+
+``` r
+strip_html('<p>Hello <strong>world</strong><!-- comment -->!</p>')
+```
+
+```
+#> [1] "Hello world!"
+```
+
+## File I/O
+
+### Read and write UTF-8 files
+
+`read_utf8()` and `write_utf8()` enforce UTF-8 encoding and warn when files contain invalid bytes. They are thin wrappers around `readLines()` / `writeLines()` that set the encoding correctly:
+
+``` r
+f = tempfile()
+write_utf8(c("héllo", "wörld"), f)
+read_utf8(f)
+```
+
+```
+#> [1] "héllo" "wörld"
+```
+
+### Append unique lines
+
+`append_unique()` adds lines to a file only if they are not already present:
+
+``` r
+f = tempfile()
+write_utf8("apple", f)
+append_unique(c("apple", "banana", "cherry"), f)
+read_utf8(f)
+```
+
+```
+#> [1] "apple"  "banana" "cherry"
+```
+
+### Concatenate multiple files
+
+`read_all()` reads a list of files and combines their content, optionally adding a header or footer around each file's content:
+
+``` r
+scripts = system.file("scripts", c("call-fun.R", "child-pids.sh"), package = "xfun")
+read_all(scripts, before = function(f) paste("##", f), after = "")
+```
+
+```
+## /home/xieyih/R/xfun/scripts/call-fun.R
+# This script is executed via the command line `Rscript call-fun.R arg1 arg2
+# arg3`, where arg1 is a path to an .rds file, which contains the function and
+# its arguments saved as a list; arg2 is a path to an .rds file to which the
+# returned value of the function call is saved; arg3 saves the error message.
+
+local({
+  if (length(a <- commandArgs(TRUE)) != 3)
+    stop('The number of arguments passed to Rscript should be 3.')
+  # save the error message on exit if an error occurred
+  on.exit(if (!file.exists(a[2])) saveRDS(geterrmessage(), a[3]))
+  x = readRDS(a[1])  # list(fun, args)
+  f = x[[1]]
+  if (is.character(f)) f = eval(parse(text = f), envir = globalenv())
+  r = do.call(f, x[[2]], envir = globalenv())
+  saveRDS(r, a[2])
+})
+
+## /home/xieyih/R/xfun/scripts/child-pids.sh
+# given a PID, output all its child PIDs recursively
+list_children() {
+  for j in $(pgrep -P $1); do
+    echo $j
+    echo $(list_children $j)
+  done
+}
+
+for i in $@; do
+  list_children $i
+done
+
+```
+
+## Search and replace in files
+
+### Replace text in a single file
+
+`gsub_file()` performs an in-place `gsub()` on a file. All other `gsub_*` functions are built on top of it.
+
+``` r
+f = tempfile()
+write_utf8(c("color", "favourite", "grey"), f)
+gsub_file(f, "colour|grey", c(colour = "color", grey = "gray"))
+```
+
+``` {.plain .warning}
+#> argument 'replacement' has length > 1 and only the first element will be used
+```
+
+``` r
+read_utf8(f)
+```
+
+```
+#> [1] "color"     "favourite" "color"    
+```
+
+**Warning:** these functions modify files in place. Back up or use version control first.
+
+### Replace across multiple files
+
+`gsub_dir()` applies a substitution to every file in a directory. Narrow the scope with `ext` (file extensions) or `mimetype` (a regex on MIME types):
+
+```r
+# change "rmarkdown" to "litedown" in all .Rmd files
+gsub_dir("rmarkdown", "litedown", ext = "Rmd")
+
+# only in text files
+gsub_dir("foo", "bar", mimetype = "^text/")
+```
+
+### Transform file content with an arbitrary function
+
+`process_file()` reads a file, passes the lines through a function, and writes the result back:
+
+``` r
+f = tempfile()
+write_utf8(c("a", "b", "c"), f)
+process_file(f, rev)  # reverse the order of lines
+read_utf8(f)
+```
+
+```
+#> [1] "c" "b" "a"
+```
+
+## File paths and extensions
+
+### Dissect and reassemble file paths
+
+`file_ext()`, `sans_ext()`, and `with_ext()` manipulate the extension part of a path. They handle double extensions like `.tar.gz` and `.nb.html` that `tools::file_ext()` splits differently:
+
+``` r
+p = c("report.Rmd", "archive.tar.gz", "notes.nb.html", "script.R")
+file_ext(p)
+```
+
+```
+#> [1] "Rmd"     "tar.gz"  "nb.html" "R"      
+```
+
+``` r
+sans_ext(p)
+```
+
+```
+#> [1] "report"  "archive" "notes"   "script" 
+```
+
+``` r
+with_ext(p, ".html")
+```
+
+```
+#> [1] "report.html"  "archive.html" "notes.html"   "script.html" 
+```
+
+``` r
+with_ext(p, c(".pdf", ".zip", ".html", ".txt"))
+```
+
+```
+#> [1] "report.pdf"  "archive.zip" "notes.html"  "script.txt" 
+```
+
+### Normalize and compare paths
+
+`normalize_path()` is a wrapper around `normalizePath()` that uses `/` on all platforms and does not signal an error for non-existent paths by default. `same_path()` compares two paths after normalizing both:
+
+``` r
+normalize_path("~")
+```
+
+```
+#> [1] "/home/xieyih"
+```
+
+``` r
+same_path("~/foo", file.path(Sys.getenv("HOME"), "foo"))
+```
+
+```
+#> [1] TRUE
+```
+
+### Find files relative to the project root
+
+`from_root()` returns a path relative to the project root (detected by `proj_root()`), which is useful in documents that live in a subdirectory:
+
+```r
+# in docs/report.Rmd, this returns ../data/cars.csv
+from_root("data", "cars.csv")
+```
+
+`magic_path()` finds a file by basename anywhere under the project, so you can move files without breaking references:
+
+```r
+# finds data/raw/survey.csv wherever it lives
+magic_path("survey.csv")
+```
+
+## Base64 encoding
+
+`base64_encode()` and `base64_decode()` convert between raw bytes and base64 strings. `base64_uri()` produces a data URI that embeds a file directly in HTML — the mechanism behind `xfun::embed_file()`:
+
+``` r
+raw_bytes = charToRaw("Hello, xfun!")
+(b64 = base64_encode(raw_bytes))
+```
+
+```
+#> [1] "SGVsbG8sIHhmdW4h"
+```
+
+``` r
+rawToChar(base64_decode(b64))
+```
+
+```
+#> [1] "Hello, xfun!"
+```
+
+``` r
+# data URI for a small file
+f = system.file("LICENSE", package = "xfun")
+substr(base64_uri(f), 1, 60)
+```
+
+```
+#> [1] "data:text/plain;base64,WUVBUjogMjAxOC0yMDI2CkNPUFlSSUdIVCBIT"
+```
+
+## JSON serialization
+
+`tojson()` converts R objects to JSON (or JavaScript). It handles `NULL`/`NA`, named lists as objects, unnamed lists as arrays, matrices by row, and data frames by column:
+
+``` r
+tojson(list(x = 1:3, y = c(TRUE, FALSE), z = NULL))
+```
+
+``` {.json .plain}
+{
+  "x": [1, 2, 3],
+  "y": [true, false],
+  "z": null
+}
+```
+
+``` r
+tojson(head(iris, 3))    # named data frame → columns
+```
+
+``` {.json .plain}
+{
+  "Sepal.Length": [5.1, 4.9, 4.7],
+  "Sepal.Width": [3.5, 3, 3.2],
+  "Petal.Length": [1.4, 1.4, 1.3],
+  "Petal.Width": [0.2, 0.2, 0.2],
+  "Species": ["setosa", "setosa", "setosa"]
+}
+```
+
+``` r
+tojson(matrix(1:6, 2))  # matrix → rows
+```
+
+``` {.json .plain}
+[
+  [1, 3, 5],
+  [2, 4, 6]
+]
+```
+
+Wrap a string in `js()` to embed it as raw JavaScript without quoting:
+
+``` r
+tojson(list(n = 42, callback = js("function(x) { return x * 2; }")))
+```
+
+``` {.json .plain}
+{
+  "n": 42,
+  "callback": function(x) { return x * 2; }
+}
+```
+
+For pure static JSON (valid for `JSON.parse()`), use `mode = "json"`. Dates become strings, `Inf` becomes `null`:
+
+``` r
+tojson(list(d = Sys.Date(), x = c(1, Inf, -Inf)), mode = "json")
+```
+
+``` {.json .plain}
+{
+  "d": "2026-10-29",
+  "x": [1, null, null]
+}
+```
+
+When many values repeat, `dict` dictionary-encodes a vector as an index + unique-values pair, which can be substantially shorter:
+
+``` r
+x = rep(c("apple", "banana", "cherry"), 100)
+nchar(tojson(x, pretty = FALSE))          # without dict encoding
+```
+
+```
+#> [1] 2601
+```
+
+``` r
+nchar(tojson(x, dict = 1, pretty = FALSE))  # with dict encoding
+```
+
+```
+#> [1] 642
+```
+
+## Caching expressions
+
+`cache_exec()` caches the result of an expression on disk. It automatically detects which global variables the expression uses and invalidates the cache when any of them change. Re-running the same expression loads the cache instead of recomputing:
+
+``` r
+path = tempfile()
+x = 42
+result = cache_exec(
+  { Sys.sleep(0); x^2 },
+  path = path, id = "square"
+)
+result  # 1764
+```
+
+```
+#> [1] 1764
+```
+
+``` r
+# change x — cache is invalidated
+x = 10
+result = cache_exec(
+  { Sys.sleep(0); x^2 },
+  path = path, id = "square"
+)
+result  # 100
+```
+
+```
+#> [1] 100
+```
+
+Pass `extra = file.mtime("data.csv")` to also invalidate when an external file changes.
+
+## Recording R output
+
+`record()` runs a character vector of R code and captures all output types — text, plots, messages, warnings, and errors — into a structured list:
+
+``` r
+code = c(
+  "1 + 1",
+  "message('hello from record()')",
+  "warning('a warning')",
+  "head(mtcars, 2)"
+)
+res = record(code, dev.path = FALSE, error = TRUE)
+tree(res)
+```
+
+```
+List of 8
+ |-: 'record_source' chr "1 + 1"
+ |  - attr(*, "lines")= int [1:2] 1 1
+ |-: 'record_output' chr "[1] 2"
+ |-: 'record_source' chr "message('hello from record()')"
+ |  - attr(*, "lines")= int [1:2] 2 2
+ |-: 'record_message' chr "hello from record()\n"
+ |-: 'record_source' chr "warning('a warning')"
+ |  - attr(*, "lines")= int [1:2] 3 3
+ |-: 'record_warning' chr "a warning"
+ |-: 'record_source' chr "head(mtcars, 2)"
+ |  - attr(*, "lines")= int [1:2] 4 4
+ |-: 'record_asis' chr [1:5] "| |mpg|cyl|disp|hp|drat|wt|qsec|vs|am|gear|carb|" "|---|--:|--:|--:|--:|--:|--:|--:|--:|--:|--:|--:|" "|Mazda RX4|21|6|160|110|3.9|2.620|16.46|0|1|4|4|" "|Mazda RX4 Wag|21|6|160|110|3.9|2.875|17.02|0|1|4|4|" ...
+ - attr(*, "class")= chr "xfun_record_results"
+```
+
+Each element carries a class like `record_source`, `record_output`, `record_message`, or `record_warning`. This is the engine behind **litedown**'s code chunk execution.
+
+## Package utilities
+
+### Attach multiple packages at once
+
+`pkg_attach()` is a vectorized `library()`, and `pkg_attach2()` installs missing packages first:
+
+``` r
+pkg_attach("stats", "utils")  # equivalent to two library() calls
+```
+
+```r
+pkg_attach2("ggplot2", "dplyr")  # installs any that are missing, then attaches
+```
+
+### Test whether a package is loadable
+
+`loadable()` is a concise alternative to `requireNamespace(quietly = TRUE)`:
+
+``` r
+loadable("stats")
+loadable("nonexistent.package.xyz")
+```
+
+## Environment variables and options
+
+### Options that fall back to environment variables
+
+`env_option()` checks `options()` first, then looks for an environment variable named `R_<NAME>` (uppercased, dots to underscores). This lets package authors support both `.Rprofile` and `.Renviron` configuration:
+
+``` r
+Sys.setenv(R_XFUN_TEST_OPTION = "from-env")
+env_option("xfun.test.option")       # "from-env"
+```
+
+```
+#> [1] "from-env"
+```
+
+``` r
+options(xfun.test.option = TRUE)
+env_option("xfun.test.option")       # TRUE (options() wins)
+```
+
+```
+#> [1] TRUE
+```
+
+``` r
+options(xfun.test.option = NULL)     # reset
+env_option("xfun.test.option")       # "from-env" again
+```
+
+```
+#> [1] "from-env"
+```
+
+``` r
+Sys.unsetenv("R_XFUN_TEST_OPTION")
+```
+
+### Temporarily set environment variables
+
+`set_envvar()` sets variables and returns their previous values so you can restore them:
+
+``` r
+old = set_envvar(c(MY_TOKEN = "secret"))
+Sys.getenv("MY_TOKEN")
+```
+
+```
+#> [1] "secret"
+```
+
+``` r
+set_envvar(old)  # restore
+Sys.getenv("MY_TOKEN")
+```
+
+```
+#> [1] ""
+```
+
+### Run code in a different directory
+
+`in_dir()` temporarily changes the working directory, then restores it:
+
+``` r
+in_dir(tempdir(), {
+  writeLines("hello", "tmp.txt")
+  file.exists("tmp.txt")
+})
+```
+
+```
+#> [1] TRUE
+```
+
+``` r
+file.exists(file.path(tempdir(), "tmp.txt"))
+```
+
+```
+#> [1] TRUE
+```
+
+## OS detection
+
+The `is_*()` family detects the current operating system:
+
+``` r
+is_windows()
+```
+
+```
+#> [1] FALSE
+```
+
+``` r
+is_macos()
+```
+
+```
+#> [1] FALSE
+```
+
+``` r
+is_linux()
+```
+
+```
+#> [1] TRUE
+```
+
+``` r
+is_unix()   # TRUE on macOS and Linux
+```
+
+```
+#> [1] TRUE
+```
+
+``` r
+is_arm64()  # TRUE on Apple silicon
+```
+
+```
+#> [1] FALSE
+```
+
+## Error handling
+
+### Check whether an expression throws an error
+
+`try_error()` returns `TRUE`/`FALSE` without stopping execution — cleaner than wrapping code in `tryCatch()`:
+
+``` r
+try_error(log(1))
+```
+
+```
+#> [1] FALSE
+```
+
+``` r
+try_error(log("a"))
+```
+
+```
+#> [1] TRUE
+```
+
+`try_silent()` behaves like `try(silent = TRUE)`:
+
+``` r
+z = try_silent(sqrt("x"))
+inherits(z, "try-error")
+```
+
+```
+#> [1] TRUE
+```
+
+### Retry a failing operation
+
+`retry()` calls a function repeatedly until it succeeds or the attempt limit is reached, pausing between tries. Useful for flaky network operations:
+
+```r
+# retry a download up to 3 times, waiting 5 seconds between attempts
+retry(download.file, url = "https://example.com/data.csv", destfile = "data.csv")
+```
+
+## Check reverse dependencies
+
+`rev_check()` automates running `R CMD check` on the reverse dependencies of a package. The main pain in package development is discovering whether a new version breaks downstream packages; this function handles downloading, parallel checking, and diffing results against the current CRAN version so new failures stand out:
+
+```r
+# check all reverse dependencies of knitr, using 4 cores
+rev_check("knitr", src = "path/to/knitr_source", n = 4)
+```
+
+After the run, `compare_Rcheck()` produces a Markdown diff showing only the packages whose check status changed, so you can focus on regressions rather than pre-existing failures.
+
+## Type characters into RStudio
+
+`rstudio_type()` feeds characters into the RStudio source editor as if typed by a human — useful for live demos and screencasts where you want code to appear gradually rather than pasting it all at once:
+
+```r
+rstudio_type("1 + 1\n", pause = function() 0.05)
+```
+
+The `mistake` argument introduces random typos (which are immediately corrected) for a more realistic typing effect.
+
+## Session information
+
+### Compact session info
+
+`session_info()` trims `sessionInfo()` output — no base-package noise, no matrix/BLAS details — and accepts a package list for a focused summary:
+
+``` r
+session_info(c("xfun", "litedown"), dependencies = FALSE)
 ```
 
 ```
 R version 4.6.1 (2026-06-24)
-Platform: aarch64-apple-darwin23
-Running under: macOS Tahoe 26.6.2
+Platform: x86_64-pc-linux-gnu
+Running under: Red Hat Enterprise Linux 9.8 (Plow)
 
-Locale: en_US.UTF-8 / en_US.UTF-8 / en_US.UTF-8 / C / en_US.UTF-8 / en_US.UTF-8
+Locale:
+  LC_CTYPE=en_US.UTF-8       LC_NUMERIC=C              
+  LC_TIME=en_US.UTF-8        LC_COLLATE=en_US.UTF-8    
+  LC_MONETARY=en_US.UTF-8    LC_MESSAGES=en_US.UTF-8   
+  LC_PAPER=en_US.UTF-8       LC_NAME=C                 
+  LC_ADDRESS=C               LC_TELEPHONE=C            
+  LC_MEASUREMENT=en_US.UTF-8 LC_IDENTIFICATION=C       
 
 Package version:
-  litedown_0.10.2 tinytex_0.60    xfun_0.60.1    
-
-LaTeX version used: 
-  TeX Live 2026 (TinyTeX) with tlmgr 2026-03-07
+  litedown_0.11.20 xfun_0.62.5     
 ```
 
+### Run a task only once per session
+
+`do_once()` executes a task the first time it is called and skips it on subsequent calls in the same R session. Useful for showing a deprecation notice or one-time setup:
+
+``` r
+for (i in 1:3) {
+  do_once(message("This prints once."), "my-one-time-task")
+}
+```
+
+``` {.plain .message}
+#> This prints once.
+#> You will not see this message again in this R session. If you never want to see this message, you may set options(my-one-time-task = FALSE) in your .Rprofile.
+```
