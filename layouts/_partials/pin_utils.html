@@ -1,7 +1,7 @@
 {{- /* pin "utils/..." entries to params.utilsVersion (set by build.sh) when available */ -}}
 {{- $v := site.Params.utilsVersion -}}
+{{- $r := . -}}
 {{- if $v -}}
-{{- return apply . "replaceRE" "^utils/" (print "utils@" $v "/") "." -}}
-{{- else -}}
-{{- return . -}}
+{{- $r = apply . "replaceRE" "^utils/" (print "utils@" $v "/") "." -}}
 {{- end -}}
+{{- return $r -}}
