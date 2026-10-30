@@ -199,3 +199,6 @@ span.hash-note::before { content: "　# "; }
     }
   }
 }
+.pagesjs {
+  flex-direction: row;
+}
