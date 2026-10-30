@@ -144,7 +144,7 @@ span.hash-note::before { content: "　# "; }
     max-width: none;
     margin-left: auto;
   }
-  .cn #TableOfContents {
+  .cn #TOC {
     columns: 2;
   }
   .nav-next {
@@ -158,7 +158,7 @@ span.hash-note::before { content: "　# "; }
 }
 
 @media print {
-  del, footer, .nav-top, .post-nav, #TableOfContents, .comments, h1.title::before {
+  del, footer, .nav-top, .post-nav, #TOC, .comments, h1.title::before {
     display: none;
   }
   .cn .main {
