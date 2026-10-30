@@ -153,6 +153,9 @@ params:
     - "hash-notes.js"
     - "toggle-notes.js"
     - "post-nav.js"
+    - "pages.js"
+  customCSS:
+    - "pages.css"
   githubContentURL: "https://github.com/yihui/yihui.org/edit/master/content/"
   twitterImage: "/images/logo.png"
 

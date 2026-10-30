@@ -15,7 +15,7 @@ h2 {
 .single .main h2 {
   border-bottom: none;
 }
-#TableOfContents ~ h1 {
+#TOC ~ h1 {
   background: #f8f8f8;
   margin: 2em 0 1em;
 }
