@@ -1,5 +1,5 @@
 {{ partial "header.html" . }}
-<div class="article-meta">
+<header class="article-meta">
 <h1 class="title">{{ .Title | markdownify }}</h1>
 {{ with .Params.subtitle }}<h2 class="subtitle">{{ . | markdownify }}</h2>{{ end }}
 <h3 class="meta-line">
@@ -21,8 +21,8 @@
   {{ partial "term_extra.html" . }}
   </span>
 </h3>
-</div>
-<div class="main">
+</header>
+<main class="main">
 {{ with .Content }}
 {{ . }}
 {{ end }}
@@ -42,5 +42,5 @@
 {{ end }}
 {{ partial "post_nav.html" . }}
 {{ partial "main_extra.html" . }}
-</div>
+</main>
 {{ partial "footer.html" . }}

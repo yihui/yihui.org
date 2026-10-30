@@ -1,3 +1,5 @@
+{{/* press p to paginate */}}
+{{ partial "custom_js.html" (slice "utils/pages.js") }}
 {{ if not .IsHome }}
 {{ partial "custom_js.html" (apply .Site.Params.customJS "print" "utils/" ".") }}
 {{ end }}
