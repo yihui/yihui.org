@@ -2,20 +2,20 @@
 
 set -e
 
-# pin jsdelivr @xiee/utils URLs in themes/ and layouts/ to the latest version
-# (CF only, to keep local checkouts clean); skip if none are unpinned, or if
-# the API stays down
+# pin jsdelivr @xiee/utils URLs to the latest version (CF only, to keep local
+# checkouts clean); leave them unpinned if the API stays down
 if [ ! -z "$CF_PAGES" ]; then
-  files=$(grep -rlF '@xiee/utils/' themes layouts || true)
-  if [ -n "$files" ]; then
-    v=$(curl -fsS --retry 5 --retry-delay 2 --retry-all-errors \
-      https://data.jsdelivr.com/v1/packages/npm/@xiee/utils/resolved |
-      sed -n 's/.*"version": *"\([^"]*\)".*/\1/p')
-    if [ -n "$v" ]; then
-      echo "$files" | xargs sed -i "s#@xiee/utils/#@xiee/utils@$v/#g"
-    else
-      echo "warning: failed to get @xiee/utils version; URLs left unpinned" >&2
-    fi
+  v=$(curl -fsS --retry 5 --retry-delay 2 --retry-all-errors \
+    https://data.jsdelivr.com/v1/packages/npm/@xiee/utils/resolved |
+    sed -n 's/.*"version": *"\([^"]*\)".*/\1/p')
+  if [ -n "$v" ]; then
+    # literal URLs in themes/ and layouts/ (skips files already pinned)
+    grep -rlF '@xiee/utils/' themes layouts |
+      xargs -r sed -i "s#@xiee/utils/#@xiee/utils@$v/#g" || true
+    # customJS/customCSS "utils/..." entries, pinned by layouts/_partials/pin_utils.html
+    export HUGO_PARAMS_utilsVersion="$v"
+  else
+    echo "warning: failed to get @xiee/utils version; URLs left unpinned" >&2
   fi
 fi
 

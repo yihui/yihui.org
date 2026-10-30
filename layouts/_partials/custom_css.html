@@ -1,5 +1,5 @@
 {{ with . }}
-{{ range . }}
+{{ range partial "pin_utils.html" . }}
 <link rel="stylesheet" href="{{ cond (fileExists "static/hardlink") (relURL (replaceRE `^.*/` `hardlink/css/` .)) (print "https://cdn.jsdelivr.net/npm/@xiee/" (replaceRE `^([^/]+)/(.+)\.css$` `$1/css/$2.min.css` .)) }}">
 {{ end }}
 {{ end }}
