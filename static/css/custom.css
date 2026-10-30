@@ -159,7 +159,7 @@ span.hash-note::before { content: "　# "; }
 }
 
 @media print {
-  del, footer, .nav-top, .post-nav, body:not(.pagesjs) #TOC, .comments, h1.title::before {
+  del, footer, .nav-top, .post-nav, .comments, h1.title::before {
     display: none;
   }
   .cn .main {
