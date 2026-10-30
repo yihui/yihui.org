@@ -1,7 +1,7 @@
 {{ partial "song.html" . }}
 {{ if .Section }}
 {{ partial "donate.html" . }}
-<nav class="post-nav fullwidth kai">
+<nav class="post-nav kai">
   <span class="nav-prev">&larr; {{ with .PrevInSection }}<a href="{{ .RelPermalink }}">{{ .Title | markdownify }}</a>{{ else }}&empty;{{ end }}</span>
   <span class="nav-next">{{ with .NextInSection }}<a href="{{ .RelPermalink }}">{{ .Title | markdownify }}</a>{{ else }}&empty;{{ end }} &rarr;</span>
 </nav>
